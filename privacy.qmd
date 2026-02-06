@@ -1,0 +1,75 @@
+---
+title: "Privacy Policy"
+---
+
+# Privacy Policy
+
+**Last Updated:** February 6, 2026
+
+## Information We Collect
+
+### Automatically Collected Information
+- Browser type and operating system
+- IP address (anonymized)
+- Pages visited and time spent on our site
+- Referral sources
+
+### voluntarily Provided Information
+- Newsletter subscriptions (email address only)
+- Contact form submissions
+
+## How We Use Your Information
+
+- To provide and maintain our AI news digest service
+- To improve user experience and website performance
+- To send newsletter updates (with explicit consent)
+- To analyze website traffic and engagement patterns
+
+## Data Collection Methods
+
+We use industry-standard analytics tools that respect user privacy. No personal identifiers are stored longer than necessary for the intended purpose.
+
+## Cookies and Tracking
+
+- Essential cookies for website functionality
+- Analytics cookies (can be disabled via browser settings)
+- No third-party advertising cookies
+
+## Data Sharing and Disclosure
+
+We do not sell, trade, or otherwise transfer your personal information to third parties, except:
+
+- When required by law
+- To protect our rights and prevent fraud
+- With trusted service providers who assist in operating our website
+
+## Data Security
+
+We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.
+
+## Your Rights
+
+- Access to your personal data
+- Correction of inaccurate data
+- Deletion of your data (where legally required)
+- Opt-out of marketing communications
+
+## International Data Transfers
+
+Your data may be transferred to and processed in countries outside your own. We ensure appropriate safeguards are in place.
+
+## Children's Privacy
+
+Our service is not directed to children under 13. We do not knowingly collect personal information from children.
+
+## Changes to This Policy
+
+We may update this privacy policy periodically. Changes will be posted on this page with an updated "Last Updated" date.
+
+## Contact Us
+
+If you have questions about this Privacy Policy, please contact us at:
+
+**Email:** privacy@ainewsdigest.com
+
+**Effective Date:** February 6, 2026

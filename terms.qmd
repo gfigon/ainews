@@ -1,0 +1,107 @@
+---
+title: "Terms of Service"
+---
+
+# Terms of Service
+
+**Last Updated:** February 6, 2026
+
+## Acceptance of Terms
+
+By accessing and using AI News Digest ("the Service"), you accept and agree to be bound by the terms and conditions of this agreement.
+
+## Description of Service
+
+AI News Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:
+
+- Daily AI news summaries
+- Analysis of AI industry trends
+- Coverage of research breakthroughs
+- Tool and model updates
+
+## Fair Use and Content Policy
+
+### Content Sources
+We gather information from publicly available news sources, research papers, company announcements, and industry reports. All content is summarized and rewritten to create original commentary.
+
+### Fair Use Doctrine
+Our summaries and analysis fall under fair use doctrine because they:
+- Transform original content through summarization and analysis
+- Serve educational and informational purposes
+- Do not substitute for original source material
+- Include proper attribution when applicable
+
+### Content Ownership
+- Original summaries and analysis are owned by AI News Digest
+- Source materials remain the property of their respective owners
+- We respect intellectual property rights and copyright laws
+
+## User Responsibilities
+
+### Acceptable Use
+You may:
+- Read and share our content for personal, non-commercial use
+- Quote brief excerpts with proper attribution
+- Link to our articles
+
+### Prohibited Activities
+You may not:
+- Republish full articles without permission
+- Use automated scrapers to harvest our content
+- Modify or redistribute our content commercially
+- Misrepresent our content as your own
+
+## Intellectual Property
+
+### Trademarks
+"AI News Digest" and related logos are trademarks of our service.
+
+### Copyright
+All original content on this website is protected by copyright law.
+
+## Disclaimers
+
+### Accuracy
+While we strive for accuracy, AI news developments evolve rapidly. Information may become outdated quickly. Always verify critical information from primary sources.
+
+### No Professional Advice
+Content is for informational purposes only and does not constitute:
+- Legal advice
+- Financial advice
+- Technical recommendations
+- Business consulting
+
+## Limitation of Liability
+
+We are not liable for:
+- Inaccuracies or omissions in our content
+- Decisions made based on our information
+- Technical issues or service interruptions
+- Third-party linked content quality
+
+## Privacy
+
+Your use of our Service is also governed by our Privacy Policy, which can be found [here](privacy.qmd).
+
+## Service Modifications
+
+We reserve the right to:
+- Update or modify content without notice
+- Change service features and functionality
+- Update these terms periodically
+
+## Termination
+
+We may terminate or suspend access to our Service for violations of these terms or at our discretion.
+
+## Governing Law
+
+These terms are governed by the laws of the jurisdiction where our service operates, without regard to conflict of law principles.
+
+## Contact Information
+
+For questions about these Terms of Service, please contact:
+
+**Email:** legal@ainewsdigest.com
+
+**Effective Date:** February 6, 2026
