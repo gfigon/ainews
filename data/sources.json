@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog", "category": "Research Highlights"},
+    {"name": "OpenAI News", "url": "https://openai.com/news", "category": "LLMs & Models"},
+    {"name": "arXiv AI", "url": "https://arxiv.org/list/cs.AI/recent", "category": "Research Highlights"},
+    {"name": "MarkTechPost", "url": "https://www.marktechpost.com", "category": "AI Tools & Frameworks"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/", "category": "Industry News"},
+    {"name": "Ben's Bites", "url": "https://www.bensbites.co", "category": "AI Tools & Frameworks"},
+    {"name": "The Rundown", "url": "https://www.therundown.ai", "category": "Industry News"},
+    {"name": "Hacker News AI", "url": "https://news.ycombinator.com", "category": "LLMs & Models"},
+    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/", "category": "Research Highlights"},
+    {"name": "Anthropic News", "url": "https://www.anthropic.com/news", "category": "AI Security & Safety"},
+    {"name": "AI Snake Oil", "url": "https://www.aisnakeoil.com", "category": "Ethics & Regulation"},
+    {"name": "The Gradient", "url": "https://thegradient.pub", "category": "Research Highlights"},
+    {"name": "Ahead of AI", "url": "https://sebastianraschka.com/blog/", "category": "LLMs & Models"},
+    {"name": "LlamaIndex Blog", "url": "https://www.llamaindex.ai/blog", "category": "Agents & Automation"},
+    {"name": "LangChain Blog", "url": "https://blog.langchain.dev", "category": "Agents & Automation"},
+    {"name": "Weights & Biases", "url": "https://wandb.ai/fully-connected", "category": "AI Tools & Frameworks"},
+    {"name": "Future of Life", "url": "https://futureoflife.org/news/", "category": "Ethics & Regulation"},
+    {"name": "Semafor AI", "url": "https://www.semafor.com/technology", "category": "Industry News"},
+    {"name": "The Information", "url": "https://www.theinformation.com/topics/ai", "category": "Industry News"},
+    {"name": "GitHub Trending AI", "url": "https://github.com/trending?spoken_language_code=en", "category": "AI Tools & Frameworks"}
+  ],
+  "config": {
+    "language": "en",
+    "post_length_words": 400,
+    "unique_angle": true,
+    "nofollow_links": true
+  }
+}
