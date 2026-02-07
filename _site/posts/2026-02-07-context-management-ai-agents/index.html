@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2026-02-03">
+<meta name="dcterms.date" content="2026-02-07">
 
-<title>AI News Digest - Welcome To My Blog</title>
+<title>AI News Digest - Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,8 +67,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News">
+<link rel="canonical" href="https://ainews.pages.dev/">
 
 
+<meta property="og:title" content="AI News Digest - Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks">
+<meta property="og:description" content="Curated daily global AI news summaries in English.">
+<meta property="og:site_name" content="AI News Digest">
+<meta name="twitter:title" content="AI News Digest - Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks">
+<meta name="twitter:description" content="Curated daily global AI news summaries in English.">
+<meta name="twitter:creator" content="@ainewsdigest">
+<meta name="twitter:site" content="@ainewsdigest">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -93,64 +102,59 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-news" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">News</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-news">    
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">All News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/2026-02-06-ai-news-roundup.html">
- <span class="dropdown-text">Latest</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">LLMs &amp; Models</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">AI Tools</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">Agents</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">Security</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">Ethics</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">Industry</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../posts/">
- <span class="dropdown-text">Research</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-categories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Categories</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-categories">    
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=LLMs &amp; Models">
+ <span class="dropdown-text">LLMs &amp; Models</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=AI Tools &amp; Frameworks">
+ <span class="dropdown-text">AI Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=Agents &amp; Automation">
+ <span class="dropdown-text">Agents</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=AI Security &amp; Safety">
+ <span class="dropdown-text">Security</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=Ethics &amp; Regulation">
+ <span class="dropdown-text">Ethics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=Industry News">
+ <span class="dropdown-text">Industry</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html#category=Research Highlights">
+ <span class="dropdown-text">Research</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/gfigon/ainews"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../privacy.html"> 
+<span class="menu-text">Privacy</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../terms.html"> 
+<span class="menu-text">Terms</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -163,9 +167,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">Agents &amp; Automation</div>
+                <div class="quarto-category">LLMs &amp; Models</div>
               </div>
                   </div>
   </div>
@@ -173,17 +178,11 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 3, 2026</p>
+        <p class="date">February 7, 2026</p>
       </div>
     </div>
     
@@ -195,7 +194,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#advanced-compression-strategies" id="toc-advanced-compression-strategies" class="nav-link active" data-scroll-target="#advanced-compression-strategies">Advanced Compression Strategies</a></li>
+  <li><a href="#testing-recoverability" id="toc-testing-recoverability" class="nav-link" data-scroll-target="#testing-recoverability">Testing Recoverability</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -204,11 +210,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: <strong>context rot</strong>. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their <strong>Deep Agents SDK</strong> manages this challenge.</p>
+<section id="advanced-compression-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-compression-strategies">Advanced Compression Strategies</h3>
+<p>The Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:</p>
+<ol type="1">
+<li><strong>Tool Result Offloading:</strong> Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.</li>
+<li><strong>Input Truncation:</strong> Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.</li>
+<li><strong>Intelligent Summarization:</strong> When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.</li>
+</ol>
+</section>
+<section id="testing-recoverability" class="level3">
+<h3 class="anchored" data-anchor-id="testing-recoverability">Testing Recoverability</h3>
+<p>A key takeaway for developers is that compression is only as good as its <strong>recoverability</strong>. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.</p>
+<p>By combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.</p>
+<p>Detailed technical breakdown available on the <a href="https://blog.langchain.dev/context-management-for-deepagents/">LangChain Blog</a> {rel=“nofollow”}.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

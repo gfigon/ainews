@@ -1,42 +1,54 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "AI News Digest"
-  description: "Curated daily global AI news summaries."
+  description: "Curated daily global AI news summaries in English."
+  site-url: "https://ainews.pages.dev"
+  twitter-card:
+    site: "@ainewsdigest"
+    creator: "@ainewsdigest"
+    card-style: summary_large_image
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - text: News
-        menu:
-          - href: posts/
-            text: "All News"
-          - href: posts/2026-02-06-ai-news-roundup.qmd
-            text: "Latest"
-          - href: posts/
-            text: "LLMs & Models"
-          - href: posts/
-            text: "AI Tools"
-          - href: posts/
-            text: "Agents"
-          - href: posts/
-            text: "Security"
-          - href: posts/
-            text: "Ethics"
-          - href: posts/
-            text: "Industry"
-          - href: posts/
-            text: "Research"
       - href: about.qmd
         text: About
+      - text: "Categories"
+        menu:
+          - text: "LLMs & Models"
+            href: index.qmd#category=LLMs%20&%20Models
+          - text: "AI Tools"
+            href: index.qmd#category=AI%20Tools%20&%20Frameworks
+          - text: "Agents"
+            href: index.qmd#category=Agents%20&%20Automation
+          - text: "Security"
+            href: index.qmd#category=AI%20Security%20&%20Safety
+          - text: "Ethics"
+            href: index.qmd#category=Ethics%20&%20Regulation
+          - text: "Industry"
+            href: index.qmd#category=Industry%20News
+          - text: "Research"
+            href: index.qmd#category=Research%20Highlights
     right:
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/gfigon/ainews
+      - text: Privacy
+        href: privacy.qmd
+      - text: Terms
+        href: terms.qmd
 
 format:
   html:
     theme: [cosmo, styles.css]
     toc: true
+    code-fold: true
+    include-in-header:
+      text: |
+        <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News">
+        <link rel="canonical" href="https://ainews.pages.dev/">
+
+editor: visual

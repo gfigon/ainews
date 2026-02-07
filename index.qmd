@@ -1,14 +1,24 @@
 ---
-title: "."
+title: ""
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: false
+  feed: true
 page-layout: full
-title-block-banner: true
 ---
 
+::: {.hero-banner}
+::: {.hero-title}
+AI News Digest
+:::
+::: {.hero-subtitle}
+Cutting-edge updates from the global AI frontier. <br>
+Unique insights, no-copy analysis, and daily trends.
+:::
+:::
 
+# Latest Updates

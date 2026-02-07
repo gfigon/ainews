@@ -2,10 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/2026-02-06-daily-ai-digest.html",
-      "/posts/2026-02-06-ai-news-roundup.html",
-      "/posts/welcome/index.html"
+      "/posts/2026-02-07-context-management-ai-agents/index.html",
+      "/posts/2026-02-07-claude-opus-4-6-release/index.html",
+      "/posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html",
+      "/posts/2026-02-06-era-of-agentic-workflows/index.html",
+      "/posts/2026-02-06-daily-ai-digest/index.html"
     ]
   }
 ]

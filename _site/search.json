@@ -91,95 +91,116 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html",
-    "href": "posts/2026-02-06-ai-news-roundup.html",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Latest Updates",
     "section": "",
-    "text": "Today’s AI landscape showcases significant advances in model capabilities, with major players rolling out impressive benchmark performances and new features that push the boundaries of what’s possible with artificial intelligence.\n\n\nOpenAI’s GPT-5 has arrived with groundbreaking performance metrics that are setting new industry standards. The model achieves a perfect 100% accuracy on the AIME 2025 mathematics benchmark when equipped with Python tools, while even the “thinking” version without Python tools reaches an impressive 99.6% accuracy. The model features a substantial 400k context window and 128k output window, priced competitively at $1.25/$10 for input/output tokens.\nThe mathematical reasoning capabilities represent a significant leap forward, with the model demonstrating unprecedented problem-solving abilities that could revolutionize fields requiring complex computational analysis.\n\n\n\nX’s Grok has launched Imagine 1.0, bringing six new features that enhance the model’s creative and analytical capabilities. While specific feature details are still emerging, the update represents X’s continued push into competitive AI model development, challenging established players in the space.\n\n\n\nThe latest benchmark data reveals fierce competition among leading models:\n\nGPT-5 Medium and GPT-5.1 both achieve 0.9 GPQA scores\nClaude Opus 4.5 matches with 0.9 GPQA\nGemini 3 Pro also reaches 0.9 GPQA\nClaude Sonnet 4 and MiniMax M2.1 score 0.8 GPQA\n\nThese scores indicate that the top tier of AI models are reaching similar levels of performance, with differentiation increasingly coming from specialized capabilities, pricing, and integration options rather than raw benchmark performance.\n\n\n\nA emerging trend in AI engineering is the concept of “Context Graphs,” which is gaining attention among developers and AI companies. This approach focuses on capturing and utilizing contextual information more effectively, potentially leading to more coherent and contextually aware AI interactions. Cursor’s “Agent Trace” initiative is being framed as a Context Graph for code, highlighting the practical applications of this concept.\n\n\n\nThe rapid advancements in AI capabilities are raising important questions about the future of work, education, and human-AI collaboration. As models become increasingly sophisticated, organizations are grappling with how to integrate these powerful tools while maintaining appropriate safeguards and ethical considerations.\nThe concentration of top-tier performance among multiple players suggests we’re entering a phase where competition will focus more on specialized applications, reliability, and cost-effectiveness rather than raw capability improvements.\n\nStay tuned to AI News Digest for daily updates on the rapidly evolving artificial intelligence landscape. Subscribe to our newsletter for comprehensive coverage delivered directly to your inbox."
+    "text": "AI News Digest\n\n\nCutting-edge updates from the global AI frontier.  Unique insights, no-copy analysis, and daily trends.\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks\n\n\n\nAgents & Automation\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSyGra Studio: Visualizing Synthetic Data Generation\n\n\n\nResearch Highlights\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nExploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html#gpt-5-dominates-benchmark-tests",
-    "href": "posts/2026-02-06-ai-news-roundup.html#gpt-5-dominates-benchmark-tests",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "posts/2026-02-07-claude-opus-4-6-release/index.html",
+    "href": "posts/2026-02-07-claude-opus-4-6-release/index.html",
+    "title": "Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows",
     "section": "",
-    "text": "OpenAI’s GPT-5 has arrived with groundbreaking performance metrics that are setting new industry standards. The model achieves a perfect 100% accuracy on the AIME 2025 mathematics benchmark when equipped with Python tools, while even the “thinking” version without Python tools reaches an impressive 99.6% accuracy. The model features a substantial 400k context window and 128k output window, priced competitively at $1.25/$10 for input/output tokens.\nThe mathematical reasoning capabilities represent a significant leap forward, with the model demonstrating unprecedented problem-solving abilities that could revolutionize fields requiring complex computational analysis."
+    "text": "Anthropic has officially launched Claude Opus 4.6, a significant upgrade designed specifically for complex, multi-step “agentic” tasks. Moving beyond simple chat interactions, the new model introduces features that allow it to plan, act, and revise over longer sessions with higher autonomy.\n\nKey Innovations in Opus 4.6\n\n1M Token Context Window (Beta): The first Opus-class model to support up to 1 million input tokens, enabling the ingestion of massive codebases and long-form documents.\nAdaptive Reasoning & Effort Controls: A new /effort parameter allows developers to choose between four levels (low, medium, high, max). This helps balance reasoning depth against speed and cost, making it easier to optimize for different types of tasks.\nAgentic Search & Coding Performance: Opus 4.6 has set new records on benchmarks like Terminal-Bench 2.0 and BrowseComp, outperforming competitors in scenarios where the AI must use tools and navigate the web to find answers.\nProduct Synergy: The model powers enhanced features in Claude Code (including an “agent teams” mode) and offers deeper integration with Excel and PowerPoint for automated data analysis and presentation generation.\n\n\n\nPerformance Highlights\nAccording to Anthropic’s technical reports, Opus 4.6 demonstrates a qualitative shift in long-context retrieval, scoring 76% on the 1M-token “needle-in-a-haystack” benchmark. It also shows nearly double the performance in specialized fields like life sciences and root cause analysis for software failures compared to its predecessor.\nRead more at the Anthropic Newsroom {rel=“nofollow”}."
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html#grok-imagine-1.0-introduces-new-features",
-    "href": "posts/2026-02-06-ai-news-roundup.html#grok-imagine-1.0-introduces-new-features",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "href": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "title": "Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks",
     "section": "",
-    "text": "X’s Grok has launched Imagine 1.0, bringing six new features that enhance the model’s creative and analytical capabilities. While specific feature details are still emerging, the update represents X’s continued push into competitive AI model development, challenging established players in the space."
+    "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog {rel=“nofollow”}."
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html#competitive-landscape-heats-up",
-    "href": "posts/2026-02-06-ai-news-roundup.html#competitive-landscape-heats-up",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
     "section": "",
-    "text": "The latest benchmark data reveals fierce competition among leading models:\n\nGPT-5 Medium and GPT-5.1 both achieve 0.9 GPQA scores\nClaude Opus 4.5 matches with 0.9 GPQA\nGemini 3 Pro also reaches 0.9 GPQA\nClaude Sonnet 4 and MiniMax M2.1 score 0.8 GPQA\n\nThese scores indicate that the top tier of AI models are reaching similar levels of performance, with differentiation increasingly coming from specialized capabilities, pricing, and integration options rather than raw benchmark performance."
+    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html#context-graphs-gain-traction",
-    "href": "posts/2026-02-06-ai-news-roundup.html#context-graphs-gain-traction",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
     "section": "",
-    "text": "A emerging trend in AI engineering is the concept of “Context Graphs,” which is gaining attention among developers and AI companies. This approach focuses on capturing and utilizing contextual information more effectively, potentially leading to more coherent and contextually aware AI interactions. Cursor’s “Agent Trace” initiative is being framed as a Context Graph for code, highlighting the practical applications of this concept."
+    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
   },
   {
-    "objectID": "posts/2026-02-06-ai-news-roundup.html#industry-implications",
-    "href": "posts/2026-02-06-ai-news-roundup.html#industry-implications",
-    "title": "AI News Roundup: February 6, 2026",
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
     "section": "",
-    "text": "The rapid advancements in AI capabilities are raising important questions about the future of work, education, and human-AI collaboration. As models become increasingly sophisticated, organizations are grappling with how to integrate these powerful tools while maintaining appropriate safeguards and ethical considerations.\nThe concentration of top-tier performance among multiple players suggests we’re entering a phase where competition will focus more on specialized applications, reliability, and cost-effectiveness rather than raw capability improvements.\n\nStay tuned to AI News Digest for daily updates on the rapidly evolving artificial intelligence landscape. Subscribe to our newsletter for comprehensive coverage delivered directly to your inbox."
+    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
   },
   {
-    "objectID": "posts/2026-02-06-daily-ai-digest.html",
-    "href": "posts/2026-02-06-daily-ai-digest.html",
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+  },
+  {
+    "objectID": "posts/2026-02-06-daily-ai-digest/index.html",
+    "href": "posts/2026-02-06-daily-ai-digest/index.html",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
     "section": "",
     "text": "Anthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token context window, enabling it to process and reason over extensive documents, codebases, and conversational histories in a single session. Perhaps more importantly, Opus 4.6 introduces enhanced agentic capabilities, allowing the model to autonomously execute multi-step tasks, maintain state across complex workflows, and demonstrate improved planning and tool usage. The model shows remarkable performance in coding tasks, mathematical reasoning, and creative writing, setting new benchmarks across multiple evaluation datasets. Early adopters report particularly impressive results in enterprise settings, where the extended context window proves invaluable for analyzing legal documents, financial reports, and technical documentation.\n\n\n\nOpenAI has announced the integration of Codex capabilities directly into GPT-5.3, marking the end of standalone Codex models. This unification brings advanced code generation, debugging, and refactoring capabilities into the main GPT architecture, eliminating the need for separate specialized models. The integrated system demonstrates superior performance in software engineering tasks, with particular strength in understanding existing codebases, generating documentation, and implementing complex algorithms. Developers report significant productivity gains, with the model now capable of maintaining context across entire development sessions and providing consistent coding style guidance. The merger also introduces improved security features, with built-in vulnerability detection and secure coding practices enforcement.\n\n\n\nNVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
   },
   {
-    "objectID": "posts/2026-02-06-daily-ai-digest.html#claude-opus-4.6-anthropics-agentic-leap-forward",
-    "href": "posts/2026-02-06-daily-ai-digest.html#claude-opus-4.6-anthropics-agentic-leap-forward",
+    "objectID": "posts/2026-02-06-daily-ai-digest/index.html#claude-opus-4.6-anthropics-agentic-leap-forward",
+    "href": "posts/2026-02-06-daily-ai-digest/index.html#claude-opus-4.6-anthropics-agentic-leap-forward",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
     "section": "",
     "text": "Anthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token context window, enabling it to process and reason over extensive documents, codebases, and conversational histories in a single session. Perhaps more importantly, Opus 4.6 introduces enhanced agentic capabilities, allowing the model to autonomously execute multi-step tasks, maintain state across complex workflows, and demonstrate improved planning and tool usage. The model shows remarkable performance in coding tasks, mathematical reasoning, and creative writing, setting new benchmarks across multiple evaluation datasets. Early adopters report particularly impressive results in enterprise settings, where the extended context window proves invaluable for analyzing legal documents, financial reports, and technical documentation."
   },
   {
-    "objectID": "posts/2026-02-06-daily-ai-digest.html#openais-gpt-5.3-codex-unification-strategy",
-    "href": "posts/2026-02-06-daily-ai-digest.html#openais-gpt-5.3-codex-unification-strategy",
+    "objectID": "posts/2026-02-06-daily-ai-digest/index.html#openais-gpt-5.3-codex-unification-strategy",
+    "href": "posts/2026-02-06-daily-ai-digest/index.html#openais-gpt-5.3-codex-unification-strategy",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
     "section": "",
     "text": "OpenAI has announced the integration of Codex capabilities directly into GPT-5.3, marking the end of standalone Codex models. This unification brings advanced code generation, debugging, and refactoring capabilities into the main GPT architecture, eliminating the need for separate specialized models. The integrated system demonstrates superior performance in software engineering tasks, with particular strength in understanding existing codebases, generating documentation, and implementing complex algorithms. Developers report significant productivity gains, with the model now capable of maintaining context across entire development sessions and providing consistent coding style guidance. The merger also introduces improved security features, with built-in vulnerability detection and secure coding practices enforcement."
   },
   {
-    "objectID": "posts/2026-02-06-daily-ai-digest.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
-    "href": "posts/2026-02-06-daily-ai-digest.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
+    "objectID": "posts/2026-02-06-daily-ai-digest/index.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
+    "href": "posts/2026-02-06-daily-ai-digest/index.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
     "section": "",
     "text": "NVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html",
+    "href": "posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html",
+    "title": "SyGra Studio: Visualizing Synthetic Data Generation",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "ServiceNow AI has introduced SyGra Studio, a new interactive environment designed to transform synthetic data generation from a terminal-based chore into a visual craft. Built on the SyGra 2.0.0 platform, Studio provides a “no-code” canvas for designing complex data flows.\n\nFrom YAML to Canvas\nPreviously, users had to manage synthetic data pipelines through complex YAML configurations and CLI commands. SyGra Studio replaces this with a drag-and-drop interface where developers can:\n\nCompose flows visually: Link LLM nodes, data sources (like Hugging Face or local files), and processors on a shared canvas.\nPreview datasets in real-time: Validate data sources and see sample rows before running full executions.\nDebug with inline tools: Access logs, breakpoints, and Monaco-backed code editors directly within the UI.\nMonitor Performance: Track token costs, latency, and guardrail outcomes as the flow executes.\n\n\n\nWhy Visualizing Synthetic Data Matters\nAs models require more specialized training data, the complexity of generating high-quality synthetic datasets has grown. SyGra Studio allows researchers to iterate faster on prompt templates and “agentic” loops—such as the “Glaive Code Assistant” workflow which critiques and revises its own answers until quality thresholds are met.\nBy automating the generation of the underlying YAML and task executor scripts, Studio makes sophisticated data engineering accessible to a wider range of AI practitioners.\nExplore the tool on the Hugging Face Blog {rel=“nofollow”}."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "PROJECT_LOG.html",
+    "href": "PROJECT_LOG.html",
+    "title": "ainews - Project Log & Vision",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash.\n\n\n\n\n\n\n\nSuccessfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 2.0 Flash as the primary summary/author engine.\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps.\n\n\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": ".",
+    "objectID": "PROJECT_LOG.html#vision-goals",
+    "href": "PROJECT_LOG.html#vision-goals",
+    "title": "ainews - Project Log & Vision",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAI News Roundup: February 6, 2026\n\n\n\n\n\n\nnews\n\n\nmodels\n\n\nbenchmarks\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\nAI News Digest\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 3, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash."
+  },
+  {
+    "objectID": "PROJECT_LOG.html#the-genesis",
+    "href": "PROJECT_LOG.html#the-genesis",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Successfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 2.0 Flash as the primary summary/author engine.\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps."
+  },
+  {
+    "objectID": "PROJECT_LOG.html#future-ideas-pending",
+    "href": "PROJECT_LOG.html#future-ideas-pending",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Implement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
   },
   {
     "objectID": "terms.html",
