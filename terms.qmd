@@ -8,11 +8,11 @@ title: "Terms of Service"
 
 ## Acceptance of Terms
 
-By accessing and using AI News Digest ("the Service"), you accept and agree to be bound by the terms and conditions of this agreement.
+By accessing and using Robo AI Digest ("the Service"), you accept and agree to be bound by the terms and conditions of this agreement.
 
 ## Description of Service
 
-AI News Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:
+Robo AI Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:
 
 - Daily AI news summaries
 - Analysis of AI industry trends
@@ -32,7 +32,7 @@ Our summaries and analysis fall under fair use doctrine because they:
 - Include proper attribution when applicable
 
 ### Content Ownership
-- Original summaries and analysis are owned by AI News Digest
+- Original summaries and analysis are owned by Robo AI Digest
 - Source materials remain the property of their respective owners
 - We respect intellectual property rights and copyright laws
 
@@ -54,7 +54,7 @@ You may not:
 ## Intellectual Property
 
 ### Trademarks
-"AI News Digest" and related logos are trademarks of our service.
+"Robo AI Digest" and related logos are trademarks of our service.
 
 ### Copyright
 All original content on this website is protected by copyright law.

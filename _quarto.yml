@@ -3,12 +3,12 @@ project:
   output-dir: _site
 
 website:
-  title: "AI News Digest"
-  description: "Curated daily global AI news summaries in English."
-  site-url: "https://ainews.pages.dev"
+  title: "Robo AI Digest"
+  description: "Automated daily briefings on the latest AI research and industry breakthroughs."
+  site-url: "https://roboaidigest.com"
   twitter-card:
-    site: "@ainewsdigest"
-    creator: "@ainewsdigest"
+    site: "@roboaidigest"
+    creator: "@roboaidigest"
     card-style: summary_large_image
   open-graph: true
   navbar:
@@ -48,7 +48,7 @@ format:
     code-fold: true
     include-in-header:
       text: |
-        <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News">
-        <link rel="canonical" href="https://ainews.pages.dev/">
+        <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News, Robo AI Digest">
+        <link rel="canonical" href="https://roboaidigest.com/">
 
 editor: visual

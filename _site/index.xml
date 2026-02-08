@@ -5,22 +5,22 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>AI News Digest</title>
-<link>https://ainews.pages.dev/</link>
-<atom:link href="https://ainews.pages.dev/index.xml" rel="self" type="application/rss+xml"/>
-<description>Curated daily global AI news summaries in English.</description>
+<title>Robo AI Digest</title>
+<link>https://roboaidigest.com/</link>
+<atom:link href="https://roboaidigest.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Automated daily briefings on the latest AI research and industry breakthroughs.</description>
 <generator>quarto-1.4.550</generator>
 <lastBuildDate>Sat, 07 Feb 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Google’s PaperBanana: Multi-Agent System for Research Diagrams</title>
-  <link>https://ainews.pages.dev/posts/2026-02-08-google-paperbanana-agentic-diagrams/</link>
+  <link>https://roboaidigest.com/posts/2026-02-08-google-paperbanana-agentic-diagrams/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><img src="https://ainews.pages.dev/posts/2026-02-08-google-paperbanana-agentic-diagrams/image.jpg" class="img-fluid"></p>
+<p><img src="https://roboaidigest.com/posts/2026-02-08-google-paperbanana-agentic-diagrams/image.jpg" class="img-fluid"></p>
 <p>A research collaboration between Google AI and Peking University has introduced <strong>PaperBanana</strong>, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.</p>
 <section id="orchestrating-5-specialized-agents" class="level3">
 <h3 class="anchored" data-anchor-id="orchestrating-5-specialized-agents">Orchestrating 5 Specialized Agents</h3>
@@ -47,20 +47,20 @@
  ]]></description>
   <category>Research Highlights</category>
   <category>Agents &amp; Automation</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-08-google-paperbanana-agentic-diagrams/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-08-google-paperbanana-agentic-diagrams/</guid>
   <pubDate>Sat, 07 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://ainews.pages.dev/posts/2026-02-08-google-paperbanana-agentic-diagrams/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-08-google-paperbanana-agentic-diagrams/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Waymo World Model: Generating Reality for Autonomous Driving</title>
-  <link>https://ainews.pages.dev/posts/2026-02-08-waymo-world-model-genie-3/</link>
+  <link>https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><img src="https://ainews.pages.dev/posts/2026-02-08-waymo-world-model-genie-3/image.jpg" class="img-fluid"></p>
+<p><img src="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/image.jpg" class="img-fluid"></p>
 <p>Waymo has unveiled its <strong>Waymo World Model (WWM)</strong>, a frontier generative system built on top of Google DeepMind’s <strong>Genie 3</strong>. This new engine is designed to create photorealistic, controllable, and multi-sensor driving environments, enabling the next generation of autonomous vehicle (AV) simulation.</p>
 <section id="beyond-simple-video-rendering" class="level3">
 <h3 class="anchored" data-anchor-id="beyond-simple-video-rendering">Beyond Simple Video Rendering</h3>
@@ -87,20 +87,20 @@
  ]]></description>
   <category>Industry News</category>
   <category>LLMs &amp; Models</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-08-waymo-world-model-genie-3/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/</guid>
   <pubDate>Sat, 07 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://ainews.pages.dev/posts/2026-02-08-waymo-world-model-genie-3/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale</title>
-  <link>https://ainews.pages.dev/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</link>
+  <link>https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><img src="https://ainews.pages.dev/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" class="img-fluid"></p>
+<p><img src="https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" class="img-fluid"></p>
 <p>NVIDIA has announced the release of <strong>C-RADIOv4</strong>, a new “agglomerative” vision backbone that unifies three powerful architectures—<strong>SigLIP2</strong>, <strong>DINOv3</strong>, and <strong>SAM3</strong>—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.</p>
 <section id="the-power-of-agglomerative-distillation" class="level3">
 <h3 class="anchored" data-anchor-id="the-power-of-agglomerative-distillation">The Power of Agglomerative Distillation</h3>
@@ -131,13 +131,13 @@
  ]]></description>
   <category>AI Tools &amp; Frameworks</category>
   <category>Research Highlights</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</guid>
   <pubDate>Sat, 07 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://ainews.pages.dev/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks</title>
-  <link>https://ainews.pages.dev/posts/2026-02-07-context-management-ai-agents/</link>
+  <link>https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/</link>
   <description><![CDATA[ 
 
 
@@ -166,12 +166,12 @@
  ]]></description>
   <category>Agents &amp; Automation</category>
   <category>LLMs &amp; Models</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-07-context-management-ai-agents/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/</guid>
   <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows</title>
-  <link>https://ainews.pages.dev/posts/2026-02-07-claude-opus-4-6-release/</link>
+  <link>https://roboaidigest.com/posts/2026-02-07-claude-opus-4-6-release/</link>
   <description><![CDATA[ 
 
 
@@ -199,12 +199,12 @@
  ]]></description>
   <category>LLMs &amp; Models</category>
   <category>AI Tools &amp; Frameworks</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-07-claude-opus-4-6-release/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-07-claude-opus-4-6-release/</guid>
   <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SyGra Studio: Visualizing Synthetic Data Generation</title>
-  <link>https://ainews.pages.dev/posts/2026-02-07-sygra-studio-visual-synthetic-data/</link>
+  <link>https://roboaidigest.com/posts/2026-02-07-sygra-studio-visual-synthetic-data/</link>
   <description><![CDATA[ 
 
 
@@ -234,12 +234,12 @@
  ]]></description>
   <category>Research Highlights</category>
   <category>AI Tools &amp; Frameworks</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-07-sygra-studio-visual-synthetic-data/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-07-sygra-studio-visual-synthetic-data/</guid>
   <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving</title>
-  <link>https://ainews.pages.dev/posts/2026-02-06-era-of-agentic-workflows/</link>
+  <link>https://roboaidigest.com/posts/2026-02-06-era-of-agentic-workflows/</link>
   <description><![CDATA[ 
 
 
@@ -269,13 +269,13 @@
  ]]></description>
   <category>Agents &amp; Automation</category>
   <category>AI Tools &amp; Frameworks</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-06-era-of-agentic-workflows/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-06-era-of-agentic-workflows/</guid>
   <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
   <media:content url="https://images.unsplash.com/photo-1620712943543-bcc4638d9f8e?auto=format&amp;fit=crop&amp;q=80&amp;w=800" medium="image"/>
 </item>
 <item>
   <title>AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs</title>
-  <link>https://ainews.pages.dev/posts/2026-02-06-daily-ai-digest/</link>
+  <link>https://roboaidigest.com/posts/2026-02-06-daily-ai-digest/</link>
   <description><![CDATA[ 
 
 
@@ -305,7 +305,7 @@
   <category>LLMs &amp; Models</category>
   <category>Agents &amp; Automation</category>
   <category>Research Highlights</category>
-  <guid>https://ainews.pages.dev/posts/2026-02-06-daily-ai-digest/</guid>
+  <guid>https://roboaidigest.com/posts/2026-02-06-daily-ai-digest/</guid>
   <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
   <media:content url="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&amp;fit=crop&amp;q=80&amp;w=800" medium="image"/>
 </item>

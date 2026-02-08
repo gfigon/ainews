@@ -13,7 +13,7 @@ page-layout: full
 
 ::: {.hero-banner}
 ::: {.hero-title}
-AI News Digest
+Robo AI Digest
 :::
 ::: {.hero-subtitle}
 Cutting-edge updates from the global AI frontier. <br>
