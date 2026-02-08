@@ -17,22 +17,6 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - text: "Categories"
-        menu:
-          - text: "LLMs & Models"
-            href: index.qmd#category=LLMs%20&%20Models
-          - text: "AI Tools"
-            href: index.qmd#category=AI%20Tools%20&%20Frameworks
-          - text: "Agents"
-            href: index.qmd#category=Agents%20&%20Automation
-          - text: "Security"
-            href: index.qmd#category=AI%20Security%20&%20Safety
-          - text: "Ethics"
-            href: index.qmd#category=Ethics%20&%20Regulation
-          - text: "Industry"
-            href: index.qmd#category=Industry%20News
-          - text: "Research"
-            href: index.qmd#category=Research%20Highlights
     right:
       - icon: github
         href: https://github.com/gfigon/ainews
