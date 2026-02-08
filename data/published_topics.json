@@ -1,0 +1,69 @@
+{
+  "topics": [
+    {
+      "count": 2,
+      "last_published": "2026-02-07",
+      "slugs": [
+        "2026-02-06-daily-ai-digest",
+        "2026-02-07-claude-opus-4-6-release"
+      ],
+      "term": "Claude Opus 4.6"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-06",
+      "slugs": [
+        "2026-02-06-era-of-agentic-workflows"
+      ],
+      "term": "Agentic Workflows"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-07",
+      "slugs": [
+        "2026-02-07-context-management-ai-agents"
+      ],
+      "term": "Context Management"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-07",
+      "slugs": [
+        "2026-02-07-sygra-studio-visual-synthetic-data"
+      ],
+      "term": "Sygra Studio"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-06",
+      "slugs": [
+        "2026-02-06-daily-ai-digest"
+      ],
+      "term": "GPT-5.3-Codex"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-08",
+      "slugs": [
+        "2026-02-08-google-paperbanana-agentic-diagrams"
+      ],
+      "term": "PaperBanana"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-08",
+      "slugs": [
+        "2026-02-08-nvidia-c-radiov4-vision-backbone"
+      ],
+      "term": "C-RADIOv4"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-08",
+      "slugs": [
+        "2026-02-08-waymo-world-model-genie-3"
+      ],
+      "term": "Waymo World Model"
+    }
+  ]
+}

@@ -1,32 +1,43 @@
-# ainews - Project Log & Vision
+# Project: ainews
 
-## Vision & Goals
-Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights.
-Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash.
+## Description
 
----
+World-class AI news portal focusing on unique English insights, built with Quarto and R. Currently in local development and testing phase.
 
-## 2026-02-06: The Genesis
-### Accomplishments:
-- Successfully initialized the project at `/home/skutek/projekty/ainews`.
-- Implemented **Dark AI Theme** (styles.css) with high visual contrast and 5rem Hero Title for impact.
-- Configured Quarto blog structure with modern grid listing.
-- Established **Legal Base**: privacy.qmd and terms.qmd (English).
-- Created **Live Scouting Logic**:
-    - `data/sources.json` contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).
-    - Automated daily scout scheduled at 8:00 AM via `HEARTBEAT.md`.
-    - Selected **Gemini 2.0 Flash** as the primary summary/author engine.
-- Published first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.
+## Tech Stack
 
-### Lessons Learned:
-- Avoid copying data from other projects (prevents .RData/Rproj pollution).
-- Quarto listing must be in `index.qmd`, not globally, to avoid render warnings in individual posts.
-- Box placeholders on Home need high-quality images (800w) to prevent visual gaps.
+- Quarto
+- R
+- CSS (Dark AI Theme)
+- Gemini 3 Flash (Primary Author Engine)
 
----
+## TODOs
 
-## Future Ideas (Pending)
 - [ ] Implement automatic image generation via AI for each post.
 - [ ] Add RSS feed subscription link for readers.
 - [ ] Integrate Newsletter signup.
 - [ ] Add "Expert Opinion" section to each digest.
+
+## Cron Jobs
+
+| Schedule | Script | Purpose |
+|----------|--------|---------|
+| 0 8 * * * | Cron ID: c39bdd8a... | Daily scout, unique post generation & git push |
+
+## Event Log
+
+### 2026-02-06
+
+- Project initialized at /home/skutek/projekty/ainews.
+- Implemented Dark AI Theme and Quarto structure.
+- Established legal pages (Privacy/Terms).
+- Initial setup of automated scouting with Gemini 2.0 Flash.
+
+### 2026-02-07
+
+- Upgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.
+- Registered project in MEMORY.md and formatted project logs using pmem skill.
+- Successfully performed manual daily update and verified cron automation.
+- Implemented Deduplication System: Created `data/published_topics.json` to track topics and prevent repetitive content. Added "Validation & Update" step to automation requirements.
+- Verified historical posts and initialized topic database with today's and yesterday's entries.
+- Synchronized heartbeat tasks to enforce deduplication check before každą publikacją.

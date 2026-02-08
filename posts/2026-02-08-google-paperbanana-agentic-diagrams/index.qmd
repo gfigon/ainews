@@ -1,0 +1,30 @@
+---
+title: "Google's PaperBanana: Multi-Agent System for Research Diagrams"
+date: "2026-02-08"
+categories: [Research Highlights, Agents & Automation]
+image: image.jpg
+---
+
+A research collaboration between Google AI and Peking University has introduced **PaperBanana**, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.
+
+### Orchestrating 5 Specialized Agents
+
+PaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:
+
+1.  **Retriever Agent**: Searches a database for relevant reference examples to guide style and structure.
+2.  **Planner Agent**: Converts technical text descriptions into detailed visual plans.
+3.  **Stylist Agent**: Ensures the output adheres to professional academic aesthetics (the "NeurIPS Look").
+4.  **Visualizer Agent**: Generates the actual visuals. Notably, it uses code-based generation (Matplotlib) for statistical plots to ensure 100% data fidelity.
+5.  **Critic Agent**: Inspects generated images for factual errors or glitches, facilitating an iterative refinement loop.
+
+### Precision vs. Hallucination
+
+A key innovation in PaperBanana is its hybrid approach to visualization. While it uses advanced image models for illustrative diagrams, it switches to executable Python code for statistical data. This prevents the "numerical hallucinations" often seen in standard generative AI, where axes might be mislabeled or data points shifted.
+
+### Performance and Benchmarking
+
+Evaluated against the new `PaperBananaBench` dataset—comprising nearly 300 test cases from NeurIPS 2025 publications—the framework showed a **17% improvement in overall score** over baseline models. More impressively, it improved visual conciseness by **37.2%**, making complex research more readable and accessible.
+
+The system is particularly effective in generating "Agent & Reasoning" diagrams, achieving high scores by using narrative elements like vector robots and UI icons that match current research trends.
+
+[Source Paper](https://arxiv.org/abs/2601.23265){rel="nofollow"} | [GitHub Repository](https://github.com/dwzhu-pku/PaperBanana){rel="nofollow"}

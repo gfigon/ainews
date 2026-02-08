@@ -169,15 +169,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ainews---project-log-vision" id="toc-ainews---project-log-vision" class="nav-link active" data-scroll-target="#ainews---project-log-vision">ainews - Project Log &amp; Vision</a>
+  <li><a href="#project-ainews" id="toc-project-ainews" class="nav-link active" data-scroll-target="#project-ainews">Project: ainews</a>
   <ul class="collapse">
-  <li><a href="#vision-goals" id="toc-vision-goals" class="nav-link" data-scroll-target="#vision-goals">Vision &amp; Goals</a></li>
-  <li><a href="#the-genesis" id="toc-the-genesis" class="nav-link" data-scroll-target="#the-genesis">2026-02-06: The Genesis</a>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#tech-stack" id="toc-tech-stack" class="nav-link" data-scroll-target="#tech-stack">Tech Stack</a></li>
+  <li><a href="#todos" id="toc-todos" class="nav-link" data-scroll-target="#todos">TODOs</a></li>
+  <li><a href="#cron-jobs" id="toc-cron-jobs" class="nav-link" data-scroll-target="#cron-jobs">Cron Jobs</a></li>
+  <li><a href="#event-log" id="toc-event-log" class="nav-link" data-scroll-target="#event-log">Event Log</a>
   <ul class="collapse">
-  <li><a href="#accomplishments" id="toc-accomplishments" class="nav-link" data-scroll-target="#accomplishments">Accomplishments:</a></li>
-  <li><a href="#lessons-learned" id="toc-lessons-learned" class="nav-link" data-scroll-target="#lessons-learned">Lessons Learned:</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-06</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-02-07</a></li>
   </ul></li>
-  <li><a href="#future-ideas-pending" id="toc-future-ideas-pending" class="nav-link" data-scroll-target="#future-ideas-pending">Future Ideas (Pending)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -188,51 +190,78 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="ainews---project-log-vision" class="level1">
-<h1>ainews - Project Log &amp; Vision</h1>
-<section id="vision-goals" class="level2">
-<h2 class="anchored" data-anchor-id="vision-goals">Vision &amp; Goals</h2>
-<p>Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash.</p>
-<hr>
+<section id="project-ainews" class="level1">
+<h1>Project: ainews</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>World-class AI news portal focusing on unique English insights, built with Quarto and R. Currently in local development and testing phase.</p>
 </section>
-<section id="the-genesis" class="level2">
-<h2 class="anchored" data-anchor-id="the-genesis">2026-02-06: The Genesis</h2>
-<section id="accomplishments" class="level3">
-<h3 class="anchored" data-anchor-id="accomplishments">Accomplishments:</h3>
+<section id="tech-stack" class="level2">
+<h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
 <ul>
-<li>Successfully initialized the project at <code>/home/skutek/projekty/ainews</code>.</li>
-<li>Implemented <strong>Dark AI Theme</strong> (styles.css) with high visual contrast and 5rem Hero Title for impact.</li>
-<li>Configured Quarto blog structure with modern grid listing.</li>
-<li>Established <strong>Legal Base</strong>: privacy.qmd and terms.qmd (English).</li>
-<li>Created <strong>Live Scouting Logic</strong>:
-<ul>
-<li><code>data/sources.json</code> contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).</li>
-<li>Automated daily scout scheduled at 8:00 AM via <code>HEARTBEAT.md</code>.</li>
-<li>Selected <strong>Gemini 2.0 Flash</strong> as the primary summary/author engine.</li>
-</ul></li>
-<li>Published first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.</li>
+<li>Quarto</li>
+<li>R</li>
+<li>CSS (Dark AI Theme)</li>
+<li>Gemini 3 Flash (Primary Author Engine)</li>
 </ul>
 </section>
-<section id="lessons-learned" class="level3">
-<h3 class="anchored" data-anchor-id="lessons-learned">Lessons Learned:</h3>
-<ul>
-<li>Avoid copying data from other projects (prevents .RData/Rproj pollution).</li>
-<li>Quarto listing must be in <code>index.qmd</code>, not globally, to avoid render warnings in individual posts.</li>
-<li>Box placeholders on Home need high-quality images (800w) to prevent visual gaps.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="future-ideas-pending" class="level2">
-<h2 class="anchored" data-anchor-id="future-ideas-pending">Future Ideas (Pending)</h2>
+<section id="todos" class="level2">
+<h2 class="anchored" data-anchor-id="todos">TODOs</h2>
 <ul class="task-list">
 <li><label><input type="checkbox">Implement automatic image generation via AI for each post.</label></li>
 <li><label><input type="checkbox">Add RSS feed subscription link for readers.</label></li>
 <li><label><input type="checkbox">Integrate Newsletter signup.</label></li>
 <li><label><input type="checkbox">Add “Expert Opinion” section to each digest.</label></li>
 </ul>
+</section>
+<section id="cron-jobs" class="level2">
+<h2 class="anchored" data-anchor-id="cron-jobs">Cron Jobs</h2>
+<table class="table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 29%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schedule</th>
+<th>Script</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0 8 * * *</td>
+<td>Cron ID: c39bdd8a…</td>
+<td>Daily scout, unique post generation &amp; git push</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="event-log" class="level2">
+<h2 class="anchored" data-anchor-id="event-log">Event Log</h2>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">2026-02-06</h3>
+<ul>
+<li>Project initialized at /home/skutek/projekty/ainews.</li>
+<li>Implemented Dark AI Theme and Quarto structure.</li>
+<li>Established legal pages (Privacy/Terms).</li>
+<li>Initial setup of automated scouting with Gemini 2.0 Flash.</li>
+</ul>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1">2026-02-07</h3>
+<ul>
+<li>Upgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.</li>
+<li>Registered project in MEMORY.md and formatted project logs using pmem skill.</li>
+<li>Successfully performed manual daily update and verified cron automation.</li>
+<li>Implemented Deduplication System: Created <code>data/published_topics.json</code> to track topics and prevent repetitive content. Added “Validation &amp; Update” step to automation requirements.</li>
+<li>Verified historical posts and initialized topic database with today’s and yesterday’s entries.</li>
+<li>Synchronized heartbeat tasks to enforce deduplication check before každą publikacją.</li>
+</ul>
 
 
+</section>
 </section>
 </section>
 

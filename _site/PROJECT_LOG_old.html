@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AI News Digest -</title>
+<title>AI News Digest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,71 +66,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News">
 <link rel="canonical" href="https://ainews.pages.dev/">
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="AI News Digest" href="index.xml" data-external="1"><meta property="og:title" content="AI News Digest -">
+<meta property="og:title" content="AI News Digest">
 <meta property="og:site_name" content="AI News Digest">
-<meta name="twitter:title" content="AI News Digest -">
+<meta name="twitter:title" content="AI News Digest">
 <meta name="twitter:creator" content="@ainewsdigest">
 <meta name="twitter:site" content="@ainewsdigest">
 <meta name="twitter:card" content="summary_large_image">
@@ -156,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -221,7 +161,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -229,299 +169,74 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#latest-updates" id="toc-latest-updates" class="nav-link active" data-scroll-target="#latest-updates">Latest Updates</a></li>
+  <li><a href="#ainews---project-log-vision" id="toc-ainews---project-log-vision" class="nav-link active" data-scroll-target="#ainews---project-log-vision">ainews - Project Log &amp; Vision</a>
+  <ul class="collapse">
+  <li><a href="#vision-goals" id="toc-vision-goals" class="nav-link" data-scroll-target="#vision-goals">Vision &amp; Goals</a></li>
+  <li><a href="#the-genesis" id="toc-the-genesis" class="nav-link" data-scroll-target="#the-genesis">2026-02-06: The Genesis</a>
+  <ul class="collapse">
+  <li><a href="#accomplishments" id="toc-accomplishments" class="nav-link" data-scroll-target="#accomplishments">Accomplishments:</a></li>
+  <li><a href="#lessons-learned" id="toc-lessons-learned" class="nav-link" data-scroll-target="#lessons-learned">Lessons Learned:</a></li>
+  </ul></li>
+  <li><a href="#future-ideas-pending" id="toc-future-ideas-pending" class="nav-link" data-scroll-target="#future-ideas-pending">Future Ideas (Pending)</a></li>
+  </ul></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="AI Tools &amp; Frameworks">AI Tools &amp; Frameworks <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Agents &amp; Automation">Agents &amp; Automation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Industry News">Industry News <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LLMs &amp; Models">LLMs &amp; Models <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Research Highlights">Research Highlights <span class="quarto-category-count">(4)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
 
-<div class="hero-banner">
-<div class="hero-title">
-<p>AI News Digest</p>
-</div>
-<div class="hero-subtitle">
-<p>Cutting-edge updates from the global AI frontier. <br> Unique insights, no-copy analysis, and daily trends.</p>
-</div>
-</div>
-<section id="latest-updates" class="level1">
-<h1>Latest Updates</h1>
-
+<section id="ainews---project-log-vision" class="level1">
+<h1>ainews - Project Log &amp; Vision</h1>
+<section id="vision-goals" class="level2">
+<h2 class="anchored" data-anchor-id="vision-goals">Vision &amp; Goals</h2>
+<p>Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 3 Flash.</p>
+<hr>
+</section>
+<section id="the-genesis" class="level2">
+<h2 class="anchored" data-anchor-id="the-genesis">2026-02-06: The Genesis</h2>
+<section id="accomplishments" class="level3">
+<h3 class="anchored" data-anchor-id="accomplishments">Accomplishments:</h3>
+<ul>
+<li>Successfully initialized the project at <code>/home/skutek/projekty/ainews</code>.</li>
+<li>Implemented <strong>Dark AI Theme</strong> (styles.css) with high visual contrast and 5rem Hero Title for impact.</li>
+<li>Configured Quarto blog structure with modern grid listing.</li>
+<li>Established <strong>Legal Base</strong>: privacy.qmd and terms.qmd (English).</li>
+<li>Created <strong>Live Scouting Logic</strong>:
+<ul>
+<li><code>data/sources.json</code> contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).</li>
+<li>Automated daily scout scheduled at 8:00 AM via <code>HEARTBEAT.md</code>.</li>
+<li>Selected <strong>Gemini 3 Flash</strong> as the primary summary/author engine (upgraded from 2.0 Flash on 2026-02-07).</li>
+</ul></li>
+<li>Published first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.</li>
+</ul>
+</section>
+<section id="lessons-learned" class="level3">
+<h3 class="anchored" data-anchor-id="lessons-learned">Lessons Learned:</h3>
+<ul>
+<li>Avoid copying data from other projects (prevents .RData/Rproj pollution).</li>
+<li>Quarto listing must be in <code>index.qmd</code>, not globally, to avoid render warnings in individual posts.</li>
+<li>Box placeholders on Home need high-quality images (800w) to prevent visual gaps.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="future-ideas-pending" class="level2">
+<h2 class="anchored" data-anchor-id="future-ideas-pending">Future Ideas (Pending)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Implement automatic image generation via AI for each post.</label></li>
+<li><label><input type="checkbox">Add RSS feed subscription link for readers.</label></li>
+<li><label><input type="checkbox">Integrate Newsletter signup.</label></li>
+<li><label><input type="checkbox">Add “Expert Opinion” section to each digest.</label></li>
+</ul>
 
 
 </section>
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Research Highlights,Agents &amp; Automation" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770533939306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265">
-<a href="./posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2026-02-08-google-paperbanana-agentic-diagrams/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Google’s PaperBanana: Multi-Agent System for Research Diagrams
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Research Highlights'); return false;">
-Research Highlights
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Agents &amp; Automation'); return false;">
-Agents &amp; Automation
-</div>
-</div>
-<div class="card-text listing-description">
-A research collaboration between Google AI and Peking University has introduced <strong>PaperBanana</strong>, an innovative multi-agent framework designed to automate the creation of…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 8, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Industry News,LLMs &amp; Models" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770533939317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
-<a href="./posts/2026-02-08-waymo-world-model-genie-3/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2026-02-08-waymo-world-model-genie-3/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Waymo World Model: Generating Reality for Autonomous Driving
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Industry News'); return false;">
-Industry News
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs &amp; Models'); return false;">
-LLMs &amp; Models
-</div>
-</div>
-<div class="card-text listing-description">
-Waymo has unveiled its <strong>Waymo World Model (WWM)</strong>, a frontier generative system built on top of Google DeepMind’s <strong>Genie 3</strong>. This new engine is designed to create photorealistic…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 8, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="AI Tools &amp; Frameworks,Research Highlights" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770533939312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="313">
-<a href="./posts/2026-02-08-nvidia-c-radiov4-vision-backbone/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI Tools &amp; Frameworks'); return false;">
-AI Tools &amp; Frameworks
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Research Highlights'); return false;">
-Research Highlights
-</div>
-</div>
-<div class="card-text listing-description">
-NVIDIA has announced the release of <strong>C-RADIOv4</strong>, a new “agglomerative” vision backbone that unifies three powerful architectures—<strong>SigLIP2</strong>, <strong>DINOv3</strong>, and <strong>SAM3</strong>—into a single…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 8, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Agents &amp; Automation,LLMs &amp; Models" data-listing-date-sort="1770418800000" data-listing-file-modified-sort="1770482036199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
-<a href="./posts/2026-02-07-context-management-ai-agents/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Agents &amp; Automation'); return false;">
-Agents &amp; Automation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs &amp; Models'); return false;">
-LLMs &amp; Models
-</div>
-</div>
-<div class="card-text listing-description">
-As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: <strong>context rot</strong>. This occurs when…<strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 7, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="LLMs &amp; Models,AI Tools &amp; Frameworks" data-listing-date-sort="1770418800000" data-listing-file-modified-sort="1770482025867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<a href="./posts/2026-02-07-claude-opus-4-6-release/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs &amp; Models'); return false;">
-LLMs &amp; Models
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI Tools &amp; Frameworks'); return false;">
-AI Tools &amp; Frameworks
-</div>
-</div>
-<div class="card-text listing-description">
-Anthropic has officially launched <strong>Claude Opus 4.6</strong>, a significant upgrade designed specifically for complex, multi-step “agentic” tasks. Moving beyond simple chat…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 7, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Research Highlights,AI Tools &amp; Frameworks" data-listing-date-sort="1770418800000" data-listing-file-modified-sort="1770482030871" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
-<a href="./posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SyGra Studio: Visualizing Synthetic Data Generation
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Research Highlights'); return false;">
-Research Highlights
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI Tools &amp; Frameworks'); return false;">
-AI Tools &amp; Frameworks
-</div>
-</div>
-<div class="card-text listing-description">
-ServiceNow AI has introduced <strong>SyGra Studio</strong>, a new interactive environment designed to transform synthetic data generation from a terminal-based chore into a visual craft.…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 7, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Agents &amp; Automation,AI Tools &amp; Frameworks" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770380667848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
-<a href="./posts/2026-02-06-era-of-agentic-workflows/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://images.unsplash.com/photo-1620712943543-bcc4638d9f8e?auto=format&amp;fit=crop&amp;q=80&amp;w=800" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Agents &amp; Automation'); return false;">
-Agents &amp; Automation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI Tools &amp; Frameworks'); return false;">
-AI Tools &amp; Frameworks
-</div>
-</div>
-<div class="card-text listing-description">
-Exploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 6, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="LLMs &amp; Models,Agents &amp; Automation,Research Highlights" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770380582489" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="350">
-<a href="./posts/2026-02-06-daily-ai-digest/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&amp;fit=crop&amp;q=80&amp;w=800" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs &amp; Models'); return false;">
-LLMs &amp; Models
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Agents &amp; Automation'); return false;">
-Agents &amp; Automation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Research Highlights'); return false;">
-Research Highlights
-</div>
-</div>
-<div class="card-text listing-description">
-Anthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 6, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

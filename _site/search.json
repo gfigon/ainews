@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Latest Updates",
     "section": "",
-    "text": "AI News Digest\n\n\nCutting-edge updates from the global AI frontier.  Unique insights, no-copy analysis, and daily trends.\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks\n\n\n\nAgents & Automation\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSyGra Studio: Visualizing Synthetic Data Generation\n\n\n\nResearch Highlights\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nExploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "AI News Digest\n\n\nCutting-edge updates from the global AI frontier.  Unique insights, no-copy analysis, and daily trends.\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle’s PaperBanana: Multi-Agent System for Research Diagrams\n\n\n\nResearch Highlights\n\n\nAgents & Automation\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaymo World Model: Generating Reality for Autonomous Driving\n\n\n\nIndustry News\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA C-RADIOv4: A Unified Vision Backbone for Scale\n\n\n\nAI Tools & Frameworks\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSolving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks\n\n\n\nAgents & Automation\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSyGra Studio: Visualizing Synthetic Data Generation\n\n\n\nResearch Highlights\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nExploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-02-07-claude-opus-4-6-release/index.html",
@@ -103,41 +103,6 @@
     "title": "Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows",
     "section": "",
     "text": "Anthropic has officially launched Claude Opus 4.6, a significant upgrade designed specifically for complex, multi-step “agentic” tasks. Moving beyond simple chat interactions, the new model introduces features that allow it to plan, act, and revise over longer sessions with higher autonomy.\n\nKey Innovations in Opus 4.6\n\n1M Token Context Window (Beta): The first Opus-class model to support up to 1 million input tokens, enabling the ingestion of massive codebases and long-form documents.\nAdaptive Reasoning & Effort Controls: A new /effort parameter allows developers to choose between four levels (low, medium, high, max). This helps balance reasoning depth against speed and cost, making it easier to optimize for different types of tasks.\nAgentic Search & Coding Performance: Opus 4.6 has set new records on benchmarks like Terminal-Bench 2.0 and BrowseComp, outperforming competitors in scenarios where the AI must use tools and navigate the web to find answers.\nProduct Synergy: The model powers enhanced features in Claude Code (including an “agent teams” mode) and offers deeper integration with Excel and PowerPoint for automated data analysis and presentation generation.\n\n\n\nPerformance Highlights\nAccording to Anthropic’s technical reports, Opus 4.6 demonstrates a qualitative shift in long-context retrieval, scoring 76% on the 1M-token “needle-in-a-haystack” benchmark. It also shows nearly double the performance in specialized fields like life sciences and root cause analysis for software failures compared to its predecessor.\nRead more at the Anthropic Newsroom {rel=“nofollow”}."
-  },
-  {
-    "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
-    "href": "posts/2026-02-07-context-management-ai-agents/index.html",
-    "title": "Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks",
-    "section": "",
-    "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog {rel=“nofollow”}."
-  },
-  {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
-  },
-  {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
-  },
-  {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
-  },
-  {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
   },
   {
     "objectID": "posts/2026-02-06-daily-ai-digest/index.html",
@@ -168,6 +133,90 @@
     "text": "NVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
   },
   {
+    "objectID": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
+    "href": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
+    "title": "Google’s PaperBanana: Multi-Agent System for Research Diagrams",
+    "section": "",
+    "text": "A research collaboration between Google AI and Peking University has introduced PaperBanana, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.\n\nOrchestrating 5 Specialized Agents\nPaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:\n\nRetriever Agent: Searches a database for relevant reference examples to guide style and structure.\nPlanner Agent: Converts technical text descriptions into detailed visual plans.\nStylist Agent: Ensures the output adheres to professional academic aesthetics (the “NeurIPS Look”).\nVisualizer Agent: Generates the actual visuals. Notably, it uses code-based generation (Matplotlib) for statistical plots to ensure 100% data fidelity.\nCritic Agent: Inspects generated images for factual errors or glitches, facilitating an iterative refinement loop.\n\n\n\nPrecision vs. Hallucination\nA key innovation in PaperBanana is its hybrid approach to visualization. While it uses advanced image models for illustrative diagrams, it switches to executable Python code for statistical data. This prevents the “numerical hallucinations” often seen in standard generative AI, where axes might be mislabeled or data points shifted.\n\n\nPerformance and Benchmarking\nEvaluated against the new PaperBananaBench dataset—comprising nearly 300 test cases from NeurIPS 2025 publications—the framework showed a 17% improvement in overall score over baseline models. More impressively, it improved visual conciseness by 37.2%, making complex research more readable and accessible.\nThe system is particularly effective in generating “Agent & Reasoning” diagrams, achieving high scores by using narrative elements like vector robots and UI icons that match current research trends.\nSource Paper | GitHub Repository"
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+  },
+  {
+    "objectID": "PROJECT_LOG_old.html",
+    "href": "PROJECT_LOG_old.html",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 3 Flash.\n\n\n\n\n\n\n\nSuccessfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 3 Flash as the primary summary/author engine (upgraded from 2.0 Flash on 2026-02-07).\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps.\n\n\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
+  },
+  {
+    "objectID": "PROJECT_LOG_old.html#vision-goals",
+    "href": "PROJECT_LOG_old.html#vision-goals",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 3 Flash."
+  },
+  {
+    "objectID": "PROJECT_LOG_old.html#the-genesis",
+    "href": "PROJECT_LOG_old.html#the-genesis",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Successfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 3 Flash as the primary summary/author engine (upgraded from 2.0 Flash on 2026-02-07).\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps."
+  },
+  {
+    "objectID": "PROJECT_LOG_old.html#future-ideas-pending",
+    "href": "PROJECT_LOG_old.html#future-ideas-pending",
+    "title": "ainews - Project Log & Vision",
+    "section": "",
+    "text": "Implement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
+  },
+  {
+    "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "href": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "title": "Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks",
+    "section": "",
+    "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog {rel=“nofollow”}."
+  },
+  {
+    "objectID": "posts/2026-02-08-waymo-world-model-genie-3/index.html",
+    "href": "posts/2026-02-08-waymo-world-model-genie-3/index.html",
+    "title": "Waymo World Model: Generating Reality for Autonomous Driving",
+    "section": "",
+    "text": "Waymo has unveiled its Waymo World Model (WWM), a frontier generative system built on top of Google DeepMind’s Genie 3. This new engine is designed to create photorealistic, controllable, and multi-sensor driving environments, enabling the next generation of autonomous vehicle (AV) simulation.\n\nBeyond Simple Video Rendering\nWhile traditional simulators rely on on-road data, the Waymo World Model leverages the broad world knowledge acquired by Genie 3 during its pre-training on massive video datasets. By post-training this model specifically for the driving domain, Waymo can now generate consistent RGB video streams and Lidar point clouds simultaneously. This ensures that the “Waymo Driver” (the AI stack) perceives simulated worlds exactly as it does the real public roads.\n\n\nConquering the ‘Long-Tail’\nThe primary goal of WWM is to expose the AV stack to rare and dangerous “long-tail” events that are nearly impossible to capture in real-world logs. The model has shown an emergent ability to synthesize scenarios like: * Driving through roadway fires or flooded streets. * Encountering unusual objects like elephants or pedestrians in dinosaur costumes. * Navigating snowy conditions on the Golden Gate Bridge or in tropical settings.\nThese are not pre-programmed rules; rather, they are emergent behaviors from the model’s deep understanding of spatiotemporal dynamics.\n\n\nTriple-Axis Control\nWWM provides high-level control through three distinct mechanisms: 1. Driving Action Control: Testing “what if” scenarios by changing the vehicle’s trajectory. 2. Scene Layout Control: Repositioning traffic participants or modifying road geometry. 3. Language Control: Using natural language prompts to change weather, time of day, or lighting conditions instantly.\n\n\nDemocratizing Simulation\nPerhaps most impressively, the Waymo World Model can transform standard 2D smartphone or dashcam footage into interactive, multimodal simulations. This allows Waymo to expand its testing grounds into any location where consumer video exists, without requiring the physical presence of a Lidar-equipped fleet.\nBy reducing the compute cost for long-horizon rollouts and increasing the diversity of scenarios, Waymo is setting a new standard for how generative AI can solve the most difficult problems in physical robotics.\nWaymo Blog Post"
+  },
+  {
+    "objectID": "posts/2026-02-08-nvidia-c-radiov4-vision-backbone/index.html",
+    "href": "posts/2026-02-08-nvidia-c-radiov4-vision-backbone/index.html",
+    "title": "NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale",
+    "section": "",
+    "text": "NVIDIA has announced the release of C-RADIOv4, a new “agglomerative” vision backbone that unifies three powerful architectures—SigLIP2, DINOv3, and SAM3—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.\n\nThe Power of Agglomerative Distillation\nThe core of C-RADIOv4’s success lies in its distillation process. By training a single Vision Transformer (ViT) student to match the dense feature maps and summary tokens of heterogeneous teacher models, NVIDIA has created a backbone that captures the best of three worlds:\n\nSigLIP2-g-384: Provides superior image-text alignment for retrieval and classification.\nDINOv3-7B: Offers high-quality self-supervised features for dense spatial tasks.\nSAM3: Enables robust segmentation capabilities and drop-in compatibility with the latest Segment Anything decoders.\n\n\n\nBreakthrough in Resolution Robustness\nOne of the most challenging aspects of vision models is maintaining performance across different input sizes. C-RADIOv4 introduces stochastic multi-resolution training, sampling inputs from 128px up to 1152px. Coupled with the FeatSharp upsampling technique, this ensures that the model remains accurate whether processing a small thumbnail or a high-resolution medical image.\n\n\nSolving the “Artifact” Problem\nDistilling from large models often results in the student copying the teacher’s “noise” or border artifacts. NVIDIA solved this through shift-equivariant losses. By showing the teacher and student different, independently shifted crops of the same image, the system forces the student to learn genuine semantic structures rather than memorizing position-fixed noise patterns.\n\n\nDeployment and Accessibility\nC-RADIOv4 is designed for practical use, featuring a ViTDet-mode for efficient inference. On an A100 GPU, the student model’s windowed attention mechanism allows it to outperform the original SAM3 ViT-L+ encoder in speed while maintaining competitive accuracy.\nThe model has been released under the NVIDIA Open Model License, making it a powerful resource for researchers and enterprises looking to streamline their computer vision pipelines.\nTechnical Paper | Model on Hugging Face"
+  },
+  {
     "objectID": "posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html",
     "href": "posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html",
     "title": "SyGra Studio: Visualizing Synthetic Data Generation",
@@ -177,30 +226,44 @@
   {
     "objectID": "PROJECT_LOG.html",
     "href": "PROJECT_LOG.html",
-    "title": "ainews - Project Log & Vision",
+    "title": "Project: ainews",
     "section": "",
-    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash.\n\n\n\n\n\n\n\nSuccessfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 2.0 Flash as the primary summary/author engine.\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps.\n\n\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
+    "text": "World-class AI news portal focusing on unique English insights, built with Quarto and R. Currently in local development and testing phase.\n\n\n\n\nQuarto\nR\nCSS (Dark AI Theme)\nGemini 3 Flash (Primary Author Engine)\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest.\n\n\n\n\n\n\n\n\n\n\n\n\nSchedule\nScript\nPurpose\n\n\n\n\n0 8 * * *\nCron ID: c39bdd8a…\nDaily scout, unique post generation & git push\n\n\n\n\n\n\n\n\n\nProject initialized at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme and Quarto structure.\nEstablished legal pages (Privacy/Terms).\nInitial setup of automated scouting with Gemini 2.0 Flash.\n\n\n\n\n\nUpgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.\nRegistered project in MEMORY.md and formatted project logs using pmem skill.\nSuccessfully performed manual daily update and verified cron automation.\nImplemented Deduplication System: Created data/published_topics.json to track topics and prevent repetitive content. Added “Validation & Update” step to automation requirements.\nVerified historical posts and initialized topic database with today’s and yesterday’s entries.\nSynchronized heartbeat tasks to enforce deduplication check before každą publikacją."
   },
   {
-    "objectID": "PROJECT_LOG.html#vision-goals",
-    "href": "PROJECT_LOG.html#vision-goals",
-    "title": "ainews - Project Log & Vision",
+    "objectID": "PROJECT_LOG.html#description",
+    "href": "PROJECT_LOG.html#description",
+    "title": "Project: ainews",
     "section": "",
-    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 2.0 Flash."
+    "text": "World-class AI news portal focusing on unique English insights, built with Quarto and R. Currently in local development and testing phase."
   },
   {
-    "objectID": "PROJECT_LOG.html#the-genesis",
-    "href": "PROJECT_LOG.html#the-genesis",
-    "title": "ainews - Project Log & Vision",
+    "objectID": "PROJECT_LOG.html#tech-stack",
+    "href": "PROJECT_LOG.html#tech-stack",
+    "title": "Project: ainews",
     "section": "",
-    "text": "Successfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 2.0 Flash as the primary summary/author engine.\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps."
+    "text": "Quarto\nR\nCSS (Dark AI Theme)\nGemini 3 Flash (Primary Author Engine)"
   },
   {
-    "objectID": "PROJECT_LOG.html#future-ideas-pending",
-    "href": "PROJECT_LOG.html#future-ideas-pending",
-    "title": "ainews - Project Log & Vision",
+    "objectID": "PROJECT_LOG.html#todos",
+    "href": "PROJECT_LOG.html#todos",
+    "title": "Project: ainews",
     "section": "",
     "text": "Implement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
+  },
+  {
+    "objectID": "PROJECT_LOG.html#cron-jobs",
+    "href": "PROJECT_LOG.html#cron-jobs",
+    "title": "Project: ainews",
+    "section": "",
+    "text": "Schedule\nScript\nPurpose\n\n\n\n\n0 8 * * *\nCron ID: c39bdd8a…\nDaily scout, unique post generation & git push"
+  },
+  {
+    "objectID": "PROJECT_LOG.html#event-log",
+    "href": "PROJECT_LOG.html#event-log",
+    "title": "Project: ainews",
+    "section": "",
+    "text": "Project initialized at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme and Quarto structure.\nEstablished legal pages (Privacy/Terms).\nInitial setup of automated scouting with Gemini 2.0 Flash.\n\n\n\n\n\nUpgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.\nRegistered project in MEMORY.md and formatted project logs using pmem skill.\nSuccessfully performed manual daily update and verified cron automation.\nImplemented Deduplication System: Created data/published_topics.json to track topics and prevent repetitive content. Added “Validation & Update” step to automation requirements.\nVerified historical posts and initialized topic database with today’s and yesterday’s entries.\nSynchronized heartbeat tasks to enforce deduplication check before každą publikacją."
   },
   {
     "objectID": "terms.html",
