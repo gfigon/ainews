@@ -16,8 +16,7 @@ page-layout: full
 Robo AI Digest
 :::
 ::: {.hero-subtitle}
-Cutting-edge updates from the global AI frontier. <br>
-Unique insights, no-copy analysis, and daily trends.
+Cutting-edge updates from the global AI frontier.
 :::
 :::
 
