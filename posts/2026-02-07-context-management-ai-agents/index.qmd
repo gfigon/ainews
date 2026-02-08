@@ -21,4 +21,4 @@ A key takeaway for developers is that compression is only as good as its **recov
 
 By combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.
 
-Detailed technical breakdown available on the [LangChain Blog](https://blog.langchain.dev/context-management-for-deepagents/) {rel="nofollow"}.
+Detailed technical breakdown available on the [LangChain Blog](https://blog.langchain.dev/context-management-for-deepagents/){rel="nofollow"}.

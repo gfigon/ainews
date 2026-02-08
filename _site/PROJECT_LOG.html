@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-ainews" id="toc-project-ainews" class="nav-link active" data-scroll-target="#project-ainews">Project: ainews</a>
+  <li><a href="#project-robo-ai-digest-formerly-ainews" id="toc-project-robo-ai-digest-formerly-ainews" class="nav-link active" data-scroll-target="#project-robo-ai-digest-formerly-ainews">Project: Robo AI Digest (formerly ainews)</a>
   <ul class="collapse">
   <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
   <li><a href="#tech-stack" id="toc-tech-stack" class="nav-link" data-scroll-target="#tech-stack">Tech Stack</a></li>
@@ -142,8 +142,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#cron-jobs" id="toc-cron-jobs" class="nav-link" data-scroll-target="#cron-jobs">Cron Jobs</a></li>
   <li><a href="#event-log" id="toc-event-log" class="nav-link" data-scroll-target="#event-log">Event Log</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-06</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-08</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-02-07</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2026-02-06</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -155,11 +156,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="project-ainews" class="level1">
-<h1>Project: ainews</h1>
+<section id="project-robo-ai-digest-formerly-ainews" class="level1">
+<h1>Project: Robo AI Digest (formerly ainews)</h1>
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>World-class AI news portal focusing on unique English insights, built with Quarto and R. Currently in local development and testing phase.</p>
+<p>World-class AI news portal focusing on unique English insights, built with Quarto and R. Fully automated daily scouting and publishing engine delivering “Signal over Noise”.</p>
 </section>
 <section id="tech-stack" class="level2">
 <h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
@@ -168,12 +169,14 @@ ul.task-list li input[type="checkbox"] {
 <li>R</li>
 <li>CSS (Dark AI Theme)</li>
 <li>Gemini 3 Flash (Primary Author Engine)</li>
+<li>Pollinations.ai (AI Image Generation)</li>
+<li>Netlify (Hosting &amp; Forms)</li>
 </ul>
 </section>
 <section id="todos" class="level2">
 <h2 class="anchored" data-anchor-id="todos">TODOs</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Implement automatic image generation via AI for each post.</label></li>
+<li><label><input type="checkbox" checked="">Implement automatic image generation via AI for each post.</label></li>
 <li><label><input type="checkbox">Add RSS feed subscription link for readers.</label></li>
 <li><label><input type="checkbox">Integrate Newsletter signup.</label></li>
 <li><label><input type="checkbox">Add “Expert Opinion” section to each digest.</label></li>
@@ -206,12 +209,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="event-log" class="level2">
 <h2 class="anchored" data-anchor-id="event-log">Event Log</h2>
 <section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2026-02-06</h3>
+<h3 class="anchored" data-anchor-id="section">2026-02-08</h3>
 <ul>
-<li>Project initialized at /home/skutek/projekty/ainews.</li>
-<li>Implemented Dark AI Theme and Quarto structure.</li>
-<li>Established legal pages (Privacy/Terms).</li>
-<li>Initial setup of automated scouting with Gemini 2.0 Flash.</li>
+<li><strong>Rebranding</strong>: Successfully rebranded the project from “ainews” to “Robo AI Digest”.</li>
+<li><strong>Domain</strong>: Purchased and connected official domain <code>roboaidigest.com</code>.</li>
+<li><strong>Infrastructure</strong>: Switched Git authentication from HTTPS to SSH for reliable automated pushes.</li>
+<li><strong>Automation Enrichment</strong>: Integrated AI image generation using Pollinations.ai API for all new posts.</li>
+<li><strong>Privacy &amp; Security</strong>: Removed all raw email addresses from public pages and Git history; excluded <code>PROJECT_LOG.md</code> from repository.</li>
+<li><strong>Engagement</strong>: Implemented a Netlify-backed contact form on the About page.</li>
+<li><strong>Deployment</strong>: Configured <code>netlify.toml</code> for local-render-only builds and verified deployment on Netlify.</li>
 </ul>
 </section>
 <section id="section-1" class="level3">
@@ -223,6 +229,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Implemented Deduplication System: Created <code>data/published_topics.json</code> to track topics and prevent repetitive content. Added “Validation &amp; Update” step to automation requirements.</li>
 <li>Verified historical posts and initialized topic database with today’s and yesterday’s entries.</li>
 <li>Synchronized heartbeat tasks to enforce deduplication check before každą publikacją.</li>
+</ul>
+</section>
+<section id="section-2" class="level3">
+<h3 class="anchored" data-anchor-id="section-2">2026-02-06</h3>
+<ul>
+<li>Project initialized at /home/skutek/projekty/ainews.</li>
+<li>Implemented Dark AI Theme and Quarto structure.</li>
+<li>Established legal pages (Privacy/Terms).</li>
+<li>Initial setup of automated scouting with Gemini 2.0 Flash.</li>
 </ul>
 
 
