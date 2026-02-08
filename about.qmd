@@ -22,23 +22,30 @@ We focus on the four pillars of the modern AI revolution:
 The "Robo" in our name stands for autonomy and precision. By leveraging advanced AI to scout and synthesize news, we provide a digest that is consistent, unbiased, and focused purely on the facts. We don't just repeat news; we summarize the essence so you can stay informed in minutes, not hours.
 
 ---
+
 *Stay ahead of the curve. Simple. Brief. Reliable.*
 
 ### Contact Us
 
 If you have questions, suggestions, or want to collaborate, please use the form below.
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" style="width: 100%; margin-bottom: 10px;" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" style="width: 100%; margin-bottom: 10px;" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message" style="width: 100%; height: 100px; margin-bottom: 10px;"></textarea></label>
-  </p>
-  <p>
-    <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Send Message</button>
-  </p>
+```{=html}
+<form name="contact" method="POST" data-netlify="true" action="/about.html?success=true">
+  <input type="hidden" name="form-name" value="contact" />
+  <div style="margin-bottom: 15px;">
+    <label for="name" style="display: block; margin-bottom: 5px;">Your Name:</label>
+    <input type="text" name="name" id="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+  </div>
+  <div style="margin-bottom: 15px;">
+    <label for="email" style="display: block; margin-bottom: 5px;">Your Email:</label>
+    <input type="email" name="email" id="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+  </div>
+  <div style="margin-bottom: 15px;">
+    <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+    <textarea name="message" id="message" required style="width: 100%; height: 120px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+  </div>
+  <div>
+    <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 25px; border-radius: 5px; cursor: pointer; font-weight: bold;">Send Briefing Request</button>
+  </div>
 </form>
+```

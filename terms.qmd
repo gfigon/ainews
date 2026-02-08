@@ -4,7 +4,7 @@ title: "Terms of Service"
 
 # Terms of Service
 
-**Last Updated:** February 6, 2026
+**Last Updated:** February 8, 2026
 
 ## Acceptance of Terms
 
@@ -100,8 +100,6 @@ These terms are governed by the laws of the jurisdiction where our service opera
 
 ## Contact Information
 
-For questions about these Terms of Service, please contact:
+For questions about these Terms of Service, please contact us via the contact form on our [About page](about.qmd).
 
-**Email:** legal@ainewsdigest.com
-
-**Effective Date:** February 6, 2026
+**Effective Date:** February 8, 2026

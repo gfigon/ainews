@@ -4,7 +4,7 @@ title: "Privacy Policy"
 
 # Privacy Policy
 
-**Last Updated:** February 6, 2026
+**Last Updated:** February 8, 2026
 
 ## Information We Collect
 
@@ -14,15 +14,13 @@ title: "Privacy Policy"
 - Pages visited and time spent on our site
 - Referral sources
 
-### voluntarily Provided Information
-- Newsletter subscriptions (email address only)
+### Voluntarily Provided Information
 - Contact form submissions
 
 ## How We Use Your Information
 
 - To provide and maintain our AI news digest service
 - To improve user experience and website performance
-- To send newsletter updates (with explicit consent)
 - To analyze website traffic and engagement patterns
 
 ## Data Collection Methods
@@ -68,8 +66,6 @@ We may update this privacy policy periodically. Changes will be posted on this p
 
 ## Contact Us
 
-If you have questions about this Privacy Policy, please contact us at:
+If you have questions about this Privacy Policy, please contact us via the contact form on our [About page](about.qmd).
 
-**Email:** privacy@ainewsdigest.com
-
-**Effective Date:** February 6, 2026
+**Effective Date:** February 8, 2026
