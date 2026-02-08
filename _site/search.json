@@ -88,7 +88,7 @@
     "href": "about.html",
     "title": "About Robo AI Digest",
     "section": "",
-    "text": "The Mission: Signal Over Noise\nIn a world drowning in AI hype and daily announcements, Robo AI Digest was born from a simple necessity: the need for clarity. Our mission is to filter the global flow of information and deliver a precise, reliable, and accessible briefing on what truly matters in the world of Artificial Intelligence.\n\n\nWhat We Cover\nWe focus on the four pillars of the modern AI revolution:\n\nIntelligence & LLMs: Understanding the latest shifts in Large Language Models and Foundation models.\nWorkplace Automation: Identifying tools and workflows that actually increase productivity.\nIndustry Breakthroughs: Reporting on significant advancements that move the needle in business and research.\nFuture Trends: Tracking the long-term evolution of AI and its impact on society.\n\n\n\nWhy “Robo”?\nThe “Robo” in our name stands for autonomy and precision. By leveraging advanced AI to scout and synthesize news, we provide a digest that is consistent, unbiased, and focused purely on the facts. We don’t just repeat news; we summarize the essence so you can stay informed in minutes, not hours.\n\nStay ahead of the curve. Simple. Brief. Reliable."
+    "text": "The Mission: Signal Over Noise\nIn a world drowning in AI hype and daily announcements, Robo AI Digest was born from a simple necessity: the need for clarity. Our mission is to filter the global flow of information and deliver a precise, reliable, and accessible briefing on what truly matters in the world of Artificial Intelligence.\n\n\nWhat We Cover\nWe focus on the four pillars of the modern AI revolution:\n\nIntelligence & LLMs: Understanding the latest shifts in Large Language Models and Foundation models.\nWorkplace Automation: Identifying tools and workflows that actually increase productivity.\nIndustry Breakthroughs: Reporting on significant advancements that move the needle in business and research.\nFuture Trends: Tracking the long-term evolution of AI and its impact on society.\n\n\n\nWhy “Robo”?\nThe “Robo” in our name stands for autonomy and precision. By leveraging advanced AI to scout and synthesize news, we provide a digest that is consistent, unbiased, and focused purely on the facts. We don’t just repeat news; we summarize the essence so you can stay informed in minutes, not hours.\n\nStay ahead of the curve. Simple. Brief. Reliable.\n\n\nContact Us\nIf you have questions, suggestions, or want to collaborate, please use the form below.\n\n\nYour Name: \n\n\nYour Email: \n\n\nMessage:\n\n\n\n\n\nSend Message"
   },
   {
     "objectID": "index.html",
@@ -166,34 +166,6 @@
     "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
     "section": "",
     "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
-  },
-  {
-    "objectID": "PROJECT_LOG_old.html",
-    "href": "PROJECT_LOG_old.html",
-    "title": "ainews - Project Log & Vision",
-    "section": "",
-    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 3 Flash.\n\n\n\n\n\n\n\nSuccessfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 3 Flash as the primary summary/author engine (upgraded from 2.0 Flash on 2026-02-07).\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps.\n\n\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
-  },
-  {
-    "objectID": "PROJECT_LOG_old.html#vision-goals",
-    "href": "PROJECT_LOG_old.html#vision-goals",
-    "title": "ainews - Project Log & Vision",
-    "section": "",
-    "text": "Goal: Create a world-class AI news portal using Quarto + R, focused on unique English insights. Philosophy: Zero copy-paste. High visual impact (Dark AI Theme). Automated scouting via Gemini 3 Flash."
-  },
-  {
-    "objectID": "PROJECT_LOG_old.html#the-genesis",
-    "href": "PROJECT_LOG_old.html#the-genesis",
-    "title": "ainews - Project Log & Vision",
-    "section": "",
-    "text": "Successfully initialized the project at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme (styles.css) with high visual contrast and 5rem Hero Title for impact.\nConfigured Quarto blog structure with modern grid listing.\nEstablished Legal Base: privacy.qmd and terms.qmd (English).\nCreated Live Scouting Logic:\n\ndata/sources.json contains 20 top-tier AI sources (Hugging Face, arXiv, etc.).\nAutomated daily scout scheduled at 8:00 AM via HEARTBEAT.md.\nSelected Gemini 3 Flash as the primary summary/author engine (upgraded from 2.0 Flash on 2026-02-07).\n\nPublished first 2 professional posts (Daily Digest + Agentic Workflows analysis) with interlinking.\n\n\n\n\n\nAvoid copying data from other projects (prevents .RData/Rproj pollution).\nQuarto listing must be in index.qmd, not globally, to avoid render warnings in individual posts.\nBox placeholders on Home need high-quality images (800w) to prevent visual gaps."
-  },
-  {
-    "objectID": "PROJECT_LOG_old.html#future-ideas-pending",
-    "href": "PROJECT_LOG_old.html#future-ideas-pending",
-    "title": "ainews - Project Log & Vision",
-    "section": "",
-    "text": "Implement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest."
   },
   {
     "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
