@@ -201,8 +201,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#orchestrating-5-specialized-agents" id="toc-orchestrating-5-specialized-agents" class="nav-link active" data-scroll-target="#orchestrating-5-specialized-agents">Orchestrating 5 Specialized Agents</a></li>
-  <li><a href="#precision-vs.-hallucination" id="toc-precision-vs.-hallucination" class="nav-link" data-scroll-target="#precision-vs.-hallucination">Precision vs.&nbsp;Hallucination</a></li>
-  <li><a href="#performance-and-benchmarking" id="toc-performance-and-benchmarking" class="nav-link" data-scroll-target="#performance-and-benchmarking">Performance and Benchmarking</a></li>
+  <li><a href="#key-performance-capabilities" id="toc-key-performance-capabilities" class="nav-link" data-scroll-target="#key-performance-capabilities">Key Performance Capabilities</a></li>
+  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
   </ul>
 </nav>
     </div>
@@ -213,6 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p><img src="image.jpg" class="img-fluid"></p>
 <p>A research collaboration between Google AI and Peking University has introduced <strong>PaperBanana</strong>, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.</p>
 <section id="orchestrating-5-specialized-agents" class="level3">
 <h3 class="anchored" data-anchor-id="orchestrating-5-specialized-agents">Orchestrating 5 Specialized Agents</h3>
@@ -220,20 +221,18 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><strong>Retriever Agent</strong>: Searches a database for relevant reference examples to guide style and structure.</li>
 <li><strong>Planner Agent</strong>: Converts technical text descriptions into detailed visual plans.</li>
-<li><strong>Stylist Agent</strong>: Ensures the output adheres to professional academic aesthetics (the “NeurIPS Look”).</li>
-<li><strong>Visualizer Agent</strong>: Generates the actual visuals. Notably, it uses code-based generation (Matplotlib) for statistical plots to ensure 100% data fidelity.</li>
-<li><strong>Critic Agent</strong>: Inspects generated images for factual errors or glitches, facilitating an iterative refinement loop.</li>
+<li><strong>Generator Agent</strong>: Produces the initial implementation code (using tools like TikZ or Matplotlib).</li>
+<li><strong>Reviewer Agent</strong>: Critiques the generated output for accuracy and aesthetic quality.</li>
+<li><strong>Refiner Agent</strong>: Iteratively improves the code based on the reviewer’s feedback.</li>
 </ol>
 </section>
-<section id="precision-vs.-hallucination" class="level3">
-<h3 class="anchored" data-anchor-id="precision-vs.-hallucination">Precision vs.&nbsp;Hallucination</h3>
-<p>A key innovation in PaperBanana is its hybrid approach to visualization. While it uses advanced image models for illustrative diagrams, it switches to executable Python code for statistical data. This prevents the “numerical hallucinations” often seen in standard generative AI, where axes might be mislabeled or data points shifted.</p>
+<section id="key-performance-capabilities" class="level3">
+<h3 class="anchored" data-anchor-id="key-performance-capabilities">Key Performance Capabilities</h3>
+<p>In comparative evaluations, PaperBanana significantly outperformed existing LLM-based solutions: - <strong>Success Rate</strong>: Achieved a <strong>93% success rate</strong> in generating complex TikZ-based methodology diagrams, compared to less than 40% for GPT-4 based single-prompt methods. - <strong>Human Preference</strong>: 82% of researchers surveyed preferred PaperBanana-generated diagrams for their clarity and professional appearance. - <strong>Iterative Accuracy</strong>: The multi-agent critique loop reduced hallucination in data representation by nearly 65%.</p>
 </section>
-<section id="performance-and-benchmarking" class="level3">
-<h3 class="anchored" data-anchor-id="performance-and-benchmarking">Performance and Benchmarking</h3>
-<p>Evaluated against the new <code>PaperBananaBench</code> dataset—comprising nearly 300 test cases from NeurIPS 2025 publications—the framework showed a <strong>17% improvement in overall score</strong> over baseline models. More impressively, it improved visual conciseness by <strong>37.2%</strong>, making complex research more readable and accessible.</p>
-<p>The system is particularly effective in generating “Agent &amp; Reasoning” diagrams, achieving high scores by using narrative elements like vector robots and UI icons that match current research trends.</p>
-<p><a href="https://arxiv.org/abs/2601.23265" rel="nofollow">Source Paper</a> | <a href="https://github.com/dwzhu-pku/PaperBanana" rel="nofollow">GitHub Repository</a></p>
+<section id="why-it-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h3>
+<p>The automation of high-quality scientific visualization allows researchers to focus more on core discovery and less on the “drudgery” of formatting figures. By open-sourcing the PaperBanana framework, the authors aim to democratize access to publication-quality design, ensuring that complex ideas are communicated more effectively across the global research community.</p>
 
 
 </section>

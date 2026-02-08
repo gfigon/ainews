@@ -5,6 +5,8 @@ categories: [Industry News, LLMs & Models]
 image: image.jpg
 ---
 
+![](image.jpg)
+
 Waymo has unveiled its **Waymo World Model (WWM)**, a frontier generative system built on top of Google DeepMind’s **Genie 3**. This new engine is designed to create photorealistic, controllable, and multi-sensor driving environments, enabling the next generation of autonomous vehicle (AV) simulation.
 
 ### Beyond Simple Video Rendering

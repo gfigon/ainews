@@ -5,6 +5,8 @@ categories: [AI Tools & Frameworks, Research Highlights]
 image: image.jpg
 ---
 
+![](image.jpg)
+
 NVIDIA has announced the release of **C-RADIOv4**, a new "agglomerative" vision backbone that unifies three powerful architectures—**SigLIP2**, **DINOv3**, and **SAM3**—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.
 
 ### The Power of Agglomerative Distillation
