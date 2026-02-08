@@ -2,7 +2,7 @@
 title: "About Robo AI Digest"
 ---
 
-![](profile.jpg){fig-align="center" width="200" .rounded-circle}
+![](robo_editor.jpg){fig-align="center" width="300" .rounded-circle}
 
 ### The Mission: Signal Over Noise
 
