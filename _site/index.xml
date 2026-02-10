@@ -10,7 +10,272 @@
 <atom:link href="https://roboaidigest.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Automated daily briefings on the latest AI research and industry breakthroughs.</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 08 Feb 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Feb 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>OAT: The Action Tokenizer Robots Need</title>
+  <dc:creator>Robo AI Digest</dc:creator>
+  <link>https://roboaidigest.com/posts/2026-02-10-oat-robotics-tokenizer/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-tokenization-wall" class="level2">
+<h2 class="anchored" data-anchor-id="the-tokenization-wall">The Tokenization Wall</h2>
+<p>Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: <strong>continuous robot movements don’t tokenize easily</strong>.</p>
+<p>Previous approaches failed: - <strong>Binning</strong>: Creates massive, slow sequences - <strong>FAST</strong>: Fast but unreliable — small errors halt robots - <strong>Learned Latent Tokenizers</strong>: Safe but unordered, losing temporal structure</p>
+<p>Researchers from <strong>Harvard and Stanford</strong> identified three non-negotiables for robot tokenization:</p>
+<ol type="1">
+<li><strong>High Compression</strong> — Short token sequences</li>
+<li><strong>Total Decodability</strong> — Every sequence maps to a valid move</li>
+<li><strong>Causal Ordering</strong> — Left-to-right structure, global first, details later</li>
+</ol>
+</section>
+<section id="enter-ordered-action-tokenization-oat" class="level2">
+<h2 class="anchored" data-anchor-id="enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</h2>
+<p>OAT uses a transformer encoder with <strong>register tokens</strong> to summarize action chunks. The key innovation: <strong>Nested Dropout</strong> forces the model to learn important patterns first.</p>
+<section id="how-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
+<ul>
+<li>Actions are chunked into discrete tokens</li>
+<li>Registers summarize each chunk</li>
+<li>Nested Dropout prioritizes coarse → fine information</li>
+<li>Tokens are left-to-right causally ordered</li>
+</ul>
+<p>The result: A tokenizer that plays nicely with autoregressive next-token prediction.</p>
+</section>
+</section>
+<section id="benchmark-results" class="level2">
+<h2 class="anchored" data-anchor-id="benchmark-results">Benchmark Results</h2>
+<p>Across 20+ tasks in 4 simulation benchmarks:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Benchmark</th>
+<th>OAT Success</th>
+<th>Diffusion Policy</th>
+<th>Token Reduction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LIBERO</td>
+<td>56.3%</td>
+<td>36.6%</td>
+<td>224 → 8</td>
+</tr>
+<tr class="even">
+<td>RoboMimic</td>
+<td>73.1%</td>
+<td>67.1%</td>
+<td>224 → 8</td>
+</tr>
+<tr class="odd">
+<td>MetaWorld</td>
+<td>24.4%</td>
+<td>19.3%</td>
+<td>128 → 8</td>
+</tr>
+<tr class="even">
+<td>RoboCasa</td>
+<td>54.6%</td>
+<td>54.0%</td>
+<td>384 → 8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aggregate improvement: 52.3% success rate vs.&nbsp;baseline</strong></p>
+</section>
+<section id="the-anytime-revolution" class="level2">
+<h2 class="anchored" data-anchor-id="the-anytime-revolution">The “Anytime” Revolution</h2>
+<p>Most practical benefit: <strong>prefix-based detokenization</strong>.</p>
+<p>Since tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions)</p>
+<p>This flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers.</p>
+</section>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>Robotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides:</p>
+<ul>
+<li><strong>Reliability</strong>: Total decodability prevents execution failures</li>
+<li><strong>Scalability</strong>: Short sequences enable efficient autoregressive training</li>
+<li><strong>Flexibility</strong>: Anytime inference adapts to real-world constraints</li>
+</ul>
+<p>The code and paper are available on <a href="https://github.com/Chaoqi-LIU/oat">GitHub</a> and <a href="https://arxiv.org/abs/2602.04215">arXiv</a>.</p>
+<hr>
+<p><em>Signal over noise. Subscribe to <a href="https://roboaidigest.com">Robo AI Digest</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Agents &amp; Automation</category>
+  <category>AI Tools &amp; Frameworks</category>
+  <guid>https://roboaidigest.com/posts/2026-02-10-oat-robotics-tokenizer/</guid>
+  <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://image.pollinations.ai/prompt/robotics%20arm%20AI%20tokenizer%20futuristic%20technology%20blue%20orange%20neon%20--width%20768%20--height%20768" medium="image"/>
+</item>
+<item>
+  <title>Microsoft OrbitalBrain: Training ML Models in Space</title>
+  <dc:creator>Robo AI Digest</dc:creator>
+  <link>https://roboaidigest.com/posts/2026-02-10-microsoft-orbitalbrain/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-problem-satellite-data-never-reaches-earth" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-satellite-data-never-reaches-earth">The Problem: Satellite Data Never Reaches Earth</h2>
+<p>Earth observation constellations capture <strong>363,563 images per day</strong> at maximum rate. But due to downlink constraints, only <strong>11.7%</strong> of that data ever reaches ground stations within 24 hours.</p>
+<p>Microsoft researchers asked: What if we trained models <strong>in space</strong> instead?</p>
+</section>
+<section id="enter-orbitalbrain" class="level2">
+<h2 class="anchored" data-anchor-id="enter-orbitalbrain">Enter OrbitalBrain</h2>
+<p>Instead of satellites as passive data collectors, OrbitalBrain turns nanosatellite constellations into distributed training systems. Models train, aggregate, and update directly on orbit — using onboard compute, inter-satellite links, and predictive scheduling.</p>
+<section id="core-philosophy" class="level3">
+<h3 class="anchored" data-anchor-id="core-philosophy">Core Philosophy</h3>
+<p>The framework recognizes three key satellite characteristics: - Constellations are typically single-operator, enabling raw data sharing - Orbits, power, and ground visibility are <strong>predictable</strong> - Inter-satellite links (ISLs) and onboard accelerators are now practical</p>
+</section>
+<section id="how-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
+<p>Each satellite performs three actions under a cloud-computed schedule: - <strong>Local Compute</strong>: Train on stored imagery - <strong>Model Aggregation</strong>: Exchange parameters over ISLs - <strong>Data Transfer</strong>: Rebalance data distribution between satellites</p>
+<p>A cloud controller predicts orbital dynamics, power budgets, and link opportunities to optimize the schedule.</p>
+</section>
+</section>
+<section id="why-federated-learning-fails-in-space" class="level2">
+<h2 class="anchored" data-anchor-id="why-federated-learning-fails-in-space">Why Federated Learning Fails in Space</h2>
+<p>Standard FL approaches (AsyncFL, SyncFL, FedBuff, FedSpace) break down under real satellite constraints:</p>
+<ul>
+<li><strong>Intermittent connectivity</strong>: Updates become stale before aggregation</li>
+<li><strong>Power limits</strong>: Computing competes with essential operations</li>
+<li><strong>Non-i.i.d. data</strong>: Each satellite sees different scenes</li>
+</ul>
+<p>Result: <strong>10–40% accuracy degradation</strong> compared to idealized conditions.</p>
+</section>
+<section id="orbitalbrain-results" class="level2">
+<h2 class="anchored" data-anchor-id="orbitalbrain-results">OrbitalBrain Results</h2>
+<p>Simulated on real constellations (Planet: 207 sats, 12 ground stations; Spire: 117 sats):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Baseline Best</th>
+<th>OrbitalBrain</th>
+<th>Improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>fMoW (Planet)</td>
+<td>47.3%</td>
+<td>52.8%</td>
+<td>+5.5%</td>
+</tr>
+<tr class="even">
+<td>fMoW (Spire)</td>
+<td>40.1%</td>
+<td>59.2%</td>
+<td>+19.1%</td>
+</tr>
+<tr class="odd">
+<td>So2Sat (Planet)</td>
+<td>42.4%</td>
+<td>47.9%</td>
+<td>+5.5%</td>
+</tr>
+<tr class="even">
+<td>So2Sat (Spire)</td>
+<td>42.2%</td>
+<td>47.1%</td>
+<td>+4.9%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Time-to-accuracy</strong>: 1.52×–12.4× faster than ground-based approaches.</p>
+</section>
+<section id="the-bottom-line" class="level2">
+<h2 class="anchored" data-anchor-id="the-bottom-line">The Bottom Line</h2>
+<p>OrbitalBrain proves that satellite constellations can act as <strong>distributed ML systems</strong>, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays</p>
+<p>The future of Earth observation isn’t just better sensors — it’s <strong>better coordination</strong>.</p>
+<hr>
+<p><em>Cutting through the noise. Subscribe to <a href="https://roboaidigest.com">Robo AI Digest</a>.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Agents &amp; Automation</category>
+  <category>AI Tools &amp; Frameworks</category>
+  <guid>https://roboaidigest.com/posts/2026-02-10-microsoft-orbitalbrain/</guid>
+  <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://image.pollinations.ai/prompt/satellite%20constellation%20space%20ML%20earth%20orbit%20futuristic%20blue%20cyan%20--width%20768%20--height%20768" medium="image"/>
+</item>
+<item>
+  <title>ByteDance Protenix-v1: Open-Source AlphaFold3 Challenger</title>
+  <dc:creator>Robo AI Digest</dc:creator>
+  <link>https://roboaidigest.com/posts/2026-02-10-bytedance-protenix-v1/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-big-picture" class="level2">
+<h2 class="anchored" data-anchor-id="the-big-picture">The Big Picture</h2>
+<p>Can an open-source model truly match AlphaFold3’s performance? <strong>ByteDance says yes.</strong> Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.</p>
+<p>This isn’t just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics.</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>AlphaFold3 revolutionized biomolecular structure prediction but remained largely closed. Protenix-v1 democratizes this capability:</p>
+<ul>
+<li><strong>Full open stack</strong>: Code, weights, training pipelines — all available on <a href="https://github.com/bytedance/Protenix">GitHub</a></li>
+<li><strong>Fair comparisons</strong>: Model matches AF3’s training data cutoff (2021-09-30) and inference budget</li>
+<li><strong>Extensible</strong>: Designed for customization, not just inference</li>
+</ul>
+<p>The research team claims Protenix-v1 is the first open-source model to <strong>outperform AlphaFold3</strong> on diverse benchmark sets under matched constraints.</p>
+</section>
+<section id="the-technical-core" class="level2">
+<h2 class="anchored" data-anchor-id="the-technical-core">The Technical Core</h2>
+<p>Protenix-v1 implements an AF3-style diffusion architecture for all-atom complexes:</p>
+<ul>
+<li><strong>Parameters</strong>: 368M (matching AF3’s undisclosed scale class)</li>
+<li><strong>Coverage</strong>: Proteins, nucleic acids, ligands</li>
+<li><strong>Inference scaling</strong>: Log-linear accuracy gains with more sampled candidates</li>
+</ul>
+<p>The included PXMeter v1.0.0 toolkit provides: - Curated benchmark dataset (6,000+ complexes) - Time-split and domain-specific subsets - Unified metrics: complex LDDT, DockQ</p>
+</section>
+<section id="beyond-structure-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-structure-prediction">Beyond Structure Prediction</h2>
+<p>The Protenix ecosystem extends beyond prediction:</p>
+<ul>
+<li><strong>PXDesign</strong>: Binder design suite with 20–73% experimental hit rates</li>
+<li><strong>Protenix-Dock</strong>: Classical docking framework</li>
+<li><strong>Protenix-Mini</strong>: Lightweight variants for cost-effective inference</li>
+</ul>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<ol type="1">
+<li><strong>AF3-class, fully open</strong>: First open-source model matching AlphaFold3 performance</li>
+<li><strong>Fair benchmarking</strong>: PXMeter enables transparent, reproducible evaluations</li>
+<li><strong>Production-ready</strong>: Includes training code, weights, and a web server</li>
+<li><strong>Extensible ecosystem</strong>: Covers prediction, docking, and design</li>
+</ol>
+<p>The model is available at <a href="https://protenix-server.com/login">protenix-server.com</a>, with the full stack on GitHub.</p>
+<hr>
+<p><em>This digest cuts through the noise. Subscribe to <a href="https://roboaidigest.com">Robo AI Digest</a> for signal over noise.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Research Highlights</category>
+  <guid>https://roboaidigest.com/posts/2026-02-10-bytedance-protenix-v1/</guid>
+  <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-10-bytedance-protenix-v1/protenix-v1.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6</title>
   <link>https://roboaidigest.com/posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/</link>
