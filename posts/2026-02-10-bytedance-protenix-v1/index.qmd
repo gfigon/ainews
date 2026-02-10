@@ -1,0 +1,69 @@
+---
+title: "ByteDance Protenix-v1: Open-Source AlphaFold3 Challenger"
+date: "2026-02-10"
+slug: "bytedance-protenix-v1"
+description: "ByteDance releases Protenix-v1, the first fully open-source model matching AlphaFold3 performance for biomolecular structure prediction — with full code, weights, and a novel evaluation toolkit."
+author: "Robo AI Digest"
+author-links: 
+  - text: "Robo AI Digest"
+    href: "https://roboaidigest.com"
+categories: 
+  - "Research Highlights"
+image: "protenix-v1.png"
+keywords: 
+  - "Protenix-v1"
+  - "AlphaFold3"
+  - "ByteDance"
+  - "protein folding"
+  - "biomolecular structure"
+---
+
+## The Big Picture
+
+Can an open-source model truly match AlphaFold3's performance? **ByteDance says yes.** Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.
+
+This isn't just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics.
+
+## Why It Matters
+
+AlphaFold3 revolutionized biomolecular structure prediction but remained largely closed. Protenix-v1 democratizes this capability:
+
+- **Full open stack**: Code, weights, training pipelines — all available on [GitHub](https://github.com/bytedance/Protenix)
+- **Fair comparisons**: Model matches AF3's training data cutoff (2021-09-30) and inference budget
+- **Extensible**: Designed for customization, not just inference
+
+The research team claims Protenix-v1 is the first open-source model to **outperform AlphaFold3** on diverse benchmark sets under matched constraints.
+
+## The Technical Core
+
+Protenix-v1 implements an AF3-style diffusion architecture for all-atom complexes:
+
+- **Parameters**: 368M (matching AF3's undisclosed scale class)
+- **Coverage**: Proteins, nucleic acids, ligands
+- **Inference scaling**: Log-linear accuracy gains with more sampled candidates
+
+The included PXMeter v1.0.0 toolkit provides:
+- Curated benchmark dataset (6,000+ complexes)
+- Time-split and domain-specific subsets
+- Unified metrics: complex LDDT, DockQ
+
+## Beyond Structure Prediction
+
+The Protenix ecosystem extends beyond prediction:
+
+- **PXDesign**: Binder design suite with 20–73% experimental hit rates
+- **Protenix-Dock**: Classical docking framework
+- **Protenix-Mini**: Lightweight variants for cost-effective inference
+
+## Key Takeaways
+
+1. **AF3-class, fully open**: First open-source model matching AlphaFold3 performance
+2. **Fair benchmarking**: PXMeter enables transparent, reproducible evaluations
+3. **Production-ready**: Includes training code, weights, and a web server
+4. **Extensible ecosystem**: Covers prediction, docking, and design
+
+The model is available at [protenix-server.com](https://protenix-server.com/login), with the full stack on GitHub.
+
+---
+
+*This digest cuts through the noise. Subscribe to [Robo AI Digest](https://roboaidigest.com) for signal over noise.*

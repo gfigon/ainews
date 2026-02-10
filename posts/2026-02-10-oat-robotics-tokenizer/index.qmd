@@ -1,0 +1,85 @@
+---
+title: "OAT: The Action Tokenizer Robots Need"
+date: "2026-02-10"
+slug: "oat-robotics-tokenizer"
+description: "Harvard and Stanford researchers introduce Ordered Action Tokenization — bridging the gap between autoregressive language models and continuous robot movements."
+author: "Robo AI Digest"
+author-links: 
+  - text: "Robo AI Digest"
+    href: "https://roboaidigest.com"
+categories: 
+  - "Agents & Automation"
+  - "AI Tools & Frameworks"
+image: "https://image.pollinations.ai/prompt/robotics%20arm%20AI%20tokenizer%20futuristic%20technology%20blue%20orange%20neon%20--width%20768%20--height%20768"
+keywords: 
+  - "OAT"
+  - "Ordered Action Tokenization"
+  - "robotics"
+  - "autoregressive policies"
+  - "tokenization"
+---
+
+## The Tokenization Wall
+
+Large language models predict the next word. Shouldn't they predict the next robot move? The challenge: **continuous robot movements don't tokenize easily**.
+
+Previous approaches failed:
+- **Binning**: Creates massive, slow sequences
+- **FAST**: Fast but unreliable — small errors halt robots
+- **Learned Latent Tokenizers**: Safe but unordered, losing temporal structure
+
+Researchers from **Harvard and Stanford** identified three non-negotiables for robot tokenization:
+
+1. **High Compression** — Short token sequences
+2. **Total Decodability** — Every sequence maps to a valid move
+3. **Causal Ordering** — Left-to-right structure, global first, details later
+
+## Enter Ordered Action Tokenization (OAT)
+
+OAT uses a transformer encoder with **register tokens** to summarize action chunks. The key innovation: **Nested Dropout** forces the model to learn important patterns first.
+
+### How It Works
+
+- Actions are chunked into discrete tokens
+- Registers summarize each chunk
+- Nested Dropout prioritizes coarse → fine information
+- Tokens are left-to-right causally ordered
+
+The result: A tokenizer that plays nicely with autoregressive next-token prediction.
+
+## Benchmark Results
+
+Across 20+ tasks in 4 simulation benchmarks:
+
+| Benchmark | OAT Success | Diffusion Policy | Token Reduction |
+|-----------|-------------|------------------|----------------|
+| LIBERO | 56.3% | 36.6% | 224 → 8 |
+| RoboMimic | 73.1% | 67.1% | 224 → 8 |
+| MetaWorld | 24.4% | 19.3% | 128 → 8 |
+| RoboCasa | 54.6% | 54.0% | 384 → 8 |
+
+**Aggregate improvement: 52.3% success rate vs. baseline**
+
+## The "Anytime" Revolution
+
+Most practical benefit: **prefix-based detokenization**.
+
+Since tokens are ordered by importance:
+- 1–2 tokens → coarse direction (low latency)
+- 8 tokens → full precision (complex insertions)
+
+This flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers.
+
+## Why This Matters
+
+Robotics is entering its "GPT-3 era" — but only if we solve the tokenization gap. OAT provides:
+
+- **Reliability**: Total decodability prevents execution failures
+- **Scalability**: Short sequences enable efficient autoregressive training
+- **Flexibility**: Anytime inference adapts to real-world constraints
+
+The code and paper are available on [GitHub](https://github.com/Chaoqi-LIU/oat) and [arXiv](https://arxiv.org/abs/2602.04215).
+
+---
+
+*Signal over noise. Subscribe to [Robo AI Digest](https://roboaidigest.com).*

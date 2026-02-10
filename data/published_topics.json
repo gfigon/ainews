@@ -83,11 +83,27 @@
     },
     {
       "count": 1,
-      "last_published": "2026-02-09",
+      "last_published": "2026-02-10",
       "slugs": [
-        "2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6"
+        "2026-02-10-bytedance-protenix-v1"
       ],
-      "term": "Genie 3"
+      "term": "Protenix-v1"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-10",
+      "slugs": [
+        "2026-02-10-microsoft-orbitalbrain"
+      ],
+      "term": "OrbitalBrain"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-10",
+      "slugs": [
+        "2026-02-10-oat-robotics-tokenizer"
+      ],
+      "term": "OAT"
     }
   ]
 }
