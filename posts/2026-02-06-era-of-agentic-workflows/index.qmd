@@ -3,6 +3,7 @@ title: "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving"
 date: "2026-02-06"
 categories: [Agents & Automation, AI Tools & Frameworks]
 image: "https://images.unsplash.com/photo-1620712943543-bcc4638d9f8e?auto=format&fit=crop&q=80&w=800"
+fig-alt: "The Era of Agentic Workflows"
 description: "Exploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks."
 ---
 

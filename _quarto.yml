@@ -14,8 +14,6 @@ website:
   open-graph: true
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
     right:

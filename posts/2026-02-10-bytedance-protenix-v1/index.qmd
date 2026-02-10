@@ -10,6 +10,7 @@ author-links:
 categories: 
   - "Research Highlights"
 image: "protenix-v1.png"
+fig-alt: "ByteDance Protenix-v1 protein structure visualization"
 ---
 
 ## The Big Picture

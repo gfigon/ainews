@@ -7,7 +7,7 @@ pagetitle: "Robo AI Digest - AI News, Machine Learning & Technology"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Daily AI news and insights covering LLMs, AI Agents, Machine Learning and cutting-edge technology breakthroughs.">
+      <meta name="description" content="Daily AI news and insights on LLMs, AI Agents, Machine Learning breakthroughs and cutting-edge technology. Stay ahead with Robo AI Digest.">
       <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Technology, Deep Learning, Artificial Intelligence">
 
 # === Ustawienia strony ===
