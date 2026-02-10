@@ -76,7 +76,3 @@ OrbitalBrain proves that satellite constellations can act as **distributed ML sy
 - Climate analytics without multi-day delays
 
 The future of Earth observation isn't just better sensors — it's **better coordination**.
-
----
-
-*Cutting through the noise. Subscribe to [Robo AI Digest](https://roboaidigest.com).*

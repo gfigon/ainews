@@ -10,6 +10,7 @@ website:
     site: "@roboaidigest"
     creator: "@roboaidigest"
     card-style: summary_large_image
+    image: "https://roboaidigest.com/social-share.png"
   open-graph: true
   navbar:
     left:
@@ -30,9 +31,15 @@ format:
     theme: [cosmo, styles.css]
     toc: true
     code-fold: true
+    css: hide-elements.css
     include-in-header:
       text: |
         <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Ethics, Technology News, Robo AI Digest">
         <link rel="canonical" href="https://roboaidigest.com/">
+        <meta property="og:image" content="https://roboaidigest.com/social-share.png">
+        <meta property="og:type" content="article">
+        <meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
+    title-block-categories: false
+    title-block-style: plain
 
 editor: visual

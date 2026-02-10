@@ -63,7 +63,3 @@ The Protenix ecosystem extends beyond prediction:
 4. **Extensible ecosystem**: Covers prediction, docking, and design
 
 The model is available at [protenix-server.com](https://protenix-server.com/login), with the full stack on GitHub.
-
----
-
-*This digest cuts through the noise. Subscribe to [Robo AI Digest](https://roboaidigest.com) for signal over noise.*
