@@ -1,6 +1,16 @@
 ---
+# === Wyświetlane na stronie ===
 title: "Robo AI Digest"
-subtitle: "Cutting-edge updates from the global AI frontier."
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Robo AI Digest - AI News, Machine Learning & Technology"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Daily AI news and insights covering LLMs, AI Agents, Machine Learning and cutting-edge technology breakthroughs.">
+      <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Technology, Deep Learning, Artificial Intelligence">
+
+# === Ustawienia strony ===
 listing:
   contents: posts
   sort: "date desc"
@@ -10,6 +20,17 @@ listing:
   filter-ui: false
   feed: true
 page-layout: full
+title-block-banner: "social-share.png"
+title-block-banner-alt: "AI technology abstract visualization"
 ---
+
+::: {.hero-banner}
+::: {.hero-title}
+Robo AI Digest
+:::
+::: {.hero-subtitle}
+Cutting-edge updates from the global AI frontier.
+:::
+:::
 
 # Latest Updates
