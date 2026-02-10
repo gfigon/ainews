@@ -28,7 +28,7 @@ This isn't just another AlphaFold clone. Protenix-v1 includes a complete trainin
 
 AlphaFold3 revolutionized biomolecular structure prediction but remained largely closed. Protenix-v1 democratizes this capability:
 
-- **Full open stack**: Code, weights, training pipelines — all available on [GitHub](https://github.com/bytedance/Protenix)
+- **Full open stack**: Code, weights, training pipelines — all available on [GitHub](https://github.com/bytedance/Protenix){rel="nofollow"}
 - **Fair comparisons**: Model matches AF3's training data cutoff (2021-09-30) and inference budget
 - **Extensible**: Designed for customization, not just inference
 
@@ -62,4 +62,4 @@ The Protenix ecosystem extends beyond prediction:
 3. **Production-ready**: Includes training code, weights, and a web server
 4. **Extensible ecosystem**: Covers prediction, docking, and design
 
-The model is available at [protenix-server.com](https://protenix-server.com/login), with the full stack on GitHub.
+The model is available at [protenix-server.com](https://protenix-server.com/login){rel="nofollow"}, with the full stack on GitHub.

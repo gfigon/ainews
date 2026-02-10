@@ -78,4 +78,4 @@ Robotics is entering its "GPT-3 era" — but only if we solve the tokenization g
 - **Scalability**: Short sequences enable efficient autoregressive training
 - **Flexibility**: Anytime inference adapts to real-world constraints
 
-The code and paper are available on [GitHub](https://github.com/Chaoqi-LIU/oat) and [arXiv](https://arxiv.org/abs/2602.04215).
+The code and paper are available on [GitHub](https://github.com/Chaoqi-LIU/oat){rel="nofollow"} and [arXiv](https://arxiv.org/abs/2602.04215){rel="nofollow"}.
