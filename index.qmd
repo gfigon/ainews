@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Robo AI Digest"
+subtitle: "Cutting-edge updates from the global AI frontier."
 listing:
   contents: posts
   sort: "date desc"
@@ -10,14 +11,5 @@ listing:
   feed: true
 page-layout: full
 ---
-
-::: {.hero-banner}
-::: {.hero-title}
-Robo AI Digest
-:::
-::: {.hero-subtitle}
-Cutting-edge updates from the global AI frontier.
-:::
-:::
 
 # Latest Updates

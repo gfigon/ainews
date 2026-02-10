@@ -231,6 +231,15 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Model Update</strong>: Primary author engine switched to MiniMax M2.1</li>
 <li><strong>Deployment Fix</strong>: Netlify was skipping Quarto build (3s deploy time). Fixed by committing rendered _site/ folder to GitHub for direct CDN deployment</li>
 <li><strong>Live</strong>: All 3 posts now visible at roboaidigest.com (commit 4a02ce7)</li>
+<li><strong>SEO Improvements</strong>:
+<ul>
+<li>Added OG/Twitter Card meta tags via header-includes</li>
+<li>Added robots and googlebot meta tags</li>
+<li>Moved keywords from frontmatter to header-includes (global only)</li>
+<li>Created hide-elements.css to hide keywords section and footer from posts</li>
+<li>Added rel=“nofollow” to all external links</li>
+<li>Enabled canonical-url: true for automatic canonical tags</li>
+</ul></li>
 </ul>
 </section>
 <section id="section-1" class="level3">
