@@ -11,12 +11,6 @@ categories:
   - "Agents & Automation"
   - "AI Tools & Frameworks"
 image: "https://image.pollinations.ai/prompt/robotics%20arm%20AI%20tokenizer%20futuristic%20technology%20blue%20orange%20neon%20--width%20768%20--height%20768"
-keywords: 
-  - "OAT"
-  - "Ordered Action Tokenization"
-  - "robotics"
-  - "autoregressive policies"
-  - "tokenization"
 ---
 
 ## The Tokenization Wall

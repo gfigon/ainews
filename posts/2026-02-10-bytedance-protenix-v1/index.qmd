@@ -10,12 +10,6 @@ author-links:
 categories: 
   - "Research Highlights"
 image: "protenix-v1.png"
-keywords: 
-  - "Protenix-v1"
-  - "AlphaFold3"
-  - "ByteDance"
-  - "protein folding"
-  - "biomolecular structure"
 ---
 
 ## The Big Picture
@@ -62,4 +56,4 @@ The Protenix ecosystem extends beyond prediction:
 3. **Production-ready**: Includes training code, weights, and a web server
 4. **Extensible ecosystem**: Covers prediction, docking, and design
 
-The model is available at [protenix-server.com](https://protenix-server.com/login){rel="nofollow"}, with the full stack on GitHub.
+The model is available at [protenix-server.com](https://protenix-server.com/login){rel="nofollow"}, with the full stack on [GitHub](https://github.com/bytedance/Protenix){rel="nofollow"}.
