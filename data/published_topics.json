@@ -97,13 +97,29 @@
       ],
       "term": "OrbitalBrain"
     },
+{
+      "count": 1,
+      "last_published": "2026-02-11",
+      "slugs": [
+        "2026-02-11-transformers-js-v4-webgpu"
+      ],
+      "term": "Transformers.js v4"
+    },
     {
       "count": 1,
-      "last_published": "2026-02-10",
+      "last_published": "2026-02-11",
       "slugs": [
-        "2026-02-10-oat-robotics-tokenizer"
+        "2026-02-11-xai-founding-team-exodus"
       ],
-      "term": "OAT"
+      "term": "xAI Founding Team"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-11",
+      "slugs": [
+        "2026-02-11-agent-world-model-synthetic-environments"
+      ],
+      "term": "Agent World Model"
     }
   ]
 }

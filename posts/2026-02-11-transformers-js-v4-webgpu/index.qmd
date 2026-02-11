@@ -1,0 +1,63 @@
+---
+title: "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js"
+date: "2026-02-11"
+slug: "transformers-js-v4-webgpu"
+description: "Hugging Face releases Transformers.js v4 with a complete WebGPU runtime rewrite, enabling 100% local AI inference in browsers, Node.js, and Deno with up to 4x speedups."
+author: "Robo AI Digest"
+author-links: 
+  - text: "Robo AI Digest"
+    href: "https://roboaidigest.com"
+categories: 
+  - "AI Tools & Frameworks"
+image: "https://image.pollinations.ai/prompt/Transformers.js%20v4%20WebGPU%20AI%20browser%20Node.js%20architecture%20dark%20cyberpunk%20style?width=800&height=400&nologo=true"
+fig-alt: "Transformers.js v4 WebGPU architecture diagram"
+---
+
+## The Big Picture
+
+Running state-of-the-art AI models locally just got a major upgrade. **Hugging Face has released Transformers.js v4**, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.
+
+After nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime's WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase.
+
+## Why It Matters
+
+The shift to WebGPU isn't just technical jargon — it fundamentally changes what's possible with client-side AI:
+
+- **Offline-first**: Full offline support with local WASM caching after initial download
+- **Cross-platform**: Single codebase runs in browsers, Node.js, Bun, and Deno
+- **Performance gains**: Up to 4x speedup for BERT embedding models using optimized operators
+- **Larger models**: Support for models exceeding 8B parameters (GPT-OSS 20B tested at ~60 tokens/sec on M4 Pro Max)
+
+For developers, this means deploying sophisticated AI features without relying on backend API calls or worrying about server costs.
+
+## The Technical Core
+
+The v4 release introduces several architectural improvements:
+
+**New WebGPU Runtime**
+The entire runtime was rewritten in C++ with close collaboration from the ONNX Runtime team. This enables support for custom operators like GroupQueryAttention, MatMulNBits, and QMoE that power modern LLM architectures.
+
+**Repository Restructuring**
+Transformers.js has evolved from a single package to a monorepo using pnpm workspaces. This allows shipping focused sub-packages without the overhead of maintaining separate repositories.
+
+**Standalone Tokenizers**
+The tokenization logic is now available as a separate [@huggingface/tokenizers](https://www.npmjs.com/package/@huggingface/tokenizers){rel="nofollow"} library — just 8.8kB gzipped with zero dependencies.
+
+**Build System Migration**
+Moving from Webpack to esbuild reduced build times from 2 seconds to 200 milliseconds, while bundle sizes decreased by 10% (transformers.web.js is now 53% smaller).
+
+## New Model Support
+
+Version 4 adds support for cutting-edge architectures including GPT-OSS, Chatterbox, GraniteMoeHybrid, LFM2-MoE, HunYuanDenseV1, Apertus, Olmo3, FalconH1, and Yitu-LLM. These include:
+- Mamba (state-space models)
+- Multi-head Latent Attention (MLA)
+- Mixture of Experts (MoE)
+
+## Key Takeaways
+
+1. **Local-first AI**: Run SOTA models completely offline in browsers or Node.js
+2. **4x faster inference**: WebGPU + optimized ONNX operators deliver significant speedups
+3. **Cross-runtime compatibility**: Same code works across all JavaScript environments
+4. **Expanded model support**: New architectures including MoE and state-space models
+
+Install the preview with `npm i @huggingface/transformers@next` and explore examples at the [Transformers.js repository](https://github.com/xenova/transformers.js){rel="nofollow"}.
