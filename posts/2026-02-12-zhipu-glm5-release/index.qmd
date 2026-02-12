@@ -1,0 +1,41 @@
+---
+title: "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini"
+date: "2026-02-12"
+categories: [LLMs & Models, Open Source, Agents & Automation]
+image: "cover.jpg"
+description: "China's Zhipu AI has released GLM-5, a massive 744-billion parameter Mixture-of-Experts (MoE) model. Featuring the 'Slime' RL framework, it sets new standards for open-source agentic performance."
+---
+
+![Zhipu GLM-5: A new era for open-source agentic models.](cover.jpg)
+
+## The Rise of GLM-5
+
+In a significant move for the open-source AI ecosystem, **Zhipu AI** (rebranding as **Z.ai**) has officially released **GLM-5**, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic's Claude Opus 4.5 and Google's Gemini 3 Pro.
+
+Available now on platforms like OpenRouter (where it was previously spotted in stealth as "Pony Alpha"), GLM-5 represents a massive leap in coding performance and long-horizon agentic capabilities.
+
+### Key Breakthroughs: The "Slime" Framework
+
+The standout technical innovation in GLM-5 is the introduction of the **"Slime" (Scalable Lightweight Iterative Model Evolution)** reinforcement learning framework. 
+
+Traditionally, Reinforcement Learning (RL) training for large models is bottlenecked by synchronous policy updates—where the entire system must wait for data generation before updating. **Slime** breaks this cycle by:
+
+*   **Asynchronous Training:** Decoupling data generation from policy updates, allowing for up to 3x higher throughput.
+*   **Active Partial Rollouts (APRIL):** Handling complex, long-running agent tasks by independently generating trajectories.
+*   **Reduced Hallucinations:** Zhipu claims a record-low hallucination rate, particularly in complex tool-use scenarios.
+
+### Performance Benchmarks
+
+GLM-5 has shown exceptional results in several key areas:
+*   **Coding:** Built success rates in frontend tasks have improved by **26%** over its predecessor, GLM-4.7.
+*   **Agentic Planning:** It excels in benchmarks like **τ2-Bench** (complex tool planning) and **BrowseComp** (networked search understanding).
+*   **Efficiency:** Despite its size, the MoE architecture ensures it remains competitively priced, ranging from $0.80 to $1.00 per million input tokens.
+
+## Why It Matters
+
+The release of GLM-5 just before the Lunar New Year signals the intensifying competition in the "frontier" model space. By making such a powerful model open-source, Zhipu AI is positioning itself as the "DeepSeek of 2026," providing the community with tools that were previously the exclusive domain of Silicon Valley's closed labs.
+
+As OpenAI prepares to retire GPT-4o tomorrow (February 13), the arrival of GLM-5 offers a compelling alternative for developers seeking high-end reasoning and agentic control without the vendor lock-in.
+
+---
+*Sources: Reuters, VentureBeat, Z.ai Official Release.*

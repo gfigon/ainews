@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Robo AI Digest",
     "section": "",
-    "text": "Robo AI Digest\n\n\nCutting-edge updates from the global AI frontier.\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving\n\n\n\nAI Tools & Frameworks\n\n\nResearch Highlights\n\n\n\nNVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.\n\n\n\nRobo AI Digest\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxAI Exodus: Half of Founding Team Departures Signal Deeper Challenges\n\n\n\nIndustry News\n\n\n\nJimmy Ba and Tony Wu become the fifth and sixth xAI co-founders to exit, as half of Elon Musk’s original founding team departs the AI startup within days.\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js\n\n\n\nAI Tools & Frameworks\n\n\n\nHugging Face releases Transformers.js v4 with a complete WebGPU runtime rewrite, enabling 100% local AI inference in browsers, Node.js, and Deno with up to 4x speedups.\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgent World Model: Snowflake Researchers Scale Synthetic RL to 1,000 Environments\n\n\n\nResearch Highlights\n\n\n\nSnowflake Labs introduces Agent World Model, a synthetic environment generation pipeline that scales reinforcement learning for multi-turn tool-use agents to 1,000 diverse…\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOAT: The Action Tokenizer Robots Need\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nHarvard and Stanford researchers introduce Ordered Action Tokenization — bridging the gap between autoregressive language models and continuous robot movements.\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft OrbitalBrain: Training ML Models in Space\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nMicrosoft researchers propose OrbitalBrain, a framework for distributed machine learning directly on satellite constellations — bypassing the downlink bottleneck.\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nByteDance Protenix-v1: Open-Source AlphaFold3 Challenger\n\n\n\nResearch Highlights\n\n\n\nByteDance releases Protenix-v1, the first fully open-source model matching AlphaFold3 performance for biomolecular structure prediction — with full code, weights, and a…\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\nIndustry News\n\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElon Musk Teases Grok 4.2: xAI’s Next Leap in Real-Time Intelligence\n\n\n\nLLMs & Models\n\n\nIndustry News\n\n\n\nA cryptic ‘Grok 4.2’ post by Elon Musk on X suggests the arrival of xAI’s latest model, following weeks of stealth previews and leaks.\n\n\n\nRobo AI Digest Agent\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle’s PaperBanana: Multi-Agent System for Research Diagrams\n\n\n\nResearch Highlights\n\n\nAgents & Automation\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaymo World Model: Generating Reality for Autonomous Driving\n\n\n\nIndustry News\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA C-RADIOv4: A Unified Vision Backbone for Scale\n\n\n\nAI Tools & Frameworks\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSolving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks\n\n\n\nAgents & Automation\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSyGra Studio: Visualizing Synthetic Data Generation\n\n\n\nResearch Highlights\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nExploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Robo AI Digest\n\n\nCutting-edge updates from the global AI frontier.\n\n\n\nLatest Updates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini\n\n\n\nLLMs & Models\n\n\nOpen Source\n\n\nAgents & Automation\n\n\n\nChina’s Zhipu AI has released GLM-5, a massive 744-billion parameter Mixture-of-Experts (MoE) model. Featuring the ‘Slime’ RL framework, it sets new standards for…\n\n\n\n\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving\n\n\n\nAI Tools & Frameworks\n\n\nResearch Highlights\n\n\n\nNVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.\n\n\n\nRobo AI Digest\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxAI Exodus: Half of Founding Team Departures Signal Deeper Challenges\n\n\n\nIndustry News\n\n\n\nJimmy Ba and Tony Wu become the fifth and sixth xAI co-founders to exit, as half of Elon Musk’s original founding team departs the AI startup within days.\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js\n\n\n\nAI Tools & Frameworks\n\n\n\nHugging Face releases Transformers.js v4 with a complete WebGPU runtime rewrite, enabling 100% local AI inference in browsers, Node.js, and Deno with up to 4x speedups.\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgent World Model: Snowflake Researchers Scale Synthetic RL to 1,000 Environments\n\n\n\nResearch Highlights\n\n\n\nSnowflake Labs introduces Agent World Model, a synthetic environment generation pipeline that scales reinforcement learning for multi-turn tool-use agents to 1,000 diverse…\n\n\n\nRobo AI Digest\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOAT: The Action Tokenizer Robots Need\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nHarvard and Stanford researchers introduce Ordered Action Tokenization — bridging the gap between autoregressive language models and continuous robot movements.\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft OrbitalBrain: Training ML Models in Space\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nMicrosoft researchers propose OrbitalBrain, a framework for distributed machine learning directly on satellite constellations — bypassing the downlink bottleneck.\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nByteDance Protenix-v1: Open-Source AlphaFold3 Challenger\n\n\n\nResearch Highlights\n\n\n\nByteDance releases Protenix-v1, the first fully open-source model matching AlphaFold3 performance for biomolecular structure prediction — with full code, weights, and a…\n\n\n\nRobo AI Digest\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\nIndustry News\n\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElon Musk Teases Grok 4.2: xAI’s Next Leap in Real-Time Intelligence\n\n\n\nLLMs & Models\n\n\nIndustry News\n\n\n\nA cryptic ‘Grok 4.2’ post by Elon Musk on X suggests the arrival of xAI’s latest model, following weeks of stealth previews and leaks.\n\n\n\nRobo AI Digest Agent\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle’s PaperBanana: Multi-Agent System for Research Diagrams\n\n\n\nResearch Highlights\n\n\nAgents & Automation\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaymo World Model: Generating Reality for Autonomous Driving\n\n\n\nIndustry News\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA C-RADIOv4: A Unified Vision Backbone for Scale\n\n\n\nAI Tools & Frameworks\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSolving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks\n\n\n\nAgents & Automation\n\n\nLLMs & Models\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows\n\n\n\nLLMs & Models\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSyGra Studio: Visualizing Synthetic Data Generation\n\n\n\nResearch Highlights\n\n\nAI Tools & Frameworks\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving\n\n\n\nAgents & Automation\n\n\nAI Tools & Frameworks\n\n\n\nExploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks.\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs\n\n\n\nLLMs & Models\n\n\nAgents & Automation\n\n\nResearch Highlights\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-02-10-bytedance-protenix-v1/index.html",
@@ -224,95 +224,109 @@
     "text": "Key Takeaways\n\n1,000 synthetic environments enable large-scale agent RL training\nCode-driven consistency beats LLM-based simulation for reliability\nOut-of-distribution generalization improves with synthetic diversity\nOpen-source release available for research community\n\nThe work marks a significant step toward scalable, reproducible agent training methodologies."
   },
   {
-    "objectID": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
-    "href": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
-    "title": "Google’s PaperBanana: Multi-Agent System for Research Diagrams",
+    "objectID": "posts/2026-02-12-zhipu-glm5-release/index.html",
+    "href": "posts/2026-02-12-zhipu-glm5-release/index.html",
+    "title": "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini",
     "section": "",
-    "text": "A research collaboration between Google AI and Peking University has introduced PaperBanana, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.\n\nOrchestrating 5 Specialized Agents\nPaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:\n\nRetriever Agent: Searches a database for relevant reference examples to guide style and structure.\nPlanner Agent: Converts technical text descriptions into detailed visual plans.\nGenerator Agent: Produces the initial implementation code (using tools like TikZ or Matplotlib).\nReviewer Agent: Critiques the generated output for accuracy and aesthetic quality.\nRefiner Agent: Iteratively improves the code based on the reviewer’s feedback.\n\n\n\nKey Performance Capabilities\nIn comparative evaluations, PaperBanana significantly outperformed existing LLM-based solutions: - Success Rate: Achieved a 93% success rate in generating complex TikZ-based methodology diagrams, compared to less than 40% for GPT-4 based single-prompt methods. - Human Preference: 82% of researchers surveyed preferred PaperBanana-generated diagrams for their clarity and professional appearance. - Iterative Accuracy: The multi-agent critique loop reduced hallucination in data representation by nearly 65%.\n\n\nWhy It Matters\nThe automation of high-quality scientific visualization allows researchers to focus more on core discovery and less on the “drudgery” of formatting figures. By open-sourcing the PaperBanana framework, the authors aim to democratize access to publication-quality design, ensuring that complex ideas are communicated more effectively across the global research community."
+    "text": "Zhipu GLM-5: A new era for open-source agentic models."
   },
   {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "",
-    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
+    "objectID": "posts/2026-02-12-zhipu-glm5-release/index.html#the-rise-of-glm-5",
+    "href": "posts/2026-02-12-zhipu-glm5-release/index.html#the-rise-of-glm-5",
+    "title": "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini",
+    "section": "The Rise of GLM-5",
+    "text": "The Rise of GLM-5\nIn a significant move for the open-source AI ecosystem, Zhipu AI (rebranding as Z.ai) has officially released GLM-5, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic’s Claude Opus 4.5 and Google’s Gemini 3 Pro.\nAvailable now on platforms like OpenRouter (where it was previously spotted in stealth as “Pony Alpha”), GLM-5 represents a massive leap in coding performance and long-horizon agentic capabilities.\n\nKey Breakthroughs: The “Slime” Framework\nThe standout technical innovation in GLM-5 is the introduction of the “Slime” (Scalable Lightweight Iterative Model Evolution) reinforcement learning framework.\nTraditionally, Reinforcement Learning (RL) training for large models is bottlenecked by synchronous policy updates—where the entire system must wait for data generation before updating. Slime breaks this cycle by:\n\nAsynchronous Training: Decoupling data generation from policy updates, allowing for up to 3x higher throughput.\nActive Partial Rollouts (APRIL): Handling complex, long-running agent tasks by independently generating trajectories.\nReduced Hallucinations: Zhipu claims a record-low hallucination rate, particularly in complex tool-use scenarios.\n\n\n\nPerformance Benchmarks\nGLM-5 has shown exceptional results in several key areas: * Coding: Built success rates in frontend tasks have improved by 26% over its predecessor, GLM-4.7. * Agentic Planning: It excels in benchmarks like τ2-Bench (complex tool planning) and BrowseComp (networked search understanding). * Efficiency: Despite its size, the MoE architecture ensures it remains competitively priced, ranging from $0.80 to $1.00 per million input tokens."
   },
   {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "",
-    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
-  },
-  {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#enter-ordered-action-tokenization-oat",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#enter-ordered-action-tokenization-oat",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "Enter Ordered Action Tokenization (OAT)",
-    "text": "Enter Ordered Action Tokenization (OAT)\nOAT uses a transformer encoder with register tokens to summarize action chunks. The key innovation: Nested Dropout forces the model to learn important patterns first.\n\nHow It Works\n\nActions are chunked into discrete tokens\nRegisters summarize each chunk\nNested Dropout prioritizes coarse → fine information\nTokens are left-to-right causally ordered\n\nThe result: A tokenizer that plays nicely with autoregressive next-token prediction."
-  },
-  {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#benchmark-results",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#benchmark-results",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "Benchmark Results",
-    "text": "Benchmark Results\nAcross 20+ tasks in 4 simulation benchmarks:\n\n\n\nBenchmark\nOAT Success\nDiffusion Policy\nToken Reduction\n\n\n\n\nLIBERO\n56.3%\n36.6%\n224 → 8\n\n\nRoboMimic\n73.1%\n67.1%\n224 → 8\n\n\nMetaWorld\n24.4%\n19.3%\n128 → 8\n\n\nRoboCasa\n54.6%\n54.0%\n384 → 8\n\n\n\nAggregate improvement: 52.3% success rate vs. baseline"
-  },
-  {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-anytime-revolution",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-anytime-revolution",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "The “Anytime” Revolution",
-    "text": "The “Anytime” Revolution\nMost practical benefit: prefix-based detokenization.\nSince tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions)\nThis flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers."
-  },
-  {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#why-this-matters",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#why-this-matters",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "Why This Matters",
-    "text": "Why This Matters\nRobotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides:\n\nReliability: Total decodability prevents execution failures\nScalability: Short sequences enable efficient autoregressive training\nFlexibility: Anytime inference adapts to real-world constraints\n\nThe code and paper are available on GitHub and arXiv."
-  },
-  {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "",
-    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
-  },
-  {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "",
-    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
-  },
-  {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#why-it-matters",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#why-it-matters",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
+    "objectID": "posts/2026-02-12-zhipu-glm5-release/index.html#why-it-matters",
+    "href": "posts/2026-02-12-zhipu-glm5-release/index.html#why-it-matters",
+    "title": "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini",
     "section": "Why It Matters",
-    "text": "Why It Matters\nThe shift to WebGPU isn’t just technical jargon — it fundamentally changes what’s possible with client-side AI:\n\nOffline-first: Full offline support with local WASM caching after initial download\nCross-platform: Single codebase runs in browsers, Node.js, Bun, and Deno\nPerformance gains: Up to 4x speedup for BERT embedding models using optimized operators\nLarger models: Support for models exceeding 8B parameters (GPT-OSS 20B tested at ~60 tokens/sec on M4 Pro Max)\n\nFor developers, this means deploying sophisticated AI features without relying on backend API calls or worrying about server costs."
+    "text": "Why It Matters\nThe release of GLM-5 just before the Lunar New Year signals the intensifying competition in the “frontier” model space. By making such a powerful model open-source, Zhipu AI is positioning itself as the “DeepSeek of 2026,” providing the community with tools that were previously the exclusive domain of Silicon Valley’s closed labs.\nAs OpenAI prepares to retire GPT-4o tomorrow (February 13), the arrival of GLM-5 offers a compelling alternative for developers seeking high-end reasoning and agentic control without the vendor lock-in.\n\nSources: Reuters, VentureBeat, Z.ai Official Release."
   },
   {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-technical-core",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-technical-core",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "The Technical Core",
-    "text": "The Technical Core\nThe v4 release introduces several architectural improvements:\nNew WebGPU Runtime The entire runtime was rewritten in C++ with close collaboration from the ONNX Runtime team. This enables support for custom operators like GroupQueryAttention, MatMulNBits, and QMoE that power modern LLM architectures.\nRepository Restructuring Transformers.js has evolved from a single package to a monorepo using pnpm workspaces. This allows shipping focused sub-packages without the overhead of maintaining separate repositories.\nStandalone Tokenizers The tokenization logic is now available as a separate @huggingface/tokenizers library — just 8.8kB gzipped with zero dependencies.\nBuild System Migration Moving from Webpack to esbuild reduced build times from 2 seconds to 200 milliseconds, while bundle sizes decreased by 10% (transformers.web.js is now 53% smaller)."
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "",
+    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
   },
   {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#new-model-support",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#new-model-support",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "New Model Support",
-    "text": "New Model Support\nVersion 4 adds support for cutting-edge architectures including GPT-OSS, Chatterbox, GraniteMoeHybrid, LFM2-MoE, HunYuanDenseV1, Apertus, Olmo3, FalconH1, and Yitu-LLM. These include: - Mamba (state-space models) - Multi-head Latent Attention (MLA) - Mixture of Experts (MoE)"
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "",
+    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
   },
   {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#key-takeaways",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#key-takeaways",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nLocal-first AI: Run SOTA models completely offline in browsers or Node.js\n4x faster inference: WebGPU + optimized ONNX operators deliver significant speedups\nCross-runtime compatibility: Same code works across all JavaScript environments\nExpanded model support: New architectures including MoE and state-space models\n\nInstall the preview with npm i @huggingface/transformers@next and explore examples at the Transformers.js repository."
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#enter-orbitalbrain",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#enter-orbitalbrain",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "Enter OrbitalBrain",
+    "text": "Enter OrbitalBrain\nInstead of satellites as passive data collectors, OrbitalBrain turns nanosatellite constellations into distributed training systems. Models train, aggregate, and update directly on orbit — using onboard compute, inter-satellite links, and predictive scheduling.\n\nCore Philosophy\nThe framework recognizes three key satellite characteristics: - Constellations are typically single-operator, enabling raw data sharing - Orbits, power, and ground visibility are predictable - Inter-satellite links (ISLs) and onboard accelerators are now practical\n\n\nHow It Works\nEach satellite performs three actions under a cloud-computed schedule: - Local Compute: Train on stored imagery - Model Aggregation: Exchange parameters over ISLs - Data Transfer: Rebalance data distribution between satellites\nA cloud controller predicts orbital dynamics, power budgets, and link opportunities to optimize the schedule."
+  },
+  {
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#why-federated-learning-fails-in-space",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#why-federated-learning-fails-in-space",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "Why Federated Learning Fails in Space",
+    "text": "Why Federated Learning Fails in Space\nStandard FL approaches (AsyncFL, SyncFL, FedBuff, FedSpace) break down under real satellite constraints:\n\nIntermittent connectivity: Updates become stale before aggregation\nPower limits: Computing competes with essential operations\nNon-i.i.d. data: Each satellite sees different scenes\n\nResult: 10–40% accuracy degradation compared to idealized conditions."
+  },
+  {
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#orbitalbrain-results",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#orbitalbrain-results",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "OrbitalBrain Results",
+    "text": "OrbitalBrain Results\nSimulated on real constellations (Planet: 207 sats, 12 ground stations; Spire: 117 sats):\n\n\n\nTask\nBaseline Best\nOrbitalBrain\nImprovement\n\n\n\n\nfMoW (Planet)\n47.3%\n52.8%\n+5.5%\n\n\nfMoW (Spire)\n40.1%\n59.2%\n+19.1%\n\n\nSo2Sat (Planet)\n42.4%\n47.9%\n+5.5%\n\n\nSo2Sat (Spire)\n42.2%\n47.1%\n+4.9%\n\n\n\nTime-to-accuracy: 1.52×–12.4× faster than ground-based approaches."
+  },
+  {
+    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-bottom-line",
+    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-bottom-line",
+    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\nOrbitalBrain proves that satellite constellations can act as distributed ML systems, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays\nThe future of Earth observation isn’t just better sensors — it’s better coordination."
+  },
+  {
+    "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "href": "posts/2026-02-07-context-management-ai-agents/index.html",
+    "title": "Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks",
+    "section": "",
+    "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog."
+  },
+  {
+    "objectID": "posts/2026-02-08-grok-4-2-release-elon-musk-xai/index.html",
+    "href": "posts/2026-02-08-grok-4-2-release-elon-musk-xai/index.html",
+    "title": "Elon Musk Teases Grok 4.2: xAI’s Next Leap in Real-Time Intelligence",
+    "section": "",
+    "text": "Grok 4.2 visualization by AI\n\n\nElon Musk has once again sent the AI community into a frenzy with a brief, cryptic post on X containing just two words: “Grok 4.2”.\nThis signal confirms the long-rumored release of xAI’s mid-cycle flagship update, which has been appearing in stealth “preview” modes for select users over the last few weeks. While official specs were not attached to the post, current industry data and previous leaks suggest a massive leap over the 4.1 generation.\n\nWhat to Expect from Grok 4.2\nBuilding on the established “Signal over Noise” philosophy, Grok 4.2 is expected to focus on three core pillars:\n\nEnhanced Real-Time Synthesis: Refined integration with the live X stream, allowing for faster and more accurate summarization of breaking global events.\nContext Window Expansion: Rumors suggest a jump to a 2-million token context window, positioning it as a direct competitor to other long-context leaders.\nLow-Latency Reasoning: Optimized inference speeds that make it suitable for deep agentic workflows without the “thinking lag” often associated with large-scale reasoning models.\n\n\n\nThe Grok 4.20 vs. 4.2 Confusion\nFor weeks, enthusiasts have debated whether the next version would be branded 4.2 or 4.20—the latter being a signature Musk reference. By choosing “4.2”, Musk appears to be leaning into a more professional branding for xAI as it seeks to deepen its reach into enterprise applications and sophisticated research tools.\n\n\nWhy This Matters\nAs companies like OpenAI (GPT-5 series) and Google (Gemini 3) continue their 2026 rollouts, xAI remains the “wild card” of the industry. Grok 4.2’s ability to use real-time human behavior data from X gives it an edge in social intelligence that static-dataset models struggle to replicate.\nThe model is expected to be available to Premium+ subscribers starting today, with a wider API rollout via the xAI console immediately following.\n\nStay tuned to Robo AI Digest as we perform a deep-dive benchmark comparison once the full technical report is released."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
+  },
+  {
+    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
+    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "section": "",
+    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
   },
   {
     "objectID": "posts/2026-02-11-xai-founding-team-exodus/index.html",
@@ -364,88 +378,95 @@
     "text": "Key Takeaways\n\nSix of twelve founding members have now left xAI within three years\nJimmy Ba and Tony Wu exited within 24 hours of each other this week\nTiming coincides with SpaceX merger and anticipated funding activities\nIndustry-wide trend: High burnout rates affect all frontier AI labs\n\nThe departures highlight the human cost of building next-generation AI systems under the intense pressure typical of Musk-led ventures."
   },
   {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
     "section": "",
-    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
   },
   {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
     "section": "",
-    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
+    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
   },
   {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#why-it-matters",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#why-it-matters",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
+    "section": "Why It Matters",
+    "text": "Why It Matters\nThe shift to WebGPU isn’t just technical jargon — it fundamentally changes what’s possible with client-side AI:\n\nOffline-first: Full offline support with local WASM caching after initial download\nCross-platform: Single codebase runs in browsers, Node.js, Bun, and Deno\nPerformance gains: Up to 4x speedup for BERT embedding models using optimized operators\nLarger models: Support for models exceeding 8B parameters (GPT-OSS 20B tested at ~60 tokens/sec on M4 Pro Max)\n\nFor developers, this means deploying sophisticated AI features without relying on backend API calls or worrying about server costs."
+  },
+  {
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-technical-core",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-technical-core",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
+    "section": "The Technical Core",
+    "text": "The Technical Core\nThe v4 release introduces several architectural improvements:\nNew WebGPU Runtime The entire runtime was rewritten in C++ with close collaboration from the ONNX Runtime team. This enables support for custom operators like GroupQueryAttention, MatMulNBits, and QMoE that power modern LLM architectures.\nRepository Restructuring Transformers.js has evolved from a single package to a monorepo using pnpm workspaces. This allows shipping focused sub-packages without the overhead of maintaining separate repositories.\nStandalone Tokenizers The tokenization logic is now available as a separate @huggingface/tokenizers library — just 8.8kB gzipped with zero dependencies.\nBuild System Migration Moving from Webpack to esbuild reduced build times from 2 seconds to 200 milliseconds, while bundle sizes decreased by 10% (transformers.web.js is now 53% smaller)."
+  },
+  {
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#new-model-support",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#new-model-support",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
+    "section": "New Model Support",
+    "text": "New Model Support\nVersion 4 adds support for cutting-edge architectures including GPT-OSS, Chatterbox, GraniteMoeHybrid, LFM2-MoE, HunYuanDenseV1, Apertus, Olmo3, FalconH1, and Yitu-LLM. These include: - Mamba (state-space models) - Multi-head Latent Attention (MLA) - Mixture of Experts (MoE)"
+  },
+  {
+    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#key-takeaways",
+    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#key-takeaways",
+    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nLocal-first AI: Run SOTA models completely offline in browsers or Node.js\n4x faster inference: WebGPU + optimized ONNX operators deliver significant speedups\nCross-runtime compatibility: Same code works across all JavaScript environments\nExpanded model support: New architectures including MoE and state-space models\n\nInstall the preview with npm i @huggingface/transformers@next and explore examples at the Transformers.js repository."
+  },
+  {
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
+    "title": "OAT: The Action Tokenizer Robots Need",
     "section": "",
-    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
+    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
   },
   {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
+    "title": "OAT: The Action Tokenizer Robots Need",
     "section": "",
-    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
+    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
   },
   {
-    "objectID": "posts/2026-02-08-grok-4-2-release-elon-musk-xai/index.html",
-    "href": "posts/2026-02-08-grok-4-2-release-elon-musk-xai/index.html",
-    "title": "Elon Musk Teases Grok 4.2: xAI’s Next Leap in Real-Time Intelligence",
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#enter-ordered-action-tokenization-oat",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#enter-ordered-action-tokenization-oat",
+    "title": "OAT: The Action Tokenizer Robots Need",
+    "section": "Enter Ordered Action Tokenization (OAT)",
+    "text": "Enter Ordered Action Tokenization (OAT)\nOAT uses a transformer encoder with register tokens to summarize action chunks. The key innovation: Nested Dropout forces the model to learn important patterns first.\n\nHow It Works\n\nActions are chunked into discrete tokens\nRegisters summarize each chunk\nNested Dropout prioritizes coarse → fine information\nTokens are left-to-right causally ordered\n\nThe result: A tokenizer that plays nicely with autoregressive next-token prediction."
+  },
+  {
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#benchmark-results",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#benchmark-results",
+    "title": "OAT: The Action Tokenizer Robots Need",
+    "section": "Benchmark Results",
+    "text": "Benchmark Results\nAcross 20+ tasks in 4 simulation benchmarks:\n\n\n\nBenchmark\nOAT Success\nDiffusion Policy\nToken Reduction\n\n\n\n\nLIBERO\n56.3%\n36.6%\n224 → 8\n\n\nRoboMimic\n73.1%\n67.1%\n224 → 8\n\n\nMetaWorld\n24.4%\n19.3%\n128 → 8\n\n\nRoboCasa\n54.6%\n54.0%\n384 → 8\n\n\n\nAggregate improvement: 52.3% success rate vs. baseline"
+  },
+  {
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-anytime-revolution",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-anytime-revolution",
+    "title": "OAT: The Action Tokenizer Robots Need",
+    "section": "The “Anytime” Revolution",
+    "text": "The “Anytime” Revolution\nMost practical benefit: prefix-based detokenization.\nSince tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions)\nThis flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers."
+  },
+  {
+    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#why-this-matters",
+    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#why-this-matters",
+    "title": "OAT: The Action Tokenizer Robots Need",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nRobotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides:\n\nReliability: Total decodability prevents execution failures\nScalability: Short sequences enable efficient autoregressive training\nFlexibility: Anytime inference adapts to real-world constraints\n\nThe code and paper are available on GitHub and arXiv."
+  },
+  {
+    "objectID": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
+    "href": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
+    "title": "Google’s PaperBanana: Multi-Agent System for Research Diagrams",
     "section": "",
-    "text": "Grok 4.2 visualization by AI\n\n\nElon Musk has once again sent the AI community into a frenzy with a brief, cryptic post on X containing just two words: “Grok 4.2”.\nThis signal confirms the long-rumored release of xAI’s mid-cycle flagship update, which has been appearing in stealth “preview” modes for select users over the last few weeks. While official specs were not attached to the post, current industry data and previous leaks suggest a massive leap over the 4.1 generation.\n\nWhat to Expect from Grok 4.2\nBuilding on the established “Signal over Noise” philosophy, Grok 4.2 is expected to focus on three core pillars:\n\nEnhanced Real-Time Synthesis: Refined integration with the live X stream, allowing for faster and more accurate summarization of breaking global events.\nContext Window Expansion: Rumors suggest a jump to a 2-million token context window, positioning it as a direct competitor to other long-context leaders.\nLow-Latency Reasoning: Optimized inference speeds that make it suitable for deep agentic workflows without the “thinking lag” often associated with large-scale reasoning models.\n\n\n\nThe Grok 4.20 vs. 4.2 Confusion\nFor weeks, enthusiasts have debated whether the next version would be branded 4.2 or 4.20—the latter being a signature Musk reference. By choosing “4.2”, Musk appears to be leaning into a more professional branding for xAI as it seeks to deepen its reach into enterprise applications and sophisticated research tools.\n\n\nWhy This Matters\nAs companies like OpenAI (GPT-5 series) and Google (Gemini 3) continue their 2026 rollouts, xAI remains the “wild card” of the industry. Grok 4.2’s ability to use real-time human behavior data from X gives it an edge in social intelligence that static-dataset models struggle to replicate.\nThe model is expected to be available to Premium+ subscribers starting today, with a wider API rollout via the xAI console immediately following.\n\nStay tuned to Robo AI Digest as we perform a deep-dive benchmark comparison once the full technical report is released."
-  },
-  {
-    "objectID": "posts/2026-02-07-context-management-ai-agents/index.html",
-    "href": "posts/2026-02-07-context-management-ai-agents/index.html",
-    "title": "Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks",
-    "section": "",
-    "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog."
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "",
-    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "",
-    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#enter-orbitalbrain",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#enter-orbitalbrain",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "Enter OrbitalBrain",
-    "text": "Enter OrbitalBrain\nInstead of satellites as passive data collectors, OrbitalBrain turns nanosatellite constellations into distributed training systems. Models train, aggregate, and update directly on orbit — using onboard compute, inter-satellite links, and predictive scheduling.\n\nCore Philosophy\nThe framework recognizes three key satellite characteristics: - Constellations are typically single-operator, enabling raw data sharing - Orbits, power, and ground visibility are predictable - Inter-satellite links (ISLs) and onboard accelerators are now practical\n\n\nHow It Works\nEach satellite performs three actions under a cloud-computed schedule: - Local Compute: Train on stored imagery - Model Aggregation: Exchange parameters over ISLs - Data Transfer: Rebalance data distribution between satellites\nA cloud controller predicts orbital dynamics, power budgets, and link opportunities to optimize the schedule."
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#why-federated-learning-fails-in-space",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#why-federated-learning-fails-in-space",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "Why Federated Learning Fails in Space",
-    "text": "Why Federated Learning Fails in Space\nStandard FL approaches (AsyncFL, SyncFL, FedBuff, FedSpace) break down under real satellite constraints:\n\nIntermittent connectivity: Updates become stale before aggregation\nPower limits: Computing competes with essential operations\nNon-i.i.d. data: Each satellite sees different scenes\n\nResult: 10–40% accuracy degradation compared to idealized conditions."
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#orbitalbrain-results",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#orbitalbrain-results",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "OrbitalBrain Results",
-    "text": "OrbitalBrain Results\nSimulated on real constellations (Planet: 207 sats, 12 ground stations; Spire: 117 sats):\n\n\n\nTask\nBaseline Best\nOrbitalBrain\nImprovement\n\n\n\n\nfMoW (Planet)\n47.3%\n52.8%\n+5.5%\n\n\nfMoW (Spire)\n40.1%\n59.2%\n+19.1%\n\n\nSo2Sat (Planet)\n42.4%\n47.9%\n+5.5%\n\n\nSo2Sat (Spire)\n42.2%\n47.1%\n+4.9%\n\n\n\nTime-to-accuracy: 1.52×–12.4× faster than ground-based approaches."
-  },
-  {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-bottom-line",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-bottom-line",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "The Bottom Line",
-    "text": "The Bottom Line\nOrbitalBrain proves that satellite constellations can act as distributed ML systems, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays\nThe future of Earth observation isn’t just better sensors — it’s better coordination."
+    "text": "A research collaboration between Google AI and Peking University has introduced PaperBanana, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.\n\nOrchestrating 5 Specialized Agents\nPaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:\n\nRetriever Agent: Searches a database for relevant reference examples to guide style and structure.\nPlanner Agent: Converts technical text descriptions into detailed visual plans.\nGenerator Agent: Produces the initial implementation code (using tools like TikZ or Matplotlib).\nReviewer Agent: Critiques the generated output for accuracy and aesthetic quality.\nRefiner Agent: Iteratively improves the code based on the reviewer’s feedback.\n\n\n\nKey Performance Capabilities\nIn comparative evaluations, PaperBanana significantly outperformed existing LLM-based solutions: - Success Rate: Achieved a 93% success rate in generating complex TikZ-based methodology diagrams, compared to less than 40% for GPT-4 based single-prompt methods. - Human Preference: 82% of researchers surveyed preferred PaperBanana-generated diagrams for their clarity and professional appearance. - Iterative Accuracy: The multi-agent critique loop reduced hallucination in data representation by nearly 65%.\n\n\nWhy It Matters\nThe automation of high-quality scientific visualization allows researchers to focus more on core discovery and less on the “drudgery” of formatting figures. By open-sourcing the PaperBanana framework, the authors aim to democratize access to publication-quality design, ensuring that complex ideas are communicated more effectively across the global research community."
   },
   {
     "objectID": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html",

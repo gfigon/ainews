@@ -12,6 +12,58 @@
 <generator>quarto-1.4.550</generator>
 <lastBuildDate>Wed, 11 Feb 2026 23:00:00 GMT</lastBuildDate>
 <item>
+  <title>Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini</title>
+  <link>https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/cover.jpg" class="img-fluid figure-img"></p>
+<figcaption>Zhipu GLM-5: A new era for open-source agentic models.</figcaption>
+</figure>
+</div>
+<section id="the-rise-of-glm-5" class="level2">
+<h2 class="anchored" data-anchor-id="the-rise-of-glm-5">The Rise of GLM-5</h2>
+<p>In a significant move for the open-source AI ecosystem, <strong>Zhipu AI</strong> (rebranding as <strong>Z.ai</strong>) has officially released <strong>GLM-5</strong>, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic’s Claude Opus 4.5 and Google’s Gemini 3 Pro.</p>
+<p>Available now on platforms like OpenRouter (where it was previously spotted in stealth as “Pony Alpha”), GLM-5 represents a massive leap in coding performance and long-horizon agentic capabilities.</p>
+<section id="key-breakthroughs-the-slime-framework" class="level3">
+<h3 class="anchored" data-anchor-id="key-breakthroughs-the-slime-framework">Key Breakthroughs: The “Slime” Framework</h3>
+<p>The standout technical innovation in GLM-5 is the introduction of the <strong>“Slime” (Scalable Lightweight Iterative Model Evolution)</strong> reinforcement learning framework.</p>
+<p>Traditionally, Reinforcement Learning (RL) training for large models is bottlenecked by synchronous policy updates—where the entire system must wait for data generation before updating. <strong>Slime</strong> breaks this cycle by:</p>
+<ul>
+<li><strong>Asynchronous Training:</strong> Decoupling data generation from policy updates, allowing for up to 3x higher throughput.</li>
+<li><strong>Active Partial Rollouts (APRIL):</strong> Handling complex, long-running agent tasks by independently generating trajectories.</li>
+<li><strong>Reduced Hallucinations:</strong> Zhipu claims a record-low hallucination rate, particularly in complex tool-use scenarios.</li>
+</ul>
+</section>
+<section id="performance-benchmarks" class="level3">
+<h3 class="anchored" data-anchor-id="performance-benchmarks">Performance Benchmarks</h3>
+<p>GLM-5 has shown exceptional results in several key areas: * <strong>Coding:</strong> Built success rates in frontend tasks have improved by <strong>26%</strong> over its predecessor, GLM-4.7. * <strong>Agentic Planning:</strong> It excels in benchmarks like <strong>τ2-Bench</strong> (complex tool planning) and <strong>BrowseComp</strong> (networked search understanding). * <strong>Efficiency:</strong> Despite its size, the MoE architecture ensures it remains competitively priced, ranging from $0.80 to $1.00 per million input tokens.</p>
+</section>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>The release of GLM-5 just before the Lunar New Year signals the intensifying competition in the “frontier” model space. By making such a powerful model open-source, Zhipu AI is positioning itself as the “DeepSeek of 2026,” providing the community with tools that were previously the exclusive domain of Silicon Valley’s closed labs.</p>
+<p>As OpenAI prepares to retire GPT-4o tomorrow (February 13), the arrival of GLM-5 offers a compelling alternative for developers seeking high-end reasoning and agentic control without the vendor lock-in.</p>
+<hr>
+<p><em>Sources: Reuters, VentureBeat, Z.ai Official Release.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>LLMs &amp; Models</category>
+  <category>Open Source</category>
+  <category>Agents &amp; Automation</category>
+  <guid>https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/</guid>
+  <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</title>
   <dc:creator>Robo AI Digest</dc:creator>
   <link>https://roboaidigest.com/posts/2026-02-12-nvidia-kvtc-cache-compression/</link>

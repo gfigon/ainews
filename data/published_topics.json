@@ -129,5 +129,29 @@
       ],
       "term": "KV Cache Compression"
     }
+    {
+      "count": 1,
+      "last_published": "2026-02-12",
+      "slugs": [
+        "2026-02-12-zhipu-glm5-release"
+      ],
+      "term": "GLM-5"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-12",
+      "slugs": [
+        "2026-02-12-zhipu-glm5-release"
+      ],
+      "term": "Zhipu AI"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-12",
+      "slugs": [
+        "2026-02-12-zhipu-glm5-release"
+      ],
+      "term": "Slime RL"
+    }
   ]
 }
