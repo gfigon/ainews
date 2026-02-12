@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Robo AI Digest">
+<meta name="dcterms.date" content="2026-02-12">
+<meta name="description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
 
-<title>Robo AI Digest</title>
+<title>Robo AI Digest - NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,25 +71,28 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="hide-elements.css">
-<meta property="og:title" content="Robo AI Digest">
+<link rel="stylesheet" href="../../hide-elements.css">
+<meta property="og:title" content="Robo AI Digest - NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving">
+<meta property="og:description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
+<meta property="og:image" content="https://pollinations.ai/p/advanced%20neural%20network%20architecture%20data%20compression%20circuits%20futuristic%20efficient%20gpu%20memory%20visual?width=1024&amp;height=1024&amp;seed=42">
 <meta property="og:site_name" content="Robo AI Digest">
-<meta name="twitter:title" content="Robo AI Digest">
-<meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
+<meta name="twitter:title" content="Robo AI Digest - NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving">
+<meta name="twitter:description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
+<meta name="twitter:image" content="https://pollinations.ai/p/advanced%20neural%20network%20architecture%20data%20compression%20circuits%20futuristic%20efficient%20gpu%20memory%20visual?width=1024&amp;height=1024&amp;seed=42">
 <meta name="twitter:creator" content="@roboaidigest">
 <meta name="twitter:site" content="@roboaidigest">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/PROJECT_LOG.html">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-02-12-nvidia-kvtc-cache-compression">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Robo AI Digest</span>
     </a>
   </div>
@@ -97,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -108,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./privacy.html"> 
+    <a class="nav-link" href="../../privacy.html"> 
 <span class="menu-text">Privacy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./terms.html"> 
+    <a class="nav-link" href="../../terms.html"> 
 <span class="menu-text">Terms</span></a>
   </li>  
 </ul>
@@ -123,7 +129,40 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</h1>
+                  <div>
+        <div class="description">
+          NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.
+        </div>
+      </div>
+                              </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Robo AI Digest </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 12, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -131,167 +170,50 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-robo-ai-digest-formerly-ainews" id="toc-project-robo-ai-digest-formerly-ainews" class="nav-link active" data-scroll-target="#project-robo-ai-digest-formerly-ainews">Project: Robo AI Digest (formerly ainews)</a>
-  <ul class="collapse">
-  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
-  <li><a href="#tech-stack" id="toc-tech-stack" class="nav-link" data-scroll-target="#tech-stack">Tech Stack</a></li>
-  <li><a href="#todos" id="toc-todos" class="nav-link" data-scroll-target="#todos">TODOs</a></li>
-  <li><a href="#cron-jobs" id="toc-cron-jobs" class="nav-link" data-scroll-target="#cron-jobs">Cron Jobs</a></li>
-  <li><a href="#event-log" id="toc-event-log" class="nav-link" data-scroll-target="#event-log">Event Log</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-11</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-02-10</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2026-02-08</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2026-02-07</a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2026-02-06</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#the-memory-bottleneck" id="toc-the-memory-bottleneck" class="nav-link active" data-scroll-target="#the-memory-bottleneck">The Memory Bottleneck</a></li>
+  <li><a href="#how-kvtc-works" id="toc-how-kvtc-works" class="nav-link" data-scroll-target="#how-kvtc-works">How KVTC Works</a></li>
+  <li><a href="#performance-and-accuracy" id="toc-performance-and-accuracy" class="nav-link" data-scroll-target="#performance-and-accuracy">Performance and Accuracy</a></li>
+  <li><a href="#protecting-critical-tokens" id="toc-protecting-critical-tokens" class="nav-link" data-scroll-target="#protecting-critical-tokens">Protecting “Critical” Tokens</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="project-robo-ai-digest-formerly-ainews" class="level1">
-<h1>Project: Robo AI Digest (formerly ainews)</h1>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>World-class AI news portal focusing on unique English insights, built with Quarto and R. Fully automated daily scouting and publishing engine delivering “Signal over Noise”.</p>
+
+<p>Solving the memory bottleneck in Large Language Model (LLM) inference has taken a significant leap forward. NVIDIA researchers have unveiled <strong>KVTC (Key-Value Cache Transform Coding)</strong>, a lightweight pipeline that compresses KV caches by <strong>20x to 40x</strong>, dramatically reducing the memory footprint required for long-context reasoning.</p>
+<section id="the-memory-bottleneck" class="level3">
+<h3 class="anchored" data-anchor-id="the-memory-bottleneck">The Memory Bottleneck</h3>
+<p>In modern Transformers, the Key-Value (KV) cache grows proportionally with sequence length and model size, often occupying multiple gigabytes. This creates a dilemma: keeping the cache consumes scarce GPU memory, while discarding it forces expensive recomputation during multi-turn interactions. KVTC aims to solve this by making on-chip retention and off-chip offloading significantly more efficient.</p>
 </section>
-<section id="tech-stack" class="level2">
-<h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
+<section id="how-kvtc-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-kvtc-works">How KVTC Works</h3>
+<p>Inspired by classical media compression (like JPEG), the KVTC pipeline uses a multi-stage approach to shrink data without sacrificing intelligence:</p>
+<ol type="1">
+<li><strong>Feature Decorrelation (PCA):</strong> It uses Principal Component Analysis (PCA) to decorrelate features across attention heads. A single calibration step (taking under 10 minutes) creates a reusable basis matrix.</li>
+<li><strong>Adaptive Quantization:</strong> A dynamic programming algorithm allocates bits based on coordinate variance. High-variance components get more bits, while trailing components may receive zero, enabling aggressive dimensionality reduction.</li>
+<li><strong>Entropy Coding:</strong> The resulting symbols are packed using the <strong>DEFLATE</strong> algorithm, accelerated by NVIDIA’s <code>nvCOMP</code> library for direct GPU processing.</li>
+</ol>
+</section>
+<section id="performance-and-accuracy" class="level3">
+<h3 class="anchored" data-anchor-id="performance-and-accuracy">Performance and Accuracy</h3>
+<p>What makes KVTC remarkable is its “near-lossless” nature. Benchmarks on <strong>Llama-3.1, Mistral-NeMo, and R1-Qwen-2.5</strong> show:</p>
 <ul>
-<li>Quarto</li>
-<li>R</li>
-<li>CSS (Dark AI Theme)</li>
-<li>MiniMax M2.1 (Primary Author Engine)</li>
-<li>Pollinations.ai (AI Image Generation)</li>
-<li>Netlify (Hosting &amp; Forms)</li>
-<li>Brave Search API (Deep Research)</li>
+<li><strong>Accuracy:</strong> At 16x–20x compression, models maintain results within <strong>1 score point</strong> of uncompressed versions.</li>
+<li><strong>Latency:</strong> For 8K contexts, it reduces <strong>Time-To-First-Token (TTFT)</strong> by up to 8x compared to full recomputation.</li>
+<li><strong>Overhead:</strong> The storage required for the transformation parameters is minimal, representing only about 2.4% of model parameters.</li>
 </ul>
 </section>
-<section id="todos" class="level2">
-<h2 class="anchored" data-anchor-id="todos">TODOs</h2>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Implement automatic image generation via AI for each post.</label></li>
-<li><label><input type="checkbox">Add RSS feed subscription link for readers.</label></li>
-<li><label><input type="checkbox">Integrate Newsletter signup.</label></li>
-<li><label><input type="checkbox">Add “Expert Opinion” section to each digest.</label></li>
-<li><label><input type="checkbox" checked="">Fix the markdown rendering issue for <code>nofollow</code> links in Quarto post templates.</label></li>
-</ul>
-</section>
-<section id="cron-jobs" class="level2">
-<h2 class="anchored" data-anchor-id="cron-jobs">Cron Jobs</h2>
-<table class="table">
-<colgroup>
-<col style="width: 37%">
-<col style="width: 29%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Schedule</th>
-<th>Script</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0 8 * * *</td>
-<td>Cron ID: c39bdd8a…</td>
-<td>Daily scout, unique post generation &amp; git push</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="event-log" class="level2">
-<h2 class="anchored" data-anchor-id="event-log">Event Log</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2026-02-11</h3>
-<ul>
-<li><strong>New Publications</strong>: Generated 3 unique posts with double-fact checking via web sources:
-<ul>
-<li><strong>Transformers.js v4</strong>: Hugging Face’s major WebGPU runtime rewrite enabling local AI inference in browsers, Node.js, and Deno</li>
-<li><strong>xAI Founding Exodus</strong>: Half of xAI’s founding team (6 of 12) departed, including Jimmy Ba and Tony Wu</li>
-<li><strong>Agent World Model</strong>: Snowflake Labs’ synthetic environment generation pipeline for scalable agent RL training</li>
-</ul></li>
-<li><strong>Deduplication Check</strong>: Validated against published_topics.json - no duplicate topics detected</li>
-<li><strong>Sources Used</strong>: Hugging Face Blog, Bloomberg, CNBC, arXiv, Financial Times</li>
-<li><strong>Automation</strong>: Published via cron (08:00) with MiniMax M2.1 author engine</li>
-<li><strong>Live</strong>: All 3 posts committed to GitHub (2436eb5)</li>
-</ul>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">2026-02-10</h3>
-<ul>
-<li><strong>New Publications</strong>: Generated 3 unique posts with double-fact checking via web sources:
-<ul>
-<li>ByteDance Protenix-v1: Open-source AlphaFold3-level biomolecular structure model</li>
-<li>Microsoft OrbitalBrain: Distributed ML training on satellite constellations</li>
-<li>OAT: Ordered Action Tokenization for robotics (Harvard/Stanford)</li>
-</ul></li>
-<li><strong>Image Integration</strong>: Migrated to external Pollinations.ai URLs for reliable image rendering</li>
-<li><strong>Model Update</strong>: Primary author engine switched to MiniMax M2.1</li>
-<li><strong>Deployment Fix</strong>: Netlify was skipping Quarto build (3s deploy time). Fixed by committing rendered _site/ folder to GitHub for direct CDN deployment</li>
-<li><strong>Live</strong>: All 3 posts now visible at roboaidigest.com (commit 4a02ce7)</li>
-<li><strong>SEO Improvements</strong>:
-<ul>
-<li>Added OG/Twitter Card meta tags via header-includes</li>
-<li>Added robots and googlebot meta tags</li>
-<li>Moved keywords from frontmatter to header-includes (global only)</li>
-<li>Created hide-elements.css to hide keywords section and footer from posts</li>
-<li>Added rel=“nofollow” to all external links</li>
-<li>Enabled canonical-url: true for automatic canonical tags</li>
-<li>Extended meta description to 156 characters</li>
-<li>Added pagetagline: “Robo AI Digest - AI News, Machine Learning &amp; Technology”</li>
-<li>Removed redundant “Home” link from navbar</li>
-<li>Added fig-alt attributes to all post images</li>
-<li>Homepage SEO audit score: 74/100 (improvements applied)</li>
-</ul></li>
-</ul>
-</section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2">2026-02-08</h3>
-<ul>
-<li><strong>Reporting Service Status</strong>: Verified Financial Sentiment Check status via Heartbeat (PL source stale).</li>
-<li><strong>Brave API Integration</strong>: Configured Brave Search API key for enhanced web research capabilities.</li>
-<li><strong>Breaking News Coverage</strong>: Published a technical update on the rumored “Grok 4.2” release by xAI, including AI-generated imagery and deep research into xAI documentation.</li>
-<li><strong>Bug Fix (Rendering)</strong>: Fixed a system-wide issue where <code>nofollow</code> parameters were incorrectly rendered as text in Quarto posts due to trailing spaces in markdown syntax.</li>
-<li><strong>Rebranding</strong>: Successfully rebranded the project from “ainews” to “Robo AI Digest”.</li>
-<li><strong>Domain</strong>: Purchased and connected official domain <code>roboaidigest.com</code>.</li>
-<li><strong>Infrastructure</strong>: Switched Git authentication from HTTPS to SSH for reliable automated pushes.</li>
-<li><strong>Automation Enrichment</strong>: Integrated AI image generation using Pollinations.ai API for all new posts.</li>
-<li><strong>Privacy &amp; Security</strong>: Removed all raw email addresses from public pages and Git history; excluded <code>PROJECT_LOG.md</code> from repository.</li>
-<li><strong>Engagement</strong>: Implemented a Netlify-backed contact form on the About page.</li>
-<li><strong>Deployment</strong>: Configured <code>netlify.toml</code> for local-render-only builds and verified deployment on Netlify.</li>
-</ul>
-</section>
-<section id="section-3" class="level3">
-<h3 class="anchored" data-anchor-id="section-3">2026-02-07</h3>
-<ul>
-<li>Upgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.</li>
-<li>Registered project in MEMORY.md and formatted project logs using pmem skill.</li>
-<li>Successfully performed manual daily update and verified cron automation.</li>
-<li>Implemented Deduplication System: Created <code>data/published_topics.json</code> to track topics and prevent repetitive content. Added “Validation &amp; Update” step to automation requirements.</li>
-<li>Verified historical posts and initialized topic database with today’s and yesterday’s entries.</li>
-<li>Synchronized heartbeat tasks to enforce deduplication check before każdą publikacją.</li>
-</ul>
-</section>
-<section id="section-4" class="level3">
-<h3 class="anchored" data-anchor-id="section-4">2026-02-06</h3>
-<ul>
-<li>Project initialized at /home/skutek/projekty/ainews.</li>
-<li>Implemented Dark AI Theme and Quarto structure.</li>
-<li>Established legal pages (Privacy/Terms).</li>
-<li>Initial setup of automated scouting with Gemini 2.0 Flash.</li>
-</ul>
+<section id="protecting-critical-tokens" class="level3">
+<h3 class="anchored" data-anchor-id="protecting-critical-tokens">Protecting “Critical” Tokens</h3>
+<p>NVIDIA’s research highlights that not all tokens are equal. KVTC maintains accuracy by explicitly <strong>avoiding compression</strong> for the 4 oldest “attention sink” tokens and the 128 most recent tokens in the sliding window. Compressing these “anchors” was shown to cause performance collapse at high ratios.</p>
+<p>This tuning-free method is backward-compatible with existing models and token eviction strategies, making it a powerful practical building block for the next generation of memory-efficient AI services.</p>
+<p><em>Source: <a href="https://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/" rel="nofollow">MarkTechPost</a> / <a href="https://arxiv.org/pdf/2511.01815" rel="nofollow">arXiv:2511.01815</a></em></p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

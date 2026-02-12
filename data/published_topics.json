@@ -64,14 +64,6 @@
         "2026-02-08-waymo-world-model-genie-3"
       ],
       "term": "Waymo World Model"
-    }
-    {
-      "count": 1,
-      "last_published": "2026-02-09",
-      "slugs": [
-        "2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6"
-      ],
-      "term": "GPT-5.3 Codex"
     },
     {
       "count": 1,
@@ -79,7 +71,7 @@
       "slugs": [
         "2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6"
       ],
-      "term": "Claude Opus 4.6"
+      "term": "GPT-5.3 Codex"
     },
     {
       "count": 1,
@@ -97,7 +89,7 @@
       ],
       "term": "OrbitalBrain"
     },
-{
+    {
       "count": 1,
       "last_published": "2026-02-11",
       "slugs": [
@@ -120,6 +112,22 @@
         "2026-02-11-agent-world-model-synthetic-environments"
       ],
       "term": "Agent World Model"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-12",
+      "slugs": [
+        "2026-02-12-nvidia-kvtc-cache-compression"
+      ],
+      "term": "KVTC"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-12",
+      "slugs": [
+        "2026-02-12-nvidia-kvtc-cache-compression"
+      ],
+      "term": "KV Cache Compression"
     }
   ]
 }
