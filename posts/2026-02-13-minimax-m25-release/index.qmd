@@ -1,0 +1,31 @@
+---
+title: "MiniMax M2.5: Intelligence Too Cheap to Meter"
+date: "2026-02-13"
+categories: [LLMs & Models, Agents & Automation, Industry News]
+image: "https://pollinations.ai/p/minimax-m2.5-ai-model-productivity-architect-coding?width=1024&height=512&seed=20260213"
+description: "MiniMax releases M2.5, a SOTA model optimized for agentic workflows with 100 tokens/sec throughput and aggressive RL scaling."
+---
+
+MiniMax has officially released **MiniMax-M2.5**, their most capable model to date, specifically engineered to power complex autonomous agents while drastically reducing operational costs. Trained via massive reinforcement learning (RL) scaling across hundreds of thousands of real-world environments, M2.5 aims to deliver "intelligence too cheap to meter."
+
+### SOTA Performance in Agentic Tasks
+
+MiniMax-M2.5 sets new benchmarks across coding and browse-based agentic workflows:
+- **SWE-Bench Verified**: Achieved **80.2%**, outperforming Claude Opus 4.6 on several scaffolding frameworks (Droid, OpenCode).
+- **Coding Architecture**: The model now actively plans like a software architect, writing specs and decomposing tasks before producing code across 10+ languages.
+- **Agent Efficiency**: Evaluation on benchmarks like **BrowseComp** and **RISE** shows M2.5 completes complex research tasks with 20% fewer interaction rounds compared to its predecessor, M2.1.
+
+### "Too Cheap to Meter"
+
+The most striking aspect of the M2.5 release is its economic disruption:
+- **Speed**: Served natively at **100 tokens per second** (Lightning version), nearly double the speed of many existing frontier models.
+- **Cost**: Continuous operation costs just **$1 per hour** at 100 TPS. In task-based pricing, M2.5 is roughly **1/10th to 1/20th the cost** of competitors like GPT-5 or Opus 4.6.
+- **Efficiency**: Due to better task decomposition, M2.5 completed the SWE-Bench evaluation **37% faster** than M2.1.
+
+### Forge: The Engine Behind the Progress
+
+The rapid improvement cycle—M2, M2.1, and M2.5 released in just 3.5 months—is credited to **Forge**, MiniMax's proprietary agent-native RL framework. Forge decouples the training-inference engine from agent scaffolds, allowing for highly parallelized RL training that has reportedly sped up the training process by 40x.
+
+Within MiniMax itself, M2.5 is already autonomously completing **30% of overall company tasks**, with the model generating **80% of newly committed code**.
+
+Source: [MiniMax News](https://www.minimax.io/news/minimax-m25) {rel="nofollow"}

@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-02-13-openenv-agent-evaluation/index.html",
+      "/posts/2026-02-13-minimax-m25-release/index.html",
       "/posts/2026-02-12-zhipu-glm5-release/index.html",
       "/posts/2026-02-12-nvidia-kvtc-cache-compression/index.html",
       "/posts/2026-02-11-xai-founding-team-exodus/index.html",
