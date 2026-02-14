@@ -128,7 +128,7 @@
         "2026-02-12-nvidia-kvtc-cache-compression"
       ],
       "term": "KV Cache Compression"
-    }
+    },
     {
       "count": 1,
       "last_published": "2026-02-12",
@@ -160,6 +160,22 @@
         "2026-02-14-gemini-3-deep-think-reasoning"
       ],
       "term": "Gemini 3 Deep Think"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-14",
+      "slugs": [
+        "2026-02-14-xai-interplanetary-ambitions"
+      ],
+      "term": "xAI Interplanetary"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-13",
+      "slugs": [
+        "2026-02-13-huggingface-transformers-v5-release"
+      ],
+      "term": "Transformers.js v5"
     }
   ]
 }
