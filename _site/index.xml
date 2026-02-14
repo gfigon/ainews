@@ -70,7 +70,7 @@
   <category>Industry News</category>
   <guid>https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/</guid>
   <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://image.pollinations.ai/prompt/bytedance%20doubao%202.0%20AI%20model%20logo%20futuristic%20technology%20dark%20background" medium="image"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Gemini 3 Deep Think: Google’s Answer to the Reasoning Race</title>
@@ -182,7 +182,7 @@
   <category>Ethics &amp; Regulation</category>
   <guid>https://roboaidigest.com/posts/2026-02-14-xai-interplanetary-ambitions/</guid>
   <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://image.pollinations.ai/prompt/xAI%20interplanetary%20vision%20Mars%20colonization%20AI%20control%20center%20space%20technology%20futuristic%20purple%20cyan%20dark?width=1024&amp;height=512&amp;nologo=true" medium="image"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-14-xai-interplanetary-ambitions/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>OpenEnv: Standardizing AI Agent Evaluation with Real-World Constraints</title>
@@ -224,7 +224,7 @@
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-13-openenv-agent-evaluation/</guid>
   <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://image.pollinations.ai/prompt/AI%20agent%20interacting%20with%20complex%20calendar%20and%20API%20networks,%20digital%20interface,%20futuristic%20productivity%20theme?width=1080&amp;height=1080&amp;nologo=true" medium="image"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-13-openenv-agent-evaluation/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>MiniMax M2.5: Intelligence Too Cheap to Meter</title>
@@ -384,7 +384,7 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>LLMs &amp; Models</category>
   <guid>https://roboaidigest.com/posts/2026-02-13-huggingface-transformers-v5-release/</guid>
   <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://image.pollinations.ai/prompt/Hugging%20Face%20Transformers.js%20v5%20WebGPU%20browser%20AI%20inference%20dark%20cyberpunk%20technology?width=1024&amp;height=512&amp;nologo=true" medium="image"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-13-huggingface-transformers-v5-release/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini</title>
@@ -436,7 +436,7 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>Agents &amp; Automation</category>
   <guid>https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/</guid>
   <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://image.pollinations.ai/prompt/Zhipu%20GLM-5%20AI%20model%20Chinese%20LLM%20artificial%20intelligence%20dark%20technology%20blue?width=1024&amp;height=512&amp;nologo=true" medium="image"/>
+  <media:content url="https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</title>

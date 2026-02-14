@@ -2,7 +2,7 @@
 title: "Hugging Face Transformers.js v5: WebGPU Revolution"
 date: "2026-02-13"
 categories: [AI Tools & Frameworks, LLMs & Models]
-image: "https://image.pollinations.ai/prompt/Hugging%20Face%20Transformers.js%20v5%20WebGPU%20browser%20AI%20inference%20dark%20cyberpunk%20technology?width=1024&height=512&nologo=true"
+image: "image.svg"
 description: "Transformers.js v5 delivers groundbreaking WebGPU acceleration, enabling powerful local AI inference directly in browsers with dramatically improved performance."
 ---
 
