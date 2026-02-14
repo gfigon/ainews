@@ -9,7 +9,7 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "Research Highlights"
-image: "https://pollinations.ai/p/Agent%20World%20Model%20synthetic%20environments%20AI%20training%20dark%20tech%20style?width=800&height=400&nologo=true"
+image: "image.svg"
 fig-alt: "Agent World Model synthetic environment architecture"
 ---
 
