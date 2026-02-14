@@ -2,7 +2,7 @@
 title: "OpenEnv: Standardizing AI Agent Evaluation with Real-World Constraints"
 date: 2026-02-13
 categories: [Agents & Automation, Research Highlights]
-image: "https://image.pollinations.ai/prompt/AI%20agent%20interacting%20with%20complex%20calendar%20and%20API%20networks,%20digital%20interface,%20futuristic%20productivity%20theme?width=1080&height=1080&nologo=true"
+image: "https://pollinations.ai/p/AI%20agent%20interacting%20with%20complex%20calendar%20and%20API%20networks,%20digital%20interface,%20futuristic%20productivity%20theme?width=1080&height=1080&nologo=true"
 ---
 
 The transition of AI agents from controlled demos to production environments remains one of the most significant challenges in the industry. While LLMs excel at individual tasks, their reliability often collapses when faced with multi-step reasoning, partial information, and real-world API constraints.
