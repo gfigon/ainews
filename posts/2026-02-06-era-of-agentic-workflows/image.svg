@@ -1,20 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512">
   <rect width="1024" height="512" fill="#f59e0b"/>
-  
-  <!-- Simple circle -->
   <circle cx="512" cy="200" r="120" fill="white" opacity="0.1"/>
   <circle cx="512" cy="200" r="80" fill="white" opacity="0.15"/>
-  
-  <!-- Title -->
   <text x="512" y="180" font-size="48" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial,sans-serif">
     Agentic Workflows
   </text>
-  
-  <!-- One keyword -->
   <text x="512" y="380" font-size="28" fill="white" text-anchor="middle" opacity="0.9" font-family="Arial,sans-serif">
-    ARTIFICIAL INTELLIGENCE
+    AGENTIC AI
   </text>
-  
-  <!-- Branding -->
   <text x="512" y="470" font-size="14" fill="white" opacity="0.6" text-anchor="middle">roboaidigest.com</text>
 </svg>
