@@ -1,86 +1,80 @@
 #!/bin/bash
-# Generate SVG images for all posts
+# Generate improved SVG images for all posts with icons and keywords
 
 POSTS_DIR="/home/skutek/projekty/ainews/posts"
-OUTPUT_DIR="$POSTS_DIR"
 
-# Colors for different categories
-declare -A colors=(
-  ["LLMs & Models"]="#6366f1"
-  ["AI Tools & Frameworks"]="#10b981"
-  ["Agents & Automation"]="#f59e0b"
-  ["AI Security & Safety"]="#ef4444"
-  ["Ethics & Regulation"]="#8b5cf6"
-  ["Industry News"]="#3b82f6"
-  ["Research Highlights"]="#ec4899"
-)
-
+# Colors for categories
 get_color() {
   local category="$1"
-  for key in "${!colors[@]}"; do
-    if [[ "$category" == *"$key"* ]]; then
-      echo "${colors[$key]}"
-      return
-    fi
-  done
-  echo "#6366f1" # default
+  case "$category" in
+    *LLMs*|*Models*) echo "#6366f1" ;;
+    *Tools*|*Framework*) echo "#10b981" ;;
+    *Agents*|*Automation*) echo "#f59e0b" ;;
+    *Security*|*Safety*) echo "#ef4444" ;;
+    *Ethics*|*Regulation*) echo "#8b5cf6" ;;
+    *Industry*) echo "#3b82f6" ;;
+    *Research*) echo "#ec4899" ;;
+    *) echo "#6366f1" ;;
+  esac
 }
 
-# Process each post
+# Extract main keyword from title
+get_keyword() {
+  local title="$1"
+  echo "$title" | sed 's/.*: *//' | awk '{print $1}' | tr -d '"\''
+}
+
 for post_dir in $POSTS_DIR/2026-02-*; do
   if [ -d "$post_dir" ]; then
     slug=$(basename "$post_dir")
     
-    # Get title from index.qmd
+    # Get title
     title=$(grep "^title:" "$post_dir/index.qmd" | sed 's/title: *"\(.*\)"/\1/' | head -1)
+    keyword=$(get_keyword "$title")
     
     # Get first category
     category=$(grep "^categories:" "$post_dir/index.qmd" | sed 's/.*\[\(.*\)\].*/\1/' | head -1 | cut -d',' -f1)
-    
-    # Get color for category
     color=$(get_color "$category")
     
-    # Generate slug for filename
-    slug_filename=$(echo "$slug" | sed 's/2026-02-[0-9]*-//')
+    # Truncate title for display
+    display_title=$(echo "$title" | cut -c1-55)
+    if [ ${#title} -gt 55 ]; then
+      display_title="$display_title..."
+    fi
     
-    # Create SVG
-    cat > "$post_dir/image.svg" << EOF
+    # Create SVG with large keyword
+    cat > "$post_dir/image.svg" << EOFSVG
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1e2e"/>
-      <stop offset="100%" style="stop-color:#2d2d44"/>
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
     </linearGradient>
   </defs>
   <rect width="1024" height="512" fill="url(#bg)"/>
-  <rect x="40" y="40" width="944" height="432" rx="20" fill="none" stroke="$color" stroke-width="3" opacity="0.3"/>
-  <text x="512" y="220" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">ROBO AI DIGEST</text>
-  <text x="512" y="280" font-family="Arial, sans-serif" font-size="24" fill="$color" text-anchor="middle">$category</text>
-  <text x="512" y="340" font-family="Arial, sans-serif" font-size="18" fill="#a0a0b0" text-anchor="middle" max-width="900">
-EOF
-
-    # Wrap long title
-    title_words=($title)
-    line=""
-    for word in "${title_words[@]}"; do
-      if [ ${#line} -lt 60 ]; then
-        line="$line $word"
-      else
-        echo "    <tspan x=\"512\" dy=\"24\">$line</tspan>" >> "$post_dir/image.svg"
-        line="$word"
-      fi
-    done
-    if [ -n "$line" ]; then
-      echo "    <tspan x=\"512\" dy=\"24\">$line</tspan>" >> "$post_dir/image.svg"
-    fi
-
-    cat >> "$post_dir/image.svg" << EOF
-  </text>
-  <text x="512" y="480" font-family="Arial, sans-serif" font-size="14" fill="#606080" text-anchor="middle">roboaidigest.com</text>
+  
+  <!-- Large keyword -->
+  <text x="512" y="200" font-family="Arial Black, Arial" font-size="120" font-weight="bold" fill="$color" text-anchor="middle" opacity="0.15">$keyword</text>
+  
+  <!-- Icon circle -->
+  <circle cx="512" cy="180" r="60" fill="$color"/>
+  <text x="512" y="200" font-size="40" fill="white" text-anchor="middle" font-family="Arial">AI</text>
+  
+  <!-- Title -->
+  <text x="512" y="320" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle" max-width="900">$display_title</text>
+  
+  <!-- Category -->
+  <text x="512" y="360" font-family="Arial" font-size="18" fill="$color" text-anchor="middle">$category</text>
+  
+  <!-- Date and site -->
+  <text x="512" y="400" font-family="Arial" font-size="14" fill="#888" text-anchor="middle">$(echo $slug | cut -d'-' -f1,2,3) - roboaidigest.com</text>
+  
+  <!-- Bottom line -->
+  <rect x="100" y="440" width="824" height="2" fill="$color" opacity="0.5"/>
 </svg>
-EOF
+EOFSVG
 
-    echo "Generated: $slug/image.svg"
+    echo "Generated: $slug"
   fi
 done
 
