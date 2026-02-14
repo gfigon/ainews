@@ -1,87 +1,80 @@
 [
   {
-    "objectID": "privacy.html",
-    "href": "privacy.html",
-    "title": "Privacy Policy",
-    "section": "",
-    "text": "Last Updated: February 8, 2026\n\n\n\n\n\nBrowser type and operating system\nIP address (anonymized)\nPages visited and time spent on our site\nReferral sources\n\n\n\n\n\nContact form submissions\n\n\n\n\n\n\nTo provide and maintain our AI news digest service\nTo improve user experience and website performance\nTo analyze website traffic and engagement patterns\n\n\n\n\nWe use industry-standard analytics tools that respect user privacy. No personal identifiers are stored longer than necessary for the intended purpose.\n\n\n\n\nEssential cookies for website functionality\nAnalytics cookies (can be disabled via browser settings)\nNo third-party advertising cookies\n\n\n\n\nWe do not sell, trade, or otherwise transfer your personal information to third parties, except:\n\nWhen required by law\nTo protect our rights and prevent fraud\nWith trusted service providers who assist in operating our website\n\n\n\n\nWe implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.\n\n\n\n\nAccess to your personal data\nCorrection of inaccurate data\nDeletion of your data (where legally required)\nOpt-out of marketing communications\n\n\n\n\nYour data may be transferred to and processed in countries outside your own. We ensure appropriate safeguards are in place.\n\n\n\nOur service is not directed to children under 13. We do not knowingly collect personal information from children.\n\n\n\nWe may update this privacy policy periodically. Changes will be posted on this page with an updated “Last Updated” date.\n\n\n\nIf you have questions about this Privacy Policy, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
-  },
-  {
     "objectID": "privacy.html#information-we-collect",
     "href": "privacy.html#information-we-collect",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "Browser type and operating system\nIP address (anonymized)\nPages visited and time spent on our site\nReferral sources\n\n\n\n\n\nContact form submissions"
+    "section": "Information We Collect",
+    "text": "Information We Collect\n\nAutomatically Collected Information\n\nBrowser type and operating system\nIP address (anonymized)\nPages visited and time spent on our site\nReferral sources\n\n\n\nVoluntarily Provided Information\n\nContact form submissions"
   },
   {
     "objectID": "privacy.html#how-we-use-your-information",
     "href": "privacy.html#how-we-use-your-information",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "To provide and maintain our AI news digest service\nTo improve user experience and website performance\nTo analyze website traffic and engagement patterns"
+    "section": "How We Use Your Information",
+    "text": "How We Use Your Information\n\nTo provide and maintain our AI news digest service\nTo improve user experience and website performance\nTo analyze website traffic and engagement patterns"
   },
   {
     "objectID": "privacy.html#data-collection-methods",
     "href": "privacy.html#data-collection-methods",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "We use industry-standard analytics tools that respect user privacy. No personal identifiers are stored longer than necessary for the intended purpose."
+    "section": "Data Collection Methods",
+    "text": "Data Collection Methods\nWe use industry-standard analytics tools that respect user privacy. No personal identifiers are stored longer than necessary for the intended purpose."
   },
   {
     "objectID": "privacy.html#cookies-and-tracking",
     "href": "privacy.html#cookies-and-tracking",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "Essential cookies for website functionality\nAnalytics cookies (can be disabled via browser settings)\nNo third-party advertising cookies"
+    "section": "Cookies and Tracking",
+    "text": "Cookies and Tracking\n\nEssential cookies for website functionality\nAnalytics cookies (can be disabled via browser settings)\nNo third-party advertising cookies"
   },
   {
     "objectID": "privacy.html#data-sharing-and-disclosure",
     "href": "privacy.html#data-sharing-and-disclosure",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "We do not sell, trade, or otherwise transfer your personal information to third parties, except:\n\nWhen required by law\nTo protect our rights and prevent fraud\nWith trusted service providers who assist in operating our website"
+    "section": "Data Sharing and Disclosure",
+    "text": "Data Sharing and Disclosure\nWe do not sell, trade, or otherwise transfer your personal information to third parties, except:\n\nWhen required by law\nTo protect our rights and prevent fraud\nWith trusted service providers who assist in operating our website"
   },
   {
     "objectID": "privacy.html#data-security",
     "href": "privacy.html#data-security",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction."
+    "section": "Data Security",
+    "text": "Data Security\nWe implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction."
   },
   {
     "objectID": "privacy.html#your-rights",
     "href": "privacy.html#your-rights",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "Access to your personal data\nCorrection of inaccurate data\nDeletion of your data (where legally required)\nOpt-out of marketing communications"
+    "section": "Your Rights",
+    "text": "Your Rights\n\nAccess to your personal data\nCorrection of inaccurate data\nDeletion of your data (where legally required)\nOpt-out of marketing communications"
   },
   {
     "objectID": "privacy.html#international-data-transfers",
     "href": "privacy.html#international-data-transfers",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "Your data may be transferred to and processed in countries outside your own. We ensure appropriate safeguards are in place."
+    "section": "International Data Transfers",
+    "text": "International Data Transfers\nYour data may be transferred to and processed in countries outside your own. We ensure appropriate safeguards are in place."
   },
   {
     "objectID": "privacy.html#childrens-privacy",
     "href": "privacy.html#childrens-privacy",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "Our service is not directed to children under 13. We do not knowingly collect personal information from children."
+    "section": "Children’s Privacy",
+    "text": "Children’s Privacy\nOur service is not directed to children under 13. We do not knowingly collect personal information from children."
   },
   {
     "objectID": "privacy.html#changes-to-this-policy",
     "href": "privacy.html#changes-to-this-policy",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "We may update this privacy policy periodically. Changes will be posted on this page with an updated “Last Updated” date."
+    "section": "Changes to This Policy",
+    "text": "Changes to This Policy\nWe may update this privacy policy periodically. Changes will be posted on this page with an updated “Last Updated” date."
   },
   {
     "objectID": "privacy.html#contact-us",
     "href": "privacy.html#contact-us",
     "title": "Privacy Policy",
-    "section": "",
-    "text": "If you have questions about this Privacy Policy, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
+    "section": "Contact Us",
+    "text": "Contact Us\nIf you have questions about this Privacy Policy, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
   },
   {
     "objectID": "about.html",
@@ -161,46 +154,32 @@
     "text": "NVIDIA has announced the release of C-RADIOv4, a new “agglomerative” vision backbone that unifies three powerful architectures—SigLIP2, DINOv3, and SAM3—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.\n\nThe Power of Agglomerative Distillation\nThe core of C-RADIOv4’s success lies in its distillation process. By training a single Vision Transformer (ViT) student to match the dense feature maps and summary tokens of heterogeneous teacher models, NVIDIA has created a backbone that captures the best of three worlds:\n\nSigLIP2-g-384: Provides superior image-text alignment for retrieval and classification.\nDINOv3-7B: Offers high-quality self-supervised features for dense spatial tasks.\nSAM3: Enables robust segmentation capabilities and drop-in compatibility with the latest Segment Anything decoders.\n\n\n\nBreakthrough in Resolution Robustness\nOne of the most challenging aspects of vision models is maintaining performance across different input sizes. C-RADIOv4 introduces stochastic multi-resolution training, sampling inputs from 128px up to 1152px. Coupled with the FeatSharp upsampling technique, this ensures that the model remains accurate whether processing a small thumbnail or a high-resolution medical image.\n\n\nSolving the “Artifact” Problem\nDistilling from large models often results in the student copying the teacher’s “noise” or border artifacts. NVIDIA solved this through shift-equivariant losses. By showing the teacher and student different, independently shifted crops of the same image, the system forces the student to learn genuine semantic structures rather than memorizing position-fixed noise patterns.\n\n\nDeployment and Accessibility\nC-RADIOv4 is designed for practical use, featuring a ViTDet-mode for efficient inference. On an A100 GPU, the student model’s windowed attention mechanism allows it to outperform the original SAM3 ViT-L+ encoder in speed while maintaining competitive accuracy.\nThe model has been released under the NVIDIA Open Model License, making it a powerful resource for researchers and enterprises looking to streamline their computer vision pipelines.\nTechnical Paper | Model on Hugging Face"
   },
   {
-    "objectID": "posts/2026-02-06-daily-ai-digest/index.html",
-    "href": "posts/2026-02-06-daily-ai-digest/index.html",
-    "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
-    "section": "",
-    "text": "Anthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token context window, enabling it to process and reason over extensive documents, codebases, and conversational histories in a single session. Perhaps more importantly, Opus 4.6 introduces enhanced agentic capabilities, allowing the model to autonomously execute multi-step tasks, maintain state across complex workflows, and demonstrate improved planning and tool usage. The model shows remarkable performance in coding tasks, mathematical reasoning, and creative writing, setting new benchmarks across multiple evaluation datasets. Early adopters report particularly impressive results in enterprise settings, where the extended context window proves invaluable for analyzing legal documents, financial reports, and technical documentation.\n\n\n\nOpenAI has announced the integration of Codex capabilities directly into GPT-5.3, marking the end of standalone Codex models. This unification brings advanced code generation, debugging, and refactoring capabilities into the main GPT architecture, eliminating the need for separate specialized models. The integrated system demonstrates superior performance in software engineering tasks, with particular strength in understanding existing codebases, generating documentation, and implementing complex algorithms. Developers report significant productivity gains, with the model now capable of maintaining context across entire development sessions and providing consistent coding style guidance. The merger also introduces improved security features, with built-in vulnerability detection and secure coding practices enforcement.\n\n\n\nNVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
-  },
-  {
     "objectID": "posts/2026-02-06-daily-ai-digest/index.html#claude-opus-4.6-anthropics-agentic-leap-forward",
     "href": "posts/2026-02-06-daily-ai-digest/index.html#claude-opus-4.6-anthropics-agentic-leap-forward",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
-    "section": "",
-    "text": "Anthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token context window, enabling it to process and reason over extensive documents, codebases, and conversational histories in a single session. Perhaps more importantly, Opus 4.6 introduces enhanced agentic capabilities, allowing the model to autonomously execute multi-step tasks, maintain state across complex workflows, and demonstrate improved planning and tool usage. The model shows remarkable performance in coding tasks, mathematical reasoning, and creative writing, setting new benchmarks across multiple evaluation datasets. Early adopters report particularly impressive results in enterprise settings, where the extended context window proves invaluable for analyzing legal documents, financial reports, and technical documentation."
+    "section": "Claude Opus 4.6: Anthropic’s Agentic Leap Forward",
+    "text": "Claude Opus 4.6: Anthropic’s Agentic Leap Forward\nAnthropic has unveiled Claude Opus 4.6, representing a significant milestone in large language model development. The new model boasts an unprecedented 1 million token context window, enabling it to process and reason over extensive documents, codebases, and conversational histories in a single session. Perhaps more importantly, Opus 4.6 introduces enhanced agentic capabilities, allowing the model to autonomously execute multi-step tasks, maintain state across complex workflows, and demonstrate improved planning and tool usage. The model shows remarkable performance in coding tasks, mathematical reasoning, and creative writing, setting new benchmarks across multiple evaluation datasets. Early adopters report particularly impressive results in enterprise settings, where the extended context window proves invaluable for analyzing legal documents, financial reports, and technical documentation."
   },
   {
     "objectID": "posts/2026-02-06-daily-ai-digest/index.html#openais-gpt-5.3-codex-unification-strategy",
     "href": "posts/2026-02-06-daily-ai-digest/index.html#openais-gpt-5.3-codex-unification-strategy",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
-    "section": "",
-    "text": "OpenAI has announced the integration of Codex capabilities directly into GPT-5.3, marking the end of standalone Codex models. This unification brings advanced code generation, debugging, and refactoring capabilities into the main GPT architecture, eliminating the need for separate specialized models. The integrated system demonstrates superior performance in software engineering tasks, with particular strength in understanding existing codebases, generating documentation, and implementing complex algorithms. Developers report significant productivity gains, with the model now capable of maintaining context across entire development sessions and providing consistent coding style guidance. The merger also introduces improved security features, with built-in vulnerability detection and secure coding practices enforcement."
+    "section": "OpenAI’s GPT-5.3-Codex Unification Strategy",
+    "text": "OpenAI’s GPT-5.3-Codex Unification Strategy\nOpenAI has announced the integration of Codex capabilities directly into GPT-5.3, marking the end of standalone Codex models. This unification brings advanced code generation, debugging, and refactoring capabilities into the main GPT architecture, eliminating the need for separate specialized models. The integrated system demonstrates superior performance in software engineering tasks, with particular strength in understanding existing codebases, generating documentation, and implementing complex algorithms. Developers report significant productivity gains, with the model now capable of maintaining context across entire development sessions and providing consistent coding style guidance. The merger also introduces improved security features, with built-in vulnerability detection and secure coding practices enforcement."
   },
   {
     "objectID": "posts/2026-02-06-daily-ai-digest/index.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
     "href": "posts/2026-02-06-daily-ai-digest/index.html#nvidias-multimodal-innovations-nemotron-colembed-v2-and-sygra-studio",
     "title": "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs",
-    "section": "",
-    "text": "NVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
-  },
-  {
-    "objectID": "posts/2026-02-11-agent-world-model-synthetic-environments/index.html",
-    "href": "posts/2026-02-11-agent-world-model-synthetic-environments/index.html",
-    "title": "Agent World Model: Snowflake Researchers Scale Synthetic RL to 1,000 Environments",
-    "section": "",
-    "text": "Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. Snowflake Labs introduces Agent World Model (AWM), a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.\nPublished on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency."
+    "section": "NVIDIA’s Multimodal Innovations: Nemotron ColEmbed V2 and SyGra Studio",
+    "text": "NVIDIA’s Multimodal Innovations: Nemotron ColEmbed V2 and SyGra Studio\nNVIDIA has launched two significant tools advancing multimodal AI capabilities. Nemotron ColEmbed V2 represents a breakthrough in embedding technology, offering superior performance across text, image, and video modalities. The system demonstrates exceptional cross-modal understanding, enabling more sophisticated search and retrieval applications while reducing computational overhead by 40% compared to previous versions. Simultaneously, NVIDIA’s SyGra Studio provides developers with a comprehensive platform for creating and deploying multimodal applications, featuring intuitive tools for model training, optimization, and deployment. Early users praise the studio’s ability to streamline complex multimodal workflows, reducing development time from weeks to days for applications ranging from content analysis to autonomous systems perception.\nSources: Anthropic official blog, OpenAI developer updates, NVIDIA technical releases"
   },
   {
     "objectID": "posts/2026-02-11-agent-world-model-synthetic-environments/index.html#the-big-picture",
     "href": "posts/2026-02-11-agent-world-model-synthetic-environments/index.html#the-big-picture",
     "title": "Agent World Model: Snowflake Researchers Scale Synthetic RL to 1,000 Environments",
-    "section": "",
-    "text": "Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. Snowflake Labs introduces Agent World Model (AWM), a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.\nPublished on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency."
+    "section": "The Big Picture",
+    "text": "The Big Picture\nTraining autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. Snowflake Labs introduces Agent World Model (AWM), a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.\nPublished on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency."
   },
   {
     "objectID": "posts/2026-02-11-agent-world-model-synthetic-environments/index.html#why-it-matters",
@@ -238,25 +217,18 @@
     "text": "Key Takeaways\n\n1,000 synthetic environments enable large-scale agent RL training\nCode-driven consistency beats LLM-based simulation for reliability\nOut-of-distribution generalization improves with synthetic diversity\nOpen-source release available for research community\n\nThe work marks a significant step toward scalable, reproducible agent training methodologies."
   },
   {
-    "objectID": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html",
-    "href": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html",
-    "title": "Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6",
-    "section": "",
-    "text": "OpenAI has released GPT-5.3 Codex, its most advanced reasoning model specifically optimized for agentic coding and multi-step technical workflows. Accompanying this is OpenAI Frontier, a new platform designed for enterprise teams to deploy autonomous agents capable of handling cross-departmental operations. These releases directly compete with Anthropic’s latest offerings, signaling a move toward AI as an “execution layer” rather than just a chat interface.\n\n\n\nAnthropic has counter-punched with Claude Opus 4.6, featuring a 1 million token context window and specialized “Agent Teams” functionality. The update focuses on long-range reasoning and professional work quality, aiming to maintain Anthropic’s edge in high-fidelity reasoning and context-heavy enterprise applications.\n\n\n\nGoogle DeepMind is showcasing Genie 3, the latest iteration of its generative world model. Genie 3 can generate realistic 3D virtual environments and interactive simulations from text or image prompts, pushing the boundaries of physical AI and simulated training for robotics.\n\n\n\n\n\nGPT-5.3 Codex: Best-in-class for autonomous software development.\nClaude Opus 4.6: Top tier for massive document analysis and reasoning.\nSnowflake Agents: Direct integration of OpenAI models into the Snowflake Data Cloud for SQL-native autonomous agents.\nC-RADIOv4: NVIDIA’s latest vision backbone for spatial reasoning in robotics.\n\n\nSource: Web Research | 2026-02-09"
-  },
-  {
     "objectID": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html#news-highlights",
     "href": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html#news-highlights",
     "title": "Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6",
-    "section": "",
-    "text": "OpenAI has released GPT-5.3 Codex, its most advanced reasoning model specifically optimized for agentic coding and multi-step technical workflows. Accompanying this is OpenAI Frontier, a new platform designed for enterprise teams to deploy autonomous agents capable of handling cross-departmental operations. These releases directly compete with Anthropic’s latest offerings, signaling a move toward AI as an “execution layer” rather than just a chat interface.\n\n\n\nAnthropic has counter-punched with Claude Opus 4.6, featuring a 1 million token context window and specialized “Agent Teams” functionality. The update focuses on long-range reasoning and professional work quality, aiming to maintain Anthropic’s edge in high-fidelity reasoning and context-heavy enterprise applications.\n\n\n\nGoogle DeepMind is showcasing Genie 3, the latest iteration of its generative world model. Genie 3 can generate realistic 3D virtual environments and interactive simulations from text or image prompts, pushing the boundaries of physical AI and simulated training for robotics."
+    "section": "News Highlights",
+    "text": "News Highlights\n\nOpenAI Launches GPT-5.3 Codex & “Frontier” Enterprise Platform\nOpenAI has released GPT-5.3 Codex, its most advanced reasoning model specifically optimized for agentic coding and multi-step technical workflows. Accompanying this is OpenAI Frontier, a new platform designed for enterprise teams to deploy autonomous agents capable of handling cross-departmental operations. These releases directly compete with Anthropic’s latest offerings, signaling a move toward AI as an “execution layer” rather than just a chat interface.\n\n\nAnthropic Unveils Claude Opus 4.6\nAnthropic has counter-punched with Claude Opus 4.6, featuring a 1 million token context window and specialized “Agent Teams” functionality. The update focuses on long-range reasoning and professional work quality, aiming to maintain Anthropic’s edge in high-fidelity reasoning and context-heavy enterprise applications.\n\n\nGoogle DeepMind Previews Genie 3 World Model\nGoogle DeepMind is showcasing Genie 3, the latest iteration of its generative world model. Genie 3 can generate realistic 3D virtual environments and interactive simulations from text or image prompts, pushing the boundaries of physical AI and simulated training for robotics."
   },
   {
     "objectID": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html#trending-tools-models",
     "href": "posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html#trending-tools-models",
     "title": "Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6",
-    "section": "",
-    "text": "GPT-5.3 Codex: Best-in-class for autonomous software development.\nClaude Opus 4.6: Top tier for massive document analysis and reasoning.\nSnowflake Agents: Direct integration of OpenAI models into the Snowflake Data Cloud for SQL-native autonomous agents.\nC-RADIOv4: NVIDIA’s latest vision backbone for spatial reasoning in robotics.\n\n\nSource: Web Research | 2026-02-09"
+    "section": "Trending Tools & Models",
+    "text": "Trending Tools & Models\n\nGPT-5.3 Codex: Best-in-class for autonomous software development.\nClaude Opus 4.6: Top tier for massive document analysis and reasoning.\nSnowflake Agents: Direct integration of OpenAI models into the Snowflake Data Cloud for SQL-native autonomous agents.\nC-RADIOv4: NVIDIA’s latest vision backbone for spatial reasoning in robotics.\n\n\nSource: Web Research | 2026-02-09"
   },
   {
     "objectID": "posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html",
@@ -266,18 +238,11 @@
     "text": "A research collaboration between Google AI and Peking University has introduced PaperBanana, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.\n\nOrchestrating 5 Specialized Agents\nPaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:\n\nRetriever Agent: Searches a database for relevant reference examples to guide style and structure.\nPlanner Agent: Converts technical text descriptions into detailed visual plans.\nGenerator Agent: Produces the initial implementation code (using tools like TikZ or Matplotlib).\nReviewer Agent: Critiques the generated output for accuracy and aesthetic quality.\nRefiner Agent: Iteratively improves the code based on the reviewer’s feedback.\n\n\n\nKey Performance Capabilities\nIn comparative evaluations, PaperBanana significantly outperformed existing LLM-based solutions: - Success Rate: Achieved a 93% success rate in generating complex TikZ-based methodology diagrams, compared to less than 40% for GPT-4 based single-prompt methods. - Human Preference: 82% of researchers surveyed preferred PaperBanana-generated diagrams for their clarity and professional appearance. - Iterative Accuracy: The multi-agent critique loop reduced hallucination in data representation by nearly 65%.\n\n\nWhy It Matters\nThe automation of high-quality scientific visualization allows researchers to focus more on core discovery and less on the “drudgery” of formatting figures. By open-sourcing the PaperBanana framework, the authors aim to democratize access to publication-quality design, ensuring that complex ideas are communicated more effectively across the global research community."
   },
   {
-    "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
-    "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html",
-    "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "",
-    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
-  },
-  {
     "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
     "href": "posts/2026-02-10-oat-robotics-tokenizer/index.html#the-tokenization-wall",
     "title": "OAT: The Action Tokenizer Robots Need",
-    "section": "",
-    "text": "Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
+    "section": "The Tokenization Wall",
+    "text": "The Tokenization Wall\nLarge language models predict the next word. Shouldn’t they predict the next robot move? The challenge: continuous robot movements don’t tokenize easily.\nPrevious approaches failed: - Binning: Creates massive, slow sequences - FAST: Fast but unreliable — small errors halt robots - Learned Latent Tokenizers: Safe but unordered, losing temporal structure\nResearchers from Harvard and Stanford identified three non-negotiables for robot tokenization:\n\nHigh Compression — Short token sequences\nTotal Decodability — Every sequence maps to a valid move\nCausal Ordering — Left-to-right structure, global first, details later"
   },
   {
     "objectID": "posts/2026-02-10-oat-robotics-tokenizer/index.html#enter-ordered-action-tokenization-oat",
@@ -322,46 +287,32 @@
     "text": "Grok 4.2 visualization by AI\n\n\nElon Musk has once again sent the AI community into a frenzy with a brief, cryptic post on X containing just two words: “Grok 4.2”.\nThis signal confirms the long-rumored release of xAI’s mid-cycle flagship update, which has been appearing in stealth “preview” modes for select users over the last few weeks. While official specs were not attached to the post, current industry data and previous leaks suggest a massive leap over the 4.1 generation.\n\nWhat to Expect from Grok 4.2\nBuilding on the established “Signal over Noise” philosophy, Grok 4.2 is expected to focus on three core pillars:\n\nEnhanced Real-Time Synthesis: Refined integration with the live X stream, allowing for faster and more accurate summarization of breaking global events.\nContext Window Expansion: Rumors suggest a jump to a 2-million token context window, positioning it as a direct competitor to other long-context leaders.\nLow-Latency Reasoning: Optimized inference speeds that make it suitable for deep agentic workflows without the “thinking lag” often associated with large-scale reasoning models.\n\n\n\nThe Grok 4.20 vs. 4.2 Confusion\nFor weeks, enthusiasts have debated whether the next version would be branded 4.2 or 4.20—the latter being a signature Musk reference. By choosing “4.2”, Musk appears to be leaning into a more professional branding for xAI as it seeks to deepen its reach into enterprise applications and sophisticated research tools.\n\n\nWhy This Matters\nAs companies like OpenAI (GPT-5 series) and Google (Gemini 3) continue their 2026 rollouts, xAI remains the “wild card” of the industry. Grok 4.2’s ability to use real-time human behavior data from X gives it an edge in social intelligence that static-dataset models struggle to replicate.\nThe model is expected to be available to Premium+ subscribers starting today, with a wider API rollout via the xAI console immediately following.\n\nStay tuned to Robo AI Digest as we perform a deep-dive benchmark comparison once the full technical report is released."
   },
   {
-    "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "href": "posts/2026-02-06-era-of-agentic-workflows/index.html",
-    "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "As large language models like the recently announced Claude Opus 4.6 push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.\n\n\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data.\n\n\n\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed.\n\n\n\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
-  },
-  {
     "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
     "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#llamaindex-beyond-vector-search",
     "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "LlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
+    "section": "LlamaIndex: Beyond Vector Search",
+    "text": "LlamaIndex: Beyond Vector Search\nLlamaIndex has recently introduced several core updates focused on ‘Agentic RAG’. This allows the system not just to find documents, but to decide how to use them. Through advanced tool-calling and reasoning loops, developers can now build systems that can critique their own answers and decide when to fetch more data."
   },
   {
     "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
     "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#langchains-langgraph-adoption",
     "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "LangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
+    "section": "LangChain’s LangGraph Adoption",
+    "text": "LangChain’s LangGraph Adoption\nLangChain’s focus has shifted heavily toward LangGraph, a tool designed to create stateful, multi-actor applications. Unlike linear chains, LangGraph enables cyclical logic, which is essential for agents that need to iterate on a task until it is completed."
   },
   {
     "objectID": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
     "href": "posts/2026-02-06-era-of-agentic-workflows/index.html#industry-impact",
     "title": "The Era of Agentic Workflows: How LlamaIndex and LangChain are Evolving",
-    "section": "",
-    "text": "The convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
-  },
-  {
-    "objectID": "posts/2026-02-11-xai-founding-team-exodus/index.html",
-    "href": "posts/2026-02-11-xai-founding-team-exodus/index.html",
-    "title": "xAI Exodus: Half of Founding Team Departures Signal Deeper Challenges",
-    "section": "",
-    "text": "Elon Musk’s xAI is experiencing its most significant talent exodus since the company’s founding. Two more co-founders — Jimmy Ba and Tony Wu — departed this week, bringing the total number of founding team members who have left to six out of twelve.\nThe departures, coming less than three years after xAI’s launch, raise questions about internal stability at the high-profile AI startup, especially as it navigates an increasingly competitive landscape against OpenAI, Google, and Anthropic."
+    "section": "Industry Impact",
+    "text": "Industry Impact\nThe convergence of 1M token context windows and these robust frameworks means that AI agents can now handle entire software development lifecycles or complex legal audits with minimal human intervention. For more on the technical foundation of these models, see our coverage of GPT-5.3-Codex.\nSources: LlamaIndex Engineering Blog, LangChain Tech Updates, AI Weekly."
   },
   {
     "objectID": "posts/2026-02-11-xai-founding-team-exodus/index.html#the-big-picture",
     "href": "posts/2026-02-11-xai-founding-team-exodus/index.html#the-big-picture",
     "title": "xAI Exodus: Half of Founding Team Departures Signal Deeper Challenges",
-    "section": "",
-    "text": "Elon Musk’s xAI is experiencing its most significant talent exodus since the company’s founding. Two more co-founders — Jimmy Ba and Tony Wu — departed this week, bringing the total number of founding team members who have left to six out of twelve.\nThe departures, coming less than three years after xAI’s launch, raise questions about internal stability at the high-profile AI startup, especially as it navigates an increasingly competitive landscape against OpenAI, Google, and Anthropic."
+    "section": "The Big Picture",
+    "text": "The Big Picture\nElon Musk’s xAI is experiencing its most significant talent exodus since the company’s founding. Two more co-founders — Jimmy Ba and Tony Wu — departed this week, bringing the total number of founding team members who have left to six out of twelve.\nThe departures, coming less than three years after xAI’s launch, raise questions about internal stability at the high-profile AI startup, especially as it navigates an increasingly competitive landscape against OpenAI, Google, and Anthropic."
   },
   {
     "objectID": "posts/2026-02-11-xai-founding-team-exodus/index.html#why-it-matters",
@@ -399,18 +350,11 @@
     "text": "Key Takeaways\n\nSix of twelve founding members have now left xAI within three years\nJimmy Ba and Tony Wu exited within 24 hours of each other this week\nTiming coincides with SpaceX merger and anticipated funding activities\nIndustry-wide trend: High burnout rates affect all frontier AI labs\n\nThe departures highlight the human cost of building next-generation AI systems under the intense pressure typical of Musk-led ventures."
   },
   {
-    "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
-    "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html",
-    "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "",
-    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
-  },
-  {
     "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
     "href": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#the-big-picture",
     "title": "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js",
-    "section": "",
-    "text": "Running state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
+    "section": "The Big Picture",
+    "text": "The Big Picture\nRunning state-of-the-art AI models locally just got a major upgrade. Hugging Face has released Transformers.js v4, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.\nAfter nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase."
   },
   {
     "objectID": "posts/2026-02-11-transformers-js-v4-webgpu/index.html#why-it-matters",
@@ -448,18 +392,11 @@
     "text": "As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: context rot. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their Deep Agents SDK manages this challenge.\n\nAdvanced Compression Strategies\nThe Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:\n\nTool Result Offloading: Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.\nInput Truncation: Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.\nIntelligent Summarization: When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.\n\n\n\nTesting Recoverability\nA key takeaway for developers is that compression is only as good as its recoverability. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.\nBy combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.\nDetailed technical breakdown available on the LangChain Blog."
   },
   {
-    "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
-    "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html",
-    "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "",
-    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
-  },
-  {
     "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
     "href": "posts/2026-02-10-microsoft-orbitalbrain/index.html#the-problem-satellite-data-never-reaches-earth",
     "title": "Microsoft OrbitalBrain: Training ML Models in Space",
-    "section": "",
-    "text": "Earth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
+    "section": "The Problem: Satellite Data Never Reaches Earth",
+    "text": "The Problem: Satellite Data Never Reaches Earth\nEarth observation constellations capture 363,563 images per day at maximum rate. But due to downlink constraints, only 11.7% of that data ever reaches ground stations within 24 hours.\nMicrosoft researchers asked: What if we trained models in space instead?"
   },
   {
     "objectID": "posts/2026-02-10-microsoft-orbitalbrain/index.html#enter-orbitalbrain",
@@ -488,13 +425,6 @@
     "title": "Microsoft OrbitalBrain: Training ML Models in Space",
     "section": "The Bottom Line",
     "text": "The Bottom Line\nOrbitalBrain proves that satellite constellations can act as distributed ML systems, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays\nThe future of Earth observation isn’t just better sensors — it’s better coordination."
-  },
-  {
-    "objectID": "posts/2026-02-12-zhipu-glm5-release/index.html",
-    "href": "posts/2026-02-12-zhipu-glm5-release/index.html",
-    "title": "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini",
-    "section": "",
-    "text": "Zhipu GLM-5: A new era for open-source agentic models."
   },
   {
     "objectID": "posts/2026-02-12-zhipu-glm5-release/index.html#the-rise-of-glm-5",
@@ -602,18 +532,11 @@
     "text": "Solving the memory bottleneck in Large Language Model (LLM) inference has taken a significant leap forward. NVIDIA researchers have unveiled KVTC (Key-Value Cache Transform Coding), a lightweight pipeline that compresses KV caches by 20x to 40x, dramatically reducing the memory footprint required for long-context reasoning.\n\nThe Memory Bottleneck\nIn modern Transformers, the Key-Value (KV) cache grows proportionally with sequence length and model size, often occupying multiple gigabytes. This creates a dilemma: keeping the cache consumes scarce GPU memory, while discarding it forces expensive recomputation during multi-turn interactions. KVTC aims to solve this by making on-chip retention and off-chip offloading significantly more efficient.\n\n\nHow KVTC Works\nInspired by classical media compression (like JPEG), the KVTC pipeline uses a multi-stage approach to shrink data without sacrificing intelligence:\n\nFeature Decorrelation (PCA): It uses Principal Component Analysis (PCA) to decorrelate features across attention heads. A single calibration step (taking under 10 minutes) creates a reusable basis matrix.\nAdaptive Quantization: A dynamic programming algorithm allocates bits based on coordinate variance. High-variance components get more bits, while trailing components may receive zero, enabling aggressive dimensionality reduction.\nEntropy Coding: The resulting symbols are packed using the DEFLATE algorithm, accelerated by NVIDIA’s nvCOMP library for direct GPU processing.\n\n\n\nPerformance and Accuracy\nWhat makes KVTC remarkable is its “near-lossless” nature. Benchmarks on Llama-3.1, Mistral-NeMo, and R1-Qwen-2.5 show:\n\nAccuracy: At 16x–20x compression, models maintain results within 1 score point of uncompressed versions.\nLatency: For 8K contexts, it reduces Time-To-First-Token (TTFT) by up to 8x compared to full recomputation.\nOverhead: The storage required for the transformation parameters is minimal, representing only about 2.4% of model parameters.\n\n\n\nProtecting “Critical” Tokens\nNVIDIA’s research highlights that not all tokens are equal. KVTC maintains accuracy by explicitly avoiding compression for the 4 oldest “attention sink” tokens and the 128 most recent tokens in the sliding window. Compressing these “anchors” was shown to cause performance collapse at high ratios.\nThis tuning-free method is backward-compatible with existing models and token eviction strategies, making it a powerful practical building block for the next generation of memory-efficient AI services.\nSource: MarkTechPost / arXiv:2511.01815"
   },
   {
-    "objectID": "posts/2026-02-10-bytedance-protenix-v1/index.html",
-    "href": "posts/2026-02-10-bytedance-protenix-v1/index.html",
-    "title": "ByteDance Protenix-v1: Open-Source AlphaFold3 Challenger",
-    "section": "",
-    "text": "Can an open-source model truly match AlphaFold3’s performance? ByteDance says yes. Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.\nThis isn’t just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics."
-  },
-  {
     "objectID": "posts/2026-02-10-bytedance-protenix-v1/index.html#the-big-picture",
     "href": "posts/2026-02-10-bytedance-protenix-v1/index.html#the-big-picture",
     "title": "ByteDance Protenix-v1: Open-Source AlphaFold3 Challenger",
-    "section": "",
-    "text": "Can an open-source model truly match AlphaFold3’s performance? ByteDance says yes. Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.\nThis isn’t just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics."
+    "section": "The Big Picture",
+    "text": "The Big Picture\nCan an open-source model truly match AlphaFold3’s performance? ByteDance says yes. Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.\nThis isn’t just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics."
   },
   {
     "objectID": "posts/2026-02-10-bytedance-protenix-v1/index.html#why-it-matters",
@@ -651,136 +574,122 @@
     "text": "ServiceNow AI has introduced SyGra Studio, a new interactive environment designed to transform synthetic data generation from a terminal-based chore into a visual craft. Built on the SyGra 2.0.0 platform, Studio provides a “no-code” canvas for designing complex data flows.\n\nFrom YAML to Canvas\nPreviously, users had to manage synthetic data pipelines through complex YAML configurations and CLI commands. SyGra Studio replaces this with a drag-and-drop interface where developers can:\n\nCompose flows visually: Link LLM nodes, data sources (like Hugging Face or local files), and processors on a shared canvas.\nPreview datasets in real-time: Validate data sources and see sample rows before running full executions.\nDebug with inline tools: Access logs, breakpoints, and Monaco-backed code editors directly within the UI.\nMonitor Performance: Track token costs, latency, and guardrail outcomes as the flow executes.\n\n\n\nWhy Visualizing Synthetic Data Matters\nAs models require more specialized training data, the complexity of generating high-quality synthetic datasets has grown. SyGra Studio allows researchers to iterate faster on prompt templates and “agentic” loops—such as the “Glaive Code Assistant” workflow which critiques and revises its own answers until quality thresholds are met.\nBy automating the generation of the underlying YAML and task executor scripts, Studio makes sophisticated data engineering accessible to a wider range of AI practitioners.\nExplore the tool on the Hugging Face Blog."
   },
   {
-    "objectID": "PROJECT_LOG.html",
-    "href": "PROJECT_LOG.html",
-    "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "World-class AI news portal focusing on unique English insights, built with Quarto and R. Fully automated daily scouting and publishing engine delivering “Signal over Noise”.\n\n\n\n\nQuarto\nR\nCSS (Dark AI Theme)\nMiniMax M2.5 (Primary Author Engine)\nPollinations.ai (AI Image Generation) - CURRENTLY DOWN\nNetlify (Hosting & Forms)\nBrave Search API (Deep Research)\nKlaro (Cookie Consent)\n\n\n\n\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest.\nFix the markdown rendering issue for nofollow links in Quarto post templates.\n\n\n\n\n\n\n\nSchedule\nScript\nPurpose\n\n\n\n\n0 8 * * *\nCron ID: 05094f68…\nDaily scout - 08:00\n\n\n45 8 * * *\nCron ID: b0436a40…\nDaily scout - 08:45\n\n\n15 10 * * *\nCron ID: 74034b49…\nDaily scout - 10:15\n\n\n\n\n\n\n\n\n\nCron Fix: Old cron had invalid format 0 8,45 8,15 10 * * *. Removed and created 3 new crons: 08:00, 08:45, 10:15 (all using MiniMax-M2.5)\nNew Publications:\n\nGemini 3 Deep Think (subagent published)\nxAI Interplanetary Ambitions\nTransformers.js v5 (recreated - file was empty)\n\nImage Fixes:\n\nFixed broken images (local .jpg/.png) - changed to Pollinations.ai URLs\nFixed nofollow links (spacing issue: {rel=\"nofollow\"} → {rel=\"nofollow\"})\nFixed published_topics.json (missing comma)\nFixed image URLs: image.pollinations.ai/prompt/ → pollinations.ai/p/\n\nIssue: Pollinations.ai currently returns HTTP 530 - service down\nCookie Consent: Added Klaro (klaro-config.js + klaro-head.html)\nCron Maintenance: Fixed invalid cron schedule expression that caused missed morning updates. Verified new schedule (08:00, 08:45, 10:15) is active and working.\nManual Recovery: Triggered manual scout/publish session to recover missed morning news.\nNew Publications:\n\nMiniMax M2.5 Release: Deep dive into the “intelligence too cheap to meter” model, SOTA agentic performance (80.2% SWE-bench), and Forge RL framework.\nHugging Face Transformers.js v5: Major update with enhanced WebGPU support.\nOpenEnv: New agent evaluation framework for interactive environment testing.\n\nSystem Cleanup: Fixed Quarto rendering warnings related to missing post metadata.\nModel Verification: Confirmed all automated tasks are correctly using Gemini 3 Flash via OpenRouter.\n\n\n\n\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nTransformers.js v4: Hugging Face’s major WebGPU runtime rewrite enabling local AI inference in browsers, Node.js, and Deno\nxAI Founding Exodus: Half of xAI’s founding team (6 of 12) departed, including Jimmy Ba and Tony Wu\nAgent World Model: Snowflake Labs’ synthetic environment generation pipeline for scalable agent RL training\n\nDeduplication Check: Validated against published_topics.json - no duplicate topics detected\nSources Used: Hugging Face Blog, Bloomberg, CNBC, arXiv, Financial Times\nAutomation: Published via cron (08:00) with MiniMax M2.1 author engine\nLive: All 3 posts committed to GitHub (2436eb5)\n\n\n\n\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nByteDance Protenix-v1: Open-source AlphaFold3-level biomolecular structure model\nMicrosoft OrbitalBrain: Distributed ML training on satellite constellations\nOAT: Ordered Action Tokenization for robotics (Harvard/Stanford)\n\nImage Integration: Migrated to external Pollinations.ai URLs for reliable image rendering\nModel Update: Primary author engine switched to MiniMax M2.1\nDeployment Fix: Netlify was skipping Quarto build (3s deploy time). Fixed by committing rendered _site/ folder to GitHub for direct CDN deployment\nLive: All 3 posts now visible at roboaidigest.com (commit 4a02ce7)\nSEO Improvements:\n\nAdded OG/Twitter Card meta tags via header-includes\nAdded robots and googlebot meta tags\nMoved keywords from frontmatter to header-includes (global only)\nCreated hide-elements.css to hide keywords section and footer from posts\nAdded rel=“nofollow” to all external links\nEnabled canonical-url: true for automatic canonical tags\nExtended meta description to 156 characters\nAdded pagetagline: “Robo AI Digest - AI News, Machine Learning & Technology”\nRemoved redundant “Home” link from navbar\nAdded fig-alt attributes to all post images\nHomepage SEO audit score: 74/100 (improvements applied)\n\n\n\n\n\n\nReporting Service Status: Verified Financial Sentiment Check status via Heartbeat (PL source stale).\nBrave API Integration: Configured Brave Search API key for enhanced web research capabilities.\nBreaking News Coverage: Published a technical update on the rumored “Grok 4.2” release by xAI, including AI-generated imagery and deep research into xAI documentation.\nBug Fix (Rendering): Fixed a system-wide issue where nofollow parameters were incorrectly rendered as text in Quarto posts due to trailing spaces in markdown syntax.\nRebranding: Successfully rebranded the project from “ainews” to “Robo AI Digest”.\nDomain: Purchased and connected official domain roboaidigest.com.\nInfrastructure: Switched Git authentication from HTTPS to SSH for reliable automated pushes.\nAutomation Enrichment: Integrated AI image generation using Pollinations.ai API for all new posts.\nPrivacy & Security: Removed all raw email addresses from public pages and Git history; excluded PROJECT_LOG.md from repository.\nEngagement: Implemented a Netlify-backed contact form on the About page.\nDeployment: Configured netlify.toml for local-render-only builds and verified deployment on Netlify.\n\n\n\n\n\nUpgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.\nRegistered project in MEMORY.md and formatted project logs using pmem skill.\nSuccessfully performed manual daily update and verified cron automation.\nImplemented Deduplication System: Created data/published_topics.json to track topics and prevent repetitive content. Added “Validation & Update” step to automation requirements.\nVerified historical posts and initialized topic database with today’s and yesterday’s entries.\nSynchronized heartbeat tasks to enforce deduplication check before każdą publikacją.\n\n\n\n\n\nProject initialized at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme and Quarto structure.\nEstablished legal pages (Privacy/Terms).\nInitial setup of automated scouting with Gemini 2.0 Flash."
-  },
-  {
     "objectID": "PROJECT_LOG.html#description",
     "href": "PROJECT_LOG.html#description",
     "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "World-class AI news portal focusing on unique English insights, built with Quarto and R. Fully automated daily scouting and publishing engine delivering “Signal over Noise”."
+    "section": "Description",
+    "text": "Description\nWorld-class AI news portal focusing on unique English insights, built with Quarto and R. Fully automated daily scouting and publishing engine delivering “Signal over Noise”."
   },
   {
     "objectID": "PROJECT_LOG.html#tech-stack",
     "href": "PROJECT_LOG.html#tech-stack",
     "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "Quarto\nR\nCSS (Dark AI Theme)\nMiniMax M2.5 (Primary Author Engine)\nPollinations.ai (AI Image Generation) - CURRENTLY DOWN\nNetlify (Hosting & Forms)\nBrave Search API (Deep Research)\nKlaro (Cookie Consent)"
+    "section": "Tech Stack",
+    "text": "Tech Stack\n\nQuarto\nR\nCSS (Dark AI Theme)\nMiniMax M2.5 (Primary Author Engine)\nPollinations.ai (AI Image Generation) - CURRENTLY DOWN\nNetlify (Hosting & Forms)\nBrave Search API (Deep Research)\nKlaro (Cookie Consent)"
   },
   {
     "objectID": "PROJECT_LOG.html#todos",
     "href": "PROJECT_LOG.html#todos",
     "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "Implement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest.\nFix the markdown rendering issue for nofollow links in Quarto post templates."
+    "section": "TODOs",
+    "text": "TODOs\n\nImplement automatic image generation via AI for each post.\nAdd RSS feed subscription link for readers.\nIntegrate Newsletter signup.\nAdd “Expert Opinion” section to each digest.\nFix the markdown rendering issue for nofollow links in Quarto post templates."
   },
   {
     "objectID": "PROJECT_LOG.html#cron-jobs",
     "href": "PROJECT_LOG.html#cron-jobs",
     "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "Schedule\nScript\nPurpose\n\n\n\n\n0 8 * * *\nCron ID: 05094f68…\nDaily scout - 08:00\n\n\n45 8 * * *\nCron ID: b0436a40…\nDaily scout - 08:45\n\n\n15 10 * * *\nCron ID: 74034b49…\nDaily scout - 10:15"
+    "section": "Cron Jobs",
+    "text": "Cron Jobs\n\n\n\nSchedule\nScript\nPurpose\n\n\n\n\n0 8 * * *\nCron ID: 05094f68…\nDaily scout - 08:00\n\n\n45 8 * * *\nCron ID: b0436a40…\nDaily scout - 08:45\n\n\n15 10 * * *\nCron ID: 74034b49…\nDaily scout - 10:15"
   },
   {
     "objectID": "PROJECT_LOG.html#event-log",
     "href": "PROJECT_LOG.html#event-log",
     "title": "Project: Robo AI Digest (formerly ainews)",
-    "section": "",
-    "text": "Cron Fix: Old cron had invalid format 0 8,45 8,15 10 * * *. Removed and created 3 new crons: 08:00, 08:45, 10:15 (all using MiniMax-M2.5)\nNew Publications:\n\nGemini 3 Deep Think (subagent published)\nxAI Interplanetary Ambitions\nTransformers.js v5 (recreated - file was empty)\n\nImage Fixes:\n\nFixed broken images (local .jpg/.png) - changed to Pollinations.ai URLs\nFixed nofollow links (spacing issue: {rel=\"nofollow\"} → {rel=\"nofollow\"})\nFixed published_topics.json (missing comma)\nFixed image URLs: image.pollinations.ai/prompt/ → pollinations.ai/p/\n\nIssue: Pollinations.ai currently returns HTTP 530 - service down\nCookie Consent: Added Klaro (klaro-config.js + klaro-head.html)\nCron Maintenance: Fixed invalid cron schedule expression that caused missed morning updates. Verified new schedule (08:00, 08:45, 10:15) is active and working.\nManual Recovery: Triggered manual scout/publish session to recover missed morning news.\nNew Publications:\n\nMiniMax M2.5 Release: Deep dive into the “intelligence too cheap to meter” model, SOTA agentic performance (80.2% SWE-bench), and Forge RL framework.\nHugging Face Transformers.js v5: Major update with enhanced WebGPU support.\nOpenEnv: New agent evaluation framework for interactive environment testing.\n\nSystem Cleanup: Fixed Quarto rendering warnings related to missing post metadata.\nModel Verification: Confirmed all automated tasks are correctly using Gemini 3 Flash via OpenRouter.\n\n\n\n\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nTransformers.js v4: Hugging Face’s major WebGPU runtime rewrite enabling local AI inference in browsers, Node.js, and Deno\nxAI Founding Exodus: Half of xAI’s founding team (6 of 12) departed, including Jimmy Ba and Tony Wu\nAgent World Model: Snowflake Labs’ synthetic environment generation pipeline for scalable agent RL training\n\nDeduplication Check: Validated against published_topics.json - no duplicate topics detected\nSources Used: Hugging Face Blog, Bloomberg, CNBC, arXiv, Financial Times\nAutomation: Published via cron (08:00) with MiniMax M2.1 author engine\nLive: All 3 posts committed to GitHub (2436eb5)\n\n\n\n\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nByteDance Protenix-v1: Open-source AlphaFold3-level biomolecular structure model\nMicrosoft OrbitalBrain: Distributed ML training on satellite constellations\nOAT: Ordered Action Tokenization for robotics (Harvard/Stanford)\n\nImage Integration: Migrated to external Pollinations.ai URLs for reliable image rendering\nModel Update: Primary author engine switched to MiniMax M2.1\nDeployment Fix: Netlify was skipping Quarto build (3s deploy time). Fixed by committing rendered _site/ folder to GitHub for direct CDN deployment\nLive: All 3 posts now visible at roboaidigest.com (commit 4a02ce7)\nSEO Improvements:\n\nAdded OG/Twitter Card meta tags via header-includes\nAdded robots and googlebot meta tags\nMoved keywords from frontmatter to header-includes (global only)\nCreated hide-elements.css to hide keywords section and footer from posts\nAdded rel=“nofollow” to all external links\nEnabled canonical-url: true for automatic canonical tags\nExtended meta description to 156 characters\nAdded pagetagline: “Robo AI Digest - AI News, Machine Learning & Technology”\nRemoved redundant “Home” link from navbar\nAdded fig-alt attributes to all post images\nHomepage SEO audit score: 74/100 (improvements applied)\n\n\n\n\n\n\nReporting Service Status: Verified Financial Sentiment Check status via Heartbeat (PL source stale).\nBrave API Integration: Configured Brave Search API key for enhanced web research capabilities.\nBreaking News Coverage: Published a technical update on the rumored “Grok 4.2” release by xAI, including AI-generated imagery and deep research into xAI documentation.\nBug Fix (Rendering): Fixed a system-wide issue where nofollow parameters were incorrectly rendered as text in Quarto posts due to trailing spaces in markdown syntax.\nRebranding: Successfully rebranded the project from “ainews” to “Robo AI Digest”.\nDomain: Purchased and connected official domain roboaidigest.com.\nInfrastructure: Switched Git authentication from HTTPS to SSH for reliable automated pushes.\nAutomation Enrichment: Integrated AI image generation using Pollinations.ai API for all new posts.\nPrivacy & Security: Removed all raw email addresses from public pages and Git history; excluded PROJECT_LOG.md from repository.\nEngagement: Implemented a Netlify-backed contact form on the About page.\nDeployment: Configured netlify.toml for local-render-only builds and verified deployment on Netlify.\n\n\n\n\n\nUpgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.\nRegistered project in MEMORY.md and formatted project logs using pmem skill.\nSuccessfully performed manual daily update and verified cron automation.\nImplemented Deduplication System: Created data/published_topics.json to track topics and prevent repetitive content. Added “Validation & Update” step to automation requirements.\nVerified historical posts and initialized topic database with today’s and yesterday’s entries.\nSynchronized heartbeat tasks to enforce deduplication check before każdą publikacją.\n\n\n\n\n\nProject initialized at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme and Quarto structure.\nEstablished legal pages (Privacy/Terms).\nInitial setup of automated scouting with Gemini 2.0 Flash."
-  },
-  {
-    "objectID": "terms.html",
-    "href": "terms.html",
-    "title": "Terms of Service",
-    "section": "",
-    "text": "Last Updated: February 8, 2026\n\n\nBy accessing and using Robo AI Digest (“the Service”), you accept and agree to be bound by the terms and conditions of this agreement.\n\n\n\nRobo AI Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:\n\nDaily AI news summaries\nAnalysis of AI industry trends\nCoverage of research breakthroughs\nTool and model updates\n\n\n\n\n\n\nWe gather information from publicly available news sources, research papers, company announcements, and industry reports. All content is summarized and rewritten to create original commentary.\n\n\n\nOur summaries and analysis fall under fair use doctrine because they: - Transform original content through summarization and analysis - Serve educational and informational purposes - Do not substitute for original source material - Include proper attribution when applicable\n\n\n\n\nOriginal summaries and analysis are owned by Robo AI Digest\nSource materials remain the property of their respective owners\nWe respect intellectual property rights and copyright laws\n\n\n\n\n\n\n\nYou may: - Read and share our content for personal, non-commercial use - Quote brief excerpts with proper attribution - Link to our articles\n\n\n\nYou may not: - Republish full articles without permission - Use automated scrapers to harvest our content - Modify or redistribute our content commercially - Misrepresent our content as your own\n\n\n\n\n\n\n“Robo AI Digest” and related logos are trademarks of our service.\n\n\n\nAll original content on this website is protected by copyright law.\n\n\n\n\n\n\nWhile we strive for accuracy, AI news developments evolve rapidly. Information may become outdated quickly. Always verify critical information from primary sources.\n\n\n\nContent is for informational purposes only and does not constitute: - Legal advice - Financial advice - Technical recommendations - Business consulting\n\n\n\n\nWe are not liable for: - Inaccuracies or omissions in our content - Decisions made based on our information - Technical issues or service interruptions - Third-party linked content quality\n\n\n\nYour use of our Service is also governed by our Privacy Policy, which can be found here.\n\n\n\nWe reserve the right to: - Update or modify content without notice - Change service features and functionality - Update these terms periodically\n\n\n\nWe may terminate or suspend access to our Service for violations of these terms or at our discretion.\n\n\n\nThese terms are governed by the laws of the jurisdiction where our service operates, without regard to conflict of law principles.\n\n\n\nFor questions about these Terms of Service, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
+    "section": "Event Log",
+    "text": "Event Log\n\n2026-02-14\n\nCron Fix: Old cron had invalid format 0 8,45 8,15 10 * * *. Removed and created 3 new crons: 08:00, 08:45, 10:15 (all using MiniMax-M2.5)\nNew Publications:\n\nGemini 3 Deep Think (subagent published)\nxAI Interplanetary Ambitions\nTransformers.js v5 (recreated - file was empty)\n\nImage Fixes:\n\nFixed broken images (local .jpg/.png) - changed to Pollinations.ai URLs\nFixed nofollow links (spacing issue: {rel=\"nofollow\"} → {rel=\"nofollow\"})\nFixed published_topics.json (missing comma)\nFixed image URLs: image.pollinations.ai/prompt/ → pollinations.ai/p/\n\nIssue: Pollinations.ai currently returns HTTP 530 - service down\nCookie Consent: Added Klaro (klaro-config.js + klaro-head.html)\nCron Maintenance: Fixed invalid cron schedule expression that caused missed morning updates. Verified new schedule (08:00, 08:45, 10:15) is active and working.\nManual Recovery: Triggered manual scout/publish session to recover missed morning news.\nNew Publications:\n\nMiniMax M2.5 Release: Deep dive into the “intelligence too cheap to meter” model, SOTA agentic performance (80.2% SWE-bench), and Forge RL framework.\nHugging Face Transformers.js v5: Major update with enhanced WebGPU support.\nOpenEnv: New agent evaluation framework for interactive environment testing.\n\nSystem Cleanup: Fixed Quarto rendering warnings related to missing post metadata.\nModel Verification: Confirmed all automated tasks are correctly using Gemini 3 Flash via OpenRouter.\n\n\n\n2026-02-11\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nTransformers.js v4: Hugging Face’s major WebGPU runtime rewrite enabling local AI inference in browsers, Node.js, and Deno\nxAI Founding Exodus: Half of xAI’s founding team (6 of 12) departed, including Jimmy Ba and Tony Wu\nAgent World Model: Snowflake Labs’ synthetic environment generation pipeline for scalable agent RL training\n\nDeduplication Check: Validated against published_topics.json - no duplicate topics detected\nSources Used: Hugging Face Blog, Bloomberg, CNBC, arXiv, Financial Times\nAutomation: Published via cron (08:00) with MiniMax M2.1 author engine\nLive: All 3 posts committed to GitHub (2436eb5)\n\n\n\n2026-02-10\n\nNew Publications: Generated 3 unique posts with double-fact checking via web sources:\n\nByteDance Protenix-v1: Open-source AlphaFold3-level biomolecular structure model\nMicrosoft OrbitalBrain: Distributed ML training on satellite constellations\nOAT: Ordered Action Tokenization for robotics (Harvard/Stanford)\n\nImage Integration: Migrated to external Pollinations.ai URLs for reliable image rendering\nModel Update: Primary author engine switched to MiniMax M2.1\nDeployment Fix: Netlify was skipping Quarto build (3s deploy time). Fixed by committing rendered _site/ folder to GitHub for direct CDN deployment\nLive: All 3 posts now visible at roboaidigest.com (commit 4a02ce7)\nSEO Improvements:\n\nAdded OG/Twitter Card meta tags via header-includes\nAdded robots and googlebot meta tags\nMoved keywords from frontmatter to header-includes (global only)\nCreated hide-elements.css to hide keywords section and footer from posts\nAdded rel=“nofollow” to all external links\nEnabled canonical-url: true for automatic canonical tags\nExtended meta description to 156 characters\nAdded pagetagline: “Robo AI Digest - AI News, Machine Learning & Technology”\nRemoved redundant “Home” link from navbar\nAdded fig-alt attributes to all post images\nHomepage SEO audit score: 74/100 (improvements applied)\n\n\n\n\n2026-02-08\n\nReporting Service Status: Verified Financial Sentiment Check status via Heartbeat (PL source stale).\nBrave API Integration: Configured Brave Search API key for enhanced web research capabilities.\nBreaking News Coverage: Published a technical update on the rumored “Grok 4.2” release by xAI, including AI-generated imagery and deep research into xAI documentation.\nBug Fix (Rendering): Fixed a system-wide issue where nofollow parameters were incorrectly rendered as text in Quarto posts due to trailing spaces in markdown syntax.\nRebranding: Successfully rebranded the project from “ainews” to “Robo AI Digest”.\nDomain: Purchased and connected official domain roboaidigest.com.\nInfrastructure: Switched Git authentication from HTTPS to SSH for reliable automated pushes.\nAutomation Enrichment: Integrated AI image generation using Pollinations.ai API for all new posts.\nPrivacy & Security: Removed all raw email addresses from public pages and Git history; excluded PROJECT_LOG.md from repository.\nEngagement: Implemented a Netlify-backed contact form on the About page.\nDeployment: Configured netlify.toml for local-render-only builds and verified deployment on Netlify.\n\n\n\n2026-02-07\n\nUpgraded primary author engine to Gemini 3 Flash for better analysis and phrasing.\nRegistered project in MEMORY.md and formatted project logs using pmem skill.\nSuccessfully performed manual daily update and verified cron automation.\nImplemented Deduplication System: Created data/published_topics.json to track topics and prevent repetitive content. Added “Validation & Update” step to automation requirements.\nVerified historical posts and initialized topic database with today’s and yesterday’s entries.\nSynchronized heartbeat tasks to enforce deduplication check before każdą publikacją.\n\n\n\n2026-02-06\n\nProject initialized at /home/skutek/projekty/ainews.\nImplemented Dark AI Theme and Quarto structure.\nEstablished legal pages (Privacy/Terms).\nInitial setup of automated scouting with Gemini 2.0 Flash."
   },
   {
     "objectID": "terms.html#acceptance-of-terms",
     "href": "terms.html#acceptance-of-terms",
     "title": "Terms of Service",
-    "section": "",
-    "text": "By accessing and using Robo AI Digest (“the Service”), you accept and agree to be bound by the terms and conditions of this agreement."
+    "section": "Acceptance of Terms",
+    "text": "Acceptance of Terms\nBy accessing and using Robo AI Digest (“the Service”), you accept and agree to be bound by the terms and conditions of this agreement."
   },
   {
     "objectID": "terms.html#description-of-service",
     "href": "terms.html#description-of-service",
     "title": "Terms of Service",
-    "section": "",
-    "text": "Robo AI Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:\n\nDaily AI news summaries\nAnalysis of AI industry trends\nCoverage of research breakthroughs\nTool and model updates"
+    "section": "Description of Service",
+    "text": "Description of Service\nRobo AI Digest provides curated summaries of artificial intelligence news, research updates, and industry developments. Our content consists of:\n\nDaily AI news summaries\nAnalysis of AI industry trends\nCoverage of research breakthroughs\nTool and model updates"
   },
   {
     "objectID": "terms.html#fair-use-and-content-policy",
     "href": "terms.html#fair-use-and-content-policy",
     "title": "Terms of Service",
-    "section": "",
-    "text": "We gather information from publicly available news sources, research papers, company announcements, and industry reports. All content is summarized and rewritten to create original commentary.\n\n\n\nOur summaries and analysis fall under fair use doctrine because they: - Transform original content through summarization and analysis - Serve educational and informational purposes - Do not substitute for original source material - Include proper attribution when applicable\n\n\n\n\nOriginal summaries and analysis are owned by Robo AI Digest\nSource materials remain the property of their respective owners\nWe respect intellectual property rights and copyright laws"
+    "section": "Fair Use and Content Policy",
+    "text": "Fair Use and Content Policy\n\nContent Sources\nWe gather information from publicly available news sources, research papers, company announcements, and industry reports. All content is summarized and rewritten to create original commentary.\n\n\nFair Use Doctrine\nOur summaries and analysis fall under fair use doctrine because they: - Transform original content through summarization and analysis - Serve educational and informational purposes - Do not substitute for original source material - Include proper attribution when applicable\n\n\nContent Ownership\n\nOriginal summaries and analysis are owned by Robo AI Digest\nSource materials remain the property of their respective owners\nWe respect intellectual property rights and copyright laws"
   },
   {
     "objectID": "terms.html#user-responsibilities",
     "href": "terms.html#user-responsibilities",
     "title": "Terms of Service",
-    "section": "",
-    "text": "You may: - Read and share our content for personal, non-commercial use - Quote brief excerpts with proper attribution - Link to our articles\n\n\n\nYou may not: - Republish full articles without permission - Use automated scrapers to harvest our content - Modify or redistribute our content commercially - Misrepresent our content as your own"
+    "section": "User Responsibilities",
+    "text": "User Responsibilities\n\nAcceptable Use\nYou may: - Read and share our content for personal, non-commercial use - Quote brief excerpts with proper attribution - Link to our articles\n\n\nProhibited Activities\nYou may not: - Republish full articles without permission - Use automated scrapers to harvest our content - Modify or redistribute our content commercially - Misrepresent our content as your own"
   },
   {
     "objectID": "terms.html#intellectual-property",
     "href": "terms.html#intellectual-property",
     "title": "Terms of Service",
-    "section": "",
-    "text": "“Robo AI Digest” and related logos are trademarks of our service.\n\n\n\nAll original content on this website is protected by copyright law."
+    "section": "Intellectual Property",
+    "text": "Intellectual Property\n\nTrademarks\n“Robo AI Digest” and related logos are trademarks of our service.\n\n\nCopyright\nAll original content on this website is protected by copyright law."
   },
   {
     "objectID": "terms.html#disclaimers",
     "href": "terms.html#disclaimers",
     "title": "Terms of Service",
-    "section": "",
-    "text": "While we strive for accuracy, AI news developments evolve rapidly. Information may become outdated quickly. Always verify critical information from primary sources.\n\n\n\nContent is for informational purposes only and does not constitute: - Legal advice - Financial advice - Technical recommendations - Business consulting"
+    "section": "Disclaimers",
+    "text": "Disclaimers\n\nAccuracy\nWhile we strive for accuracy, AI news developments evolve rapidly. Information may become outdated quickly. Always verify critical information from primary sources.\n\n\nNo Professional Advice\nContent is for informational purposes only and does not constitute: - Legal advice - Financial advice - Technical recommendations - Business consulting"
   },
   {
     "objectID": "terms.html#limitation-of-liability",
     "href": "terms.html#limitation-of-liability",
     "title": "Terms of Service",
-    "section": "",
-    "text": "We are not liable for: - Inaccuracies or omissions in our content - Decisions made based on our information - Technical issues or service interruptions - Third-party linked content quality"
+    "section": "Limitation of Liability",
+    "text": "Limitation of Liability\nWe are not liable for: - Inaccuracies or omissions in our content - Decisions made based on our information - Technical issues or service interruptions - Third-party linked content quality"
   },
   {
     "objectID": "terms.html#privacy",
     "href": "terms.html#privacy",
     "title": "Terms of Service",
-    "section": "",
-    "text": "Your use of our Service is also governed by our Privacy Policy, which can be found here."
+    "section": "Privacy",
+    "text": "Privacy\nYour use of our Service is also governed by our Privacy Policy, which can be found here."
   },
   {
     "objectID": "terms.html#service-modifications",
     "href": "terms.html#service-modifications",
     "title": "Terms of Service",
-    "section": "",
-    "text": "We reserve the right to: - Update or modify content without notice - Change service features and functionality - Update these terms periodically"
+    "section": "Service Modifications",
+    "text": "Service Modifications\nWe reserve the right to: - Update or modify content without notice - Change service features and functionality - Update these terms periodically"
   },
   {
     "objectID": "terms.html#termination",
     "href": "terms.html#termination",
     "title": "Terms of Service",
-    "section": "",
-    "text": "We may terminate or suspend access to our Service for violations of these terms or at our discretion."
+    "section": "Termination",
+    "text": "Termination\nWe may terminate or suspend access to our Service for violations of these terms or at our discretion."
   },
   {
     "objectID": "terms.html#governing-law",
     "href": "terms.html#governing-law",
     "title": "Terms of Service",
-    "section": "",
-    "text": "These terms are governed by the laws of the jurisdiction where our service operates, without regard to conflict of law principles."
+    "section": "Governing Law",
+    "text": "Governing Law\nThese terms are governed by the laws of the jurisdiction where our service operates, without regard to conflict of law principles."
   },
   {
     "objectID": "terms.html#contact-information",
     "href": "terms.html#contact-information",
     "title": "Terms of Service",
-    "section": "",
-    "text": "For questions about these Terms of Service, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
+    "section": "Contact Information",
+    "text": "Contact Information\nFor questions about these Terms of Service, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
   }
 ]
