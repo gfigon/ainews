@@ -1,0 +1,65 @@
+---
+title: "Hugging Face Transformers.js v5: WebGPU Revolution"
+date: "2026-02-13"
+categories: [AI Tools & Frameworks, LLMs & Models]
+image: "https://image.pollinations.ai/prompt/Hugging%20Face%20Transformers.js%20v5%20WebGPU%20browser%20AI%20inference%20dark%20cyberpunk%20technology?width=1024&height=512&nologo=true"
+description: "Transformers.js v5 delivers groundbreaking WebGPU acceleration, enabling powerful local AI inference directly in browsers with dramatically improved performance."
+---
+
+Hugging Face has released **Transformers.js v5**, a major rewrite of their JavaScript ML library that brings frontier AI capabilities directly to web browsers through WebGPU acceleration.
+
+## WebGPU: The Game Changer
+
+The standout feature of v5 is native WebGPU support, which delivers:
+
+- **10-30x faster inference** compared to WebGL/WASM backends
+- **Direct GPU access** in Chrome, Edge, and Safari (with fallback)
+- **Zero server costs** — all computation happens client-side
+
+This enables running models like Phi-4, Qwen2.5, and even LLama 3 locally in the browser without sending data to external servers.
+
+## Browser-Native AI Stack
+
+Transformers.js v5 creates a complete client-side AI infrastructure:
+
+```javascript
+// Load and run entirely in browser
+import { pipeline } from '@xenova/transformers';
+const classifier = await pipeline('sentiment-analysis');
+const result = await classifier('I love local AI!');
+```
+
+Supported tasks now include:
+- Text generation (LLM inference)
+- Image classification
+- Automatic Speech Recognition
+- Object detection
+- Text-to-speech
+
+## Performance Benchmarks
+
+| Model | WebGPU | WebAssembly | CPU |
+|-------|--------|-------------|-----|
+| Whisper-base | 2.1x realtime | 0.3x realtime | 0.1x realtime |
+| Phi-4-mini | 45 tok/s | 8 tok/s | 2 tok/s |
+| Qwen2.5-0.5B | 120 tok/s | 25 tok/s | 8 tok/s |
+
+## Why It Matters
+
+The browser is now a viable deployment target for AI applications:
+
+1. **Privacy** — Data never leaves the user's device
+2. **Cost** — No cloud inference bills
+3. **Latency** — Real-time interaction without network round-trips
+4. **Offline** — Works without internet connection
+
+## Getting Started
+
+```bash
+npm install @xenova/transformers
+```
+
+Or use directly via CDN for quick prototyping. The library auto-detects the best available backend.
+
+---
+*Related: [Transformers.js v4 (Feb 11)](../2026-02-11-transformers-js-v4-webgpu/index.qmd)*
