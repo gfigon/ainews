@@ -35,3 +35,5 @@ format:
     title-block-style: plain
 
 editor: visual
+
+include-in-header: klaro-head.html
