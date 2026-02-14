@@ -36,4 +36,10 @@ format:
 
 editor: visual
 
-include-in-header: klaro-head.html
+header-includes: |
+  <!-- Klaro Cookie Consent - CSS -->
+  <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css"/>
+  <!-- Klaro Cookie Consent - Konfiguracja -->
+  <script defer type="text/javascript" src="klaro-config.js"></script>
+  <!-- Klaro Cookie Consent - Biblioteka -->
+  <script defer data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>

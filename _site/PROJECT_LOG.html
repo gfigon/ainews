@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<!-- Klaro Cookie Consent -->
-<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css">
-<script defer="" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+<!-- Klaro Cookie Consent - CSS -->
+<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
+<!-- Klaro Cookie Consent - Konfiguracja -->
+<script defer="" type="text/javascript" src="klaro-config.js"></script>
+<!-- Klaro Cookie Consent - Biblioteka -->
+<script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
 
 
 <link rel="stylesheet" href="hide-elements.css">
@@ -142,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#cron-jobs" id="toc-cron-jobs" class="nav-link" data-scroll-target="#cron-jobs">Cron Jobs</a></li>
   <li><a href="#event-log" id="toc-event-log" class="nav-link" data-scroll-target="#event-log">Event Log</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-13</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-14</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-02-11</a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2026-02-10</a></li>
   <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2026-02-08</a></li>
@@ -171,10 +174,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Quarto</li>
 <li>R</li>
 <li>CSS (Dark AI Theme)</li>
-<li>MiniMax M2.1 (Primary Author Engine)</li>
-<li>Pollinations.ai (AI Image Generation)</li>
+<li>MiniMax M2.5 (Primary Author Engine)</li>
+<li>Pollinations.ai (AI Image Generation) - CURRENTLY DOWN</li>
 <li>Netlify (Hosting &amp; Forms)</li>
 <li>Brave Search API (Deep Research)</li>
+<li>Klaro (Cookie Consent)</li>
 </ul>
 </section>
 <section id="todos" class="level2">
@@ -190,11 +194,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="cron-jobs" class="level2">
 <h2 class="anchored" data-anchor-id="cron-jobs">Cron Jobs</h2>
 <table class="table">
-<colgroup>
-<col style="width: 37%">
-<col style="width: 29%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Schedule</th>
@@ -204,9 +203,19 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>0 8,45 8,15 10 * * *</td>
-<td>Cron ID: c39bdd8a…</td>
-<td>Daily scout, unique post generation &amp; git push</td>
+<td>0 8 * * *</td>
+<td>Cron ID: 05094f68…</td>
+<td>Daily scout - 08:00</td>
+</tr>
+<tr class="even">
+<td>45 8 * * *</td>
+<td>Cron ID: b0436a40…</td>
+<td>Daily scout - 08:45</td>
+</tr>
+<tr class="odd">
+<td>15 10 * * *</td>
+<td>Cron ID: 74034b49…</td>
+<td>Daily scout - 10:15</td>
 </tr>
 </tbody>
 </table>
@@ -214,18 +223,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="event-log" class="level2">
 <h2 class="anchored" data-anchor-id="event-log">Event Log</h2>
 <section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2026-02-13</h3>
+<h3 class="anchored" data-anchor-id="section">2026-02-14</h3>
 <ul>
-<li><strong>Cron Maintenance</strong>: Fixed invalid cron schedule expression that caused missed morning updates. Verified new schedule (08:00, 08:45, 10:15) is active and working.</li>
-<li><strong>Manual Recovery</strong>: Triggered manual scout/publish session to recover missed morning news.</li>
-<li><strong>New Publications</strong>:
+<li><p><strong>Cron Fix</strong>: Old cron had invalid format <code>0 8,45 8,15 10 * * *</code>. Removed and created 3 new crons: 08:00, 08:45, 10:15 (all using MiniMax-M2.5)</p></li>
+<li><p><strong>New Publications</strong>:</p>
+<ul>
+<li>Gemini 3 Deep Think (subagent published)</li>
+<li>xAI Interplanetary Ambitions</li>
+<li>Transformers.js v5 (recreated - file was empty)</li>
+</ul></li>
+<li><p><strong>Image Fixes</strong>:</p>
+<ul>
+<li>Fixed broken images (local .jpg/.png) - changed to Pollinations.ai URLs</li>
+<li>Fixed nofollow links (spacing issue: <code>{rel="nofollow"}</code> → <code>{rel="nofollow"}</code>)</li>
+<li>Fixed published_topics.json (missing comma)</li>
+<li>Fixed image URLs: <code>image.pollinations.ai/prompt/</code> → <code>pollinations.ai/p/</code></li>
+</ul></li>
+<li><p><strong>Issue</strong>: Pollinations.ai currently returns HTTP 530 - service down</p></li>
+<li><p><strong>Cookie Consent</strong>: Added Klaro (klaro-config.js + klaro-head.html)</p></li>
+<li><p><strong>Cron Maintenance</strong>: Fixed invalid cron schedule expression that caused missed morning updates. Verified new schedule (08:00, 08:45, 10:15) is active and working.</p></li>
+<li><p><strong>Manual Recovery</strong>: Triggered manual scout/publish session to recover missed morning news.</p></li>
+<li><p><strong>New Publications</strong>:</p>
 <ul>
 <li><strong>MiniMax M2.5 Release</strong>: Deep dive into the “intelligence too cheap to meter” model, SOTA agentic performance (80.2% SWE-bench), and Forge RL framework.</li>
 <li><strong>Hugging Face Transformers.js v5</strong>: Major update with enhanced WebGPU support.</li>
 <li><strong>OpenEnv</strong>: New agent evaluation framework for interactive environment testing.</li>
 </ul></li>
-<li><strong>System Cleanup</strong>: Fixed Quarto rendering warnings related to missing post metadata.</li>
-<li><strong>Model Verification</strong>: Confirmed all automated tasks are correctly using Gemini 3 Flash via OpenRouter.</li>
+<li><p><strong>System Cleanup</strong>: Fixed Quarto rendering warnings related to missing post metadata.</p></li>
+<li><p><strong>Model Verification</strong>: Confirmed all automated tasks are correctly using Gemini 3 Flash via OpenRouter.</p></li>
 </ul>
 </section>
 <section id="section-1" class="level3">
