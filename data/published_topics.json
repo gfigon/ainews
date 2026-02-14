@@ -152,6 +152,14 @@
         "2026-02-12-zhipu-glm5-release"
       ],
       "term": "Slime RL"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-02-14",
+      "slugs": [
+        "2026-02-14-gemini-3-deep-think-reasoning"
+      ],
+      "term": "Gemini 3 Deep Think"
     }
   ]
 }
