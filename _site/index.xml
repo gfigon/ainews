@@ -12,6 +12,67 @@
 <generator>quarto-1.4.550</generator>
 <lastBuildDate>Fri, 13 Feb 2026 23:00:00 GMT</lastBuildDate>
 <item>
+  <title>ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro</title>
+  <link>https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>ByteDance has unveiled the <strong>Doubao Large Model 2.0 series</strong>, a significant upgrade to China’s most widely used AI chatbot, directly challenging OpenAI and Google in the global AI race.</p>
+<section id="whats-new" class="level2">
+<h2 class="anchored" data-anchor-id="whats-new">What’s New</h2>
+<p>The 2.0 lineup includes three general-purpose Agent models plus a specialized Code variant:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Target Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Doubao 2.0 Pro</strong></td>
+<td>Deep inference, long-chain tasks</td>
+</tr>
+<tr class="even">
+<td><strong>Doubao 2.0 Lite</strong></td>
+<td>Balanced performance/cost</td>
+</tr>
+<tr class="odd">
+<td><strong>Doubao 2.0 Mini</strong></td>
+<td>Low-latency, high-concurrency</td>
+</tr>
+<tr class="even">
+<td><strong>Doubao-Seed-2.0-Code</strong></td>
+<td>Programming tasks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="how-they-compare" class="level2">
+<h2 class="anchored" data-anchor-id="how-they-compare">How They Compare</h2>
+<p>According to ByteDance’s announcement, <strong>Doubao 2.0 Pro</strong> is positioned to rival GPT-5.2 and Gemini 3 Pro in capability. The Lite model claims to outperform the previous Doubao 1.8 version, while the Mini variant targets cost-sensitive applications requiring rapid responses.</p>
+<p>Notably, the new <strong>Code model</strong> is designed to work with TRAE (ByteDance’s coding agent), aiming to deliver enhanced software engineering results.</p>
+</section>
+<section id="market-context" class="level2">
+<h2 class="anchored" data-anchor-id="market-context">Market Context</h2>
+<p>Doubao currently holds the title of China’s most widely used AI app, per QuestMobile data. The 2.0 release—dropped on Chinese New Year’s Eve—signals ByteDance’s aggressive push to maintain leadership in the competitive Chinese AI market against rivals including Alibaba and Baidu.</p>
+<p>The timing is strategic: with OpenAI’s Codex-Spark recently launching on Cerebras hardware and Anthropic’s Claude 4.6 making waves, ByteDance is ensuring its domestic flagship can compete on both performance and pricing.</p>
+<p><strong>Related:</strong> <a href="../../posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/">GPT-5.3 Codex vs Claude 4.6</a> | <a href="../../posts/2026-02-13-huggingface-transformers-v5-release/">Transformers.js v5</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>LLMs &amp; Models</category>
+  <category>Industry News</category>
+  <guid>https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/</guid>
+  <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://image.pollinations.ai/prompt/bytedance%20doubao%202.0%20AI%20model%20logo%20futuristic%20technology%20dark%20background" medium="image"/>
+</item>
+<item>
   <title>Gemini 3 Deep Think: Google’s Answer to the Reasoning Race</title>
   <link>https://roboaidigest.com/posts/2026-02-14-gemini-3-deep-think-reasoning/</link>
   <description><![CDATA[ 
@@ -1147,39 +1208,6 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>Agents &amp; Automation</category>
   <category>LLMs &amp; Models</category>
   <guid>https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/</guid>
-  <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows</title>
-  <link>https://roboaidigest.com/posts/2026-02-07-claude-opus-4-6-release/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Anthropic has officially launched <strong>Claude Opus 4.6</strong>, a significant upgrade designed specifically for complex, multi-step “agentic” tasks. Moving beyond simple chat interactions, the new model introduces features that allow it to plan, act, and revise over longer sessions with higher autonomy.</p>
-<section id="key-innovations-in-opus-4.6" class="level3">
-<h3 class="anchored" data-anchor-id="key-innovations-in-opus-4.6">Key Innovations in Opus 4.6</h3>
-<ul>
-<li><strong>1M Token Context Window (Beta):</strong> The first Opus-class model to support up to 1 million input tokens, enabling the ingestion of massive codebases and long-form documents.</li>
-<li><strong>Adaptive Reasoning &amp; Effort Controls:</strong> A new <code>/effort</code> parameter allows developers to choose between four levels (low, medium, high, max). This helps balance reasoning depth against speed and cost, making it easier to optimize for different types of tasks.</li>
-<li><strong>Agentic Search &amp; Coding Performance:</strong> Opus 4.6 has set new records on benchmarks like <em>Terminal-Bench 2.0</em> and <em>BrowseComp</em>, outperforming competitors in scenarios where the AI must use tools and navigate the web to find answers.</li>
-<li><strong>Product Synergy:</strong> The model powers enhanced features in <strong>Claude Code</strong> (including an “agent teams” mode) and offers deeper integration with Excel and PowerPoint for automated data analysis and presentation generation.</li>
-</ul>
-</section>
-<section id="performance-highlights" class="level3">
-<h3 class="anchored" data-anchor-id="performance-highlights">Performance Highlights</h3>
-<p>According to Anthropic’s technical reports, Opus 4.6 demonstrates a qualitative shift in long-context retrieval, scoring 76% on the 1M-token “needle-in-a-haystack” benchmark. It also shows nearly double the performance in specialized fields like life sciences and root cause analysis for software failures compared to its predecessor.</p>
-<p>Read more at the <a href="https://www.anthropic.com/news/claude-opus-4-6" rel="nofollow">Anthropic Newsroom</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>LLMs &amp; Models</category>
-  <category>AI Tools &amp; Frameworks</category>
-  <guid>https://roboaidigest.com/posts/2026-02-07-claude-opus-4-6-release/</guid>
   <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -176,6 +176,14 @@
         "2026-02-13-huggingface-transformers-v5-release"
       ],
       "term": "Transformers.js v5"
+    },
+    {
+      "term": "Doubao 2.0",
+      "count": 1,
+      "last_published": "2026-02-14",
+      "slugs": [
+        "2026-02-14-bytedance-doubao-2"
+      ]
     }
   ]
 }

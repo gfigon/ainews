@@ -1,0 +1,35 @@
+---
+title: "ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro"
+date: "2026-02-14"
+categories:
+  - LLMs & Models
+  - Industry News
+image: "https://image.pollinations.ai/prompt/bytedance%20doubao%202.0%20AI%20model%20logo%20futuristic%20technology%20dark%20background"
+---
+
+ByteDance has unveiled the **Doubao Large Model 2.0 series**, a significant upgrade to China's most widely used AI chatbot, directly challenging OpenAI and Google in the global AI race.
+
+## What's New
+
+The 2.0 lineup includes three general-purpose Agent models plus a specialized Code variant:
+
+| Model | Target Use Case |
+|-------|-----------------|
+| **Doubao 2.0 Pro** | Deep inference, long-chain tasks |
+| **Doubao 2.0 Lite** | Balanced performance/cost |
+| **Doubao 2.0 Mini** | Low-latency, high-concurrency |
+| **Doubao-Seed-2.0-Code** | Programming tasks |
+
+## How They Compare
+
+According to ByteDance's announcement, **Doubao 2.0 Pro** is positioned to rival GPT-5.2 and Gemini 3 Pro in capability. The Lite model claims to outperform the previous Doubao 1.8 version, while the Mini variant targets cost-sensitive applications requiring rapid responses.
+
+Notably, the new **Code model** is designed to work with TRAE (ByteDance's coding agent), aiming to deliver enhanced software engineering results.
+
+## Market Context
+
+Doubao currently holds the title of China's most widely used AI app, per QuestMobile data. The 2.0 release—dropped on Chinese New Year's Eve—signals ByteDance's aggressive push to maintain leadership in the competitive Chinese AI market against rivals including Alibaba and Baidu.
+
+The timing is strategic: with OpenAI's Codex-Spark recently launching on Cerebras hardware and Anthropic's Claude 4.6 making waves, ByteDance is ensuring its domestic flagship can compete on both performance and pricing.
+
+**Related:** [GPT-5.3 Codex vs Claude 4.6](/posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/) | [Transformers.js v5](/posts/2026-02-13-huggingface-transformers-v5-release/)
