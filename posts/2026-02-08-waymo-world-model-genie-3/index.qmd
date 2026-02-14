@@ -2,7 +2,7 @@
 title: "Waymo World Model: Generating Reality for Autonomous Driving"
 date: "2026-02-08"
 categories: [Industry News, LLMs & Models]
-image: "https://pollinations.ai/p/Waymo%20World%20Model%20Genie%203%20autonomous%20driving%20simulation%20dark%20technology?width=1024&height=512&nologo=true"
+image: "image.jpg"
 fig-alt: "Waymo World Model"
 ---
 

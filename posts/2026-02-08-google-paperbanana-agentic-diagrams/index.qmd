@@ -2,7 +2,7 @@
 title: "Google's PaperBanana: Multi-Agent System for Research Diagrams"
 date: "2026-02-08"
 categories: [Research Highlights, Agents & Automation]
-image: "https://pollinations.ai/p/Google%20AI%20agentic%20diagrams%20paper%20banana%20technology%20flowchart%20dark?width=1024&height=512&nologo=true"
+image: "image.jpg"
 fig-alt: "Google's PaperBanana"
 ---
 
