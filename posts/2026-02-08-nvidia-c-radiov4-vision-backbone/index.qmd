@@ -2,7 +2,7 @@
 title: "NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale"
 date: "2026-02-08"
 categories: [AI Tools & Frameworks, Research Highlights]
-image: "https://image.pollinations.ai/prompt/NVIDIA%20C-RADIOv4%20vision%20AI%20computer%20vision%20neural%20network%20dark%20technology?width=1024&height=512&nologo=true"
+image: "image.svg"
 fig-alt: "NVIDIA C-RADIOv4"
 ---
 
