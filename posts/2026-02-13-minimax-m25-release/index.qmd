@@ -2,7 +2,7 @@
 title: "MiniMax M2.5: Intelligence Too Cheap to Meter"
 date: "2026-02-13"
 categories: [LLMs & Models, Agents & Automation, Industry News]
-image: "image.svg"
+image: "https://pollinations.ai/p/minimax-m2.5-ai-model-productivity-architect-coding?width=1024&height=512&seed=20260213"
 description: "MiniMax releases M2.5, a SOTA model optimized for agentic workflows with 100 tokens/sec throughput and aggressive RL scaling."
 ---
 

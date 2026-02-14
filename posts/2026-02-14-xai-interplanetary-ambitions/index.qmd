@@ -2,7 +2,7 @@
 title: "xAI's Interplanetary Vision: Beyond Earthly AI"
 date: "2026-02-14"
 categories: [Industry News, AI Research, Ethics & Regulation]
-image: "image.svg"
+image: "https://image.pollinations.ai/prompt/xAI%20interplanetary%20vision%20Mars%20colonization%20AI%20control%20center%20space%20technology%20futuristic%20purple%20cyan%20dark?width=1024&height=512&nologo=true"
 description: "xAI unveils ambitious roadmap targeting interplanetary AI systems for Mars colonization, positioning itself against enterprise-focused competitors."
 ---
 

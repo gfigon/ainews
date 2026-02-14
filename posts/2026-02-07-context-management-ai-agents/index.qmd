@@ -2,7 +2,7 @@
 title: "Solving 'Context Rot' in AI Agents: New Techniques for Long-Running Tasks"
 date: "2026-02-07"
 categories: [Agents & Automation, LLMs & Models]
-image: "image.svg"
+image: "https://image.pollinations.ai/prompt/Context%20Management%20AI%20Agents%20long%20running%20tasks%20dark%20background"
 tags: [LangChain, AI Agents, Context Management, Developer Tools]
 ---
 

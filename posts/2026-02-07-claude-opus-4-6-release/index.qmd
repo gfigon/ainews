@@ -2,7 +2,7 @@
 title: "Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows"
 date: "2026-02-07"
 categories: [LLMs & Models, AI Tools & Frameworks]
-image: "image.svg"
+image: "https://image.pollinations.ai/prompt/Anthropic%20Claude%20Opus%204.6%20AI%20model%20dark%20technology%20background"
 tags: [Anthropic, Claude, AI Agents, LLMs]
 ---
 

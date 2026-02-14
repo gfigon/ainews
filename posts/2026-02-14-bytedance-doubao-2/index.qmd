@@ -4,7 +4,7 @@ date: "2026-02-14"
 categories:
   - LLMs & Models
   - Industry News
-image: "image.svg"
+image: "https://image.pollinations.ai/prompt/bytedance%20doubao%202.0%20AI%20model%20logo%20futuristic%20technology%20dark%20background"
 ---
 
 ByteDance has unveiled the **Doubao Large Model 2.0 series**, a significant upgrade to China's most widely used AI chatbot, directly challenging OpenAI and Google in the global AI race.
