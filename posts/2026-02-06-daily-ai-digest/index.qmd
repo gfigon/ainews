@@ -2,7 +2,7 @@
 title: "AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs"
 date: "2026-02-06"
 categories: [LLMs & Models, Agents & Automation, Research Highlights]
-image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+image: "https://image.pollinations.ai/prompt/AI%20artificial%20intelligence%20future%20technology%20digital%20brain%20dark%20blue?width=1024image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"height=512image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"nologo=true"
 fig-alt: "AI Frontier Daily"
 ---
 
