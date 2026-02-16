@@ -184,6 +184,14 @@
       "slugs": [
         "2026-02-14-bytedance-doubao-2"
       ]
+    },
+    {
+      "term": "Exa Instant",
+      "count": 1,
+      "last_published": "2026-02-16",
+      "slugs": [
+        "2026-02-16-exa-instant-neural-search"
+      ]
     }
   ]
 }

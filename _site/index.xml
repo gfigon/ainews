@@ -10,7 +10,118 @@
 <atom:link href="https://roboaidigest.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Automated daily briefings on the latest AI research and industry breakthroughs.</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Fri, 13 Feb 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Feb 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>India AI Impact Summit 2026: World’s Largest AI Gathering Kicks Off in New Delhi</title>
+  <link>https://roboaidigest.com/posts/2026-02-16-india-ai-impact-summit-2026/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<section id="india-ai-impact-summit-2026-worlds-largest-ai-gathering-kicks-off-in-new-delhi" class="level1">
+<h1>India AI Impact Summit 2026: World’s Largest AI Gathering Kicks Off in New Delhi</h1>
+<p>India kicked off one of the world’s largest artificial intelligence summits on February 16, 2026, with Prime Minister Narendra Modi seeking to clear a path for India in the heated race to develop frontier AI models. The five-day <strong>India AI Impact Summit</strong> at Bharat Mandapam in New Delhi brings together global tech leaders, policymakers, and researchers for what could be the largest gathering of AI luminaries to date.</p>
+<section id="tech-titans-descend-on-delhi" class="level2">
+<h2 class="anchored" data-anchor-id="tech-titans-descend-on-delhi">Tech Titans Descend on Delhi</h2>
+<p>The guest list reads like a who’s who of the AI world. <strong>Sam Altman</strong> of OpenAI, <strong>Sundar Pichai</strong> of Alphabet, <strong>Dario Amodei</strong> of Anthropic, and <strong>Demis Hassabis</strong> of Google DeepMind are all in attendance. Meta’s Alexandr Wang and researchers including Yann LeCun and Arthur Mensch are also present. Notably, Nvidia CEO Jensen Huang withdrew at the last minute due to “unforeseen circumstances.”</p>
+<p>“This summit is a huge validation of the potential of the market. Everyone’s coming in because they realize that this is the place to be in and India just cannot be ignored,” said Lalit Ahuja, CEO of ANSR, a company that helps businesses run offshore teams in India.</p>
+</section>
+<section id="indias-ai-ambitions" class="level2">
+<h2 class="anchored" data-anchor-id="indias-ai-ambitions">India’s AI Ambitions</h2>
+<p>Modi’s government has made its intentions clear—India should be one of the world’s tech superpowers. The government has approved <strong>$18 billion worth of semiconductor projects</strong> as it builds a domestic supply chain and pushes major companies like Apple to manufacture more goods in India.</p>
+<p>The summit comes amid a reset in U.S.-India relations, with both nations pushing toward a trade deal. This creates a favorable environment for major AI investments.</p>
+</section>
+<section id="three-pillars-of-focus" class="level2">
+<h2 class="anchored" data-anchor-id="three-pillars-of-focus">Three Pillars of Focus</h2>
+<p>The summit centers on three key areas:</p>
+<ul>
+<li><strong>Infrastructure</strong>: Major AI data center investment deals are expected to be announced</li>
+<li><strong>Users</strong>: India is one of OpenAI’s top ChatGPT markets, with companies racing to gain users</li>
+<li><strong>Talent</strong>: India is described as an “AI talent factory” with over 60% of recent Global Capability Centers focused on AI</li>
+</ul>
+<p>More than 80% of GCCs expected to be set up in the next six-to-eight months are projected to be AI-led, making India an essential hub for the global AI ecosystem.</p>
+<p>This summit marks the first major international AI gathering in the Global South, signaling India’s determination to play a central role in shaping AI’s future.</p>
+<hr>
+<p><em>Source: <a href="https://www.bloomberg.com/news/articles/2026-02-16/india-seeks-role-in-shaping-ai-future-with-summit-of-tech-chiefs">Bloomberg</a>, <a href="https://www.cnbc.com/2026/02/16/india-ai-impact-summit-tech-ceos-new-delhi.html">CNBC</a></em></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Industry News</category>
+  <category>AI Tools &amp; Frameworks</category>
+  <guid>https://roboaidigest.com/posts/2026-02-16-india-ai-impact-summit-2026/</guid>
+  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-16-india-ai-impact-summit-2026/INDIA" medium="image"/>
+</item>
+<item>
+  <title>Exa Instant: The Sub-200ms Neural Search Engine Powering Real-Time Agentic Workflows</title>
+  <link>https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<p>Exa AI has unveiled <strong>Exa Instant</strong>, a neural search engine purpose-built for real-time agentic AI workflows. With latency under 200 milliseconds, the new offering addresses one of the most critical bottlenecks in deploying autonomous AI agents at scale.</p>
+<section id="the-search-bottleneck-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-search-bottleneck-problem">The Search Bottleneck Problem</h2>
+<p>Modern AI agents increasingly rely on retrieval-augmented generation (RAG) and external knowledge retrieval to provide context-aware responses. However, traditional search infrastructure was never designed for the demands of real-time agentic workflows, where every millisecond counts.</p>
+<p>“Agents need to retrieve relevant context in milliseconds, not seconds,” explained Exa AI’s CEO. “We’ve built Instant specifically for this use case—what we call ‘search for agents, not humans.’”</p>
+</section>
+<section id="what-makes-exa-instant-different" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-exa-instant-different">What Makes Exa Instant Different</h2>
+<p>Traditional keyword-based search engines struggle with: - <strong>Semantic understanding</strong> — matching intent, not just tokens - <strong>Real-time requirements</strong> — sub-second response for agent loops - <strong>Structured and unstructured data</strong> — handling both simultaneously</p>
+<p>Exa Instant addresses these challenges through:</p>
+<ol type="1">
+<li><strong>Neural-first architecture</strong> — built on transformer-based embeddings from the ground up</li>
+<li><strong>Optimized inference pipeline</strong> — achieving sub-200ms end-to-end latency</li>
+<li><strong>Hybrid retrieval</strong> — combining semantic similarity with keyword precision</li>
+<li><strong>Streaming results</strong> — partial results delivered as they’re computed</li>
+</ol>
+</section>
+<section id="performance-benchmarks" class="level2">
+<h2 class="anchored" data-anchor-id="performance-benchmarks">Performance Benchmarks</h2>
+<p>Exa claims Instant delivers: - <strong>197ms average latency</strong> (P95) for complex semantic queries - <strong>10x throughput</strong> compared to traditional RAG pipelines - <strong>99.9% availability</strong> with globally distributed infrastructure</p>
+<p>The company released benchmark results comparing Instant against popular alternatives on a standardized agentic workflow test suite.</p>
+</section>
+<section id="agentic-ai-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="agentic-ai-use-cases">Agentic AI Use Cases</h2>
+<p>The launch targets several high-growth agentic AI applications:</p>
+<ul>
+<li><strong>Coding assistants</strong> — retrieving relevant documentation and code examples</li>
+<li><strong>Customer service agents</strong> — fetching knowledge base articles in real-time<br>
+</li>
+<li><strong>Research agents</strong> — aggregating information from multiple sources</li>
+<li><strong>Personal AI assistants</strong> — context-aware information retrieval</li>
+</ul>
+</section>
+<section id="competitive-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="competitive-landscape">Competitive Landscape</h2>
+<p>Exa positions itself against: - <strong>Traditional search</strong> (Elasticsearch, Algolia) — lacking semantic capabilities - <strong>Vector databases</strong> (Pinecone, Weaviate) — not optimized for real-time search - <strong>LLM-based retrieval</strong> — too slow and expensive for production agents</p>
+<p>The company has raised $50M in Series B funding to accelerate development, with Instant now generally available.</p>
+<hr>
+<p><em>Source: <a href="https://www.marktechpost.com">MarkTechPost</a>, <a href="https://exa.ai">Exa AI Blog</a></em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>AI Tools &amp; Frameworks</category>
+  <category>Agents &amp; Automation</category>
+  <guid>https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/</guid>
+  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/EXA" medium="image"/>
+</item>
 <item>
   <title>ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro</title>
   <link>https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/</link>
@@ -1185,91 +1296,6 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <guid>https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/</guid>
   <pubDate>Sat, 07 Feb 2026 23:00:00 GMT</pubDate>
   <media:content url="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/image.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale</title>
-  <link>https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<p><img src="https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.jpg" class="img-fluid"></p>
-<p>NVIDIA has announced the release of <strong>C-RADIOv4</strong>, a new “agglomerative” vision backbone that unifies three powerful architectures—<strong>SigLIP2</strong>, <strong>DINOv3</strong>, and <strong>SAM3</strong>—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.</p>
-<section id="the-power-of-agglomerative-distillation" class="level3">
-<h3 class="anchored" data-anchor-id="the-power-of-agglomerative-distillation">The Power of Agglomerative Distillation</h3>
-<p>The core of C-RADIOv4’s success lies in its distillation process. By training a single Vision Transformer (ViT) student to match the dense feature maps and summary tokens of heterogeneous teacher models, NVIDIA has created a backbone that captures the best of three worlds:</p>
-<ul>
-<li><strong>SigLIP2-g-384</strong>: Provides superior image-text alignment for retrieval and classification.</li>
-<li><strong>DINOv3-7B</strong>: Offers high-quality self-supervised features for dense spatial tasks.</li>
-<li><strong>SAM3</strong>: Enables robust segmentation capabilities and drop-in compatibility with the latest Segment Anything decoders.</li>
-</ul>
-</section>
-<section id="breakthrough-in-resolution-robustness" class="level3">
-<h3 class="anchored" data-anchor-id="breakthrough-in-resolution-robustness">Breakthrough in Resolution Robustness</h3>
-<p>One of the most challenging aspects of vision models is maintaining performance across different input sizes. C-RADIOv4 introduces <strong>stochastic multi-resolution training</strong>, sampling inputs from 128px up to 1152px. Coupled with the <strong>FeatSharp</strong> upsampling technique, this ensures that the model remains accurate whether processing a small thumbnail or a high-resolution medical image.</p>
-</section>
-<section id="solving-the-artifact-problem" class="level3">
-<h3 class="anchored" data-anchor-id="solving-the-artifact-problem">Solving the “Artifact” Problem</h3>
-<p>Distilling from large models often results in the student copying the teacher’s “noise” or border artifacts. NVIDIA solved this through <strong>shift-equivariant losses</strong>. By showing the teacher and student different, independently shifted crops of the same image, the system forces the student to learn genuine semantic structures rather than memorizing position-fixed noise patterns.</p>
-</section>
-<section id="deployment-and-accessibility" class="level3">
-<h3 class="anchored" data-anchor-id="deployment-and-accessibility">Deployment and Accessibility</h3>
-<p>C-RADIOv4 is designed for practical use, featuring a <strong>ViTDet-mode</strong> for efficient inference. On an A100 GPU, the student model’s windowed attention mechanism allows it to outperform the original SAM3 ViT-L+ encoder in speed while maintaining competitive accuracy.</p>
-<p>The model has been released under the <strong>NVIDIA Open Model License</strong>, making it a powerful resource for researchers and enterprises looking to streamline their computer vision pipelines.</p>
-<p><a href="https://arxiv.org/abs/2601.17237" rel="nofollow">Technical Paper</a> | <a href="https://huggingface.co/nvidia/C-RADIOv4-H" rel="nofollow">Model on Hugging Face</a></p>
-
-
-</section>
-
- ]]></description>
-  <category>AI Tools &amp; Frameworks</category>
-  <category>Research Highlights</category>
-  <guid>https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/</guid>
-  <pubDate>Sat, 07 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>Solving ‘Context Rot’ in AI Agents: New Techniques for Long-Running Tasks</title>
-  <link>https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<p>As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: <strong>context rot</strong>. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their <strong>Deep Agents SDK</strong> manages this challenge.</p>
-<section id="advanced-compression-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-compression-strategies">Advanced Compression Strategies</h3>
-<p>The Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:</p>
-<ol type="1">
-<li><strong>Tool Result Offloading:</strong> Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.</li>
-<li><strong>Input Truncation:</strong> Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.</li>
-<li><strong>Intelligent Summarization:</strong> When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.</li>
-</ol>
-</section>
-<section id="testing-recoverability" class="level3">
-<h3 class="anchored" data-anchor-id="testing-recoverability">Testing Recoverability</h3>
-<p>A key takeaway for developers is that compression is only as good as its <strong>recoverability</strong>. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.</p>
-<p>By combining filesystem-backed memory with strategic summarization, the next generation of agents can stay on track for tasks that take hours or even days to complete.</p>
-<p>Detailed technical breakdown available on the <a href="https://blog.langchain.dev/context-management-for-deepagents/" rel="nofollow">LangChain Blog</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Agents &amp; Automation</category>
-  <category>LLMs &amp; Models</category>
-  <guid>https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/</guid>
-  <pubDate>Fri, 06 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-07-context-management-ai-agents/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
 </rss>
