@@ -208,6 +208,49 @@
   <media:content url="https://roboaidigest.com/posts/2026-02-16-anthropic-380-billion-valuation/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
+  <title>OpenClaw Founder Peter Steinberger Joins OpenAI, Project Becomes Foundation</title>
+  <link>https://roboaidigest.com/posts/2026-02-16-openclaw-foundation/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<p><strong>Peter Steinberger</strong>, the creator of OpenClaw (formerly known as Clawdbot and Moltbot), is joining OpenAI to lead the development of the next generation of personal AI agents.</p>
+<section id="what-happened" class="level2">
+<h2 class="anchored" data-anchor-id="what-happened">What Happened</h2>
+<p>Sam Altman announced on X that Steinberger will “drive the next generation of personal agents” at OpenAI. In a blog post, Steinberger explained his decision: “What I want is to change the world, not build a large company, and teaming up with OpenAI is the fastest way to bring this to everyone.”</p>
+</section>
+<section id="openclaws-journey" class="level2">
+<h2 class="anchored" data-anchor-id="openclaws-journey">OpenClaw’s Journey</h2>
+<p>OpenClaw achieved viral popularity over the past few weeks with its promise to be the “AI that actually does things” — managing calendars, booking flights, and even joining a social network of AI assistants.</p>
+<p>The project went through several name changes: - Originally <strong>Clawdbot</strong> (named after Claude) - Changed to <strong>Moltbot</strong> after Anthropic threatened legal action - Finally renamed to <strong>OpenClaw</strong></p>
+</section>
+<section id="whats-next-for-openclaw" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next-for-openclaw">What’s Next for OpenClaw</h2>
+<p>Altman confirmed that OpenClaw will “live in a foundation as an open source project that OpenAI will continue to support.” This marks a significant shift for the project — from a potential startup to an open-source initiative backed by OpenAI.</p>
+<p>The move reflects OpenAI’s belief in an “extremely multi-agent” AI future, where multiple AI assistants collaborate to help users accomplish complex tasks.</p>
+</section>
+<section id="industry-impact" class="level2">
+<h2 class="anchored" data-anchor-id="industry-impact">Industry Impact</h2>
+<p>This hiring represents OpenAI’s strategic push into personal AI agents — a space where startups like OpenClaw have been gaining traction. By bringing in experienced developers from the open-source community, Big AI companies are racing to dominate the personal assistant market.</p>
+<hr>
+<p><em>This is a developing story. Check back for updates.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Industry News</category>
+  <category>Agents &amp; Automation</category>
+  <guid>https://roboaidigest.com/posts/2026-02-16-openclaw-foundation/</guid>
+  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-16-openclaw-foundation/image.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
   <title>Exa Instant: The Sub-200ms Neural Search Engine Powering Real-Time Agentic Workflows</title>
   <link>https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/</link>
   <description><![CDATA[ 
@@ -1295,58 +1338,6 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <guid>https://roboaidigest.com/posts/2026-02-10-bytedance-protenix-v1/</guid>
   <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
   <media:content url="https://roboaidigest.com/posts/2026-02-10-bytedance-protenix-v1/image.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6</title>
-  <link>https://roboaidigest.com/posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<section id="robo-ai-digest---february-9-2026" class="level1">
-<h1>Robo AI Digest - February 9, 2026</h1>
-<section id="news-highlights" class="level2">
-<h2 class="anchored" data-anchor-id="news-highlights">News Highlights</h2>
-<section id="openai-launches-gpt-5.3-codex-frontier-enterprise-platform" class="level3">
-<h3 class="anchored" data-anchor-id="openai-launches-gpt-5.3-codex-frontier-enterprise-platform">OpenAI Launches GPT-5.3 Codex &amp; “Frontier” Enterprise Platform</h3>
-<p>OpenAI has released <strong>GPT-5.3 Codex</strong>, its most advanced reasoning model specifically optimized for agentic coding and multi-step technical workflows. Accompanying this is <strong>OpenAI Frontier</strong>, a new platform designed for enterprise teams to deploy autonomous agents capable of handling cross-departmental operations. These releases directly compete with Anthropic’s latest offerings, signaling a move toward AI as an “execution layer” rather than just a chat interface.</p>
-</section>
-<section id="anthropic-unveils-claude-opus-4.6" class="level3">
-<h3 class="anchored" data-anchor-id="anthropic-unveils-claude-opus-4.6">Anthropic Unveils Claude Opus 4.6</h3>
-<p>Anthropic has counter-punched with <strong>Claude Opus 4.6</strong>, featuring a 1 million token context window and specialized “Agent Teams” functionality. The update focuses on long-range reasoning and professional work quality, aiming to maintain Anthropic’s edge in high-fidelity reasoning and context-heavy enterprise applications.</p>
-</section>
-<section id="google-deepmind-previews-genie-3-world-model" class="level3">
-<h3 class="anchored" data-anchor-id="google-deepmind-previews-genie-3-world-model">Google DeepMind Previews Genie 3 World Model</h3>
-<p>Google DeepMind is showcasing <strong>Genie 3</strong>, the latest iteration of its generative world model. Genie 3 can generate realistic 3D virtual environments and interactive simulations from text or image prompts, pushing the boundaries of physical AI and simulated training for robotics.</p>
-</section>
-</section>
-<section id="trending-tools-models" class="level2">
-<h2 class="anchored" data-anchor-id="trending-tools-models">Trending Tools &amp; Models</h2>
-<ul>
-<li><strong>GPT-5.3 Codex</strong>: Best-in-class for autonomous software development.</li>
-<li><strong>Claude Opus 4.6</strong>: Top tier for massive document analysis and reasoning.</li>
-<li><strong>Snowflake Agents</strong>: Direct integration of OpenAI models into the Snowflake Data Cloud for SQL-native autonomous agents.</li>
-<li><strong>C-RADIOv4</strong>: NVIDIA’s latest vision backbone for spatial reasoning in robotics.</li>
-</ul>
-<hr>
-<p><em>Source: Web Research | 2026-02-09</em></p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>LLMs &amp; Models</category>
-  <category>AI Tools &amp; Frameworks</category>
-  <category>Industry News</category>
-  <guid>https://roboaidigest.com/posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/</guid>
-  <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
 </rss>
