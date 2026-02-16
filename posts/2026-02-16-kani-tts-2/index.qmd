@@ -1,0 +1,58 @@
+---
+title: "Kani-TTS-2: Open-Source TTS Running on Consumer GPUs with 3GB VRAM"
+description: "The new 400M parameter model from nineninesix.ai brings high-fidelity speech synthesis to edge devices with zero-shot voice cloning."
+date: "2026-02-16"
+categories: [AI Tools & Frameworks, Open Source]
+image: "image.svg"
+slug: "kani-tts-2"
+---
+
+The landscape of generative audio is shifting toward efficiency. A new open-source contender, **Kani-TTS-2**, has been released by the team at nineninesix.ai. This model marks a departure from heavy, compute-expensive TTS systems. Instead, it treats audio as a language, delivering high-fidelity speech synthesis with a remarkably small footprint.
+
+## Audio-as-Language Architecture
+
+Kani-TTS-2 follows the **'Audio-as-Language'** philosophy. The model does not use traditional mel-spectrogram pipelines. Instead, it converts raw audio into discrete tokens using a neural codec.
+
+The system relies on a two-stage process:
+
+1. **Language Backbone**: The model is built on LiquidAI's **LFM2 (350M)** architecture. This backbone generates 'audio intent' by predicting the next audio tokens. Because LFM (Liquid Foundation Models) are designed for efficiency, they provide a faster alternative to standard transformers.
+
+2. **Neural Codec**: It uses the **NVIDIA NanoCodec** to turn those tokens into 22kHz waveforms.
+
+By using this architecture, the model captures human-like prosody—the rhythm and intonation of speech—without the 'robotic' artifacts found in older TTS systems.
+
+## Training at Warp Speed
+
+The training metrics for Kani-TTS-2 are a masterclass in optimization. The English model was trained on **10,000 hours** of high-quality speech data.
+
+While that scale is impressive, the speed of training is the real story. The research team trained the model in **only 6 hours** using a cluster of **8 NVIDIA H100 GPUs**. This proves that massive datasets no longer require weeks of compute time when paired with efficient architectures like LFM2.
+
+## Zero-Shot Voice Cloning
+
+The standout feature for developers is **zero-shot voice cloning**. Unlike traditional models that require fine-tuning for new voices, Kani-TTS-2 uses speaker embeddings:
+
+- **How it works**: You provide a short reference audio clip.
+- **The result**: The model extracts the unique characteristics of that voice and applies them to the generated text instantly.
+
+## Edge-Ready Performance
+
+From a deployment perspective, the model is highly accessible:
+
+| Specification | Value |
+|---------------|-------|
+| Parameters | 400M (0.4B) |
+| Real-Time Factor (RTF) | 0.2 (10s audio in ~2s) |
+| VRAM Requirement | Only 3GB |
+| Compatible Hardware | RTX 3060, 4050, etc. |
+| License | Apache 2.0 (commercial-ready) |
+
+## Why This Matters
+
+Kani-TTS-2 represents a significant shift in the TTS landscape:
+
+1. **Democratization**: Running on consumer GPUs means developers no longer need expensive cloud APIs for production-quality TTS.
+2. **Local-First**: Privacy-sensitive applications can now run entirely on-device.
+3. **Speed**: The 0.2 RTF makes real-time interactive voice applications feasible.
+4. **Open Source**: Apache 2.0 licensing means commercial integration is straightforward.
+
+Kani-TTS-2 is available on Hugging Face in both [English (EN)](https://huggingface.co/nineninesix/kani-tts-2-en) and [Portuguese (PT)](https://huggingface.co/nineninesix/kani-tts-2-pt) versions.
