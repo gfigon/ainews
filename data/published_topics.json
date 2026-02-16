@@ -192,6 +192,14 @@
       "slugs": [
         "2026-02-16-exa-instant-neural-search"
       ]
+    },
+    {
+      "term": "AI Agent Delegation Framework",
+      "count": 1,
+      "last_published": "2026-02-16",
+      "slugs": [
+        "2026-02-16-agent-delegation-framework"
+      ]
     }
   ]
 }
