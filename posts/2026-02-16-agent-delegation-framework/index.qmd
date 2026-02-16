@@ -3,6 +3,7 @@ title: "Google DeepMind Proposes Intelligent AI Delegation Framework for the Age
 description: "A new framework addresses the brittleness of current multi-agent systems by applying human-like organizational principles to AI-to-AI communication."
 date: "2026-02-16"
 categories: [Agentic AI, Research Highlights]
+image: "image.svg"
 slug: "agent-delegation-framework"
 ---
 
