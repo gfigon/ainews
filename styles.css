@@ -57,9 +57,10 @@ body {
   box-shadow: 0 12px 24px rgba(0,0,0,0.5);
 }
 
-.listing-item img, .thumbnail-image {
-  border-radius: 0 !important; /* Image fills top width */
+.listing-item img, .thumbnail-image, .card-img-top, img.card-img {
+  border-radius: 0 !important;
   height: 220px !important;
+  min-height: 220px !important;
   width: 100% !important;
   object-fit: cover !important;
   border-bottom: 1px solid #30363d;
