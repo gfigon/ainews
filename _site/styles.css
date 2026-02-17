@@ -52,14 +52,14 @@ body {
 }
 
 /* Listing images - override Quarto's inline height */
-.quarto-post .card-img-top {
+.quarto-post .card-img-top,
+.listing-item img,
+.card-img-top,
+img.card-img,
+.thumbnail-image {
   height: 220px !important;
-  object-fit: cover;
-}
-
-.listing-item img {
-  height: 220px !important;
-  object-fit: cover;
+  min-height: 220px !important;
+  object-fit: cover !important;
 }
 
 .quarto-post .listing-item-content {
