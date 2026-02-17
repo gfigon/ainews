@@ -48,6 +48,15 @@ header-includes: |
     border-bottom: 1px solid #30363d;
   }
   </style>
+  <script>
+  // Remove inline height styles from thumbnails
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+      img.style.height = '220px';
+      img.style.minHeight = '220px';
+    });
+  });
+  </script>
   <!-- Google Consent Mode v2 - musi być PRZED GTM -->
   <script>
     window.dataLayer = window.dataLayer || [];
