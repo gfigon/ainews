@@ -39,23 +39,22 @@ editor: visual
 
 header-includes: |
   <script>
-  // Remove inline height style - runs fast to prevent flash
+  // Fix thumbnail heights - use CSS custom property to override
   (function() {
-    var interval = setInterval(function() {
-      var fixed = 0;
-      document.querySelectorAll('.thumbnail-image[style]').forEach(function(img) {
-        img.style.height = '220px';
-        if (img.style.height === '220px') fixed++;
+    function fixHeights() {
+      document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+        // Use setProperty to add !important
+        img.style.setProperty('height', '220px', 'important');
       });
-      // Stop after 3 seconds or when all fixed
-      if (fixed >= document.querySelectorAll('.thumbnail-image').length || fixed > 20) {
-        clearInterval(interval);
-      }
-    }, 100);
+    }
+    // Run immediately and keep trying
+    fixHeights();
+    setInterval(fixHeights, 200);
+    window.addEventListener('load', fixHeights);
   })();
   </script>
   <style>
-  /* Force height - even inline styles can't override this */
+  /* Force height */
   .thumbnail-image { height: 220px !important; }
   /* Dark mode */
   :root {
