@@ -28,6 +28,10 @@ body {
 }
 
 /* Lista wpisów */
+.quarto-post .thumbnail {
+  display: none !important;
+}
+
 .listing-title {
   color: #58a6ff !important;
   font-weight: bold;
