@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Robo AI Digest"
+  title: ""
   description: "Automated daily briefings on the latest AI research and industry breakthroughs."
   site-url: "https://roboaidigest.com"
   twitter-card:
@@ -13,6 +13,7 @@ website:
     image: "https://roboaidigest.com/social-share.png"
   open-graph: true
   navbar:
+    title: "Robo AI Digest"
     left:
       - href: about.qmd
         text: About
@@ -34,6 +35,7 @@ format:
     canonical-url: true
     title-block-categories: false
     title-block-style: plain
+    title-separator: " | "
     include-before-body: includes/after-body.html
     date-format: "YYYY-MM-DD HH:mm"
 
