@@ -7,16 +7,16 @@
   </defs>
   <rect width="1024" height="512" fill="url(#bg)"/>
   
-  <text x="512" y="200" font-family="Arial Black, Arial" font-size="120" font-weight="bold" fill="#3b82f6" text-anchor="middle" opacity="0.15">xAI</text>
+  <text x="512" y="200" font-family="Arial Black, Arial" font-size="120" font-weight="bold" fill="#3b82f6" text-anchor="middle" opacity="0.15">SaaSpocalypse</text>
   
   <circle cx="512" cy="180" r="60" fill="#3b82f6"/>
   <text x="512" y="200" font-size="40" fill="white" text-anchor="middle" font-family="Arial">AI</text>
   
-  <text x="512" y="320" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle" max-width="900">xAI Exodus: Half of Founding Team Departures Signal Dee...</text>
+  <text x="512" y="320" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle" max-width="900">The SaaSpocalypse: AI Agent Revolution Triggers Histori...</text>
   
   <text x="512" y="360" font-family="Arial" font-size="18" fill="#3b82f6" text-anchor="middle">Industry News</text>
   
-  <text x="512" y="400" font-family="Arial" font-size="14" fill="#888" text-anchor="middle">2026-02-11 - roboaidigest.com</text>
+  <text x="512" y="400" font-family="Arial" font-size="14" fill="#888" text-anchor="middle">2026-02-17 - roboaidigest.com</text>
   
   <rect x="100" y="440" width="824" height="2" fill="#3b82f6" opacity="0.5"/>
 </svg>
