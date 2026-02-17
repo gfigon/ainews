@@ -39,4 +39,4 @@ The massive capital infusion will likely fund:
 
 With $30 billion in new capital and a $380 billion valuation, Anthropic now has the resources to compete at scale. Whether it can translate funding into technological leadership—and maintain its safety commitments—will define the next chapter of the AI race.
 ---
-*Source: [Wikipedia](https://en.wikipedia.org/wiki/Anthropic), [StartupNews.fyi](https://startupnews.fyi/2026/02/16/anthropic-hits-a-380-billion-valuation-as-it-heightens-competition-with-openai/), [News18](https://www.news18.com/business/economy/openai-ceo-sam-altman-signals-deeper-india-ties-ahead-of-global-ai-impact-summit-2026-ws-l-9904937.html)*
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Anthropic){rel="nofollow"}, [StartupNews.fyi](https://startupnews.fyi/2026/02/16/anthropic-hits-a-380-billion-valuation-as-it-heightens-competition-with-openai/){rel="nofollow"}, [News18](https://www.news18.com/business/economy/openai-ceo-sam-altman-signals-deeper-india-ties-ahead-of-global-ai-impact-summit-2026-ws-l-9904937.html){rel="nofollow"}*

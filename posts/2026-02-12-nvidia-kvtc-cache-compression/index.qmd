@@ -34,4 +34,4 @@ NVIDIA's research highlights that not all tokens are equal. KVTC maintains accur
 
 This tuning-free method is backward-compatible with existing models and token eviction strategies, making it a powerful practical building block for the next generation of memory-efficient AI services.
 
-*Source: [MarkTechPost](https://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/){rel="nofollow"} / [arXiv:2511.01815](https://arxiv.org/pdf/2511.01815){rel="nofollow"}*
+*Source: [MarkTechPost](https://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/){rel="nofollow"}{rel="nofollow"} / [arXiv:2511.01815](https://arxiv.org/pdf/2511.01815){rel="nofollow"}{rel="nofollow"}*

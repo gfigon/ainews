@@ -27,4 +27,4 @@ The rapid improvement cycle—M2, M2.1, and M2.5 released in just 3.5 months—i
 
 Within MiniMax itself, M2.5 is already autonomously completing **30% of overall company tasks**, with the model generating **80% of newly committed code**.
 
-Source: [MiniMax News](https://www.minimax.io/news/minimax-m25){rel="nofollow"}
+Source: [MiniMax News](https://www.minimax.io/news/minimax-m25){rel="nofollow"}{rel="nofollow"}

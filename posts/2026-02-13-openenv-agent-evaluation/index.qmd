@@ -26,8 +26,8 @@ By exposing agents to actual constraints—like OAuth permissions, RFC3339 datet
 
 As Silicon Valley shifts from "AI hype" to "AI pragmatism," frameworks like OpenEnv will be essential for developers building the next generation of autonomous coworkers. The goal is no longer just a model that can chat, but an agent that can navigate the messy, stateful, and permissioned reality of modern software.
 
-For those looking to dive deeper into the technical evaluation metrics, the [OpenEnv repository](https://github.com/meta-pytorch/OpenEnv) and the [Calendar Gym](https://huggingface.co/spaces/TuringEnterprises/calendar-gym) are now available for community testing and expansion.
+For those looking to dive deeper into the technical evaluation metrics, the [OpenEnv repository](https://github.com/meta-pytorch/OpenEnv){rel="nofollow"} and the [Calendar Gym](https://huggingface.co/spaces/TuringEnterprises/calendar-gym){rel="nofollow"} are now available for community testing and expansion.
 
 ***
 
-*Source: [Hugging Face Blog](https://huggingface.co/blog/openenv-turing) (Nofollow)*
+*Source: [Hugging Face Blog](https://huggingface.co/blog/openenv-turing){rel="nofollow"} (Nofollow)*

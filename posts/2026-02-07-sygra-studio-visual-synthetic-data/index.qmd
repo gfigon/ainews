@@ -22,4 +22,4 @@ As models require more specialized training data, the complexity of generating h
 
 By automating the generation of the underlying YAML and task executor scripts, Studio makes sophisticated data engineering accessible to a wider range of AI practitioners.
 
-Explore the tool on the [Hugging Face Blog](https://huggingface.co/blog/ServiceNow-AI/sygra-studio){rel="nofollow"}.
+Explore the tool on the [Hugging Face Blog](https://huggingface.co/blog/ServiceNow-AI/sygra-studio){rel="nofollow"}{rel="nofollow"}.

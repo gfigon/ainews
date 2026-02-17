@@ -61,4 +61,4 @@ Qwen3.5 represents a new tier in the open-source AI landscape:
 3. **Massive Context**: 1M tokens enables entirely new agent workflows
 4. **Truly Open**: Weights available on Hugging Face, Apache 2.0 license
 
-The model is available on [Hugging Face](https://huggingface.co/collections/Qwen/qwen35) with full technical details on the [Qwen blog](https://qwen.ai/blog?id=qwen3.5).
+The model is available on [Hugging Face](https://huggingface.co/collections/Qwen/qwen35){rel="nofollow"} with full technical details on the [Qwen blog](https://qwen.ai/blog?id=qwen3.5){rel="nofollow"}.

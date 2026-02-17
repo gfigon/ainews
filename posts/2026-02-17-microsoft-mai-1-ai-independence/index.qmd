@@ -48,4 +48,4 @@ For enterprise customers, this could mean more choices in AI providers and poten
 The next few months will be critical as Microsoft prepares to reveal more about MAI-1's capabilities and its integration into Windows 2026.
 
 ---
-*Source: [Windows News](https://windowsnews.ai/article/windows-2026-taskbar-revival-ai-independence-reshape-microsofts-strategy.401402), [Wikipedia - Microsoft Copilot](https://en.wikipedia.org/wiki/Microsoft_Copilot)*
+*Source: [Windows News](https://windowsnews.ai/article/windows-2026-taskbar-revival-ai-independence-reshape-microsofts-strategy.401402){rel="nofollow"}, [Wikipedia - Microsoft Copilot](https://en.wikipedia.org/wiki/Microsoft_Copilot){rel="nofollow"}*

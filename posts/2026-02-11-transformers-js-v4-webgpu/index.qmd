@@ -40,7 +40,7 @@ The entire runtime was rewritten in C++ with close collaboration from the ONNX R
 Transformers.js has evolved from a single package to a monorepo using pnpm workspaces. This allows shipping focused sub-packages without the overhead of maintaining separate repositories.
 
 **Standalone Tokenizers**
-The tokenization logic is now available as a separate [@huggingface/tokenizers](https://www.npmjs.com/package/@huggingface/tokenizers){rel="nofollow"} library — just 8.8kB gzipped with zero dependencies.
+The tokenization logic is now available as a separate [@huggingface/tokenizers](https://www.npmjs.com/package/@huggingface/tokenizers){rel="nofollow"}{rel="nofollow"} library — just 8.8kB gzipped with zero dependencies.
 
 **Build System Migration**
 Moving from Webpack to esbuild reduced build times from 2 seconds to 200 milliseconds, while bundle sizes decreased by 10% (transformers.web.js is now 53% smaller).
@@ -59,4 +59,4 @@ Version 4 adds support for cutting-edge architectures including GPT-OSS, Chatter
 3. **Cross-runtime compatibility**: Same code works across all JavaScript environments
 4. **Expanded model support**: New architectures including MoE and state-space models
 
-Install the preview with `npm i @huggingface/transformers@next` and explore examples at the [Transformers.js repository](https://github.com/xenova/transformers.js){rel="nofollow"}.
+Install the preview with `npm i @huggingface/transformers@next` and explore examples at the [Transformers.js repository](https://github.com/xenova/transformers.js){rel="nofollow"}{rel="nofollow"}.

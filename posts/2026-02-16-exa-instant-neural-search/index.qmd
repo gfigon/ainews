@@ -55,4 +55,4 @@ Exa positions itself against:
 The company has raised $50M in Series B funding to accelerate development, with Instant now generally available.
 
 ---
-*Source: [MarkTechPost](https://www.marktechpost.com), [Exa AI Blog](https://exa.ai)*
+*Source: [MarkTechPost](https://www.marktechpost.com){rel="nofollow"}, [Exa AI Blog](https://exa.ai){rel="nofollow"}*

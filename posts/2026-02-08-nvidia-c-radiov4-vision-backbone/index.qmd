@@ -31,4 +31,4 @@ C-RADIOv4 is designed for practical use, featuring a **ViTDet-mode** for efficie
 
 The model has been released under the **NVIDIA Open Model License**, making it a powerful resource for researchers and enterprises looking to streamline their computer vision pipelines.
 
-[Technical Paper](https://arxiv.org/abs/2601.17237){rel="nofollow"} | [Model on Hugging Face](https://huggingface.co/nvidia/C-RADIOv4-H){rel="nofollow"}
+[Technical Paper](https://arxiv.org/abs/2601.17237){rel="nofollow"}{rel="nofollow"} | [Model on Hugging Face](https://huggingface.co/nvidia/C-RADIOv4-H){rel="nofollow"}{rel="nofollow"}

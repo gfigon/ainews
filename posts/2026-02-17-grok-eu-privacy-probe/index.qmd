@@ -51,4 +51,4 @@ The Grok investigation signals that the EU is taking a increasingly aggressive s
 This case could set an important precedent for how AI developers worldwide approach content generation safeguards and data protection in AI training.
 
 ---
-*Source: [DW](https://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610), [Reuters](https://www.reuters.com/technology/), [AI Forensics](https://www.aiforporensics.org)*
+*Source: [DW](https://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610){rel="nofollow"}, [Reuters](https://www.reuters.com/technology/){rel="nofollow"}, [AI Forensics](https://www.aiforporensics.org){rel="nofollow"}*

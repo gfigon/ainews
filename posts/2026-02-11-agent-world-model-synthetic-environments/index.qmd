@@ -65,7 +65,7 @@ The researchers evaluated training exclusively on synthetic AWM environments aga
 - **Diverse scenario coverage**: 1,000 environments provide broad training distribution
 - **Reliable evaluation**: Code-driven environments enable reproducible benchmarking
 
-The code is available at [github.com/Snowflake-Labs/agent-world-model](https://github.com/Snowflake-Labs/agent-world-model){rel="nofollow"}.
+The code is available at [github.com/Snowflake-Labs/agent-world-model](https://github.com/Snowflake-Labs/agent-world-model){rel="nofollow"}{rel="nofollow"}.
 
 ## Implications for Agent Development
 

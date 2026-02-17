@@ -31,4 +31,4 @@ This release underscores a clear shift in the AI race. The competition is no lon
 
 Google's Deep Think represents another milestone in this reasoning-focused evolution. As AI systems become capable of handling genuinely difficult analytical tasks, the technology moves closer to being a true intellectual partner rather than just a sophisticated search tool or writing assistant.
 
-Source: [Google Blog](https://blog.google/products-and-platforms/products/gemini/gemini-3/){rel="nofollow"}
+Source: [Google Blog](https://blog.google/products-and-platforms/products/gemini/gemini-3/){rel="nofollow"}{rel="nofollow"}

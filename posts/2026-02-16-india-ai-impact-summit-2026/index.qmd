@@ -36,4 +36,4 @@ More than 80% of GCCs expected to be set up in the next six-to-eight months are 
 This summit marks the first major international AI gathering in the Global South, signaling India's determination to play a central role in shaping AI's future.
 
 ---
-*Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-16/india-seeks-role-in-shaping-ai-future-with-summit-of-tech-chiefs), [CNBC](https://www.cnbc.com/2026/02/16/india-ai-impact-summit-tech-ceos-new-delhi.html)*
+*Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-16/india-seeks-role-in-shaping-ai-future-with-summit-of-tech-chiefs){rel="nofollow"}, [CNBC](https://www.cnbc.com/2026/02/16/india-ai-impact-summit-tech-ceos-new-delhi.html){rel="nofollow"}*
