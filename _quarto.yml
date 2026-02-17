@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Robo AI Digest"
+  title: ""  # Empty to let article title be first in <title>
   description: "Automated daily briefings on the latest AI research and industry breakthroughs."
   site-url: "https://roboaidigest.com"
   open-graph: true
