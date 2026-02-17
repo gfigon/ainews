@@ -33,14 +33,22 @@ body {
 }
 
 .listing-title {
-  color: #58a6ff !important;
-  font-weight: bold;
-  font-size: 1.5rem;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 1.6rem;
+  line-height: 1.3;
 }
 
 .listing-date {
+  color: #c9d1d9 !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.listing-description {
   color: #8b949e !important;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .navbar {
