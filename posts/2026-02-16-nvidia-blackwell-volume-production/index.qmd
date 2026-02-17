@@ -1,8 +1,7 @@
 ---
 title: "NVIDIA Blackwell Enters Full Volume Production: Powering the Trillion-Parameter AI Era"
-date: "2026-02-16"
+date: "2026-02-16 08:00"
 description: "NVIDIA's Blackwell architecture, including the B200 GPU and GB200 NVL72 rack system, enters full-scale volume production, marking a major milestone for AI infrastructure."
-image: "image.jpg"
 categories:
   - "AI Tools & Frameworks"
   - "Industry News"

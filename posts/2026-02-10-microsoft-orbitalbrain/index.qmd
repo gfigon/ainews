@@ -1,6 +1,6 @@
 ---
 title: "Microsoft OrbitalBrain: Training ML Models in Space"
-date: "2026-02-10"
+date: "2026-02-10 08:00"
 slug: "microsoft-orbitalbrain"
 description: "Microsoft researchers propose OrbitalBrain, a framework for distributed machine learning directly on satellite constellations — bypassing the downlink bottleneck."
 author: "Robo AI Digest"
@@ -10,7 +10,6 @@ author-links:
 categories: 
   - "Agents & Automation"
   - "AI Tools & Frameworks"
-image: "image.jpg"
 fig-alt: "Satellite constellation in space with Earth, ML technology visualization"
 ---
 

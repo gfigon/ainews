@@ -1,8 +1,7 @@
 ---
 title: "India AI Impact Summit 2026: World's Largest AI Gathering Kicks Off in New Delhi"
-date: "2026-02-16"
+date: "2026-02-16 08:00"
 description: "Prime Minister Narendra Modi inaugurates landmark AI summit featuring Sam Altman, Sundar Pichai, and Dario Amodei as India positions itself as a global AI powerhouse."
-image: "image.jpg"
 categories:
   - "Industry News"
   - "AI Tools & Frameworks"

@@ -10,7 +10,7 @@
 <atom:link href="https://roboaidigest.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Automated daily briefings on the latest AI research and industry breakthroughs.</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Mon, 16 Feb 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 17 Feb 2026 09:15:00 GMT</lastBuildDate>
 <item>
   <title>Microsoft’s MAI-1: The 500-Billion Parameter Bet on AI Independence</title>
   <link>https://roboaidigest.com/posts/2026-02-17-microsoft-mai-1-ai-independence/</link>
@@ -67,137 +67,7 @@
   <category>LLMs &amp; Models</category>
   <category>AI Tools &amp; Frameworks</category>
   <guid>https://roboaidigest.com/posts/2026-02-17-microsoft-mai-1-ai-independence/</guid>
-  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-17-microsoft-mai-1-ai-independence/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>India AI Impact Summit 2026: World’s Largest AI Gathering Brings Together Altman, Pichai, and Amodei</title>
-  <link>https://roboaidigest.com/posts/2026-02-17-india-ai-impact-summit/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<section id="india-ai-impact-summit-2026-worlds-largest-ai-gathering-unites-global-tech-leaders" class="level1">
-<h1>India AI Impact Summit 2026: World’s Largest AI Gathering Unites Global Tech Leaders</h1>
-<p>The India AI Impact Summit 2026 kicked off at New Delhi’s Bharat Mandapam on February 16, marking what experts are calling the largest AI conference ever held. With over 600 high-potential startups, 13 country pavilions, and an unprecedented lineup of global AI leaders, the five-day summit (through February 20) positions India at the center of the global AI revolution.</p>
-<section id="a-gathering-of-titans" class="level2">
-<h2 class="anchored" data-anchor-id="a-gathering-of-titans">A Gathering of Titans</h2>
-<p>The summit’s headline speakers read like a who’s who of the AI industry:</p>
-<ul>
-<li><strong>Sam Altman</strong> (OpenAI)</li>
-<li><strong>Sundar Pichai</strong> (Alphabet/Google)</li>
-<li><strong>Dario Amodei</strong> (Anthropic)</li>
-<li><strong>Demis Hassabis</strong> (Google DeepMind)</li>
-<li><strong>Brad Smith</strong> (Microsoft)</li>
-<li><strong>Arthur Mensch</strong> (Mistral AI)</li>
-<li><strong>Alexandr Wang</strong> (Scale AI)</li>
-</ul>
-<p>French President Emmanuel Macron is also attending, highlighting the geopolitical importance of AI leadership.</p>
-</section>
-<section id="pm-modi-ai-for-viksit-bharat" class="level2">
-<h2 class="anchored" data-anchor-id="pm-modi-ai-for-viksit-bharat">PM Modi: “AI for Viksit Bharat”</h2>
-<p>Prime Minister Narendra Modi inaugurated the expo on February 16, visiting multiple stalls and interacting with startups. “The outcomes of this summit will help shape a future that is progressive, innovative, and opportunity-driven,” the PM stated on his X handle.</p>
-<p>The summit is structured across three thematic “chakras”—people, planet, and progress—reflecting India’s approach to inclusive AI development. With 300 pavilions and live demonstrations across 7,000+ square meters, the event is massive in scale.</p>
-</section>
-<section id="indias-ai-sovereignty-push" class="level2">
-<h2 class="anchored" data-anchor-id="indias-ai-sovereignty-push">India’s AI Sovereignty Push</h2>
-<p>A recurring theme at the summit is India’s quest for AI sovereignty. Union Minister Ashwini Vaishnaw emphasized “capturing benefits while containing harms” of AI. The government announced it’s in talks with over 30 countries on technical and legal solutions for deepfakes.</p>
-<p>India’s Digital Public Infrastructure (DPI) approach—already proven in payments (UPI) and identity (Aadhaar)—is being pitched as a model for other nations. “Scalability demonstrated by India in DPI is a major advantage,” said a senior Wipro executive.</p>
-</section>
-<section id="global-south-leadership" class="level2">
-<h2 class="anchored" data-anchor-id="global-south-leadership">Global South Leadership</h2>
-<p>Several speakers highlighted India’s potential to lead AI accessibility for the Global South. BCG India MD noted that India can “lead in making AI more accessible to Global South.” Indian startups like <strong>Sarvam AI</strong> and <strong>BharatGen</strong> (from IIT Bombay) are expected to unveil sovereign LLMs during the summit.</p>
-</section>
-<section id="key-announcements" class="level2">
-<h2 class="anchored" data-anchor-id="key-announcements">Key Announcements</h2>
-<ul>
-<li><strong>Jio’s AI Ecosystem</strong>: Akash Ambani briefed PM Modi on Jio’s AI developments</li>
-<li><strong>Ottonomy</strong>: Unveiled a “Made-in-India” autonomous delivery robot</li>
-<li><strong>NPCI</strong>: Rolled out “UPI One World” wallet for international delegates</li>
-<li><strong>Intel</strong>: Announced initiatives to bring AI to the masses through scalable applications</li>
-</ul>
-</section>
-<section id="the-road-ahead" class="level2">
-<h2 class="anchored" data-anchor-id="the-road-ahead">The Road Ahead</h2>
-<p>With the world’s top AI minds converging in Delhi, the summit signals India’s ambition to move from an AI consumer to an AI creator. As Union Minister Jitin Prasada noted, “Every person has a stake and skin in the game” when it comes to AI’s future.</p>
-<p>The summit opens to the general public on February 17, offering a rare opportunity for Indians to engage with cutting-edge AI technology firsthand.</p>
-<hr>
-<p><em>Source: <a href="https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026-delhi-summit-ai-impact-summit-bharat-mandapam-summit-narendra-modi-delhi-expo-ai-expo-101771203756704.html">Hindustan Times</a>, <a href="https://the420.in/ai-impact-summit-2026-delhi-macron-altman-pichai/">The420.in</a>, <a href="https://www.reuters.com/business/retail-consumer/openai-google-india-hosts-global-ai-summit-2026-02-16/">Reuters</a></em></p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Industry News</category>
-  <category>AI Events</category>
-  <guid>https://roboaidigest.com/posts/2026-02-17-india-ai-impact-summit/</guid>
-  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-17-india-ai-impact-summit/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI’s Deepfake Crisis</title>
-  <link>https://roboaidigest.com/posts/2026-02-17-grok-eu-privacy-probe/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<section id="grok-faces-eu-privacy-probe-ireland-launches-investigation-into-xais-deepfake-crisis" class="level1">
-<h1>Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI’s Deepfake Crisis</h1>
-<p>Ireland’s Data Protection Commission (DPC) has launched a major investigation into xAI’s Grok chatbot, examining whether the AI tool violated the European Union’s General Data Protection Regulation (GDPR). The investigation marks another escalation in the EU’s crackdown on AI-generated deepfake content.</p>
-<section id="the-investigation-what-we-know" class="level2">
-<h2 class="anchored" data-anchor-id="the-investigation-what-we-know">The Investigation: What We Know</h2>
-<p>The DPC, acting as the lead authority for X in the EU since the company’s European headquarters are in Dublin, announced the investigation on February 16, 2026. The probe will examine whether X (formerly Twitter) and its Grok AI chatbot complied with fundamental data protection obligations.</p>
-<p>Ireland’s decision to investigate comes after the EU itself launched a separate investigation into Grok under the Digital Services Act (DSA) in late January. Under the DSA, violations can result in fines of up to <strong>6% of global revenues</strong>, while GDPR breaches can cost companies up to <strong>4% of total global revenue</strong>.</p>
-</section>
-<section id="the-spark-groks-spicy-mode-controversy" class="level2">
-<h2 class="anchored" data-anchor-id="the-spark-groks-spicy-mode-controversy">The Spark: Grok’s “Spicy Mode” Controversy</h2>
-<p>The investigation was triggered by revelations about Grok’s image generation capabilities. An analysis by Paris-based nonprofit AI Forensics, published in January 2026, examined over <strong>20,000 Grok-generated images</strong> and found that more than half depicted individuals in “minimal attire.”</p>
-<p>The findings were disturbing: - <strong>Over 50%</strong> of analyzed images showed individuals in suggestive clothing - <strong>Majority</strong> of these individuals were women - <strong>2%</strong> appeared to be minors</p>
-<p>The chatbot’s so-called “Spicy Mode” allowed users to create sexually explicit images with simple prompts such as “remove her clothes” or “put her in underwear.”</p>
-</section>
-<section id="global-backlash" class="level2">
-<h2 class="anchored" data-anchor-id="global-backlash">Global Backlash</h2>
-<p>The Grok controversy has sparked a worldwide response:</p>
-<ul>
-<li><strong>Malaysia and Indonesia</strong> blocked the chatbot completely</li>
-<li><strong>Several governments</strong> pressured xAI to modify Grok’s capabilities</li>
-<li><strong>The UK</strong> targeted all AI chatbots following the Grok uproar</li>
-</ul>
-<p>In response, X announced new restrictions on Grok, preventing the chatbot from undressing images of real people and limiting image creation to paid users only.</p>
-</section>
-<section id="eu-us-tensions-escalate" class="level2">
-<h2 class="anchored" data-anchor-id="eu-us-tensions-escalate">EU-US Tensions Escalate</h2>
-<p>The Irish investigation adds another layer to existing tensions between the EU and US over tech regulation. The Trump administration has accused the EU of targeting American companies and restricting free speech, especially as Elon Musk is a close ally of President Trump.</p>
-<p>Despite these tensions, Ireland has proceeded with the investigation—the DPC had already been examining X’s use of personal data to train AI models since 2025.</p>
-</section>
-<section id="what-this-means-for-ai-companies" class="level2">
-<h2 class="anchored" data-anchor-id="what-this-means-for-ai-companies">What This Means for AI Companies</h2>
-<p>The Grok investigation signals that the EU is taking a increasingly aggressive stance on AI safety. For AI companies operating in Europe, the message is clear: generative AI tools that can create non-consensual intimate images will face serious regulatory consequences.</p>
-<p>This case could set an important precedent for how AI developers worldwide approach content generation safeguards and data protection in AI training.</p>
-<hr>
-<p><em>Source: <a href="https://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610">DW</a>, <a href="https://www.reuters.com/technology/">Reuters</a>, <a href="https://www.aiforporensics.org">AI Forensics</a></em></p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>AI Security &amp; Safety</category>
-  <category>Ethics &amp; Regulation</category>
-  <guid>https://roboaidigest.com/posts/2026-02-17-grok-eu-privacy-probe/</guid>
-  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-17-grok-eu-privacy-probe/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 17 Feb 2026 09:15:00 GMT</pubDate>
 </item>
 <item>
   <title>Qwen3.5-397B: Alibaba’s Massive Hybrid MoE Model with 1M Context</title>
@@ -296,8 +166,134 @@
   <category>LLMs &amp; Models</category>
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-17-qwen3-5-397b-moe/</guid>
-  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-17-qwen3-5-397b-moe/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 17 Feb 2026 07:45:00 GMT</pubDate>
+</item>
+<item>
+  <title>India AI Impact Summit 2026: World’s Largest AI Gathering Brings Together Altman, Pichai, and Amodei</title>
+  <link>https://roboaidigest.com/posts/2026-02-17-india-ai-impact-summit/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<section id="india-ai-impact-summit-2026-worlds-largest-ai-gathering-unites-global-tech-leaders" class="level1">
+<h1>India AI Impact Summit 2026: World’s Largest AI Gathering Unites Global Tech Leaders</h1>
+<p>The India AI Impact Summit 2026 kicked off at New Delhi’s Bharat Mandapam on February 16, marking what experts are calling the largest AI conference ever held. With over 600 high-potential startups, 13 country pavilions, and an unprecedented lineup of global AI leaders, the five-day summit (through February 20) positions India at the center of the global AI revolution.</p>
+<section id="a-gathering-of-titans" class="level2">
+<h2 class="anchored" data-anchor-id="a-gathering-of-titans">A Gathering of Titans</h2>
+<p>The summit’s headline speakers read like a who’s who of the AI industry:</p>
+<ul>
+<li><strong>Sam Altman</strong> (OpenAI)</li>
+<li><strong>Sundar Pichai</strong> (Alphabet/Google)</li>
+<li><strong>Dario Amodei</strong> (Anthropic)</li>
+<li><strong>Demis Hassabis</strong> (Google DeepMind)</li>
+<li><strong>Brad Smith</strong> (Microsoft)</li>
+<li><strong>Arthur Mensch</strong> (Mistral AI)</li>
+<li><strong>Alexandr Wang</strong> (Scale AI)</li>
+</ul>
+<p>French President Emmanuel Macron is also attending, highlighting the geopolitical importance of AI leadership.</p>
+</section>
+<section id="pm-modi-ai-for-viksit-bharat" class="level2">
+<h2 class="anchored" data-anchor-id="pm-modi-ai-for-viksit-bharat">PM Modi: “AI for Viksit Bharat”</h2>
+<p>Prime Minister Narendra Modi inaugurated the expo on February 16, visiting multiple stalls and interacting with startups. “The outcomes of this summit will help shape a future that is progressive, innovative, and opportunity-driven,” the PM stated on his X handle.</p>
+<p>The summit is structured across three thematic “chakras”—people, planet, and progress—reflecting India’s approach to inclusive AI development. With 300 pavilions and live demonstrations across 7,000+ square meters, the event is massive in scale.</p>
+</section>
+<section id="indias-ai-sovereignty-push" class="level2">
+<h2 class="anchored" data-anchor-id="indias-ai-sovereignty-push">India’s AI Sovereignty Push</h2>
+<p>A recurring theme at the summit is India’s quest for AI sovereignty. Union Minister Ashwini Vaishnaw emphasized “capturing benefits while containing harms” of AI. The government announced it’s in talks with over 30 countries on technical and legal solutions for deepfakes.</p>
+<p>India’s Digital Public Infrastructure (DPI) approach—already proven in payments (UPI) and identity (Aadhaar)—is being pitched as a model for other nations. “Scalability demonstrated by India in DPI is a major advantage,” said a senior Wipro executive.</p>
+</section>
+<section id="global-south-leadership" class="level2">
+<h2 class="anchored" data-anchor-id="global-south-leadership">Global South Leadership</h2>
+<p>Several speakers highlighted India’s potential to lead AI accessibility for the Global South. BCG India MD noted that India can “lead in making AI more accessible to Global South.” Indian startups like <strong>Sarvam AI</strong> and <strong>BharatGen</strong> (from IIT Bombay) are expected to unveil sovereign LLMs during the summit.</p>
+</section>
+<section id="key-announcements" class="level2">
+<h2 class="anchored" data-anchor-id="key-announcements">Key Announcements</h2>
+<ul>
+<li><strong>Jio’s AI Ecosystem</strong>: Akash Ambani briefed PM Modi on Jio’s AI developments</li>
+<li><strong>Ottonomy</strong>: Unveiled a “Made-in-India” autonomous delivery robot</li>
+<li><strong>NPCI</strong>: Rolled out “UPI One World” wallet for international delegates</li>
+<li><strong>Intel</strong>: Announced initiatives to bring AI to the masses through scalable applications</li>
+</ul>
+</section>
+<section id="the-road-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="the-road-ahead">The Road Ahead</h2>
+<p>With the world’s top AI minds converging in Delhi, the summit signals India’s ambition to move from an AI consumer to an AI creator. As Union Minister Jitin Prasada noted, “Every person has a stake and skin in the game” when it comes to AI’s future.</p>
+<p>The summit opens to the general public on February 17, offering a rare opportunity for Indians to engage with cutting-edge AI technology firsthand.</p>
+<hr>
+<p><em>Source: <a href="https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026-delhi-summit-ai-impact-summit-bharat-mandapam-summit-narendra-modi-delhi-expo-ai-expo-101771203756704.html">Hindustan Times</a>, <a href="https://the420.in/ai-impact-summit-2026-delhi-macron-altman-pichai/">The420.in</a>, <a href="https://www.reuters.com/business/retail-consumer/openai-google-india-hosts-global-ai-summit-2026-02-16/">Reuters</a></em></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Industry News</category>
+  <category>AI Events</category>
+  <guid>https://roboaidigest.com/posts/2026-02-17-india-ai-impact-summit/</guid>
+  <pubDate>Tue, 17 Feb 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI’s Deepfake Crisis</title>
+  <link>https://roboaidigest.com/posts/2026-02-17-grok-eu-privacy-probe/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<section id="grok-faces-eu-privacy-probe-ireland-launches-investigation-into-xais-deepfake-crisis" class="level1">
+<h1>Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI’s Deepfake Crisis</h1>
+<p>Ireland’s Data Protection Commission (DPC) has launched a major investigation into xAI’s Grok chatbot, examining whether the AI tool violated the European Union’s General Data Protection Regulation (GDPR). The investigation marks another escalation in the EU’s crackdown on AI-generated deepfake content.</p>
+<section id="the-investigation-what-we-know" class="level2">
+<h2 class="anchored" data-anchor-id="the-investigation-what-we-know">The Investigation: What We Know</h2>
+<p>The DPC, acting as the lead authority for X in the EU since the company’s European headquarters are in Dublin, announced the investigation on February 16, 2026. The probe will examine whether X (formerly Twitter) and its Grok AI chatbot complied with fundamental data protection obligations.</p>
+<p>Ireland’s decision to investigate comes after the EU itself launched a separate investigation into Grok under the Digital Services Act (DSA) in late January. Under the DSA, violations can result in fines of up to <strong>6% of global revenues</strong>, while GDPR breaches can cost companies up to <strong>4% of total global revenue</strong>.</p>
+</section>
+<section id="the-spark-groks-spicy-mode-controversy" class="level2">
+<h2 class="anchored" data-anchor-id="the-spark-groks-spicy-mode-controversy">The Spark: Grok’s “Spicy Mode” Controversy</h2>
+<p>The investigation was triggered by revelations about Grok’s image generation capabilities. An analysis by Paris-based nonprofit AI Forensics, published in January 2026, examined over <strong>20,000 Grok-generated images</strong> and found that more than half depicted individuals in “minimal attire.”</p>
+<p>The findings were disturbing: - <strong>Over 50%</strong> of analyzed images showed individuals in suggestive clothing - <strong>Majority</strong> of these individuals were women - <strong>2%</strong> appeared to be minors</p>
+<p>The chatbot’s so-called “Spicy Mode” allowed users to create sexually explicit images with simple prompts such as “remove her clothes” or “put her in underwear.”</p>
+</section>
+<section id="global-backlash" class="level2">
+<h2 class="anchored" data-anchor-id="global-backlash">Global Backlash</h2>
+<p>The Grok controversy has sparked a worldwide response:</p>
+<ul>
+<li><strong>Malaysia and Indonesia</strong> blocked the chatbot completely</li>
+<li><strong>Several governments</strong> pressured xAI to modify Grok’s capabilities</li>
+<li><strong>The UK</strong> targeted all AI chatbots following the Grok uproar</li>
+</ul>
+<p>In response, X announced new restrictions on Grok, preventing the chatbot from undressing images of real people and limiting image creation to paid users only.</p>
+</section>
+<section id="eu-us-tensions-escalate" class="level2">
+<h2 class="anchored" data-anchor-id="eu-us-tensions-escalate">EU-US Tensions Escalate</h2>
+<p>The Irish investigation adds another layer to existing tensions between the EU and US over tech regulation. The Trump administration has accused the EU of targeting American companies and restricting free speech, especially as Elon Musk is a close ally of President Trump.</p>
+<p>Despite these tensions, Ireland has proceeded with the investigation—the DPC had already been examining X’s use of personal data to train AI models since 2025.</p>
+</section>
+<section id="what-this-means-for-ai-companies" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-means-for-ai-companies">What This Means for AI Companies</h2>
+<p>The Grok investigation signals that the EU is taking a increasingly aggressive stance on AI safety. For AI companies operating in Europe, the message is clear: generative AI tools that can create non-consensual intimate images will face serious regulatory consequences.</p>
+<p>This case could set an important precedent for how AI developers worldwide approach content generation safeguards and data protection in AI training.</p>
+<hr>
+<p><em>Source: <a href="https://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610">DW</a>, <a href="https://www.reuters.com/technology/">Reuters</a>, <a href="https://www.aiforporensics.org">AI Forensics</a></em></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>AI Security &amp; Safety</category>
+  <category>Ethics &amp; Regulation</category>
+  <guid>https://roboaidigest.com/posts/2026-02-17-grok-eu-privacy-probe/</guid>
+  <pubDate>Tue, 17 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The SaaSpocalypse: AI Agent Revolution Triggers Historic 25% Sell-Off in Software Giants</title>
@@ -349,8 +345,7 @@
   <category>Industry News</category>
   <category>Agents &amp; Automation</category>
   <guid>https://roboaidigest.com/posts/2026-02-17-saaspocalypse-ai-agent-revolution/</guid>
-  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-17-saaspocalypse-ai-agent-revolution/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 17 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Google DeepMind Proposes Intelligent AI Delegation Framework for the Agentic Web</title>
@@ -448,8 +443,7 @@
   <category>Agentic AI</category>
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-agent-delegation-framework/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-agent-delegation-framework/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>India AI Impact Summit 2026: World’s Largest AI Gathering Kicks Off in New Delhi</title>
@@ -497,8 +491,7 @@
   <category>Industry News</category>
   <category>AI Tools &amp; Frameworks</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-india-ai-impact-summit-2026/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-india-ai-impact-summit-2026/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Anthropic Hits $380 Billion Valuation in Record-Breaking Funding Round</title>
@@ -545,8 +538,7 @@
   <category>Industry News</category>
   <category>LLMs &amp; Models</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-anthropic-380-billion-valuation/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-anthropic-380-billion-valuation/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Kani-TTS-2: Open-Source TTS Running on Consumer GPUs with 3GB VRAM</title>
@@ -636,8 +628,7 @@
   <category>AI Tools &amp; Frameworks</category>
   <category>Open Source</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-kani-tts-2/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-kani-tts-2/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>OpenClaw Founder Peter Steinberger Joins OpenAI, Project Becomes Foundation</title>
@@ -679,8 +670,7 @@
   <category>Industry News</category>
   <category>Agents &amp; Automation</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-openclaw-foundation/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-openclaw-foundation/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Exa Instant: The Sub-200ms Neural Search Engine Powering Real-Time Agentic Workflows</title>
@@ -741,8 +731,7 @@
   <category>AI Tools &amp; Frameworks</category>
   <category>Agents &amp; Automation</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-exa-instant-neural-search/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>NVIDIA Blackwell Enters Full Volume Production: Powering the Trillion-Parameter AI Era</title>
@@ -782,8 +771,7 @@
   <category>AI Tools &amp; Frameworks</category>
   <category>Industry News</category>
   <guid>https://roboaidigest.com/posts/2026-02-16-nvidia-blackwell-volume-production/</guid>
-  <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-16-nvidia-blackwell-volume-production/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 16 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro</title>
@@ -846,8 +834,7 @@
   <category>LLMs &amp; Models</category>
   <category>Industry News</category>
   <guid>https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/</guid>
-  <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-14-bytedance-doubao-2/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sat, 14 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Gemini 3 Deep Think: Google’s Answer to the Reasoning Race</title>
@@ -890,8 +877,7 @@
   <category>LLMs &amp; Models</category>
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-14-gemini-3-deep-think-reasoning/</guid>
-  <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-14-gemini-3-deep-think-reasoning/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sat, 14 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>xAI’s Interplanetary Vision: Beyond Earthly AI</title>
@@ -964,8 +950,7 @@
   <category>AI Research</category>
   <category>Ethics &amp; Regulation</category>
   <guid>https://roboaidigest.com/posts/2026-02-14-xai-interplanetary-ambitions/</guid>
-  <pubDate>Fri, 13 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-14-xai-interplanetary-ambitions/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sat, 14 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>OpenEnv: Standardizing AI Agent Evaluation with Real-World Constraints</title>
@@ -1009,8 +994,7 @@
   <category>Agents &amp; Automation</category>
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-13-openenv-agent-evaluation/</guid>
-  <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-13-openenv-agent-evaluation/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Fri, 13 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>MiniMax M2.5: Intelligence Too Cheap to Meter</title>
@@ -1047,8 +1031,7 @@
   <category>Agents &amp; Automation</category>
   <category>Industry News</category>
   <guid>https://roboaidigest.com/posts/2026-02-13-minimax-m25-release/</guid>
-  <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-13-minimax-m25-release/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Fri, 13 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hugging Face Transformers.js v5: WebGPU Revolution</title>
@@ -1175,8 +1158,7 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>AI Tools &amp; Frameworks</category>
   <category>LLMs &amp; Models</category>
   <guid>https://roboaidigest.com/posts/2026-02-13-huggingface-transformers-v5-release/</guid>
-  <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-13-huggingface-transformers-v5-release/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Fri, 13 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini</title>
@@ -1230,8 +1212,7 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>Open Source</category>
   <category>Agents &amp; Automation</category>
   <guid>https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/</guid>
-  <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Thu, 12 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</title>
@@ -1282,8 +1263,7 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <category>AI Tools &amp; Frameworks</category>
   <category>Research Highlights</category>
   <guid>https://roboaidigest.com/posts/2026-02-12-nvidia-kvtc-cache-compression/</guid>
-  <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-12-nvidia-kvtc-cache-compression/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Thu, 12 Feb 2026 07:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

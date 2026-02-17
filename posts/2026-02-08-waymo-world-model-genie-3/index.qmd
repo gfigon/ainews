@@ -1,8 +1,7 @@
 ---
 title: "Waymo World Model: Generating Reality for Autonomous Driving"
-date: "2026-02-08"
+date: "2026-02-08 08:00"
 categories: [Industry News, LLMs & Models]
-image: "image.jpg"
 fig-alt: "Waymo World Model"
 ---
 

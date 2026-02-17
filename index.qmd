@@ -19,9 +19,6 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
-  image-height: 200px
-  image-align: left
-
 page-layout: full
 ---
 

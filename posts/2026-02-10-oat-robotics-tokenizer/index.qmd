@@ -1,6 +1,6 @@
 ---
 title: "OAT: The Action Tokenizer Robots Need"
-date: "2026-02-10"
+date: "2026-02-10 08:00"
 slug: "oat-robotics-tokenizer"
 description: "Harvard and Stanford researchers introduce Ordered Action Tokenization — bridging the gap between autoregressive language models and continuous robot movements."
 author: "Robo AI Digest"
@@ -10,7 +10,6 @@ author-links:
 categories: 
   - "Agents & Automation"
   - "AI Tools & Frameworks"
-image: "image.jpg"
 fig-alt: "Robotic arm with AI tokenizer technology, futuristic blue and orange neon lighting"
 ---
 

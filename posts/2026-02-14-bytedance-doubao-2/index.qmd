@@ -1,10 +1,9 @@
 ---
 title: "ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro"
-date: "2026-02-14"
+date: "2026-02-14 08:00"
 categories:
   - LLMs & Models
   - Industry News
-image: "image.jpg"
 ---
 
 ByteDance has unveiled the **Doubao Large Model 2.0 series**, a significant upgrade to China's most widely used AI chatbot, directly challenging OpenAI and Google in the global AI race.

@@ -1,6 +1,6 @@
 ---
 title: "Transformers.js v4: WebGPU-Powered AI Now Runs Locally in Browsers and Node.js"
-date: "2026-02-11"
+date: "2026-02-11 08:00"
 slug: "transformers-js-v4-webgpu"
 description: "Hugging Face releases Transformers.js v4 with a complete WebGPU runtime rewrite, enabling 100% local AI inference in browsers, Node.js, and Deno with up to 4x speedups."
 author: "Robo AI Digest"
@@ -9,7 +9,6 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "AI Tools & Frameworks"
-image: "image.jpg"
 fig-alt: "Transformers.js v4 WebGPU architecture diagram"
 ---
 

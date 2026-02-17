@@ -1,8 +1,7 @@
 ---
 title: "Anthropic Hits $380 Billion Valuation in Record-Breaking Funding Round"
-date: "2026-02-16"
+date: "2026-02-16 08:00"
 description: "Anthropic secures $30 billion in Series G funding, becoming the second-most valuable AI company as competition with OpenAI intensifies."
-image: "image.jpg"
 categories:
   - "Industry News"
   - "LLMs & Models"

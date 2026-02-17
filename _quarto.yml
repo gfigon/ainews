@@ -35,6 +35,7 @@ format:
     title-block-categories: false
     title-block-style: plain
     include-before-body: includes/after-body.html
+    date-format: "YYYY-MM-DD HH:mm"
 
 editor: visual
 

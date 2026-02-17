@@ -1,6 +1,6 @@
 ---
 title: "xAI Exodus: Half of Founding Team Departures Signal Deeper Challenges"
-date: "2026-02-11"
+date: "2026-02-11 08:00"
 slug: "xai-founding-team-exodus"
 description: "Jimmy Ba and Tony Wu become the fifth and sixth xAI co-founders to exit, as half of Elon Musk's original founding team departs the AI startup within days."
 author: "Robo AI Digest"
@@ -9,7 +9,6 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "Industry News"
-image: "image.jpg"
 fig-alt: "xAI founding team departure timeline illustration"
 ---
 

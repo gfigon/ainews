@@ -1,6 +1,6 @@
 ---
 title: "Agent World Model: Snowflake Researchers Scale Synthetic RL to 1,000 Environments"
-date: "2026-02-11"
+date: "2026-02-11 08:00"
 slug: "agent-world-model-synthetic-environments"
 description: "Snowflake Labs introduces Agent World Model, a synthetic environment generation pipeline that scales reinforcement learning for multi-turn tool-use agents to 1,000 diverse scenarios."
 author: "Robo AI Digest"
@@ -9,7 +9,6 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "Research Highlights"
-image: "image.jpg"
 fig-alt: "Agent World Model synthetic environment architecture"
 ---
 

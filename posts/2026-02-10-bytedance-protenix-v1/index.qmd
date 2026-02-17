@@ -1,6 +1,6 @@
 ---
 title: "ByteDance Protenix-v1: Open-Source AlphaFold3 Challenger"
-date: "2026-02-10"
+date: "2026-02-10 08:00"
 slug: "bytedance-protenix-v1"
 description: "ByteDance releases Protenix-v1, the first fully open-source model matching AlphaFold3 performance for biomolecular structure prediction — with full code, weights, and a novel evaluation toolkit."
 author: "Robo AI Digest"
@@ -9,7 +9,6 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "Research Highlights"
-image: "image.jpg"
 fig-alt: "ByteDance Protenix-v1 protein structure visualization"
 ---
 

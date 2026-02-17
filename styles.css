@@ -1,8 +1,10 @@
 /* Robo AI Digest - Standard Clean Styles */
 
 body {
+  font-family: 'Inter', sans-serif;
   background-color: #0d1117;
   color: #e6edf3;
+  line-height: 1.6;
 }
 
 /* Header & Hero */
@@ -25,15 +27,16 @@ body {
   color: #8b949e;
 }
 
-/* Lista wpisów - poprawka widoczności */
-.quarto-post .thumbnail img {
-  border: 1px solid #30363d;
-  background-color: #161b22;
-}
-
+/* Lista wpisów */
 .listing-title {
   color: #58a6ff !important;
   font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.listing-date {
+  color: #8b949e !important;
+  font-size: 0.9rem;
 }
 
 .navbar {

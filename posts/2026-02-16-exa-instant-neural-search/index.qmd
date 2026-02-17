@@ -1,8 +1,7 @@
 ---
 title: "Exa Instant: The Sub-200ms Neural Search Engine Powering Real-Time Agentic Workflows"
-date: "2026-02-16"
+date: "2026-02-16 08:00"
 categories: [AI Tools & Frameworks, Agents & Automation]
-image: "image.jpg"
 description: "Exa AI launches Instant, a groundbreaking neural search engine delivering sub-200ms latency, designed to eliminate bottlenecks in real-time agentic AI workflows."
 ---
 
