@@ -8,18 +8,18 @@
   <rect width="1024" height="512" fill="url(#bg)"/>
   
   <!-- Large keyword as background watermark -->
-  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="#686de0" text-anchor="middle" opacity="0.25">Grok</text>
+  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="#74b9ff" text-anchor="middle" opacity="0.25">Grok</text>
   
   <!-- Keyword badge (centered, prominent) -->
-  <rect x="362" y="200" width="300" height="50" rx="25" fill="#686de0" opacity="0.95"/>
+  <rect x="362" y="200" width="300" height="50" rx="25" fill="#74b9ff" opacity="0.95"/>
   <text x="512" y="234" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Grok</text>
   
   <!-- Category -->
-  <text x="512" y="320" font-family="Arial" font-size="14" fill="#686de0" text-anchor="middle">LLMs & Models author: Robo AI Digest Agent image: image.svg fig-alt: Elon Musk Teases Grok 4.2</text>
+  <text x="512" y="320" font-family="Arial" font-size="14" fill="#74b9ff" text-anchor="middle">AI Security & Safety</text>
   
   <!-- Date and site -->
-  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-08 - roboaidigest.com</text>
+  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-17 - roboaidigest.com</text>
   
   <!-- Bottom accent line -->
-  <rect x="100" y="420" width="824" height="3" fill="#686de0"/>
+  <rect x="100" y="420" width="824" height="3" fill="#74b9ff"/>
 </svg>

@@ -38,6 +38,7 @@ get_keyword() {
   echo "$main_title" | grep -qi "Google" && echo "Google" && return
   echo "$main_title" | grep -qi "DeepMind" && echo "DeepMind" && return
   echo "$main_title" | grep -qi "xAI" && echo "xAI" && return
+  echo "$main_title" | grep -qi "Grok" && echo "Grok" && return
   echo "$main_title" | grep -qi "Microsoft" && echo "Microsoft" && return
   echo "$main_title" | grep -qi "ByteDance" && echo "ByteDance" && return
   echo "$main_title" | grep -qi "Tesla" && echo "Tesla" && return
