@@ -67,19 +67,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Watch for lazy-loaded images and fix them -->
 <script>
-// Remove ALL inline styles from thumbnail images - most reliable approach
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-    img.removeAttribute('style');
-  });
-});
-// Also run on load in case of lazy-loaded images
-window.addEventListener('load', function() {
-  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-    img.removeAttribute('style');
-  });
-});
+(function() {
+  function fixImages() {
+    document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+      if (img.style.height === '150px') {
+        img.style.height = '220px';
+      }
+    });
+  }
+  // Run immediately and continuously
+  setInterval(fixImages, 100);
+  // Also run on key events
+  document.addEventListener('DOMContentLoaded', fixImages);
+  window.addEventListener('load', fixImages);
+})();
 </script>
 <style>
 /* FORCE override - highest priority */
