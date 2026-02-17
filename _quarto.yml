@@ -39,44 +39,6 @@ format:
 editor: visual
 
 header-includes: |
-  <style>
-  /* COMPLETELY REMOVE height constraints - let images scale naturally */
-  .thumbnail-image, .card-img-top, img.card-img, .listing-image {
-    height: auto !important;
-    max-height: none !important;
-    min-height: 0 !important;
-  }
-  /* Dark mode */
-  :root {
-    --bs-body-bg: #0d1117;
-    --bs-body-color: #e6edf3;
-  }
-  body {
-    background-color: #0d1117 !important;
-    color: #e6edf3 !important;
-  }
-  .quarto-post, .card, .quarto-grid-item {
-    background-color: #161b22 !important;
-  }
-  </style>
-  /* FORCE override - highest priority */
-  .thumbnail-image {
-    height: 220px !important;
-    min-height: 220px !important;
-  }
-  /* Dark mode */
-  :root {
-    --bs-body-bg: #0d1117;
-    --bs-body-color: #e6edf3;
-  }
-  body {
-    background-color: #0d1117 !important;
-    color: #e6edf3 !important;
-  }
-  .quarto-post, .card, .quarto-grid-item {
-    background-color: #161b22 !important;
-  }
-  </style>
   <!-- Google Consent Mode v2 - musi być PRZED GTM -->
   <script>
     window.dataLayer = window.dataLayer || [];
