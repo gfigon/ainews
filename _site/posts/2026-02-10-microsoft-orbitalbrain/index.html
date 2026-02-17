@@ -69,24 +69,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-// Fix thumbnail heights - use CSS custom property to override
-(function() {
-  function fixHeights() {
-    document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-      // Use setProperty to add !important
-      img.style.setProperty('height', '220px', 'important');
-    });
-  }
-  // Run immediately and keep trying
-  fixHeights();
-  setInterval(fixHeights, 200);
-  window.addEventListener('load', fixHeights);
-})();
-</script>
 <style>
-/* Force height */
-.thumbnail-image { height: 220px !important; }
+/* COMPLETELY REMOVE height constraints - let images scale naturally */
+.thumbnail-image, .card-img-top, img.card-img, .listing-image {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+}
 /* Dark mode */
 :root {
   --bs-body-bg: #0d1117;

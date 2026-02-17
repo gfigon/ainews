@@ -19,6 +19,7 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
+  image-height: 250px
 page-layout: full
 title-block-banner: "social-share.png"
 title-block-banner-alt: "AI technology abstract visualization"

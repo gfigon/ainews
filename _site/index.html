@@ -104,24 +104,13 @@ ul.task-list li input[type="checkbox"] {
         background: social-share.png;
       }
 </style>
-<script>
-// Fix thumbnail heights - use CSS custom property to override
-(function() {
-  function fixHeights() {
-    document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-      // Use setProperty to add !important
-      img.style.setProperty('height', '220px', 'important');
-    });
-  }
-  // Run immediately and keep trying
-  fixHeights();
-  setInterval(fixHeights, 200);
-  window.addEventListener('load', fixHeights);
-})();
-</script>
 <style>
-/* Force height */
-.thumbnail-image { height: 220px !important; }
+/* COMPLETELY REMOVE height constraints - let images scale naturally */
+.thumbnail-image, .card-img-top, img.card-img, .listing-image {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+}
 /* Dark mode */
 :root {
   --bs-body-bg: #0d1117;
@@ -325,7 +314,7 @@ window.Quarto = {
 <a href="./posts/2026-02-17-microsoft-mai-1-ai-independence/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-17-microsoft-mai-1-ai-independence/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-17-microsoft-mai-1-ai-independence/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -358,7 +347,7 @@ Feb 17, 2026
 <a href="./posts/2026-02-17-india-ai-impact-summit/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-17-india-ai-impact-summit/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-17-india-ai-impact-summit/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -391,7 +380,7 @@ Feb 17, 2026
 <a href="./posts/2026-02-17-grok-eu-privacy-probe/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-17-grok-eu-privacy-probe/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-17-grok-eu-privacy-probe/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -424,7 +413,7 @@ Feb 17, 2026
 <a href="./posts/2026-02-17-qwen3-5-397b-moe/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-17-qwen3-5-397b-moe/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-17-qwen3-5-397b-moe/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -457,7 +446,7 @@ Feb 17, 2026
 <a href="./posts/2026-02-17-saaspocalypse-ai-agent-revolution/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-17-saaspocalypse-ai-agent-revolution/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-17-saaspocalypse-ai-agent-revolution/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -490,7 +479,7 @@ Feb 17, 2026
 <a href="./posts/2026-02-16-agent-delegation-framework/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-agent-delegation-framework/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-agent-delegation-framework/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -523,7 +512,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-india-ai-impact-summit-2026/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-india-ai-impact-summit-2026/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-india-ai-impact-summit-2026/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -556,7 +545,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-anthropic-380-billion-valuation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-anthropic-380-billion-valuation/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-anthropic-380-billion-valuation/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -589,7 +578,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-kani-tts-2/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-kani-tts-2/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-kani-tts-2/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -622,7 +611,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-openclaw-foundation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-openclaw-foundation/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-openclaw-foundation/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -655,7 +644,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-exa-instant-neural-search/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-exa-instant-neural-search/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-exa-instant-neural-search/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -688,7 +677,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-16-nvidia-blackwell-volume-production/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-16-nvidia-blackwell-volume-production/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-16-nvidia-blackwell-volume-production/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -721,7 +710,7 @@ Feb 16, 2026
 <a href="./posts/2026-02-14-bytedance-doubao-2/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-14-bytedance-doubao-2/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-14-bytedance-doubao-2/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -754,7 +743,7 @@ Feb 14, 2026
 <a href="./posts/2026-02-14-gemini-3-deep-think-reasoning/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-14-gemini-3-deep-think-reasoning/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-14-gemini-3-deep-think-reasoning/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -787,7 +776,7 @@ Feb 14, 2026
 <a href="./posts/2026-02-14-xai-interplanetary-ambitions/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-14-xai-interplanetary-ambitions/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-14-xai-interplanetary-ambitions/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -823,7 +812,7 @@ Feb 14, 2026
 <a href="./posts/2026-02-13-openenv-agent-evaluation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-13-openenv-agent-evaluation/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-13-openenv-agent-evaluation/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -856,7 +845,7 @@ Feb 13, 2026
 <a href="./posts/2026-02-13-minimax-m25-release/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-13-minimax-m25-release/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-13-minimax-m25-release/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -892,7 +881,7 @@ Feb 13, 2026
 <a href="./posts/2026-02-13-huggingface-transformers-v5-release/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2026-02-13-huggingface-transformers-v5-release/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2026-02-13-huggingface-transformers-v5-release/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -925,7 +914,7 @@ Feb 13, 2026
 <a href="./posts/2026-02-12-zhipu-glm5-release/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-12-zhipu-glm5-release/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-12-zhipu-glm5-release/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -961,7 +950,7 @@ Feb 12, 2026
 <a href="./posts/2026-02-12-nvidia-kvtc-cache-compression/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-12-nvidia-kvtc-cache-compression/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-12-nvidia-kvtc-cache-compression/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -994,7 +983,7 @@ Feb 12, 2026
 <a href="./posts/2026-02-11-xai-founding-team-exodus/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-11-xai-founding-team-exodus/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-11-xai-founding-team-exodus/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1024,7 +1013,7 @@ Feb 11, 2026
 <a href="./posts/2026-02-11-transformers-js-v4-webgpu/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-11-transformers-js-v4-webgpu/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-11-transformers-js-v4-webgpu/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1054,7 +1043,7 @@ Feb 11, 2026
 <a href="./posts/2026-02-11-agent-world-model-synthetic-environments/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-11-agent-world-model-synthetic-environments/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-11-agent-world-model-synthetic-environments/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1084,7 +1073,7 @@ Feb 11, 2026
 <a href="./posts/2026-02-10-oat-robotics-tokenizer/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-10-oat-robotics-tokenizer/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-10-oat-robotics-tokenizer/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1117,7 +1106,7 @@ Feb 10, 2026
 <a href="./posts/2026-02-10-microsoft-orbitalbrain/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-10-microsoft-orbitalbrain/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-10-microsoft-orbitalbrain/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1150,7 +1139,7 @@ Feb 10, 2026
 <a href="./posts/2026-02-10-bytedance-protenix-v1/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-10-bytedance-protenix-v1/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-10-bytedance-protenix-v1/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1180,7 +1169,7 @@ Feb 10, 2026
 <a href="./posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-09-coding-agent-wars-gpt-5-3-vs-claude-4-6/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1216,7 +1205,7 @@ Feb 9, 2026
 <a href="./posts/2026-02-08-grok-4-2-release-elon-musk-xai/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-08-grok-4-2-release-elon-musk-xai/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-08-grok-4-2-release-elon-musk-xai/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1249,7 +1238,7 @@ Feb 8, 2026
 <a href="./posts/2026-02-08-google-paperbanana-agentic-diagrams/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-08-google-paperbanana-agentic-diagrams/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-08-google-paperbanana-agentic-diagrams/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1282,7 +1271,7 @@ Feb 8, 2026
 <a href="./posts/2026-02-08-waymo-world-model-genie-3/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-08-waymo-world-model-genie-3/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-08-waymo-world-model-genie-3/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1315,7 +1304,7 @@ Feb 8, 2026
 <a href="./posts/2026-02-08-nvidia-c-radiov4-vision-backbone/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-08-nvidia-c-radiov4-vision-backbone/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1348,7 +1337,7 @@ Feb 8, 2026
 <a href="./posts/2026-02-07-context-management-ai-agents/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-07-context-management-ai-agents/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-07-context-management-ai-agents/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1381,7 +1370,7 @@ Feb 7, 2026
 <a href="./posts/2026-02-07-claude-opus-4-6-release/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-07-claude-opus-4-6-release/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-07-claude-opus-4-6-release/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1414,7 +1403,7 @@ Feb 7, 2026
 <a href="./posts/2026-02-07-sygra-studio-visual-synthetic-data/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-07-sygra-studio-visual-synthetic-data/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-07-sygra-studio-visual-synthetic-data/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1447,7 +1436,7 @@ Feb 7, 2026
 <a href="./posts/2026-02-06-era-of-agentic-workflows/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-06-era-of-agentic-workflows/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-06-era-of-agentic-workflows/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1480,7 +1469,7 @@ Feb 6, 2026
 <a href="./posts/2026-02-06-daily-ai-digest/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/2026-02-06-daily-ai-digest/image.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2026-02-06-daily-ai-digest/image.svg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
