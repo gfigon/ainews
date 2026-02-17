@@ -3,15 +3,15 @@ project:
   output-dir: _site
 
 website:
-  title: ""
+  title: "Robo AI Digest"
   description: "Automated daily briefings on the latest AI research and industry breakthroughs."
   site-url: "https://roboaidigest.com"
+  open-graph: true
   twitter-card:
     site: "@roboaidigest"
     creator: "@roboaidigest"
     card-style: summary_large_image
     image: "https://roboaidigest.com/social-share.png"
-  open-graph: true
   navbar:
     title: "Robo AI Digest"
     left:
