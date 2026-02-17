@@ -50,10 +50,21 @@ body {
   box-shadow: 0 12px 24px rgba(0,0,0,0.5);
 }
 
-.listing-item img, .thumbnail-image, .card-img-top {
-  border-radius: 0 !important;
+/* Thumbnail specific fix - NO !IMPORTANT on properties Quarto manages via inline style */
+.quarto-listing-container-grid .thumbnail-image {
+  height: 250px; /* Try without !important first */
+  min-height: 250px;
+  width: 100%;
   object-fit: cover !important;
   border-bottom: 1px solid #30363d;
+  background-color: #161b22; /* Same as card background */
+  color: transparent; /* Hide broken image alt text */
+}
+
+/* Extra safety for Bootstrap images */
+.card-img-top, .card-img {
+  height: 250px !important;
+  background-color: #161b22 !important;
 }
 
 .listing-title {
