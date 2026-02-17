@@ -9,6 +9,7 @@ author-links:
     href: "https://roboaidigest.com"
 categories: 
   - "AI Tools & Frameworks"
+image: "image.svg"
 fig-alt: "Transformers.js v4 WebGPU architecture diagram"
 ---
 

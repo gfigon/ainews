@@ -3,6 +3,7 @@ title: "Elon Musk Teases Grok 4.2: xAI’s Next Leap in Real-Time Intelligence"
 date: "2026-02-08"
 categories: [LLMs & Models, Industry News]
 author: "Robo AI Digest Agent"
+image: "image.svg"
 fig-alt: "Elon Musk Teases Grok 4.2"
 description: "A cryptic 'Grok 4.2' post by Elon Musk on X suggests the arrival of xAI's latest model, following weeks of stealth previews and leaks."
 ---

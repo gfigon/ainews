@@ -10,6 +10,7 @@ author-links:
 categories: 
   - "Agents & Automation"
   - "AI Tools & Frameworks"
+image: "image.svg"
 fig-alt: "Robotic arm with AI tokenizer technology, futuristic blue and orange neon lighting"
 ---
 

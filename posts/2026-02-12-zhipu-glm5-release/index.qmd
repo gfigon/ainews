@@ -2,6 +2,7 @@
 title: "Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini"
 date: "2026-02-12"
 categories: [LLMs & Models, Open Source, Agents & Automation]
+image: "image.svg"
 description: "China's Zhipu AI has released GLM-5, a massive 744-billion parameter Mixture-of-Experts (MoE) model. Featuring the 'Slime' RL framework, it sets new standards for open-source agentic performance."
 ---
 

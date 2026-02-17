@@ -3,6 +3,7 @@ title: "Kani-TTS-2: Open-Source TTS Running on Consumer GPUs with 3GB VRAM"
 description: "The new 400M parameter model from nineninesix.ai brings high-fidelity speech synthesis to edge devices with zero-shot voice cloning."
 date: "2026-02-16"
 categories: [AI Tools & Frameworks, Open Source]
+image: "image.svg"
 slug: "kani-tts-2"
 ---
 
