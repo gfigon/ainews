@@ -196,11 +196,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link active" data-scroll-target="#the-big-picture">The Big Picture</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
   <li><a href="#the-technical-core" id="toc-the-technical-core" class="nav-link" data-scroll-target="#the-technical-core">The Technical Core</a></li>
   <li><a href="#beyond-structure-prediction" id="toc-beyond-structure-prediction" class="nav-link" data-scroll-target="#beyond-structure-prediction">Beyond Structure Prediction</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,11 +216,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="the-big-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-big-picture">The Big Picture</h2>
+<section id="section" class="level1">
+<h1></h1>
 <p>Can an open-source model truly match AlphaFold3’s performance? <strong>ByteDance says yes.</strong> Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.</p>
 <p>This isn’t just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics.</p>
-</section>
 <section id="why-it-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
 <p>AlphaFold3 revolutionized biomolecular structure prediction but remained largely closed. Protenix-v1 democratizes this capability:</p>
@@ -259,6 +260,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The model is available at <a href="https://protenix-server.com/login" rel="nofollow">protenix-server.com</a>, with the full stack on <a href="https://github.com/bytedance/Protenix" rel="nofollow">GitHub</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

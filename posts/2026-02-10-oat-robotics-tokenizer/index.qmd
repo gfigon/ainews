@@ -13,7 +13,7 @@ categories:
 fig-alt: "Robotic arm with AI tokenizer technology, futuristic blue and orange neon lighting"
 ---
 
-## The Tokenization Wall
+#
 
 Large language models predict the next word. Shouldn't they predict the next robot move? The challenge: **continuous robot movements don't tokenize easily**.
 

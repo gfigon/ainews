@@ -7,7 +7,7 @@ categories:
   - "AI Tools & Frameworks"
 ---
 
-# India AI Impact Summit 2026: World's Largest AI Gathering Kicks Off in New Delhi
+
 
 India kicked off one of the world's largest artificial intelligence summits on February 16, 2026, with Prime Minister Narendra Modi seeking to clear a path for India in the heated race to develop frontier AI models. The five-day **India AI Impact Summit** at Bharat Mandapam in New Delhi brings together global tech leaders, policymakers, and researchers for what could be the largest gathering of AI luminaries to date.
 

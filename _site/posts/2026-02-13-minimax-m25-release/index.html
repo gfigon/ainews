@@ -189,9 +189,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sota-performance-in-agentic-tasks" id="toc-sota-performance-in-agentic-tasks" class="nav-link active" data-scroll-target="#sota-performance-in-agentic-tasks">SOTA Performance in Agentic Tasks</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#too-cheap-to-meter" id="toc-too-cheap-to-meter" class="nav-link" data-scroll-target="#too-cheap-to-meter">“Too Cheap to Meter”</a></li>
   <li><a href="#forge-the-engine-behind-the-progress" id="toc-forge-the-engine-behind-the-progress" class="nav-link" data-scroll-target="#forge-the-engine-behind-the-progress">Forge: The Engine Behind the Progress</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -206,10 +208,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>MiniMax has officially released <strong>MiniMax-M2.5</strong>, their most capable model to date, specifically engineered to power complex autonomous agents while drastically reducing operational costs. Trained via massive reinforcement learning (RL) scaling across hundreds of thousands of real-world environments, M2.5 aims to deliver “intelligence too cheap to meter.”</p>
-<section id="sota-performance-in-agentic-tasks" class="level3">
-<h3 class="anchored" data-anchor-id="sota-performance-in-agentic-tasks">SOTA Performance in Agentic Tasks</h3>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p>MiniMax-M2.5 sets new benchmarks across coding and browse-based agentic workflows: - <strong>SWE-Bench Verified</strong>: Achieved <strong>80.2%</strong>, outperforming Claude Opus 4.6 on several scaffolding frameworks (Droid, OpenCode). - <strong>Coding Architecture</strong>: The model now actively plans like a software architect, writing specs and decomposing tasks before producing code across 10+ languages. - <strong>Agent Efficiency</strong>: Evaluation on benchmarks like <strong>BrowseComp</strong> and <strong>RISE</strong> shows M2.5 completes complex research tasks with 20% fewer interaction rounds compared to its predecessor, M2.1.</p>
-</section>
 <section id="too-cheap-to-meter" class="level3">
 <h3 class="anchored" data-anchor-id="too-cheap-to-meter">“Too Cheap to Meter”</h3>
 <p>The most striking aspect of the M2.5 release is its economic disruption: - <strong>Speed</strong>: Served natively at <strong>100 tokens per second</strong> (Lightning version), nearly double the speed of many existing frontier models. - <strong>Cost</strong>: Continuous operation costs just <strong>$1 per hour</strong> at 100 TPS. In task-based pricing, M2.5 is roughly <strong>1/10th to 1/20th the cost</strong> of competitors like GPT-5 or Opus 4.6. - <strong>Efficiency</strong>: Due to better task decomposition, M2.5 completed the SWE-Bench evaluation <strong>37% faster</strong> than M2.1.</p>
@@ -221,6 +222,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Source: <a href="https://www.minimax.io/news/minimax-m25" rel="nofollow">MiniMax News</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

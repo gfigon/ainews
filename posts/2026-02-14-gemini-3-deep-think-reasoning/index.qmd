@@ -7,7 +7,7 @@ description: "Google releases Gemini 3 Deep Think with breakthrough reasoning, p
 
 Google has unveiled **Gemini 3 Deep Think**, a major update to its Gemini AI family that focuses on advanced reasoning capabilities. The new model demonstrates significantly improved performance in mathematics, coding, and scientific problem-solving—areas where AI systems have historically struggled.
 
-### What Makes Deep Think Different
+##
 
 Unlike earlier versions of Gemini that excelled at conversational tasks and content generation, Deep Think is specifically engineered for step-by-step logical reasoning. The model breaks down complex problems methodically rather than jumping to conclusions, which is critical for tasks in advanced mathematics and programming where a single error can cascade through an entire solution.
 

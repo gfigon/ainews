@@ -7,7 +7,7 @@ categories:
   - "Ethics & Regulation"
 ---
 
-# Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI's Deepfake Crisis
+
 
 Ireland's Data Protection Commission (DPC) has launched a major investigation into xAI's Grok chatbot, examining whether the AI tool violated the European Union's General Data Protection Regulation (GDPR). The investigation marks another escalation in the EU's crackdown on AI-generated deepfake content.
 

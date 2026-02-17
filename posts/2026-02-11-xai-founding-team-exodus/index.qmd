@@ -12,7 +12,7 @@ categories:
 fig-alt: "xAI founding team departure timeline illustration"
 ---
 
-## The Big Picture
+#
 
 Elon Musk's xAI is experiencing its most significant talent exodus since the company's founding. **Two more co-founders — Jimmy Ba and Tony Wu — departed this week**, bringing the total number of founding team members who have left to six out of twelve.
 

@@ -7,7 +7,7 @@ description: "China's Zhipu AI has released GLM-5, a massive 744-billion paramet
 
 ![Zhipu GLM-5: A new era for open-source agentic models.](cover.jpg)
 
-## The Rise of GLM-5
+#
 
 In a significant move for the open-source AI ecosystem, **Zhipu AI** (rebranding as **Z.ai**) has officially released **GLM-5**, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic's Claude Opus 4.5 and Google's Gemini 3 Pro.
 

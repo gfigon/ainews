@@ -7,7 +7,7 @@ description: "Exa AI launches Instant, a groundbreaking neural search engine del
 
 Exa AI has unveiled **Exa Instant**, a neural search engine purpose-built for real-time agentic AI workflows. With latency under 200 milliseconds, the new offering addresses one of the most critical bottlenecks in deploying autonomous AI agents at scale.
 
-## The Search Bottleneck Problem
+#
 
 Modern AI agents increasingly rely on retrieval-augmented generation (RAG) and external knowledge retrieval to provide context-aware responses. However, traditional search infrastructure was never designed for the demands of real-time agentic workflows, where every millisecond counts.
 

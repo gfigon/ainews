@@ -7,7 +7,7 @@ tags: [LangChain, AI Agents, Context Management, Developer Tools]
 
 As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: **context rot**. This occurs when relevant information is buried or lost as the model's memory fills up. LangChain has recently shared insights into how their **Deep Agents SDK** manages this challenge.
 
-### Advanced Compression Strategies
+##
 
 The Deep Agents harness uses three primary techniques to maintain "agentic" focus without breaking context limits:
 

@@ -7,7 +7,7 @@ tags: [Anthropic, Claude, AI Agents, LLMs]
 
 Anthropic has officially launched **Claude Opus 4.6**, a significant upgrade designed specifically for complex, multi-step "agentic" tasks. Moving beyond simple chat interactions, the new model introduces features that allow it to plan, act, and revise over longer sessions with higher autonomy.
 
-### Key Innovations in Opus 4.6
+##
 
 *   **1M Token Context Window (Beta):** The first Opus-class model to support up to 1 million input tokens, enabling the ingestion of massive codebases and long-form documents.
 *   **Adaptive Reasoning & Effort Controls:** A new `/effort` parameter allows developers to choose between four levels (low, medium, high, max). This helps balance reasoning depth against speed and cost, making it easier to optimize for different types of tasks.

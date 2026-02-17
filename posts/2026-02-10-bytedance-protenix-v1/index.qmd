@@ -12,7 +12,7 @@ categories:
 fig-alt: "ByteDance Protenix-v1 protein structure visualization"
 ---
 
-## The Big Picture
+#
 
 Can an open-source model truly match AlphaFold3's performance? **ByteDance says yes.** Their new Protenix-v1 model, released under Apache 2.0, achieves AF3-level accuracy across proteins, DNA, RNA, and ligands — while keeping everything open for research and production use.
 

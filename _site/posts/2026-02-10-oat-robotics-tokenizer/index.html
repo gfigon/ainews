@@ -196,7 +196,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-tokenization-wall" id="toc-the-tokenization-wall" class="nav-link active" data-scroll-target="#the-tokenization-wall">The Tokenization Wall</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#enter-ordered-action-tokenization-oat" id="toc-enter-ordered-action-tokenization-oat" class="nav-link" data-scroll-target="#enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</a>
   <ul class="collapse">
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
@@ -204,6 +205,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#benchmark-results" id="toc-benchmark-results" class="nav-link" data-scroll-target="#benchmark-results">Benchmark Results</a></li>
   <li><a href="#the-anytime-revolution" id="toc-the-anytime-revolution" class="nav-link" data-scroll-target="#the-anytime-revolution">The “Anytime” Revolution</a></li>
   <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -217,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="the-tokenization-wall" class="level2">
-<h2 class="anchored" data-anchor-id="the-tokenization-wall">The Tokenization Wall</h2>
+<section id="section" class="level1">
+<h1></h1>
 <p>Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: <strong>continuous robot movements don’t tokenize easily</strong>.</p>
 <p>Previous approaches failed: - <strong>Binning</strong>: Creates massive, slow sequences - <strong>FAST</strong>: Fast but unreliable — small errors halt robots - <strong>Learned Latent Tokenizers</strong>: Safe but unordered, losing temporal structure</p>
 <p>Researchers from <strong>Harvard and Stanford</strong> identified three non-negotiables for robot tokenization:</p>
@@ -227,7 +229,6 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Total Decodability</strong> — Every sequence maps to a valid move</li>
 <li><strong>Causal Ordering</strong> — Left-to-right structure, global first, details later</li>
 </ol>
-</section>
 <section id="enter-ordered-action-tokenization-oat" class="level2">
 <h2 class="anchored" data-anchor-id="enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</h2>
 <p>OAT uses a transformer encoder with <strong>register tokens</strong> to summarize action chunks. The key innovation: <strong>Nested Dropout</strong> forces the model to learn important patterns first.</p>
@@ -300,6 +301,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The code and paper are available on <a href="https://github.com/Chaoqi-LIU/oat" rel="nofollow">GitHub</a> and <a href="https://arxiv.org/abs/2602.04215" rel="nofollow">arXiv</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -196,11 +196,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link active" data-scroll-target="#the-big-picture">The Big Picture</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
   <li><a href="#the-technical-core" id="toc-the-technical-core" class="nav-link" data-scroll-target="#the-technical-core">The Technical Core</a></li>
   <li><a href="#new-model-support" id="toc-new-model-support" class="nav-link" data-scroll-target="#new-model-support">New Model Support</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,11 +216,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="the-big-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-big-picture">The Big Picture</h2>
+<section id="section" class="level1">
+<h1></h1>
 <p>Running state-of-the-art AI models locally just got a major upgrade. <strong>Hugging Face has released Transformers.js v4</strong>, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.</p>
 <p>After nearly a year of development, this major release represents the most significant overhaul of the library since its inception. The new architecture leverages ONNX Runtime’s WebGPU support, enabling hardware-accelerated inference across browsers, Node.js, and Deno from the same codebase.</p>
-</section>
 <section id="why-it-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
 <p>The shift to WebGPU isn’t just technical jargon — it fundamentally changes what’s possible with client-side AI:</p>
@@ -253,6 +254,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Install the preview with <code>npm i @huggingface/transformers@next</code> and explore examples at the <a href="https://github.com/xenova/transformers.js" rel="nofollow">Transformers.js repository</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -196,12 +196,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link active" data-scroll-target="#the-big-picture">The Big Picture</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
   <li><a href="#the-technical-core" id="toc-the-technical-core" class="nav-link" data-scroll-target="#the-technical-core">The Technical Core</a></li>
   <li><a href="#experimental-results" id="toc-experimental-results" class="nav-link" data-scroll-target="#experimental-results">Experimental Results</a></li>
   <li><a href="#implications-for-agent-development" id="toc-implications-for-agent-development" class="nav-link" data-scroll-target="#implications-for-agent-development">Implications for Agent Development</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -215,11 +217,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="the-big-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-big-picture">The Big Picture</h2>
+<section id="section" class="level1">
+<h1></h1>
 <p>Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. <strong>Snowflake Labs introduces Agent World Model (AWM)</strong>, a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.</p>
 <p>Published on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency.</p>
-</section>
 <section id="why-it-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
 <p>Current approaches to agent training face a critical constraint:</p>
@@ -284,6 +285,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The work marks a significant step toward scalable, reproducible agent training methodologies.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

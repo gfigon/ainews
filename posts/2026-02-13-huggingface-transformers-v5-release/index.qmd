@@ -7,7 +7,7 @@ description: "Transformers.js v5 delivers groundbreaking WebGPU acceleration, en
 
 Hugging Face has released **Transformers.js v5**, a major rewrite of their JavaScript ML library that brings frontier AI capabilities directly to web browsers through WebGPU acceleration.
 
-## WebGPU: The Game Changer
+#
 
 The standout feature of v5 is native WebGPU support, which delivers:
 

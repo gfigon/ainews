@@ -8,7 +8,7 @@ description: "NVIDIA researchers introduce KVTC, a lightweight transform coder t
 
 Solving the memory bottleneck in Large Language Model (LLM) inference has taken a significant leap forward. NVIDIA researchers have unveiled **KVTC (Key-Value Cache Transform Coding)**, a lightweight pipeline that compresses KV caches by **20x to 40x**, dramatically reducing the memory footprint required for long-context reasoning.
 
-### The Memory Bottleneck
+##
 
 In modern Transformers, the Key-Value (KV) cache grows proportionally with sequence length and model size, often occupying multiple gigabytes. This creates a dilemma: keeping the cache consumes scarce GPU memory, while discarding it forces expensive recomputation during multi-turn interactions. KVTC aims to solve this by making on-chip retention and off-chip offloading significantly more efficient.
 

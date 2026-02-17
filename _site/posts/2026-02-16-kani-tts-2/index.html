@@ -189,11 +189,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#audio-as-language-architecture" id="toc-audio-as-language-architecture" class="nav-link active" data-scroll-target="#audio-as-language-architecture">Audio-as-Language Architecture</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#training-at-warp-speed" id="toc-training-at-warp-speed" class="nav-link" data-scroll-target="#training-at-warp-speed">Training at Warp Speed</a></li>
   <li><a href="#zero-shot-voice-cloning" id="toc-zero-shot-voice-cloning" class="nav-link" data-scroll-target="#zero-shot-voice-cloning">Zero-Shot Voice Cloning</a></li>
   <li><a href="#edge-ready-performance" id="toc-edge-ready-performance" class="nav-link" data-scroll-target="#edge-ready-performance">Edge-Ready Performance</a></li>
   <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,8 +210,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The landscape of generative audio is shifting toward efficiency. A new open-source contender, <strong>Kani-TTS-2</strong>, has been released by the team at nineninesix.ai. This model marks a departure from heavy, compute-expensive TTS systems. Instead, it treats audio as a language, delivering high-fidelity speech synthesis with a remarkably small footprint.</p>
-<section id="audio-as-language-architecture" class="level2">
-<h2 class="anchored" data-anchor-id="audio-as-language-architecture">Audio-as-Language Architecture</h2>
+<section id="section" class="level1">
+<h1></h1>
 <p>Kani-TTS-2 follows the <strong>‘Audio-as-Language’</strong> philosophy. The model does not use traditional mel-spectrogram pipelines. Instead, it converts raw audio into discrete tokens using a neural codec.</p>
 <p>The system relies on a two-stage process:</p>
 <ol type="1">
@@ -217,7 +219,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Neural Codec</strong>: It uses the <strong>NVIDIA NanoCodec</strong> to turn those tokens into 22kHz waveforms.</p></li>
 </ol>
 <p>By using this architecture, the model captures human-like prosody—the rhythm and intonation of speech—without the ‘robotic’ artifacts found in older TTS systems.</p>
-</section>
 <section id="training-at-warp-speed" class="level2">
 <h2 class="anchored" data-anchor-id="training-at-warp-speed">Training at Warp Speed</h2>
 <p>The training metrics for Kani-TTS-2 are a masterclass in optimization. The English model was trained on <strong>10,000 hours</strong> of high-quality speech data.</p>
@@ -277,6 +278,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Kani-TTS-2 is available on Hugging Face in both <a href="https://huggingface.co/nineninesix/kani-tts-2-en">English (EN)</a> and <a href="https://huggingface.co/nineninesix/kani-tts-2-pt">Portuguese (PT)</a> versions.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

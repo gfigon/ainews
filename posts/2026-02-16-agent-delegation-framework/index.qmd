@@ -8,7 +8,7 @@ slug: "agent-delegation-framework"
 
 The AI industry is currently obsessed with 'agents'—autonomous programs that do more than just chat. However, most current multi-agent systems rely on brittle, hard-coded heuristics that fail when the environment changes. Google DeepMind researchers have proposed a new solution: a framework that brings human-like organizational principles to AI delegation.
 
-## Beyond Simple Task-Splitting
+#
 
 For the 'agentic web' to scale, agents must move beyond simple task-splitting and adopt principles such as authority, responsibility, and accountability. The research team argues that standard software "subroutines" are fundamentally different from intelligent delegation—a process that involves risk assessment, capability matching, and establishing trust.
 

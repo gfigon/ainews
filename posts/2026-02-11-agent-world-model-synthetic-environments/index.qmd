@@ -12,7 +12,7 @@ categories:
 fig-alt: "Agent World Model synthetic environment architecture"
 ---
 
-## The Big Picture
+#
 
 Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. **Snowflake Labs introduces Agent World Model (AWM)**, a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.
 

@@ -9,7 +9,7 @@ fig-alt: "NVIDIA C-RADIOv4"
 
 NVIDIA has announced the release of **C-RADIOv4**, a new "agglomerative" vision backbone that unifies three powerful architectures—**SigLIP2**, **DINOv3**, and **SAM3**—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.
 
-### The Power of Agglomerative Distillation
+##
 
 The core of C-RADIOv4's success lies in its distillation process. By training a single Vision Transformer (ViT) student to match the dense feature maps and summary tokens of heterogeneous teacher models, NVIDIA has created a backbone that captures the best of three worlds:
 

@@ -183,9 +183,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-challenge-of-real-world-tool-use" id="toc-the-challenge-of-real-world-tool-use" class="nav-link active" data-scroll-target="#the-challenge-of-real-world-tool-use">The Challenge of Real-World Tool Use</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#why-openenv-matters" id="toc-why-openenv-matters" class="nav-link" data-scroll-target="#why-openenv-matters">Why OpenEnv Matters</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -201,15 +203,14 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The transition of AI agents from controlled demos to production environments remains one of the most significant challenges in the industry. While LLMs excel at individual tasks, their reliability often collapses when faced with multi-step reasoning, partial information, and real-world API constraints.</p>
 <p>Enter <strong>OpenEnv</strong>, an open-source framework launched through a collaboration between Meta and Hugging Face. OpenEnv aims to bridge the gap between research and reality by providing a standardized, “gym-like” environment for evaluating agents against real systems rather than simulations.</p>
-<section id="the-challenge-of-real-world-tool-use" class="level3">
-<h3 class="anchored" data-anchor-id="the-challenge-of-real-world-tool-use">The Challenge of Real-World Tool Use</h3>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p>Recent benchmarks using OpenEnv’s <strong>Calendar Gym</strong>—a production-grade environment for calendar management—have surfaced critical bottlenecks in current agent capabilities:</p>
 <ol type="1">
 <li><strong>Multi-Step Reasoning Failure</strong>: Agents struggle to chain actions over long horizons. A task requiring listing, validating, and then modifying multiple events often leads to state-tracking errors.</li>
 <li><strong>The Ambiguity Gap</strong>: When tasks are phrased in natural language (“Schedule a sync with the dev team”) rather than explicit identifiers, success rates plummet from <strong>90% to roughly 40%</strong>.</li>
 <li><strong>Execution vs.&nbsp;Selection</strong>: Over half of observed errors stem from malformed tool arguments or incorrect ordering, even when the agent correctly identifies which tool to use.</li>
 </ol>
-</section>
 <section id="why-openenv-matters" class="level3">
 <h3 class="anchored" data-anchor-id="why-openenv-matters">Why OpenEnv Matters</h3>
 <p>OpenEnv adopts the familiar Gymnasium API (<code>reset</code>, <code>step</code>, <code>action</code>, <code>observation</code>) but applies it to real-world software stacks. It leverages the <strong>Model Context Protocol (MCP)</strong> to provide a consistent interface for tools, whether they are interacting with code repositories, browsers, or enterprise APIs.</p>
@@ -223,6 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Source: <a href="https://huggingface.co/blog/openenv-turing">Hugging Face Blog</a> (Nofollow)</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

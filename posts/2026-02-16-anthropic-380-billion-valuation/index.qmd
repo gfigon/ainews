@@ -7,7 +7,7 @@ categories:
   - "LLMs & Models"
 ---
 
-# Anthropic Hits $380 Billion Valuation in Record-Breaking Funding Round
+
 
 Anthropic has officially become one of the most valuable AI companies in the world after announcing a massive $30 billion Series G funding round on February 12, 2026, bringing its post-money valuation to a staggering **$380 billion**. This places Anthropic second only to OpenAI in the AI startup hierarchy, cementing its position as a serious competitor in the race to build the most capable and safe AI systems.
 

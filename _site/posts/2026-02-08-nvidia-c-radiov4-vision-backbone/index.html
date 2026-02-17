@@ -183,10 +183,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-power-of-agglomerative-distillation" id="toc-the-power-of-agglomerative-distillation" class="nav-link active" data-scroll-target="#the-power-of-agglomerative-distillation">The Power of Agglomerative Distillation</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#breakthrough-in-resolution-robustness" id="toc-breakthrough-in-resolution-robustness" class="nav-link" data-scroll-target="#breakthrough-in-resolution-robustness">Breakthrough in Resolution Robustness</a></li>
   <li><a href="#solving-the-artifact-problem" id="toc-solving-the-artifact-problem" class="nav-link" data-scroll-target="#solving-the-artifact-problem">Solving the “Artifact” Problem</a></li>
   <li><a href="#deployment-and-accessibility" id="toc-deployment-and-accessibility" class="nav-link" data-scroll-target="#deployment-and-accessibility">Deployment and Accessibility</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -202,15 +204,14 @@ ul.task-list li input[type="checkbox"] {
 
 <p><img src="image.jpg" class="img-fluid"></p>
 <p>NVIDIA has announced the release of <strong>C-RADIOv4</strong>, a new “agglomerative” vision backbone that unifies three powerful architectures—<strong>SigLIP2</strong>, <strong>DINOv3</strong>, and <strong>SAM3</strong>—into a single student model. This update represents a significant step forward in building versatile AI models that can handle classification, dense prediction, and segmentation at scale without needing specialized encoders for each task.</p>
-<section id="the-power-of-agglomerative-distillation" class="level3">
-<h3 class="anchored" data-anchor-id="the-power-of-agglomerative-distillation">The Power of Agglomerative Distillation</h3>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p>The core of C-RADIOv4’s success lies in its distillation process. By training a single Vision Transformer (ViT) student to match the dense feature maps and summary tokens of heterogeneous teacher models, NVIDIA has created a backbone that captures the best of three worlds:</p>
 <ul>
 <li><strong>SigLIP2-g-384</strong>: Provides superior image-text alignment for retrieval and classification.</li>
 <li><strong>DINOv3-7B</strong>: Offers high-quality self-supervised features for dense spatial tasks.</li>
 <li><strong>SAM3</strong>: Enables robust segmentation capabilities and drop-in compatibility with the latest Segment Anything decoders.</li>
 </ul>
-</section>
 <section id="breakthrough-in-resolution-robustness" class="level3">
 <h3 class="anchored" data-anchor-id="breakthrough-in-resolution-robustness">Breakthrough in Resolution Robustness</h3>
 <p>One of the most challenging aspects of vision models is maintaining performance across different input sizes. C-RADIOv4 introduces <strong>stochastic multi-resolution training</strong>, sampling inputs from 128px up to 1152px. Coupled with the <strong>FeatSharp</strong> upsampling technique, this ensures that the model remains accurate whether processing a small thumbnail or a high-resolution medical image.</p>
@@ -226,6 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://arxiv.org/abs/2601.17237" rel="nofollow">Technical Paper</a> | <a href="https://huggingface.co/nvidia/C-RADIOv4-H" rel="nofollow">Model on Hugging Face</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

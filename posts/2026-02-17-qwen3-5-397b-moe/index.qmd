@@ -8,7 +8,7 @@ slug: "qwen3-5-397b-moe"
 
 Alibaba's Qwen team has just released **Qwen3.5-397B**, their most ambitious open-weight model yet. This sparse Mixture-of-Experts (MoE) giant delivers 400B-class intelligence while activating only 17B parameters per token—a breakthrough in efficient large-scale AI.
 
-## The Architecture: Hybrid Efficiency
+#
 
 Qwen3.5 doesn't follow the standard Transformer path. Instead, it combines two powerful techniques:
 

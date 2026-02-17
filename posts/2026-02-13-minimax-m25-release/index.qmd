@@ -7,7 +7,7 @@ description: "MiniMax releases M2.5, a SOTA model optimized for agentic workflow
 
 MiniMax has officially released **MiniMax-M2.5**, their most capable model to date, specifically engineered to power complex autonomous agents while drastically reducing operational costs. Trained via massive reinforcement learning (RL) scaling across hundreds of thousands of real-world environments, M2.5 aims to deliver "intelligence too cheap to meter."
 
-### SOTA Performance in Agentic Tasks
+##
 
 MiniMax-M2.5 sets new benchmarks across coding and browse-based agentic workflows:
 - **SWE-Bench Verified**: Achieved **80.2%**, outperforming Claude Opus 4.6 on several scaffolding frameworks (Droid, OpenCode).

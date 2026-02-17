@@ -183,8 +183,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#advanced-compression-strategies" id="toc-advanced-compression-strategies" class="nav-link active" data-scroll-target="#advanced-compression-strategies">Advanced Compression Strategies</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#testing-recoverability" id="toc-testing-recoverability" class="nav-link" data-scroll-target="#testing-recoverability">Testing Recoverability</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -199,15 +201,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>As AI agents tackle increasingly complex tasks that span thousands of turns and millions of tokens, they face a silent performance killer: <strong>context rot</strong>. This occurs when relevant information is buried or lost as the model’s memory fills up. LangChain has recently shared insights into how their <strong>Deep Agents SDK</strong> manages this challenge.</p>
-<section id="advanced-compression-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-compression-strategies">Advanced Compression Strategies</h3>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p>The Deep Agents harness uses three primary techniques to maintain “agentic” focus without breaking context limits:</p>
 <ol type="1">
 <li><strong>Tool Result Offloading:</strong> Large responses (over 20,000 tokens) are automatically saved to a filesystem. The agent receives a file path and a 10-line preview, allowing it to “search” or “re-read” the data only when needed.</li>
 <li><strong>Input Truncation:</strong> Redundant information, such as full file contents from previous write operations, is evicted from active memory once the context crosses 85% capacity.</li>
 <li><strong>Intelligent Summarization:</strong> When offloading isn’t enough, an LLM generates a structured summary of session intent, artifacts created, and next steps. This summary replaces the full history, while the original messages are archived on disk.</li>
 </ol>
-</section>
 <section id="testing-recoverability" class="level3">
 <h3 class="anchored" data-anchor-id="testing-recoverability">Testing Recoverability</h3>
 <p>A key takeaway for developers is that compression is only as good as its <strong>recoverability</strong>. LangChain emphasizes “targeted evals”—deliberately small tests like “needle-in-a-haystack” scenarios—to ensure that even after a history is summarized, the agent can still retrieve specific, archived details to finish the task.</p>
@@ -215,6 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Detailed technical breakdown available on the <a href="https://blog.langchain.dev/context-management-for-deepagents/" rel="nofollow">LangChain Blog</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

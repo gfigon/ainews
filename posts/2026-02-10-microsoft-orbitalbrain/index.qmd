@@ -13,7 +13,7 @@ categories:
 fig-alt: "Satellite constellation in space with Earth, ML technology visualization"
 ---
 
-## The Problem: Satellite Data Never Reaches Earth
+#
 
 Earth observation constellations capture **363,563 images per day** at maximum rate. But due to downlink constraints, only **11.7%** of that data ever reaches ground stations within 24 hours.
 

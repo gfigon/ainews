@@ -9,7 +9,7 @@ fig-alt: "Google's PaperBanana"
 
 A research collaboration between Google AI and Peking University has introduced **PaperBanana**, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.
 
-### Orchestrating 5 Specialized Agents
+##
 
 PaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:
 

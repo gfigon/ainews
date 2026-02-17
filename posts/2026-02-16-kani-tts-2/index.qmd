@@ -8,7 +8,7 @@ slug: "kani-tts-2"
 
 The landscape of generative audio is shifting toward efficiency. A new open-source contender, **Kani-TTS-2**, has been released by the team at nineninesix.ai. This model marks a departure from heavy, compute-expensive TTS systems. Instead, it treats audio as a language, delivering high-fidelity speech synthesis with a remarkably small footprint.
 
-## Audio-as-Language Architecture
+#
 
 Kani-TTS-2 follows the **'Audio-as-Language'** philosophy. The model does not use traditional mel-spectrogram pipelines. Instead, it converts raw audio into discrete tokens using a neural codec.
 

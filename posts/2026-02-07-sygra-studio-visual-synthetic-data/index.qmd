@@ -7,7 +7,7 @@ tags: [Hugging Face, Synthetic Data, SyGra, ServiceNow]
 
 ServiceNow AI has introduced **SyGra Studio**, a new interactive environment designed to transform synthetic data generation from a terminal-based chore into a visual craft. Built on the SyGra 2.0.0 platform, Studio provides a "no-code" canvas for designing complex data flows.
 
-### From YAML to Canvas
+##
 
 Previously, users had to manage synthetic data pipelines through complex YAML configurations and CLI commands. SyGra Studio replaces this with a drag-and-drop interface where developers can:
 

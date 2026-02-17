@@ -5,7 +5,7 @@ categories: [LLMs & Models, Agents & Automation, Research Highlights]
 fig-alt: "AI Frontier Daily"
 ---
 
-# AI Frontier Daily: Claude Opus 4.6, GPT-5.3-Codex and Multimodal Breakthroughs
+
 
 ## Claude Opus 4.6: Anthropic's Agentic Leap Forward
 

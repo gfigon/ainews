@@ -196,10 +196,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-memory-bottleneck" id="toc-the-memory-bottleneck" class="nav-link active" data-scroll-target="#the-memory-bottleneck">The Memory Bottleneck</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
+  <ul class="collapse">
   <li><a href="#how-kvtc-works" id="toc-how-kvtc-works" class="nav-link" data-scroll-target="#how-kvtc-works">How KVTC Works</a></li>
   <li><a href="#performance-and-accuracy" id="toc-performance-and-accuracy" class="nav-link" data-scroll-target="#performance-and-accuracy">Performance and Accuracy</a></li>
   <li><a href="#protecting-critical-tokens" id="toc-protecting-critical-tokens" class="nav-link" data-scroll-target="#protecting-critical-tokens">Protecting “Critical” Tokens</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,10 +216,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Solving the memory bottleneck in Large Language Model (LLM) inference has taken a significant leap forward. NVIDIA researchers have unveiled <strong>KVTC (Key-Value Cache Transform Coding)</strong>, a lightweight pipeline that compresses KV caches by <strong>20x to 40x</strong>, dramatically reducing the memory footprint required for long-context reasoning.</p>
-<section id="the-memory-bottleneck" class="level3">
-<h3 class="anchored" data-anchor-id="the-memory-bottleneck">The Memory Bottleneck</h3>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p>In modern Transformers, the Key-Value (KV) cache grows proportionally with sequence length and model size, often occupying multiple gigabytes. This creates a dilemma: keeping the cache consumes scarce GPU memory, while discarding it forces expensive recomputation during multi-turn interactions. KVTC aims to solve this by making on-chip retention and off-chip offloading significantly more efficient.</p>
-</section>
 <section id="how-kvtc-works" class="level3">
 <h3 class="anchored" data-anchor-id="how-kvtc-works">How KVTC Works</h3>
 <p>Inspired by classical media compression (like JPEG), the KVTC pipeline uses a multi-stage approach to shrink data without sacrificing intelligence:</p>
@@ -243,6 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Source: <a href="https://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/" rel="nofollow">MarkTechPost</a> / <a href="https://arxiv.org/pdf/2511.01815" rel="nofollow">arXiv:2511.01815</a></em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

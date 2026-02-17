@@ -12,7 +12,7 @@ categories:
 fig-alt: "Transformers.js v4 WebGPU architecture diagram"
 ---
 
-## The Big Picture
+#
 
 Running state-of-the-art AI models locally just got a major upgrade. **Hugging Face has released Transformers.js v4**, featuring a complete WebGPU runtime rewrite that delivers dramatically better performance while running models entirely in the browser or server-side JavaScript environments.
 

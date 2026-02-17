@@ -6,7 +6,7 @@ fig-alt: "The Era of Agentic Workflows"
 description: "Exploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks."
 ---
 
-# The Shift to Agentic Autonomy
+
 
 As large language models like the recently announced [Claude Opus 4.6](../2026-02-06-daily-ai-digest/index.qmd) push the boundaries of reasoning, the frameworks that orchestrate them—namely LlamaIndex and LangChain—are undergoing a massive evolution. We are moving away from simple retrieval-augmented generation (RAG) toward a world of truly agentic workflows.
 

@@ -7,7 +7,7 @@ description: "xAI unveils ambitious roadmap targeting interplanetary AI systems 
 
 In a bold departure from the current AI landscape dominated by enterprise productivity tools and consumer chatbots, xAI has unveiled a sweeping long-term vision that extends far beyond terrestrial applications. During a recent all-hands meeting, the company outlined plans to develop AI systems specifically designed for interplanetary exploration and scientific discovery.
 
-## Beyond Conversational AI
+#
 
 While competitors like OpenAI, Anthropic, and Google DeepMind focus on refining large language models for business and consumer use cases, xAI is charting a distinctly different course. The company's updated research agenda centers on:
 

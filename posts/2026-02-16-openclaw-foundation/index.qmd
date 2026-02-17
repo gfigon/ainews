@@ -6,7 +6,7 @@ categories: [Industry News, Agents & Automation]
 
 **Peter Steinberger**, the creator of OpenClaw (formerly known as Clawdbot and Moltbot), is joining OpenAI to lead the development of the next generation of personal AI agents.
 
-## What Happened
+#
 
 Sam Altman announced on X that Steinberger will "drive the next generation of personal agents" at OpenAI. In a blog post, Steinberger explained his decision: "What I want is to change the world, not build a large company, and teaming up with OpenAI is the fastest way to bring this to everyone."
 
