@@ -67,6 +67,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+// Remove inline height from thumbnail images
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+    img.style.height = '';
+  });
+});
+</script>
 <style>
 /* Force dark mode */
 :root {

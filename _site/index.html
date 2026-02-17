@@ -104,6 +104,14 @@ ul.task-list li input[type="checkbox"] {
         background: social-share.png;
       }
 </style>
+<script>
+// Remove inline height from thumbnail images
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+    img.style.height = '';
+  });
+});
+</script>
 <style>
 /* Force dark mode */
 :root {
