@@ -1,0 +1,65 @@
+---
+title: "Qwen3.5-397B: Alibaba's Massive Hybrid MoE Model with 1M Context"
+description: "Alibaba's latest MoE model combines 397B total parameters with only 17B active, featuring a hybrid Gated Delta Network architecture and native 1M token context for AI agents."
+date: "2026-02-17"
+categories: [LLMs & Models, Research Highlights]
+image: "image.svg"
+slug: "qwen3-5-397b-moe"
+---
+
+Alibaba's Qwen team has just released **Qwen3.5-397B**, their most ambitious open-weight model yet. This sparse Mixture-of-Experts (MoE) giant delivers 400B-class intelligence while activating only 17B parameters per token—a breakthrough in efficient large-scale AI.
+
+## The Architecture: Hybrid Efficiency
+
+Qwen3.5 doesn't follow the standard Transformer path. Instead, it combines two powerful techniques:
+
+### Gated Delta Networks + MoE
+
+The model uses an **Efficient Hybrid Architecture** that alternates between:
+
+- **Gated Delta Networks** (linear attention): 64 heads for Values (V), 16 heads for Queries/Keys (QK)
+- **Mixture-of-Experts**: 512 total experts, activating 10 routed + 1 shared expert per token
+
+This 3:1 ratio across 60 layers results in an impressive **8.6x to 19.0x increase in decoding throughput** compared to previous generations.
+
+| Spec | Value |
+|------|-------|
+| Total Parameters | 397B |
+| Active Parameters | 17B |
+| Total Experts | 512 |
+| Active Experts | 11 per token |
+| Layers | 60 |
+| Context Window | 256K (base) / 1M (Plus) |
+
+## Native Multimodal from Day One
+
+Unlike models that bolt on vision capabilities later, Qwen3.5 was trained via **Early Fusion** on trillions of multimodal tokens. This makes it a standout visual agent:
+
+- Scores **76.5 on IFBench** for complex visual instruction following
+- Can generate exact HTML/CSS from UI screenshots
+- Analyzes long videos with second-level accuracy
+- Supports **Model Context Protocol (MCP)** for agentic workflows
+
+## 1 Million Token Context
+
+The headline feature is the **1M token context window** (on hosted Qwen3.5-Plus). The team achieved this using a new asynchronous Reinforcement Learning framework that maintains accuracy even at the end of massive documents.
+
+For developers, this means:
+- Feed an entire codebase into a single prompt
+- Process 2-hour videos without chunking
+- Skip complex RAG pipelines for many use cases
+
+## Multilingual Powerhouse
+
+The model supports **201 languages** (up from 119 in Qwen3-VL), with strong performance on coding, math, and reasoning benchmarks—achieving parity with top proprietary models on Humanity's Last Exam.
+
+## Why It Matters
+
+Qwen3.5 represents a new tier in the open-source AI landscape:
+
+1. **Efficiency at Scale**: Get 400B-class performance with 17B inference cost
+2. **Agent-Native**: Built from the ground up for function calling and tool use
+3. **Massive Context**: 1M tokens enables entirely new agent workflows
+4. **Truly Open**: Weights available on Hugging Face, Apache 2.0 license
+
+The model is available on [Hugging Face](https://huggingface.co/collections/Qwen/qwen35) with full technical details on the [Qwen blog](https://qwen.ai/blog?id=qwen3.5).

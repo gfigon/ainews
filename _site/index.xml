@@ -12,6 +12,106 @@
 <generator>quarto-1.4.550</generator>
 <lastBuildDate>Mon, 16 Feb 2026 23:00:00 GMT</lastBuildDate>
 <item>
+  <title>Qwen3.5-397B: Alibaba’s Massive Hybrid MoE Model with 1M Context</title>
+  <link>https://roboaidigest.com/posts/2026-02-17-qwen3-5-397b-moe/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<p>Alibaba’s Qwen team has just released <strong>Qwen3.5-397B</strong>, their most ambitious open-weight model yet. This sparse Mixture-of-Experts (MoE) giant delivers 400B-class intelligence while activating only 17B parameters per token—a breakthrough in efficient large-scale AI.</p>
+<section id="the-architecture-hybrid-efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="the-architecture-hybrid-efficiency">The Architecture: Hybrid Efficiency</h2>
+<p>Qwen3.5 doesn’t follow the standard Transformer path. Instead, it combines two powerful techniques:</p>
+<section id="gated-delta-networks-moe" class="level3">
+<h3 class="anchored" data-anchor-id="gated-delta-networks-moe">Gated Delta Networks + MoE</h3>
+<p>The model uses an <strong>Efficient Hybrid Architecture</strong> that alternates between:</p>
+<ul>
+<li><strong>Gated Delta Networks</strong> (linear attention): 64 heads for Values (V), 16 heads for Queries/Keys (QK)</li>
+<li><strong>Mixture-of-Experts</strong>: 512 total experts, activating 10 routed + 1 shared expert per token</li>
+</ul>
+<p>This 3:1 ratio across 60 layers results in an impressive <strong>8.6x to 19.0x increase in decoding throughput</strong> compared to previous generations.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Spec</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total Parameters</td>
+<td>397B</td>
+</tr>
+<tr class="even">
+<td>Active Parameters</td>
+<td>17B</td>
+</tr>
+<tr class="odd">
+<td>Total Experts</td>
+<td>512</td>
+</tr>
+<tr class="even">
+<td>Active Experts</td>
+<td>11 per token</td>
+</tr>
+<tr class="odd">
+<td>Layers</td>
+<td>60</td>
+</tr>
+<tr class="even">
+<td>Context Window</td>
+<td>256K (base) / 1M (Plus)</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="native-multimodal-from-day-one" class="level2">
+<h2 class="anchored" data-anchor-id="native-multimodal-from-day-one">Native Multimodal from Day One</h2>
+<p>Unlike models that bolt on vision capabilities later, Qwen3.5 was trained via <strong>Early Fusion</strong> on trillions of multimodal tokens. This makes it a standout visual agent:</p>
+<ul>
+<li>Scores <strong>76.5 on IFBench</strong> for complex visual instruction following</li>
+<li>Can generate exact HTML/CSS from UI screenshots</li>
+<li>Analyzes long videos with second-level accuracy</li>
+<li>Supports <strong>Model Context Protocol (MCP)</strong> for agentic workflows</li>
+</ul>
+</section>
+<section id="million-token-context" class="level2">
+<h2 class="anchored" data-anchor-id="million-token-context">1 Million Token Context</h2>
+<p>The headline feature is the <strong>1M token context window</strong> (on hosted Qwen3.5-Plus). The team achieved this using a new asynchronous Reinforcement Learning framework that maintains accuracy even at the end of massive documents.</p>
+<p>For developers, this means: - Feed an entire codebase into a single prompt - Process 2-hour videos without chunking - Skip complex RAG pipelines for many use cases</p>
+</section>
+<section id="multilingual-powerhouse" class="level2">
+<h2 class="anchored" data-anchor-id="multilingual-powerhouse">Multilingual Powerhouse</h2>
+<p>The model supports <strong>201 languages</strong> (up from 119 in Qwen3-VL), with strong performance on coding, math, and reasoning benchmarks—achieving parity with top proprietary models on Humanity’s Last Exam.</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>Qwen3.5 represents a new tier in the open-source AI landscape:</p>
+<ol type="1">
+<li><strong>Efficiency at Scale</strong>: Get 400B-class performance with 17B inference cost</li>
+<li><strong>Agent-Native</strong>: Built from the ground up for function calling and tool use</li>
+<li><strong>Massive Context</strong>: 1M tokens enables entirely new agent workflows</li>
+<li><strong>Truly Open</strong>: Weights available on Hugging Face, Apache 2.0 license</li>
+</ol>
+<p>The model is available on <a href="https://huggingface.co/collections/Qwen/qwen35">Hugging Face</a> with full technical details on the <a href="https://qwen.ai/blog?id=qwen3.5">Qwen blog</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>LLMs &amp; Models</category>
+  <category>Research Highlights</category>
+  <guid>https://roboaidigest.com/posts/2026-02-17-qwen3-5-397b-moe/</guid>
+  <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://roboaidigest.com/posts/2026-02-17-qwen3-5-397b-moe/image.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
   <title>The SaaSpocalypse: AI Agent Revolution Triggers Historic 25% Sell-Off in Software Giants</title>
   <link>https://roboaidigest.com/posts/2026-02-17-saaspocalypse-ai-agent-revolution/</link>
   <description><![CDATA[ 
@@ -1214,111 +1314,6 @@ font-style: inherit;">npm</span> install @xenova/transformers</span></code></pre
   <guid>https://roboaidigest.com/posts/2026-02-11-agent-world-model-synthetic-environments/</guid>
   <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
   <media:content url="https://roboaidigest.com/posts/2026-02-11-agent-world-model-synthetic-environments/image.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>OAT: The Action Tokenizer Robots Need</title>
-  <dc:creator>Robo AI Digest</dc:creator>
-  <link>https://roboaidigest.com/posts/2026-02-10-oat-robotics-tokenizer/</link>
-  <description><![CDATA[ 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR6KBLTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-
-
-<section id="the-tokenization-wall" class="level2">
-<h2 class="anchored" data-anchor-id="the-tokenization-wall">The Tokenization Wall</h2>
-<p>Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: <strong>continuous robot movements don’t tokenize easily</strong>.</p>
-<p>Previous approaches failed: - <strong>Binning</strong>: Creates massive, slow sequences - <strong>FAST</strong>: Fast but unreliable — small errors halt robots - <strong>Learned Latent Tokenizers</strong>: Safe but unordered, losing temporal structure</p>
-<p>Researchers from <strong>Harvard and Stanford</strong> identified three non-negotiables for robot tokenization:</p>
-<ol type="1">
-<li><strong>High Compression</strong> — Short token sequences</li>
-<li><strong>Total Decodability</strong> — Every sequence maps to a valid move</li>
-<li><strong>Causal Ordering</strong> — Left-to-right structure, global first, details later</li>
-</ol>
-</section>
-<section id="enter-ordered-action-tokenization-oat" class="level2">
-<h2 class="anchored" data-anchor-id="enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</h2>
-<p>OAT uses a transformer encoder with <strong>register tokens</strong> to summarize action chunks. The key innovation: <strong>Nested Dropout</strong> forces the model to learn important patterns first.</p>
-<section id="how-it-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
-<ul>
-<li>Actions are chunked into discrete tokens</li>
-<li>Registers summarize each chunk</li>
-<li>Nested Dropout prioritizes coarse → fine information</li>
-<li>Tokens are left-to-right causally ordered</li>
-</ul>
-<p>The result: A tokenizer that plays nicely with autoregressive next-token prediction.</p>
-</section>
-</section>
-<section id="benchmark-results" class="level2">
-<h2 class="anchored" data-anchor-id="benchmark-results">Benchmark Results</h2>
-<p>Across 20+ tasks in 4 simulation benchmarks:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Benchmark</th>
-<th>OAT Success</th>
-<th>Diffusion Policy</th>
-<th>Token Reduction</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>LIBERO</td>
-<td>56.3%</td>
-<td>36.6%</td>
-<td>224 → 8</td>
-</tr>
-<tr class="even">
-<td>RoboMimic</td>
-<td>73.1%</td>
-<td>67.1%</td>
-<td>224 → 8</td>
-</tr>
-<tr class="odd">
-<td>MetaWorld</td>
-<td>24.4%</td>
-<td>19.3%</td>
-<td>128 → 8</td>
-</tr>
-<tr class="even">
-<td>RoboCasa</td>
-<td>54.6%</td>
-<td>54.0%</td>
-<td>384 → 8</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Aggregate improvement: 52.3% success rate vs.&nbsp;baseline</strong></p>
-</section>
-<section id="the-anytime-revolution" class="level2">
-<h2 class="anchored" data-anchor-id="the-anytime-revolution">The “Anytime” Revolution</h2>
-<p>Most practical benefit: <strong>prefix-based detokenization</strong>.</p>
-<p>Since tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions)</p>
-<p>This flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers.</p>
-</section>
-<section id="why-this-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
-<p>Robotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides:</p>
-<ul>
-<li><strong>Reliability</strong>: Total decodability prevents execution failures</li>
-<li><strong>Scalability</strong>: Short sequences enable efficient autoregressive training</li>
-<li><strong>Flexibility</strong>: Anytime inference adapts to real-world constraints</li>
-</ul>
-<p>The code and paper are available on <a href="https://github.com/Chaoqi-LIU/oat" rel="nofollow">GitHub</a> and <a href="https://arxiv.org/abs/2602.04215" rel="nofollow">arXiv</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Agents &amp; Automation</category>
-  <category>AI Tools &amp; Frameworks</category>
-  <guid>https://roboaidigest.com/posts/2026-02-10-oat-robotics-tokenizer/</guid>
-  <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://roboaidigest.com/posts/2026-02-10-oat-robotics-tokenizer/image.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
 </rss>
