@@ -8,21 +8,18 @@
   <rect width="1024" height="512" fill="url(#bg)"/>
   
   <!-- Large keyword as background watermark -->
-  <text x="512" y="280" font-family="Arial Black, Arial" font-size="200" font-weight="bold" fill="#ffeaa7" text-anchor="middle" opacity="0.2">Kani-TTS-2</text>
+  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="#ffeaa7" text-anchor="middle" opacity="0.25">Kani-TTS-2</text>
   
-  <!-- Title -->
-  <text x="512" y="200" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle" max-width="900">Kani-TTS-2: Open-Source TTS Running on Consumer GPUs wi...</text>
-  
-  <!-- Keyword badge -->
-  <rect x="412" y="230" width="200" height="36" rx="18" fill="#ffeaa7" opacity="0.9"/>
-  <text x="512" y="256" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Kani-TTS-2</text>
+  <!-- Keyword badge (centered, prominent) -->
+  <rect x="362" y="200" width="300" height="50" rx="25" fill="#ffeaa7" opacity="0.95"/>
+  <text x="512" y="234" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Kani-TTS-2</text>
   
   <!-- Category -->
-  <text x="512" y="340" font-family="Arial" font-size="16" fill="#ffeaa7" text-anchor="middle">---</text>
+  <text x="512" y="320" font-family="Arial" font-size="14" fill="#ffeaa7" text-anchor="middle">---</text>
   
   <!-- Date and site -->
-  <text x="512" y="380" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-16 - roboaidigest.com</text>
+  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-16 - roboaidigest.com</text>
   
   <!-- Bottom accent line -->
-  <rect x="100" y="440" width="824" height="3" fill="#ffeaa7"/>
+  <rect x="100" y="420" width="824" height="3" fill="#ffeaa7"/>
 </svg>

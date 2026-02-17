@@ -8,21 +8,18 @@
   <rect width="1024" height="512" fill="url(#bg)"/>
   
   <!-- Large keyword as background watermark -->
-  <text x="512" y="280" font-family="Arial Black, Arial" font-size="200" font-weight="bold" fill="#00cec9" text-anchor="middle" opacity="0.2">NVIDIA</text>
+  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="#00cec9" text-anchor="middle" opacity="0.25">NVIDIA</text>
   
-  <!-- Title -->
-  <text x="512" y="200" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle" max-width="900">NVIDIA Blackwell Enters Full Volume Production: Powerin...</text>
-  
-  <!-- Keyword badge -->
-  <rect x="412" y="230" width="200" height="36" rx="18" fill="#00cec9" opacity="0.9"/>
-  <text x="512" y="256" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">NVIDIA</text>
+  <!-- Keyword badge (centered, prominent) -->
+  <rect x="362" y="200" width="300" height="50" rx="25" fill="#00cec9" opacity="0.95"/>
+  <text x="512" y="234" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">NVIDIA</text>
   
   <!-- Category -->
-  <text x="512" y="340" font-family="Arial" font-size="16" fill="#00cec9" text-anchor="middle">AI Tools & Frameworks</text>
+  <text x="512" y="320" font-family="Arial" font-size="14" fill="#00cec9" text-anchor="middle">AI Tools & Frameworks</text>
   
   <!-- Date and site -->
-  <text x="512" y="380" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-16 - roboaidigest.com</text>
+  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-16 - roboaidigest.com</text>
   
   <!-- Bottom accent line -->
-  <rect x="100" y="440" width="824" height="3" fill="#00cec9"/>
+  <rect x="100" y="420" width="824" height="3" fill="#00cec9"/>
 </svg>

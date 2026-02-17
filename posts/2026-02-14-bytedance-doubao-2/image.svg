@@ -8,21 +8,18 @@
   <rect width="1024" height="512" fill="url(#bg)"/>
   
   <!-- Large keyword as background watermark -->
-  <text x="512" y="280" font-family="Arial Black, Arial" font-size="200" font-weight="bold" fill="#fd79a8" text-anchor="middle" opacity="0.2">GPT</text>
+  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="#fd79a8" text-anchor="middle" opacity="0.25">GPT</text>
   
-  <!-- Title -->
-  <text x="512" y="200" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle" max-width="900">ByteDance Doubao 2.0 Takes On GPT-5.2 and Gemini 3 Pro</text>
-  
-  <!-- Keyword badge -->
-  <rect x="412" y="230" width="200" height="36" rx="18" fill="#fd79a8" opacity="0.9"/>
-  <text x="512" y="256" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">GPT</text>
+  <!-- Keyword badge (centered, prominent) -->
+  <rect x="362" y="200" width="300" height="50" rx="25" fill="#fd79a8" opacity="0.95"/>
+  <text x="512" y="234" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">GPT</text>
   
   <!-- Category -->
-  <text x="512" y="340" font-family="Arial" font-size="16" fill="#fd79a8" text-anchor="middle">- LLMs & Models</text>
+  <text x="512" y="320" font-family="Arial" font-size="14" fill="#fd79a8" text-anchor="middle">- LLMs & Models</text>
   
   <!-- Date and site -->
-  <text x="512" y="380" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-14 - roboaidigest.com</text>
+  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">2026-02-14 - roboaidigest.com</text>
   
   <!-- Bottom accent line -->
-  <rect x="100" y="440" width="824" height="3" fill="#fd79a8"/>
+  <rect x="100" y="420" width="824" height="3" fill="#fd79a8"/>
 </svg>

@@ -90,7 +90,7 @@ for post_dir in $POSTS_DIR/2026-02-*; do
     # Date from slug
     date_str=$(echo "$slug" | cut -d'-' -f1,2,3)
     
-    # Create SVG - large keyword background + clear title
+    # Create SVG - large keyword background ONLY (no title text - not visible in thumbnails)
     printf '<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
   <defs>
     <linearGradient id="bg" x1="0%%" y1="0%%" x2="100%%" y2="100%%">
@@ -101,24 +101,21 @@ for post_dir in $POSTS_DIR/2026-02-*; do
   <rect width="1024" height="512" fill="url(#bg)"/>
   
   <!-- Large keyword as background watermark -->
-  <text x="512" y="280" font-family="Arial Black, Arial" font-size="200" font-weight="bold" fill="%s" text-anchor="middle" opacity="0.2">%s</text>
+  <text x="512" y="300" font-family="Arial Black, Arial" font-size="220" font-weight="bold" fill="%s" text-anchor="middle" opacity="0.25">%s</text>
   
-  <!-- Title -->
-  <text x="512" y="200" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle" max-width="900">%s</text>
-  
-  <!-- Keyword badge -->
-  <rect x="412" y="230" width="200" height="36" rx="18" fill="%s" opacity="0.9"/>
-  <text x="512" y="256" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">%s</text>
+  <!-- Keyword badge (centered, prominent) -->
+  <rect x="362" y="200" width="300" height="50" rx="25" fill="%s" opacity="0.95"/>
+  <text x="512" y="234" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">%s</text>
   
   <!-- Category -->
-  <text x="512" y="340" font-family="Arial" font-size="16" fill="%s" text-anchor="middle">%s</text>
+  <text x="512" y="320" font-family="Arial" font-size="14" fill="%s" text-anchor="middle">%s</text>
   
   <!-- Date and site -->
-  <text x="512" y="380" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">%s - roboaidigest.com</text>
+  <text x="512" y="360" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">%s - roboaidigest.com</text>
   
   <!-- Bottom accent line -->
-  <rect x="100" y="440" width="824" height="3" fill="%s"/>
-</svg>' "$color" "$keyword" "$display_title" "$color" "$keyword" "$color" "$category" "$date_str" "$color" > "$post_dir/image.svg"
+  <rect x="100" y="420" width="824" height="3" fill="%s"/>
+</svg>' "$color" "$keyword" "$color" "$keyword" "$color" "$category" "$date_str" "$color" > "$post_dir/image.svg"
 
     echo "Generated: $slug (keyword: $keyword)"
   fi
