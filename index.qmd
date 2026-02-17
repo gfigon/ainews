@@ -2,26 +2,27 @@
 # === Wyświetlane na stronie ===
 title: "Robo AI Digest"
 
-# === SEO - Meta tagi w <head> ===
-pagetitle: "Robo AI Digest - AI News, Machine Learning & Technology"
+# === SEO - Meta tagi ===
+pagetitle: "Robo AI Digest - AI News & Insights"
 format:
   html:
-    header-includes: |
-      <meta name="description" content="Daily AI news and insights on LLMs, AI Agents, Machine Learning breakthroughs and cutting-edge technology. Stay ahead with Robo AI Digest.">
-      <meta name="keywords" content="AI news, Machine Learning, LLMs, AI Agents, AI Technology, Deep Learning, Artificial Intelligence">
+    theme:
+      dark: cosmo
+    css: [styles.css, hide-elements.css]
 
-# === Ustawienia strony ===
+# === Ustawienia listingu (Natywne Quarto) ===
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
+  type: default
   categories: true
   sort-ui: false
   filter-ui: false
   feed: true
+  image-height: 200px
+  image-align: left
+
 page-layout: full
-title-block-banner: "social-share.png"
-title-block-banner-alt: "AI technology abstract visualization"
 ---
 
 ::: {.hero-banner}
