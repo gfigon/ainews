@@ -52,7 +52,6 @@ body {
 
 .listing-item img, .thumbnail-image, .card-img-top {
   border-radius: 0 !important;
-  height: 250px !important;
   object-fit: cover !important;
   border-bottom: 1px solid #30363d;
 }
