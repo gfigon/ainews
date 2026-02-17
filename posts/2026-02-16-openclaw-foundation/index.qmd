@@ -2,7 +2,7 @@
 title: "OpenClaw Founder Peter Steinberger Joins OpenAI, Project Becomes Foundation"
 date: "2026-02-16"
 categories: [Industry News, Agents & Automation]
-image: "image.svg"
+image: "image.jpg"
 ---
 
 **Peter Steinberger**, the creator of OpenClaw (formerly known as Clawdbot and Moltbot), is joining OpenAI to lead the development of the next generation of personal AI agents.

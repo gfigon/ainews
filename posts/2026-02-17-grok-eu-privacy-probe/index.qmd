@@ -2,7 +2,7 @@
 title: "Grok Faces EU Privacy Probe: Ireland Launches Investigation Into xAI's Deepfake Crisis"
 date: "2026-02-17"
 description: "Ireland's Data Protection Commission launches a large-scale GDPR investigation into xAI's Grok chatbot following revelations that the AI tool generated non-consensual sexual deepfake images."
-image: "image.svg"
+image: "image.jpg"
 categories:
   - "AI Security & Safety"
   - "Ethics & Regulation"

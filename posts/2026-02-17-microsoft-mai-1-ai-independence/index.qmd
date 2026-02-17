@@ -2,7 +2,7 @@
 title: "Microsoft's MAI-1: The 500-Billion Parameter Bet on AI Independence"
 date: "2026-02-17"
 description: "Microsoft's largest in-house AI model signals a strategic pivot away from OpenAI dependency, as the company rebuilds Windows 11 Taskbar while pursuing technological sovereignty."
-image: "image.svg"
+image: "image.jpg"
 categories:
   - "LLMs & Models"
   - "AI Tools & Frameworks"

@@ -2,7 +2,7 @@
 title: "Google's PaperBanana: Multi-Agent System for Research Diagrams"
 date: "2026-02-08"
 categories: [Research Highlights, Agents & Automation]
-image: "image.svg"
+image: "image.jpg"
 fig-alt: "Google's PaperBanana"
 ---
 

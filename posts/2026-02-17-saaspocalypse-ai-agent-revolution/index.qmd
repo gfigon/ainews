@@ -2,7 +2,7 @@
 title: "The SaaSpocalypse: AI Agent Revolution Triggers Historic 25% Sell-Off in Software Giants"
 date: "2026-02-17"
 description: "The software sector faces a historic correction as autonomous AI agents threaten the traditional 'per-seat' business model, wiping $1 trillion in market cap."
-image: "image.svg"
+image: "image.jpg"
 categories:
   - "Industry News"
   - "Agents & Automation"

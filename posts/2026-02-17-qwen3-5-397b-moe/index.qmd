@@ -3,7 +3,7 @@ title: "Qwen3.5-397B: Alibaba's Massive Hybrid MoE Model with 1M Context"
 description: "Alibaba's latest MoE model combines 397B total parameters with only 17B active, featuring a hybrid Gated Delta Network architecture and native 1M token context for AI agents."
 date: "2026-02-17"
 categories: [LLMs & Models, Research Highlights]
-image: "image.svg"
+image: "image.jpg"
 slug: "qwen3-5-397b-moe"
 ---
 
