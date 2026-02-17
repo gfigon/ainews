@@ -1,0 +1,58 @@
+---
+title: "India AI Impact Summit 2026: World's Largest AI Gathering Brings Together Altman, Pichai, and Amodei"
+date: "2026-02-17"
+description: "PM Modi inaugurates historic AI summit with 600+ startups, 13 country pavilions, and unprecedented attendance from global AI leaders."
+image: "image.svg"
+categories:
+  - "Industry News"
+  - "AI Events"
+---
+
+# India AI Impact Summit 2026: World's Largest AI Gathering Unites Global Tech Leaders
+
+The India AI Impact Summit 2026 kicked off at New Delhi's Bharat Mandapam on February 16, marking what experts are calling the largest AI conference ever held. With over 600 high-potential startups, 13 country pavilions, and an unprecedented lineup of global AI leaders, the five-day summit (through February 20) positions India at the center of the global AI revolution.
+
+## A Gathering of Titans
+
+The summit's headline speakers read like a who's who of the AI industry:
+
+- **Sam Altman** (OpenAI)
+- **Sundar Pichai** (Alphabet/Google)
+- **Dario Amodei** (Anthropic)
+- **Demis Hassabis** (Google DeepMind)
+- **Brad Smith** (Microsoft)
+- **Arthur Mensch** (Mistral AI)
+- **Alexandr Wang** (Scale AI)
+
+French President Emmanuel Macron is also attending, highlighting the geopolitical importance of AI leadership.
+
+## PM Modi: "AI for Viksit Bharat"
+
+Prime Minister Narendra Modi inaugurated the expo on February 16, visiting multiple stalls and interacting with startups. "The outcomes of this summit will help shape a future that is progressive, innovative, and opportunity-driven," the PM stated on his X handle.
+
+The summit is structured across three thematic "chakras"—people, planet, and progress—reflecting India's approach to inclusive AI development. With 300 pavilions and live demonstrations across 7,000+ square meters, the event is massive in scale.
+
+## India's AI Sovereignty Push
+
+A recurring theme at the summit is India's quest for AI sovereignty. Union Minister Ashwini Vaishnaw emphasized "capturing benefits while containing harms" of AI. The government announced it's in talks with over 30 countries on technical and legal solutions for deepfakes.
+
+India's Digital Public Infrastructure (DPI) approach—already proven in payments (UPI) and identity (Aadhaar)—is being pitched as a model for other nations. "Scalability demonstrated by India in DPI is a major advantage," said a senior Wipro executive.
+
+## Global South Leadership
+
+Several speakers highlighted India's potential to lead AI accessibility for the Global South. BCG India MD noted that India can "lead in making AI more accessible to Global South." Indian startups like **Sarvam AI** and **BharatGen** (from IIT Bombay) are expected to unveil sovereign LLMs during the summit.
+
+## Key Announcements
+
+- **Jio's AI Ecosystem**: Akash Ambani briefed PM Modi on Jio's AI developments
+- **Ottonomy**: Unveiled a "Made-in-India" autonomous delivery robot
+- **NPCI**: Rolled out "UPI One World" wallet for international delegates
+- **Intel**: Announced initiatives to bring AI to the masses through scalable applications
+
+## The Road Ahead
+
+With the world's top AI minds converging in Delhi, the summit signals India's ambition to move from an AI consumer to an AI creator. As Union Minister Jitin Prasada noted, "Every person has a stake and skin in the game" when it comes to AI's future.
+
+The summit opens to the general public on February 17, offering a rare opportunity for Indians to engage with cutting-edge AI technology firsthand.
+---
+*Source: [Hindustan Times](https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026-delhi-summit-ai-impact-summit-bharat-mandapam-summit-narendra-modi-delhi-expo-ai-expo-101771203756704.html), [The420.in](https://the420.in/ai-impact-summit-2026-delhi-macron-altman-pichai/), [Reuters](https://www.reuters.com/business/retail-consumer/openai-google-india-hosts-global-ai-summit-2026-02-16/)*

@@ -26,7 +26,7 @@ website:
 
 format:
   html:
-    theme: [cosmo, styles.css]
+    theme: [cosmo, styles-v2.css]
     toc: true
     code-fold: true
     css: hide-elements.css
