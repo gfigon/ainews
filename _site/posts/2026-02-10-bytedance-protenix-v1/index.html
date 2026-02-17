@@ -69,16 +69,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-// Remove inline height from thumbnail images
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-    img.style.height = '';
-  });
-});
-</script>
 <style>
-/* Force dark mode */
+/* FORCE override all inline styles for thumbnails - highest priority */
+.thumbnail-image[style] {
+  height: 220px !important;
+}
+.card-img-top[style] {
+  height: 220px !important;
+}
+img.card-img[style] {
+  height: 220px !important;
+}
+/* Dark mode */
 :root {
   --bs-body-bg: #0d1117;
   --bs-body-color: #e6edf3;
