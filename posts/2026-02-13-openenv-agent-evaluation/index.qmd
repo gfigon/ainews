@@ -2,7 +2,6 @@
 title: "OpenEnv: Standardizing AI Agent Evaluation with Real-World Constraints"
 date: 2026-02-13
 categories: [Agents & Automation, Research Highlights]
-image: "image.svg"
 ---
 
 The transition of AI agents from controlled demos to production environments remains one of the most significant challenges in the industry. While LLMs excel at individual tasks, their reliability often collapses when faced with multi-step reasoning, partial information, and real-world API constraints.

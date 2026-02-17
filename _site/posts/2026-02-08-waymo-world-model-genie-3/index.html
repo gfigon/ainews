@@ -67,25 +67,37 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<!-- Watch for lazy-loaded images and fix them -->
-<script>
-(function() {
-  function fixImages() {
-    document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-      if (img.style.height === '150px') {
-        img.style.height = '220px';
-      }
-    });
-  }
-  // Run immediately and continuously
-  setInterval(fixImages, 100);
-  // Also run on key events
-  document.addEventListener('DOMContentLoaded', fixImages);
-  window.addEventListener('load', fixImages);
-})();
-</script>
 <style>
-/* FORCE override - highest priority */
+/* COMPLETELY REMOVE height constraints - let images scale naturally */
+.thumbnail-image, .card-img-top, img.card-img, .listing-image {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+}
+/* Dark mode */
+:root {
+  --bs-body-bg: #0d1117;
+  --bs-body-color: #e6edf3;
+}
+body {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+}
+.quarto-post, .card, .quarto-grid-item {
+  background-color: #161b22 !important;
+}
+</style>
+<meta property="og:title" content="Robo AI Digest - Waymo World Model: Generating Reality for Autonomous Driving">
+<meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
+<meta property="og:site_name" content="Robo AI Digest">
+<meta name="twitter:title" content="Robo AI Digest - Waymo World Model: Generating Reality for Autonomous Driving">
+<meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
+<meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
+<meta name="twitter:creator" content="@roboaidigest">
+<meta name="twitter:site" content="@roboaidigest">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3">
+</head><body class="nav-fixed">/* FORCE override - highest priority */
 .thumbnail-image {
   height: 220px !important;
   min-height: 220px !important;
@@ -102,7 +114,7 @@ body {
 .quarto-post, .card, .quarto-grid-item {
   background-color: #161b22 !important;
 }
-</style>
+
 <!-- Google Consent Mode v2 - musi być PRZED GTM -->
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -131,20 +143,9 @@ body {
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
-<meta property="og:title" content="Robo AI Digest - Waymo World Model: Generating Reality for Autonomous Driving">
-<meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta property="og:image" content="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/image.svg">
-<meta property="og:site_name" content="Robo AI Digest">
-<meta name="twitter:title" content="Robo AI Digest - Waymo World Model: Generating Reality for Autonomous Driving">
-<meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta name="twitter:image" content="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3/image.svg">
-<meta name="twitter:creator" content="@roboaidigest">
-<meta name="twitter:site" content="@roboaidigest">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/posts/2026-02-08-waymo-world-model-genie-3">
-</head>
 
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">

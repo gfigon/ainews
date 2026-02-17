@@ -38,24 +38,26 @@ format:
 editor: visual
 
 header-includes: |
-  <!-- Watch for lazy-loaded images and fix them -->
-  <script>
-  (function() {
-    function fixImages() {
-      document.querySelectorAll('.thumbnail-image').forEach(function(img) {
-        if (img.style.height === '150px') {
-          img.style.height = '220px';
-        }
-      });
-    }
-    // Run immediately and continuously
-    setInterval(fixImages, 100);
-    // Also run on key events
-    document.addEventListener('DOMContentLoaded', fixImages);
-    window.addEventListener('load', fixImages);
-  })();
-  </script>
   <style>
+  /* COMPLETELY REMOVE height constraints - let images scale naturally */
+  .thumbnail-image, .card-img-top, img.card-img, .listing-image {
+    height: auto !important;
+    max-height: none !important;
+    min-height: 0 !important;
+  }
+  /* Dark mode */
+  :root {
+    --bs-body-bg: #0d1117;
+    --bs-body-color: #e6edf3;
+  }
+  body {
+    background-color: #0d1117 !important;
+    color: #e6edf3 !important;
+  }
+  .quarto-post, .card, .quarto-grid-item {
+    background-color: #161b22 !important;
+  }
+  </style>
   /* FORCE override - highest priority */
   .thumbnail-image {
     height: 220px !important;

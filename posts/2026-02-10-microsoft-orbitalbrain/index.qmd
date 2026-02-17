@@ -10,7 +10,6 @@ author-links:
 categories: 
   - "Agents & Automation"
   - "AI Tools & Frameworks"
-image: "image.svg"
 fig-alt: "Satellite constellation in space with Earth, ML technology visualization"
 ---
 

@@ -3,7 +3,6 @@ title: "NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving"
 date: "2026-02-12"
 categories: [AI Tools & Frameworks, Research Highlights]
 author: "Robo AI Digest"
-image: "image.svg"
 description: "NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy."
 ---
 

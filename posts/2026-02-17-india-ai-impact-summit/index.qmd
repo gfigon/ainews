@@ -2,7 +2,6 @@
 title: "India AI Impact Summit 2026: World's Largest AI Gathering Brings Together Altman, Pichai, and Amodei"
 date: "2026-02-17"
 description: "PM Modi inaugurates historic AI summit with 600+ startups, 13 country pavilions, and unprecedented attendance from global AI leaders."
-image: "image.svg"
 categories:
   - "Industry News"
   - "AI Events"

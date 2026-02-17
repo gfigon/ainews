@@ -2,7 +2,6 @@
 title: "Gemini 3 Deep Think: Google's Answer to the Reasoning Race"
 date: "2026-02-14"
 categories: [LLMs & Models, Research Highlights]
-image: "image.svg"
 description: "Google releases Gemini 3 Deep Think with breakthrough reasoning, passing Humanity's Last Exam and setting new standards for math and coding."
 ---
 
