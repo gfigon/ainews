@@ -1,0 +1,115 @@
+/*-- scss:defaults --*/
+
+$theme-blue: #58a6ff;
+$theme-bg: #0d1117;
+$card-bg: #161b22;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: $theme-bg;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* Header & Hero Area */
+.hero-banner {
+  padding: 100px 0 80px 0;
+  text-align: center;
+  background: radial-gradient(circle at top, #1c2128 0%, #0d1117 100%);
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 1;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #8b949e;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Post Cards (Listing Grid) Cleanup */
+.quarto-listing-container .quarto-post {
+  background-color: $card-bg !important;
+  border: 1px solid #30363d !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: all 0.25s ease;
+  height: 100%;
+}
+
+.quarto-post:hover {
+  border-color: $theme-blue !important;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.listing-item img {
+  border-radius: 0 !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  border-bottom: 1px solid #30363d;
+}
+
+/* Override Quarto's inline height for listing images */
+.card-img-top {
+  height: 220px !important;
+  object-fit: cover;
+}
+
+.quarto-post .listing-item-content {
+  padding: 24px !important;
+  color: #e6edf3 !important;
+}
+
+.listing-title {
+  font-weight: 800 !important;
+  font-size: 1.4rem !important;
+  color: #ffffff !important;
+  line-height: 1.3 !important;
+  margin-bottom: 12px !important;
+}
+
+.listing-description {
+  color: #8b949e !important;
+  font-size: 0.95rem !important;
+}
+
+/* Categories / Badges */
+.listing-categories .listing-category {
+  background-color: #21262d !important;
+  color: $theme-blue !important;
+  border: 1px solid #30363d !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  margin-right: 5px;
+}
+
+.listing-date {
+  color: #484f58 !important;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Navbar Tuning */
+.navbar {
+  background-color: rgba(13, 17, 23, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #30363d;
+}
