@@ -3,19 +3,23 @@
 
 POSTS_DIR="/home/skutek/projekty/ainews/posts"
 
-# Colors for categories
+# Generate unique color based on keyword hash
 get_color() {
-  local category="$1"
-  case "$category" in
-    *LLMs*|*Models*) echo "#6366f1" ;;
-    *Tools*|*Framework*) echo "#10b981" ;;
-    *Agents*|*Automation*) echo "#f59e0b" ;;
-    *Security*|*Safety*) echo "#ef4444" ;;
-    *Ethics*|*Regulation*) echo "#8b5cf6" ;;
-    *Industry*) echo "#3b82f6" ;;
-    *Research*) echo "#ec4899" ;;
-    *) echo "#6366f1" ;;
-  esac
+  local keyword="$1"
+  # Hash the keyword to get a number, then pick from palette
+  local hash=$(echo "$keyword" | md5sum | cut -c1-6)
+  local num=$((16#$hash))
+  
+  # Vibrant color palette
+  local colors=("#ff6b6b" "#4ecdc4" "#45b7d1" "#96ceb4" "#ffeaa7" 
+               "#dfe6e9" "#fd79a8" "#a29bfe" "#00b894" "#e17055"
+               "#74b9ff" "#81ecec" "#fab1a0" "#fdcb6e" "#e056fd"
+               "#686de0" "#4834d4" "#130f40" "#2d3436" "#636e72"
+               "#b2bec3" "#d63031" "#e84393" "#0984e3" "#00cec9"
+               "#6c5ce7" "#ffeaa7" "#fab1a0" "#ff7675" "#fd79a8")
+  
+  local index=$((num % ${#colors[@]}))
+  echo "${colors[$index]}"
 }
 
 # Extract main keyword from title - prefer company/model names
@@ -86,29 +90,35 @@ for post_dir in $POSTS_DIR/2026-02-*; do
     # Date from slug
     date_str=$(echo "$slug" | cut -d'-' -f1,2,3)
     
-    # Create SVG using printf to avoid bash parsing issues
+    # Create SVG - large keyword background + clear title
     printf '<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
   <defs>
     <linearGradient id="bg" x1="0%%" y1="0%%" x2="100%%" y2="100%%">
-      <stop offset="0%%" style="stop-color:#1a1a2e"/>
-      <stop offset="100%%" style="stop-color:#16213e"/>
+      <stop offset="0%%" style="stop-color:#0f0f23"/>
+      <stop offset="100%%" style="stop-color:#1a1a2e"/>
     </linearGradient>
   </defs>
   <rect width="1024" height="512" fill="url(#bg)"/>
   
-  <text x="512" y="200" font-family="Arial Black, Arial" font-size="120" font-weight="bold" fill="%s" text-anchor="middle" opacity="0.15">%s</text>
+  <!-- Large keyword as background watermark -->
+  <text x="512" y="280" font-family="Arial Black, Arial" font-size="200" font-weight="bold" fill="%s" text-anchor="middle" opacity="0.2">%s</text>
   
-  <circle cx="512" cy="180" r="60" fill="%s"/>
-  <text x="512" y="200" font-size="40" fill="white" text-anchor="middle" font-family="Arial">AI</text>
+  <!-- Title -->
+  <text x="512" y="200" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle" max-width="900">%s</text>
   
-  <text x="512" y="320" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle" max-width="900">%s</text>
+  <!-- Keyword badge -->
+  <rect x="412" y="230" width="200" height="36" rx="18" fill="%s" opacity="0.9"/>
+  <text x="512" y="256" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">%s</text>
   
-  <text x="512" y="360" font-family="Arial" font-size="18" fill="%s" text-anchor="middle">%s</text>
+  <!-- Category -->
+  <text x="512" y="340" font-family="Arial" font-size="16" fill="%s" text-anchor="middle">%s</text>
   
-  <text x="512" y="400" font-family="Arial" font-size="14" fill="#888" text-anchor="middle">%s - roboaidigest.com</text>
+  <!-- Date and site -->
+  <text x="512" y="380" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">%s - roboaidigest.com</text>
   
-  <rect x="100" y="440" width="824" height="2" fill="%s" opacity="0.5"/>
-</svg>' "$color" "$keyword" "$color" "$display_title" "$color" "$category" "$date_str" "$color" > "$post_dir/image.svg"
+  <!-- Bottom accent line -->
+  <rect x="100" y="440" width="824" height="3" fill="%s"/>
+</svg>' "$color" "$keyword" "$display_title" "$color" "$keyword" "$color" "$category" "$date_str" "$color" > "$post_dir/image.svg"
 
     echo "Generated: $slug (keyword: $keyword)"
   fi
