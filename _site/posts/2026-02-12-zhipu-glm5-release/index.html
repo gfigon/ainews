@@ -68,16 +68,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+// Remove ALL inline styles from thumbnail images - most reliable approach
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+    img.removeAttribute('style');
+  });
+});
+// Also run on load in case of lazy-loaded images
+window.addEventListener('load', function() {
+  document.querySelectorAll('.thumbnail-image').forEach(function(img) {
+    img.removeAttribute('style');
+  });
+});
+</script>
 <style>
-/* FORCE override all inline styles for thumbnails - highest priority */
-.thumbnail-image[style] {
+/* FORCE override - highest priority */
+.thumbnail-image {
   height: 220px !important;
-}
-.card-img-top[style] {
-  height: 220px !important;
-}
-img.card-img[style] {
-  height: 220px !important;
+  min-height: 220px !important;
 }
 /* Dark mode */
 :root {
