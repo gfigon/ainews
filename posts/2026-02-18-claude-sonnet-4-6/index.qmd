@@ -1,0 +1,59 @@
+---
+title: "Claude Sonnet 4.6: The Mid-Tier Model That Matches Flagship Performance"
+description: "Anthropic's latest Sonnet model delivers Opus-level intelligence at 1/5th the cost, fundamentally changing the economics of AI agents at scale."
+date: "2026-02-18 08:00"
+categories: [LLMs & Models, Industry News]
+slug: "claude-sonnet-4-6"
+---
+
+Anthropic has released **Claude Sonnet 4.6**, a model that amounts to a seismic repricing event for the AI industry. It delivers near-flagship intelligence at mid-tier cost, landing squarely in the middle of an unprecedented corporate rush to deploy AI agents and automated coding tools.
+
+#
+
+The model is a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. It features a 1M token context window in beta, and is now the default model in [Claude.ai](https://claude.ai){rel="nofollow"} and Claude Cowork. Here's the kicker: **pricing holds steady at $3/$15 per million tokens** — the same as its predecessor, Sonnet 4.5.
+
+## The $5x Cost Revolution
+
+That pricing detail is the headline that matters most. Anthropic's flagship Opus models cost $15/$75 per million tokens — five times the Sonnet price. Yet performance that would have previously required reaching for an Opus-class model is now available with Sonnet 4.6.
+
+For the thousands of enterprises deploying AI agents that make millions of API calls per day, that math changes everything.
+
+### Benchmark Breakdown
+
+The benchmark table Anthropic released paints a striking picture:
+
+| Benchmark | Sonnet 4.6 | Opus 4.6 |
+|-----------|-------------|----------|
+| SWE-bench Verified (coding) | 79.6% | 80.8% |
+| OSWorld-Verified (computer use) | 72.5% | 72.7% |
+| GDPval-AA (office tasks) | 1633 | 1606 |
+| Agentic Financial Analysis | 63.3% | 60.1% |
+
+On office tasks, Sonnet 4.6 actually **surpassed** Opus 4.6. On agentic financial analysis, it hit 63.3% beating every model in the comparison.
+
+## Computer Use: From Experimental to Near-Human in 16 Months
+
+One of the most dramatic storylines is Anthropic's computer use journey. Sonnet 4.6 scored **72.5% on OSWorld-Verified**, up from just 14.9% when the capability first launched in October 2024. That's a **nearly 5x improvement in 16 months**.
+
+This positions Claude as arguably the most capable AI assistant for computer-based tasks — a critical capability as enterprises build agents that autonomously navigate browsers, execute code, and interact with enterprise software.
+
+## Claude Code Preference
+
+In [Claude Code](https://claude.com/product/claude-code){rel="nofollow"}, early testing found that users preferred Sonnet 4.6 over Sonnet 4.5 roughly **70% of the time**. Even more striking: users preferred Sonnet 4.6 to Opus 4.5 **59% of the time**.
+
+Users reported:
+- Significantly less prone to over-engineering and "laziness"
+- Meaningfully better at instruction following
+- Fewer false claims of success and hallucinations
+- More consistent follow-through on multi-step tasks
+
+## Why It Matters
+
+For enterprises, the calculus has fundamentally shifted:
+
+1. **Scale Economics**: Run AI agents at 1/5th the cost without sacrificing quality
+2. **Agentic Workloads**: Match Opus performance on computer use and coding at Sonnet prices
+3. **Default Choice**: Sonnet 4.6 is now the default — most users won't need Opus
+4. **Stable Pricing**: Despite massive improvements, Anthropic held the line on pricing
+
+The release is available now via the [Anthropic API](https://www.anthropic.com/api){rel="nofollow"} and [Claude.ai](https://claude.ai){rel="nofollow"}.
