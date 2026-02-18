@@ -280,6 +280,14 @@
       "slugs": [
         "2026-02-18-claude-sonnet-4-6"
       ]
+    },
+    {
+      "term": "OpenAI Acquires OpenClaw",
+      "count": 1,
+      "last_published": "2026-02-18",
+      "slugs": [
+        "2026-02-18-openai-acquires-openclaw"
+      ]
     }
   ]
 }
