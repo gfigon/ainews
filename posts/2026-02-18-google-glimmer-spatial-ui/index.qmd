@@ -1,0 +1,73 @@
+---
+title: "Google's Jetpack Compose Glimmer: Building the Spatial UI Layer for AI Glasses"
+description: "Google unveils Jetpack Compose Glimmer, a dedicated UI framework for transparent displays and AI glasses — targeting the next computing paradigm beyond the rectangular screen."
+date: "2026-02-18 10:15"
+categories: [AI Tools & Frameworks, Research Highlights]
+slug: "google-glimmer-spatial-ui"
+---
+
+Google is betting big on a future beyond the smartphone screen. The company just released **Jetpack Compose Glimmer**, a new UI framework specifically designed for transparent displays and AI glasses — marking Google's most concrete step yet toward what it calls the "spatial computing" era.
+
+#
+
+For over a decade, Google designers have explored how to build interfaces for transparent displays. The result is Glimmer: a complete rebuild of Jetpack Compose tailored for the unique challenges of augmented reality — where UIs must coexist with the real world, not replace it.
+
+## Beyond the Rectangular Screen
+
+Traditional UI frameworks assume a fundamental reality: you control every pixel on the screen. Transparent displays shatter that assumption. When users look through their glasses at the real world, the UI overlays dynamic content onto a constantly changing background.
+
+Glimmer addresses this with several key innovations:
+
+- **Depth-aware layouts** that adjust spacing based on perceived distance
+- **Ambient light compensation** for readable text in any environment  
+- **Gaze-aware components** that respond to where the user is looking
+- **Minimal cognitive load** principles baked into every widget
+
+## Why This Matters Now
+
+The timing is significant. The AI glasses market is heating up:
+
+- **Meta's Ray-Ban partnership** has sold millions of AI-enabled glasses
+- **Google's own Android XR** platform is launching later this year
+- **Apple's rumored AR glasses** continue to develop in secret
+- **Startup Humane** (and now others) are pushing pin-style AI wearables
+
+Each of these devices faces the same fundamental problem: how do you design interfaces for something users wear on their face? Glimmer is Google's answer.
+
+## Technical Foundation
+
+Glimmer builds on Jetpack Compose, Google's modern declarative UI toolkit for Android. Developers familiar with Compose can leverage existing skills while learning new spatial patterns:
+
+```kotlin
+// Glimmer introduces SpatialColumn, SpatialRow
+SpatialColumn(
+    modifier = Modifier.gazeTarget(),
+    depth = Depth.Near // Adjusts for viewing distance
+) {
+    Text("Incoming call")
+    GazeButton("Accept") { /* ... */ }
+}
+```
+
+The framework includes tools for:
+- Simulating spatial layouts in traditional emulators
+- Testing gaze-aware interactions
+- Previewing ambient light compensation
+
+## The Agent Connection
+
+There's a deeper play here. As AI agents become capable of seeing and reasoning about the world through camera feeds, they'll need interfaces to communicate with users. Glimmer is positioned as the presentation layer for **agentic experiences** — where an AI assistant might highlight objects in your view, provide real-time translations of signs, or surface contextual information about people you meet.
+
+This connects to Google's broader agent strategy: the delegation framework DeepMind announced last month, the Project Astra multimodal assistant, and the emerging agentic web.
+
+## Ecosystem Implications
+
+For developers, Glimmer signals a new platform opportunity — much like the iPhone App Store in 2008 or Android tablets in 2010. Early movers building spatial UIs for AI glasses could establish presence in what analysts predict will be a **$50B+ market by 2030**.
+
+Google is making Glimmer available as an early preview for developers building on Android XR. The company plans to open-source core components later this year.
+
+## The Bigger Picture
+
+Glimmer represents something interesting about Google's strategy: rather than leading with hardware, it's building the software layer first. The framework will work across devices — Meta glasses, future Android XR hardware, third-party wearables — creating a consistent UI platform that could become the "web of spatial computing."
+
+Whether users actually want to interact with AI through face-worn displays remains an open question. But Google is clearly betting the answer is yes — and it's building the toolkit for whoever gets there first.
