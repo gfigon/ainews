@@ -1,0 +1,47 @@
+---
+title: "India AI Summit 2026: Google Pledges $15B, Jio Commits ₹10 Lakh Crore"
+description: "PM Modi opens India's largest AI summit with calls for ethical AI as global tech giants announce massive investments."
+date: "2026-02-19 08:45"
+categories: [Industry News, AI Policy]
+slug: "india-ai-summit-investments"
+---
+
+The India AI Impact Summit 2026 kicked off Thursday at Bharat Mandapam in New Delhi, with Prime Minister Narendra Modi addressing a gathering of global tech leaders, including OpenAI CEO Sam Altman, Google CEO Sundar Pichai, Microsoft Vice Chair Brad Smith, and Anthropic CEO Dario Amodei. The summit has already yielded major announcements that position India as a central hub for global AI development.
+
+## Google's $15 Billion India Play
+
+Sundar Pichai announced Google is establishing a full-stack AI hub in India as part of a $15 billion investment commitment. The investment will support India's ambition to become a global AI powerhouse, focusing on infrastructure, research partnerships, and talent development.
+
+"We are at an inflection point where India can lead not just in AI adoption but in AI innovation," Pichai said during his address. The hub will reportedly include data centers, research facilities, and skilling initiatives aimed at developing India's domestic AI workforce.
+
+## Jio's Historic ₹10 Lakh Crore Pledge
+
+In one of the largest corporate AI commitments from India, Mukesh Ambani announced that Jio (Reliance Jio) will invest ₹10 lakh crore (approximately $120 billion) over the coming years to build out AI infrastructure and services. The investment will cover data centers, cloud infrastructure, and AI-powered services across Jio's telecom and digital ecosystem.
+
+## OpenAI Partners with JioHotstar
+
+Sam Altman took the stage alongside representatives from JioHotstar to announce a partnership that will bring ChatGPT-powered conversational streaming to Indian users. The collaboration aims to revolutionize how Indian audiences interact with content, using AI to enable natural language queries and recommendations within the streaming platform.
+
+## Modi's Three-Point Vision for Ethical AI
+
+PM Modi delivered a keynote outlining India's vision for responsible AI development. His three key suggestions included:
+
+1. **Trusted Data Framework**: Developing a global framework for AI training data that respects data sovereignty while ensuring quality and reliability
+2. **Glass Box Approach**: Making AI safety rules transparent and verifiable rather than opaque
+3. **Human Values in AI**: Embedding clear human values and guidance to prevent scenarios where AI pursues narrow goals at humanity's expense
+
+"AI is a shared resource for the benefit of all humanity," Modi said. "Together, we must create an AI future that advances innovation, strengthens inclusion, and moves forward by incorporating human values."
+
+## Demis Hassabis: AGI on the Horizon
+
+Google DeepMind CEO Demis Hassabis provided his most explicit statement yet on the timeline for artificial general intelligence, saying we are "at a threshold moment with AGI on the horizon." His remarks came alongside his prediction that India will become "a powerhouse for Artificial Intelligence across the world."
+
+## The Democratic AI Imperative
+
+A recurring theme throughout the summit was the push for democratic AI development. Sam Altman stated that "democratization of AI is the only safe path forward" and emphasized that "tools and wealth are not enough—we need to give them agency and power." Dario Amodei noted that while AI will benefit the Global South, the risks remain real and must be addressed proactively.
+
+## What's Next
+
+The summit continues through February 21, with additional announcements expected on AI talent development, startup support, and international collaborations. With over $130 billion in combined commitments announced on day one, India's AI ambitions have never been clearer—and the world's tech giants are paying attention.
+
+**Links**: [Live Coverage - Mint](https://www.livemint.com/technology/ai-summit-delhi-2026-live-updates) | [India AI Summit Official](https://indiaai.gov.in)
