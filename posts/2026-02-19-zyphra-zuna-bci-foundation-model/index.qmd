@@ -1,0 +1,58 @@
+---
+title: "ZUNA: The First Foundation Model for Brain Signals Arrives"
+description: "Zyphra's 380M-parameter BCI model brings the transformative power of foundation models to EEG data, enabling thought-to-text from any EEG setup."
+date: "2026-02-19 08:00"
+categories: [Research Highlights, BCI & Neurotech]
+slug: "zyphra-zuna-bci-foundation-model"
+---
+
+Brain-computer interfaces (BCIs) are having their "foundation model" moment. Zyphra, the research lab behind the popular Zaria and Fuse language models, has released **ZUNA**, a 380M-parameter foundation model specifically designed for EEG (electroencephalography) signals. This marks a significant milestone: the application of the transformer-era playbook—large-scale pretraining, generalization across domains, and zero-shot capability—to the messy, heterogeneous world of brain data.
+
+## The Wild West of EEG Data
+
+For decades, EEG research has struggled with a fundamental problem: fragmentation. Different labs use different equipment, different channel counts, and different electrode placements. A model trained on a 32-channel setup simply doesn't work on a 64-channel system—or worse, on the sparse consumer-grade headsets now hitting the market.
+
+Most deep learning approaches treat this as a fixed-layout problem. They train on specific channel configurations and hope for transfer. But the real world doesn't work that way. Zyphra's insight: **treat brain signals as spatially grounded data** rather than abstract time series.
+
+## 4D RoPE: Mapping Brain Activity in Space and Time
+
+ZUNA introduces a **4D Rotary Positional Encoding (4D RoPE)** that maps each EEG reading across four dimensions: three spatial coordinates (x, y, z representing the electrode's position on the scalp) and one temporal index.
+
+This elegant approach means the model understands the physical geometry of the head. It can "imagine" what signal should exist at any point on the scalp—even where no electrode is present. Each token represents just 0.125 seconds (32 samples at 256 Hz), creating a fine-grained representation that captures the rapid dynamics of neural activity.
+
+## Training as Channel Infilling
+
+ZUNA uses a **masked diffusion auto-encoder** architecture. During training, Zyphra applied an aggressive 90% channel-dropout: they randomly masked out most electrodes and asked the model to reconstruct the full signal from only 10% of channels.
+
+This forced the model to learn deep cross-channel correlations—understanding how activity in one brain region relates to activity in another. The diffusion decoder then generates the reconstructed signal, handling the continuous, real-valued nature of EEG data.
+
+## Scale: 2 Million Channel-Hours
+
+Foundation models need foundation-scale data. Zyphra assembled a harmonized corpus spanning **208 public datasets**, totaling approximately **2 million channel-hours** of EEG recordings and over **24 million non-overlapping 5-second samples**.
+
+The preprocessing pipeline standardized everything to 256 Hz, applied high-pass filtering at 0.5 Hz, and used adaptive notch filtering to remove line noise. The result: a model that has "seen" more brain data than any researcher could process in a lifetime.
+
+## Killing the Spherical Spline
+
+For years, the gold standard for interpolating missing EEG channels has been **spherical-spline interpolation**—a geometric technique that assumes smooth spatial gradients. It works reasonably well for small gaps but degrades rapidly when many channels are missing.
+
+ZUNA consistently outperforms spherical splines across benchmarks including the ANPHY-Sleep dataset and BCI2000 motor-imagery data. The gap widens dramatically at higher dropout rates. Even at extreme 90% dropout—essentially 10x upsampling—ZUNA maintains high reconstruction fidelity while spline methods fall apart.
+
+## Why It Matters
+
+This isn't just an academic exercise. ZUNA enables:
+
+- **Universal BCI applications**: Build once, run on any EEG headset from 2 to 256 channels
+- **Consumer-grade brain-computer interfaces**: Compensate for the sparse sensors in consumer devices
+- **Robust to electrode failure**: Maintain accuracy even when electrodes shift or disconnect
+- **Cross-dataset transfer**: Apply models trained on one dataset to entirely different setups
+
+The model weights are released under an Apache 2.0 license, with an MNE-compatible inference stack making it trivial to integrate into existing EEG workflows.
+
+## The Bigger Picture
+
+ZUNA represents a pattern we're seeing across AI: foundation models eating their way through new data modalities. Just as language models generalized across text and vision models generalized across images, ZUNA brings that same generalization principle to neural signals.
+
+The implications extend beyond research. As consumer EEG devices proliferate—用于 health monitoring, meditation, and eventually thought-based computing—the ability to run sophisticated analysis on sparse, noisy data becomes critical. ZUNA is the first building block for that future.
+
+**Links**: [Paper](https://www.zyphra.com/zuna-technical-paper) | [Technical Details](https://www.zyphra.com/post/zuna) | [GitHub](https://github.com/Zyphra/zuna) | [Model Weights](https://huggingface.co/Zyphra/ZUNA)
