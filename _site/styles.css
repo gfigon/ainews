@@ -40,14 +40,23 @@ body {
   text-shadow: none !important;
 }
 
-.listing-date {
+.listing-title a {
   color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.listing-title a:hover {
+  color: #58a6ff !important;
+}
+
+.listing-date {
+  color: #e6edf3 !important;
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 .listing-description {
-  color: #d0d7de !important;
+  color: #c9d1d9 !important;
   font-size: 1rem;
   line-height: 1.5;
 }
