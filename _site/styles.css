@@ -34,21 +34,20 @@ body {
 
 .listing-title {
   color: #ffffff !important;
-  font-weight: 900 !important;
-  font-size: 1.7rem;
+  font-weight: 700 !important;
+  font-size: 1.6rem;
   line-height: 1.3;
-  text-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
-  margin-bottom: 8px;
+  text-shadow: none !important;
 }
 
 .listing-date {
-  color: #e6edf3 !important;
+  color: #ffffff !important;
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 .listing-description {
-  color: #c9d1d9 !important;
+  color: #d0d7de !important;
   font-size: 1rem;
   line-height: 1.5;
 }
