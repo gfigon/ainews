@@ -61,6 +61,11 @@ body {
   line-height: 1.5;
 }
 
+.listing-description a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
 .navbar {
   border-bottom: 1px solid #30363d;
 }
