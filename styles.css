@@ -33,23 +33,37 @@ body {
 }
 
 .listing-title {
-  color: #f0f6fc !important;
-  font-weight: 900 !important;
-  font-size: 1.7rem;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 1.6rem;
   line-height: 1.3;
-  text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+  text-shadow: none !important;
+}
+
+.listing-title a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.listing-title a:hover {
+  color: #58a6ff !important;
 }
 
 .listing-date {
-  color: #c9d1d9 !important;
+  color: #e6edf3 !important;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .listing-description {
-  color: #8b949e !important;
+  color: #ffffff !important;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.listing-description a {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 .navbar {

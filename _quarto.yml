@@ -38,6 +38,8 @@ format:
     title-separator: " | "
     include-before-body: includes/after-body.html
     date-format: "YYYY-MM-DD HH:mm"
+    filters:
+      - filters/nofollow.lua
 
 editor: visual
 
