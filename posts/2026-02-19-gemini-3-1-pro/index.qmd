@@ -1,0 +1,40 @@
+---
+title: "Google Launches Gemini 3.1 Pro with Advanced Reasoning Capabilities"
+date: "2026-02-19 14:00"
+categories: [LLMs & Models]
+pagitle: "Google Launches Gemini 3.1 Pro with Advanced Reasoning"
+description: "Google announces Gemini 3.1 Pro - a significant upgrade to its flagship AI model with improved reasoning capabilities, achieving 77.1% on ARC-AGI-2 benchmark."
+keywords: "Google, Gemini, AI, LLM, reasoning, model"
+image: /posts/2026-02-19-gemini-3-1-pro/image.svg
+---
+
+Google has unveiled **Gemini 3.1 Pro**, an upgraded version of its flagship AI model designed for complex problem-solving tasks. The release builds upon the Gemini 3 series and represents what Google calls "a step forward in core reasoning."
+
+## Key Improvements
+
+The most notable achievement is the model's performance on **ARC-AGI-2**, a benchmark evaluating a model's ability to solve entirely new logic patterns. Gemini 3.1 Pro achieved a verified score of **77.1%**, which Google states is more than double the reasoning performance of its predecessor, Gemini 3 Pro.
+
+## Availability
+
+Gemini 3.1 Pro is rolling out across multiple platforms:
+
+- **Developers**: Gemini API via Google AI Studio, Gemini CLI, Google Antigravity, and Android Studio
+- **Enterprises**: Vertex AI and Gemini Enterprise  
+- **Consumers**: Gemini app (for Google AI Pro and Ultra plan holders) and NotebookLM (Pro and Ultra users)
+
+## Use Cases
+
+Google highlights several practical applications where the improved intelligence shines:
+
+- **Complex system synthesis**: Bridging the gap between complex APIs and user-friendly design, such as building live aerospace dashboards
+- **Interactive design**: Creating immersive 3D experiences with user manipulation capabilities
+- **Creative coding**: Translating literary themes into functional, modern web interfaces
+
+## What's Next
+
+Google is releasing Gemini 3.1 Pro in preview to validate updates and continue advancements in agentic workflows before making it generally available. The company states that user feedback and the rapid pace of progress have driven these improvements since the Gemini 3 Pro release in November 2025.
+
+The launch positions Google to compete more aggressively in the AI model race, particularly against emerging competitors in the reasoning and complex task handling space.
+
+---
+*Sources: [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/){rel="nofollow"} | [Ars Technica](https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/){rel="nofollow"} | [9to5Google](https://9to5google.com/2026/02/19/google-announces-gemini-3-1-pro-for-complex-problem-solving/){rel="nofollow"}*
