@@ -1,0 +1,45 @@
+---
+title: "NVIDIA Dynamo v0.9.0 Transforms Distributed Inference Infrastructure"
+date: "2026-02-20"
+categories:
+  - AI Infrastructure
+  - NVIDIA
+  - Distributed Systems
+---
+
+NVIDIA has released Dynamo v0.9.0, the most significant infrastructure upgrade for its distributed inference framework to date. This release simplifies how large-scale AI models are deployed and managed, with a particular focus on removing heavy dependencies and improving multi-modal processing capabilities.
+
+## The Great Simplification: Removing NATS and etcd
+
+The most notable change in v0.9.0 is the removal of NATS and ETCD. In previous versions, these tools handled service discovery and messaging but added what NVIDIA calls "operational tax" — requiring developers to manage extra clusters.
+
+The replacement is a new Event Plane and Discovery Plane that uses ZMQ (ZeroMQ) for high-performance transport and MessagePack for data serialization. For teams using Kubernetes, Dynamo now supports Kubernetes-native service discovery, making the infrastructure leaner and easier to maintain in production environments.
+
+## Multi-Modal Support and the E/P/D Split
+
+Dynamo v0.9.0 expands multi-modal support across three major backends: vLLM, SGLang, and TensorRT-LLM. This enables models to process text, images, and video more efficiently.
+
+A key feature is the E/P/D (Encode/Prefill/Decode) split. In standard setups, a single GPU often handles all three stages, causing bottlenecks during heavy video or image processing. Version 0.9.0 introduces Encoder Disaggregation, allowing the Encoder to run on separate GPUs from Prefill and Decode workers. This lets teams scale hardware based on specific model needs.
+
+## FlashIndexer Preview
+
+This release includes a sneak preview of FlashIndexer, designed to solve latency issues in distributed KV cache management. When working with large context windows, moving Key-Value data between GPUs is slow. FlashIndexer improves how the system indexes and retrieves cached tokens, resulting in lower Time to First Token (TTFT).
+
+## Smart Routing with Kalman Filters
+
+Managing traffic across hundreds of GPUs is challenging. Dynamo v0.9.0 introduces a smarter Planner that uses predictive load estimation powered by Kalman filters. The system predicts future load based on past performance and supports routing hints from the Kubernetes Gateway API Inference Extension (GAIE).
+
+## Technical Stack Updates
+
+The v0.9.0 release updates several core components:
+
+| Component | Version |
+|-----------|---------|
+| vLLM | v0.14.1 |
+| SGLang | v0.5.8 |
+| TensorRT-LLM | v1.3.0rc1 |
+| NIXL | v0.9.0 |
+
+The dynamo-tokens crate (written in Rust) ensures high-speed token handling, while NIXL continues to handle RDMA-based GPU communication.
+
+This release marks a significant step toward making distributed inference feel as fast as local inference — particularly important as organizations deploy increasingly large AI models across GPU clusters.
