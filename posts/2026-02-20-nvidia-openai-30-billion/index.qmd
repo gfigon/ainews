@@ -1,0 +1,49 @@
+---
+title: "NVIDIA in Talks to Invest $30 Billion in OpenAI"
+description: "NVIDIA is in discussions to invest up to $30 billion in OpenAI as part of a funding round that could value the AI startup at $730 billion — a deal that would deepen the already complex relationship between the AI chip giant and the world's most valuable AI company."
+date: "2026-02-20 08:00"
+categories: [Industry News]
+slug: "nvidia-openai-30-billion"
+---
+
+NVIDIA is in discussions to invest up to $30 billion in OpenAI as part of a funding round that could value the AI startup at a staggering $730 billion pre-money valuation, CNBC has confirmed. The deal, if finalized, would represent one of the largest private investments in tech history and would further entrench NVIDIA as the essential infrastructure provider for the AI industry.
+
+## A Different Deal Altogether
+
+This $30 billion investment is separate from the $100 billion infrastructure agreement that OpenAI and NVIDIA announced in September 2025, according to a source familiar with the matter who asked not to be named because the discussions are confidential. Unlike the earlier deal, which was structured around deployment milestones tied to bringing new supercomputing facilities online, the $30 billion investment is not tied to any specific milestones.
+
+The September announcement, which sent shockwaves through the tech sector and sparked a flurry of subsequent infrastructure deals, outlined a structure where NVIDIA would invest in OpenAI over several years. At the time, a source told CNBC that NVIDIA's first investment of $10 billion would be deployed when its first gigawatt of computing capacity was completed.
+
+## Questions About the Original Deal
+
+Questions about the status of the original $100 billion infrastructure agreement have been swirling in recent months. In January, the Wall Street Journal reported that the deal was "on ice" — a surprising development given the fanfare with which it was announced.
+
+NVIDIA addressed these concerns during an earnings call in November, stating there was "no assurance" that they would enter into definitive agreements with the OpenAI opportunity or other potential investments. CEO Jensen Huang, however, left the door wide open, telling CNBC's Jim Cramer earlier this month that there was "no question" that NVIDIA would invest in OpenAI's next funding round.
+
+OpenAI CEO Sam Altman tried to shrug off concerns about the deal, posting on X that the company loves working with NVIDIA and that he doesn't "get where all this insanity is coming from."
+
+## The Bigger Funding Picture
+
+OpenAI is engaging in fundraising discussions with other investors beyond NVIDIA, and the total round could close at around $100 billion, as CNBC previously reported. The talks have accelerated in recent weeks, but have not been finalized.
+
+The startup's funding round could close in two parts:
+- First, investments from strategic partners like Amazon, Microsoft, and NVIDIA
+- Then, contributions from a broader pool of investors
+
+This two-phase approach would allow major infrastructure providers to lock in their positions before opening the round to other investors.
+
+## Why This Matters
+
+The potential $30 billion investment underscores just how critical NVIDIA has become to the AI ecosystem. Despite competition from AMD, Intel, and emerging custom chip players, NVIDIA's GPU dominance in AI training means that companies building frontier models essentially cannot succeed without their hardware.
+
+For OpenAI, the investment represents not just capital but also a vote of confidence — and potentially preferential access to the GPUs that are essentially the lifeblood of AI model development. With demand for NVIDIA's chips far exceeding supply, having a deep relationship with the company is a strategic advantage.
+
+The deal would also further blur the lines between AI infrastructure and AI application — a trend that's drawing increasing scrutiny from regulators concerned about concentration of power in the AI industry.
+
+## What's Next
+
+The $30 billion deal is not final and the details are still subject to change, the source said. But if completed, it would mark another milestone in the unprecedented AI investment cycle that's reshaping the technology landscape.
+
+OpenAI's valuation would soar to around $830 billion post-money (including the new investment), making it arguably the most valuable private company in the world — ahead of most publicly traded tech giants.
+
+**Links**: [CNBC Report](https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html) | [Financial Times (Original Report)](https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323) | [September Infrastructure Deal](https://www.cnbc.com/2025/09/22/nvidia-openai-data-center.html)
