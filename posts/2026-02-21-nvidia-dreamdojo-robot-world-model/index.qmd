@@ -1,0 +1,53 @@
+---
+title: "NVIDIA DreamDojo: A World Model Trained on 44,711 Hours of Human Video"
+date: "2026-02-21"
+categories:
+  - Robotics
+  - World Models
+  - NVIDIA
+---
+
+NVIDIA has released DreamDojo, an open-source robot world model trained on 44,711 hours of egocentric human video—the largest dataset of its kind for world model pretraining. This represents a major step toward solving one of robotics' most persistent challenges: the data bottleneck.
+
+## The Data Problem in Robotics
+
+Building simulators for robots has traditionally required manual coding of physics and perfect 3D models. Collecting robot-specific data is expensive and slow, limiting how quickly robotic systems can learn new tasks. DreamDojo takes a fundamentally different approach: it learns directly from human videos, bypassing the need for expensive robot data collection.
+
+The dataset, called DreamDojo-HV, contains 6,015 unique tasks across over one million trajectories, covering 9,869 unique scenes and 43,237 unique objects. Pretraining required 100,000 NVIDIA H100 GPU hours to build both 2B and 14B model variants.
+
+## Latent Actions: Translating Human Motion to Robot Control
+
+Human videos don't come with robot motor commands. NVIDIA solved this with continuous latent actions—a system using a spatiotemporal Transformer VAE that extracts actions directly from pixels. The VAE encoder takes two consecutive frames and outputs a 32-dimensional latent vector representing the most critical motion between frames.
+
+This creates an information bottleneck that disentangles action from visual context, allowing the model to learn physics from humans and apply them to different robot bodies—a crucial capability for generalization.
+
+## Architecture Improvements
+
+DreamDojo builds on the Cosmos-Predict2.5 latent video diffusion model using the WAN2.2 tokenizer with a temporal compression ratio of 4. The team added three key improvements:
+
+- **Relative Actions**: Using joint deltas instead of absolute poses makes it easier for the model to generalize across different trajectories.
+
+- **Chunked Action Injection**: Four consecutive actions are injected into each latent frame, aligning with the tokenizer's compression ratio and fixing causality confusion.
+
+- **Temporal Consistency Loss**: A new loss function matches predicted frame velocities to ground-truth transitions, reducing visual artifacts and keeping objects physically consistent.
+
+## Real-Time Performance Through Distillation
+
+Standard diffusion models require too many denoising steps for real-time use. NVIDIA used a Self Forcing distillation pipeline—training on 64 NVIDIA H100 GPUs—to reduce denoising from 35 steps down to just 4. The final model achieves 10.81 FPS and remains stable for continuous rollouts of 60 seconds (600 frames).
+
+## Results That Matter
+
+DreamDojo's accuracy opens several practical applications:
+
+| Metric | DreamDojo-2B | DreamDojo-14B |
+|--------|--------------|---------------|
+| Physics Correctness | 62.50% | 73.50% |
+| Action Following | 63.45% | 72.55% |
+
+For policy evaluation, DreamDojo's simulated success rates show a Pearson correlation of 0.995 with real-world results. In model-based planning for a fruit-packing task, it improved real-world success rates by 17% compared to random sampling.
+
+## Open Source Release
+
+NVIDIA has released all weights, training code, and evaluation benchmarks under an open-source license. This allows developers to post-train DreamDojo on their own robot data, potentially accelerating progress across the entire robotics field.
+
+The dream of general-purpose robots just got a little closer to reality.
