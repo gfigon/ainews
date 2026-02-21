@@ -368,6 +368,22 @@
       "slugs": [
         "2026-02-21-deepmind-memory-famine"
       ]
+    },
+    {
+      "term": "GGML llama.cpp Hugging Face",
+      "count": 1,
+      "last_published": "2026-02-21",
+      "slugs": [
+        "2026-02-21-ggml-llamacpp-huggingface"
+      ]
+    },
+    {
+      "term": "Local AI Inference",
+      "count": 1,
+      "last_published": "2026-02-21",
+      "slugs": [
+        "2026-02-21-ggml-llamacpp-huggingface"
+      ]
     }
   ]
 }
