@@ -352,6 +352,22 @@
       "slugs": [
         "2026-02-21-nvidia-dreamdojo-robot-world-model"
       ]
+    },
+    {
+      "term": "DeepMind Memory Famine",
+      "count": 1,
+      "last_published": "2026-02-21",
+      "slugs": [
+        "2026-02-21-deepmind-memory-famine"
+      ]
+    },
+    {
+      "term": "HBM Memory Shortage",
+      "count": 1,
+      "last_published": "2026-02-21",
+      "slugs": [
+        "2026-02-21-deepmind-memory-famine"
+      ]
     }
   ]
 }
