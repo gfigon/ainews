@@ -400,6 +400,14 @@
       "slugs": [
         "2026-02-22-gemini-3-1-pro-reasoning"
       ]
+    },
+    {
+      "term": "Claude Code Security",
+      "count": 1,
+      "last_published": "2026-02-22",
+      "slugs": [
+        "2026-02-22-claude-code-security"
+      ]
     }
   ]
 }
