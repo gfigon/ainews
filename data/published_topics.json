@@ -408,6 +408,22 @@
       "slugs": [
         "2026-02-23-taalas-hardwired-ai-chips"
       ]
+    },
+    {
+      "term": "ByteDance MOLE-SYN",
+      "count": 1,
+      "last_published": "2026-02-23",
+      "slugs": [
+        "2026-02-23-bytedance-mole-syn-molecular-reasoning"
+      ]
+    },
+    {
+      "term": "Molecular Bonds AI Reasoning",
+      "count": 1,
+      "last_published": "2026-02-23",
+      "slugs": [
+        "2026-02-23-bytedance-mole-syn-molecular-reasoning"
+      ]
     }
   ]
 }
