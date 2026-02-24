@@ -472,6 +472,14 @@
       "slugs": [
         "2026-02-24-deepseek-v4-launch"
       ]
+    },
+    {
+      "term": "RAG vs Context Stuffing",
+      "count": 1,
+      "last_published": "2026-02-24",
+      "slugs": [
+        "2026-02-24-rag-vs-context-stuffing"
+      ]
     }
   ]
 }
