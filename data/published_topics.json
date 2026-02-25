@@ -488,6 +488,30 @@
       "slugs": [
         "2026-02-25-anthropic-pentagon-friday-deadline"
       ]
+    },
+    {
+      "term": "Meta AMD $100B Deal",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-meta-amd-100-billion-ai-deal"
+      ]
+    },
+    {
+      "term": "AMD MI540 GPUs",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-meta-amd-100-billion-ai-deal"
+      ]
+    },
+    {
+      "term": "Personal Superintelligence",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-meta-amd-100-billion-ai-deal"
+      ]
     }
   ]
 }

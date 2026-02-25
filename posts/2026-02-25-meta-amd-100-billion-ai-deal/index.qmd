@@ -1,0 +1,42 @@
+---
+title: "Meta Strikes Historic $100B AMD Deal to Chase 'Personal Superintelligence'"
+date: "2026-02-25 08:45"
+categories:
+  - Industry News
+  - AI Hardware
+---
+
+Meta has announced a landmark multiyear agreement with AMD worth up to $100 billion, marking one of the largest chip deals in technology history. The partnership will deliver roughly six gigawatts of AI computing power to fuel Meta's ambitious pursuit of "personal superintelligence."
+
+## The Deal Details
+
+Under the agreement, Meta will purchase AMD's MI540 series GPUs and the latest generation of 6th Gen AMD EPYC CPUs, codenamed "Venice." Shipments are scheduled to begin in the second half of 2026, built on AMD's Helios rack-scale architecture running ROCm software.
+
+ AMD CEO Lisa Su issued Meta performance-based warrants for up to 160 million shares of AMD common stock—approximately 10% of the company—at $0.01 per share. The full stock award is conditional on AMD's share price reaching $600 for the final tranche.
+
+"We're seeing significant demand for CPU in AI infrastructure deployments," said Lisa Su during an investor briefing. "As inference scales and agentic AI scales, our portfolio is in an extremely good position."
+
+## Diversification Strategy
+
+The deal represents Meta's continued effort to reduce reliance on Nvidia, which has dominated the AI chip market. Last month, Meta struck a separate multiyear deal with Nvidia to expand its data centers with millions of the company's latest CPUs and GPUs.
+
+"We believe this partnership is an important step as we work to diversify our compute and achieve our goal of personal superintelligence," said Meta CEO Mark Zuckerberg, defining the concept as AI systems designed to deeply understand and empower individuals in everyday life.
+
+## Massive Infrastructure Investment
+
+The AMD partnership is part of Meta's unprecedented $600 billion U.S. data center investment pledge over the next several years. The company projects capital expenditure of $135 billion in 2026 alone, recently unveiling plans for a $10 billion gas-powered data center campus in Indiana designed for 1 gigawatt of compute capacity.
+
+AMD stock closed at $213.84 on Tuesday, up 8.77% following the announcement. Analysts at Wolfe Research estimate the full 6GW deal could generate $90 to $120 billion in revenue for AMD over time.
+
+## The Growing AI Chip Race
+
+The Meta-AMD deal underscores the intensifying competition among tech giants to secure AI computing resources. With Nvidia facing ongoing supply constraints, companies are actively diversifying their supplier base. AMD has now secured major partnerships with both Meta and OpenAI in recent months, positioning itself as the primary alternative to Nvidia's market dominance.
+
+The agreement also highlights the growing importance of CPUs in the AI inference stack—valued for their efficiency, scalability, and ability to reduce dependency on a single GPU vendor.
+
+## Sources
+
+- [TechCrunch: Meta strikes up to $100B AMD chip deal](https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/)
+- [CNBC: Meta to use 6GW of AMD GPUs](https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html)
+- [Fortune: Lisa Su makes AMD an even bigger Nvidia competitor](https://fortune.com/2026/02/24/amd-meta-100-billion-deal-ai-chips-lisa-su-nvidia/)
+- [The Guardian: Meta agrees $60bn deal with AMD](https://www.theguardian.com/technology/2026/feb/24/meta-amd-deal-chipmaker-ai-bubble-fears)
