@@ -1,0 +1,46 @@
+---
+title: "AI Chip Startups Soak Up $1.1B in VC Funding as Investors Chase Nvidia Alternatives"
+date: "2026-02-25 10:15"
+categories:
+  - AI Hardware
+  - Industry News
+  - Funding
+---
+
+AI chip startups collectively walked away with more than a billion dollars in new capital on Tuesday, demonstrating that venture capitalists remain bullish on challengers to Nvidia's dominant market position—even as experts debate whether the broader AI sector is headed for a bubble.
+
+## MatX Leads with $500M Round
+
+The largest chunk of funding went to MatX, a startup founded in 2022 by former Google engineers Reiner Pope and Mike Gunter. The company raised $500 million in a Series B round led by Jane Street and Situational Awareness LP.
+
+MatX aims to ship its first chip—the MatX One, an LLM-optimized accelerator—later this year. Unlike many AI startups that focus primarily on inference, MatX says its chip will handle pre-training, reinforcement learning, and both inference prefill and decode stages.
+
+The company's design combines SRAM and HBM memory in what it calls a "split systolic array" architecture. MatX claims this approach will deliver the highest "FLOPS per mm2" and scale to "hundreds of thousands of chips."
+
+"SRAM is orders of magnitude faster than the HBM used by AMD or Nvidia," the company explained. MatX expects its first chip to deliver more than 2,000 tokens per second for large 100-layer mixture-of-experts models. The tradeoff is that SRAM isn't space-efficient—largest dies can only fit a few hundred megabytes—but MatX plans to use HBM for storing the model's key-value caches.
+
+## Axelera Secures $250M for Edge AI
+
+Dutch startup Axelera announced a $250 million funding round led by Innovation Industries to advance its low-power RISC-V based AI accelerators.
+
+While MatX targets the data center, Axelera focuses on edge workloads. Its Europa and Metis AI accelerators are designed for power-constrained applications like computer vision and robotics, though the company aims to scale up to data center performance.
+
+The Europa chip delivers up to 629 TOPS of INT8 compute while consuming just 45 watts—roughly one-sixth the power of an Nvidia A100. The company is now developing a new chip codenamed Titania, in partnership with the EU's EuroHPC DARE program to create a domestic alternative to US chips for supercomputing.
+
+## SambaNova Lands $350M with Intel Partnership
+
+SambaNova received a $350 million cash infusion from Vista Equity, Cambium Capital, and Intel's investment fund. The funding coincided with a multi-year collaboration that will integrate Intel's Xeons into SambaNova's AI servers.
+
+The company also disclosed its next-generation SN50 accelerator, which SoftBank will deploy in Japanese data centers starting later this year.
+
+## The Bigger Picture
+
+The $1.1 billion in single-day funding underscores investor confidence in AI infrastructure alternatives. Despite growing concerns about an AI bubble—with Big Tech set to invest approximately $650 billion in AI in 2026 according to Bridgewater—venture capital continues flowing into hardware startups promising to break Nvidia's grip on the market.
+
+As AI inference scales and agentic AI applications grow, startups are positioning themselves to capture market share from the incumbent. The question remains whether any of these challengers can deliver on their ambitious performance claims.
+
+## Sources
+
+- [The Register: AI chip startups soak up $1.1B in VC funding](https://www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/)
+- [MatX Series B Announcement](https://matx.com/research/series_b)
+- [Axelera Funding Announcement](https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth)

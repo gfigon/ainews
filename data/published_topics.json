@@ -512,6 +512,38 @@
       "slugs": [
         "2026-02-25-meta-amd-100-billion-ai-deal"
       ]
+    },
+    {
+      "term": "AI Chip VC Funding $1.1B",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-ai-chip-vc-funding"
+      ]
+    },
+    {
+      "term": "MatX $500M",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-ai-chip-vc-funding"
+      ]
+    },
+    {
+      "term": "Axelera $250M",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-ai-chip-vc-funding"
+      ]
+    },
+    {
+      "term": "SambaNova $350M",
+      "count": 1,
+      "last_published": "2026-02-25",
+      "slugs": [
+        "2026-02-25-ai-chip-vc-funding"
+      ]
     }
   ]
 }
