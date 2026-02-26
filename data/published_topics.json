@@ -576,6 +576,30 @@
       "slugs": [
         "2026-02-26-anthropic-vercept-acquisition"
       ]
+    },
+    {
+      "term": "Hermes Agent Multi-Level Memory",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nous-hermes-agent-multi-level-memory"
+      ]
+    },
+    {
+      "term": "Nous Research Hermes Agent",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nous-hermes-agent-multi-level-memory"
+      ]
+    },
+    {
+      "term": "AI Agent Persistent Memory",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nous-hermes-agent-multi-level-memory"
+      ]
     }
   ]
 }
