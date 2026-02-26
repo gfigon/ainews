@@ -544,6 +544,30 @@
       "slugs": [
         "2026-02-25-ai-chip-vc-funding"
       ]
+    },
+    {
+      "term": "Nvidia Vera Rubin",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nvidia-vera-rubin"
+      ]
+    },
+    {
+      "term": "Vera Rubin 10x Efficiency",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nvidia-vera-rubin"
+      ]
+    },
+    {
+      "term": "Vera Rubin Liquid Cooling",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-nvidia-vera-rubin"
+      ]
     }
   ]
 }
