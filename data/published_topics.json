@@ -568,6 +568,14 @@
       "slugs": [
         "2026-02-26-nvidia-vera-rubin"
       ]
+    },
+    {
+      "term": "Anthropic Vercept Acquisition",
+      "count": 1,
+      "last_published": "2026-02-26",
+      "slugs": [
+        "2026-02-26-anthropic-vercept-acquisition"
+      ]
     }
   ]
 }
