@@ -640,6 +640,22 @@
       "slugs": [
         "2026-02-27-meta-google-tpu-deal"
       ]
+    },
+    {
+      "term": "Microsoft Copilot Tasks",
+      "count": 1,
+      "last_published": "2026-02-27",
+      "slugs": [
+        "2026-02-27-microsoft-copilot-tasks"
+      ]
+    },
+    {
+      "term": "Agentic AI To-Do List",
+      "count": 1,
+      "last_published": "2026-02-27",
+      "slugs": [
+        "2026-02-27-microsoft-copilot-tasks"
+      ]
     }
   ]
 }
