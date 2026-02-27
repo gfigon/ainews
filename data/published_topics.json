@@ -616,6 +616,30 @@
       "slugs": [
         "2026-02-27-mistral-accenture-partnership"
       ]
+    },
+    {
+      "term": "Meta Google TPU Deal",
+      "count": 1,
+      "last_published": "2026-02-27",
+      "slugs": [
+        "2026-02-27-meta-google-tpu-deal"
+      ]
+    },
+    {
+      "term": "Google TPUs Meta Rental",
+      "count": 1,
+      "last_published": "2026-02-27",
+      "slugs": [
+        "2026-02-27-meta-google-tpu-deal"
+      ]
+    },
+    {
+      "term": "AI Chip Diversification",
+      "count": 1,
+      "last_published": "2026-02-27",
+      "slugs": [
+        "2026-02-27-meta-google-tpu-deal"
+      ]
     }
   ]
 }
