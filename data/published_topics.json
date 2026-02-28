@@ -672,6 +672,30 @@
       "slugs": [
         "2026-02-28-anthropic-pentagon-ban"
       ]
+    },
+    {
+      "term": "AT&T 8B Tokens AI",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-att-8-billion-tokens-ai-orchestration"
+      ]
+    },
+    {
+      "term": "Multi-Agent AI Orchestration",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-att-8-billion-tokens-ai-orchestration"
+      ]
+    },
+    {
+      "term": "Small Language Models Enterprise",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-att-8-billion-tokens-ai-orchestration"
+      ]
     }
   ]
 }
