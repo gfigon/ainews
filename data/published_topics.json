@@ -656,6 +656,22 @@
       "slugs": [
         "2026-02-27-microsoft-copilot-tasks"
       ]
+    },
+    {
+      "term": "Anthropic Pentagon Ban",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-anthropic-pentagon-ban"
+      ]
+    },
+    {
+      "term": "Enterprise AI Interoperability",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-anthropic-pentagon-ban"
+      ]
     }
   ]
 }
