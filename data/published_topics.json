@@ -696,6 +696,38 @@
       "slugs": [
         "2026-02-28-att-8-billion-tokens-ai-orchestration"
       ]
+    },
+    {
+      "term": "Sakana AI Doc-to-LoRA",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-sakana-ai-doc-to-lora"
+      ]
+    },
+    {
+      "term": "Sakana AI Text-to-LoRA",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-sakana-ai-doc-to-lora"
+      ]
+    },
+    {
+      "term": "Hypernetwork LLM Adaptation",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-sakana-ai-doc-to-lora"
+      ]
+    },
+    {
+      "term": "Context Internalization",
+      "count": 1,
+      "last_published": "2026-02-28",
+      "slugs": [
+        "2026-02-28-sakana-ai-doc-to-lora"
+      ]
     }
   ]
 }
