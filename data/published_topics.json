@@ -659,10 +659,11 @@
     },
     {
       "term": "Anthropic Pentagon Ban",
-      "count": 1,
-      "last_published": "2026-02-28",
+      "count": 2,
+      "last_published": "2026-03-01",
       "slugs": [
-        "2026-02-28-anthropic-pentagon-ban"
+        "2026-02-28-anthropic-pentagon-ban",
+        "2026-03-01-openai-pentagon-anthropic"
       ]
     },
     {
@@ -727,6 +728,30 @@
       "last_published": "2026-02-28",
       "slugs": [
         "2026-02-28-sakana-ai-doc-to-lora"
+      ]
+    },
+    {
+      "term": "OpenAI Pentagon Deal",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-openai-pentagon-anthropic"
+      ]
+    },
+    {
+      "term": "OpenAI Anthropic Rivalry",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-openai-pentagon-anthropic"
+      ]
+    },
+    {
+      "term": "Cancel ChatGPT Movement",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-openai-pentagon-anthropic"
       ]
     }
   ]

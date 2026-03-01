@@ -1,0 +1,40 @@
+---
+title: "OpenAI Wygrywa, Anthropic Traci: Co Oznacza Nowy Porządek w AI dla Wojska USA?"
+date: "2026-03-01 08:00"
+description: "Wielki zwrot w relacjach AI-Pentagon: OpenAI dostaje dostęp do klasyfikowanych sieci wojskowych, Anthropic zablokowany przez Trumpa. Analiza konsekwencji dla branży."
+tags: [OpenAI, Anthropic, Pentagon, military AI, Claude]
+---
+
+W piątek 28 lutego 2026 roku doszło do fundamentalnego przełomu w relacjach między wiodącymi firmami AI a amerykańskim Pentagonem. OpenAI ogłniło zawarcie umowy z Departamentem Obrony na dostarczenie swoich modeli AI do klasyfikowanych sieci wojskowych — dosłownie kilka godzin po tym, jak prezydent Donald Trump nakazał wszystkim agencjom federalnym natychmiastowe zaprzestanie korzystania z technologii Anthropic.
+
+## Konflikt Wartości: Masowy Nadzór i Autonomiczna Broń
+
+Sednem sporu między Anthropic a Pentagonem były kwestie etyczne. Firma stojąca za Claude domagała się gwarancji, że jej technologia nie będzie wykorzystywana do masowego nadzoru obywateli USA ani do autonomicznych systemów zbrojeniowych zdolnych zabijać bez interwencji człowieka.
+
+Pentagon odrzucił te warunki, stwierdzając że prywatny kontrahent nie może decydować o sposobie wykorzystania jego technologii. Dario Amodei, CEO Anthropic, stanowczo odmówił: „Żadna presja ani kara ze strony Pentagonu nie zmieni naszego stanowiska wobec masowego nadzoru wewnętrznego lub w pełni autonomicznej broni".
+
+## Reakcja Trumpa: „Lewackie Nieukry"
+
+Prezydent Trump ostro skrytykował Anthropic na swojej platformie Truth Social, nazywając firmę „lewackimi nieukami", którzy „popełnili katastrofalny błąd" próbując „dyktować" warunki Pentagonowi. Trump ogłosił natychmiastowe wstrzymanie wszelkich kontraktów rządowych z Anthropic.
+
+## OpenAI Przejmuje Kontakt
+
+Sam Altman, CEO OpenAI, ogłnił nowy kontrakt z Pentagonem w piątek wieczorem, zapewniając że umowa zawiera „zasady, które odzwierciedlają prawo i politykę" — w tym zakaz masowego nadzoru i autonomicznej broni.
+
+„Dwoma najważniejszymi zasadami bezpieczeństwa są zakazy dotyczące masowego nadzoru oraz odpowiedzialności człowieka za użycie siły, w tym systemów autonomicznych" — napisał Altman na X. Dodał, że Pentagon „zgadza się z tymi zasadami" i że OpenAI będzie dążyć do zaoferowania tych samych warunków wszystkim firmom AI.
+
+## Presja na Pracowników: List Otwarty
+
+W obronie Anthropic stanęli nawet rywale. Prawie 500 pracowników OpenAI i Google podpisało list otwarty z określeniem „nie damy się podzielić". List wskazuje, że Pentagon próbuje teraz wywrzeć presję na Google i OpenAI, aby zgodziły się na warunki, których odmówiło Anthropic.
+
+## Nowy Rozdział: AI w Służbie Wojskowej
+
+Umowa OpenAI z Pentagonem otwiera nowy rozdział w historii AI — wiodące komercyjne modele językowe będą teraz dostępne w środowiskach klasyfikowanych. Dla branży oznacza to legitymizację (lub kontrowersje, w zależności od punktu widzenia) wykorzystania AI w obronności.
+
+OpenAI jednocześnie zakończyło rundę finansowania o wartości 110 miliardów dolarów, wyceniając firmę na 840 miliardów dolarów.
+
+## Co Dalej?
+
+Pozostaje pytanie: czy decyzja Anthropic o odmowie współpracy okaże się strategicznym błędem, czy maybe postępowym precedensem? Rynek AI rozwija się w tempie niespotykanym w innych branżach — firmy decydujące się na współpracę z sektorem zbrojeniowym zyskują przewagę kontraktową, ale narażają się na krytykę społeczną.
+
+Jedno jest pewne: granica między AI komercyjnym a wojskowym uległa nieodwracalnemu rozmyciu.
