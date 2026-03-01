@@ -753,6 +753,30 @@
       "slugs": [
         "2026-03-01-openai-pentagon-anthropic"
       ]
+    },
+    {
+      "term": "Intuit Anthropic AI Agents",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-intuit-anthropic-ai-agents"
+      ]
+    },
+    {
+      "term": "Intuit Claude Code Deployment",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-intuit-anthropic-ai-agents"
+      ]
+    },
+    {
+      "term": "Personal Financial AI Agents",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-intuit-anthropic-ai-agents"
+      ]
     }
   ]
 }
