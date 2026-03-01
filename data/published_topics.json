@@ -777,6 +777,30 @@
       "slugs": [
         "2026-03-01-intuit-anthropic-ai-agents"
       ]
+    },
+    {
+      "term": "Perplexity Computer 19 Models",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-perplexity-computer-19-models"
+      ]
+    },
+    {
+      "term": "Multi-Model AI Orchestration",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-perplexity-computer-19-models"
+      ]
+    },
+    {
+      "term": "Perplexity Max $200/Month",
+      "count": 1,
+      "last_published": "2026-03-01",
+      "slugs": [
+        "2026-03-01-perplexity-computer-19-models"
+      ]
     }
   ]
 }
