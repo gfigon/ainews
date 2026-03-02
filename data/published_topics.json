@@ -801,6 +801,46 @@
       "slugs": [
         "2026-03-01-perplexity-computer-19-models"
       ]
+    },
+    {
+      "term": "NVIDIA Inference Chip Groq",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-nvidia-inference-chip-groq"
+      ]
+    },
+    {
+      "term": "Groq LPU Technology",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-nvidia-inference-chip-groq"
+      ]
+    },
+    {
+      "term": "NVIDIA GTC 2026",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-nvidia-inference-chip-groq"
+      ]
+    },
+    {
+      "term": "OpenAI Codex Chip",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-nvidia-inference-chip-groq"
+      ]
+    },
+    {
+      "term": "Meta CPU-only AI Deployment",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-nvidia-inference-chip-groq"
+      ]
     }
   ]
 }
