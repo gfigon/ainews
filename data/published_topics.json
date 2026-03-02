@@ -841,6 +841,30 @@
       "slugs": [
         "2026-03-02-nvidia-inference-chip-groq"
       ]
+    },
+    {
+      "term": "Claude Memory Import",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-anthropic-memory-import"
+      ]
+    },
+    {
+      "term": "Anthropic Memory Import Feature",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-anthropic-memory-import"
+      ]
+    },
+    {
+      "term": "AI Chatbot Migration",
+      "count": 1,
+      "last_published": "2026-03-02",
+      "slugs": [
+        "2026-03-02-anthropic-memory-import"
+      ]
     }
   ]
 }

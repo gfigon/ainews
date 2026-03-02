@@ -1,0 +1,36 @@
+---
+title: "Anthropic Uruchamia Funkcję Importu Pamięci w Claude: Przejście z ChatGPT Jeszcze Łatwiejsze"
+date: "2026-03-02 10:15"
+description: "Anthropic wprowadza nową funkcję umożliwiającą importowanie zapamiętanych kontekstów z innych chatbotów AI bezpośrednio do Claude. To strategiczny ruch w odpowiedzi na falę rezygnacji z ChatGPT."
+tags: [Anthropic, Claude, memory import, ChatGPT migration, AI switching, AI tools]
+---
+
+W odpowiedzi na rosnący trend „Cancel ChatGPT", Anthropic ogłosiło w poniedziałek nową funkcję, która może znacząco uprościć proces przejścia użytkowników do Claude. Firma wprowadziła możliwość importowania zapamiętanych kontekstów z innych chatbotów AI bezpośrednio do Claude.
+
+## Czym Jest Funkcja Importu Pamięci?
+
+Nowa funkcja umożliwia użytkownikom przeniesienie swoich „wspomnień" — czyli kontekstów i informacji, które chatbot zapamiętał na podstawie wcześniejszych rozmów — z innych platform AI do Claude. To oznacza, że użytkownicy nie muszą od nowa budować relacji z nowym asystentem AI.
+
+Jak ogłosiła firma na oficjalnym koncie Claude na Threads: „Możecie teraz importować zapamiętane konteksty z innych chatbotów AI bezpośrednio do Claude."
+
+## Strategiczny Timing
+
+Premiera funkcji przypada w momencie, gdy ruch „Cancel ChatGPT" nabiera tempa po kontrowersyjnym porozumieniu OpenAI z Pentagonem. Tysiące użytkowników deklarują przejście do alternatywnych asystentów AI, szukając rozwiązań, które nie mają powiązań z wojskiem.
+
+Anthropic wyraźnie wyczuło tę szansę. Zamiast tylko czekać na nowych użytkowników, firma aktywnie ułatwia im migrację, eliminując jedną z największych barier — utratę kontekstu i historii konwersacji.
+
+## Google Nie Daje Za Wygraną
+
+Co ciekawe, według doniesień, Google również pracuje nad podobną funkcją dla Gemini, która pozwoliłaby chatbotowi na importowanie wspomnień z innych chatbotów. Jednak Anthropic wyprzedziło konkurencję, jako pierwsze wprowadzając tę funkcjonalność na rynek.
+
+To wyścig o użytkowników, którzy rezygnują z ChatGPT. Kto pierwszy zaoferuje najpłynniejsze przejście, ten może zyskać nowych lojalnych klientów.
+
+## Co To Oznacza dla Rynku AI?
+
+Wprowadzenie funkcji importu pamięci może zmienić dynamikę rynku asystentów AI:
+
+- **Niższa bariera przejścia** — użytkownicy nie tracą kontekstu przy zmianie platformy
+- **Większa konkurencja** — firmy będą musiały oferować lepsze funkcje migracji
+- **Etyka jako przewaga** — firmy takie jak Anthropic wykorzystują swoje stanowisko etyczne jako argument marketingowy
+
+Czy to początek „wojen o migrację" w branży AI? Z pewnością jest to istotny krok w kierunku większej przenośności użytkowników między platformami.
