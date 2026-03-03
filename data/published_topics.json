@@ -865,6 +865,38 @@
       "slugs": [
         "2026-03-02-anthropic-memory-import"
       ]
+    },
+    {
+      "term": "NVIDIA Silicon Photonics",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-nvidia-photonics-silicon-ai-infrastructure"
+      ]
+    },
+    {
+      "term": "NVIDIA Lumentum Partnership",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-nvidia-photonics-silicon-ai-infrastructure"
+      ]
+    },
+    {
+      "term": "NVIDIA Coherent Partnership",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-nvidia-photonics-silicon-ai-infrastructure"
+      ]
+    },
+    {
+      "term": "AI Data Center Photonics",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-nvidia-photonics-silicon-ai-infrastructure"
+      ]
     }
   ]
 }
