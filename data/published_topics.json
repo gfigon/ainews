@@ -897,6 +897,30 @@
       "slugs": [
         "2026-03-03-nvidia-photonics-silicon-ai-infrastructure"
       ]
+    },
+    {
+      "term": "OpenAI Pentagon Deal March 2026",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-0800-openai-pentagon-deal"
+      ]
+    },
+    {
+      "term": "Pentagon Anthropic Blacklist",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-0800-openai-pentagon-deal"
+      ]
+    },
+    {
+      "term": "Defense AI Contracts",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-0800-openai-pentagon-deal"
+      ]
     }
   ]
 }
