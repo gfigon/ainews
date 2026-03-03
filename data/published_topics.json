@@ -921,6 +921,22 @@
       "slugs": [
         "2026-03-03-0800-openai-pentagon-deal"
       ]
+    },
+    {
+      "term": "Vietnam AI Law",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-vietnam-ai-law-southeast-asia"
+      ]
+    },
+    {
+      "term": "Southeast Asia AI Regulation",
+      "count": 1,
+      "last_published": "2026-03-03",
+      "slugs": [
+        "2026-03-03-vietnam-ai-law-southeast-asia"
+      ]
     }
   ]
 }

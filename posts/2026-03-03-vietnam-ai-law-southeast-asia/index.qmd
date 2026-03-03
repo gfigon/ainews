@@ -1,0 +1,48 @@
+---
+title: "Vietnam Enacts AI Law: First Comprehensive Framework in Southeast Asia"
+date: "2026-03-03 08:45"
+description: "Vietnam's new AI law takes effect today, making it the first country in Southeast Asia to implement comprehensive AI regulation. The legislation requires AI-generated content labeling, human oversight, and aligns with the EU's AI Act approach."
+tags: [Vietnam, AI regulation, Southeast Asia, AI law, policy, generative AI, deepfakes]
+---
+
+Vietnam has officially become the first country in Southeast Asia to enact comprehensive artificial intelligence legislation. The law, passed by the Vietnamese National Assembly in December 2025, went into effect on March 2, 2026, marking a significant milestone in the region's approach to AI governance.
+
+## A Regional First
+
+The Vietnamese government's decision to regulate AI places the country at the forefront of AI policy in Southeast Asia. While nations across the globe are grappling with how to manage the risks posed by generative AI — from misinformation to copyright violations — few have moved to enact binding legislation.
+
+"This legislation paves the way for Vietnam to deeply integrate with international standards while maintaining digital sovereignty," the government stated in a December report.
+
+## Key Requirements
+
+The new law imposes several significant obligations on AI developers, providers, and deployers operating in Vietnam:
+
+**Content Labeling** — Companies must clearly label AI-generated content, including deepfakes that cannot readily be differentiated from reality. This requirement aims to combat the spread of synthetic media and protect citizens from manipulative content.
+
+**Disclosure Requirements** — Organizations must disclose to customers when they are interacting with an artificial rather than human agent. This transparency requirement applies across all AI-powered customer service and interaction platforms.
+
+**Scope of Application** — The law applies to both Vietnamese organizations and foreign entities operating in the country, ensuring consistent standards regardless of the company's origin.
+
+## Building AI Infrastructure
+
+Beyond regulation, the law also establishes ambitious goals for Vietnam's domestic AI capabilities. The government plans to:
+
+- Establish a national AI computing center
+- Improve data resources and infrastructure
+- Develop large language models in Vietnamese language
+
+Prime Minister Pham Minh Chinh has identified AI and the data economy as "pillars" of Vietnam's development strategy, with the nation setting double-digit percentage growth targets for the next five years.
+
+## Regional Context
+
+Vietnam's move follows South Korea, which became the first country to have an AI law take full effect in January 2026. Like Vietnam, South Korea requires companies to inform users when products use generative AI and to clearly label content including deepfakes.
+
+The approach aligns with the EU's AI Act, which began phasing in during 2024 and will become completely applicable in 2027. Meanwhile, countries like Taiwan and Japan are taking a lighter touch, favoring voluntary guidelines over mandatory penalties.
+
+The United States continues to resist comprehensive AI regulation, with Vice President J.D. Vance warning that "excessive regulation" could stifle innovation in the key sector.
+
+## What Comes Next
+
+As the first Southeast Asian country to implement such a framework, Vietnam's approach could serve as a model for neighboring countries considering their own AI regulations. The law represents a careful balancing act — establishing guardrails while positioning the country to benefit from AI-driven economic growth.
+
+With 91 countries and international organizations calling for "secure, trustworthy and robust" AI at an AI summit hosted by New Delhi last month, the global momentum toward AI governance continues to build. Vietnam's enactment signals that Southeast Asia is now joining that conversation in earnest.
