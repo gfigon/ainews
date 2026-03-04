@@ -953,6 +953,38 @@
       "slugs": [
         "2026-03-03-psychadapter-llm-personality"
       ]
+    },
+    {
+      "term": "Qwen3.5 Small Models",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-alibaba-qwen-3-5-small"
+      ]
+    },
+    {
+      "term": "On-Device AI",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-alibaba-qwen-3-5-small"
+      ]
+    },
+    {
+      "term": "Qwen3.5-9B Scaled RL",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-alibaba-qwen-3-5-small"
+      ]
+    },
+    {
+      "term": "Native Multimodal Small Models",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-alibaba-qwen-3-5-small"
+      ]
     }
   ]
 }
