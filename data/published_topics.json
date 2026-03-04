@@ -993,6 +993,30 @@
       "slugs": [
         "2026-03-04-openai-nato-contract"
       ]
+    },
+    {
+      "term": "Grok 4.20 Beta2",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-xai-grok-4-20-beta2"
+      ]
+    },
+    {
+      "term": "xAI Grok Instruction Following",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-xai-grok-4-20-beta2"
+      ]
+    },
+    {
+      "term": "xAI Grok Hallucination Suppression",
+      "count": 1,
+      "last_published": "2026-03-04",
+      "slugs": [
+        "2026-03-04-xai-grok-4-20-beta2"
+      ]
     }
   ]
 }
