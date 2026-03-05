@@ -1065,6 +1065,22 @@
       "slugs": [
         "2026-03-05-meta-applied-ai-engineering"
       ]
+    },
+    {
+      "term": "Gemini 3.1 Flash Lite",
+      "count": 1,
+      "last_published": "2026-03-05",
+      "slugs": [
+        "2026-03-05-gemini-3-1-flash-lite"
+      ]
+    },
+    {
+      "term": "Google High-Volume AI Inference",
+      "count": 1,
+      "last_published": "2026-03-05",
+      "slugs": [
+        "2026-03-05-gemini-3-1-flash-lite"
+      ]
     }
   ]
 }
