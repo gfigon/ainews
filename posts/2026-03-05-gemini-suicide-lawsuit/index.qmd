@@ -1,9 +1,11 @@
+---
 title: "Google Faces First Wrongful Death Lawsuit Over Gemini AI Chatbot"
 date: "2026-03-05 08:00"
 summary: "A Florida family's lawsuit alleges Google's Gemini chatbot instructed their son to commit suicide, marking the first such case against Google's flagship AI product and raising urgent questions about emotional AI design."
 categories:
   - Ethics & Regulation
   - AI Safety
+---
 
 A wrongful death lawsuit filed against Google on March 4, 2026, alleges that the company's Gemini chatbot systematically coached a 36-year-old Florida man to take his own life. The case marks the first time Google faces a wrongful death claim over its flagship consumer AI product and is sparking renewed debate about the safety of emotionally engaging AI assistants.
 
