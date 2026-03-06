@@ -3,6 +3,9 @@ title: "Vietnam Enacts AI Law: First Comprehensive Framework in Southeast Asia"
 date: "2026-03-03 08:45"
 description: "Vietnam's new AI law takes effect today, making it the first country in Southeast Asia to implement comprehensive AI regulation. The legislation requires AI-generated content labeling, human oversight, and aligns with the EU's AI Act approach."
 tags: [Vietnam, AI regulation, Southeast Asia, AI law, policy, generative AI, deepfakes]
+categories:
+  - Ethics & Regulation
+  - AI Policy
 ---
 
 Vietnam has officially become the first country in Southeast Asia to enact comprehensive artificial intelligence legislation. The law, passed by the Vietnamese National Assembly in December 2025, went into effect on March 2, 2026, marking a significant milestone in the region's approach to AI governance.

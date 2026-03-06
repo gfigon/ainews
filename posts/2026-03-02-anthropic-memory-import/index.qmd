@@ -3,6 +3,8 @@ title: "Anthropic Launches Memory Import Feature in Claude: Switching from ChatG
 date: "2026-03-02 10:15"
 description: "Anthropic introduces a new feature allowing users to import memorized contexts from other AI chatbots directly into Claude. This is a strategic move in response to the ChatGPT cancellation wave."
 tags: [Anthropic, Claude, memory import, ChatGPT migration, AI switching, AI tools]
+categories:
+  - AI Tools & Frameworks
 ---
 
 In response to the growing "Cancel ChatGPT" trend, Anthropic announced a new feature on Monday that could significantly simplify the process for users switching to Claude. The company introduced the ability to import memorized contexts from other AI chatbots directly into Claude.

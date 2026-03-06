@@ -3,6 +3,9 @@ title: "Google Launches Gemini 3.1 Flash Lite: The Fastest and Most Cost-Efficie
 date: "2026-03-05 10:15"
 summary: "Google has released Gemini 3.1 Flash Lite in preview, offering up to 2.5x faster Time to First Answer Token compared to Gemini 2.5 Flash, with 45% faster output generation while maintaining quality. The model targets high-volume enterprise workloads at reduced cost."
 ---
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
 
 Google has unveiled Gemini 3.1 Flash Lite, its newest addition to the Gemini 3 family, positioning it as the fastest and most cost-efficient model in the series. The launch occurred on March 3, 2026, with the model now available in preview for developers through Google AI Studio and for enterprise teams via Vertex AI.
 

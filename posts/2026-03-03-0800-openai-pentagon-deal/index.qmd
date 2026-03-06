@@ -3,6 +3,9 @@ title: "OpenAI Signs Pentagon Deal Hours After Anthropic Blacklisted: A New Era 
 date: "2026-03-03 08:00"
 description: "OpenAI secures a defense agreement with the Pentagon just hours after Anthropic was blacklisted as a 'supply chain risk.' The deal marks a dramatic shift in the AI arms race."
 tags: [OpenAI, Pentagon, Anthropic, defense AI, military AI, AI ethics]
+categories:
+  - AI Industry
+  - Military AI
 ---
 
 In a stunning turn of events, OpenAI announced on Saturday that it has reached a defense agreement with the Pentagon — just hours after the Department of Defense blacklisted rival Anthropic as a "supply chain risk." The timing of the announcement has sent shockwaves through the AI industry.

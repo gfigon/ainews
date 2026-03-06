@@ -3,6 +3,9 @@ title: "xAI Releases Grok 4.20 Beta2 with Enhanced Instruction Following and Hal
 date: "2026-03-04 10:15"
 description: "xAI has launched Grok 4.20 Beta2, introducing significant improvements in instruction-following capabilities and hallucination suppression. The update positions Grok as a truth-seeking AI platform for sensitive applications."
 tags: [xAI, Grok, Elon Musk, AI models, instruction following, hallucinations, AI safety]
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
 ---
 
 xAI has released Grok 4.20 Beta2, the latest iteration of Elon Musk's artificial intelligence chatbot, introducing substantial improvements in instruction-following accuracy and hallucination suppression. The update, announced on March 3, 2026, represents the company's continued effort to position Grok as a distinctive truth-seeking alternative in the crowded AI assistant market.

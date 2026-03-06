@@ -3,6 +3,9 @@ title: "Meta Creates New Applied AI Engineering Unit Within Reality Labs"
 date: "2026-03-05 08:45"
 summary: "Meta is establishing a new applied AI engineering organization within its Reality Labs division, led by VP Maher Saba, to accelerate model development by combining real-world data, feedback, and evaluations with reinforcement learning and post-training."
 ---
+categories:
+  - AI Industry
+  - Enterprise AI
 
 Meta announced on March 3, 2026, that it is creating a new applied artificial intelligence engineering organization within its Reality Labs division. The move aims to accelerate AI model development by bridging the gap between research and real-world deployment.
 
