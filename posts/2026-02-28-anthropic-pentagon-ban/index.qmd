@@ -1,10 +1,10 @@
 ---
-title: "Pentagon Blacklists Anthropic: The AI Industry's New Reality"
+title: "Pentagon Blacklists Anthropic: The Industry News's New Reality"
 date: "2026-02-28 08:00"
 categories:
-  - AI Industry
-  - Enterprise AI
-  - Security & Regulation
+  - Industry News
+  - Industry News
+  - AI Security & Policy
 ---
 
 The U.S. Department of War has officially designated Anthropic a "Supply-Chain Risk to National Security," effectively banning the company from federal contracts. The move marks a dramatic escalation in the already tense relationship between the leading AI lab and the U.S. government.

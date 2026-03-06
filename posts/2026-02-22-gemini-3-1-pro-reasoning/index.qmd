@@ -3,7 +3,7 @@ title: "Google's Gemini 3.1 Pro Redefines AI Reasoning with 77.1% on ARC-AGI-2"
 date: "2026-02-22"
 author: "AI News"
 categories:
-  - "Research Highlights"
+  - "Research & Innovation"
   - "LLMs & Models"
 tags:
   - "Google"

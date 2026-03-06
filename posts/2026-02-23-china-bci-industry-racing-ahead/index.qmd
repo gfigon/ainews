@@ -3,8 +3,8 @@ title: "China's BCI Industry Racing Ahead — $530M Market in 2025, $120B by 204
 date: "2026-02-23"
 author: "AI News"
 categories:
-  - "Research Highlights"
-  - "Ethics & Regulation"
+  - "Research & Innovation"
+  - "AI Security & Policy"
 tags:
   - "BCI"
   - "Brain-Computer Interface"

@@ -46,7 +46,7 @@ DreamDojo's accuracy opens several practical applications:
 
 For policy evaluation, DreamDojo's simulated success rates show a Pearson correlation of 0.995 with real-world results. In model-based planning for a fruit-packing task, it improved real-world success rates by 17% compared to random sampling.
 
-## Open Source Release
+## AI Tools & Frameworks Release
 
 NVIDIA has released all weights, training code, and evaluation benchmarks under an open-source license. This allows developers to post-train DreamDojo on their own robot data, potentially accelerating progress across the entire robotics field.
 

@@ -3,7 +3,7 @@ title: "Intuit Joins the AI Agents Game: Partnership with Anthropic Brings Smart
 date: "2026-03-01 08:45"
 description: "Intuit announces a strategic partnership with Anthropic to bring personalized AI agents to its financial platform. What this means for the future of personal AI assistants."
 categories:
-  - Enterprise AI
+  - Industry News
   - AI Agents
 tags: [Intuit, Anthropic, AI agents, financial AI, Claude]
 ---

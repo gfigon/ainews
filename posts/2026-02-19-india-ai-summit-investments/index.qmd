@@ -2,7 +2,7 @@
 title: "India AI Summit 2026: Google Pledges $15B, Jio Commits ₹10 Lakh Crore"
 description: "PM Modi opens India's largest AI summit with calls for ethical AI as global tech giants announce massive investments."
 date: "2026-02-19 08:45"
-categories: [Industry News, AI Policy]
+categories: [Industry News, AI Security & Policy]
 slug: "india-ai-summit-investments"
 ---
 

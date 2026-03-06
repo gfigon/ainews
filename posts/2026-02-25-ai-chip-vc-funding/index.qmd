@@ -2,7 +2,7 @@
 title: "AI Chip Startups Soak Up $1.1B in VC Funding as Investors Chase Nvidia Alternatives"
 date: "2026-02-25 10:15"
 categories:
-  - AI Hardware
+  - AI Infrastructure
   - Industry News
   - Funding
 ---

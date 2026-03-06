@@ -2,7 +2,7 @@
 title: "GGML and llama.cpp Join Hugging Face to Secure Local AI's Future"
 description: "Georgi Gerganov's team brings the backbone of local AI inference to Hugging Face, promising 'single-click' integration with transformers and improved packaging for local models."
 date: "2026-02-21 10:15"
-categories: [AI Tools & Frameworks, Open Source]
+categories: [AI Tools & Frameworks, AI Tools & Frameworks]
 slug: "ggml-llamacpp-huggingface"
 ---
 

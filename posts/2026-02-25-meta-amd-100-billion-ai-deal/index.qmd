@@ -3,7 +3,7 @@ title: "Meta Strikes Historic $100B AMD Deal to Chase 'Personal Superintelligenc
 date: "2026-02-25 08:45"
 categories:
   - Industry News
-  - AI Hardware
+  - AI Infrastructure
 ---
 
 Meta has announced a landmark multiyear agreement with AMD worth up to $100 billion, marking one of the largest chip deals in technology history. The partnership will deliver roughly six gigawatts of AI computing power to fuel Meta's ambitious pursuit of "personal superintelligence."

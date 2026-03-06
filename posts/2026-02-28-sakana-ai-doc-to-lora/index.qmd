@@ -2,7 +2,7 @@
 title: "Sakana AI's Doc-to-LoRA and Text-to-LoRA: Instant LLM Adaptation via Hypernetworks"
 date: "2026-02-28 10:15"
 categories:
-  - Research Highlights
+  - Research & Innovation
   - AI Tools & Frameworks
 ---
 

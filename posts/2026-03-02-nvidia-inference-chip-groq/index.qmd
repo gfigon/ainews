@@ -4,7 +4,7 @@ date: "2026-03-02 08:00"
 description: "NVIDIA is preparing a revolution in AI inference. The new processor with Groq technology is said to be faster and more energy-efficient than current GPUs. OpenAI is one of the first users."
 tags: [NVIDIA, inference chip, Groq, GTC 2026, OpenAI, AI hardware]
 categories:
-  - AI Hardware
+  - AI Infrastructure
   - AI Infrastructure
 ---
 

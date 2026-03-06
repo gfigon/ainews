@@ -2,7 +2,7 @@
 title: "Mistral CEO Warns of AI Market Concentration Risk While India Unveils Sovereign Models"
 description: "At the India AI Impact Summit, Mistral's Arthur Mensch called out the danger of a few companies dominating AI, while India unveiled three sovereign AI models in a bid for digital independence."
 date: "2026-02-20 08:45"
-categories: [Industry News, Ethics & Regulation]
+categories: [Industry News, AI Security & Policy]
 slug: "mistral-open-source-sovereignty"
 ---
 

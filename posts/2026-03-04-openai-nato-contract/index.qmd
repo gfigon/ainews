@@ -1,11 +1,11 @@
 ---
-title: "OpenAI Pursues NATO Contract as Military AI Footprint Expands"
+title: "OpenAI Pursues NATO Contract as Industry News Footprint Expands"
 date: "2026-03-04 08:45"
 description: "OpenAI is in discussions to deploy its AI technology across NATO's unclassified networks, following a recent Pentagon deal. The move comes after the US government ended its partnership with Anthropic over ethical concerns regarding AI use for surveillance and autonomous weapons."
 tags: [OpenAI, NATO, military AI, defense contracts, Anthropic, Pentagon, AI policy]
 categories:
-  - AI Industry
-  - Military AI
+  - Industry News
+  - Industry News
 ---
 
 OpenAI is reportedly in discussions to deploy its artificial intelligence technology across the unclassified networks of the North Atlantic Treaty Organisation (NATO), marking a significant expansion of the company's involvement with Western military and security alliances. This development comes only days after the ChatGPT creator secured a high-profile agreement with the Pentagon, signalling a rapid acceleration in the company's defense strategy.

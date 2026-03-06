@@ -1,11 +1,11 @@
 ---
-title: "OpenAI Wins, Anthropic Loses: What the New Order in US Military AI Means for the Industry"
+title: "OpenAI Wins, Anthropic Loses: What the New Order in US Industry News Means for the Industry"
 date: "2026-03-01 08:00"
 description: "Major shift in AI-Pentagon relations: OpenAI gains access to classified military networks, Anthropic blocked by Trump. Analysis of implications for the industry."
 categories:
-  - AI Industry
-  - Military AI
-  - Security & Regulation
+  - Industry News
+  - Industry News
+  - AI Security & Policy
 tags: [OpenAI, Anthropic, Pentagon, military AI, Claude]
 ---
 
@@ -28,7 +28,7 @@ The timing was clearly strategic: while the Pentagon was ending its relationship
 This shift has profound implications for the AI industry:
 
 1. **Ethical AI companies face challenges** — Anthropic's principled stance may cost it government contracts worth billions
-2. **Military AI market opens** — OpenAI's deal signals that defense contracts are now available to leading AI labs
+2. **Industry News market opens** — OpenAI's deal signals that defense contracts are now available to leading AI labs
 3. **Regulatory landscape shifts** — Companies may need to choose between ethical commitments and market access
 4. **Talent implications** — Some researchers may leave defense-aligned companies for more ethically-focused labs
 

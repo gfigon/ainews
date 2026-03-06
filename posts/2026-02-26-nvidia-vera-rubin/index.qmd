@@ -2,7 +2,7 @@
 title: "Nvidia's Vera Rubin Delivers 10x Efficiency Leap Over Blackwell"
 date: "2026-02-26 08:00"
 categories:
-  - AI Hardware
+  - AI Infrastructure
   - Industry News
 ---
 

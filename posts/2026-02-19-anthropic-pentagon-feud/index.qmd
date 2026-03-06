@@ -66,4 +66,4 @@ The outcome of this standoff will set a precedent: Do AI companies have the righ
 
 This is the question the entire AI industry is watching — because if the Pentagon can force Anthropic to bend, no company will be able to say no.
 
-**Links**: [Axios Report](https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro) | [WSJ: Claude in Maduro Raid](https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17) | [Anthropic AI Policy](https://www.anthropic.com/ai-policy)
+**Links**: [Axios Report](https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro) | [WSJ: Claude in Maduro Raid](https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17) | [Anthropic AI Security & Policy](https://www.anthropic.com/ai-policy)

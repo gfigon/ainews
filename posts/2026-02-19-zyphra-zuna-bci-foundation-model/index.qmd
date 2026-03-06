@@ -2,7 +2,7 @@
 title: "ZUNA: The First Foundation Model for Brain Signals Arrives"
 description: "Zyphra's 380M-parameter BCI model brings the transformative power of foundation models to EEG data, enabling thought-to-text from any EEG setup."
 date: "2026-02-19 08:00"
-categories: [Research Highlights, BCI & Neurotech]
+categories: [Research & Innovation, Research & Innovation]
 slug: "zyphra-zuna-bci-foundation-model"
 ---
 

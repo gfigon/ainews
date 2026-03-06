@@ -4,7 +4,7 @@ date: "2026-03-03 08:15"
 description: "Nvidia announces a massive $4 billion investment in photonics companies Coherent and Lumentum, betting big on silicon photonics to power the next generation of AI data centers."
 tags: [Nvidia, photonics, Coherent, Lumentum, AI infrastructure, data centers, silicon photonics]
 categories:
-  - AI Hardware
+  - AI Infrastructure
   - AI Infrastructure
 ---
 
@@ -32,7 +32,7 @@ With AI models growing exponentially and data center workloads demanding faster 
 
 **Lumentum** — Known for its optical networking solutions, Lumentum provides lasers and photonic components that enable high-speed data transmission. The company has seen significant growth as hyperscalers build out AI infrastructure.
 
-## What This Means for the AI Industry
+## What This Means for the Industry News
 
 Nvidia's bet signals that the company sees photonics as essential — not optional — for the next generation of AI systems. The investment ensures Nvidia will have priority access to optical components as the industry shifts away from traditional copper interconnects.
 

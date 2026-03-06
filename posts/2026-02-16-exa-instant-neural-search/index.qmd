@@ -36,7 +36,7 @@ Exa claims Instant delivers:
 
 The company released benchmark results comparing Instant against popular alternatives on a standardized agentic workflow test suite.
 
-## Agentic AI Use Cases
+## Agents & Automation Use Cases
 
 The launch targets several high-growth agentic AI applications:
 

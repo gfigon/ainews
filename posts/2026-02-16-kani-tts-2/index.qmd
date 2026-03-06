@@ -2,7 +2,7 @@
 title: "Kani-TTS-2: Open-Source TTS Running on Consumer GPUs with 3GB VRAM"
 description: "The new 400M parameter model from nineninesix.ai brings high-fidelity speech synthesis to edge devices with zero-shot voice cloning."
 date: "2026-02-16 08:00"
-categories: [AI Tools & Frameworks, Open Source]
+categories: [AI Tools & Frameworks, AI Tools & Frameworks]
 slug: "kani-tts-2"
 ---
 
@@ -52,6 +52,6 @@ Kani-TTS-2 represents a significant shift in the TTS landscape:
 1. **Democratization**: Running on consumer GPUs means developers no longer need expensive cloud APIs for production-quality TTS.
 2. **Local-First**: Privacy-sensitive applications can now run entirely on-device.
 3. **Speed**: The 0.2 RTF makes real-time interactive voice applications feasible.
-4. **Open Source**: Apache 2.0 licensing means commercial integration is straightforward.
+4. **AI Tools & Frameworks**: Apache 2.0 licensing means commercial integration is straightforward.
 
 Kani-TTS-2 is available on Hugging Face in both [English (EN)](https://huggingface.co/nineninesix/kani-tts-2-en){rel="nofollow"} and [Portuguese (PT)](https://huggingface.co/nineninesix/kani-tts-2-pt){rel="nofollow"} versions.

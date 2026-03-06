@@ -2,7 +2,7 @@
 title: "PsychAdapter: Teaching AI to Mimic Human Personality Traits with 98.7% Accuracy"
 date: "2026-03-03 10:15"
 description: "Researchers have developed a groundbreaking method called PsychAdapter that can adapt large language models to reflect specific personality traits and mental health conditions, achieving up to 98.7% accuracy."
-categories: ["Research Highlights", "AI Tools & Frameworks"]
+categories: ["Research & Innovation", "AI Tools & Frameworks"]
 tags: ["PsychAdapter", "LLM", "personality", "mental health", "AI research"]
 image: "/images/psychadapter.jpg"
 author: "AI News Team"

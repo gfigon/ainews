@@ -3,7 +3,7 @@ title: "RAG vs Context Stuffing: The Case for Selective Retrieval in the Age of 
 date: "2026-02-24 10:15"
 categories:
   - AI Tools & Frameworks
-  - Research Highlights
+  - Research & Innovation
 ---
 
 Large context windows have dramatically increased how much information modern language models can process. With models capable of handling hundreds of thousands—or even millions—of tokens, it's easy to assume that Retrieval-Augmented Generation (RAG) is no longer necessary. If you can fit an entire codebase or documentation library into the context window, why build a retrieval pipeline at all?

@@ -4,7 +4,7 @@ date: "2026-02-23"
 author: "AI News"
 categories:
   - "AI Infrastructure"
-  - "Research Highlights"
+  - "Research & Innovation"
 tags:
   - "Taalas"
   - "Hardwired AI"

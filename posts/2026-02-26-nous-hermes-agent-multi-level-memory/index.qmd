@@ -2,8 +2,8 @@
 title: "Nous Research Hermes Agent Brings Long-Term Memory to AI Assistants"
 date: "2026-02-26 10:15"
 categories:
-  - Agentic AI
-  - Research Highlights
+  - Agents & Automation
+  - Research & Innovation
 ---
 
 Nous Research has released Hermes Agent, an open-source autonomous system designed to solve two critical bottlenecks in agentic workflows: memory decay and environmental isolation. Built on the Hermes-3 model family, this system promises AI assistants that "grow with you" over time.

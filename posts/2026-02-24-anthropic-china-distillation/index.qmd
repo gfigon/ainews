@@ -2,7 +2,7 @@
 title: "Anthropic Accuses Chinese AI Firms of Industrial-Scale Data Theft"
 date: "2026-02-24"
 categories:
-  - AI Industry News
+  - Industry News News
   - AI Security & Safety
 ---
 

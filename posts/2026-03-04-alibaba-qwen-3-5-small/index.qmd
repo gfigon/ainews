@@ -5,7 +5,7 @@ description: "Alibaba releases Qwen3.5 Small Model Series, a family of compact L
 tags: [Alibaba, Qwen, on-device AI, edge computing, multimodal, small language models, inference]
 categories:
   - LLMs & Models
-  - AI Hardware
+  - AI Infrastructure
 ---
 
 Alibaba's Qwen team has released the Qwen3.5 Small Model Series, a collection of Large Language Models ranging from 0.8B to 9B parameters. This release marks a significant shift in the industry trend toward deploying capable AI on consumer hardware and edge devices without traditional performance trade-offs.
@@ -34,7 +34,7 @@ The Qwen3.5-9B's performance stems from Scaled Reinforcement Learning implementa
 
 The benefits include improved instruction following, reduced hallucinations through reinforced logical consistency, and efficient inference — the 9B parameter count allows faster token generation than 70B models while maintaining competitive logic scores on benchmarks like MMLU and GSM8K.
 
-## Implications for the AI Industry
+## Implications for the Industry News
 
 The Qwen3.5 Small Series represents a viable path for developers to build sophisticated AI applications without the overhead of massive, cloud-dependent models. For enterprises, these models enable privacy-sensitive local-first applications where data cannot leave the device.
 

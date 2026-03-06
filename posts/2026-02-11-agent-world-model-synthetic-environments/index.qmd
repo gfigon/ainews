@@ -8,7 +8,7 @@ author-links:
   - text: "Robo AI Digest"
     href: "https://roboaidigest.com"
 categories: 
-  - "Research Highlights"
+  - "Research & Innovation"
 fig-alt: "Agent World Model synthetic environment architecture"
 ---
 

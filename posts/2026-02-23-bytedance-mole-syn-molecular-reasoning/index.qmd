@@ -3,7 +3,7 @@ title: "ByteDance Maps Molecular Bonds in AI Reasoning — MOLE-SYN Synthesizes 
 date: "2026-02-23"
 author: "AI News"
 categories:
-  - "Research Highlights"
+  - "Research & Innovation"
   - "LLMs & Models"
 tags:
   - "ByteDance"

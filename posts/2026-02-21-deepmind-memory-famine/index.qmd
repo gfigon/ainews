@@ -1,5 +1,5 @@
 ---
-title: "The Coming Memory Famine: Why DeepMind's Hassabis Is Warning of an AI Hardware Wall"
+title: "The Coming Memory Famine: Why DeepMind's Hassabis Is Warning of an AI Infrastructure Wall"
 date: "2026-02-21"
 categories:
   - AI Infrastructure

@@ -2,7 +2,7 @@
 title: "Perplexity's 'Computer' Orchestrates 19 AI Models at $200/Month"
 date: "2026-03-01 10:15"
 categories:
-  - Agentic AI
+  - Agents & Automation
   - AI Tools & Frameworks
 ---
 
