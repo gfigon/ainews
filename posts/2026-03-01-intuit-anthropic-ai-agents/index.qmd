@@ -4,7 +4,7 @@ date: "2026-03-01 08:45"
 description: "Intuit announces a strategic partnership with Anthropic to bring personalized AI agents to its financial platform. What this means for the future of personal AI assistants."
 categories:
   - Industry News
-  - AI Agents
+  - Agents & Automation
 tags: [Intuit, Anthropic, AI agents, financial AI, Claude]
 ---
 On Monday, February 24, 2026, Intuit — the financial software giant known for products like QuickBooks, TurboTax, and Mailchimp — announced a strategic partnership with Anthropic that aims to revolutionize how consumers and small businesses use AI tools.

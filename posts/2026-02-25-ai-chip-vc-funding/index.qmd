@@ -4,7 +4,7 @@ date: "2026-02-25 10:15"
 categories:
   - AI Infrastructure
   - Industry News
-  - Funding
+  - Industry News
 ---
 AI chip startups collectively walked away with more than a billion dollars in new capital on Tuesday, demonstrating that venture capitalists remain bullish on challengers to Nvidia's dominant market position—even as experts debate whether the broader AI sector is headed for a bubble.
 ## MatX Leads with $500M Round

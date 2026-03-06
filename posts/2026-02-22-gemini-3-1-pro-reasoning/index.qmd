@@ -5,11 +5,9 @@ author: "AI News"
 categories:
   - Research & Innovation
   - LLMs & Models
-tags:
-  - "Google"
-  - "Gemini"
-  - "ARC-AGI-2"
-  - "DeepMind"
+
+
+
 description: "Google's latest Gemini 3.1 Pro model achieves groundbreaking reasoning capabilities, scoring 77.1% on the ARC-AGI-2 benchmark and outperforming Claude Opus 4.6 and GPT-5.2."
 slug: "2026-02-22-gemini-3-1-pro-reasoning"
 ---

@@ -5,9 +5,7 @@ author: "AI News"
 categories:
   - Research & Innovation
   - LLMs & Models
-tags:
-  - "ByteDance"
-  - "Chain-of-Thought"
+
 description: "ByteDance Seed reveals that AI reasoning has a 'molecular' structure with three types of 'chemical bonds' — and introduces MOLE-SYN to synthesize stable Long CoT from scratch without expensive distillation."
 slug: "2026-02-23-bytedance-mole-syn-molecular-reasoning"
 ---

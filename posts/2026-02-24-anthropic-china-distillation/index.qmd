@@ -2,7 +2,7 @@
 title: "Anthropic Accuses Chinese AI Firms of Industrial-Scale Data Theft"
 date: "2026-02-24"
 categories:
-  - Industry News News
+  - Industry News
   - AI Security & Policy
 ---
 Anthropic has uncovered what it calls "industrial-scale intellectual property theft" by three Chinese AI companies — DeepSeek, Moonshot AI, and MiniMax. The firms allegedly used a technique called **model distillation** to extract capabilities from Anthropic's Claude chatbot without authorization.

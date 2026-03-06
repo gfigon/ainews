@@ -5,12 +5,9 @@ author: "AI News"
 categories:
   - Research & Innovation
   - AI Security & Policy
-tags:
-  - "BCI"
-  - "Brain-Computer Interface"
-  - "China"
+
   - Research & Innovation
-  - "Healthcare"
+
 description: "While Neuralink grabs headlines, China's BCI ecosystem is quietly scaling — backed by $165M government fund, provincial insurance coverage, and 50+ clinical trials. The race for the brain is no longer a US monopoly."
 slug: "2026-02-23-china-bci-industry-racing-ahead"
 ---

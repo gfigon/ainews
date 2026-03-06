@@ -5,9 +5,7 @@ author: "AI News"
 categories:
   - AI Security & Policy
   - Industry News
-tags:
-  - "Claude"
-  - "Cybersecurity"
+  - AI Security & Policy
   - AI Security & Policy
 description: "Anthropic's new Claude Code Security tool has identified over 500 previously hidden software vulnerabilities, causing cybersecurity stocks to plummet while promising a new era of AI-powered defense."
 slug: "2026-02-22-claude-code-security"

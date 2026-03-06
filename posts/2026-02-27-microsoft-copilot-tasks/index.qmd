@@ -2,8 +2,8 @@
 title: "Microsoft Copilot Tasks: The AI That Does Your To-Do List for You"
 date: "2026-02-27 10:15"
 categories:
-  - AI Agents & Automation
-  - Microsoft
+  - Agents & Automation
+
 ---
 Microsoft has unveiled Copilot Tasks, a groundbreaking agentic AI feature that shifts the paradigm from AI answering questions to AI executing actions autonomously in the background. Announced February 26, 2026, the feature represents Microsoft's most significant step yet toward truly autonomous digital assistants.
 ## From Chat to Action

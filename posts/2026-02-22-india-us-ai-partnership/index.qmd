@@ -3,9 +3,9 @@ title: "India-US Launch AI Opportunity Partnership to Accelerate Trusted AI Deve
 date: "2026-02-22"
 categories:
 
-  - India
-  - United States
-  - International AI
+
+
+  - Industry News
 ---
 The United States and India have announced a new bilateral initiative—the AI Opportunity Partnership—aimed at deepening technological cooperation, securing supply chains, and fostering joint innovation in artificial intelligence. The announcement came on February 21, 2026, during the India AI Impact Summit in New Delhi, marking a significant shift away from Europe's regulatory-heavy approach to AI governance.
 ## A New Framework for AI Cooperation

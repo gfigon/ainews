@@ -2,7 +2,7 @@
 title: "DeepSeek V4 Imminent: Breakthrough SVG Skills and Market Jitters"
 date: "2026-02-24 08:45"
 categories:
-  - LLM & Models
+  - LLMs & Models
   - Industry News
 ---
 Chinese AI lab DeepSeek is preparing to launch its highly anticipated V4 model, sending ripples through the AI industry and raising concerns about impact on Nasdaq tech stocks.

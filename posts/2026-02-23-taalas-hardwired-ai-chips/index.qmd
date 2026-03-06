@@ -3,12 +3,10 @@ title: "Taalas Hardwires AI Models Into Silicon — Achieves 17,000 Tokens/Secon
 date: "2026-02-23"
 author: "AI News"
 categories:
-  - "AI Infrastructure"
+
   - Research & Innovation
-tags:
-  - "Hardwired AI"
-  - "ASIC"
-  - "Inference"
+
+
 description: "Taalas challenges the GPU paradigm by hardwiring AI models directly into custom silicon, achieving 17,000 tokens per second—a 1000x efficiency leap that could reshape AI economics."
 slug: "2026-02-23-taalas-hardwired-ai-chips"
 ---

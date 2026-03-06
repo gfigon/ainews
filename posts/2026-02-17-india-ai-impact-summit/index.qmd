@@ -4,7 +4,7 @@ date: "2026-02-17 08:00"
 description: "PM Modi inaugurates historic AI summit with 600+ startups, 13 country pavilions, and unprecedented attendance from global AI leaders."
 categories:
   - Industry News
-  - "AI Events"
+
 ---
 The India AI Impact Summit 2026 kicked off at New Delhi's Bharat Mandapam on February 16, marking what experts are calling the largest AI conference ever held. With over 600 high-potential startups, 13 country pavilions, and an unprecedented lineup of global AI leaders, the five-day summit (through February 20) positions India at the center of the global AI revolution.
 ## A Gathering of Titans

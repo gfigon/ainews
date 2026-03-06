@@ -4,7 +4,7 @@ date: "2026-02-28 08:45"
 categories:
   - Industry News
   - AI Infrastructure
-  - Cost Optimization
+  - AI Tools & Frameworks
 ---
 AT&T's chief data officer has revealed a striking transformation in how the telecommunications giant approaches AI at scale. Processing 8 billion tokens per day, the company has achieved a 90% reduction in AI costs through a fundamental rearchitecture around small language models and multi-agent orchestration systems.
 ## The Scale Problem

@@ -3,7 +3,7 @@ title: "The Coming Memory Famine: Why DeepMind's Hassabis Is Warning of an AI In
 date: "2026-02-21"
 categories:
   - AI Infrastructure
-  - Hardware
+  - AI Infrastructure
   - Industry News
 ---
 The artificial intelligence industry has spent the past two years in a frenzied race to build ever-larger data centers, secure ever-more powerful chips, and train ever-more capable models. But according to Demis Hassabis, the Nobel Prize-winning head of Google DeepMind, the next bottleneck won't be processors or energy—it will be memory. And the shortage, he warns, could arrive as soon as next year.
