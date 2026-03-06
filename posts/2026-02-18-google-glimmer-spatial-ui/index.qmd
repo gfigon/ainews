@@ -2,7 +2,10 @@
 title: "Google's Jetpack Compose Glimmer: Building the Spatial UI Layer for AI Glasses"
 description: "Google unveils Jetpack Compose Glimmer, a dedicated UI framework for transparent displays and AI glasses — targeting the next computing paradigm beyond the rectangular screen."
 date: "2026-02-18 10:15"
-categories: [AI Tools & Frameworks, Research & Innovation]
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+
 slug: "google-glimmer-spatial-ui"
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: "Anthropic Releases Claude Opus 4.6: A New Frontier for Agentic Workflows"
 date: "2026-02-07 08:00"
-categories: [LLMs & Models, AI Tools & Frameworks]
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+
 tags: [Anthropic, Claude, AI Agents, LLMs]
 ---
 

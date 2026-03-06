@@ -1,7 +1,10 @@
 ---
 title: "NVIDIA C-RADIOv4: A Unified Vision Backbone for Scale"
 date: "2026-02-08 08:00"
-categories: [AI Tools & Frameworks, Research & Innovation]
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+
 fig-alt: "NVIDIA C-RADIOv4"
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: "SyGra Studio: Visualizing Synthetic Data Generation"
 date: "2026-02-07 08:00"
-categories: [Research & Innovation, AI Tools & Frameworks]
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+
 tags: [Hugging Face, Synthetic Data, SyGra, ServiceNow]
 ---
 

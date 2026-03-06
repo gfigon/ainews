@@ -2,7 +2,10 @@
 title: "The Pentagon vs. Anthropic: Why the U.S. Military May Label an American AI Company a 'Supply Chain Risk'"
 description: "The Pentagon is reportedly close to cutting ties with Anthropic over restrictions on military AI use — a standoff that exposes the growing tension between responsible AI deployment and national security demands."
 date: "2026-02-19 10:15"
-categories: [AI Security & Safety, Industry News]
+categories:
+  - AI Security & Safety
+  - Industry News
+
 slug: "anthropic-pentagon-feud"
 ---
 

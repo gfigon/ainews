@@ -2,7 +2,10 @@
 title: "Claude Sonnet 4.6: The Mid-Tier Model That Matches Flagship Performance"
 description: "Anthropic's latest Sonnet model delivers Opus-level intelligence at 1/5th the cost, fundamentally changing the economics of AI agents at scale."
 date: "2026-02-18 08:00"
-categories: [LLMs & Models, Industry News]
+categories:
+  - LLMs & Models
+  - Industry News
+
 slug: "claude-sonnet-4-6"
 ---
 

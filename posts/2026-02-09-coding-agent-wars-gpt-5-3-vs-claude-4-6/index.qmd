@@ -1,7 +1,10 @@
 ---
 title: "Coding Agent Wars: GPT-5.3 Codex vs Claude Opus 4.6"
 date: "2026-02-09 08:00"
-categories: [LLMs & Models, AI Tools & Frameworks, Industry News]
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+
 fig-alt: "Coding Agent Wars"
 ---
 

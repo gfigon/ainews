@@ -1,7 +1,10 @@
 ---
 title: "xAI's Interplanetary Vision: Beyond Earthly AI"
 date: "2026-02-14 08:00"
-categories: [Industry News, Research & Innovation, AI Security & Policy]
+categories:
+  - Industry News
+  - Research & Innovation
+
 description: "xAI unveils ambitious roadmap targeting interplanetary AI systems for Mars colonization, positioning itself against enterprise-focused competitors."
 ---
 
