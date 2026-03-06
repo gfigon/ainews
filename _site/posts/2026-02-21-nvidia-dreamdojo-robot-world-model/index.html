@@ -342,19 +342,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-data-problem-in-robotics" id="toc-the-data-problem-in-robotics" class="nav-link active" data-scroll-target="#the-data-problem-in-robotics">The Data Problem in Robotics</a></li>
-  <li><a href="#latent-actions-translating-human-motion-to-robot-control" id="toc-latent-actions-translating-human-motion-to-robot-control" class="nav-link" data-scroll-target="#latent-actions-translating-human-motion-to-robot-control">Latent Actions: Translating Human Motion to Robot Control</a></li>
-  <li><a href="#architecture-improvements" id="toc-architecture-improvements" class="nav-link" data-scroll-target="#architecture-improvements">Architecture Improvements</a></li>
-  <li><a href="#real-time-performance-through-distillation" id="toc-real-time-performance-through-distillation" class="nav-link" data-scroll-target="#real-time-performance-through-distillation">Real-Time Performance Through Distillation</a></li>
-  <li><a href="#results-that-matter" id="toc-results-that-matter" class="nav-link" data-scroll-target="#results-that-matter">Results That Matter</a></li>
-  <li><a href="#ai-tools-frameworks-release" id="toc-ai-tools-frameworks-release" class="nav-link" data-scroll-target="#ai-tools-frameworks-release">AI Tools &amp; Frameworks Release</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -367,63 +356,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>NVIDIA has released DreamDojo, an open-source robot world model trained on 44,711 hours of egocentric human video—the largest dataset of its kind for world model pretraining. This represents a major step toward solving one of robotics’ most persistent challenges: the data bottleneck.</p>
-<section id="the-data-problem-in-robotics" class="level2">
-<h2 class="anchored" data-anchor-id="the-data-problem-in-robotics">The Data Problem in Robotics</h2>
-<p>Building simulators for robots has traditionally required manual coding of physics and perfect 3D models. Collecting robot-specific data is expensive and slow, limiting how quickly robotic systems can learn new tasks. DreamDojo takes a fundamentally different approach: it learns directly from human videos, bypassing the need for expensive robot data collection.</p>
-<p>The dataset, called DreamDojo-HV, contains 6,015 unique tasks across over one million trajectories, covering 9,869 unique scenes and 43,237 unique objects. Pretraining required 100,000 NVIDIA H100 GPU hours to build both 2B and 14B model variants.</p>
-</section>
-<section id="latent-actions-translating-human-motion-to-robot-control" class="level2">
-<h2 class="anchored" data-anchor-id="latent-actions-translating-human-motion-to-robot-control">Latent Actions: Translating Human Motion to Robot Control</h2>
-<p>Human videos don’t come with robot motor commands. NVIDIA solved this with continuous latent actions—a system using a spatiotemporal Transformer VAE that extracts actions directly from pixels. The VAE encoder takes two consecutive frames and outputs a 32-dimensional latent vector representing the most critical motion between frames.</p>
-<p>This creates an information bottleneck that disentangles action from visual context, allowing the model to learn physics from humans and apply them to different robot bodies—a crucial capability for generalization.</p>
-</section>
-<section id="architecture-improvements" class="level2">
-<h2 class="anchored" data-anchor-id="architecture-improvements">Architecture Improvements</h2>
-<p>DreamDojo builds on the Cosmos-Predict2.5 latent video diffusion model using the WAN2.2 tokenizer with a temporal compression ratio of 4. The team added three key improvements:</p>
-<ul>
-<li><p><strong>Relative Actions</strong>: Using joint deltas instead of absolute poses makes it easier for the model to generalize across different trajectories.</p></li>
-<li><p><strong>Chunked Action Injection</strong>: Four consecutive actions are injected into each latent frame, aligning with the tokenizer’s compression ratio and fixing causality confusion.</p></li>
-<li><p><strong>Temporal Consistency Loss</strong>: A new loss function matches predicted frame velocities to ground-truth transitions, reducing visual artifacts and keeping objects physically consistent.</p></li>
-</ul>
-</section>
-<section id="real-time-performance-through-distillation" class="level2">
-<h2 class="anchored" data-anchor-id="real-time-performance-through-distillation">Real-Time Performance Through Distillation</h2>
-<p>Standard diffusion models require too many denoising steps for real-time use. NVIDIA used a Self Forcing distillation pipeline—training on 64 NVIDIA H100 GPUs—to reduce denoising from 35 steps down to just 4. The final model achieves 10.81 FPS and remains stable for continuous rollouts of 60 seconds (600 frames).</p>
-</section>
-<section id="results-that-matter" class="level2">
-<h2 class="anchored" data-anchor-id="results-that-matter">Results That Matter</h2>
-<p>DreamDojo’s accuracy opens several practical applications:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>DreamDojo-2B</th>
-<th>DreamDojo-14B</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Physics Correctness</td>
-<td>62.50%</td>
-<td>73.50%</td>
-</tr>
-<tr class="even">
-<td>Action Following</td>
-<td>63.45%</td>
-<td>72.55%</td>
-</tr>
-</tbody>
-</table>
-<p>For policy evaluation, DreamDojo’s simulated success rates show a Pearson correlation of 0.995 with real-world results. In model-based planning for a fruit-packing task, it improved real-world success rates by 17% compared to random sampling.</p>
-</section>
-<section id="ai-tools-frameworks-release" class="level2">
-<h2 class="anchored" data-anchor-id="ai-tools-frameworks-release">AI Tools &amp; Frameworks Release</h2>
-<p>NVIDIA has released all weights, training code, and evaluation benchmarks under an open-source license. This allows developers to post-train DreamDojo on their own robot data, potentially accelerating progress across the entire robotics field.</p>
-<p>The dream of general-purpose robots just got a little closer to reality.</p>
+<p>NVIDIA has released DreamDojo, an open-source robot world model trained on 44,711 hours of egocentric human video—the largest dataset of its kind for world model pretraining. This represents a major step toward solving one of robotics’ most persistent challenges: the data bottleneck. ## The Data Problem in Robotics Building simulators for robots has traditionally required manual coding of physics and perfect 3D models. Collecting robot-specific data is expensive and slow, limiting how quickly robotic systems can learn new tasks. DreamDojo takes a fundamentally different approach: it learns directly from human videos, bypassing the need for expensive robot data collection. The dataset, called DreamDojo-HV, contains 6,015 unique tasks across over one million trajectories, covering 9,869 unique scenes and 43,237 unique objects. Pretraining required 100,000 NVIDIA H100 GPU hours to build both 2B and 14B model variants. ## Latent Actions: Translating Human Motion to Robot Control Human videos don’t come with robot motor commands. NVIDIA solved this with continuous latent actions—a system using a spatiotemporal Transformer VAE that extracts actions directly from pixels. The VAE encoder takes two consecutive frames and outputs a 32-dimensional latent vector representing the most critical motion between frames. This creates an information bottleneck that disentangles action from visual context, allowing the model to learn physics from humans and apply them to different robot bodies—a crucial capability for generalization. ## Architecture Improvements DreamDojo builds on the Cosmos-Predict2.5 latent video diffusion model using the WAN2.2 tokenizer with a temporal compression ratio of 4. The team added three key improvements: - <strong>Relative Actions</strong>: Using joint deltas instead of absolute poses makes it easier for the model to generalize across different trajectories. - <strong>Chunked Action Injection</strong>: Four consecutive actions are injected into each latent frame, aligning with the tokenizer’s compression ratio and fixing causality confusion. - <strong>Temporal Consistency Loss</strong>: A new loss function matches predicted frame velocities to ground-truth transitions, reducing visual artifacts and keeping objects physically consistent. ## Real-Time Performance Through Distillation Standard diffusion models require too many denoising steps for real-time use. NVIDIA used a Self Forcing distillation pipeline—training on 64 NVIDIA H100 GPUs—to reduce denoising from 35 steps down to just 4. The final model achieves 10.81 FPS and remains stable for continuous rollouts of 60 seconds (600 frames). ## Results That Matter DreamDojo’s accuracy opens several practical applications: | Metric | DreamDojo-2B | DreamDojo-14B | |——–|————–|—————| | Physics Correctness | 62.50% | 73.50% | | Action Following | 63.45% | 72.55% | For policy evaluation, DreamDojo’s simulated success rates show a Pearson correlation of 0.995 with real-world results. In model-based planning for a fruit-packing task, it improved real-world success rates by 17% compared to random sampling. ## AI Tools &amp; Frameworks Release NVIDIA has released all weights, training code, and evaluation benchmarks under an open-source license. This allows developers to post-train DreamDojo on their own robot data, potentially accelerating progress across the entire robotics field. The dream of general-purpose robots just got a little closer to reality.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

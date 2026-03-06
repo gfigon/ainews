@@ -388,13 +388,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#browser-native-ai-stack" id="toc-browser-native-ai-stack" class="nav-link" data-scroll-target="#browser-native-ai-stack">Browser-Native AI Stack</a></li>
-  <li><a href="#performance-benchmarks" id="toc-performance-benchmarks" class="nav-link" data-scroll-target="#performance-benchmarks">Performance Benchmarks</a></li>
-  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  </ul></li>
+  <li><a href="#or-use-directly-via-cdn-for-quick-prototyping.-the-library-auto-detects-the-best-available-backend." id="toc-or-use-directly-via-cdn-for-quick-prototyping.-the-library-auto-detects-the-best-available-backend." class="nav-link active" data-scroll-target="#or-use-directly-via-cdn-for-quick-prototyping.-the-library-auto-detects-the-best-available-backend.">Or use directly via CDN for quick prototyping. The library auto-detects the best available backend.</a></li>
   </ul>
 </nav>
     </div>
@@ -409,77 +403,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Hugging Face has released <strong>Transformers.js v5</strong>, a major rewrite of their JavaScript ML library that brings frontier AI capabilities directly to web browsers through WebGPU acceleration.</p>
-<section id="section" class="level1">
-<h1></h1>
-<p>The standout feature of v5 is native WebGPU support, which delivers:</p>
-<ul>
-<li><strong>10-30x faster inference</strong> compared to WebGL/WASM backends</li>
-<li><strong>Direct GPU access</strong> in Chrome, Edge, and Safari (with fallback)</li>
-<li><strong>Zero server costs</strong> — all computation happens client-side</li>
-</ul>
-<p>This enables running models like Phi-4, Qwen2.5, and even LLama 3 locally in the browser without sending data to external servers.</p>
-<section id="browser-native-ai-stack" class="level2">
-<h2 class="anchored" data-anchor-id="browser-native-ai-stack">Browser-Native AI Stack</h2>
-<p>Transformers.js v5 creates a complete client-side AI infrastructure:</p>
+<p>Hugging Face has released <strong>Transformers.js v5</strong>, a major rewrite of their JavaScript ML library that brings frontier AI capabilities directly to web browsers through WebGPU acceleration. # The standout feature of v5 is native WebGPU support, which delivers: - <strong>10-30x faster inference</strong> compared to WebGL/WASM backends - <strong>Direct GPU access</strong> in Chrome, Edge, and Safari (with fallback) - <strong>Zero server costs</strong> — all computation happens client-side This enables running models like Phi-4, Qwen2.5, and even LLama 3 locally in the browser without sending data to external servers. ## Browser-Native AI Stack Transformers.js v5 creates a complete client-side AI infrastructure:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Load and run entirely in browser</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { pipeline } <span class="im">from</span> <span class="st">'@xenova/transformers'</span><span class="op">;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> classifier <span class="op">=</span> <span class="cf">await</span> <span class="fu">pipeline</span>(<span class="st">'sentiment-analysis'</span>)<span class="op">;</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> result <span class="op">=</span> <span class="cf">await</span> <span class="fu">classifier</span>(<span class="st">'I love local AI!'</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Supported tasks now include: - Text generation (LLM inference) - Image classification - Automatic Speech Recognition - Object detection - Text-to-speech</p>
-</section>
-<section id="performance-benchmarks" class="level2">
-<h2 class="anchored" data-anchor-id="performance-benchmarks">Performance Benchmarks</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>WebGPU</th>
-<th>WebAssembly</th>
-<th>CPU</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Whisper-base</td>
-<td>2.1x realtime</td>
-<td>0.3x realtime</td>
-<td>0.1x realtime</td>
-</tr>
-<tr class="even">
-<td>Phi-4-mini</td>
-<td>45 tok/s</td>
-<td>8 tok/s</td>
-<td>2 tok/s</td>
-</tr>
-<tr class="odd">
-<td>Qwen2.5-0.5B</td>
-<td>120 tok/s</td>
-<td>25 tok/s</td>
-<td>8 tok/s</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="why-it-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
-<p>The browser is now a viable deployment target for AI applications:</p>
-<ol type="1">
-<li><strong>Privacy</strong> — Data never leaves the user’s device</li>
-<li><strong>Cost</strong> — No cloud inference bills</li>
-<li><strong>Latency</strong> — Real-time interaction without network round-trips</li>
-<li><strong>Offline</strong> — Works without internet connection</li>
-</ol>
-</section>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<p>Supported tasks now include: - Text generation (LLM inference) - Image classification - Automatic Speech Recognition - Object detection - Text-to-speech ## Performance Benchmarks | Model | WebGPU | WebAssembly | CPU | |——-|——–|————-|—–| | Whisper-base | 2.1x realtime | 0.3x realtime | 0.1x realtime | | Phi-4-mini | 45 tok/s | 8 tok/s | 2 tok/s | | Qwen2.5-0.5B | 120 tok/s | 25 tok/s | 8 tok/s | ## Why It Matters The browser is now a viable deployment target for AI applications: 1. <strong>Privacy</strong> — Data never leaves the user’s device 2. <strong>Cost</strong> — No cloud inference bills 3. <strong>Latency</strong> — Real-time interaction without network round-trips 4. <strong>Offline</strong> — Works without internet connection ## Getting Started</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install @xenova/transformers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Or use directly via CDN for quick prototyping. The library auto-detects the best available backend.</p>
-<hr>
+<section id="or-use-directly-via-cdn-for-quick-prototyping.-the-library-auto-detects-the-best-available-backend." class="level2">
+<h2 class="anchored" data-anchor-id="or-use-directly-via-cdn-for-quick-prototyping.-the-library-auto-detects-the-best-available-backend.">Or use directly via CDN for quick prototyping. The library auto-detects the best available backend.</h2>
 <p><em>Related: <a href="../../posts/2026-02-11-transformers-js-v4-webgpu/index.html">Transformers.js v4 (Feb 11)</a></em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

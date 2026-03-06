@@ -360,14 +360,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
-  <li><a href="#the-technical-core" id="toc-the-technical-core" class="nav-link" data-scroll-target="#the-technical-core">The Technical Core</a></li>
-  <li><a href="#experimental-results" id="toc-experimental-results" class="nav-link" data-scroll-target="#experimental-results">Experimental Results</a></li>
-  <li><a href="#implications-for-agent-development" id="toc-implications-for-agent-development" class="nav-link" data-scroll-target="#implications-for-agent-development">Implications for Agent Development</a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
-  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -384,73 +377,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="section" class="level1">
 <h1></h1>
-<p>Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. <strong>Snowflake Labs introduces Agent World Model (AWM)</strong>, a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection.</p>
-<p>Published on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency.</p>
-<section id="why-it-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
-<p>Current approaches to agent training face a critical constraint:</p>
-<ul>
-<li><strong>Limited environments</strong>: Most benchmarks offer fewer than 100 distinct scenarios</li>
-<li><strong>Inconsistent simulation</strong>: LLM-based environments produce unreliable state transitions</li>
-<li><strong>Expensive data collection</strong>: Real-world interaction trajectories are costly to obtain</li>
-</ul>
-<p>AWM tackles these challenges by generating fully synthetic, code-driven environments backed by databases rather than fragile LLM simulations. This approach delivers:</p>
-<ul>
-<li><strong>1,000 environments</strong> covering everyday scenarios</li>
-<li><strong>35 tools per environment</strong> on average for rich interactions</li>
-<li><strong>Reliable state transitions</strong> through deterministic code execution</li>
-<li><strong>Efficient agent interaction</strong> compared to real-world data collection</li>
-</ul>
-</section>
-<section id="the-technical-core" class="level2">
-<h2 class="anchored" data-anchor-id="the-technical-core">The Technical Core</h2>
-<p><strong>Synthetic Environment Generation</strong></p>
-<p>AWM generates environments programmatically using structured code and databases rather than LLM-based simulation. Each environment contains:</p>
-<ul>
-<li>Executable scenario definitions</li>
-<li>Tool integrations (average of 35 per environment)</li>
-<li>Database-backed state management</li>
-<li>Deterministic transition logic</li>
-</ul>
-<p>This differs fundamentally from approaches that use LLMs as environment simulators, which suffer from inconsistency and hallucination issues.</p>
-<p><strong>Reward Function Design</strong></p>
-<p>Thanks to the fully executable environments and accessible database states, researchers can design reliable, deterministic reward functions. This addresses a long-standing challenge in RLHF for agents — defining reward signals that genuinely reflect task completion.</p>
-<p><strong>Scalable Training Pipeline</strong></p>
-<p>The AWM pipeline enables: - Large-scale reinforcement learning for multi-turn tool-use agents - Efficient batch training across thousands of environments - Out-of-distribution generalization through diverse scenario exposure</p>
-</section>
-<section id="experimental-results" class="level2">
-<h2 class="anchored" data-anchor-id="experimental-results">Experimental Results</h2>
-<p>The researchers evaluated training exclusively on synthetic AWM environments against three benchmarks:</p>
-<ul>
-<li><strong>Strong out-of-distribution generalization</strong>: Agents trained in synthetic environments outperformed those trained on benchmark-specific data</li>
-<li><strong>Diverse scenario coverage</strong>: 1,000 environments provide broad training distribution</li>
-<li><strong>Reliable evaluation</strong>: Code-driven environments enable reproducible benchmarking</li>
-</ul>
-<p>The code is available at <a href="https://github.com/Snowflake-Labs/agent-world-model" rel="nofollow">github.com/Snowflake-Labs/agent-world-model</a>{rel=“nofollow”}.</p>
-</section>
-<section id="implications-for-agent-development" class="level2">
-<h2 class="anchored" data-anchor-id="implications-for-agent-development">Implications for Agent Development</h2>
-<p>AWM represents a paradigm shift in how we think about agent training data:</p>
-<ul>
-<li><strong>Synthetic-first</strong>: Move from collecting real interactions to generating them</li>
-<li><strong>Scalable diversity</strong>: Generate thousands of scenarios programmatically</li>
-<li><strong>Deterministic evaluation</strong>: Replace fragile LLM simulations with code</li>
-<li><strong>Cost-effective scaling</strong>: Avoid expensive real-world data collection</li>
-</ul>
-<p>As agent systems become more capable and commercially important, approaches like AWM may become the standard for training and evaluation.</p>
-</section>
-<section id="key-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
-<ol type="1">
-<li><strong>1,000 synthetic environments</strong> enable large-scale agent RL training</li>
-<li><strong>Code-driven consistency</strong> beats LLM-based simulation for reliability</li>
-<li><strong>Out-of-distribution generalization</strong> improves with synthetic diversity</li>
-<li><strong>Open-source release</strong> available for research community</li>
-</ol>
-<p>The work marks a significant step toward scalable, reproducible agent training methodologies.</p>
+<p>Training autonomous agents that can use tools and navigate complex environments has long been limited by the scarcity of diverse, reliable training data. <strong>Snowflake Labs introduces Agent World Model (AWM)</strong>, a fully synthetic environment generation pipeline that creates 1,000 diverse, code-driven environments for agent training — eliminating dependence on costly real-world data collection. Published on arXiv, this work addresses a fundamental bottleneck in scaling agentic reinforcement learning: environment availability and consistency. ## Why It Matters Current approaches to agent training face a critical constraint: - <strong>Limited environments</strong>: Most benchmarks offer fewer than 100 distinct scenarios - <strong>Inconsistent simulation</strong>: LLM-based environments produce unreliable state transitions - <strong>Expensive data collection</strong>: Real-world interaction trajectories are costly to obtain AWM tackles these challenges by generating fully synthetic, code-driven environments backed by databases rather than fragile LLM simulations. This approach delivers: - <strong>1,000 environments</strong> covering everyday scenarios - <strong>35 tools per environment</strong> on average for rich interactions - <strong>Reliable state transitions</strong> through deterministic code execution - <strong>Efficient agent interaction</strong> compared to real-world data collection ## The Technical Core <strong>Synthetic Environment Generation</strong> AWM generates environments programmatically using structured code and databases rather than LLM-based simulation. Each environment contains: - Executable scenario definitions - Tool integrations (average of 35 per environment) - Database-backed state management - Deterministic transition logic This differs fundamentally from approaches that use LLMs as environment simulators, which suffer from inconsistency and hallucination issues. <strong>Reward Function Design</strong> Thanks to the fully executable environments and accessible database states, researchers can design reliable, deterministic reward functions. This addresses a long-standing challenge in RLHF for agents — defining reward signals that genuinely reflect task completion. <strong>Scalable Training Pipeline</strong> The AWM pipeline enables: - Large-scale reinforcement learning for multi-turn tool-use agents - Efficient batch training across thousands of environments - Out-of-distribution generalization through diverse scenario exposure ## Experimental Results The researchers evaluated training exclusively on synthetic AWM environments against three benchmarks: - <strong>Strong out-of-distribution generalization</strong>: Agents trained in synthetic environments outperformed those trained on benchmark-specific data - <strong>Diverse scenario coverage</strong>: 1,000 environments provide broad training distribution - <strong>Reliable evaluation</strong>: Code-driven environments enable reproducible benchmarking The code is available at <a href="https://github.com/Snowflake-Labs/agent-world-model" rel="nofollow">github.com/Snowflake-Labs/agent-world-model</a>{rel=“nofollow”}. ## Implications for Agent Development AWM represents a paradigm shift in how we think about agent training data: - <strong>Synthetic-first</strong>: Move from collecting real interactions to generating them - <strong>Scalable diversity</strong>: Generate thousands of scenarios programmatically - <strong>Deterministic evaluation</strong>: Replace fragile LLM simulations with code - <strong>Cost-effective scaling</strong>: Avoid expensive real-world data collection As agent systems become more capable and commercially important, approaches like AWM may become the standard for training and evaluation. ## Key Takeaways 1. <strong>1,000 synthetic environments</strong> enable large-scale agent RL training 2. <strong>Code-driven consistency</strong> beats LLM-based simulation for reliability 3. <strong>Out-of-distribution generalization</strong> improves with synthetic diversity 4. <strong>Open-source release</strong> available for research community The work marks a significant step toward scalable, reproducible agent training methodologies.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

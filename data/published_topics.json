@@ -1083,12 +1083,36 @@
       ]
     },
     {
-      "date": "2026-03-06",
-      "term": "Broadcom AI Chips"
+      "term": "GPT-5.4 Native Computer Use",
+      "count": 1,
+      "last_published": "2026-03-06",
+      "slugs": [
+        "2026-03-06-gpt-5-4-native-computer-use"
+      ]
     },
     {
-      "date": "2026-03-06",
-      "term": "Broadcom 100B Revenue"
+      "term": "GPT-5.4 Agentic AI",
+      "count": 1,
+      "last_published": "2026-03-06",
+      "slugs": [
+        "2026-03-06-gpt-5-4-native-computer-use"
+      ]
+    },
+    {
+      "term": "GPT-5.4 OSWorld Benchmark",
+      "count": 1,
+      "last_published": "2026-03-06",
+      "slugs": [
+        "2026-03-06-gpt-5-4-native-computer-use"
+      ]
+    },
+    {
+      "term": "OpenAI Agentic AI Arms Race",
+      "count": 1,
+      "last_published": "2026-03-06",
+      "slugs": [
+        "2026-03-06-gpt-5-4-native-computer-use"
+      ]
     }
   ]
 }

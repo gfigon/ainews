@@ -342,18 +342,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-great-simplification-removing-nats-and-etcd" id="toc-the-great-simplification-removing-nats-and-etcd" class="nav-link active" data-scroll-target="#the-great-simplification-removing-nats-and-etcd">The Great Simplification: Removing NATS and etcd</a></li>
-  <li><a href="#multi-modal-support-and-the-epd-split" id="toc-multi-modal-support-and-the-epd-split" class="nav-link" data-scroll-target="#multi-modal-support-and-the-epd-split">Multi-Modal Support and the E/P/D Split</a></li>
-  <li><a href="#flashindexer-preview" id="toc-flashindexer-preview" class="nav-link" data-scroll-target="#flashindexer-preview">FlashIndexer Preview</a></li>
-  <li><a href="#smart-routing-with-kalman-filters" id="toc-smart-routing-with-kalman-filters" class="nav-link" data-scroll-target="#smart-routing-with-kalman-filters">Smart Routing with Kalman Filters</a></li>
-  <li><a href="#technical-stack-updates" id="toc-technical-stack-updates" class="nav-link" data-scroll-target="#technical-stack-updates">Technical Stack Updates</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -366,59 +356,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>NVIDIA has released Dynamo v0.9.0, the most significant infrastructure upgrade for its distributed inference framework to date. This release simplifies how large-scale AI models are deployed and managed, with a particular focus on removing heavy dependencies and improving multi-modal processing capabilities.</p>
-<section id="the-great-simplification-removing-nats-and-etcd" class="level2">
-<h2 class="anchored" data-anchor-id="the-great-simplification-removing-nats-and-etcd">The Great Simplification: Removing NATS and etcd</h2>
-<p>The most notable change in v0.9.0 is the removal of NATS and ETCD. In previous versions, these tools handled service discovery and messaging but added what NVIDIA calls “operational tax” — requiring developers to manage extra clusters.</p>
-<p>The replacement is a new Event Plane and Discovery Plane that uses ZMQ (ZeroMQ) for high-performance transport and MessagePack for data serialization. For teams using Kubernetes, Dynamo now supports Kubernetes-native service discovery, making the infrastructure leaner and easier to maintain in production environments.</p>
-</section>
-<section id="multi-modal-support-and-the-epd-split" class="level2">
-<h2 class="anchored" data-anchor-id="multi-modal-support-and-the-epd-split">Multi-Modal Support and the E/P/D Split</h2>
-<p>Dynamo v0.9.0 expands multi-modal support across three major backends: vLLM, SGLang, and TensorRT-LLM. This enables models to process text, images, and video more efficiently.</p>
-<p>A key feature is the E/P/D (Encode/Prefill/Decode) split. In standard setups, a single GPU often handles all three stages, causing bottlenecks during heavy video or image processing. Version 0.9.0 introduces Encoder Disaggregation, allowing the Encoder to run on separate GPUs from Prefill and Decode workers. This lets teams scale hardware based on specific model needs.</p>
-</section>
-<section id="flashindexer-preview" class="level2">
-<h2 class="anchored" data-anchor-id="flashindexer-preview">FlashIndexer Preview</h2>
-<p>This release includes a sneak preview of FlashIndexer, designed to solve latency issues in distributed KV cache management. When working with large context windows, moving Key-Value data between GPUs is slow. FlashIndexer improves how the system indexes and retrieves cached tokens, resulting in lower Time to First Token (TTFT).</p>
-</section>
-<section id="smart-routing-with-kalman-filters" class="level2">
-<h2 class="anchored" data-anchor-id="smart-routing-with-kalman-filters">Smart Routing with Kalman Filters</h2>
-<p>Managing traffic across hundreds of GPUs is challenging. Dynamo v0.9.0 introduces a smarter Planner that uses predictive load estimation powered by Kalman filters. The system predicts future load based on past performance and supports routing hints from the Kubernetes Gateway API Inference Extension (GAIE).</p>
-</section>
-<section id="technical-stack-updates" class="level2">
-<h2 class="anchored" data-anchor-id="technical-stack-updates">Technical Stack Updates</h2>
-<p>The v0.9.0 release updates several core components:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Version</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>vLLM</td>
-<td>v0.14.1</td>
-</tr>
-<tr class="even">
-<td>SGLang</td>
-<td>v0.5.8</td>
-</tr>
-<tr class="odd">
-<td>TensorRT-LLM</td>
-<td>v1.3.0rc1</td>
-</tr>
-<tr class="even">
-<td>NIXL</td>
-<td>v0.9.0</td>
-</tr>
-</tbody>
-</table>
-<p>The dynamo-tokens crate (written in Rust) ensures high-speed token handling, while NIXL continues to handle RDMA-based GPU communication.</p>
-<p>This release marks a significant step toward making distributed inference feel as fast as local inference — particularly important as organizations deploy increasingly large AI models across GPU clusters.</p>
+<p>NVIDIA has released Dynamo v0.9.0, the most significant infrastructure upgrade for its distributed inference framework to date. This release simplifies how large-scale AI models are deployed and managed, with a particular focus on removing heavy dependencies and improving multi-modal processing capabilities. ## The Great Simplification: Removing NATS and etcd The most notable change in v0.9.0 is the removal of NATS and ETCD. In previous versions, these tools handled service discovery and messaging but added what NVIDIA calls “operational tax” — requiring developers to manage extra clusters. The replacement is a new Event Plane and Discovery Plane that uses ZMQ (ZeroMQ) for high-performance transport and MessagePack for data serialization. For teams using Kubernetes, Dynamo now supports Kubernetes-native service discovery, making the infrastructure leaner and easier to maintain in production environments. ## Multi-Modal Support and the E/P/D Split Dynamo v0.9.0 expands multi-modal support across three major backends: vLLM, SGLang, and TensorRT-LLM. This enables models to process text, images, and video more efficiently. A key feature is the E/P/D (Encode/Prefill/Decode) split. In standard setups, a single GPU often handles all three stages, causing bottlenecks during heavy video or image processing. Version 0.9.0 introduces Encoder Disaggregation, allowing the Encoder to run on separate GPUs from Prefill and Decode workers. This lets teams scale hardware based on specific model needs. ## FlashIndexer Preview This release includes a sneak preview of FlashIndexer, designed to solve latency issues in distributed KV cache management. When working with large context windows, moving Key-Value data between GPUs is slow. FlashIndexer improves how the system indexes and retrieves cached tokens, resulting in lower Time to First Token (TTFT). ## Smart Routing with Kalman Filters Managing traffic across hundreds of GPUs is challenging. Dynamo v0.9.0 introduces a smarter Planner that uses predictive load estimation powered by Kalman filters. The system predicts future load based on past performance and supports routing hints from the Kubernetes Gateway API Inference Extension (GAIE). ## Technical Stack Updates The v0.9.0 release updates several core components: | Component | Version | |———–|———| | vLLM | v0.14.1 | | SGLang | v0.5.8 | | TensorRT-LLM | v1.3.0rc1 | | NIXL | v0.9.0 | The dynamo-tokens crate (written in Rust) ensures high-speed token handling, while NIXL continues to handle RDMA-based GPU communication. This release marks a significant step toward making distributed inference feel as fast as local inference — particularly important as organizations deploy increasingly large AI models across GPU clusters.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

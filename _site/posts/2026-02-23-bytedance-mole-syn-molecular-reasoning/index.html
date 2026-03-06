@@ -355,18 +355,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-molecular-structure-of-thought" id="toc-the-molecular-structure-of-thought" class="nav-link active" data-scroll-target="#the-molecular-structure-of-thought">The Molecular Structure of Thought</a></li>
-  <li><a href="#why-keyword-imitation-fails" id="toc-why-keyword-imitation-fails" class="nav-link" data-scroll-target="#why-keyword-imitation-fails">Why Keyword Imitation Fails</a></li>
-  <li><a href="#mole-syn-behavior-transfer-without-distillation" id="toc-mole-syn-behavior-transfer-without-distillation" class="nav-link" data-scroll-target="#mole-syn-behavior-transfer-without-distillation">MOLE-SYN: Behavior Transfer Without Distillation</a></li>
-  <li><a href="#protecting-reasoning-through-compression" id="toc-protecting-reasoning-through-compression" class="nav-link" data-scroll-target="#protecting-reasoning-through-compression">Protecting Reasoning Through Compression</a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -379,43 +369,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>For years, AI researchers have struggled to teach language models how to reason effectively. The standard approach — training models to imitate keywords like “wait” or “maybe” — fundamentally misses the point. ByteDance Seed just published research proving that high-quality reasoning has a stable, molecular-like structure, and they’ve built a system to synthesize it from scratch.</p>
-<section id="the-molecular-structure-of-thought" class="level2">
-<h2 class="anchored" data-anchor-id="the-molecular-structure-of-thought">The Molecular Structure of Thought</h2>
-<p>The ByteDance team discovered that effective reasoning trajectories are held together by three distinct interaction types — which they describe using chemistry metaphors:</p>
-<p><strong>Deep Reasoning as Covalent Bonds</strong>: These form the primary skeleton of thought. Each logical step justifies the next, creating strong dependencies where Step A must support Step B. Break this bond and the entire reasoning chain collapses.</p>
-<p><strong>Self-Reflection as Hydrogen Bonds</strong>: Like proteins that gain stability when their chains fold, reasoning stabilizes when later steps revise or reinforce earlier premises. In tests, 81.72% of reflection steps successfully reconnected to previously formed reasoning clusters.</p>
-<p><strong>Self-Exploration as Van der Waals Forces</strong>: These weak bridges allow models to probe alternative hypotheses before enforcing stronger logical constraints — the AI equivalent of “what if I’m wrong?”</p>
-</section>
-<section id="why-keyword-imitation-fails" class="level2">
-<h2 class="anchored" data-anchor-id="why-keyword-imitation-fails">Why Keyword Imitation Fails</h2>
-<p>Current approaches to improving reasoning largely rely on imitation learning — fine-tuning models on human-annotated reasoning traces or leveraging Chain-of-Thought examples from stronger models. ByteDance found this fundamentally broken.</p>
-<p>Their research reveals <strong>Semantic Isomers</strong>: reasoning chains that solve the same task using the same concepts but with different logical bond distributions. Imitating surface keywords doesn’t transfer the underlying structure.</p>
-<p>More surprisingly, mixing reasoning data from different strong teachers (like DeepSeek-R1 and OpenAI-OSS) actually <em>destabilizes</em> the model. Even with statistically similar data, incompatible “molecular” structures create what ByteDance calls “structural chaos.”</p>
-</section>
-<section id="mole-syn-behavior-transfer-without-distillation" class="level2">
-<h2 class="anchored" data-anchor-id="mole-syn-behavior-transfer-without-distillation">MOLE-SYN: Behavior Transfer Without Distillation</h2>
-<p>Rather than copying reasoning text, MOLE-SYN estimates a behavior transition graph from strong models and guides a cheaper model to synthesize its own effective Long CoT structures.</p>
-<p>This “distribution-transfer-graph” approach decouples structure from surface text. The key innovation: instead of distilling <em>outputs</em> (which exposes proprietary reasoning), MOLE-SYN transfers <em>behavioral patterns</em> — the actual transitions between reasoning states.</p>
-<p>Results across six major benchmarks (GSM8K, MATH-500, OlymBench) show consistent gains, achieving performance close to expensive distillation while stabilizing reinforcement learning training.</p>
-</section>
-<section id="protecting-reasoning-through-compression" class="level2">
-<h2 class="anchored" data-anchor-id="protecting-reasoning-through-compression">Protecting Reasoning Through Compression</h2>
-<p>This research also explains how AI companies protect their models from distillation. ByteDance found that summarization and reasoning compression — reducing token counts by 45% or more — effectively “breaks” the bond distributions.</p>
-<p>By disrupting the internal reasoning structure, companies create a gap between what the model outputs and its internal error-bounded transitions, making unauthorized cloning significantly harder.</p>
-</section>
-<section id="key-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
-<ul>
-<li><p><strong>Reasoning is Molecular</strong>: Long Chain-of-Thought isn’t about keywords — it’s about three specific bond types that hold logical structures together</p></li>
-<li><p><strong>Behavior Over Surface</strong>: Models internalize reasoning structures, not lexical cues. Replacing keywords with synonyms barely impacts performance</p></li>
-<li><p><strong>Structural Conflict is Real</strong>: Mixing reasoning data from different teachers causes “structural chaos” that degrades model performance</p></li>
-<li><p><strong>MOLE-SYN Enables Cheap Reasoning</strong>: Transferring behavior graphs instead of text allows cheaper models to synthesize effective Long CoT independently</p></li>
-<li><p><strong>Distillation Defense</strong>: Companies can protect proprietary reasoning through token compression, disrupting the bond distributions that enable model cloning</p></li>
-</ul>
+<p>For years, AI researchers have struggled to teach language models how to reason effectively. The standard approach — training models to imitate keywords like “wait” or “maybe” — fundamentally misses the point. ByteDance Seed just published research proving that high-quality reasoning has a stable, molecular-like structure, and they’ve built a system to synthesize it from scratch. ## The Molecular Structure of Thought The ByteDance team discovered that effective reasoning trajectories are held together by three distinct interaction types — which they describe using chemistry metaphors: <strong>Deep Reasoning as Covalent Bonds</strong>: These form the primary skeleton of thought. Each logical step justifies the next, creating strong dependencies where Step A must support Step B. Break this bond and the entire reasoning chain collapses. <strong>Self-Reflection as Hydrogen Bonds</strong>: Like proteins that gain stability when their chains fold, reasoning stabilizes when later steps revise or reinforce earlier premises. In tests, 81.72% of reflection steps successfully reconnected to previously formed reasoning clusters. <strong>Self-Exploration as Van der Waals Forces</strong>: These weak bridges allow models to probe alternative hypotheses before enforcing stronger logical constraints — the AI equivalent of “what if I’m wrong?” ## Why Keyword Imitation Fails Current approaches to improving reasoning largely rely on imitation learning — fine-tuning models on human-annotated reasoning traces or leveraging Chain-of-Thought examples from stronger models. ByteDance found this fundamentally broken. Their research reveals <strong>Semantic Isomers</strong>: reasoning chains that solve the same task using the same concepts but with different logical bond distributions. Imitating surface keywords doesn’t transfer the underlying structure. More surprisingly, mixing reasoning data from different strong teachers (like DeepSeek-R1 and OpenAI-OSS) actually <em>destabilizes</em> the model. Even with statistically similar data, incompatible “molecular” structures create what ByteDance calls “structural chaos.” ## MOLE-SYN: Behavior Transfer Without Distillation Rather than copying reasoning text, MOLE-SYN estimates a behavior transition graph from strong models and guides a cheaper model to synthesize its own effective Long CoT structures. This “distribution-transfer-graph” approach decouples structure from surface text. The key innovation: instead of distilling <em>outputs</em> (which exposes proprietary reasoning), MOLE-SYN transfers <em>behavioral patterns</em> — the actual transitions between reasoning states. Results across six major benchmarks (GSM8K, MATH-500, OlymBench) show consistent gains, achieving performance close to expensive distillation while stabilizing reinforcement learning training. ## Protecting Reasoning Through Compression This research also explains how AI companies protect their models from distillation. ByteDance found that summarization and reasoning compression — reducing token counts by 45% or more — effectively “breaks” the bond distributions. By disrupting the internal reasoning structure, companies create a gap between what the model outputs and its internal error-bounded transitions, making unauthorized cloning significantly harder. ## Key Takeaways - <strong>Reasoning is Molecular</strong>: Long Chain-of-Thought isn’t about keywords — it’s about three specific bond types that hold logical structures together - <strong>Behavior Over Surface</strong>: Models internalize reasoning structures, not lexical cues. Replacing keywords with synonyms barely impacts performance - <strong>Structural Conflict is Real</strong>: Mixing reasoning data from different teachers causes “structural chaos” that degrades model performance - <strong>MOLE-SYN Enables Cheap Reasoning</strong>: Transferring behavior graphs instead of text allows cheaper models to synthesize effective Long CoT independently - <strong>Distillation Defense</strong>: Companies can protect proprietary reasoning through token compression, disrupting the bond distributions that enable model cloning</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -343,19 +343,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#conquering-the-long-tail" id="toc-conquering-the-long-tail" class="nav-link" data-scroll-target="#conquering-the-long-tail">Conquering the ‘Long-Tail’</a></li>
-  <li><a href="#triple-axis-control" id="toc-triple-axis-control" class="nav-link" data-scroll-target="#triple-axis-control">Triple-Axis Control</a></li>
-  <li><a href="#democratizing-simulation" id="toc-democratizing-simulation" class="nav-link" data-scroll-target="#democratizing-simulation">Democratizing Simulation</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -368,29 +357,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="image.jpg" class="img-fluid"></p>
-<p>Waymo has unveiled its <strong>Waymo World Model (WWM)</strong>, a frontier generative system built on top of Google DeepMind’s <strong>Genie 3</strong>. This new engine is designed to create photorealistic, controllable, and multi-sensor driving environments, enabling the next generation of autonomous vehicle (AV) simulation.</p>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-<p>While traditional simulators rely on on-road data, the Waymo World Model leverages the broad world knowledge acquired by Genie 3 during its pre-training on massive video datasets. By post-training this model specifically for the driving domain, Waymo can now generate consistent <strong>RGB video streams and Lidar point clouds</strong> simultaneously. This ensures that the “Waymo Driver” (the AI stack) perceives simulated worlds exactly as it does the real public roads.</p>
-<section id="conquering-the-long-tail" class="level3">
-<h3 class="anchored" data-anchor-id="conquering-the-long-tail">Conquering the ‘Long-Tail’</h3>
-<p>The primary goal of WWM is to expose the AV stack to rare and dangerous “long-tail” events that are nearly impossible to capture in real-world logs. The model has shown an emergent ability to synthesize scenarios like: * Driving through roadway fires or flooded streets. * Encountering unusual objects like elephants or pedestrians in dinosaur costumes. * Navigating snowy conditions on the Golden Gate Bridge or in tropical settings.</p>
-<p>These are not pre-programmed rules; rather, they are emergent behaviors from the model’s deep understanding of spatiotemporal dynamics.</p>
-</section>
-<section id="triple-axis-control" class="level3">
-<h3 class="anchored" data-anchor-id="triple-axis-control">Triple-Axis Control</h3>
-<p>WWM provides high-level control through three distinct mechanisms: 1. <strong>Driving Action Control</strong>: Testing “what if” scenarios by changing the vehicle’s trajectory. 2. <strong>Scene Layout Control</strong>: Repositioning traffic participants or modifying road geometry. 3. <strong>Language Control</strong>: Using natural language prompts to change weather, time of day, or lighting conditions instantly.</p>
-</section>
-<section id="democratizing-simulation" class="level3">
-<h3 class="anchored" data-anchor-id="democratizing-simulation">Democratizing Simulation</h3>
-<p>Perhaps most impressively, the Waymo World Model can transform standard 2D smartphone or dashcam footage into interactive, multimodal simulations. This allows Waymo to expand its testing grounds into any location where consumer video exists, without requiring the physical presence of a Lidar-equipped fleet.</p>
-<p>By reducing the compute cost for long-horizon rollouts and increasing the diversity of scenarios, Waymo is setting a new standard for how generative AI can solve the most difficult problems in physical robotics.</p>
-<p><a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/" rel="nofollow">Waymo Blog Post</a>{rel=“nofollow”}</p>
+<p><img src="image.jpg" class="img-fluid"> Waymo has unveiled its <strong>Waymo World Model (WWM)</strong>, a frontier generative system built on top of Google DeepMind’s <strong>Genie 3</strong>. This new engine is designed to create photorealistic, controllable, and multi-sensor driving environments, enabling the next generation of autonomous vehicle (AV) simulation. ## While traditional simulators rely on on-road data, the Waymo World Model leverages the broad world knowledge acquired by Genie 3 during its pre-training on massive video datasets. By post-training this model specifically for the driving domain, Waymo can now generate consistent <strong>RGB video streams and Lidar point clouds</strong> simultaneously. This ensures that the “Waymo Driver” (the AI stack) perceives simulated worlds exactly as it does the real public roads. ### Conquering the ‘Long-Tail’ The primary goal of WWM is to expose the AV stack to rare and dangerous “long-tail” events that are nearly impossible to capture in real-world logs. The model has shown an emergent ability to synthesize scenarios like: * Driving through roadway fires or flooded streets. * Encountering unusual objects like elephants or pedestrians in dinosaur costumes. * Navigating snowy conditions on the Golden Gate Bridge or in tropical settings. These are not pre-programmed rules; rather, they are emergent behaviors from the model’s deep understanding of spatiotemporal dynamics. ### Triple-Axis Control WWM provides high-level control through three distinct mechanisms: 1. <strong>Driving Action Control</strong>: Testing “what if” scenarios by changing the vehicle’s trajectory. 2. <strong>Scene Layout Control</strong>: Repositioning traffic participants or modifying road geometry. 3. <strong>Language Control</strong>: Using natural language prompts to change weather, time of day, or lighting conditions instantly. ### Democratizing Simulation Perhaps most impressively, the Waymo World Model can transform standard 2D smartphone or dashcam footage into interactive, multimodal simulations. This allows Waymo to expand its testing grounds into any location where consumer video exists, without requiring the physical presence of a Lidar-equipped fleet. By reducing the compute cost for long-horizon rollouts and increasing the diversity of scenarios, Waymo is setting a new standard for how generative AI can solve the most difficult problems in physical robotics. <a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/" rel="nofollow">Waymo Blog Post</a>{rel=“nofollow”}</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -105,6 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:title" content="Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini">
 <meta property="og:description" content="China’s Zhipu AI has released GLM-5, a massive 744-billion parameter Mixture-of-Experts (MoE) model. Featuring the ‘Slime’ RL framework, it sets new standards for open-source agentic performance.">
 <meta property="og:image" content="https://roboaidigest.com/posts/2026-02-12-zhipu-glm5-release/cover.jpg">
+<meta property="og:image:alt" content="Zhipu GLM-5: A new era for open-source agentic models.">
 <meta name="twitter:title" content="Zhipu AI Unveils GLM-5: Open-Source 744B MoE Challenge to Claude and Gemini">
 <meta name="twitter:description" content="China’s Zhipu AI has released GLM-5, a massive 744-billion parameter Mixture-of-Experts (MoE) model. Featuring the ‘Slime’ RL framework, it sets new standards for open-source agentic performance.">
 <meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
@@ -349,19 +350,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#key-breakthroughs-the-slime-framework" id="toc-key-breakthroughs-the-slime-framework" class="nav-link" data-scroll-target="#key-breakthroughs-the-slime-framework">Key Breakthroughs: The “Slime” Framework</a></li>
-  <li><a href="#performance-benchmarks" id="toc-performance-benchmarks" class="nav-link" data-scroll-target="#performance-benchmarks">Performance Benchmarks</a></li>
-  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -374,40 +364,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="cover.jpg" class="img-fluid figure-img"></p>
-<figcaption>Zhipu GLM-5: A new era for open-source agentic models.</figcaption>
-</figure>
-</div>
-<section id="section" class="level1">
-<h1></h1>
-<p>In a significant move for the open-source AI ecosystem, <strong>Zhipu AI</strong> (rebranding as <strong>Z.ai</strong>) has officially released <strong>GLM-5</strong>, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic’s Claude Opus 4.5 and Google’s Gemini 3 Pro.</p>
-<p>Available now on platforms like OpenRouter (where it was previously spotted in stealth as “Pony Alpha”), GLM-5 represents a massive leap in coding performance and long-horizon agentic capabilities.</p>
-<section id="key-breakthroughs-the-slime-framework" class="level3">
-<h3 class="anchored" data-anchor-id="key-breakthroughs-the-slime-framework">Key Breakthroughs: The “Slime” Framework</h3>
-<p>The standout technical innovation in GLM-5 is the introduction of the <strong>“Slime” (Scalable Lightweight Iterative Model Evolution)</strong> reinforcement learning framework.</p>
-<p>Traditionally, Reinforcement Learning (RL) training for large models is bottlenecked by synchronous policy updates—where the entire system must wait for data generation before updating. <strong>Slime</strong> breaks this cycle by:</p>
-<ul>
-<li><strong>Asynchronous Training:</strong> Decoupling data generation from policy updates, allowing for up to 3x higher throughput.</li>
-<li><strong>Active Partial Rollouts (APRIL):</strong> Handling complex, long-running agent tasks by independently generating trajectories.</li>
-<li><strong>Reduced Hallucinations:</strong> Zhipu claims a record-low hallucination rate, particularly in complex tool-use scenarios.</li>
-</ul>
-</section>
-<section id="performance-benchmarks" class="level3">
-<h3 class="anchored" data-anchor-id="performance-benchmarks">Performance Benchmarks</h3>
-<p>GLM-5 has shown exceptional results in several key areas: * <strong>Coding:</strong> Built success rates in frontend tasks have improved by <strong>26%</strong> over its predecessor, GLM-4.7. * <strong>Agentic Planning:</strong> It excels in benchmarks like <strong>τ2-Bench</strong> (complex tool planning) and <strong>BrowseComp</strong> (networked search understanding). * <strong>Efficiency:</strong> Despite its size, the MoE architecture ensures it remains competitively priced, ranging from $0.80 to $1.00 per million input tokens.</p>
-</section>
-<section id="why-it-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
-<p>The release of GLM-5 just before the Lunar New Year signals the intensifying competition in the “frontier” model space. By making such a powerful model open-source, Zhipu AI is positioning itself as the “DeepSeek of 2026,” providing the community with tools that were previously the exclusive domain of Silicon Valley’s closed labs.</p>
-<p>As OpenAI prepares to retire GPT-4o tomorrow (February 13), the arrival of GLM-5 offers a compelling alternative for developers seeking high-end reasoning and agentic control without the vendor lock-in.</p>
-<hr>
-<p><em>Sources: Reuters, VentureBeat, Z.ai Official Release.</em></p>
+<p><img src="cover.jpg" class="img-fluid" alt="Zhipu GLM-5: A new era for open-source agentic models."> # In a significant move for the open-source AI ecosystem, <strong>Zhipu AI</strong> (rebranding as <strong>Z.ai</strong>) has officially released <strong>GLM-5</strong>, its newest flagship model. This 744-billion parameter Mixture-of-Experts (MoE) beast is designed to compete directly with proprietary giants like Anthropic’s Claude Opus 4.5 and Google’s Gemini 3 Pro. Available now on platforms like OpenRouter (where it was previously spotted in stealth as “Pony Alpha”), GLM-5 represents a massive leap in coding performance and long-horizon agentic capabilities. ### Key Breakthroughs: The “Slime” Framework The standout technical innovation in GLM-5 is the introduction of the <strong>“Slime” (Scalable Lightweight Iterative Model Evolution)</strong> reinforcement learning framework. Traditionally, Reinforcement Learning (RL) training for large models is bottlenecked by synchronous policy updates—where the entire system must wait for data generation before updating. <strong>Slime</strong> breaks this cycle by: * <strong>Asynchronous Training:</strong> Decoupling data generation from policy updates, allowing for up to 3x higher throughput. * <strong>Active Partial Rollouts (APRIL):</strong> Handling complex, long-running agent tasks by independently generating trajectories. * <strong>Reduced Hallucinations:</strong> Zhipu claims a record-low hallucination rate, particularly in complex tool-use scenarios. ### Performance Benchmarks GLM-5 has shown exceptional results in several key areas: * <strong>Coding:</strong> Built success rates in frontend tasks have improved by <strong>26%</strong> over its predecessor, GLM-4.7. * <strong>Agentic Planning:</strong> It excels in benchmarks like <strong>τ2-Bench</strong> (complex tool planning) and <strong>BrowseComp</strong> (networked search understanding). * <strong>Efficiency:</strong> Despite its size, the MoE architecture ensures it remains competitively priced, ranging from $0.80 to $1.00 per million input tokens. ## Why It Matters The release of GLM-5 just before the Lunar New Year signals the intensifying competition in the “frontier” model space. By making such a powerful model open-source, Zhipu AI is positioning itself as the “DeepSeek of 2026,” providing the community with tools that were previously the exclusive domain of Silicon Valley’s closed labs. As OpenAI prepares to retire GPT-4o tomorrow (February 13), the arrival of GLM-5 offers a compelling alternative for developers seeking high-end reasoning and agentic control without the vendor lock-in. — <em>Sources: Reuters, VentureBeat, Z.ai Official Release.</em></p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

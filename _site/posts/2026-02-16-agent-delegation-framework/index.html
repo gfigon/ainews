@@ -348,21 +348,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#the-five-pillars-framework" id="toc-the-five-pillars-framework" class="nav-link" data-scroll-target="#the-five-pillars-framework">The Five Pillars Framework</a></li>
-  <li><a href="#contract-first-decomposition" id="toc-contract-first-decomposition" class="nav-link" data-scroll-target="#contract-first-decomposition">Contract-First Decomposition</a></li>
-  <li><a href="#security-delegation-capability-tokens" id="toc-security-delegation-capability-tokens" class="nav-link" data-scroll-target="#security-delegation-capability-tokens">Security: Delegation Capability Tokens</a></li>
-  <li><a href="#evaluating-current-protocols" id="toc-evaluating-current-protocols" class="nav-link" data-scroll-target="#evaluating-current-protocols">Evaluating Current Protocols</a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -375,85 +362,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>The AI industry is currently obsessed with ‘agents’—autonomous programs that do more than just chat. However, most current multi-agent systems rely on brittle, hard-coded heuristics that fail when the environment changes. Google DeepMind researchers have proposed a new solution: a framework that brings human-like organizational principles to AI delegation.</p>
-<section id="section" class="level1">
-<h1></h1>
-<p>For the ‘agentic web’ to scale, agents must move beyond simple task-splitting and adopt principles such as authority, responsibility, and accountability. The research team argues that standard software “subroutines” are fundamentally different from intelligent delegation—a process that involves risk assessment, capability matching, and establishing trust.</p>
-<section id="the-five-pillars-framework" class="level2">
-<h2 class="anchored" data-anchor-id="the-five-pillars-framework">The Five Pillars Framework</h2>
-<p>The framework identifies five core requirements mapped to specific technical protocols:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 52%">
-<col style="width: 31%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Pillar</th>
-<th>Technical Implementation</th>
-<th>Core Function</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dynamic Assessment</td>
-<td>Task Decomposition &amp; Assignment</td>
-<td>Granularly inferring agent state and capacity</td>
-</tr>
-<tr class="even">
-<td>Adaptive Execution</td>
-<td>Adaptive Coordination</td>
-<td>Handling context shifts and runtime failures</td>
-</tr>
-<tr class="odd">
-<td>Structural Transparency</td>
-<td>Monitoring &amp; Verifiable Completion</td>
-<td>Auditing both process and final outcome</td>
-</tr>
-<tr class="even">
-<td>Scalable Market</td>
-<td>Trust &amp; Reputation &amp; Multi-objective Optimization</td>
-<td>Efficient, trusted coordination in open markets</td>
-</tr>
-<tr class="odd">
-<td>Systemic Resilience</td>
-<td>Security &amp; Permission Handling</td>
-<td>Preventing cascading failures and malicious use</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="contract-first-decomposition" class="level2">
-<h2 class="anchored" data-anchor-id="contract-first-decomposition">Contract-First Decomposition</h2>
-<p>The most significant shift is <strong>contract-first decomposition</strong>. Under this principle, a delegator only assigns a task if the outcome can be precisely verified. If a task is too subjective or complex to verify—like ‘write a compelling research paper’—the system must recursively decompose it until sub-tasks match available verification tools (unit tests or formal mathematical proofs).</p>
-</section>
-<section id="security-delegation-capability-tokens" class="level2">
-<h2 class="anchored" data-anchor-id="security-delegation-capability-tokens">Security: Delegation Capability Tokens</h2>
-<p>To prevent systemic breaches and the ‘confused deputy problem,’ DeepMind suggests <strong>Delegation Capability Tokens (DCTs)</strong>. Based on technologies like Macaroons or Biscuits, these tokens use ‘cryptographic caveats’ to enforce the principle of least privilege. For example, an agent might receive a token that allows READ access to a specific Google Drive folder but forbids any WRITE operations.</p>
-</section>
-<section id="evaluating-current-protocols" class="level2">
-<h2 class="anchored" data-anchor-id="evaluating-current-protocols">Evaluating Current Protocols</h2>
-<p>The research team analyzed whether current industry standards are ready for this framework:</p>
-<ul>
-<li><strong>MCP (Model Context Protocol)</strong>: Standardizes tool connections but lacks a policy layer for permissions across deep delegation chains</li>
-<li><strong>A2A (Agent-to-Agent)</strong>: Manages discovery and task lifecycles but lacks standardized headers for Zero-Knowledge Proofs</li>
-<li><strong>AP2 (Agent Payments Protocol)</strong>: Authorizes spending but cannot natively verify work quality before payment</li>
-</ul>
-</section>
-<section id="key-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
-<ol type="1">
-<li><strong>Move Beyond Heuristics</strong>: Intelligent delegation requires an adaptive framework incorporating transfer of authority, responsibility, and accountability</li>
-<li><strong>Contract-First Approach</strong>: Decompose tasks until sub-units match specific automated verification capabilities</li>
-<li><strong>Transitive Accountability</strong>: In delegation chains (A → B → C), responsibility is transitive—Agent A must verify both B’s work and that B correctly verified C’s attestations</li>
-<li><strong>Attenuated Security</strong>: Use DCTs to ensure agents operate under principle of least privilege</li>
-</ol>
-<p>This framework represents a significant step toward making multi-agent systems robust enough for real-world economic applications.</p>
+<p>The AI industry is currently obsessed with ‘agents’—autonomous programs that do more than just chat. However, most current multi-agent systems rely on brittle, hard-coded heuristics that fail when the environment changes. Google DeepMind researchers have proposed a new solution: a framework that brings human-like organizational principles to AI delegation. # For the ‘agentic web’ to scale, agents must move beyond simple task-splitting and adopt principles such as authority, responsibility, and accountability. The research team argues that standard software “subroutines” are fundamentally different from intelligent delegation—a process that involves risk assessment, capability matching, and establishing trust. ## The Five Pillars Framework The framework identifies five core requirements mapped to specific technical protocols: | Pillar | Technical Implementation | Core Function | |——–|————————-|—————| | Dynamic Assessment | Task Decomposition &amp; Assignment | Granularly inferring agent state and capacity | | Adaptive Execution | Adaptive Coordination | Handling context shifts and runtime failures | | Structural Transparency | Monitoring &amp; Verifiable Completion | Auditing both process and final outcome | | Scalable Market | Trust &amp; Reputation &amp; Multi-objective Optimization | Efficient, trusted coordination in open markets | | Systemic Resilience | Security &amp; Permission Handling | Preventing cascading failures and malicious use | ## Contract-First Decomposition The most significant shift is <strong>contract-first decomposition</strong>. Under this principle, a delegator only assigns a task if the outcome can be precisely verified. If a task is too subjective or complex to verify—like ‘write a compelling research paper’—the system must recursively decompose it until sub-tasks match available verification tools (unit tests or formal mathematical proofs). ## Security: Delegation Capability Tokens To prevent systemic breaches and the ‘confused deputy problem,’ DeepMind suggests <strong>Delegation Capability Tokens (DCTs)</strong>. Based on technologies like Macaroons or Biscuits, these tokens use ‘cryptographic caveats’ to enforce the principle of least privilege. For example, an agent might receive a token that allows READ access to a specific Google Drive folder but forbids any WRITE operations. ## Evaluating Current Protocols The research team analyzed whether current industry standards are ready for this framework: - <strong>MCP (Model Context Protocol)</strong>: Standardizes tool connections but lacks a policy layer for permissions across deep delegation chains - <strong>A2A (Agent-to-Agent)</strong>: Manages discovery and task lifecycles but lacks standardized headers for Zero-Knowledge Proofs - <strong>AP2 (Agent Payments Protocol)</strong>: Authorizes spending but cannot natively verify work quality before payment ## Key Takeaways 1. <strong>Move Beyond Heuristics</strong>: Intelligent delegation requires an adaptive framework incorporating transfer of authority, responsibility, and accountability 2. <strong>Contract-First Approach</strong>: Decompose tasks until sub-units match specific automated verification capabilities 3. <strong>Transitive Accountability</strong>: In delegation chains (A → B → C), responsibility is transitive—Agent A must verify both B’s work and that B correctly verified C’s attestations 4. <strong>Attenuated Security</strong>: Use DCTs to ensure agents operate under principle of least privilege This framework represents a significant step toward making multi-agent systems robust enough for real-world economic applications.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

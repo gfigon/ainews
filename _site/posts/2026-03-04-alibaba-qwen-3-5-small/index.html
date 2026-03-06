@@ -348,17 +348,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#more-intelligence-less-compute" id="toc-more-intelligence-less-compute" class="nav-link active" data-scroll-target="#more-intelligence-less-compute">More Intelligence, Less Compute</a></li>
-  <li><a href="#native-multimodality-a-architectural-shift" id="toc-native-multimodality-a-architectural-shift" class="nav-link" data-scroll-target="#native-multimodality-a-architectural-shift">Native Multimodality: A Architectural Shift</a></li>
-  <li><a href="#scaled-rl-frontier-reasoning-in-compact-form" id="toc-scaled-rl-frontier-reasoning-in-compact-form" class="nav-link" data-scroll-target="#scaled-rl-frontier-reasoning-in-compact-form">Scaled RL: Frontier Reasoning in Compact Form</a></li>
-  <li><a href="#implications-for-the-industry-news" id="toc-implications-for-the-industry-news" class="nav-link" data-scroll-target="#implications-for-the-industry-news">Implications for the Industry News</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -371,32 +362,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Alibaba’s Qwen team has released the Qwen3.5 Small Model Series, a collection of Large Language Models ranging from 0.8B to 9B parameters. This release marks a significant shift in the industry trend toward deploying capable AI on consumer hardware and edge devices without traditional performance trade-offs.</p>
-<section id="more-intelligence-less-compute" class="level2">
-<h2 class="anchored" data-anchor-id="more-intelligence-less-compute">More Intelligence, Less Compute</h2>
-<p>While the AI industry has historically favored increasing parameter counts to achieve frontier performance, Qwen3.5 Small takes a different approach — prioritizing architectural efficiency over raw scale. The models are now available on Hugging Face and ModelScope, including both Instruct and Base versions.</p>
-<p>The series is organized into four distinct tiers, each optimized for specific hardware constraints and latency requirements:</p>
-<p><strong>Qwen3.5-0.8B and Qwen3.5-2B</strong> — These models target edge devices and IoT hardware. By optimizing the dense token training process, they provide a reduced VRAM footprint, making them compatible with mobile chips and embedded systems.</p>
-<p><strong>Qwen3.5-4B</strong> — This model serves as a multimodal base for lightweight agents. It bridges the gap between pure text models and complex visual-language models, enabling agentic workflows that require visual understanding — such as UI navigation or document analysis — while remaining small enough for local deployment.</p>
-<p><strong>Qwen3.5-9B</strong> — The flagship of the small series focuses on reasoning and logic. Through advanced training techniques, it is tuned to close the performance gap with models significantly larger (30B+ parameters).</p>
-</section>
-<section id="native-multimodality-a-architectural-shift" class="level2">
-<h2 class="anchored" data-anchor-id="native-multimodality-a-architectural-shift">Native Multimodality: A Architectural Shift</h2>
-<p>One of the most significant technical shifts in Qwen3.5-4B and above is the move toward native multimodal capabilities. In earlier small models, multimodality was often achieved through adapters or bridges connecting a pre-trained vision encoder to a language model.</p>
-<p>Qwen3.5 incorporates multimodality directly into the architecture, processing visual and textual tokens within the same latent space from the early stages of training. This results in better spatial reasoning, improved OCR accuracy, and more cohesive visual-grounded responses compared to adapter-based systems.</p>
-</section>
-<section id="scaled-rl-frontier-reasoning-in-compact-form" class="level2">
-<h2 class="anchored" data-anchor-id="scaled-rl-frontier-reasoning-in-compact-form">Scaled RL: Frontier Reasoning in Compact Form</h2>
-<p>The Qwen3.5-9B’s performance stems from Scaled Reinforcement Learning implementation. Unlike standard Supervised Fine-Tuning, which teaches a model to mimic high-quality text, Scaled RL uses reward signals to optimize for correct reasoning paths.</p>
-<p>The benefits include improved instruction following, reduced hallucinations through reinforced logical consistency, and efficient inference — the 9B parameter count allows faster token generation than 70B models while maintaining competitive logic scores on benchmarks like MMLU and GSM8K.</p>
-</section>
-<section id="implications-for-the-industry-news" class="level2">
-<h2 class="anchored" data-anchor-id="implications-for-the-industry-news">Implications for the Industry News</h2>
-<p>The Qwen3.5 Small Series represents a viable path for developers to build sophisticated AI applications without the overhead of massive, cloud-dependent models. For enterprises, these models enable privacy-sensitive local-first applications where data cannot leave the device.</p>
-<p>The release also signals a maturing of the AI landscape where capability per parameter matters as much as absolute performance — opening new possibilities for on-device AI in smartphones, laptops, and IoT devices.</p>
+<p>Alibaba’s Qwen team has released the Qwen3.5 Small Model Series, a collection of Large Language Models ranging from 0.8B to 9B parameters. This release marks a significant shift in the industry trend toward deploying capable AI on consumer hardware and edge devices without traditional performance trade-offs. ## More Intelligence, Less Compute While the AI industry has historically favored increasing parameter counts to achieve frontier performance, Qwen3.5 Small takes a different approach — prioritizing architectural efficiency over raw scale. The models are now available on Hugging Face and ModelScope, including both Instruct and Base versions. The series is organized into four distinct tiers, each optimized for specific hardware constraints and latency requirements: <strong>Qwen3.5-0.8B and Qwen3.5-2B</strong> — These models target edge devices and IoT hardware. By optimizing the dense token training process, they provide a reduced VRAM footprint, making them compatible with mobile chips and embedded systems. <strong>Qwen3.5-4B</strong> — This model serves as a multimodal base for lightweight agents. It bridges the gap between pure text models and complex visual-language models, enabling agentic workflows that require visual understanding — such as UI navigation or document analysis — while remaining small enough for local deployment. <strong>Qwen3.5-9B</strong> — The flagship of the small series focuses on reasoning and logic. Through advanced training techniques, it is tuned to close the performance gap with models significantly larger (30B+ parameters). ## Native Multimodality: A Architectural Shift One of the most significant technical shifts in Qwen3.5-4B and above is the move toward native multimodal capabilities. In earlier small models, multimodality was often achieved through adapters or bridges connecting a pre-trained vision encoder to a language model. Qwen3.5 incorporates multimodality directly into the architecture, processing visual and textual tokens within the same latent space from the early stages of training. This results in better spatial reasoning, improved OCR accuracy, and more cohesive visual-grounded responses compared to adapter-based systems. ## Scaled RL: Frontier Reasoning in Compact Form The Qwen3.5-9B’s performance stems from Scaled Reinforcement Learning implementation. Unlike standard Supervised Fine-Tuning, which teaches a model to mimic high-quality text, Scaled RL uses reward signals to optimize for correct reasoning paths. The benefits include improved instruction following, reduced hallucinations through reinforced logical consistency, and efficient inference — the 9B parameter count allows faster token generation than 70B models while maintaining competitive logic scores on benchmarks like MMLU and GSM8K. ## Implications for the Industry News The Qwen3.5 Small Series represents a viable path for developers to build sophisticated AI applications without the overhead of massive, cloud-dependent models. For enterprises, these models enable privacy-sensitive local-first applications where data cannot leave the device. The release also signals a maturing of the AI landscape where capability per parameter matters as much as absolute performance — opening new possibilities for on-device AI in smartphones, laptops, and IoT devices.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

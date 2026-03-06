@@ -342,18 +342,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-adaptation-dilemma" id="toc-the-adaptation-dilemma" class="nav-link active" data-scroll-target="#the-adaptation-dilemma">The Adaptation Dilemma</a></li>
-  <li><a href="#text-to-lora-task-adaptation-via-natural-language" id="toc-text-to-lora-task-adaptation-via-natural-language" class="nav-link" data-scroll-target="#text-to-lora-task-adaptation-via-natural-language">Text-to-LoRA: Task Adaptation via Natural Language</a></li>
-  <li><a href="#doc-to-lora-internalizing-long-contexts" id="toc-doc-to-lora-internalizing-long-contexts" class="nav-link" data-scroll-target="#doc-to-lora-internalizing-long-contexts">Doc-to-LoRA: Internalizing Long Contexts</a></li>
-  <li><a href="#dramatic-efficiency-gains" id="toc-dramatic-efficiency-gains" class="nav-link" data-scroll-target="#dramatic-efficiency-gains">Dramatic Efficiency Gains</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -366,38 +356,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Tokyo-based Sakana AI has introduced two groundbreaking approaches—Doc-to-LoRA (D2L) and Text-to-LoRA (T2L)—that promise to solve one of the most persistent bottlenecks in LLM customization: the trade-off between flexibility and computational efficiency.</p>
-<section id="the-adaptation-dilemma" class="level2">
-<h2 class="anchored" data-anchor-id="the-adaptation-dilemma">The Adaptation Dilemma</h2>
-<p>Currently, customizing LLMs involves difficult trade-offs. In-Context Learning (ICL) offers convenience but suffers from quadratic attention costs as prompts grow. Context Distillation transfers information into model parameters but requires expensive per-prompt training. Supervised Fine-Tuning needs task-specific datasets and re-training when information changes.</p>
-<p>Sakana AI’s solution: amortize these costs through lightweight hypernetworks that generate Low-Rank Adaptation (LoRA) matrices in a single forward pass.</p>
-</section>
-<section id="text-to-lora-task-adaptation-via-natural-language" class="level2">
-<h2 class="anchored" data-anchor-id="text-to-lora-task-adaptation-via-natural-language">Text-to-LoRA: Task Adaptation via Natural Language</h2>
-<p>Text-to-LoRA uses a task encoder to extract vector representations from natural language task descriptions. Combined with learnable module and layer embeddings, MLP blocks generate the A and B matrices for LoRA adaptation.</p>
-<p>The system can be trained via LoRA Reconstruction (distilling existing adapters) or Supervised Fine-Tuning on multi-task datasets. SFT-trained T2L generalizes better to unseen tasks by clustering related functionalities in weight space. In benchmarks, T2L matched or outperformed task-specific adapters while reducing adaptation costs by over 4x compared to 3-shot ICL.</p>
-</section>
-<section id="doc-to-lora-internalizing-long-contexts" class="level2">
-<h2 class="anchored" data-anchor-id="doc-to-lora-internalizing-long-contexts">Doc-to-LoRA: Internalizing Long Contexts</h2>
-<p>Doc-to-LoRA extends this to document internalization, enabling LLMs to answer queries about documents without re-consuming the original context—effectively removing the document from the active context window.</p>
-<p>D2L uses a Perceiver-style cross-attention architecture that maps variable-length token activations into a fixed-shape LoRA adapter. For documents exceeding training length, a chunking mechanism partitions long contexts into K contiguous chunks, each processed independently to produce per-chunk adapters concatenated along the rank dimension.</p>
-</section>
-<section id="dramatic-efficiency-gains" class="level2">
-<h2 class="anchored" data-anchor-id="dramatic-efficiency-gains">Dramatic Efficiency Gains</h2>
-<p>The results are striking. For a 128K-token document, a base model requires over 12 GB of VRAM for the KV cache. D2L handles the same document using less than 50 MB—a reduction of over 99%. Update latency drops from minutes to sub-second regimes.</p>
-<p>Perhaps most surprising: D2L can even internalize visual information from a Vision-Language Model into a text-only LLM, allowing the text model to classify images with 75% accuracy despite never seeing pixel data during its primary training.</p>
-</section>
-<section id="sources" class="level2">
-<h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<ul>
-<li><a href="https://pub.sakana.ai/doc-to-lora/" rel="nofollow">Sakana AI Doc-to-LoRA Paper</a></li>
-<li><a href="https://github.com/SakanaAI/Doc-to-LoRA" rel="nofollow">Doc-to-LoRA Code</a></li>
-<li><a href="https://arxiv.org/pdf/2506.06105" rel="nofollow">Text-to-LoRA Paper</a></li>
-<li><a href="https://github.com/SakanaAI/Text-to-LoRA" rel="nofollow">Text-to-LoRA Code</a></li>
-</ul>
+<p>Tokyo-based Sakana AI has introduced two groundbreaking approaches—Doc-to-LoRA (D2L) and Text-to-LoRA (T2L)—that promise to solve one of the most persistent bottlenecks in LLM customization: the trade-off between flexibility and computational efficiency. ## The Adaptation Dilemma Currently, customizing LLMs involves difficult trade-offs. In-Context Learning (ICL) offers convenience but suffers from quadratic attention costs as prompts grow. Context Distillation transfers information into model parameters but requires expensive per-prompt training. Supervised Fine-Tuning needs task-specific datasets and re-training when information changes. Sakana AI’s solution: amortize these costs through lightweight hypernetworks that generate Low-Rank Adaptation (LoRA) matrices in a single forward pass. ## Text-to-LoRA: Task Adaptation via Natural Language Text-to-LoRA uses a task encoder to extract vector representations from natural language task descriptions. Combined with learnable module and layer embeddings, MLP blocks generate the A and B matrices for LoRA adaptation. The system can be trained via LoRA Reconstruction (distilling existing adapters) or Supervised Fine-Tuning on multi-task datasets. SFT-trained T2L generalizes better to unseen tasks by clustering related functionalities in weight space. In benchmarks, T2L matched or outperformed task-specific adapters while reducing adaptation costs by over 4x compared to 3-shot ICL. ## Doc-to-LoRA: Internalizing Long Contexts Doc-to-LoRA extends this to document internalization, enabling LLMs to answer queries about documents without re-consuming the original context—effectively removing the document from the active context window. D2L uses a Perceiver-style cross-attention architecture that maps variable-length token activations into a fixed-shape LoRA adapter. For documents exceeding training length, a chunking mechanism partitions long contexts into K contiguous chunks, each processed independently to produce per-chunk adapters concatenated along the rank dimension. ## Dramatic Efficiency Gains The results are striking. For a 128K-token document, a base model requires over 12 GB of VRAM for the KV cache. D2L handles the same document using less than 50 MB—a reduction of over 99%. Update latency drops from minutes to sub-second regimes. Perhaps most surprising: D2L can even internalize visual information from a Vision-Language Model into a text-only LLM, allowing the text model to classify images with 75% accuracy despite never seeing pixel data during its primary training. ## Sources - <a href="https://pub.sakana.ai/doc-to-lora/" rel="nofollow">Sakana AI Doc-to-LoRA Paper</a> - <a href="https://github.com/SakanaAI/Doc-to-LoRA" rel="nofollow">Doc-to-LoRA Code</a> - <a href="https://arxiv.org/pdf/2506.06105" rel="nofollow">Text-to-LoRA Paper</a> - <a href="https://github.com/SakanaAI/Text-to-LoRA" rel="nofollow">Text-to-LoRA Code</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -383,22 +383,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#beyond-the-rectangular-screen" id="toc-beyond-the-rectangular-screen" class="nav-link" data-scroll-target="#beyond-the-rectangular-screen">Beyond the Rectangular Screen</a></li>
-  <li><a href="#why-this-matters-now" id="toc-why-this-matters-now" class="nav-link" data-scroll-target="#why-this-matters-now">Why This Matters Now</a></li>
-  <li><a href="#technical-foundation" id="toc-technical-foundation" class="nav-link" data-scroll-target="#technical-foundation">Technical Foundation</a></li>
-  <li><a href="#the-agent-connection" id="toc-the-agent-connection" class="nav-link" data-scroll-target="#the-agent-connection">The Agent Connection</a></li>
-  <li><a href="#ecosystem-implications" id="toc-ecosystem-implications" class="nav-link" data-scroll-target="#ecosystem-implications">Ecosystem Implications</a></li>
-  <li><a href="#the-bigger-picture" id="toc-the-bigger-picture" class="nav-link" data-scroll-target="#the-bigger-picture">The Bigger Picture</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -411,36 +397,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Google is betting big on a future beyond the smartphone screen. The company just released <strong>Jetpack Compose Glimmer</strong>, a new UI framework specifically designed for transparent displays and AI glasses — marking Google’s most concrete step yet toward what it calls the “spatial computing” era.</p>
-<section id="section" class="level1">
-<h1></h1>
-<p>For over a decade, Google designers have explored how to build interfaces for transparent displays. The result is Glimmer: a complete rebuild of Jetpack Compose tailored for the unique challenges of augmented reality — where UIs must coexist with the real world, not replace it.</p>
-<section id="beyond-the-rectangular-screen" class="level2">
-<h2 class="anchored" data-anchor-id="beyond-the-rectangular-screen">Beyond the Rectangular Screen</h2>
-<p>Traditional UI frameworks assume a fundamental reality: you control every pixel on the screen. Transparent displays shatter that assumption. When users look through their glasses at the real world, the UI overlays dynamic content onto a constantly changing background.</p>
-<p>Glimmer addresses this with several key innovations:</p>
-<ul>
-<li><strong>Depth-aware layouts</strong> that adjust spacing based on perceived distance</li>
-<li><strong>Ambient light compensation</strong> for readable text in any environment<br>
-</li>
-<li><strong>Gaze-aware components</strong> that respond to where the user is looking</li>
-<li><strong>Minimal cognitive load</strong> principles baked into every widget</li>
-</ul>
-</section>
-<section id="why-this-matters-now" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters-now">Why This Matters Now</h2>
-<p>The timing is significant. The AI glasses market is heating up:</p>
-<ul>
-<li><strong>Meta’s Ray-Ban partnership</strong> has sold millions of AI-enabled glasses</li>
-<li><strong>Google’s own Android XR</strong> platform is launching later this year</li>
-<li><strong>Apple’s rumored AR glasses</strong> continue to develop in secret</li>
-<li><strong>Startup Humane</strong> (and now others) are pushing pin-style AI wearables</li>
-</ul>
-<p>Each of these devices faces the same fundamental problem: how do you design interfaces for something users wear on their face? Glimmer is Google’s answer.</p>
-</section>
-<section id="technical-foundation" class="level2">
-<h2 class="anchored" data-anchor-id="technical-foundation">Technical Foundation</h2>
-<p>Glimmer builds on Jetpack Compose, Google’s modern declarative UI toolkit for Android. Developers familiar with Compose can leverage existing skills while learning new spatial patterns:</p>
+<p>Google is betting big on a future beyond the smartphone screen. The company just released <strong>Jetpack Compose Glimmer</strong>, a new UI framework specifically designed for transparent displays and AI glasses — marking Google’s most concrete step yet toward what it calls the “spatial computing” era. # For over a decade, Google designers have explored how to build interfaces for transparent displays. The result is Glimmer: a complete rebuild of Jetpack Compose tailored for the unique challenges of augmented reality — where UIs must coexist with the real world, not replace it. ## Beyond the Rectangular Screen Traditional UI frameworks assume a fundamental reality: you control every pixel on the screen. Transparent displays shatter that assumption. When users look through their glasses at the real world, the UI overlays dynamic content onto a constantly changing background. Glimmer addresses this with several key innovations: - <strong>Depth-aware layouts</strong> that adjust spacing based on perceived distance - <strong>Ambient light compensation</strong> for readable text in any environment<br>
+- <strong>Gaze-aware components</strong> that respond to where the user is looking - <strong>Minimal cognitive load</strong> principles baked into every widget ## Why This Matters Now The timing is significant. The AI glasses market is heating up: - <strong>Meta’s Ray-Ban partnership</strong> has sold millions of AI-enabled glasses - <strong>Google’s own Android XR</strong> platform is launching later this year - <strong>Apple’s rumored AR glasses</strong> continue to develop in secret - <strong>Startup Humane</strong> (and now others) are pushing pin-style AI wearables Each of these devices faces the same fundamental problem: how do you design interfaces for something users wear on their face? Glimmer is Google’s answer. ## Technical Foundation Glimmer builds on Jetpack Compose, Google’s modern declarative UI toolkit for Android. Developers familiar with Compose can leverage existing skills while learning new spatial patterns:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode kotlin code-with-copy"><code class="sourceCode kotlin"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Glimmer introduces SpatialColumn, SpatialRow</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>SpatialColumn<span class="op">(</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    modifier <span class="op">=</span> Modifier<span class="op">.</span>gazeTarget<span class="op">(),</span></span>
@@ -449,26 +407,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    Text<span class="op">(</span><span class="st">"Incoming call"</span><span class="op">)</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    GazeButton<span class="op">(</span><span class="st">"Accept"</span><span class="op">)</span> <span class="op">{</span> <span class="co">/* ... */</span> <span class="op">}</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The framework includes tools for: - Simulating spatial layouts in traditional emulators - Testing gaze-aware interactions - Previewing ambient light compensation</p>
-</section>
-<section id="the-agent-connection" class="level2">
-<h2 class="anchored" data-anchor-id="the-agent-connection">The Agent Connection</h2>
-<p>There’s a deeper play here. As AI agents become capable of seeing and reasoning about the world through camera feeds, they’ll need interfaces to communicate with users. Glimmer is positioned as the presentation layer for <strong>agentic experiences</strong> — where an AI assistant might highlight objects in your view, provide real-time translations of signs, or surface contextual information about people you meet.</p>
-<p>This connects to Google’s broader agent strategy: the delegation framework DeepMind announced last month, the Project Astra multimodal assistant, and the emerging agentic web.</p>
-</section>
-<section id="ecosystem-implications" class="level2">
-<h2 class="anchored" data-anchor-id="ecosystem-implications">Ecosystem Implications</h2>
-<p>For developers, Glimmer signals a new platform opportunity — much like the iPhone App Store in 2008 or Android tablets in 2010. Early movers building spatial UIs for AI glasses could establish presence in what analysts predict will be a <strong>$50B+ market by 2030</strong>.</p>
-<p>Google is making Glimmer available as an early preview for developers building on Android XR. The company plans to open-source core components later this year.</p>
-</section>
-<section id="the-bigger-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-bigger-picture">The Bigger Picture</h2>
-<p>Glimmer represents something interesting about Google’s strategy: rather than leading with hardware, it’s building the software layer first. The framework will work across devices — Meta glasses, future Android XR hardware, third-party wearables — creating a consistent UI platform that could become the “web of spatial computing.”</p>
-<p>Whether users actually want to interact with AI through face-worn displays remains an open question. But Google is clearly betting the answer is yes — and it’s building the toolkit for whoever gets there first.</p>
+<p>The framework includes tools for: - Simulating spatial layouts in traditional emulators - Testing gaze-aware interactions - Previewing ambient light compensation ## The Agent Connection There’s a deeper play here. As AI agents become capable of seeing and reasoning about the world through camera feeds, they’ll need interfaces to communicate with users. Glimmer is positioned as the presentation layer for <strong>agentic experiences</strong> — where an AI assistant might highlight objects in your view, provide real-time translations of signs, or surface contextual information about people you meet. This connects to Google’s broader agent strategy: the delegation framework DeepMind announced last month, the Project Astra multimodal assistant, and the emerging agentic web. ## Ecosystem Implications For developers, Glimmer signals a new platform opportunity — much like the iPhone App Store in 2008 or Android tablets in 2010. Early movers building spatial UIs for AI glasses could establish presence in what analysts predict will be a <strong>$50B+ market by 2030</strong>. Google is making Glimmer available as an early preview for developers building on Android XR. The company plans to open-source core components later this year. ## The Bigger Picture Glimmer represents something interesting about Google’s strategy: rather than leading with hardware, it’s building the software layer first. The framework will work across devices — Meta glasses, future Android XR hardware, third-party wearables — creating a consistent UI platform that could become the “web of spatial computing.” Whether users actually want to interact with AI through face-worn displays remains an open question. But Google is clearly betting the answer is yes — and it’s building the toolkit for whoever gets there first.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -360,17 +360,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#enter-orbitalbrain" id="toc-enter-orbitalbrain" class="nav-link" data-scroll-target="#enter-orbitalbrain">Enter OrbitalBrain</a>
-  <ul class="collapse">
-  <li><a href="#core-philosophy" id="toc-core-philosophy" class="nav-link" data-scroll-target="#core-philosophy">Core Philosophy</a></li>
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
-  </ul></li>
-  <li><a href="#why-federated-learning-fails-in-space" id="toc-why-federated-learning-fails-in-space" class="nav-link" data-scroll-target="#why-federated-learning-fails-in-space">Why Federated Learning Fails in Space</a></li>
-  <li><a href="#orbitalbrain-results" id="toc-orbitalbrain-results" class="nav-link" data-scroll-target="#orbitalbrain-results">OrbitalBrain Results</a></li>
-  <li><a href="#the-bottom-line" id="toc-the-bottom-line" class="nav-link" data-scroll-target="#the-bottom-line">The Bottom Line</a></li>
-  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -387,79 +377,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="section" class="level1">
 <h1></h1>
-<p>Earth observation constellations capture <strong>363,563 images per day</strong> at maximum rate. But due to downlink constraints, only <strong>11.7%</strong> of that data ever reaches ground stations within 24 hours.</p>
-<p>Microsoft researchers asked: What if we trained models <strong>in space</strong> instead?</p>
-<section id="enter-orbitalbrain" class="level2">
-<h2 class="anchored" data-anchor-id="enter-orbitalbrain">Enter OrbitalBrain</h2>
-<p>Instead of satellites as passive data collectors, OrbitalBrain turns nanosatellite constellations into distributed training systems. Models train, aggregate, and update directly on orbit — using onboard compute, inter-satellite links, and predictive scheduling.</p>
-<section id="core-philosophy" class="level3">
-<h3 class="anchored" data-anchor-id="core-philosophy">Core Philosophy</h3>
-<p>The framework recognizes three key satellite characteristics: - Constellations are typically single-operator, enabling raw data sharing - Orbits, power, and ground visibility are <strong>predictable</strong> - Inter-satellite links (ISLs) and onboard accelerators are now practical</p>
-</section>
-<section id="how-it-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
-<p>Each satellite performs three actions under a cloud-computed schedule: - <strong>Local Compute</strong>: Train on stored imagery - <strong>Model Aggregation</strong>: Exchange parameters over ISLs - <strong>Data Transfer</strong>: Rebalance data distribution between satellites</p>
-<p>A cloud controller predicts orbital dynamics, power budgets, and link opportunities to optimize the schedule.</p>
-</section>
-</section>
-<section id="why-federated-learning-fails-in-space" class="level2">
-<h2 class="anchored" data-anchor-id="why-federated-learning-fails-in-space">Why Federated Learning Fails in Space</h2>
-<p>Standard FL approaches (AsyncFL, SyncFL, FedBuff, FedSpace) break down under real satellite constraints:</p>
-<ul>
-<li><strong>Intermittent connectivity</strong>: Updates become stale before aggregation</li>
-<li><strong>Power limits</strong>: Computing competes with essential operations</li>
-<li><strong>Non-i.i.d. data</strong>: Each satellite sees different scenes</li>
-</ul>
-<p>Result: <strong>10–40% accuracy degradation</strong> compared to idealized conditions.</p>
-</section>
-<section id="orbitalbrain-results" class="level2">
-<h2 class="anchored" data-anchor-id="orbitalbrain-results">OrbitalBrain Results</h2>
-<p>Simulated on real constellations (Planet: 207 sats, 12 ground stations; Spire: 117 sats):</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Task</th>
-<th>Baseline Best</th>
-<th>OrbitalBrain</th>
-<th>Improvement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>fMoW (Planet)</td>
-<td>47.3%</td>
-<td>52.8%</td>
-<td>+5.5%</td>
-</tr>
-<tr class="even">
-<td>fMoW (Spire)</td>
-<td>40.1%</td>
-<td>59.2%</td>
-<td>+19.1%</td>
-</tr>
-<tr class="odd">
-<td>So2Sat (Planet)</td>
-<td>42.4%</td>
-<td>47.9%</td>
-<td>+5.5%</td>
-</tr>
-<tr class="even">
-<td>So2Sat (Spire)</td>
-<td>42.2%</td>
-<td>47.1%</td>
-<td>+4.9%</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Time-to-accuracy</strong>: 1.52×–12.4× faster than ground-based approaches.</p>
-</section>
-<section id="the-bottom-line" class="level2">
-<h2 class="anchored" data-anchor-id="the-bottom-line">The Bottom Line</h2>
-<p>OrbitalBrain proves that satellite constellations can act as <strong>distributed ML systems</strong>, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays</p>
-<p>The future of Earth observation isn’t just better sensors — it’s <strong>better coordination</strong>.</p>
+<p>Earth observation constellations capture <strong>363,563 images per day</strong> at maximum rate. But due to downlink constraints, only <strong>11.7%</strong> of that data ever reaches ground stations within 24 hours. Microsoft researchers asked: What if we trained models <strong>in space</strong> instead? ## Enter OrbitalBrain Instead of satellites as passive data collectors, OrbitalBrain turns nanosatellite constellations into distributed training systems. Models train, aggregate, and update directly on orbit — using onboard compute, inter-satellite links, and predictive scheduling. ### Core Philosophy The framework recognizes three key satellite characteristics: - Constellations are typically single-operator, enabling raw data sharing - Orbits, power, and ground visibility are <strong>predictable</strong> - Inter-satellite links (ISLs) and onboard accelerators are now practical ### How It Works Each satellite performs three actions under a cloud-computed schedule: - <strong>Local Compute</strong>: Train on stored imagery - <strong>Model Aggregation</strong>: Exchange parameters over ISLs - <strong>Data Transfer</strong>: Rebalance data distribution between satellites A cloud controller predicts orbital dynamics, power budgets, and link opportunities to optimize the schedule. ## Why Federated Learning Fails in Space Standard FL approaches (AsyncFL, SyncFL, FedBuff, FedSpace) break down under real satellite constraints: - <strong>Intermittent connectivity</strong>: Updates become stale before aggregation - <strong>Power limits</strong>: Computing competes with essential operations - <strong>Non-i.i.d. data</strong>: Each satellite sees different scenes Result: <strong>10–40% accuracy degradation</strong> compared to idealized conditions. ## OrbitalBrain Results Simulated on real constellations (Planet: 207 sats, 12 ground stations; Spire: 117 sats): | Task | Baseline Best | OrbitalBrain | Improvement | |——|—————|————–|————-| | fMoW (Planet) | 47.3% | 52.8% | +5.5% | | fMoW (Spire) | 40.1% | 59.2% | +19.1% | | So2Sat (Planet) | 42.4% | 47.9% | +5.5% | | So2Sat (Spire) | 42.2% | 47.1% | +4.9% | <strong>Time-to-accuracy</strong>: 1.52×–12.4× faster than ground-based approaches. ## The Bottom Line OrbitalBrain proves that satellite constellations can act as <strong>distributed ML systems</strong>, not just data sources. This enables: - Real-time models for forest fire detection - Fresh flood monitoring data - Climate analytics without multi-day delays The future of Earth observation isn’t just better sensors — it’s <strong>better coordination</strong>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -360,16 +360,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a>
-  <ul class="collapse">
-  <li><a href="#enter-ordered-action-tokenization-oat" id="toc-enter-ordered-action-tokenization-oat" class="nav-link" data-scroll-target="#enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</a>
-  <ul class="collapse">
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
-  </ul></li>
-  <li><a href="#benchmark-results" id="toc-benchmark-results" class="nav-link" data-scroll-target="#benchmark-results">Benchmark Results</a></li>
-  <li><a href="#the-anytime-revolution" id="toc-the-anytime-revolution" class="nav-link" data-scroll-target="#the-anytime-revolution">The “Anytime” Revolution</a></li>
-  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
-  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -386,87 +377,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="section" class="level1">
 <h1></h1>
-<p>Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: <strong>continuous robot movements don’t tokenize easily</strong>.</p>
-<p>Previous approaches failed: - <strong>Binning</strong>: Creates massive, slow sequences - <strong>FAST</strong>: Fast but unreliable — small errors halt robots - <strong>Learned Latent Tokenizers</strong>: Safe but unordered, losing temporal structure</p>
-<p>Researchers from <strong>Harvard and Stanford</strong> identified three non-negotiables for robot tokenization:</p>
-<ol type="1">
-<li><strong>High Compression</strong> — Short token sequences</li>
-<li><strong>Total Decodability</strong> — Every sequence maps to a valid move</li>
-<li><strong>Causal Ordering</strong> — Left-to-right structure, global first, details later</li>
-</ol>
-<section id="enter-ordered-action-tokenization-oat" class="level2">
-<h2 class="anchored" data-anchor-id="enter-ordered-action-tokenization-oat">Enter Ordered Action Tokenization (OAT)</h2>
-<p>OAT uses a transformer encoder with <strong>register tokens</strong> to summarize action chunks. The key innovation: <strong>Nested Dropout</strong> forces the model to learn important patterns first.</p>
-<section id="how-it-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
-<ul>
-<li>Actions are chunked into discrete tokens</li>
-<li>Registers summarize each chunk</li>
-<li>Nested Dropout prioritizes coarse → fine information</li>
-<li>Tokens are left-to-right causally ordered</li>
-</ul>
-<p>The result: A tokenizer that plays nicely with autoregressive next-token prediction.</p>
-</section>
-</section>
-<section id="benchmark-results" class="level2">
-<h2 class="anchored" data-anchor-id="benchmark-results">Benchmark Results</h2>
-<p>Across 20+ tasks in 4 simulation benchmarks:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Benchmark</th>
-<th>OAT Success</th>
-<th>Diffusion Policy</th>
-<th>Token Reduction</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>LIBERO</td>
-<td>56.3%</td>
-<td>36.6%</td>
-<td>224 → 8</td>
-</tr>
-<tr class="even">
-<td>RoboMimic</td>
-<td>73.1%</td>
-<td>67.1%</td>
-<td>224 → 8</td>
-</tr>
-<tr class="odd">
-<td>MetaWorld</td>
-<td>24.4%</td>
-<td>19.3%</td>
-<td>128 → 8</td>
-</tr>
-<tr class="even">
-<td>RoboCasa</td>
-<td>54.6%</td>
-<td>54.0%</td>
-<td>384 → 8</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Aggregate improvement: 52.3% success rate vs.&nbsp;baseline</strong></p>
-</section>
-<section id="the-anytime-revolution" class="level2">
-<h2 class="anchored" data-anchor-id="the-anytime-revolution">The “Anytime” Revolution</h2>
-<p>Most practical benefit: <strong>prefix-based detokenization</strong>.</p>
-<p>Since tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions)</p>
-<p>This flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers.</p>
-</section>
-<section id="why-this-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
-<p>Robotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides:</p>
-<ul>
-<li><strong>Reliability</strong>: Total decodability prevents execution failures</li>
-<li><strong>Scalability</strong>: Short sequences enable efficient autoregressive training</li>
-<li><strong>Flexibility</strong>: Anytime inference adapts to real-world constraints</li>
-</ul>
-<p>The code and paper are available on <a href="https://github.com/Chaoqi-LIU/oat" rel="nofollow">GitHub</a>{rel=“nofollow”} and <a href="https://arxiv.org/abs/2602.04215" rel="nofollow">arXiv</a>{rel=“nofollow”}.</p>
+<p>Large language models predict the next word. Shouldn’t they predict the next robot move? The challenge: <strong>continuous robot movements don’t tokenize easily</strong>. Previous approaches failed: - <strong>Binning</strong>: Creates massive, slow sequences - <strong>FAST</strong>: Fast but unreliable — small errors halt robots - <strong>Learned Latent Tokenizers</strong>: Safe but unordered, losing temporal structure Researchers from <strong>Harvard and Stanford</strong> identified three non-negotiables for robot tokenization: 1. <strong>High Compression</strong> — Short token sequences 2. <strong>Total Decodability</strong> — Every sequence maps to a valid move 3. <strong>Causal Ordering</strong> — Left-to-right structure, global first, details later ## Enter Ordered Action Tokenization (OAT) OAT uses a transformer encoder with <strong>register tokens</strong> to summarize action chunks. The key innovation: <strong>Nested Dropout</strong> forces the model to learn important patterns first. ### How It Works - Actions are chunked into discrete tokens - Registers summarize each chunk - Nested Dropout prioritizes coarse → fine information - Tokens are left-to-right causally ordered The result: A tokenizer that plays nicely with autoregressive next-token prediction. ## Benchmark Results Across 20+ tasks in 4 simulation benchmarks: | Benchmark | OAT Success | Diffusion Policy | Token Reduction | |———–|————-|——————|—————-| | LIBERO | 56.3% | 36.6% | 224 → 8 | | RoboMimic | 73.1% | 67.1% | 224 → 8 | | MetaWorld | 24.4% | 19.3% | 128 → 8 | | RoboCasa | 54.6% | 54.0% | 384 → 8 | <strong>Aggregate improvement: 52.3% success rate vs.&nbsp;baseline</strong> ## The “Anytime” Revolution Most practical benefit: <strong>prefix-based detokenization</strong>. Since tokens are ordered by importance: - 1–2 tokens → coarse direction (low latency) - 8 tokens → full precision (complex insertions) This flexible trade-off between computation cost and action fidelity was impossible with fixed-length tokenizers. ## Why This Matters Robotics is entering its “GPT-3 era” — but only if we solve the tokenization gap. OAT provides: - <strong>Reliability</strong>: Total decodability prevents execution failures - <strong>Scalability</strong>: Short sequences enable efficient autoregressive training - <strong>Flexibility</strong>: Anytime inference adapts to real-world constraints The code and paper are available on <a href="https://github.com/Chaoqi-LIU/oat" rel="nofollow">GitHub</a>{rel=“nofollow”} and <a href="https://arxiv.org/abs/2602.04215" rel="nofollow">arXiv</a>{rel=“nofollow”}.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
