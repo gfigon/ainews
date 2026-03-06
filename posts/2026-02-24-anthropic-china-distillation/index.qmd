@@ -3,42 +3,26 @@ title: "Anthropic Accuses Chinese AI Firms of Industrial-Scale Data Theft"
 date: "2026-02-24"
 categories:
   - Industry News News
-  - AI Security & Safety
+  - AI Security & Policy
 ---
-
 Anthropic has uncovered what it calls "industrial-scale intellectual property theft" by three Chinese AI companies — DeepSeek, Moonshot AI, and MiniMax. The firms allegedly used a technique called **model distillation** to extract capabilities from Anthropic's Claude chatbot without authorization.
-
 ## The Scale of the Operation
-
 According to Anthropic's statement, the three Chinese AI labs conducted approximately **16 million exchanges** with Claude and created **24,000 fake accounts** to bypass access restrictions:
-
 - **MiniMax** ran the largest operation, generating over 13 million exchanges
 - The campaigns focused heavily on **coding, agentic reasoning, and tool use** — areas where Claude is considered a leader
 - Traffic was routed through proxy services to circumvent Anthropic's ban on commercial access from China
-
 ## Why Model Distillation Matters
-
 Model distillation is a common practice in AI development where a smaller, cheaper model learns from outputs of a more powerful model. However, when done without authorization, it allows competitors to rapidly boost performance at a fraction of the cost — effectively free-riding on years of R&D investment.
-
 > "These campaigns are growing in intensity and sophistication. The window to act is narrow." — Anthropic statement
-
 This practice gained widespread attention when DeepSeek released a low-cost generative AI model that performed at similar levels to ChatGPT, challenging assumptions about US dominance in AI.
-
 ## National Security Concerns
-
 Anthropic warned that this practice poses serious national security risks:
-
 - Models built through illicit distillation may **not retain safety guardrails** designed to prevent misuse
 - Potential risks include helping develop **bioweapons** or enabling **cyberattacks**
 - The practice potentially circumvents **export controls** on powerful US technology
-
 ## Industry Response
-
 Anthropic's arch-rival OpenAI made similar accusations to US lawmakers earlier this month, saying Chinese companies were using distillation amid "ongoing efforts to free-ride on the capabilities developed by OpenAI and other US frontier labs."
-
 Anthropic has called for a **coordinated industry and government response** to address what it says no single company can tackle alone.
-
 ## Sources
-
 - [The Guardian: US AI giant accuses Chinese rivals of mass data theft](https://www.theguardian.com/technology/2026/feb/23/us-ai-anthropic-china)
 - [The Hindu: OpenAI, Anthropic accuse Chinese rivals of mass AI data theft](https://www.thehindu.com/sci-tech/technology/openai-anthropic-accuse-chinese-rivals-of-mass-ai-data-theft/article70669620.ece)

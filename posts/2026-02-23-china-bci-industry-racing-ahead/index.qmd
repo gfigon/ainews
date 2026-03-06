@@ -3,51 +3,35 @@ title: "China's BCI Industry Racing Ahead — $530M Market in 2025, $120B by 204
 date: "2026-02-23"
 author: "AI News"
 categories:
-  - "Research & Innovation"
-  - "AI Security & Policy"
+  - Research & Innovation
+  - AI Security & Policy
 tags:
   - "BCI"
   - "Brain-Computer Interface"
   - "China"
-  - "Neuralink"
-  - "NeuroTech"
+  - Research & Innovation
   - "Healthcare"
 description: "While Neuralink grabs headlines, China's BCI ecosystem is quietly scaling — backed by $165M government fund, provincial insurance coverage, and 50+ clinical trials. The race for the brain is no longer a US monopoly."
 slug: "2026-02-23-china-bci-industry-racing-ahead"
 ---
-
 While Elon Musk's Neuralink continues to dominate headlines with its high-profile brain implant trials, a quieter — and potentially larger — revolution is unfolding in China. Chinese BCI startups are moving from laboratory research to commercialization at an unprecedented pace, fueled by strong policy support, massive government funding, and a healthcare system that can accelerate approvals in ways the US cannot match.
-
 ## The Numbers: From $530M to $120B
-
 China's BCI market was expected to grow to more than **$530 million (3.8 billion yuan)** in 2025, up from 3.2 billion yuan in 2024. Industry projections now put the market at over **120 billion yuan ($16.5 billion)** by 2040. This isn't speculative future-tech — this is healthcare-grade deployment happening now.
-
 ## The Four Factors Behind China's BCI Acceleration
-
 According to Phoenix Peng, co-founder of NeuroXess (implantable BCIs) and founder of Gestala (noninvasive ultrasound BCIs), China's rapid progress comes down to four key factors:
-
 **1. Policy Alignment and Government Funding**
 In August 2025, China's industry ministry released a national BCI roadmap targeting major technical milestones by 2027, common industry standards by 2029, and a full supply chain by 2030. At the December 2025 Shenzhen BCI & Human-Computer Interaction Expo, China announced an **11.6 billion yuan ($165 million)** brain science fund. Provinces including Sichuan, Hubei, and Zhejiang have already set medical service pricing for BCI procedures, speeding inclusion in the national health insurance system.
-
 **2. Clinical Resources and Regulatory Speed**
 China's massive patient pools and lower research costs accelerate trials. Once the state approves a BCI device, national health insurance enables rapid commercialization. This contrasts sharply with the US, where FDA approval is only the beginning — private insurers must each individually decide coverage. Chinese researchers have now completed the country's first fully implanted, wireless BCI trial — only the second globally after Neuralink.
-
 **3. Manufacturing Infrastructure**
 China's mature industrial base across semiconductors, AI, and medical hardware supports fast R&D and prototyping. The same supply chains that produce smartphones and EVs are now being repurposed for neurotechnology.
-
 **4. Investment Surge**
 State-led funds and private capital are flowing into the sector. Notable deals include StairMed Technology raising $48 million in Series B, and BrainCo raising $287 million before filing for a Hong Kong IPO. HSG (formerly Sequoia China) has invested in Zhiran Medical, focused on improving long-term implant performance.
-
 ## The Two Paths: Invasive vs Noninvasive
-
 China's BCI ecosystem is pursuing both major approaches:
-
 - **Invasive BCIs**: Companies like NeuroXess and NeuralMatrix implant flexible electrodes directly into the brain for precise neuron-level signals. Over 50 flexible implantable BCI clinical trials were completed by mid-2025.
-
 - **Noninvasive BCIs**: Companies like Gestala and BrainCo use ultrasound, EEG, and other techniques that trade some precision for safety and ease of adoption. Ultrasound BCIs from companies like OpenAI-backed Merge Labs and Gestala are targeting high-precedence conditions such as chronic pain, stroke, and depression. Early trials have shown a single session can reduce pain scores by 50%, with effects lasting one to two weeks.
-
 ## Key Players in China's BCI Race
-
 The most active Chinese BCI companies include:
 - **NeuroXess** — invasive flexible implants
 - **Neuracle** — neural signal recording
@@ -56,25 +40,14 @@ The most active Chinese BCI companies include:
 - **StairMed** — raised $48M Series B
 - **Gestala** — ultrasound-based BCI (launched January 2026)
 - **Zhiran Medical** — long-term implant performance (HSG-backed)
-
 ## The AI-BCI Convergence
-
 "I have always maintained that neuroscience and AI are two sides of the same coin," said Peng. "They are destined for deep integration, realizing direct high-bandwidth connections between the human brain and AI. BCI will serve as the ultimate bridge between carbon-based and silicon-based intelligence."
-
 This vision — brain-AI symbiosis — represents the long-term play. But over the next three to five years, BCI use will likely stay concentrated in healthcare, with the market reaching multibillion-dollar scale as insurance coverage expands.
-
 ## Key Takeaways
-
 - **Policy-Driven Acceleration**: China's government has committed $165M in direct funding and integrated BCIs into provincial health insurance systems, creating a commercialization pathway that doesn't exist in the US.
-
 - **Clinical Volume Advantage**: 50+ flexible implantable BCI trials completed by mid-2025, with China's first fully wireless implanted BCI now operational — making it only the second country (after the US) to achieve this.
-
 - **Market Scale**: $530M in 2025 growing to projected $120B by 2040 — a 200x expansion in 15 years.
-
 - **Dual-Track Strategy**: China is pursuing both invasive (Neuralink-style) and noninvasive (ultrasound/EEG) approaches simultaneously, hedging bets and serving different market segments.
-
 - **The AI Integration Story**: Chinese founders are explicitly framing BCI as the "bridge between carbon and silicon" — positioning neurotechnology as essential infrastructure for the coming AGI era, not just a medical device.
-
 - **Investment Heat**: BrainCo's $287M raise and IPO filing, plus StairMed's $48M Series B, signal serious capital backing. The sector is moving from research to growth stage.
-
 The brain-computer interface race is no longer a US monopoly. China's integrated policy, manufacturing, and healthcare ecosystem may prove to be a decisive advantage in scaling this technology from experimental trials to mass-market deployment.

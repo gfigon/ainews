@@ -7,17 +7,10 @@ categories:
   - AI Infrastructure
   - AI Infrastructure
 ---
-
 NVIDIA is gearing up for a major announcement at the GTC conference in San Jose at the end of March 2026. According to Wall Street Journal reports, the company is working on a dedicated inference processor that could revolutionize how AI models operate in production.
-
 ## What is Inference and Why Does It Matter?
-
 Inference is the process of running trained AI models in real-world applications — i.e., when a user writes a query to ChatGPT and receives a response. Unlike training, which requires enormous computational power, inference needs to be fast and energy-efficient.
-
 Traditionally, NVIDIA has dominated the GPU market in both training and inference. However, its graphics cards are no longer considered the most energy-efficient solution for application agents — autonomous AI systems that perform tasks on behalf of users.
-
 ## Groq Technology: The Key to Success
-
 In December 2025, NVIDIA paid $20 billion for a license to startup Groq technology. Groq chips are known as "Language Processing Units" and are based on a completely new architecture that allows for inference with significantly lower energy consumption.
-
 As part of the deal, NVIDIA hired Jonathan Ross, founder and CEO of Groq, and Sunny Madra, the company's president. This was one of the biggest "talent acquisitions" in Silicon Valley history.

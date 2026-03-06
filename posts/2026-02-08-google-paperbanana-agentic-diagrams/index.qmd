@@ -4,31 +4,23 @@ date: "2026-02-08 08:00"
 categories:
   - Research & Innovation
   - Agents & Automation
-
+  - Research & Innovation
+  - Agents & Automation
 fig-alt: "Google's PaperBanana"
 ---
-
 ![](image.jpg)
-
 A research collaboration between Google AI and Peking University has introduced **PaperBanana**, an innovative multi-agent framework designed to automate the creation of publication-ready methodology diagrams and statistical plots. This system addresses a major bottleneck in the scientific workflow: the labor-intensive process of translating complex technical concepts into high-quality visual communications.
-
 ##
-
 PaperBanana moves beyond simple prompting by employing a collaborative architecture of five specialized agents:
-
 1.  **Retriever Agent**: Searches a database for relevant reference examples to guide style and structure.
 2.  **Planner Agent**: Converts technical text descriptions into detailed visual plans.
 3.  **Generator Agent**: Produces the initial implementation code (using tools like TikZ or Matplotlib).
 4.  **Reviewer Agent**: Critiques the generated output for accuracy and aesthetic quality.
 5.  **Refiner Agent**: Iteratively improves the code based on the reviewer's feedback.
-
 ### Key Performance Capabilities
-
 In comparative evaluations, PaperBanana significantly outperformed existing LLM-based solutions:
 - **Success Rate**: Achieved a **93% success rate** in generating complex TikZ-based methodology diagrams, compared to less than 40% for GPT-4 based single-prompt methods.
 - **Human Preference**: 82% of researchers surveyed preferred PaperBanana-generated diagrams for their clarity and professional appearance.
 - **Iterative Accuracy**: The multi-agent critique loop reduced hallucination in data representation by nearly 65%.
-
 ### Why It Matters
-
 The automation of high-quality scientific visualization allows researchers to focus more on core discovery and less on the "drudgery" of formatting figures. By open-sourcing the PaperBanana framework, the authors aim to democratize access to publication-quality design, ensuring that complex ideas are communicated more effectively across the global research community.

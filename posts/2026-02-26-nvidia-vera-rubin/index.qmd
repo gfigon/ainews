@@ -5,51 +5,29 @@ categories:
   - AI Infrastructure
   - Industry News
 ---
-
 Nvidia has unveiled its next-generation AI system Vera Rubin, promising a tenfold improvement in performance per watt compared to the current Grace Blackwell architecture. The new rack-scale system is now in full production and scheduled to ship in the second half of 2026.
-
 ## A New Era of AI Infrastructure
-
 CNBC got an exclusive first look at Vera Rubin at Nvidia's headquarters in Santa Clara, California. The system consists of 1.3 million components sourced from over 80 suppliers across 20 countries. At its core are 72 Rubin GPUs and 36 Vera CPUs, primarily manufactured by Taiwan Semiconductor Manufacturing Co.
-
 "We're aligning to make sure that everything we're shipping will be met by our supply chain," said Dion Harris, Nvidia's AI infrastructure head. "We're in good shape."
-
 ## 10x Efficiency Gains
-
 The headline achievement is a 10x improvement in performance per watt—a critical metric as energy consumption becomes one of the most pressing challenges in AI infrastructure scaling. While Vera Rubin consumes approximately twice the power of its predecessor, the efficiency gains more than compensate.
-
 "We're seeing customers care more and more about tokens per power consumed," noted Jordan Klein, analyst at Mizuho Securities. "The more you can tweak that curve, the higher the return on your investment."
-
 ## 100% Liquid Cooled
-
 Vera Rubin marks Nvidia's first completely liquid-cooled system. This design choice allows data centers to consume significantly less water compared to traditional evaporative cooling methods—a meaningful advantage as AI facilities face increasing scrutiny over their environmental footprint.
-
 ## Modular Design
-
 A key differentiator from Blackwell is the modular architecture. Each superchip slides out of one of the rack's 18 compute trays in seconds, compared to Blackwell's soldered components. This design dramatically simplifies maintenance and repairs.
-
 "They've got all these systems pulled together into a single rack built for greatest efficiency and greatest performance," said Daniel Newman of Futurum Group. "That's just not how servers were historically built."
-
 ## Who's Buying?
-
 Major tech companies have already committed to Vera Rubin:
-
 - **Meta** plans to deploy Vera Rubin in its data centers by 2027
 - **OpenAI**, **Anthropic**, **Amazon**, **Google**, and **Microsoft** are also expected customers
 - Meta announced plans last week to use Vera Rubin as part of its expanded infrastructure
-
 ## Pricing and Competition
-
 While Nvidia doesn't publicly share rack pricing, Futurum Group estimates Vera Rubin will cost approximately $3.5 to $4 million per unit—about 25% more than Blackwell.
-
 The timing is significant: AMD is set to ship its first rack-scale system Helios later this year, having just secured a major 6-gigawatt commitment from Meta.
-
 "You're going to see a lot of uptake because customers want more capacity, but they also want a viable second source to keep Nvidia honest," Klein explained.
-
 Nvidia plans to manufacture up to $500 billion of AI infrastructure in the U.S. through 2029, including producing Blackwell GPUs at TSMC's new Arizona fabs.
-
 ## Sources
-
 - [CNBC: First look at Nvidia's Vera Rubin](https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html)
 - [CNBC: Meta to use Vera Rubin by 2027](https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html)
 - [CNBC: Meta commits to 6GW of AMD GPUs](https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html)

@@ -6,27 +6,15 @@ tags: [Anthropic, Claude, memory import, ChatGPT migration, AI switching, AI too
 categories:
   - AI Tools & Frameworks
 ---
-
 In response to the growing "Cancel ChatGPT" trend, Anthropic announced a new feature on Monday that could significantly simplify the process for users switching to Claude. The company introduced the ability to import memorized contexts from other AI chatbots directly into Claude.
-
 ## What is the Memory Import Feature?
-
 The new feature allows users to transfer their "memories" — contexts and information that a chatbot has remembered from previous conversations — from other AI platforms to Claude. This means users don't have to rebuild their relationship with a new AI assistant from scratch.
-
 As the company announced on Claude's official Threads account: "You can now import memorized contexts from other AI chatbots directly into Claude."
-
 ## Strategic Timing
-
 The feature launch comes at a time when the "Cancel ChatGPT" movement is gaining momentum following the controversial OpenAI-Pentagon agreement. Thousands of users are declaring their switch to alternative AI assistants, seeking solutions without military connections.
-
 Anthropic clearly sensed this opportunity. Instead of just waiting for new users, the company is actively making migration easier by eliminating one of the biggest barriers — loss of context and conversation history.
-
 ## Google Won't Give Up
-
 Interestingly, according to reports, Google is also working on a similar feature for Gemini that would allow the chatbot to import memories from other chatbots. However, Anthropic beat the competition to market, being the first to launch this functionality.
-
 This is a race for users who are canceling ChatGPT. Whoever offers the smoothest transition could gain new loyal customers.
-
 ## What This Means for the AI Market
-
 Introducing memory import functionality could change the dynamics of the AI assistant market:
