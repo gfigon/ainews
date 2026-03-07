@@ -1153,6 +1153,22 @@
       "slugs": [
         "2026-03-07-nvidia-h200-production-halt"
       ]
+    },
+    {
+      "term": "CoT Controllability Research",
+      "count": 1,
+      "last_published": "2026-03-07",
+      "slugs": [
+        "2026-03-07-chain-of-thought-controllability-ai-safety"
+      ]
+    },
+    {
+      "term": "AI Reasoning Transparency",
+      "count": 1,
+      "last_published": "2026-03-07",
+      "slugs": [
+        "2026-03-07-chain-of-thought-controllability-ai-safety"
+      ]
     }
   ]
 }

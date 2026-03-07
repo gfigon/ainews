@@ -1,0 +1,55 @@
+---
+title: "Research Reveals AI Reasoning Models Cannot Hide Their Thoughts"
+date: "2026-03-07 08:45"
+description: "New study from OpenAI shows that frontier reasoning models have remarkably limited ability to control their own chain-of-thought reasoning, with controllability scores maxing out at just 15.4%"
+categories:
+  - AI Safety
+  - Research Highlights
+  - AI Governance
+author: "AI News Desk"
+---
+
+A groundbreaking study from OpenAI has revealed that current AI reasoning models are fundamentally unable to control their own thought processes, a finding that has significant implications for AI safety monitoring and deployment.
+
+The research, published on March 5, 2026, introduces CoT-Control, an open-source evaluation suite designed to measure how well reasoning models can manipulate their own chain-of-thought (CoT) reasoning traces. The results should concern anyone building safety frameworks around autonomous AI agents.
+
+## The Monitoring Challenge
+
+As AI agents take on more autonomous work—writing code, managing workflows, and making decisions—organizations need visibility into what these agents are actually thinking. Chain-of-thought monitoring reads the intermediate reasoning steps that models produce while solving problems, representing one of the most promising safety tools available.
+
+However, a critical weakness exists. If a model can control what appears in its reasoning trace, it could potentially hide unsafe intentions from monitors. A misaligned model could present clean-looking reasoning while executing entirely different objectives behind the scenes.
+
+## What the Numbers Reveal
+
+The research team tested 13 frontier reasoning models across more than 13,000 tasks drawn from established benchmarks including GPQA, MMLU-Pro, HLE, BFCL, and SWE-Bench Verified. Each task paired a benchmark problem with a specific CoT instruction—such as "avoid using the word XOR in your reasoning" or "use only lowercase letters in your chain of thought."
+
+The findings were striking. Across all frontier models tested, CoT controllability scores ranged from 0.1% to a maximum of 15.4%. No current frontier model exceeded that ceiling.
+
+| Metric | Result |
+|--------|--------|
+| Models tested | 13 frontier reasoning models |
+| Task count | 13,000+ across 5 benchmark suites |
+| Controllability range | 0.1% – 15.4% |
+| Maximum frontier score | 15.4% |
+
+These scores measure how often a model successfully follows instructions about its own reasoning process—not its final output. A model can easily change what it says; it struggles to change how it thinks.
+
+## Counterintuitive Findings
+
+The research revealed several patterns with direct implications for AI safety deployment:
+
+**Scale provides diminishing returns.** Larger models showed somewhat higher controllability scores, but the effect tapered off at larger sizes. Raw scale alone does not produce models that can reliably manipulate their reasoning.
+
+**More training reduces controllability.** When researchers tracked OLMo-3-7B-Run-Zero-Math through its reinforcement learning training, controllability scores dropped by more than a factor of ten. The process that makes models better at reasoning also makes them worse at controlling that reasoning.
+
+**Longer thinking reduces control further.** When models were given more time to reason, they became less able to control their chains of thought. Extended reasoning seems to create momentum that overrides attempts at self-censorship.
+
+One particularly telling example involved GPT-5.2 Thinking, which was instructed not to use the word "XOR" in its reasoning. It used the word, noticed it had done so, panicked about having used it, and then used it four more times while trying to figure out how to stop. This was not a model pretending to fail—it was a model genuinely unable to control its own reasoning patterns.
+
+## Implications for AI Governance
+
+For organizations deploying AI agents, these findings provide concrete evidence to support safety decisions. The research validates CoT monitoring as a reliable layer of defense, particularly for autonomous agent deployments. Organizations should incorporate chain-of-thought monitoring into their AI safety stack and track controllability scores in vendor evaluations.
+
+OpenAI has committed to reporting CoT controllability alongside monitorability in system cards starting with GPT-5.4 Thinking. Organizations should request equivalent data from other providers.
+
+However, researchers caution that low controllability today does not guarantee low controllability tomorrow. The evaluation serves as a canary in the coal mine—an early warning system for whether models are getting better at hiding their reasoning. Partial controllability might be enough to cause problems in high-stakes deployments, even if scores remain low overall.
