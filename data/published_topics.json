@@ -1137,6 +1137,22 @@
       "slugs": [
         "2026-03-06-google-intrinsic-robotics-ai"
       ]
+    },
+    {
+      "term": "NVIDIA H200 Production Halt",
+      "count": 1,
+      "last_published": "2026-03-07",
+      "slugs": [
+        "2026-03-07-nvidia-h200-production-halt"
+      ]
+    },
+    {
+      "term": "NVIDIA TSMC Vera Rubin Shift",
+      "count": 1,
+      "last_published": "2026-03-07",
+      "slugs": [
+        "2026-03-07-nvidia-h200-production-halt"
+      ]
     }
   ]
 }
