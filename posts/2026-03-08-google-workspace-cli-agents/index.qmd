@@ -1,0 +1,37 @@
+---
+title: "Google's Workspace CLI Brings AI Agents Into Your Inbox"
+date: "2026-03-08 08:00"
+summary: "Google releases gws, a command-line tool that unifies Workspace APIs and explicitly supports OpenClaw integration, signaling a major shift in how AI agents will interact with productivity suites."
+---
+
+Google has published a new command-line tool that could fundamentally change how AI agents work with your email, calendar, and documents. The tool, simply called **gws** (Google Workspace CLI), consolidates access to Gmail, Google Drive, Calendar, Docs, Sheets, Slides, and Chat into a single interface—all designed with AI agents in mind.
+
+## Why This Matters
+
+Previously, an AI agent that wanted to search your Gmail, pull a file from Drive, and update a Calendar event had to navigate three separate APIs, each with its own authentication flows, rate limits, and response formats. As one publication described it, it was "a royal pain."
+
+The new gws tool collapses that complexity into a single interface. Every operation produces structured JSON output that AI agents can parse reliably. Authentication happens once via OAuth, then any agent that calls the tool inherits those credentials.
+
+## The OpenClaw Connection
+
+The most intriguing detail in the documentation is a dedicated integration guide for **OpenClaw**, the open-source AI agent framework that went viral in late January 2026. This is notable because OpenClaw's creator, Peter Steinberger, joined OpenAI in mid-February to lead their next generation of personal agents.
+
+Google's decision to name-check OpenClaw in official documentation—three weeks after Steinberger joined OpenAI—reads as anything but accidental. Whether it reflects a deliberate competitive response or simply developers shipping something already in progress is unclear. What is clear is that a major platform company has now built infrastructure specifically to make its apps more useful for the open-source agent ecosystem that OpenAI just acquired the architect of.
+
+## Beyond OpenClaw: MCP Support
+
+The tool also functions as a Model Context Protocol (MCP) server. MCP is the open standard for how AI agents communicate with external tools, originally developed by Anthropic and now adopted across the industry. This means gws is not merely an OpenClaw utility—it's infrastructure for any AI agent that speaks JSON and MCP, including Claude Desktop, VS Code with AI extensions, or Google's own Gemini CLI.
+
+## The Bigger Picture
+
+Addy Osmani, Director of Google Cloud AI, has framed his team's focus as building infrastructure for agentic systems. The Workspace CLI fits that vision directly. Microsoft has Copilot Tasks. OpenAI now has the architect of OpenClaw. Google has its own Gemini agent stack—and now a CLI that makes its most widely-used productivity suite readable by any agent.
+
+The competition for where enterprise AI agents live and what data they can reach is accelerating. The battleground increasingly looks like the infrastructure beneath the applications, not the applications themselves.
+
+One important caveat: Google's documentation explicitly notes that gws is "not an officially supported Google product." It's published as a developer sample, meaning there are no guarantees of stability or security at the level of a production service. For enterprises considering deploying AI agents against live Workspace data, that's a meaningful limitation—especially given ongoing concerns about OpenClaw's security model, which a Cisco research team found vulnerable to data exfiltration via malicious third-party skills.
+
+The tool has already accumulated 14,000 stars on GitHub before most journalists noticed—suggesting developers who build agents for a living already understand what it means.
+
+---
+
+*What do you think? Will CLI tools like gws accelerate enterprise AI adoption, or do the security concerns outweigh the convenience?*
