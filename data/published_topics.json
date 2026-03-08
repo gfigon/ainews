@@ -1225,6 +1225,30 @@
       "slugs": [
         "2026-03-08-mcp-security-risks"
       ]
+    },
+    {
+      "term": "Apple AI App Store Search",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-apple-ai-app-store-search"
+      ]
+    },
+    {
+      "term": "AI-Powered ASO",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-apple-ai-app-store-search"
+      ]
+    },
+    {
+      "term": "App Store Discovery Algorithm",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-apple-ai-app-store-search"
+      ]
     }
   ]
 }
