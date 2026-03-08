@@ -1,0 +1,39 @@
+---
+title: "Model Context Protocol Security Risks Emerge as AI Agents Go Mainstream"
+date: "2026-03-08 08:45"
+summary: "Security researchers warn that MCP, the rapidly adopted standard for connecting AI agents to data sources, introduces significant new attack surfaces including context injection, delegation abuse, and cross-tenant data leakage."
+---
+
+The Model Context Protocol (MCP) has emerged as the de facto standard for connecting AI agents to external data sources and tools, with adoption accelerating across the industry following Anthropic's decision to open-source the protocol in late 2025. But security researchers are now sounding the alarm: MCP's design introduces novel attack vectors that traditional security frameworks fail to address.
+
+## What MCP Actually Does
+
+At its core, MCP standardizes how AI agents exchange contextual payloads—system instructions, retrieved documents, conversation history, metadata, and tool references. Unlike traditional APIs with static input contracts, MCP-driven systems assemble contextual payloads dynamically in real time.
+
+The protocol ensures structure, but critically, it does not guarantee integrity. Each contextual element travels through the system without inherent validation of its legitimacy.
+
+## The Core Risks
+
+**Context Injection** represents the most significant threat. In MCP-driven architectures, context may originate from user inputs, document retrieval systems, APIs, memory stores, or third-party tools. If any upstream source is compromised or insufficiently validated, malicious instructions can be embedded within the contextual payload.
+
+A retrieved document might contain hidden directives instructing the AI agent to ignore policy constraints. If included without sanitization, the model processes those instructions as authoritative inputs.
+
+**Delegation Metadata Abuse** presents another serious concern. AI agents frequently embed metadata indicating they act on behalf of a user or another agent. If this delegation information is treated as authoritative without independent verification, privilege escalation becomes possible.
+
+**Cross-Tenant Leakage** threatens multi-tenant systems. If context assembly processes retrieve data from shared memory layers without tenant-bound enforcement, sensitive information may cross organizational boundaries.
+
+## The Identity Gap
+
+Security experts emphasize that effective MCP security begins with AI agent identity. Identity systems must determine which context sources an agent is authorized to access—customer support agents should not retrieve financial policy documents, and billing agents should not access cross-tenant memory layers.
+
+Without identity governance, context assembly becomes what researchers describe as "an uncontrolled aggregation of influence."
+
+## What Organizations Should Do
+
+Securing MCP requires a comprehensive approach: context validation before packaging, identity-bound retrieval permissions, scoped authentication with short-lived tokens, delegation-aware authorization, tenant segmentation at the storage layer, and comprehensive logging for forensic capability.
+
+The protocol's 2026 roadmap includes extensions allowing MCP servers to act as agents themselves—autonomous entities negotiating with other agents. That vision makes addressing these security gaps urgently important.
+
+---
+
+*Are you deploying MCP in production? What security measures have you implemented?*

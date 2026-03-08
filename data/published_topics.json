@@ -1201,6 +1201,30 @@
       "slugs": [
         "2026-03-08-google-workspace-cli-agents"
       ]
+    },
+    {
+      "term": "MCP Security Risks",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-mcp-security-risks"
+      ]
+    },
+    {
+      "term": "Context Injection AI Agents",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-mcp-security-risks"
+      ]
+    },
+    {
+      "term": "AI Agent Identity Context Governance",
+      "count": 1,
+      "last_published": "2026-03-08",
+      "slugs": [
+        "2026-03-08-mcp-security-risks"
+      ]
     }
   ]
 }
