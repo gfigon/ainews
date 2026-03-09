@@ -1273,6 +1273,30 @@
       "slugs": [
         "2026-03-09-anthropic-labor-market-impacts"
       ]
+    },
+    {
+      "term": "Karpathy Autoresearch",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-karpathy-autoresearch-ai-agents"
+      ]
+    },
+    {
+      "term": "Autoresearch 630 Lines",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-karpathy-autoresearch-ai-agents"
+      ]
+    },
+    {
+      "term": "AI Agent ML Experiment Automation",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-karpathy-autoresearch-ai-agents"
+      ]
     }
   ]
 }

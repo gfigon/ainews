@@ -1,0 +1,40 @@
+---
+title: "Andrej Karpathy's Autoresearch: AI Agents That Run Their Own ML Experiments"
+date: "2026-03-09 08:45"
+description: "A 630-line Python tool lets AI agents autonomously iterate on machine learning experiments using a single GPU. Shopify's Tobi Lutke already used it to achieve a 19% improvement in model performance."
+categories: [AI Tools & Frameworks, Agentic AI, Open Source]
+---
+
+Andrej Karpathy has released "autoresearch," a minimalist Python tool that enables AI agents to autonomously conduct machine learning experiments on a single NVIDIA GPU. The project distills the nanochat LLM training core into approximately 630 lines of code—a size deliberately chosen to fit entirely within an LLM's context window, minimizing code generation errors.
+
+## How the Autonomous Loop Works
+
+The framework establishes a clear division of labor between human researchers and AI agents. The system operates on a continuous feedback loop tracked via git commits on a feature branch:
+
+- **Human** provides high-level research instructions and constraints in a Markdown (.md) file
+- **AI Agent** reads these instructions, proposes and implements modifications to the training script (.py)
+- **Execution** runs a fixed 5-minute training sprint to evaluate changes
+
+This creates an iterative loop where the agent autonomously explores the search space of neural network architectures, optimizers, and hyperparameters.
+
+## Bits-Per-Byte: The Validation Metric
+
+To ensure the agent only retains beneficial changes, autoresearch uses bits-per-byte (BPB) as its primary validation metric. BPB measures compression efficiency on a validation dataset—lower is better, indicating a more accurate model.
+
+The protocol is straightforward: the agent only commits code changes to the git feature branch if the final BPB score is lower than the previous best. In initial runs, Karpathy demonstrated the agent successfully reducing validation loss from 1.0 to 0.97 BPB through autonomous code iteration.
+
+## Real-World Validation: Shopify's Tobi Lutke
+
+The framework has already seen real-world adoption. Shopify CEO Tobi Lutke adapted autoresearch for an internal project, allowing the agent to iterate on a smaller model architecture. The result: a 19% improvement in validation scores, with the agent-optimized smaller model eventually outperforming a larger model configured through traditional manual methods.
+
+Karpathy noted that specific code tweaks discovered by the agent were later integrated back into his broader nanochat framework, demonstrating the tool can discover optimizations applicable to larger-scale production systems.
+
+## A Shift in Engineering Focus
+
+For developers, autoresearch represents a shift toward "agentic" workflows in model development. Rather than manually tuning hyperparameters, the engineering task evolves into prompt engineering—directing the agent to navigate the search space more effectively.
+
+The ~630-line constraint ensures the entire codebase fits within modern LLM context windows, allowing the agent to maintain a holistic understanding of the training script and reducing the fragmentation that leads to errors in larger codebases.
+
+This approach moves the developer's role from manual hyperparameter tuning to agent engineering, where the goal is optimizing the prompts that direct the AI to find the most efficient neural architectures and training settings.
+
+**Sources**: [Karpathy/autoresearch GitHub](https://github.com/karpathy/autoresearch), [MarkTechPost](https://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/)
