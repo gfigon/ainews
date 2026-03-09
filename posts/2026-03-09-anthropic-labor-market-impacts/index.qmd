@@ -1,0 +1,32 @@
+---
+title: "Anthropic Research Reveals Massive Gap Between AI Capability and Real-World Adoption"
+date: "2026-03-09 08:00"
+description: "New study shows AI could automate 94% of computer and math tasks, but only 33% is actually being used. The bottleneck isn't capability—it's enterprise adoption."
+categories: [Research Highlights, AI Economy]
+---
+
+Anthropic published a groundbreaking research paper this week measuring AI's actual impact on the labour market, using real usage data from Claude. The findings reveal a striking disconnect between what AI *could* do and what it's *actually* doing in professional settings.
+
+## The Capability vs. Adoption Gap
+
+The research introduced a novel metric called "observed exposure," which combines theoretical AI capability with real-world professional usage. The numbers are revealing:
+
+- **Computer & Math roles**: LLMs could theoretically handle 94% of tasks, but Claude currently covers just 33%
+- **Programmers** top the list as the most "exposed" occupation at 75% task coverage
+- **Customer service representatives** and **data entry keyers** follow closely
+
+The bottleneck isn't model capability—we know AI can solve these problems. The real barriers are legal constraints, verification requirements, and slow enterprise adoption.
+
+## The Irony of AI-Adopting Programmers
+
+Perhaps the most interesting finding: programmers are both the occupation *most exposed* to AI automation and the *heaviest adopters* of AI tools. They're actively building and using the very technology that could replace them.
+
+This suggests a nuanced reality where AI augments rather than simply replaces—those who understand AI best are positioning themselves to work alongside it rather than be displaced by it.
+
+## What This Means for Enterprise
+
+The gap between theoretical capability and observed usage represents a massive opportunity for enterprises willing to accelerate adoption. Early movers who bridge this gap may gain significant productivity advantages before rest the of the market catches up.
+
+The research suggests enterprise AI adoption is held back less by technical limitations and more by inertia institutional, risk aversion, and integration challenges.
+
+**Sources**: [Anthropic Research](https://www.anthropic.com/research/labor-market-impacts), [The Signal](https://thesignal.substack.com/p/openai-bites-back-claudes-memory)

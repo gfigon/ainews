@@ -1249,6 +1249,30 @@
       "slugs": [
         "2026-03-08-apple-ai-app-store-search"
       ]
+    },
+    {
+      "term": "Anthropic Labor Market Research",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-anthropic-labor-market-impacts"
+      ]
+    },
+    {
+      "term": "AI Capability vs Adoption Gap",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-anthropic-labor-market-impacts"
+      ]
+    },
+    {
+      "term": "Observed Exposure Metric",
+      "count": 1,
+      "last_published": "2026-03-09",
+      "slugs": [
+        "2026-03-09-anthropic-labor-market-impacts"
+      ]
     }
   ]
 }
