@@ -1345,6 +1345,22 @@
       "slugs": [
         "2026-03-10-shenzhen-wuxi-openclaw-subsidies"
       ]
+    },
+    {
+      "term": "Microsoft Copilot Anthropic",
+      "count": 1,
+      "last_published": "2026-03-10",
+      "slugs": [
+        "2026-03-10-microsoft-copilot-anthropic"
+      ]
+    },
+    {
+      "term": "Copilot Cowork Claude",
+      "count": 1,
+      "last_published": "2026-03-10",
+      "slugs": [
+        "2026-03-10-microsoft-copilot-anthropic"
+      ]
     }
   ]
 }
