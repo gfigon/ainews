@@ -1321,6 +1321,30 @@
       "slugs": [
         "2026-03-09-meta-ai-glasses-privacy"
       ]
+    },
+    {
+      "term": "Shenzhen OpenClaw Subsidies",
+      "count": 1,
+      "last_published": "2026-03-10",
+      "slugs": [
+        "2026-03-10-shenzhen-wuxi-openclaw-subsidies"
+      ]
+    },
+    {
+      "term": "Wuxi OpenClaw Subsidies",
+      "count": 1,
+      "last_published": "2026-03-10",
+      "slugs": [
+        "2026-03-10-shenzhen-wuxi-openclaw-subsidies"
+      ]
+    },
+    {
+      "term": "China Local Government AI Agent Subsidies",
+      "count": 1,
+      "last_published": "2026-03-10",
+      "slugs": [
+        "2026-03-10-shenzhen-wuxi-openclaw-subsidies"
+      ]
     }
   ]
 }

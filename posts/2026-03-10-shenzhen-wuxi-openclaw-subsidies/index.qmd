@@ -1,0 +1,31 @@
+---
+title: "Shenzhen and Wuxi Offer Millions in Subsidies for OpenClaw AI Agent Adoption"
+date: "2026-03-10 08:45"
+categories:
+  - AI Industry News
+  - AI Policy & Regulation
+  - OpenClaw Ecosystem
+summary: "Chinese municipal authorities in Shenzhen and Wuxi have announced subsidy programs worth up to 5 million yuan to promote OpenClaw AI agent adoption, despite national security warnings about the platform."
+---
+
+In a striking demonstration of local government support for open-source AI agents, authorities in two major Chinese technology hubs have unveiled generous subsidy programs for OpenClaw adoption, even as national cybersecurity agencies continue to warn about potential security risks.
+
+## Shenzhen's Longgang District Takes the Lead
+
+The Longgang District Artificial Intelligence (Robotics) Bureau in Shenzhen released a draft policy on March 7, 2026, proposing financial support of up to 2 million yuan for approved OpenClaw implementation projects. The policy specifically targets enterprise adoption of the AI agent platform for workplace automation and business operations.
+
+The timing of the announcement follows a notable public event where crowds gathered outside a major technology company's headquarters in Shenzhen to receive free installation of OpenClaw from engineers — highlighting the grassroots enthusiasm surrounding the platform. Online platforms have also seen a surge in paid installation services, indicating growing commercial interest.
+
+## Wuxi Joins the Subsidy Race
+
+On March 9, 2026, a high-tech district in Wuxi announced its own policy framework, offering subsidies ranging from 1 million to 5 million yuan. The funding aims to promote innovative industrial applications of OpenClaw, with particular emphasis on quality inspection and equipment maintenance — sectors where AI agents can significantly enhance efficiency.
+
+## National Security Concerns Persist
+
+These local initiatives stand in contrast to warnings issued by China's national cybersecurity information center, which cautioned that incorrect setup of OpenClaw could result in significant security risks, including potential cyberattacks and exposure of private data. The advisory was released during a period of widespread enthusiasm for the platform — a trend that has been colloquially dubbed based on its promised autonomous task capabilities.
+
+Despite these concerns, the momentum around OpenClaw continues to build. Chinese tech giants including Tencent have recently launched OpenClaw-compatible products, with Tencent's WorkBuddy workplace AI agent driving a 6.2% rise in the company's Hong Kong shares on March 10.
+
+## What This Means
+
+The divergent approaches between national advisories and local incentives reflect the broader tension in China's AI policy: central authorities increasingly warn about security and privacy risks while local governments aggressively pursue economic growth through AI adoption. This policy fragmentation could create interesting dynamics as OpenClaw continues its rapid expansion across Chinese enterprises.
