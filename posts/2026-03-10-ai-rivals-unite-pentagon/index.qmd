@@ -1,0 +1,31 @@
+---
+title: "AI Rivals Unite: OpenAI & Google Employees Back Anthropic in Pentagon Lawsuit"
+date: "2026-03-10 08:00"
+categories:
+  - AI Industry News
+  - AI Policy & Regulation
+  - AI Safety
+summary: "Over 30 employees from OpenAI and Google DeepMind have filed an amicus brief defending Anthropic against the Pentagon's controversial 'supply-chain risk' designation, marking an unprecedented show of solidarity among AI rivals."
+---
+
+In an unprecedented move that highlights growing tensions between the AI industry and military agencies, more than 30 employees from OpenAI and Google DeepMind have filed a statement supporting Anthropic's lawsuit against the U.S. Defense Department.
+
+The amicus brief, signed by Google DeepMind chief scientist Jeff Dean among others, argues that the Pentagon's decision to label Anthropic a "supply-chain risk" — a designation typically reserved for foreign adversaries — represents an "improper and arbitrary use of power" with serious ramifications for the entire AI industry.
+
+## The Conflict
+
+Last week, the Department of Defense designated Anthropic as a supply-chain risk after the AI company refused to allow its technology to be used for mass surveillance of Americans or for autonomously firing weapons. The DOD had argued it should be able to use AI for any "lawful" purpose without being constrained by a private contractor's ethical guidelines.
+
+The timing proved controversial: within moments of designating Anthropic, the DOD signed a deal with OpenAI — a move that many OpenAI employees reportedly protested.
+
+## Industry Solidarity
+
+The brief submitted by OpenAI and Google employees makes a pointed argument: "If the Pentagon was no longer satisfied with the agreed-upon terms of its contract with Anthropic, the agency could have simply canceled the contract and purchased the services of another leading AI company."
+
+The filing also affirms that Anthropic's stated red lines — refusing to enable mass surveillance or autonomous weapons — represent legitimate concerns that warrant strong guardrails. Without comprehensive public law governing AI use, the brief argues, the contractual and technical restrictions that AI developers impose on their systems serve as critical safeguards against catastrophic misuse.
+
+## Broader Implications
+
+"If allowed to proceed, this effort to punish one of the leading U.S. AI companies will undoubtedly have consequences for the United States' industrial and scientific competitiveness in the field of artificial intelligence and beyond," the brief reads. "And it will chill open deliberation in our field about the risks and benefits of today's AI systems."
+
+This unusual alliance between employees of competing AI labs signals a growing consensus among researchers that certain AI applications should remain off-limits, even when facing pressure from powerful government agencies. The case could set a precedent for how AI companies negotiate their role in national defense while maintaining ethical boundaries.
