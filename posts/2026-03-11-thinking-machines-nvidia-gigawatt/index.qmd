@@ -1,0 +1,35 @@
+---
+title: "Nvidia Invests in Mira Murati's Thinking Machines Lab with 1 Gigawatt Compute Deal"
+date: "2026-03-11 08:45"
+categories:
+  - AI Industry News
+  - AI Chips & Hardware
+  - Startups & Funding
+summary: "Nvidia has made a significant investment in Thinking Machines Lab, the AI startup founded by former OpenAI CTO Mira Murati, announcing a multi-year partnership to deploy at least one gigawatt of Vera Rubin systems starting in 2027."
+---
+
+Nvidia has announced a landmark partnership with Thinking Machines Lab, the AI research company founded by former OpenAI Chief Technology Officer Mira Murati. The deal includes a significant investment from Nvidia and a commitment to provide an unprecedented amount of compute power.
+
+## A Gigawatt-Scale Commitment
+
+The multi-year strategic partnership, announced on March 10, 2026, will see Thinking Machines Lab deploy at least one gigawatt of Nvidia's next-generation Vera Rubin GPU systems. To put this in perspective, a gigawatt of compute capacity is equivalent to the power consumption of a small city — representing one of the largest AI infrastructure commitments ever made.
+
+The Vera Rubin systems, which were released earlier this year, will begin deployment in early 2027. The size of the financial deal has not been disclosed, but it represents a substantial vote of confidence in Thinking Machines Lab's approach to building advanced AI systems.
+
+## Thinking Machines Lab's Vision
+
+Founded by Murati after her departure from OpenAI in 2024, Thinking Machines Lab has positioned itself as a different kind of AI company. The startup aims to create highly customizable AI systems that users can adapt to their specific needs — a vision that emphasizes user control and flexibility over the closed approaches taken by some competitors.
+
+The partnership with Nvidia gives Thinking Machines Lab access to the most advanced AI training infrastructure available, potentially allowing it to compete with well-funded rivals like OpenAI, Anthropic, and Google DeepMind.
+
+## What This Means for the AI Industry
+
+The deal signals several important trends:
+
+**Hardware is still king:** Despite growing interest in alternative computing approaches, Nvidia continues to dominate the AI infrastructure landscape. Major AI players are locked in a race to secure GPU supply, and partnerships like this ensure access to cutting-edge systems.
+
+**Customization is the next frontier:** Thinking Machines Lab's focus on user-adaptable AI suggests that the industry may be moving toward more customizable models rather than one-size-fits-all solutions.
+
+**The startup ecosystem is maturing:** For a relatively new company to secure such a substantial partnership speaks to the maturation of the AI startup ecosystem and the continued willingness of incumbents to invest in innovative newcomers.
+
+The announcement comes just ahead of Nvidia's annual GTC developer conference, where CEO Jensen Huang is expected to further elaborate on the company's AI infrastructure strategy.
