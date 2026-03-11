@@ -1433,6 +1433,14 @@
       "slugs": [
         "2026-03-11-thinking-machines-nvidia-gigawatt"
       ]
+    },
+    {
+      "term": "Google GenAI.mil Agent Designer",
+      "count": 1,
+      "last_published": "2026-03-11",
+      "slugs": [
+        "2026-03-11-google-genai-military-agent-builder"
+      ]
     }
   ]
 }
