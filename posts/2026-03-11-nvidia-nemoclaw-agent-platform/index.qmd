@@ -1,0 +1,41 @@
+---
+title: "Nvidia Unveils NemoClaw Open-Source AI Agent Platform Ahead of GTC 2026"
+date: "2026-03-11 08:00"
+author: "AI News Digest"
+description: "Nvidia is preparing to release NemoClaw, an open-source platform for enterprise AI agents. Meanwhile, Microsoft integrates Claude into Copilot, and Google expands Gemini across Workspace."
+categories: ["AI Tools & Frameworks", "Industry News"]
+---
+
+Nvidia is making a significant move into the enterprise AI agent space with the development of NemoClaw, a new open-source platform designed to help companies deploy automated agents that can carry out workplace tasks across digital systems.
+
+## NemoClaw: Nvidia's Enterprise Agent Play
+
+According to sources familiar with Nvidia's plans, the NemoClaw platform is currently being discussed privately with software companies ahead of the company's annual GTC developer conference scheduled for next week in San Jose.
+
+The platform aims to allow enterprises to deploy AI agents that can automate complex workflows across multiple digital systems. This represents Nvidia's strategic push beyond hardware into the software layer of the AI ecosystem, potentially competing with platforms like Microsoft's Agent 365 and various autonomous agent frameworks.
+
+Industry analysts note that the timing is strategic—enterprise AI adoption is accelerating, and companies are increasingly looking for platforms that can help them deploy secure, manageable AI agents at scale.
+
+## Microsoft Deepens Anthropic Partnership
+
+In other major news, Microsoft announced major updates to its AI strategy at the "Frontier Suite" launch. The company is bringing Claude into the main Microsoft 365 Copilot experience through its Frontier program, alongside the latest generation of OpenAI models.
+
+Most notably, Microsoft revealed Copilot Cowork—built in close collaboration with Anthropic—which enables long-running, multi-step work that unfolds over time. This represents one of the most significant integrations of Claude technology into a major productivity platform.
+
+The company also announced:
+- **Agent 365** general availability on May 1 at $15 per user, providing a control plane for observing, governing, and securing AI agents
+- **Microsoft 365 E7: The Frontier Suite** at $99 per user, unifying Copilot and Agent 365 with enterprise security
+- 160% year-over-year growth in paid Copilot seats and 10x increase in daily active usage
+
+## Google Expands Gemini Across Workspace
+
+Google announced new updates to Gemini integration across Docs, Sheets, Slides, and Drive. The AI can now help users write documents, create spreadsheets, and design presentations faster, while also finding information across files and emails.
+
+## What This Means
+
+The convergence of these announcements signals a maturing enterprise AI market:
+- Hardware leaders (Nvidia) are moving upstream into agent platforms
+- Software giants (Microsoft) are building multi-model strategies with deep partner integrations
+- AI labs (Anthropic) are finding new distribution channels through enterprise deals
+
+The next GTC conference will likely provide more details on Nvidia's agent platform strategy.
