@@ -1497,6 +1497,30 @@
       "slugs": [
         "2026-03-12-meta-mtia-400-ai-chips"
       ]
+    },
+    {
+      "term": "China OpenClaw Bank Restrictions",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-china-openclaw-banks-restriction"
+      ]
+    },
+    {
+      "term": "CNCERT OpenClaw Security Warning",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-china-openclaw-banks-restriction"
+      ]
+    },
+    {
+      "term": "OpenClaw Prompt Injection Risks",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-china-openclaw-banks-restriction"
+      ]
     }
   ]
 }
