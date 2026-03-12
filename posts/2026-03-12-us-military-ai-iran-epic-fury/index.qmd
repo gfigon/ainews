@@ -1,0 +1,44 @@
+---
+title: "US Military Confirms AI Tools in Iran Strikes as Pentagon Touts 'Algorithmic Warfare'"
+date: "2026-03-12 08:00"
+author: "AI News Digest"
+description: "The US military has publicly confirmed deploying advanced AI tools in Operation Epic Fury against Iran, while a dispute with Anthropic over Claude usage continues. Meanwhile, China warns of 'Terminator-style' AI warfare risks."
+categories: ["AI Security & Safety", "Industry News"]
+---
+
+The United States military has for the first time publicly confirmed deploying artificial intelligence tools in active combat operations, marking a significant milestone in the real-world use of AI in warfare.
+
+## AI on the Battlefield
+
+Admiral Brad Cooper, commander of U.S. Central Command (CENTCOM), revealed in a video message that American forces are using "a variety of advanced AI tools" during Operation Epic Fury, the ongoing military campaign against Iran that began on February 28, 2026.
+
+"We've struck over 5,500 targets inside Iran," Adm. Cooper stated. "These systems help us sift through vast amounts of data in seconds so our leaders can cut through the noise and make smarter decisions faster than the enemy can react."
+
+The CENTCOM commander emphasized that human operators retain final authority over targeting decisions: "Humans will always make final decisions on what to shoot and what not to shoot and when to shoot. But advanced AI tools can turn processes that used to take hours and sometimes even days into seconds."
+
+## The Maven Smart System and Claude
+
+According to reports from The Washington Post and DefenseScoop, the U.S. military has been using the Maven Smart System—built by Palantir in partnership with Anthropic's Claude AI technology—to support targeting and data analysis during the campaign.
+
+This disclosure comes amid an ongoing dispute between the Pentagon and Anthropic. The Defense Department recently designated Anthropic as a "supply chain risk," effectively blacklisting the company from government contracts. Anthropic has sued the Trump administration in response, arguing that its AI models should not be used for fully autonomous weapons or mass surveillance.
+
+Pentagon spokesperson Kingsley Wilson criticized the AI company's position: "America's warfighters... will never be held hostage by unelected tech executives and Silicon Valley ideology."
+
+## China's Warning: 'Terminator' Risks
+
+China's Defense Ministry responded to the news with a stark warning about unrestricted AI military use. Spokesperson Jiang Bin stated that "the unrestricted application of AI by the military... giving algorithms the power to determine life and death not only erode ethical restraints and accountability in wars, but also risk technological runaway."
+
+Jiang added that the trend risks turning "the movie The Terminator... into real life."
+
+## What This Means
+
+The public confirmation of AI combat deployment raises profound questions:
+
+- **Accountability**: Who bears responsibility when AI-assisted targeting leads to civilian casualties?
+- **Escalation**: Does algorithmic warfare lower the threshold for military action?
+- **Arms Race**: How will other nations respond to AI-enabled precision strikes?
+- **Ethics**: What constraints should apply to AI targeting systems?
+
+As Operation Epic Fury continues, the world is watching to see how "algorithmic warfare" evolves—and whether existing international humanitarian law can keep pace with the technology.
+
+The use of AI in warfare is no longer hypothetical. It's happening now, in real-time, over Iranian skies.
