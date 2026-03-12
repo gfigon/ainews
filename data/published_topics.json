@@ -1473,6 +1473,30 @@
       "slugs": [
         "2026-03-12-us-military-ai-iran-epic-fury"
       ]
+    },
+    {
+      "term": "Meta MTIA 400",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-meta-mtia-400-ai-chips"
+      ]
+    },
+    {
+      "term": "Meta In-House AI Chips",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-meta-mtia-400-ai-chips"
+      ]
+    },
+    {
+      "term": "Meta Silicon Diversification",
+      "count": 1,
+      "last_published": "2026-03-12",
+      "slugs": [
+        "2026-03-12-meta-mtia-400-ai-chips"
+      ]
     }
   ]
 }

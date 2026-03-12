@@ -1,0 +1,36 @@
+---
+title: "Meta Unveils MTIA 400 Chip: A New Challenger in the AI Silicon Race"
+date: "2026-03-12 08:45"
+author: "AI News Digest"
+categories:
+  - AI Hardware
+  - Industry News
+tags:
+  - Meta
+  - MTIA
+  - AI Chips
+  - ASIC
+  - NVIDIA
+  - AMD
+summary: "Meta reveals four custom in-house AI chips, with the MTIA 400 completing testing and heading to data centers. The move marks a significant step in the company's strategy to reduce reliance on external GPU suppliers."
+---
+
+Meta has announced four new custom AI chips, marking a significant acceleration in the company's push to develop in-house silicon. The MTIA (Meta Training and Inference Accelerator) family now includes the MTIA 300, 400, 450, and 500, with the MTIA 400 already completing testing and heading to data centers.
+
+The MTIA 300 has already been deployed and handles smaller AI models used for content ranking and recommendation systems across Facebook and Instagram. The upcoming MTIA 400, however, represents a leap forward—designed specifically for generative AI inference tasks like image and video generation from text prompts.
+
+"We're building out capacity so quickly and spending so much on CapEx that at any given time we want to have the state-of-the-art chip to deploy," said Yee Jiun Song, Meta's Vice President of Engineering. The company is achieving a remarkable six-month chip release cadence, which Song described as "unusual for any silicon company."
+
+A single Meta data center rack will house 72 MTIA 400 chips, each optimized for AI inference workloads. The MTIA 450 and 500 are slated for 2027 deployment, both targeting advanced generative AI tasks.
+
+This announcement comes just weeks after Meta signed massive deals with NVIDIA for millions of GPUs and AMD for up to 6 gigawatts of GPU capacity. Together with its in-house chips, Meta now operates a diversified silicon strategy—reducing dependency on any single supplier while maintaining flexibility as AI workloads evolve.
+
+"The workloads are changing so quickly that we want to make sure that we have options," Song explained, emphasizing the rationale behind both external partnerships and internal development.
+
+The MTIA chips are manufactured by Taiwan Semiconductor and used entirely for Meta's internal operations—unlike Google (TPUs) and Amazon (Trainium/Inferentia), which offer their custom silicon through cloud services.
+
+However, Meta faces challenges. The company acknowledged concerns about HBM (High-Bandwidth Memory) supply constraints, which are critical for powering the new chips. "We're absolutely worried about HBM supply," Song admitted, though he noted Meta has secured supply for its current buildout plans.
+
+With 26 of its 30 data centers located in the US—including a massive 5-gigawatt facility in Louisiana—Meta's silicon ambitions are tightly coupled with its massive infrastructure expansion.
+
+The message is clear: Meta is no longer just a customer for NVIDIA and AMD. It's becoming a competitor in the AI chip space.
