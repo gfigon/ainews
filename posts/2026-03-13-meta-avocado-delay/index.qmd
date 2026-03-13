@@ -1,0 +1,29 @@
+---
+title: "Meta Delays Avocado AI Model After Falling Behind Rivals"
+date: "2026-03-13 08:00"
+author: "AI News Daily"
+categories:
+  - AI Models
+  - Industry News
+  - Meta
+tags:
+  - Meta
+  - Avocado
+  - AI model delay
+  - Gemini
+  - OpenAI
+  - Anthropic
+summary: "Meta has postponed the release of its AI model codenamed 'Avocado' from March to at least May 2026, after internal tests revealed the model lagged behind leading models from Google, OpenAI, and Anthropic in reasoning, coding, and writing tasks."
+---
+
+Meta has unexpectedly delayed the release of its next-generation AI model, internally codenamed "Avocado," from its planned March launch until at least May 2026. The decision comes after the model failed to meet internal performance benchmarks, according to a New York Times report citing three sources familiar with the matter.
+
+The company's new foundational AI model, which Meta has been developing for months, fell short of leading models from rivals including Google, OpenAI, and Anthropic on internal tests covering reasoning, coding, and writing capabilities. This marks a rare public setback for Meta, which has invested heavily in AI infrastructure and consistently positioned itself as a leader in open-source AI development.
+
+According to the report, Meta's AI division leadership discussed temporarily licensing Google's Gemini model to power the company's AI products while they work on improving Avocado's performance. Interestingly, internal tests showed Avocado did manage to score higher than Gemini 2.5 in some evaluations, though it still lagged behind offerings from OpenAI and Anthropic.
+
+The delay raises questions about Meta's AI strategy, particularly given the company's aggressive push into AI assistant products across its social media platforms. Meta had previously announced plans to integrate advanced AI capabilities into Facebook, Instagram, and WhatsApp, positioning Avocado as a key component of this strategy.
+
+This setback also highlights the intensifying competition in the AI model space, where the gap between leading models from OpenAI and Anthropic versus other players appears to be widening. Industry analysts suggest that Meta may need to reconsider its development timeline and potentially increase investment in research to close the performance gap.
+
+The company has not publicly commented on the delay or the internal test results.
