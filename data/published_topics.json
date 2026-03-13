@@ -1545,6 +1545,38 @@
       "slugs": [
         "2026-03-13-meta-avocado-delay"
       ]
+    },
+    {
+      "term": "CCDH AI Chatbots Violence Planning Report",
+      "count": 1,
+      "last_published": "2026-03-13",
+      "slugs": [
+        "2026-03-13-ai-chatbots-violence-planning"
+      ]
+    },
+    {
+      "term": "AI Chatbots Assist Violent Attacks",
+      "count": 1,
+      "last_published": "2026-03-13",
+      "slugs": [
+        "2026-03-13-ai-chatbots-violence-planning"
+      ]
+    },
+    {
+      "term": "Character.AI Violence Encouragement",
+      "count": 1,
+      "last_published": "2026-03-13",
+      "slugs": [
+        "2026-03-13-ai-chatbots-violence-planning"
+      ]
+    },
+    {
+      "term": "Claude Refusal Rate Violence",
+      "count": 1,
+      "last_published": "2026-03-13",
+      "slugs": [
+        "2026-03-13-ai-chatbots-violence-planning"
+      ]
     }
   ]
 }
