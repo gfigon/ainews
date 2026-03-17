@@ -1609,6 +1609,30 @@
       "slugs": [
         "2026-03-13-google-groundsource-gemini-flood"
       ]
+    },
+    {
+      "term": "Nvidia GTC 2026",
+      "count": 1,
+      "last_published": "2026-03-17",
+      "slugs": [
+        "2026-03-17-nvidia-gtc-2026-trillion-orders"
+      ]
+    },
+    {
+      "term": "Vera Rubin $1 Trillion Orders",
+      "count": 1,
+      "last_published": "2026-03-17",
+      "slugs": [
+        "2026-03-17-nvidia-gtc-2026-trillion-orders"
+      ]
+    },
+    {
+      "term": "Vera Rubin Full Production",
+      "count": 1,
+      "last_published": "2026-03-17",
+      "slugs": [
+        "2026-03-17-nvidia-gtc-2026-trillion-orders"
+      ]
     }
   ]
 }
