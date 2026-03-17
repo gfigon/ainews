@@ -1,0 +1,36 @@
+---
+title: "Google Quietly Kills 'What People Suggest' AI Health Feature"
+date: "2026-03-17 18:23"
+summary: "Google has removed its experimental AI search feature that aggregated crowdsourced health advice from Reddit, Quora, and online discussions, marking a retreat from AI-powered medical information gathering."
+categories:
+  - AI Ethics & Regulation
+  - Industry News
+tags:
+  - Google
+  - AI Health
+  - Search
+  - Privacy
+  - AI Safety
+---
+
+Google has quietly removed "What People Suggest," an experimental AI search feature that collected and summarized crowdsourced health advice from Reddit, Quora, and other online forums in response to medical queries. The removal comes amid mounting scrutiny over AI-generated health information accuracy.
+
+## Feature Background
+
+Launched in March 2025 on mobile devices in the United States, "What People Suggest" used AI to organize different perspectives from online discussions into easy-to-understand themes. For example, users searching about arthritis could find real insights from people who also had the condition, with links to learn more.
+
+Google's chief health officer at the time, Karen DeSalvo, described the feature as showing "the potential of AI to transform health outcomes across the globe." The company positioned it as a way to provide users with lived medical experiences alongside expert medical information.
+
+## Quiet Removal
+
+Three people familiar with the decision confirmed that "What People Suggest" has been discontinued. A Google spokesperson stated the feature was removed "as part of a broader simplification of the search results page" and had "nothing to do with the quality or safety of the new feature."
+
+However, this explanation faces skepticism. In January 2026, a Guardian investigation found that Google's AI Overviews were putting people at risk by providing false and misleading health information to millions of users. Following that report, Google removed AI Overviews for some—though not all—medical queries.
+
+The feature's removal was not announced publicly. When pressed about where the news was "shared publicly," Google's spokesperson pointed to a November 2025 blog post from John Mueller about search results simplification—a post that makes no mention of "What People Suggest."
+
+## Ongoing AI Health Scrutiny
+
+This removal represents a retreat from Google's aggressive expansion of AI in health information delivery. The company faces regulatory pressure worldwide over how AI systems handle medical content. Google's next "The Check Up" event is scheduled for March 17, 2026, where chief health officer Michael Howell will "share how we're bringing together new AI research, technological innovations and partnerships to help address some of the world's most pressing health challenges."
+
+The incident highlights the tension between AI's potential to aggregate diverse health perspectives and the risks of presenting unverified, crowdsourced medical advice to billions of users seeking reliable health information.
