@@ -1627,11 +1627,27 @@
       ]
     },
     {
-      "term": "Vera Rubin Full Production",
+      "term": "Gecko Robotics $71M Navy Contract",
       "count": 1,
       "last_published": "2026-03-17",
       "slugs": [
-        "2026-03-17-nvidia-gtc-2026-trillion-orders"
+        "2026-03-17-gecko-robotics-navy-contract"
+      ]
+    },
+    {
+      "term": "AI Ship Inspection Robots",
+      "count": 1,
+      "last_published": "2026-03-17",
+      "slugs": [
+        "2026-03-17-gecko-robotics-navy-contract"
+      ]
+    },
+    {
+      "term": "Pacific Fleet Wall-Climbing Robots",
+      "count": 1,
+      "last_published": "2026-03-17",
+      "slugs": [
+        "2026-03-17-gecko-robotics-navy-contract"
       ]
     }
   ]

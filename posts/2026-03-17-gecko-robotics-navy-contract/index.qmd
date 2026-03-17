@@ -1,0 +1,48 @@
+---
+title: "Gecko Robotics Lands $71M US Navy Contract for AI-Powered Ship Inspections"
+date: "2026-03-17 18:19"
+summary: "Pittsburgh-based Gecko Robotics secures largest-ever US Navy robotics deal, deploying wall-climbing AI robots to inspect 18 Pacific Fleet ships over nine months."
+categories:
+  - Robotics
+  - Defense AI
+  - Infrastructure Inspection
+tags:
+  - Gecko Robotics
+  - US Navy
+  - AI Robots
+  - Ship Inspection
+  - Pacific Fleet
+---
+
+The US Navy has awarded Gecko Robotics a landmark $71 million contract to deploy artificial intelligence and robotics technology for ship maintenance and inspection. The five-year indefinite-delivery, indefinite-quantity (IDIQ) contract represents the largest Navy robotics deal to date.
+
+## Breaking Down the Deal
+
+Under the agreement, Gecko will begin working on **18 ships in the US Pacific Fleet** over the next nine months. The robots will inspect destroyers, amphibious warships, and littoral combat ships, using AI-powered sensors to assess structural integrity and maintenance needs.
+
+> "This contract marks a pivotal moment for naval modernization," said Jake Loosararian, Gecko Robotics CEO. "Our AI systems will dramatically reduce maintenance delays and increase fleet readiness."
+
+## How the Technology Works
+
+Gecko's wall-climbing robots use advanced sensors and machine learning to:
+- Detect structural fatigue and corrosion
+- Identify maintenance needs in hard-to-reach areas
+- Create digital twins of ship components
+- Predict failure before it occurs
+
+The robots can scale vertical surfaces and navigate complex ship geometries that would be dangerous or impossible for human inspectors.
+
+## Broader Implications
+
+This deal signals a significant shift toward AI-driven defense infrastructure:
+- **Predictive maintenance** is replacing reactive repairs
+- **Digital twins** are becoming standard for fleet management
+- **Autonomous inspection** is expanding beyond factories to military assets
+
+The contract comes amid heightened US military interest in AI for operational readiness, following recent reports of algorithmic warfare systems deployed in the Middle East.
+
+## What's Next
+
+Gecko expects to scale the program across the entire Pacific Fleet if initial deployments prove successful. The company, headquartered in Pittsburgh, has seen rapid growth since securing previous defense contracts in 2024.
+
+This deal underscores how AI is moving beyond software into physical world applications—where robots capable of "thinking" about real-world environments are becoming indispensable to national security infrastructure.
