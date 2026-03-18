@@ -1,0 +1,21 @@
+---
+title: "Microsoft Consolidates Copilot Teams, Taps Former Snap Executive Jacob Andreou to Lead"
+date: "2026-03-18 12:00"
+categories:
+  - Industry News
+  - Agents & Automation
+---
+
+Microsoft has announced a major restructuring of its Copilot organization, consolidating the consumer and commercial Copilot teams into a unified effort while shifting Mustafa Suleyman to focus exclusively on frontier AI models and the company's superintelligence mission.
+
+Jacob Andreou, previously Corporate Vice President of Product and Growth at Microsoft AI and formerly Senior Vice President at Snap, has been appointed Executive Vice President of Copilot. He will lead the Copilot experience across both consumer and commercial segments, overseeing design, product, growth, and engineering. Andreou reports directly to CEO Satya Nadella.
+
+The restructuring brings together what were previously separate teams building Copilot for enterprise Microsoft 365 customers and consumer users. According to Nadella's memo to employees, this consolidation aims to create a "truly integrated system" that is "simpler and more powerful for customers."
+
+Ryan Roslansky, Perry Clarke, and Charles Lamanna will now lead Microsoft 365 applications and the Copilot platform. Together with Andreou and Suleyman, they form the new Copilot Leadership Team.
+
+Meanwhile, Mustafa Suleyman—who joined Microsoft in 2024 after leaving Google DeepMind—will focus entirely on building advanced AI models. "Progress at the AI model layer is more critical than ever to our success as a company over the next decade," Nadella wrote, adding that Microsoft is "doubling down" on its superintelligence mission with the talent and compute to build models that have "real product impact."
+
+In his own message, Suleyman emphasized that frontier models are "the foundation for our future as a company" and that the reorganization will allow him to focus on delivering "world class models for Microsoft over the next 5 years."
+
+The timing of this announcement comes as Microsoft accelerates its agentic AI push, with recent launches including Copilot Tasks, Copilot Cowork, and Agent 365. The company is clearly positioning itself to compete more aggressively in the emerging agentic AI market, where AI assistants are evolving from answering questions to executing multi-step tasks with clear user control points.
