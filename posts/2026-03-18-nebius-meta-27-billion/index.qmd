@@ -1,0 +1,21 @@
+---
+title: "Nebius Secures Massive $27 Billion AI Infrastructure Commitment from Meta"
+date: "2026-03-18 12:31"
+categories:
+  - Industry News
+  - AI Infrastructure
+---
+
+Dutch cloud computing company Nebius Group has secured a landmark $27 billion deal with Meta Platforms, marking one of the largest AI infrastructure commitments in history. The agreement will provide Meta with $12 billion in dedicated AI compute capacity immediately, with options to purchase up to $15 billion additional capacity over the next five years.
+
+The deal includes deployment across multiple data center locations, featuring what will be one of the world's first large-scale implementations of Nvidia's next-generation Vera Rubin chips. Nebius's stock surged over 14% on the news, adding to an impressive 400% gain since its NYSE listing in 2024.
+
+This announcement comes just days after Nvidia revealed a $2 billion investment in Nebius, underscoring the company's strategic position in the AI infrastructure landscape. Nebius has rapidly emerged as Europe's leading "neocloud" provider, offering high-density GPU clusters and managed services for enterprises, AI startups, and researchers.
+
+For Meta, the partnership addresses a critical need: expanding AI compute capacity within the European Union. With upcoming data residency regulations affecting all European countries, having local infrastructure partners becomes essential. Meta has committed to spending between $115 billion and $135 billion on AI infrastructure this year alone, making deals like this crucial for its ambitious AI roadmap.
+
+The timing is particularly significant given recent reports of Meta planning significant workforce reductions. The company is reportedly considering laying off nearly 20% of its 80,000 employees while simultaneously investing heavily in AI capabilities—a strategy that reflects the broader industry shift toward automation and AI-driven efficiency.
+
+"This commitment will accelerate the buildout and growth of our core AI cloud business," said Nebius co-founder and CEO Arkady Volozh. The deal nearly doubles Nebius's total customer commitments, following a similar $17 billion agreement with Microsoft announced last September.
+
+Analysts note that both companies benefit substantially. Nebius gains a powerful anchor customer to support its aggressive infrastructure expansion, while Meta secures access to cutting-edge compute capacity in a market where GPU availability remains constrained. The partnership positions Nebius to capture a significant share of the over $650 billion in AI infrastructure spending that major tech companies plan to make over the next year.
