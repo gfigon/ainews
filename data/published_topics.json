@@ -1761,6 +1761,38 @@
       "slugs": [
         "2026-03-19-xiaomi-hunter-alpha-ai"
       ]
+    },
+    {
+      "term": "Alibaba Wukong",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-alibaba-wukong-jvs-claw"
+      ]
+    },
+    {
+      "term": "Alibaba JVS Claw",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-alibaba-wukong-jvs-claw"
+      ]
+    },
+    {
+      "term": "Alibaba AI Agent Platform",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-alibaba-wukong-jvs-claw"
+      ]
+    },
+    {
+      "term": "Alibaba Workplace AI",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-alibaba-wukong-jvs-claw"
+      ]
     }
   ]
 }
