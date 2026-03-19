@@ -1793,6 +1793,38 @@
       "slugs": [
         "2026-03-19-alibaba-wukong-jvs-claw"
       ]
+    },
+    {
+      "term": "GPT-5.4 Mini",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-gpt-5-4-mini-nano-release"
+      ]
+    },
+    {
+      "term": "GPT-5.4 Nano",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-gpt-5-4-mini-nano-release"
+      ]
+    },
+    {
+      "term": "OpenAI Efficiency Models",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-gpt-5-4-mini-nano-release"
+      ]
+    },
+    {
+      "term": "Multi-Agent AI Tiering",
+      "count": 1,
+      "last_published": "2026-03-19",
+      "slugs": [
+        "2026-03-19-gpt-5-4-mini-nano-release"
+      ]
     }
   ]
 }
