@@ -1,47 +1,40 @@
 ---
-title: "RAND Study: Student AI Homework Use Jumps to 62%, Concerns About Critical Thinking Grow"
-date: "2026-03-20 08:10"
+title: "More Students Use AI for Homework — and Worry It Harms Critical Thinking"
+date: "2026-03-20 08:06"
 categories:
   - AI Ethics & Society
   - Education
 ---
 
-Student use of artificial intelligence (AI) for homework increased significantly in 2025, even as more students are worried the technology may be harming their ability to think critically, according to a new RAND Corporation report.
+Student use of AI for homework increased in 2025, even as more students are worried the technology may be harming their ability to think critically, according to a new RAND report.
+
+## The Numbers
+
+Based on results from a nationally representative survey of 1,214 American youth between ages 12 and 29:
+
+- **The share of students using AI for homework increased from 48% in May 2025 to 62% in December 2025**
+- **67% of students now endorse the statement "The more students use AI for their schoolwork, the more it will harm their critical thinking skills"** — up more than 10 percentage points from ten months earlier
+- **60% of students who use AI expressed concern** about using AI for school-related purposes
 
 ## Key Findings
 
-Based on results from a survey of 1,214 American youth between the ages of 12 and 29, the study reveals:
+Use among middle and high schoolers drove the overall increase. With the exception of using AI to get answers for homework, most students did not feel that their use of AI for other school-related purposes constituted cheating.
 
-- **The share of students using AI for homework increased from 48% in May 2025 to 62% in December 2025.** Use among middle and high schoolers drove the overall increase.
-
-- **67% of students now endorse the statement "The more students use AI for their schoolwork, the more it will harm their critical thinking skills"** — up more than 10 percentage points from ten months earlier.
-
-- **60% of students who use AI also expressed concern** about using AI for school-related purposes.
-
-## Student Perceptions
-
-With the exception of using AI to get answers for homework, most students did not feel that their use of AI for other school-related purposes constituted cheating. Students in higher grade levels were more likely than students in lower grade levels to:
-
+Students in higher grade levels were more likely than students in lower grade levels to:
 1. Say that their schools' rules for AI use depended on the specific teacher
 2. Believe that their teachers were checking students' homework for AI use
 3. Worry about being accused of using AI to cheat
 
 More female than male students believed that AI use harms their critical thinking skills and thought that their teachers were checking homework for AI use.
 
-## Recommendations
+## RAND's Recommendations
 
-The authors recommend ways for schools to help ensure students' AI use enhances their learning process:
+The researchers recommend that schools:
+- Have direct conversations with students about their perceptions of AI use
+- Elicit students' suggestions for ways to most and least productively use AI for homework help
+- Adopt the flipped classroom model, where students first encounter content at home (AI-assisted or not) then do independent practice during teacher-led class time that is AI-free
+- Explicitly tell students when and for which purposes they may use AI
 
-1. **Have direct conversations** with students about their perceptions of AI use and how it might assist or hamper critical thinking development
+## The Bigger Picture
 
-2. **Elicit student suggestions** for ways to most and least productively use AI for homework help
-
-3. **Identify use cases** in which AI use primarily leads to cognitive offloading versus cognitive augmentation
-
-4. **Adopt the flipped classroom model**, where students are first exposed to new content at home (AI-assisted or not) and then do independent or group practice during teacher-led class time that is AI-free
-
-5. **Be explicit** about when and for which purposes students may use AI and when they cannot
-
-## The Bottom Line
-
-That most students who use AI worry about its impacts should be a call to action for educators. Clarity and schoolwide consistency in what is allowed could help alleviate students' worry that using AI will harm their critical thinking skills.
+The fact that most students who use AI worry about its impacts should be a call to action for educators. Schools need clarity and schoolwide consistency in what is allowed — especially for homework — to help alleviate students' worry that using AI will harm their critical thinking skills.
