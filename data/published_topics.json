@@ -1825,6 +1825,38 @@
       "slugs": [
         "2026-03-19-gpt-5-4-mini-nano-release"
       ]
+    },
+    {
+      "term": "OpenAI Astral Acquisition",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-openai-astral-codex"
+      ]
+    },
+    {
+      "term": "Astral uv Ruff ty",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-openai-astral-codex"
+      ]
+    },
+    {
+      "term": "Python Tooling War",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-openai-astral-codex"
+      ]
+    },
+    {
+      "term": "OpenAI Codex",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-openai-astral-codex"
+      ]
     }
   ]
 }
