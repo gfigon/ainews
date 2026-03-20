@@ -1,0 +1,38 @@
+---
+title: "AI Assistants Now Equal 56% of Global Search Engine Volume: Study"
+date: "2026-03-20 08:00"
+categories:
+  - AI Industry & Business
+  - Search & Discovery
+---
+
+AI tools now generate 45 billion monthly sessions worldwide — about 56% of search engine volume, according to a study by Graphite.io CEO Ethan Smith. This marks a significant shift in how users discover information online.
+
+## The Scale of AI Discovery
+
+The analysis combines web traffic and mobile app usage across major AI tools and estimates AI activity equals 56% of global search usage and 34% in the U.S. Much of this growth is occurring in mobile apps such as ChatGPT, Gemini, Perplexity, Grok, and Claude.
+
+Key findings from the report:
+
+- **AI platforms generate 45 billion monthly sessions worldwide**
+- **In the U.S., AI accounts for 5.4 billion monthly sessions**
+- **83% of global AI usage occurs inside mobile apps** (75% in the U.S.)
+- **ChatGPT dominates AI usage, representing 89% of global AI sessions**
+
+## Search-Like Prompts
+
+When isolating search-like prompts ("asking"), AI usage equals 28% of search worldwide and 17% in the U.S. The report excludes prompts categorized as "doing" or "expressing." According to OpenAI research, about 52% of prompts are information-seeking — the closest equivalent to traditional search queries.
+
+## Methodology and Critique
+
+Most projections comparing AI to search use web traffic alone, typically comparing Google.com visits with ChatGPT website traffic. This analysis argues these comparisons underestimate AI activity by 4–5x because most usage occurs in mobile apps.
+
+Rand Fishkin, co-founder of SparkToro, posted a rebuttal questioning the methodology in a LinkedIn post, noting that ChatGPT represents only about 3% of desktop web search.
+
+## Google's Declining Share
+
+Google still dominates discovery, but its share of search-related activity fell from 89% in 2023 to 71% in Q4 2025, the report estimates. Global AI usage appears to have plateaued since July 2025, while U.S. usage continues to grow rapidly — up roughly 300% year over year by December 2025.
+
+## What This Means for Marketers
+
+AI is expanding discovery, not shrinking search demand. Total usage across search engines and AI assistants has grown 26% globally since 2023. In other words, it's not SEO vs. GEO — you need both traditional rankings and LLM visibility to reach audiences effectively.

@@ -1,0 +1,35 @@
+---
+title: "FANUC Accelerates Physical AI in Industrial Robotics with NVIDIA"
+date: "2026-03-20 08:05"
+categories:
+  - Robotics & Automation
+  - AI Hardware
+---
+
+FANUC, the world's leading supplier of industrial robots and factory automation systems, is collaborating with NVIDIA to advance physical AI — a new paradigm that merges artificial intelligence with physical robotics to enable machines that see, reason, and act in dynamic environments.
+
+## The Collaboration
+
+Under this collaboration, FANUC will leverage NVIDIA AI infrastructure, including NVIDIA Jetson edge modules, cloud/edge AI infrastructure, NVIDIA Isaac Sim open robotic simulation framework, and NVIDIA Omniverse libraries, within its extensive robot portfolio and ROBOGUIDE simulation software.
+
+## Key Capabilities
+
+**Digital Twin Integration**: Integrating FANUC's robot simulation software ROBOGUIDE with NVIDIA Isaac Sim and NVIDIA Omniverse allows manufacturers to simulate entire production lines with high fidelity, validate workflows, and optimize performance before hardware deployment, reducing commissioning time and cost.
+
+**Open Platform Commitment**: FANUC has released an official ROS 2 driver and supports Python as standard across its robots — with payloads ranging from 3 kg to 2.3 tons — enabling developers to build AI-driven applications with ease.
+
+**Ultra-High-Speed Streaming Motion**: Enables precise, responsive control of robot joints and end-effectors for smooth trajectories and dynamic path adjustments.
+
+**Real-Time Intelligence**: Combining FANUC's proven reliability with NVIDIA Jetson and AI-accelerated computing enables robots to adapt to variability, execute complex tasks, and deliver higher throughput in industries such as automotive, logistics, and food processing.
+
+## Voice-Controlled Robotics
+
+In addition to advancing simulation and deployment, FANUC is also expanding how operators interact with automation. FANUC is applying NVIDIA AI to enable robots to interpret voice commands and automatically generate Python code — allowing operators to give verbal instructions, reduce setup time, empower more employees to adjust processes without specialized programming skills, and support rapid reconfiguration of production workflows.
+
+## Industry Impact
+
+"Physical AI is the next frontier in industrial automation," said Mike Cicco, President and CEO, FANUC America. "By collaborating with NVIDIA, we're giving manufacturers the tools to deploy intelligent robotics faster and align virtual design with real-world production."
+
+"Manufacturers are increasingly seeking physical AI solutions that bridge the gap between virtual simulation and real-world production to overcome labor shortages and increase operational efficiency," said Murali Gopalakrishna, general manager of robotics at NVIDIA.
+
+These capabilities give manufacturers new ways to overcome skilled labor shortages and meet rising demands for customization and efficiency.
