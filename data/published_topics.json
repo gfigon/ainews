@@ -1857,6 +1857,22 @@
       "slugs": [
         "2026-03-20-openai-astral-codex"
       ]
+    },
+    {
+      "term": "Anthropic 81K AI Desires Study",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-anthropic-81k-ai-desires"
+      ]
+    },
+    {
+      "term": "Global AI Hopes and Fears",
+      "count": 1,
+      "last_published": "2026-03-20",
+      "slugs": [
+        "2026-03-20-anthropic-81k-ai-desires"
+      ]
     }
   ]
 }

@@ -1,0 +1,49 @@
+---
+title: "What 81,000 People Want From AI: Anthropic's Largest-Ever Study Reveals Global Hopes and Fears"
+date: "2026-03-20 10:15"
+categories:
+  - Research Highlights
+  - Ethics & Regulation
+---
+
+Anthropic has released findings from the largest and most multilingual qualitative study on AI preferences ever conducted, gathering insights from 80,508 participants across 159 countries and 70 languages. The study, conducted over one week in December 2025 using a customized version of Claude Interviewer, reveals what people genuinely want from AI—and what they fear might go wrong.
+
+## A Groundbreaking Research Methodology
+
+Rather than relying on traditional surveys with fixed response options, Anthropic deployed "Anthropic Interviewer"—a version of Claude prompted to conduct conversational interviews. This approach allowed researchers to collect rich, open-ended responses at unprecedented scale while adapting follow-up questions based on individual responses.
+
+Claude-powered classifiers then categorized each conversation across multiple dimensions: what people want from AI, whether they're getting it, what they fear, their profession (if mentioned), and overall sentiment about AI. The result is a nuanced picture that goes well beyond the typical tech industry narratives about AI risks and benefits.
+
+## What People Actually Want from AI
+
+The study identified clear patterns in how people around the world view AI's role in their lives:
+
+**Professional Excellence (18.8%)** emerged as the top desire. Respondents want AI to handle routine tasks so they can focus on higher-value strategic work, complex problem-solving, and professional mastery. One healthcare worker from the United States described how AI lifted "the pressure of documentation" from their daily workload, enabling more patience and meaningful interaction with patients.
+
+**Personal Transformation (13.7%)** ranked second, with people seeking AI as a guide, coach, or support for self-understanding, behavior change, therapeutic support, companionship, and improvements in physical or mental health. Notably, some respondents reported that AI actually helped model emotional intelligence they then applied in human relationships.
+
+**Learning and Education (12.9%)** featured prominently, with people seeing AI as a pathway to knowledge, skill development, and academic achievement—particularly valuable for those lacking access to traditional educational resources.
+
+**Creativity and Inspiration (10.8%)** represented another significant category, with users wanting AI to help them generate ideas, overcome creative blocks, and explore artistic expression.
+
+## The Concerns: What Keeps People Up at Night
+
+The study also revealed substantial fears about AI adoption:
+
+**AI Unreliability** emerged as a central concern—people worry about AI making mistakes, providing incorrect information, or being confidently wrong in ways that are hard to detect.
+
+**Job Displacement** featured prominently, with many fearing AI could automate away their livelihoods without adequate societal response.
+
+**Loss of Human Connection** appeared as a recurring theme—some worry that over-reliance on AI might diminish genuine human interaction and relationships.
+
+**Privacy and Surveillance** concerned others, particularly in countries with more restrictive political environments.
+
+Perhaps most striking was the dual nature of AI experience: many respondents described AI simultaneously as a productivity tool and a potential source of dependency—enhancing and complicating life in equal measure.
+
+## Implications for AI Development
+
+These findings suggest that the public conversation about AI—which often focuses on abstract projections about existential risks—may be missing the mark. People already using AI have developed concrete, practical hopes centered on professional and personal improvement. They want AI to amplify their capabilities, not replace them.
+
+For AI companies, the message is clear: the path to "AI going well" likely runs through tools that genuinely help people do their jobs better and live fuller lives, rather than through grand promises of transformation that may feel threatening rather than empowering.
+
+The full study, including a Quote Wall with direct voices from participants, is available on Anthropic's website.
