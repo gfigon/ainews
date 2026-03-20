@@ -1,0 +1,32 @@
+---
+title: "Anthropic Commits $100M to Claude Partner Network for Enterprise AI"
+date: "2026-03-20 08:45"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+---
+
+Anthropic has announced a $100 million investment in its newly launched Claude Partner Network, a program designed to accelerate enterprise adoption of its Claude AI model. The initiative, unveiled on March 12, 2026, formalizes the company's growing web of consulting and professional services relationships while providing partners with training, technical support, and joint market development opportunities.
+
+## Building a Partner Ecosystem
+
+The Claude Partner Network represents Anthropic's most significant commitment to date in building a robust partner ecosystem. Key features include:
+
+- **Training and Certification**: Partners gain access to Anthropic Academy materials, sales playbooks, and the new Claude Certified Architect technical exam—currently available for solution architects building production applications with Claude
+- **Dedicated Technical Support**: Anthropic is scaling its partner-facing team fivefold, providing Applied AI engineers for live customer deals, technical architects for complex implementations, and localized go-to-market support
+- **Market Development Funding**: A significant portion of the $100 million will go directly to partners as support for training, sales enablement, and co-marketing campaigns
+- **Services Partner Directory**: Qualified partners will be listed in a directory where enterprise buyers can find firms with Claude implementation experience
+
+## Major Consulting Firms On Board
+
+The program has already attracted major global consulting firms including Accenture, Deloitte, and Cognizant. Accenture alone is training 30,000 professionals on Claude to meet enterprise demand. The company has also opened Claude access across its global workforce of approximately 350,000 associates, embedding it into how they help clients modernize and transform their operations.
+
+## Code Modernization Starter Kit
+
+Anthropic is also launching a Code Modernization starter kit, providing partners with a straightforward starting point for migrating legacy codebases and remediating enterprises' technical debt. This addresses one of the highest-demand enterprise workloads where Claude's agentic coding capabilities can directly translate into measurable client outcomes.
+
+## Strategic Positioning
+
+The timing of this announcement is significant. Microsoft recently announced Copilot Cowork powered by Anthropic's Claude for M365 users, and the Claude Partner Network positions Anthropic to compete more aggressively in the enterprise AI market. By enlisting major consulting firms as channel partners, Anthropic aims to make Claude the default AI platform for global enterprises—directly challenging OpenAI's enterprise dominance.
+
+The partner network is free to join, with applications now open at claude.com/partners.
