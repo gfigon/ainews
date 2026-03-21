@@ -1,0 +1,39 @@
+---
+title: "White House Unveils National AI Legislative Framework to Preempt State Regulations"
+date: "2026-03-21 08:45"
+description: "The Trump administration released a comprehensive AI policy blueprint calling for federal preemption of state laws, liability shields for AI developers, and new protections for children."
+categories:
+  - AI Policy
+  - Regulation
+  - United States
+---
+
+The White House released a new framework for national AI legislation on Friday, March 20, 2026, marking the most significant federal attempt to establish unified AI regulations since the technology's rapid proliferation began. The legislative proposal emphasizes the need for Congress to create a single, national approach to artificial intelligence rather than allowing states to develop what the administration calls a "patchwork" of conflicting rules.
+
+## Key Provisions of the Framework
+
+The framework is organized into seven main areas, covering everything from child protection to workforce development. Among the most notable proposals are requirements for AI platforms to verify user age while maintaining privacy protections, particularly aimed at preventing minors from being exposed to sexual exploitation or self-harm content.
+
+The document also calls for fighting AI-enabled scams and establishing new standards for intellectual property rights protection. Perhaps most significantly for the tech industry, the framework strongly supports limiting liability for AI developers—a position that aligns with concerns from leading Silicon Valley investors who argue that "open-ended liability" could stifle innovation and deter investment.
+
+## Federal Preemption of State Laws
+
+A central theme of the framework is the restriction of states' ability to enact their own AI regulations. The proposal argues that states should only retain power to prosecute issues falling under traditional state jurisdiction, such as fraud prevention and consumer protection. This approach directly conflicts with existing state laws like California's SB 53 and New York's RAISE Act, which require leading AI companies to establish whistleblower protections and disclose safety testing procedures.
+
+The administration's push has already encountered resistance. More than 50 Republican lawmakers signed a letter to President Trump in early March, stating that "recent attempts to halt state AI legislation suggest not merely a desire for coordination, but an effort to prevent the passage of measures holding the tech industry accountable."
+
+## Liability Shields and Innovation Debate
+
+The framework's liability provisions have drawn particular scrutiny. By limiting developer responsibility for harms caused by AI systems, the administration aims to reduce what it describes as "excessive litigation" related to child safety. This stance echoes arguments from Venture Capitalist David Sacks, the White House's AI czar, who has advocated for restricting legal exposure to protect American AI competitiveness.
+
+However, this position puts the administration at odds with both progressive activists and some conservative lawmakers who have championed state-level AI safety measures. The tension was highlighted by recent bipartisan concerns about data center expansion and its impact on residential electricity rates—a issue the framework attempts to address by calling on Congress to ensure utility costs don't rise due to new data center construction.
+
+## Anti-Censorship and Military AI
+
+The framework also includes provisions against AI-related censorship, advocating that the federal government should not "coerce technology providers" to alter content based on "partisan or ideological agendas." This messaging follows the administration's recent decision to cut off Anthropic from government contracts, citing concerns about the company being "woke" and misaligned with government priorities. Anthropic is currently suing the federal government over what it claims is a First Amendment violation.
+
+The policy also comes amid ongoing military AI integration, including the Pentagon's recent announcement to incorporate Grok AI despite controversies surrounding the tool's image generation capabilities.
+
+## What's Next
+
+The administration has indicated it will work with Congress over the coming months to transform this framework into signable legislation. Whether lawmakers will adopt the proposed liability shields and preemption provisions remains uncertain, given the strong bipartisan interest in maintaining state-level AI safety oversight.
