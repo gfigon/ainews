@@ -1,0 +1,34 @@
+---
+title: "Super Micro Computer Cofounder Charged in $2.5B AI Chip Smuggling Scheme"
+date: "2026-03-21 08:00"
+author: "AI News Team"
+categories: ["Industry News", "Security"]
+tags: ["Super Micro Computer", "AI chips", "smuggling", "China", "export controls", "Nvidia"]
+summary: "Three individuals associated with AI server maker Super Micro Computer face charges for allegedly smuggling $2.5 billion worth of US AI technology to China, in one of the largest export control violations in recent memory."
+---
+
+The US Department of Justice has unveiled a major export control case, charging three individuals connected to AI server manufacturer Super Micro Computer with helping smuggle at least $2.5 billion worth of advanced US AI technology to China.
+
+## The Charges
+
+Yih-Shyan Liaw, Super Micro's co-founder, along with sales manager Ruei-Tsang Chang and contractor Ting-Wei Sun, face allegations of orchestrating a complex scheme to circumvent US export restrictions on advanced AI chips, which have been in place since 2022.
+
+The defendants allegedly used fabricated documents and staged bogus equipment to pass audit inventories. They even used hair dryers to remove labels and serial numbers from real machines and place them on dummy units left behind after the actual equipment was shipped to China.
+
+## The Scheme
+
+According to the FBI, the defendants routed servers through Taiwan to Southeast Asian countries, where they were transferred into unmarked boxes and sent onward to China. A pass-through company was used to conceal the true destination and clientele.
+
+US Attorney Jay Clayton stated that schemes like this "pose a direct threat to US national security." FBI Assistant Director James Barnacle noted the defendants went to "extensive measures" to conceal their activities from both the US manufacturers and export control officials.
+
+## Company Response
+
+Super Micro Computer, while not named as a defendant, confirmed it was informed of the indictment and stated it has cooperated with investigators. The company placed Liaw and Chang on leave and terminated its relationship with Sun upon learning of the charges.
+
+The company's shares fell 8% in after-hours trading following the announcement.
+
+## Industry Impact
+
+Nvidia, whose chips are among the most sought-after AI processors and likely involved in the alleged scheme, stated that "strict compliance" with export laws is a top priority. A spokesperson emphasized that Nvidia does not provide any service or support for systems diverted to China and that "enforcement mechanisms are rigorous and effective."
+
+This case represents one of the largest alleged export control violations in the AI chip sector, highlighting the ongoing challenges in preventing advanced technology from reaching China despite US restrictions.
