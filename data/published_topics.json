@@ -1977,6 +1977,30 @@
       "slugs": [
         "2026-03-22-openai-8000-workforce"
       ]
+    },
+    {
+      "term": "Mistral European AI Levy",
+      "count": 1,
+      "last_published": "2026-03-22",
+      "slugs": [
+        "2026-03-22-mistral-european-ai-levy"
+      ]
+    },
+    {
+      "term": "AI Creative Compensation",
+      "count": 1,
+      "last_published": "2026-03-22",
+      "slugs": [
+        "2026-03-22-mistral-european-ai-levy"
+      ]
+    },
+    {
+      "term": "European AI Regulation",
+      "count": 1,
+      "last_published": "2026-03-22",
+      "slugs": [
+        "2026-03-22-mistral-european-ai-levy"
+      ]
     }
   ]
 }
