@@ -1,0 +1,34 @@
+---
+title: "Trump Officials Unveil 10-Gigawatt AI Data Center at Former Ohio Uranium Site"
+date: "2026-03-22 10:15"
+description: "The U.S. Department of Energy announces a massive public-private partnership with SoftBank to build the world's largest AI data center on a decommissioned nuclear facility in Piketon, Ohio."
+author: "AI News Daily"
+categories: [Industry News, AI Infrastructure]
+tags: [AI data center, SoftBank, Department of Energy, Ohio, NVIDIA, Stargate]
+---
+
+The U.S. Department of Energy has announced a groundbreaking public-private partnership that will transform a decommissioned uranium enrichment plant in southern Ohio into one of the world's largest artificial intelligence data centers. The project, unveiled on March 20, 2026 in Piketon, Ohio, represents a massive bet on AI infrastructure as the United States seeks to maintain its competitive edge in the global AI race.
+
+## A Former Nuclear Site Gets a New Mission
+
+The Portsmouth Gaseous Diffusion Plant in Pike County, now being branded as the "PORTS Technology Campus," will host a 10-gigawatt data center alongside up to 10 gigawatts of new power generation capacity. The project is a collaboration between the Department of Energy, SoftBank Group, and American Electric Power (AEP) Ohio.
+
+Energy Secretary Chris Wright, Commerce Secretary Howard Lutnick, and Interior Secretary Doug Burgum traveled to Piketon for the announcement, joined by executives from SoftBank and its affiliate SB Energy. The project is part of the U.S.-Japan Strategic Trade and Investment Agreement announced by President Trump last year.
+
+## Powering the AI Revolution
+
+The project will include 9.2 gigawatts of natural gas generation alongside the data center operations. SoftBank, through SB Energy, is investing $4.2 billion in grid upgrades and new transmission lines. The initiative also includes $33.3 billion in Japanese funding tied to the natural gas component.
+
+"This project will add power generation, create jobs, and ensure the United States wins the AI race," said Energy Secretary Wright in a statement. Commerce Secretary Lutnick described it as part of a broader effort to "reindustrialize the country" through large-scale energy and infrastructure projects.
+
+## Stargate Connection
+
+SoftBank is collaborating with OpenAI and Oracle on Stargate, an AI infrastructure initiative with potential investments reaching $500 billion. The Ohio facility represents the Midwest component of this ambitious partnership, following through on plans announced last fall.
+
+Construction is expected to begin in 2026, with the project creating thousands of jobs. Officials say excess power capacity will be fed back into the regional grid to help lower electricity costs for consumers.
+
+## Growing Opposition
+
+The announcement comes amid growing resistance to data center development in Ohio. Just days before the DOE reveal, a group of rural Ohio residents filed a petition for a constitutional ban on mega data centers to appear on the statewide ballot. Ohio ranks fifth in the nation for data centers, with approximately 200 sites currently in operation.
+
+The project will also support research in fusion energy, quantum computing, and national security applications, according to DOE officials.
