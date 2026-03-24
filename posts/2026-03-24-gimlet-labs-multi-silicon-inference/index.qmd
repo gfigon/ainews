@@ -1,0 +1,41 @@
+---
+title: "Gimlet Labs Raises $80M to Build the Multi-Silicon Future of AI Inference"
+date: "2026-03-24 08:45"
+summary: "A stealth startup with eight-figure revenues emerges to challenge the GPU monopoly, promising 3-10X performance gains by splitting AI workloads across heterogeneous chip architectures."
+categories:
+  - AI Infrastructure
+  - Startups
+  - Chips & Hardware
+---
+
+The AI inference landscape is undergoing a quiet revolution. Gimlet Labs, an applied AI research and product company that emerged from stealth five months ago, announced an $80 million Series A round on March 23, 2026 — bringing its total funding to $92 million. The round was led by Menlo Ventures, with participation from Factory, Eclipse, Prosperity7, and Triatomic.
+
+## The Heterogeneity Problem
+
+The explosion of agentic AI workloads has exposed a critical bottleneck: homogeneous hardware infrastructure has hit a wall in latency and power efficiency. With inference now reaching quadrillions of tokens per month — and growing — the traditional one-size-fits-all GPU approach leaves massive inefficiencies in performance and utilization.
+
+"The speed of intelligence has become the critical bottleneck," said Zain Asgar, co-founder and CEO of Gimlet Labs. "To unlock the next 10-100X performance increases needed in use cases like coding agents, we've identified how to leverage heterogeneous hardware for faster, more efficient inference."
+
+## Gimlet Cloud: Multi-Silicon Orchestration
+
+Gimlet Labs has built what it claims is the industry's first and only multi-silicon inference cloud. Their proprietary software stack automatically maps agentic workloads to the most suitable chips — without developer burden. The system can even slice and execute a single model across different architectures, using the optimal chip for each portion of the model.
+
+The company reports that its technology delivers 3-10X faster speed for the same cost and power envelope, including for very large frontier models. Gimlet Labs runs its software on multi-silicon data centers with unique heterogeneous systems designs, and customers can also deploy the software to their own data centers.
+
+## Traction and Partnerships
+
+In just five months since emerging from stealth, Gimlet Labs has:
+
+- Achieved eight-figure revenues
+- Tripled its customer base
+- Added one of the top three frontier labs as a customer
+- Added one of the top three hyperscalers as a customer
+- Established partnerships with leading AI chip companies including NVIDIA, AMD, Intel, ARM, Cerebras, and d-Matrix
+
+The company plans to use the new funding to expand its team and rapidly scale its inference cloud to meet urgent demand from frontier labs.
+
+## Industry Convergence
+
+"Heterogeneity is inevitable," said Tim Tully, partner at Menlo Ventures. "Most infrastructure was built for a homogeneous world — and the industry is paying hundreds of billions in CapEx for it. Gimlet built the only infrastructure designed from the ground up to embrace heterogeneity, purpose-built for agentic AI at scale."
+
+With the industry gearing up to spend $650 billion in AI datacenter capital expenditure this year, the shift toward heterogeneous computing architectures appears to be accelerating. Gimlet Labs positions itself as the missing orchestration layer that could become foundational for AI at scale in the world's largest deployments.
