@@ -1,0 +1,37 @@
+---
+title: "Massachusetts Battles AI-Powered Political Attack Ads"
+date: "2026-03-24 10:15"
+author: "AI News Daily"
+categories: ["Ethics & Regulation"]
+tags: ["AI Politics", "Massachusetts", "Election Integrity", "Deepfakes"]
+summary: "Massachusetts lawmakers are racing to regulate AI-generated political content as campaign attack ads powered by artificial intelligence spread across the state, raising urgent questions about election integrity and democratic processes."
+---
+
+Artificial intelligence is quickly becoming a weapon in Massachusetts political campaigns, and legislators are struggling to keep pace. Recent examples of AI-generated content in political ads have revealed a disturbing trend: candidates are increasingly turning to synthetic media to attack their opponents, even as the legal framework to govern such practices remains largely absent.
+
+## The Rise of AI Political Attack Ads
+
+On March 11, Republican state representative Marc Lombardo posted a striking AI-generated attack ad on social media targeting his opponent, Daniel Darris-O'Connor, in the race for a Billerica House seat. The ad, styled as an old-timey mock newspaper article, depicted Darris-O'Connor in an exaggerated pose, joining hands with New York City Mayor Zohran Mamdani—a clear attempt to link the candidate to democratic socialist policies. Lombardo's campaign did not respond to requests for comment.
+
+This wasn't an isolated incident. In January, Republican gubernatorial candidate Brian Shortsleeve posted an ad featuring a synthesized version of Governor Maura Healey's voice, appearing to criticize her own record. The campaign did not disclose the use of AI, raising questions about whether such content should be labeled as parody or treated as deceptive political messaging.
+
+"If we don't stop it, I think this is going to be a part of campaigns and something, I believe, is out of bounds," Senator Barry Finegold, who cochairs the Legislature's emerging technologies committee, told the Boston Globe.
+
+## The Regulatory Gap
+
+Currently, the only Massachusetts law addressing AI in political contexts is MGL c. 265, § 43A, which prohibits using computer-generated images for the purpose of harassment—essentially "revenge porn" legislation. This leaves a massive gap in regulating synthetic media used for political manipulation.
+
+In February 2026, the Massachusetts House passed two bills aimed at filling this void:
+
+- **H.5093**, "An Act to Protect Against Election Misinformation," prohibits the distribution of "materially deceptive" AI-generated media within 90 days of an election.
+- **H.5094**, "An Act enhancing disclosure requirements for synthetic media in political advertising," would require clear AI disclosures in political campaigns.
+
+Both bills were referred to the Senate's Committee on Ways and Means in mid-February.
+
+## A National Pattern
+
+Massachusetts is not alone in grappling with AI's impact on elections. As the 2026 midterms approach, states across the country are confronting similar challenges. The technology to generate convincing synthetic audio, video, and images has outpaced the legal frameworks designed to rein in their misuse.
+
+What makes the Massachusetts cases particularly noteworthy is the direct targeting of specific candidates with fabricated content—moving beyond generic misinformation toward personalized political attacks that could sway tight races.
+
+The question now is whether the proposed legislation will move fast enough to make a difference before November's elections—or whether AI-powered political warfare will continue to evolve faster than regulators can respond.
