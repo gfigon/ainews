@@ -2113,13 +2113,22 @@
       "slugs": [
         "2026-03-24-massachusetts-ai-political-ads"
       ]
-{
+    },
+    {
       "count": 1,
       "last_published": "2026-03-25",
       "slugs": [
         "2026-03-25-anthropic-claude-mac-computer-use"
       ],
       "term": "Claude Computer Use"
+    },
+    {
+      "count": 1,
+      "last_published": "2026-03-25",
+      "slugs": [
+        "2026-03-25-apple-siri-ai-agent-overhaul"
+      ],
+      "term": "Apple Siri AI Agent Overhaul"
     }
   ]
 }
