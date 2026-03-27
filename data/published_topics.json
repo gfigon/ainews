@@ -2129,6 +2129,22 @@
         "2026-03-25-apple-siri-ai-agent-overhaul"
       ],
       "term": "Apple Siri AI Agent Overhaul"
+    },
+    {
+      "term": "Google Gemini Chat Import",
+      "count": 1,
+      "last_published": "2026-03-27",
+      "slugs": [
+        "2026-03-27-gemini-chat-import"
+      ]
+    },
+    {
+      "term": "Meta TRIBE v2 Brain Encoding",
+      "count": 1,
+      "last_published": "2026-03-27",
+      "slugs": [
+        "2026-03-27-meta-tribe-v2-brain-encoding"
+      ]
     }
   ]
 }

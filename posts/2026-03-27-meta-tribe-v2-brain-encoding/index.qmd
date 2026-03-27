@@ -1,0 +1,45 @@
+---
+title: "Meta TRIBE v2: A Brain Encoding Model That Reads Your Mind"
+date: "2026-03-27 08:45"
+author: "AI News Daily"
+categories: ["Research Highlights"]
+tags: ["Meta", "brain encoding", "fMRI", "neuroscience", "TRIBE v2", "multimodal"]
+summary: "Meta's FAIR team releases TRIBE v2, a tri-modal foundation model that predicts brain activity from video, audio, and text stimuli with unprecedented accuracy—paving the way for in-silico neuroscience."
+---
+
+Meta's FAIR team has unveiled **TRIBE v2**, a groundbreaking tri-modal foundation model designed to predict high-resolution fMRI responses across diverse naturalistic and experimental conditions. By aligning the latent representations of state-of-the-art AI architectures with human brain activity, TRIBE v2 represents a major leap forward in computational neuroscience.
+
+## How It Works
+
+TRIBE v2 doesn't learn to "see" or "hear" from scratch. Instead, it leverages representational alignment between deep neural networks and the primate brain through a three-component architecture:
+
+- **Text Encoder**: Uses LLaMA 3.2-3B to extract contextualized embeddings, processing 1,024 preceding words for temporal context
+- **Video Encoder**: Employs V-JEPA2-Giant to process 64-frame segments spanning 4 seconds
+- **Audio Encoder**: Uses Wav2Vec-BERT 2.0 for audio representation
+
+These embeddings are fed into a **temporal transformer** that exchanges information across a 100-second window, then passed through a **subject-specific prediction block** that projects latent representations to 20,484 cortical vertices and 8,802 subcortical voxels.
+
+## Key Capabilities
+
+### Zero-Shot Generalization
+
+Perhaps the most striking capability is TRIBE v2's ability to generalize to unseen subjects. Using an "unseen subject" layer, the model can predict the group-averaged response of a new cohort more accurately than the actual recording of many individual subjects. On the Human Connectome Project 7T dataset, TRIBE v2 achieved a group correlation near 0.4—a two-fold improvement over the median subject's group-predictivity.
+
+### Log-Linear Scaling
+
+The research team observed a **log-linear increase in encoding accuracy** as training data volume increased, with no evidence of a plateau. This suggests that as neuroimaging repositories expand, the predictive power of models like TRIBE v2 will continue to scale—much like language models.
+
+### In-Silico Experimentation
+
+TRIBE v2 enables researchers to run virtual experiments on neuroimaging datasets. The model successfully recovered classic functional landmarks including:
+- **Fusiform Face Area (FFA)** and **Parahippocampal Place Area (PPA)** for vision
+- **Broca's area** for language processing
+- **Temporo-Parietal Junction (TPJ)** for emotional processing
+
+## The Bigger Picture
+
+This research marks the dawn of **in-silico neuroscience**—the ability to conduct neuroscientific experiments purely through digital simulation. Even though TRIBE v2 is a deep learning "black box," its internal representations naturally organized themselves into five well-known functional networks: primary auditory, language, motion, default mode, and visual.
+
+The model was trained on 451.6 hours of fMRI data from 25 subjects and evaluated across 1,117.7 hours from 720 subjects.
+
+**Resources**: [Code](https://github.com/facebookresearch/tribev2) | [Weights](https://huggingface.co/facebook/tribev2) | [Demo](https://aidemos.atmeta.com/tribev2)
