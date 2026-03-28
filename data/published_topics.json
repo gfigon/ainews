@@ -2169,6 +2169,30 @@
       "slugs": [
         "2026-03-28-softbank-40b-openai"
       ]
+    },
+    {
+      "term": "Claude Mythos",
+      "count": 1,
+      "last_published": "2026-03-28",
+      "slugs": [
+        "2026-03-28-anthropic-mythos-leak"
+      ]
+    },
+    {
+      "term": "Anthropic Capybara",
+      "count": 1,
+      "last_published": "2026-03-28",
+      "slugs": [
+        "2026-03-28-anthropic-mythos-leak"
+      ]
+    },
+    {
+      "term": "Anthropic Data Leak",
+      "count": 1,
+      "last_published": "2026-03-28",
+      "slugs": [
+        "2026-03-28-anthropic-mythos-leak"
+      ]
     }
   ]
 }

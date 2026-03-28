@@ -1,0 +1,41 @@
+---
+title: "Anthropic's Secret Model Leak: What We Know About Claude Mythos"
+date: "2026-03-28 10:15"
+description: "A data leak exposed Anthropic's next-generation AI model, Claude Mythos, revealing dramatic performance leaps and unprecedented cybersecurity concerns."
+author: "AI News Daily"
+categories:
+  - Research Highlights
+  - AI Security & Safety
+tags:
+  - Anthropic
+  - Claude Mythos
+  - AI model leak
+  - cybersecurity
+  - frontier models
+---
+
+Anthropic accidentally revealed its most powerful AI model yet through a data leak on March 26th, exposing details about a new model called Claude Mythos (also referred to as "Capybara" in internal documents). The leak has sparked intense interest in the AI community and raised fresh questions about the safety of advanced AI systems.
+
+## What the Leak Revealed
+
+The exposed documents included draft blog posts stored in an unsecured data cache, revealing that Anthropic has been testing a model that represents "a step change" in AI performance. According to the leaked materials, Claude Mythos achieves "dramatically higher scores on tests of software coding, academic reasoning, and cybersecurity" compared to Claude Opus 4.6.
+
+The documents describe the model as "by far the most powerful AI model we've ever developed" and indicate that it is currently being trialed by early access customers. Notably, Anthropic appears to be especially concerned about the cybersecurity implications of releasing such a powerful model.
+
+## Unprecedented Cybersecurity Risks
+
+The leaked blog post outlines significant concerns about the model's capabilities. Anthropic stated in the draft that the model is "currently far ahead of any other AI model in cyber capabilities" and that it "presages an upcoming wave of models that can exploit vulnerabilities in ways that far outpace the efforts of defenders."
+
+This echoes concerns raised by OpenAI when releasing GPT-5.3-Codex in February, which was the first model classified as "high capability" for cybersecurity tasks under OpenAI's Preparedness Framework. The industry appears to be at a tipping point where frontier models pose genuinely novel cybersecurity threats.
+
+Anthropic's solution is to release the model first to cyber defender organizations, giving them "a head start in improving the robustness of their codebases against the impending wave of AI-driven exploits."
+
+## A New Tier Above Opus
+
+Perhaps most interesting is the hint at a new tiering system. The documents reveal that "Capybara" is being positioned as a new model tier—larger and more intelligent than the Opus line, which has been Anthropic's most powerful offering until now. This suggests a potential restructuring of how Anthropic brands its model hierarchy.
+
+## The Security Lapse
+
+The leak itself resulted from a "human error" in configuring Anthropic's content management system, leaving approximately 3,000 unpublished assets publicly accessible. After being notified by Fortune, Anthropic removed public access to the data store. The incident underscores the challenges AI companies face in securing sensitive internal documents as they race to develop increasingly powerful models.
+
+What remains clear is that the AI industry is entering a new phase where frontier models are pushing into territory that requires unprecedented caution—even from the companies building them.
