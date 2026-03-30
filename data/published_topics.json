@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Stanford AI Sycophancy Study",
+      "count": 1,
+      "last_published": "2026-03-30",
+      "slugs": [
+        "2026-03-30-stanford-ai-sycophancy"
+      ]
+    },
+    {
       "term": "Google Texas Anthropic Data Center",
       "count": 1,
       "last_published": "2026-03-30",
