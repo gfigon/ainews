@@ -1,0 +1,29 @@
+---
+title: "Google Pours $5B+ Into Texas Mega-Campus for Anthropic"
+date: "2026-03-30 08:00"
+summary: "Google is co-financing a 1,133-hectare AI data center in Texas for Anthropic, with initial capacity of 500 MW scaling to 7.7 GW — the latest move in the trillion-dollar AI infrastructure arms race."
+---
+
+The Financial Times broke the story on Friday: Google is set to co-finance, alongside a banking consortium, a data center campus in Texas purpose-built for Anthropic. The project, led by Nexus Data Centers and backed by publicly traded investment firm Eagle Point, will exceed **$5 billion** in its initial phase, with financial structuring expected by mid-2026.
+
+The numbers are staggering. The campus spans 1,133 hectares — roughly the size of a small city. By the end of 2026, the site is expected to deliver around **500 megawatts** of power, equivalent to the electricity consumption of nearly half a million American households. But that's just the first phase: the ultimate capacity targets **7.7 gigawatts**, a level that would rival some of the world's largest power plants.
+
+## Why Texas, and Why Gas Turbines?
+
+The choice of location is deliberate. The campus sits near major gas pipeline networks operated by Enterprise Products Partners, Energy Transfer, and Atmos Energy. On-site gas turbines provide the continuous, high-density power that training and running frontier AI models demands — something solar and wind simply cannot deliver at this scale, at least not yet.
+
+This reflects a broader reality in the AI infrastructure race: energy stability is no longer a secondary concern. It is the bottleneck.
+
+## The Strategic Chessboard
+
+For Google, this is not a charitable gesture. The company has already invested several billion dollars in Anthropic through Google Cloud. This Texas project extends that partnership into physical infrastructure — giving Google privileged access to Anthropic's frontier models while locking in a key player who might otherwise lean on Microsoft/OpenAI or Amazon.
+
+The pattern is clear across the industry. Microsoft has committed billions to OpenAI-specific compute. Amazon funds Anthropic via AWS. Meta is building its own custom silicon. Every major AI player is racing to own the physical layer — the data centers, the power supply, the cooling infrastructure — that will determine who can actually run the most capable models at scale.
+
+Anthropic also scored a legal win against the Pentagon around the same time, beating back an attempt to exclude it from federal contracts. The Texas campus deal adds another layer: a massive, stable compute base that makes Anthropic even more indispensable to its partners.
+
+## What It Means for the AI Race
+
+This is infrastructure-as-strategy. Google is not just funding a startup — it is building the physical foundation that will host the next generation of Claude models. The 7.7 GW target, if reached, would make this one of the single largest AI-dedicated facilities on Earth.
+
+In the short term, it gives Anthropic compute firepower that very few organizations can match. In the long term, it reshapes the dependency graph of the entire AI ecosystem. Whoever controls the power plant controls the frontier.
