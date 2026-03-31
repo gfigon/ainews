@@ -18,6 +18,6 @@ The most prudent move isn't to abandon Claude—which remains best-in-class for 
 The void left by Anthropic is already being filled by competitors. OpenAI announced a staggering $110 billion investment round led by Amazon, Nvidia, and SoftBank, alongside a new Pentagon deal. Elon Musk's xAI has also signed on to allow Grok in classified systems, having agreed to the "all lawful use" standard that Anthropic rejected.
 Meanwhile, Anthropic has stated its intention to fight the designation in court and has encouraged commercial customers to continue using its products—except for military work.
 ## Sources
-- [VentureBeat: Anthropic vs. The Pentagon](https://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do)
-- [Anthropic Statement on Department of War](https://www.anthropic.com/news/statement-department-of-war)
-- [White House Social Media Announcement](https://x.com/WhiteHouse/status/2027497719678255148)
+- [VentureBeat: Anthropic vs. The Pentagonhttps://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do){rel="nofollow"}
+- [Anthropic Statement on Department of Warhttps://www.anthropic.com/news/statement-department-of-war){rel="nofollow"}
+- [White House Social Media Announcementhttps://x.com/WhiteHouse/status/2027497719678255148){rel="nofollow"}

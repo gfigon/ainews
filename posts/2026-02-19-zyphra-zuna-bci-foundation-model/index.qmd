@@ -33,4 +33,4 @@ The model weights are released under an Apache 2.0 license, with an MNE-compatib
 ## The Bigger Picture
 ZUNA represents a pattern we're seeing across AI: foundation models eating their way through new data modalities. Just as language models generalized across text and vision models generalized across images, ZUNA brings that same generalization principle to neural signals.
 The implications extend beyond research. As consumer EEG devices proliferate—用于 health monitoring, meditation, and eventually thought-based computing—the ability to run sophisticated analysis on sparse, noisy data becomes critical. ZUNA is the first building block for that future.
-**Links**: [Paper](https://www.zyphra.com/zuna-technical-paper) | [Technical Details](https://www.zyphra.com/post/zuna) | [GitHub](https://github.com/Zyphra/zuna) | [Model Weights](https://huggingface.co/Zyphra/ZUNA)
+**Links**: [Paperhttps://www.zyphra.com/zuna-technical-paper){rel="nofollow"} | [Technical Detailshttps://www.zyphra.com/post/zuna){rel="nofollow"} | [GitHubhttps://github.com/Zyphra/zuna){rel="nofollow"} | [Model Weightshttps://huggingface.co/Zyphra/ZUNA){rel="nofollow"}

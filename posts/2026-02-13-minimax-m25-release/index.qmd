@@ -20,4 +20,4 @@ The most striking aspect of the M2.5 release is its economic disruption:
 ### Forge: The Engine Behind the Progress
 The rapid improvement cycle—M2, M2.1, and M2.5 released in just 3.5 months—is credited to **Forge**, MiniMax's proprietary agent-native RL framework. Forge decouples the training-inference engine from agent scaffolds, allowing for highly parallelized RL training that has reportedly sped up the training process by 40x.
 Within MiniMax itself, M2.5 is already autonomously completing **30% of overall company tasks**, with the model generating **80% of newly committed code**.
-Source: [MiniMax News](https://www.minimax.io/news/minimax-m25){rel="nofollow"}{rel="nofollow"}
+Source: [MiniMax Newshttps://www.minimax.io/news/minimax-m25){rel="nofollow"}{rel="nofollow"}

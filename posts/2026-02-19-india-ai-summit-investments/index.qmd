@@ -27,4 +27,4 @@ Google DeepMind CEO Demis Hassabis provided his most explicit statement yet on t
 A recurring theme throughout the summit was the push for democratic AI development. Sam Altman stated that "democratization of AI is the only safe path forward" and emphasized that "tools and wealth are not enough—we need to give them agency and power." Dario Amodei noted that while AI will benefit the Global South, the risks remain real and must be addressed proactively.
 ## What's Next
 The summit continues through February 21, with additional announcements expected on AI talent development, startup support, and international collaborations. With over $130 billion in combined commitments announced on day one, India's AI ambitions have never been clearer—and the world's tech giants are paying attention.
-**Links**: [Live Coverage - Mint](https://www.livemint.com/technology/ai-summit-delhi-2026-live-updates) | [India AI Summit Official](https://indiaai.gov.in)
+**Links**: [Live Coverage - Minthttps://www.livemint.com/technology/ai-summit-delhi-2026-live-updates){rel="nofollow"} | [India AI Summit Officialhttps://indiaai.gov.in){rel="nofollow"}

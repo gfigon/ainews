@@ -31,4 +31,4 @@ The implications of this research span multiple domains:
 While the research demonstrates remarkable accuracy, it also raises important ethical questions about the creation of AI systems that can convincingly mimic human psychological conditions. As AI becomes increasingly capable of replicating nuanced human characteristics, the need for responsible development practices and appropriate safeguards becomes more critical.
 The team validated their models using both human raters and AI annotators (Claude 3.5 Sonnet), showing consistent performance across different evaluation methods and AI architectures.
 ---
-*Source: [Nature - PsychAdapter: adapting LLMs to reflect traits, personality, and mental health](https://www.nature.com/articles/s44387-026-00071-9)*
+*Source: [Nature - PsychAdapter: adapting LLMs to reflect traits, personality, and mental healthhttps://www.nature.com/articles/s44387-026-00071-9){rel="nofollow"}*

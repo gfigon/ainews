@@ -33,6 +33,6 @@ Powered by Hermes-3 (based on Llama 3.1), the agent is fine-tuned with a special
 The implications are significant. We're moving from stateless chatbots that start fresh every conversation to persistent assistants that accumulate knowledge and expertise. Over time, Hermes Agent literally gets smarter about your specific workflows, preferences, and projects.
 For enterprise teams, this could mean AI assistants that truly understand your codebase, coding conventions, and project requirements—not as a one-off context dump, but as accumulated institutional knowledge that persists across team members and time.
 ## Sources
-- [Nous Research: Hermes Agent Technical Details](https://nousresearch.com/hermes-agent/)
-- [GitHub: Nous Research/hermes-agent](https://github.com/NousResearch/hermes-agent)
-- [MarkTechPost: Hermes Agent Release](https://www.marktechpost.com/2026/02/26/nous-research-releases-hermes-agent-to-fix-ai-forgetfulness-with-multi-level-memory-and-dedicated-remote-terminal-access-support/)
+- [Nous Research: Hermes Agent Technical Detailshttps://nousresearch.com/hermes-agent/){rel="nofollow"}
+- [GitHub: Nous Research/hermes-agenthttps://github.com/NousResearch/hermes-agent){rel="nofollow"}
+- [MarkTechPost: Hermes Agent Releasehttps://www.marktechpost.com/2026/02/26/nous-research-releases-hermes-agent-to-fix-ai-forgetfulness-with-multi-level-memory-and-dedicated-remote-terminal-access-support/){rel="nofollow"}

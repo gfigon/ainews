@@ -21,5 +21,5 @@ The V4 launch follows hot on the heels of controversy: just yesterday, Anthropic
 ## GPT-5.3 "Garlic" Also Looming
 Meanwhile, OpenAI's GPT 5.3 (codenamed "Garlic") is also expected soon, projected to surpass 83.7% on the SimpleBench common-sense reasoning test. The AI landscape is heating up on multiple fronts.
 ## Sources
-- [Dataconomy: DeepSeek V4 Lite Surfaces With Breakthrough SVG Generation Skills](https://dataconomy.com/2026/02/23/deepseek-v4-lite-surfaces-with-breakthrough-svg-generation-skills/)
-- [CNBC: DeepSeek to release new AI model](https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html)
+- [Dataconomy: DeepSeek V4 Lite Surfaces With Breakthrough SVG Generation Skillshttps://dataconomy.com/2026/02/23/deepseek-v4-lite-surfaces-with-breakthrough-svg-generation-skills/){rel="nofollow"}
+- [CNBC: DeepSeek to release new AI modelhttps://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html){rel="nofollow"}

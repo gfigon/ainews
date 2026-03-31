@@ -23,6 +23,6 @@ The company also disclosed its next-generation SN50 accelerator, which SoftBank 
 The $1.1 billion in single-day funding underscores investor confidence in AI infrastructure alternatives. Despite growing concerns about an AI bubble—with Big Tech set to invest approximately $650 billion in AI in 2026 according to Bridgewater—venture capital continues flowing into hardware startups promising to break Nvidia's grip on the market.
 As AI inference scales and agentic AI applications grow, startups are positioning themselves to capture market share from the incumbent. The question remains whether any of these challengers can deliver on their ambitious performance claims.
 ## Sources
-- [The Register: AI chip startups soak up $1.1B in VC funding](https://www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/)
-- [MatX Series B Announcement](https://matx.com/research/series_b)
-- [Axelera Funding Announcement](https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth)
+- [The Register: AI chip startups soak up $1.1B in VC fundinghttps://www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/){rel="nofollow"}
+- [MatX Series B Announcementhttps://matx.com/research/series_b){rel="nofollow"}
+- [Axelera Funding Announcementhttps://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth){rel="nofollow"}

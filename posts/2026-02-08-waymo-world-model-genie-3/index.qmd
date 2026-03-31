@@ -26,4 +26,4 @@ WWM provides high-level control through three distinct mechanisms:
 ### Democratizing Simulation
 Perhaps most impressively, the Waymo World Model can transform standard 2D smartphone or dashcam footage into interactive, multimodal simulations. This allows Waymo to expand its testing grounds into any location where consumer video exists, without requiring the physical presence of a Lidar-equipped fleet.
 By reducing the compute cost for long-horizon rollouts and increasing the diversity of scenarios, Waymo is setting a new standard for how generative AI can solve the most difficult problems in physical robotics.
-[Waymo Blog Post](https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/){rel="nofollow"}{rel="nofollow"}
+[Waymo Blog Posthttps://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/){rel="nofollow"}{rel="nofollow"}

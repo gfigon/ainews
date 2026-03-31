@@ -37,4 +37,4 @@ The ~630-line constraint ensures the entire codebase fits within modern LLM cont
 
 This approach moves the developer's role from manual hyperparameter tuning to agent engineering, where the goal is optimizing the prompts that direct the AI to find the most efficient neural architectures and training settings.
 
-**Sources**: [Karpathy/autoresearch GitHub](https://github.com/karpathy/autoresearch), [MarkTechPost](https://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/)
+**Sources**: [Karpathy/autoresearch GitHubhttps://github.com/karpathy/autoresearch){rel="nofollow"}, [MarkTechPosthttps://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/){rel="nofollow"}

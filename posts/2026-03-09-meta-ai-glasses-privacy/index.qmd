@@ -43,4 +43,4 @@ This incident highlights a broader reality for consumers: AI devices often colle
 
 For buyers, the incident raises important questions about the trade-off between convenience and privacy. As regulatory scrutiny intensifies, manufacturers may need to adopt stronger on-device processing or stricter opt-in requirements to avoid contractor review.
 
-**Sources**: [Fox News](https://www.foxnews.com/tech/meta-smart-glasses-privacy-concerns-grow), [Glass Almanac](https://glassalmanac.com/ray%E2%80%91ban-meta-glasses-draw-u-k-probe-7m-sold-by-2025-why-it-matters-now/), [TechCrunch](https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/)
+**Sources**: [Fox Newshttps://www.foxnews.com/tech/meta-smart-glasses-privacy-concerns-grow){rel="nofollow"}, [Glass Almanachttps://glassalmanac.com/ray%E2%80%91ban-meta-glasses-draw-u-k-probe-7m-sold-by-2025-why-it-matters-now/){rel="nofollow"}, [TechCrunchhttps://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/){rel="nofollow"}

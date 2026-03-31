@@ -30,4 +30,4 @@ Despite these tensions, Ireland has proceeded with the investigation—the DPC h
 The Grok investigation signals that the EU is taking a increasingly aggressive stance on AI safety. For AI companies operating in Europe, the message is clear: generative AI tools that can create non-consensual intimate images will face serious regulatory consequences.
 This case could set an important precedent for how AI developers worldwide approach content generation safeguards and data protection in AI training.
 ---
-*Source: [DW](https://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610){rel="nofollow"}, [Reuters](https://www.reuters.com/technology/){rel="nofollow"}, [AI Forensics](https://www.aiforporensics.org){rel="nofollow"}*
+*Source: [DWhttps://www.dw.com/en/ireland-launches-data-protection-probe-into-groks-deepfakes/a-75997610){rel="nofollow"}, [Reutershttps://www.reuters.com/technology/){rel="nofollow"}, [AI Forensicshttps://www.aiforporensics.org){rel="nofollow"}*

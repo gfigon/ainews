@@ -17,6 +17,6 @@ This approach addresses one of the biggest limitations of current AI assistants:
 The launch positions Microsoft firmly in the agentic AI race, competing directly with offerings from OpenAI, Anthropic, and other rivals. For enterprise customers, Copilot Tasks could automate routine workflows that currently require significant human oversight—meeting scheduling, document routing, data aggregation, and more.
 Copilot Tasks entered a limited research preview on February 26, 2026, with a public waitlist now available. Microsoft has not yet announced pricing or general availability timeline.
 ## Sources
-- [Microsoft Copilot Blog: Copilot Tasks - From Answers to Actions](https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/)
-- [Windows Central: Microsoft launches Copilot Tasks](https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-just-launched-a-to-do-list-tool-that-completes-itself-using-ai-introduces-copilot-tasks)
-- [Windows Report: Copilot Tasks](https://windowsreport.com/microsoft-introduces-copilot-tasks-to-turn-ai-into-an-autonomous-digital-worker/)
+- [Microsoft Copilot Blog: Copilot Tasks - From Answers to Actionshttps://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/){rel="nofollow"}
+- [Windows Central: Microsoft launches Copilot Taskshttps://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-just-launched-a-to-do-list-tool-that-completes-itself-using-ai-introduces-copilot-tasks){rel="nofollow"}
+- [Windows Report: Copilot Taskshttps://windowsreport.com/microsoft-introduces-copilot-tasks-to-turn-ai-into-an-autonomous-digital-worker/){rel="nofollow"}

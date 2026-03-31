@@ -7,7 +7,7 @@ categories:
   - Agents & Automation
 slug: "openai-acquires-openclaw"
 ---
-The chatbot era may have just received its obituary. **Peter Steinberger**, the creator of [OpenClaw](https://openclaw.ai/){rel="nofollow"} — the open-source AI agent that took the developer world by storm over the past month — announced over the weekend that [he is joining OpenAI](https://x.com/steipete/status/2023154018714100102){rel="nofollow"} to "work on bringing agents to everyone."
+The chatbot era may have just received its obituary. **Peter Steinberger**, the creator of [OpenClawhttps://openclaw.ai/){rel="nofollow"} — the open-source AI agent that took the developer world by storm over the past month — announced over the weekend that [he is joining OpenAIhttps://x.com/steipete/status/2023154018714100102){rel="nofollow"} to "work on bringing agents to everyone."
 The OpenClaw project itself will transition to an independent foundation, though OpenAI is already sponsoring it and may have influence over its direction.
 ## From Playground Project to the Hottest Acquisition in AI
 OpenClaw's path to OpenAI was anything but conventional. The project began life last year as "ClawdBot" — a nod to Anthropic's Claude model that many developers were using to power it. Released in November 2025, it was the work of Steinberger, a veteran software developer with 13 years of experience building and running a company, who pivoted to exploring AI agents as what he described as a "playground project."
@@ -17,7 +17,7 @@ The agent distinguished itself from previous attempts at autonomous AI — most 
 - **Skills** and easy integration with messaging platforms like Telegram, WhatsApp, and Discord
 The result was an agent that didn't just think, but *acted*.
 In December 2025 and especially January and early February 2026, OpenClaw saw a rapid, "hockey stick" rate of adoption among AI "vibe coders" and developers impressed with its ability to complete tasks autonomously across applications and the entire PC environment.
-In his [blog post announcing the move](https://steipete.me/posts/2026/openclaw){rel="nofollow"} to OpenAI, Steinberger framed the decision in characteristically understated terms. He acknowledged the project could have become "a huge company" but said that wasn't what interested him. Instead, he wrote that his next mission is to **"build an agent that even my mum can use"** — a goal he believes requires access to frontier models and research that only a major lab can provide.
+In his [blog post announcing the movehttps://steipete.me/posts/2026/openclaw){rel="nofollow"} to OpenAI, Steinberger framed the decision in characteristically understated terms. He acknowledged the project could have become "a huge company" but said that wasn't what interested him. Instead, he wrote that his next mission is to **"build an agent that even my mum can use"** — a goal he believes requires access to frontier models and research that only a major lab can provide.
 Sam Altman confirmed the hire in a post stating that Steinberger would drive the next generation of personal agents at OpenAI.
 ## Anthropic's Missed Opportunity
 The acquisition also raises uncomfortable questions for Anthropic. OpenClaw was originally built to work on Claude and carried a name — ClawdBot — that nodded to the model.

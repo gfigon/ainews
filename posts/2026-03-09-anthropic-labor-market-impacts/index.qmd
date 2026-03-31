@@ -29,4 +29,4 @@ The gap between theoretical capability and observed usage represents a massive o
 
 The research suggests enterprise AI adoption is held back less by technical limitations and more by inertia institutional, risk aversion, and integration challenges.
 
-**Sources**: [Anthropic Research](https://www.anthropic.com/research/labor-market-impacts), [The Signal](https://thesignal.substack.com/p/openai-bites-back-claudes-memory)
+**Sources**: [Anthropic Researchhttps://www.anthropic.com/research/labor-market-impacts){rel="nofollow"}, [The Signalhttps://thesignal.substack.com/p/openai-bites-back-claudes-memory){rel="nofollow"}

@@ -28,6 +28,6 @@ This trend toward custom silicon reflects the enormous demand for AI computing p
 According to reports, Meta is also in talks with Google to potentially purchase TPUs directly for its own data centers as early as 2027. If finalized, this would represent an even more significant shift in Meta's AI infrastructure strategy.
 The coming months will reveal whether this deal marks the beginning of a broader realignment in AI chip procurement or remains an isolated case of strategic diversification.
 ## Sources
-- [The Information: Google Strikes Multibillion-Dollar AI Chip Deal With Meta](https://www.theinformation.com/articles/google-strikes-multibillion-dollar-ai-chip-deal-meta-sharpening-nvidia-rivalry)
-- [SiliconANGLE: Google and Meta reportedly strike new, multibillion-dollar AI chip deal](https://siliconangle.com/2026/02/26/google-meta-reportedly-strike-new-multibillion-dollar-ai-chip-deal/)
-- [TechRadar: Soaring demand for AI chips pushes Meta toward Google TPUs](https://www.techradar.com/pro/meta-and-google-could-be-about-to-sign-a-mega-ai-chip-deal-and-it-could-change-everything-in-the-tech-space)
+- [The Information: Google Strikes Multibillion-Dollar AI Chip Deal With Metahttps://www.theinformation.com/articles/google-strikes-multibillion-dollar-ai-chip-deal-meta-sharpening-nvidia-rivalry){rel="nofollow"}
+- [SiliconANGLE: Google and Meta reportedly strike new, multibillion-dollar AI chip dealhttps://siliconangle.com/2026/02/26/google-meta-reportedly-strike-new-multibillion-dollar-ai-chip-deal/){rel="nofollow"}
+- [TechRadar: Soaring demand for AI chips pushes Meta toward Google TPUshttps://www.techradar.com/pro/meta-and-google-could-be-about-to-sign-a-mega-ai-chip-deal-and-it-could-change-everything-in-the-tech-space){rel="nofollow"}

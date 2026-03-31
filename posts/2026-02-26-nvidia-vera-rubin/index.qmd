@@ -28,6 +28,6 @@ The timing is significant: AMD is set to ship its first rack-scale system Helios
 "You're going to see a lot of uptake because customers want more capacity, but they also want a viable second source to keep Nvidia honest," Klein explained.
 Nvidia plans to manufacture up to $500 billion of AI infrastructure in the U.S. through 2029, including producing Blackwell GPUs at TSMC's new Arizona fabs.
 ## Sources
-- [CNBC: First look at Nvidia's Vera Rubin](https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html)
-- [CNBC: Meta to use Vera Rubin by 2027](https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html)
-- [CNBC: Meta commits to 6GW of AMD GPUs](https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html)
+- [CNBC: First look at Nvidia's Vera Rubinhttps://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html){rel="nofollow"}
+- [CNBC: Meta to use Vera Rubin by 2027https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html){rel="nofollow"}
+- [CNBC: Meta commits to 6GW of AMD GPUshttps://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html){rel="nofollow"}

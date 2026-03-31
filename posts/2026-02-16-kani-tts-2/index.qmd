@@ -36,4 +36,4 @@ Kani-TTS-2 represents a significant shift in the TTS landscape:
 2. **Local-First**: Privacy-sensitive applications can now run entirely on-device.
 3. **Speed**: The 0.2 RTF makes real-time interactive voice applications feasible.
 4. **AI Tools & Frameworks**: Apache 2.0 licensing means commercial integration is straightforward.
-Kani-TTS-2 is available on Hugging Face in both [English (EN)](https://huggingface.co/nineninesix/kani-tts-2-en){rel="nofollow"} and [Portuguese (PT)](https://huggingface.co/nineninesix/kani-tts-2-pt){rel="nofollow"} versions.
+Kani-TTS-2 is available on Hugging Face in both [English (EN)https://huggingface.co/nineninesix/kani-tts-2-en){rel="nofollow"} and [Portuguese (PT)https://huggingface.co/nineninesix/kani-tts-2-pt){rel="nofollow"} versions.

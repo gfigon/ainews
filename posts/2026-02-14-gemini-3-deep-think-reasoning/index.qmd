@@ -19,4 +19,4 @@ Academic researchers and students benefit from improved performance on advanced 
 ### The Bigger Picture
 This release underscores a clear shift in the AI race. The competition is no longer about who can generate the smoothest conversation—users expect that as a baseline. Instead, the battleground has moved to reasoning capability and problem-solving accuracy.
 Google's Deep Think represents another milestone in this reasoning-focused evolution. As AI systems become capable of handling genuinely difficult analytical tasks, the technology moves closer to being a true intellectual partner rather than just a sophisticated search tool or writing assistant.
-Source: [Google Blog](https://blog.google/products-and-platforms/products/gemini/gemini-3/){rel="nofollow"}{rel="nofollow"}
+Source: [Google Bloghttps://blog.google/products-and-platforms/products/gemini/gemini-3/){rel="nofollow"}{rel="nofollow"}

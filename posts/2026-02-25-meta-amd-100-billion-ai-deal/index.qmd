@@ -20,7 +20,7 @@ AMD stock closed at $213.84 on Tuesday, up 8.77% following the announcement. Ana
 The Meta-AMD deal underscores the intensifying competition among tech giants to secure AI computing resources. With Nvidia facing ongoing supply constraints, companies are actively diversifying their supplier base. AMD has now secured major partnerships with both Meta and OpenAI in recent months, positioning itself as the primary alternative to Nvidia's market dominance.
 The agreement also highlights the growing importance of CPUs in the AI inference stack—valued for their efficiency, scalability, and ability to reduce dependency on a single GPU vendor.
 ## Sources
-- [TechCrunch: Meta strikes up to $100B AMD chip deal](https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/)
-- [CNBC: Meta to use 6GW of AMD GPUs](https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html)
-- [Fortune: Lisa Su makes AMD an even bigger Nvidia competitor](https://fortune.com/2026/02/24/amd-meta-100-billion-deal-ai-chips-lisa-su-nvidia/)
-- [The Guardian: Meta agrees $60bn deal with AMD](https://www.theguardian.com/technology/2026/feb/24/meta-amd-deal-chipmaker-ai-bubble-fears)
+- [TechCrunch: Meta strikes up to $100B AMD chip dealhttps://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/){rel="nofollow"}
+- [CNBC: Meta to use 6GW of AMD GPUshttps://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html){rel="nofollow"}
+- [Fortune: Lisa Su makes AMD an even bigger Nvidia competitorhttps://fortune.com/2026/02/24/amd-meta-100-billion-deal-ai-chips-lisa-su-nvidia/){rel="nofollow"}
+- [The Guardian: Meta agrees $60bn deal with AMDhttps://www.theguardian.com/technology/2026/feb/24/meta-amd-deal-chipmaker-ai-bubble-fears){rel="nofollow"}

@@ -25,6 +25,6 @@ Third, consider the total cost of ownership, not just per-token pricing. Smaller
 AT&T's success reflects a broader maturation of enterprise AI from experimental deployments to production systems where cost efficiency matters. As AI moves from proof-of-concept to core infrastructure, the economics of inference become as important as model capability.
 The 90% cost reduction isn't just a number—it's a signal that enterprise AI has entered its cost-optimization phase. Organizations that embrace this shift will be better positioned to scale AI across their operations without the budget constraints that have limited previous waves of adoption.
 ## Sources
-- [VentureBeat: AT&T 8 billion tokens a day](https://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut)
-- [VentureBeat: Anthropic vs. The Pentagon](https://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do)
-- [VentureBeat: Microsoft OPCD](https://venturebeat.com/orchestration/microsofts-new-ai-training-method-eliminates-bloated-system-prompts-without)
+- [VentureBeat: AT&T 8 billion tokens a dayhttps://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut){rel="nofollow"}
+- [VentureBeat: Anthropic vs. The Pentagonhttps://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do){rel="nofollow"}
+- [VentureBeat: Microsoft OPCDhttps://venturebeat.com/orchestration/microsofts-new-ai-training-method-eliminates-bloated-system-prompts-without){rel="nofollow"}

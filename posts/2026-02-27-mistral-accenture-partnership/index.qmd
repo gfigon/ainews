@@ -19,6 +19,6 @@ The announcement had an immediate positive impact on Accenture's stock, which ju
 This deal is part of a broader trend where AI companies partner with consulting firms to drive enterprise adoption. OpenAI recently announced its "Frontier Alliance" initiative with four major consulting firms, including Accenture, to promote its enterprise AI agent governance platform. Anthropic has similarly partnered with IBM and Deloitte.
 While Mistral is often perceived as a smaller European peer to U.S. AI giants like OpenAI and Anthropic, this partnership demonstrates the company can land comparable enterprise clients.
 ## Sources
-- [TechCrunch: Mistral AI inks a deal with Accenture](https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/)
-- [Accenture Newsroom: Accenture and Mistral AI Partnership](https://newsroom.accenture.com/news/2026/accenture-and-mistral-ai-accelerate-enterprise-reinvention-with-scalable-ai-that-delivers-strategic-autonomy-for-customers)
-- [Invezz: Accenture stock jumps 6% on Mistral AI deal](https://invezz.com/news/2026/02/26/accenture-stock-jumps-6-on-mistral-ai-deal-why-is-it-a-buy/)
+- [TechCrunch: Mistral AI inks a deal with Accenturehttps://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/){rel="nofollow"}
+- [Accenture Newsroom: Accenture and Mistral AI Partnershiphttps://newsroom.accenture.com/news/2026/accenture-and-mistral-ai-accelerate-enterprise-reinvention-with-scalable-ai-that-delivers-strategic-autonomy-for-customers){rel="nofollow"}
+- [Invezz: Accenture stock jumps 6% on Mistral AI dealhttps://invezz.com/news/2026/02/26/accenture-stock-jumps-6-on-mistral-ai-deal-why-is-it-a-buy/){rel="nofollow"}

@@ -18,4 +18,4 @@ Previously, users had to manage synthetic data pipelines through complex YAML co
 ### Why Visualizing Synthetic Data Matters
 As models require more specialized training data, the complexity of generating high-quality synthetic datasets has grown. SyGra Studio allows researchers to iterate faster on prompt templates and "agentic" loops—such as the "Glaive Code Assistant" workflow which critiques and revises its own answers until quality thresholds are met.
 By automating the generation of the underlying YAML and task executor scripts, Studio makes sophisticated data engineering accessible to a wider range of AI practitioners.
-Explore the tool on the [Hugging Face Blog](https://huggingface.co/blog/ServiceNow-AI/sygra-studio){rel="nofollow"}{rel="nofollow"}.
+Explore the tool on the [Hugging Face Bloghttps://huggingface.co/blog/ServiceNow-AI/sygra-studio){rel="nofollow"}{rel="nofollow"}.

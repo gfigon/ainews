@@ -19,7 +19,7 @@ D2L uses a Perceiver-style cross-attention architecture that maps variable-lengt
 The results are striking. For a 128K-token document, a base model requires over 12 GB of VRAM for the KV cache. D2L handles the same document using less than 50 MB—a reduction of over 99%. Update latency drops from minutes to sub-second regimes.
 Perhaps most surprising: D2L can even internalize visual information from a Vision-Language Model into a text-only LLM, allowing the text model to classify images with 75% accuracy despite never seeing pixel data during its primary training.
 ## Sources
-- [Sakana AI Doc-to-LoRA Paper](https://pub.sakana.ai/doc-to-lora/)
-- [Doc-to-LoRA Code](https://github.com/SakanaAI/Doc-to-LoRA)
-- [Text-to-LoRA Paper](https://arxiv.org/pdf/2506.06105)
-- [Text-to-LoRA Code](https://github.com/SakanaAI/Text-to-LoRA)
+- [Sakana AI Doc-to-LoRA Paperhttps://pub.sakana.ai/doc-to-lora/){rel="nofollow"}
+- [Doc-to-LoRA Codehttps://github.com/SakanaAI/Doc-to-LoRA){rel="nofollow"}
+- [Text-to-LoRA Paperhttps://arxiv.org/pdf/2506.06105){rel="nofollow"}
+- [Text-to-LoRA Codehttps://github.com/SakanaAI/Text-to-LoRA){rel="nofollow"}

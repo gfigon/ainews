@@ -19,6 +19,6 @@ However, challenges remain around consistency, latency, and the complexity of ma
 Perplexity's launch underscores a broader trend in the AI industry: the move from single-model dominance to ecosystem play. Rather than compete purely on model capability, companies are increasingly competing on orchestration, integration, and user experience.
 This shift has implications for the entire AI stack—from model providers to infrastructure companies. As more players pursue multi-model strategies, the demand for robust orchestration and routing technologies is likely to increase significantly.
 ## Sources
-- [VentureBeat: Perplexity launches 'Computer' AI agent that coordinates 19 models](https://venturebeat.com/category/ai/)
-- [Perplexity Blog: Introducing Perplexity Max](https://www.perplexity.ai/hub/blog/introducing-perplexity-max)
-- [The Rundown AI: Perplexity's 19-model AI 'Computer'](https://www.therundown.ai)
+- [VentureBeat: Perplexity launches 'Computer' AI agent that coordinates 19 modelshttps://venturebeat.com/category/ai/){rel="nofollow"}
+- [Perplexity Blog: Introducing Perplexity Maxhttps://www.perplexity.ai/hub/blog/introducing-perplexity-max){rel="nofollow"}
+- [The Rundown AI: Perplexity's 19-model AI 'Computer'https://www.therundown.ai){rel="nofollow"}

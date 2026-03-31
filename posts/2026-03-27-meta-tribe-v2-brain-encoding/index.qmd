@@ -42,4 +42,4 @@ This research marks the dawn of **in-silico neuroscience**—the ability to cond
 
 The model was trained on 451.6 hours of fMRI data from 25 subjects and evaluated across 1,117.7 hours from 720 subjects.
 
-**Resources**: [Code](https://github.com/facebookresearch/tribev2) | [Weights](https://huggingface.co/facebook/tribev2) | [Demo](https://aidemos.atmeta.com/tribev2)
+**Resources**: [Codehttps://github.com/facebookresearch/tribev2){rel="nofollow"} | [Weightshttps://huggingface.co/facebook/tribev2){rel="nofollow"} | [Demohttps://aidemos.atmeta.com/tribev2){rel="nofollow"}

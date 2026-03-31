@@ -24,5 +24,5 @@ Anthropic warned that this practice poses serious national security risks:
 Anthropic's arch-rival OpenAI made similar accusations to US lawmakers earlier this month, saying Chinese companies were using distillation amid "ongoing efforts to free-ride on the capabilities developed by OpenAI and other US frontier labs."
 Anthropic has called for a **coordinated industry and government response** to address what it says no single company can tackle alone.
 ## Sources
-- [The Guardian: US AI giant accuses Chinese rivals of mass data theft](https://www.theguardian.com/technology/2026/feb/23/us-ai-anthropic-china)
-- [The Hindu: OpenAI, Anthropic accuse Chinese rivals of mass AI data theft](https://www.thehindu.com/sci-tech/technology/openai-anthropic-accuse-chinese-rivals-of-mass-ai-data-theft/article70669620.ece)
+- [The Guardian: US AI giant accuses Chinese rivals of mass data thefthttps://www.theguardian.com/technology/2026/feb/23/us-ai-anthropic-china){rel="nofollow"}
+- [The Hindu: OpenAI, Anthropic accuse Chinese rivals of mass AI data thefthttps://www.thehindu.com/sci-tech/technology/openai-anthropic-accuse-chinese-rivals-of-mass-ai-data-theft/article70669620.ece){rel="nofollow"}

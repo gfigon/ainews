@@ -43,7 +43,7 @@ The researchers evaluated training exclusively on synthetic AWM environments aga
 - **Strong out-of-distribution generalization**: Agents trained in synthetic environments outperformed those trained on benchmark-specific data
 - **Diverse scenario coverage**: 1,000 environments provide broad training distribution
 - **Reliable evaluation**: Code-driven environments enable reproducible benchmarking
-The code is available at [github.com/Snowflake-Labs/agent-world-model](https://github.com/Snowflake-Labs/agent-world-model){rel="nofollow"}{rel="nofollow"}.
+The code is available at [github.com/Snowflake-Labs/agent-world-modelhttps://github.com/Snowflake-Labs/agent-world-model){rel="nofollow"}{rel="nofollow"}.
 ## Implications for Agent Development
 AWM represents a paradigm shift in how we think about agent training data:
 - **Synthetic-first**: Move from collecting real interactions to generating them

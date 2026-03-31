@@ -29,4 +29,4 @@ Even with million-token windows, dumping everything into the prompt creates seve
 Large context windows and RAG are complementary, not competing approaches. The former gives you capacity; the latter gives you focus. For production AI systems, the optimal strategy combines both—using retrieval to select the right information, then letting the model's full context window handle the reasoning.
 As one researcher put it: "RAG isn't dead. It's just being paired with bigger windows instead of replaced by them."
 ## Sources
-- [MarkTechPost: RAG vs. Context Stuffing](https://www.marktechpost.com/2026/02/24/rag-vs-context-stuffing-why-selective-retrieval-is-more-efficient-and-reliable-than-dumping-all-data-into-the-prompt/)
+- [MarkTechPost: RAG vs. Context Stuffinghttps://www.marktechpost.com/2026/02/24/rag-vs-context-stuffing-why-selective-retrieval-is-more-efficient-and-reliable-than-dumping-all-data-into-the-prompt/){rel="nofollow"}

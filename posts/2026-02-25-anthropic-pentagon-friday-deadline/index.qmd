@@ -21,7 +21,7 @@ Anthropic has positioned itself as the most safety-forward of the leading AI com
 This confrontation represents a pivotal moment for the AI industry. It tests whether leading AI companies will push back against government demands for military use of their products—something that has long been controversial among researchers and ethical AI advocates.
 The Pentagon has poured billions into AI-enabled technologies, from unmanned drones to automated targeting systems. With fighting in Ukraine already featuring deadly semi-autonomous drones that can operate without human control, the ethical debates around ceding lethal decision-making power to AI are no longer theoretical.
 ## Sources
-- [The Guardian: US military leaders pressure Anthropic to bend Claude safeguards](https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai)
-- [Axios: Hegseth gives Anthropic until Friday to back down on AI safeguards](https://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario)
-- [CGTN: U.S. Defense Dept. gives Anthropic Friday deadline to drop AI curbs](https://news.cgtn.com/news/2026-02-25/U-S-Defense-Dept-gives-Anthropic-Friday-deadline-to-drop-AI-curbs-1L2SF2Akgh2/p.html)
-- [NPR: Hegseth threatens to blacklist Anthropic over 'woke AI' concerns](https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety)
+- [The Guardian: US military leaders pressure Anthropic to bend Claude safeguardshttps://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai){rel="nofollow"}
+- [Axios: Hegseth gives Anthropic until Friday to back down on AI safeguardshttps://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario){rel="nofollow"}
+- [CGTN: U.S. Defense Dept. gives Anthropic Friday deadline to drop AI curbshttps://news.cgtn.com/news/2026-02-25/U-S-Defense-Dept-gives-Anthropic-Friday-deadline-to-drop-AI-curbs-1L2SF2Akgh2/p.html){rel="nofollow"}
+- [NPR: Hegseth threatens to blacklist Anthropic over 'woke AI' concernshttps://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety){rel="nofollow"}

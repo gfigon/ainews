@@ -25,4 +25,4 @@ Microsoft is positioning Copilot Cowork as the security-conscious alternative fo
 
 The company is also making Anthropic's latest Claude Sonnet models available to M365 Copilot users, expanding beyond its previous exclusive reliance on OpenAI technology.
 
-**Sources**: [The Hindu](https://www.thehindu.com/sci-tech/technology/microsoft-taps-anthropic-for-copilot-cowork-in-push-for-ai-agents/article70724940.ece), [Reuters](https://www.reuters.com/business/microsoft-taps-anthropic-copilot-cowork-push-ai-agents-2026-03-09/)
+**Sources**: [The Hinduhttps://www.thehindu.com/sci-tech/technology/microsoft-taps-anthropic-for-copilot-cowork-in-push-for-ai-agents/article70724940.ece){rel="nofollow"}, [Reutershttps://www.reuters.com/business/microsoft-taps-anthropic-copilot-cowork-push-ai-agents-2026-03-09/){rel="nofollow"}

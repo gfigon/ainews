@@ -39,4 +39,4 @@ Exa positions itself against:
 - **LLM-based retrieval** — too slow and expensive for production agents
 The company has raised $50M in Series B funding to accelerate development, with Instant now generally available.
 ---
-*Source: [MarkTechPost](https://www.marktechpost.com){rel="nofollow"}, [Exa AI Blog](https://exa.ai){rel="nofollow"}*
+*Source: [MarkTechPosthttps://www.marktechpost.com){rel="nofollow"}, [Exa AI Bloghttps://exa.ai){rel="nofollow"}*
