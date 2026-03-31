@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "NASA Perseverance AI Mars",
+      "count": 1,
+      "last_published": "2026-03-31",
+      "slugs": [
+        "2026-03-31-nasa-perseverance-ai-mars"
+      ]
+    },
+    {
       "term": "Stanford AI Sycophancy Study",
       "count": 1,
       "last_published": "2026-03-30",
@@ -2240,6 +2248,14 @@
       "last_published": "2026-03-30",
       "slugs": [
         "2026-03-30-ai-conference-sanctions-reversal"
+      ]
+    },
+    {
+      "term": "Microsoft Copilot Critique",
+      "count": 1,
+      "last_published": "2026-03-31",
+      "slugs": [
+        "2026-03-31-microsoft-copilot-critique"
       ]
     }
   ]
