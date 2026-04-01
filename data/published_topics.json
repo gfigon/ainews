@@ -2273,6 +2273,14 @@
       "slugs": [
         "2026-03-31-gemini-750m-users"
       ]
+    },
+    {
+      "term": "Liquid AI LFM2.5-350M",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-liquid-ai-lfm2-5-350m"
+      ]
     }
   ]
 }

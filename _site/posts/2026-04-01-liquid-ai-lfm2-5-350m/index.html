@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Robo AI Digest">
-<meta name="description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
+<meta name="author" content="AI News">
 
-<title>NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</title>
+<title>Liquid AI’s LFM2.5-350M Challenges the Scaling Laws: Can a 350M Model Outperform Giants?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,15 +102,15 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
-<meta property="og:title" content="NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving">
-<meta property="og:description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
-<meta name="twitter:title" content="NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving">
-<meta name="twitter:description" content="NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.">
+<meta property="og:title" content="Liquid AI’s LFM2.5-350M Challenges the Scaling Laws: Can a 350M Model Outperform Giants?">
+<meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
+<meta name="twitter:title" content="Liquid AI’s LFM2.5-350M Challenges the Scaling Laws: Can a 350M Model Outperform Giants?">
+<meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
 <meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
 <meta name="twitter:creator" content="@roboaidigest">
 <meta name="twitter:site" content="@roboaidigest">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/posts/2026-02-12-nvidia-kvtc-cache-compression/">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-04-01-liquid-ai-lfm2-5-350m/">
 </head>
 
 <body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
@@ -322,13 +321,8 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">NVIDIA KVTC: 20x KV Cache Compression for Efficient LLM Serving</h1>
-                  <div>
-        <div class="description">
-          NVIDIA researchers introduce KVTC, a lightweight transform coder that achieves up to 20x compression of KV caches while maintaining nearly lossless accuracy.
-        </div>
-      </div>
-                              </div>
+      <h1 class="title">Liquid AI’s LFM2.5-350M Challenges the Scaling Laws: Can a 350M Model Outperform Giants?</h1>
+                                    </div>
   </div>
     
   
@@ -337,14 +331,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Robo AI Digest </p>
+               <p>AI News </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026-02-12 08:00</p>
+        <p class="date">2026-04-01 08:00</p>
       </div>
     </div>
     
@@ -355,8 +349,18 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-intelligence-density-revolution" id="toc-the-intelligence-density-revolution" class="nav-link active" data-scroll-target="#the-intelligence-density-revolution">The Intelligence Density Revolution</a></li>
+  <li><a href="#the-hybrid-liv-architecture" id="toc-the-hybrid-liv-architecture" class="nav-link" data-scroll-target="#the-hybrid-liv-architecture">The Hybrid LIV Architecture</a></li>
+  <li><a href="#benchmark-performance" id="toc-benchmark-performance" class="nav-link" data-scroll-target="#benchmark-performance">Benchmark Performance</a></li>
+  <li><a href="#edge-first-deployment" id="toc-edge-first-deployment" class="nav-link" data-scroll-target="#edge-first-deployment">Edge-First Deployment</a></li>
+  <li><a href="#the-bigger-picture" id="toc-the-bigger-picture" class="nav-link" data-scroll-target="#the-bigger-picture">The Bigger Picture</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -369,9 +373,65 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Solving the memory bottleneck in Large Language Model (LLM) inference has taken a significant leap forward. NVIDIA researchers have unveiled <strong>KVTC (Key-Value Cache Transform Coding)</strong>, a lightweight pipeline that compresses KV caches by <strong>20x to 40x</strong>, dramatically reducing the memory footprint required for long-context reasoning. ## In modern Transformers, the Key-Value (KV) cache grows proportionally with sequence length and model size, often occupying multiple gigabytes. This creates a dilemma: keeping the cache consumes scarce GPU memory, while discarding it forces expensive recomputation during multi-turn interactions. KVTC aims to solve this by making on-chip retention and off-chip offloading significantly more efficient. ### How KVTC Works Inspired by classical media compression (like JPEG), the KVTC pipeline uses a multi-stage approach to shrink data without sacrificing intelligence: 1. <strong>Feature Decorrelation (PCA):</strong> It uses Principal Component Analysis (PCA) to decorrelate features across attention heads. A single calibration step (taking under 10 minutes) creates a reusable basis matrix. 2. <strong>Adaptive Quantization:</strong> A dynamic programming algorithm allocates bits based on coordinate variance. High-variance components get more bits, while trailing components may receive zero, enabling aggressive dimensionality reduction. 3. <strong>Entropy Coding:</strong> The resulting symbols are packed using the <strong>DEFLATE</strong> algorithm, accelerated by NVIDIA’s <code>nvCOMP</code> library for direct GPU processing. ### Performance and Accuracy What makes KVTC remarkable is its “near-lossless” nature. Benchmarks on <strong>Llama-3.1, Mistral-NeMo, and R1-Qwen-2.5</strong> show: * <strong>Accuracy:</strong> At 16x–20x compression, models maintain results within <strong>1 score point</strong> of uncompressed versions. * <strong>Latency:</strong> For 8K contexts, it reduces <strong>Time-To-First-Token (TTFT)</strong> by up to 8x compared to full recomputation. * <strong>Overhead:</strong> The storage required for the transformation parameters is minimal, representing only about 2.4% of model parameters. ### Protecting “Critical” Tokens NVIDIA’s research highlights that not all tokens are equal. KVTC maintains accuracy by explicitly <strong>avoiding compression</strong> for the 4 oldest “attention sink” tokens and the 128 most recent tokens in the sliding window. Compressing these “anchors” was shown to cause performance collapse at high ratios. This tuning-free method is backward-compatible with existing models and token eviction strategies, making it a powerful practical building block for the next generation of memory-efficient AI services. <em>Source: [MarkTechPosthttps://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/){rel=“nofollow”} / [arXiv:2511.01815https://arxiv.org/pdf/2511.01815){rel=“nofollow”}</em></p>
+<p>In the current landscape of generative AI, the ‘scaling laws’ have generally dictated that more parameters equal more intelligence. However, Liquid AI is challenging this convention with the release of LFM2.5-350M—a technical case study in intelligence density that proves smaller models can outperform much larger ones when trained at scale.</p>
+<section id="the-intelligence-density-revolution" class="level2">
+<h2 class="anchored" data-anchor-id="the-intelligence-density-revolution">The Intelligence Density Revolution</h2>
+<p>The significance of LFM2.5-350M lies in its architecture and training efficiency. While most AI companies have focused on frontier models, Liquid AI is targeting the ‘edge’—devices with limited memory and compute—by demonstrating that a 350-million parameter model can outperform models more than twice its size on several evaluated benchmarks.</p>
+<p>The model was pre-trained on 28 trillion tokens with an extremely high training-to-parameter ratio, achieving an 80,000:1 token-to-parameter ratio. This ensures that the model’s limited parameter count is utilized to its maximum potential, resulting in what Liquid AI calls “intelligence density.”</p>
+</section>
+<section id="the-hybrid-liv-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-hybrid-liv-architecture">The Hybrid LIV Architecture</h2>
+<p>The core technical differentiator of the LFM2.5-350M is its departure from the pure Transformer architecture. It utilizes a hybrid structure built on Linear Input-Varying Systems (LIVs):</p>
+<ul>
+<li><p><strong>10 Double-Gated LIV Convolution Blocks</strong>: Handle the majority of sequence processing. LIVs function similarly to advanced RNNs but are designed to be more parallelizable and stable during training, maintaining a constant-state memory that reduces I/O overhead.</p></li>
+<li><p><strong>6 Grouped Query Attention (GQA) Blocks</strong>: Retain high-precision retrieval and long-range context handling without the full memory overhead of a standard Transformer.</p></li>
+</ul>
+<p>This hybrid approach enables the model to support a 32k context window while maintaining an extremely lean memory footprint.</p>
+</section>
+<section id="benchmark-performance" class="level2">
+<h2 class="anchored" data-anchor-id="benchmark-performance">Benchmark Performance</h2>
+<p>The LFM2.5-350M is designed as a specialist model for high-speed, agentic tasks rather than general-purpose reasoning:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Benchmark</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>IFEval (Instruction Following)</td>
+<td>76.96</td>
+</tr>
+<tr class="even">
+<td>GPQA Diamond</td>
+<td>30.64</td>
+</tr>
+<tr class="odd">
+<td>MMLU-Pro</td>
+<td>20.01</td>
+</tr>
+</tbody>
+</table>
+<p>The high IFEval score indicates the model is efficient at following complex, structured instructions, making it suitable for tool use, function calling, and structured data extraction. However, it’s explicitly not recommended for mathematics, complex coding, or creative writing.</p>
+</section>
+<section id="edge-first-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="edge-first-deployment">Edge-First Deployment</h2>
+<p>The architectural efficiency makes local deployment viable with remarkably low memory requirements:</p>
+<ul>
+<li><strong>Snapdragon 8 Elite NPU</strong>: 169MB peak memory using RunAnywhere Q4</li>
+<li><strong>Snapdragon GPU</strong>: 81MB peak memory using RunAnywhere Q4<br>
+</li>
+<li><strong>Raspberry Pi 5</strong>: 300MB using Cactus Engine int8</li>
+</ul>
+<p>On a single NVIDIA H100 GPU, the model can reach throughput of 40.4K output tokens per second at high concurrency—ideal for high-volume data extraction and real-time classification.</p>
+</section>
+<section id="the-bigger-picture" class="level2">
+<h2 class="anchored" data-anchor-id="the-bigger-picture">The Bigger Picture</h2>
+<p>Liquid AI’s approach signals a potential shift in how we think about AI model development. Rather than simply scaling up parameters, the focus on training efficiency and specialized architectures could democratize AI deployment on edge devices. The LFM2.5-350M proves that the “bigger is better” paradigm may not be the only path forward—and that intelligent, efficient models can run where frontier models simply cannot.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
