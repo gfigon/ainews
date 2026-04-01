@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "GPT-5.4 Native Computer Use",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-gpt-5-4-release"
+      ]
+    },
+    {
       "term": "NASA Perseverance AI Mars",
       "count": 1,
       "last_published": "2026-03-31",

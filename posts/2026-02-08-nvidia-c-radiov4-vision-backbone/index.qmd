@@ -22,4 +22,4 @@ Distilling from large models often results in the student copying the teacher's 
 ### Deployment and Accessibility
 C-RADIOv4 is designed for practical use, featuring a **ViTDet-mode** for efficient inference. On an A100 GPU, the student model's windowed attention mechanism allows it to outperform the original SAM3 ViT-L+ encoder in speed while maintaining competitive accuracy.
 The model has been released under the **NVIDIA Open Model License**, making it a powerful resource for researchers and enterprises looking to streamline their computer vision pipelines.
-[Technical Paperhttps://arxiv.org/abs/2601.17237){rel="nofollow"}{rel="nofollow"} | [Model on Hugging Facehttps://huggingface.co/nvidia/C-RADIOv4-H){rel="nofollow"}{rel="nofollow"}
+[Technical Paperhttps://arxiv.org/abs/2601.17237){rel="nofollow"} | [Model on Hugging Facehttps://huggingface.co/nvidia/C-RADIOv4-H){rel="nofollow"}

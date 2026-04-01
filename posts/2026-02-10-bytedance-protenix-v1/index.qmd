@@ -15,7 +15,7 @@ Can an open-source model truly match AlphaFold3's performance? **ByteDance says 
 This isn't just another AlphaFold clone. Protenix-v1 includes a complete training pipeline, pre-trained weights, and a browser-based server for interactive predictions. The real differentiator? A rigorous evaluation toolkit called PXMeter that benchmarks over 6,000 complexes with transparent metrics.
 ## Why It Matters
 AlphaFold3 revolutionized biomolecular structure prediction but remained largely closed. Protenix-v1 democratizes this capability:
-- **Full open stack**: Code, weights, training pipelines — all available on [GitHubhttps://github.com/bytedance/Protenix){rel="nofollow"}{rel="nofollow"}
+- **Full open stack**: Code, weights, training pipelines — all available on [GitHubhttps://github.com/bytedance/Protenix){rel="nofollow"}
 - **Fair comparisons**: Model matches AF3's training data cutoff (2021-09-30) and inference budget
 - **Extensible**: Designed for customization, not just inference
 The research team claims Protenix-v1 is the first open-source model to **outperform AlphaFold3** on diverse benchmark sets under matched constraints.
@@ -38,4 +38,4 @@ The Protenix ecosystem extends beyond prediction:
 2. **Fair benchmarking**: PXMeter enables transparent, reproducible evaluations
 3. **Production-ready**: Includes training code, weights, and a web server
 4. **Extensible ecosystem**: Covers prediction, docking, and design
-The model is available at [protenix-server.comhttps://protenix-server.com/login){rel="nofollow"}{rel="nofollow"}, with the full stack on [GitHubhttps://github.com/bytedance/Protenix){rel="nofollow"}{rel="nofollow"}.
+The model is available at [protenix-server.comhttps://protenix-server.com/login){rel="nofollow"}, with the full stack on [GitHubhttps://github.com/bytedance/Protenix){rel="nofollow"}.

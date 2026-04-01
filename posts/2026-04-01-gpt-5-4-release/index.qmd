@@ -1,0 +1,12 @@
+---
+title: "GPT-5.4 Brings Native Computer Use, Beats Human Performance on OSWorld"
+date: "2026-04-01 08:00"
+categories:
+  - LLMs & Models
+---
+
+**What's New:** OpenAI released GPT-5.4 on March 29, 2026, featuring native computer-use capabilities that scored 75% on the OSWorld-Verified benchmark, surpassing the human average of 72%. The model also doubles the context window to 1 million tokens.
+
+**Why It Matters:** This marks the first time an AI model has demonstrated computer-use abilities that exceed human performance on standardized benchmarks. The expanded context window enables much longer document analysis and multi-step reasoning.
+
+**Source:** [RoboRhythmshttps://www.roborhythms.com/gpt-5-4-release-march-2026/){rel="nofollow"} (March 2026)
