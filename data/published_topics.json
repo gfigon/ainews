@@ -2289,6 +2289,38 @@
       "slugs": [
         "2026-04-01-american-ai-skepticism-poll"
       ]
+    },
+    {
+      "term": "Anthropic Claude Code Source Code Leak",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-anthropic-source-code-leak"
+      ]
+    },
+    {
+      "term": "Anthropic Security Breach NPM",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-anthropic-source-code-leak"
+      ]
+    },
+    {
+      "term": "Claude Code Agentic Harness Leak",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-anthropic-source-code-leak"
+      ]
+    },
+    {
+      "term": "Anthropic Capybara Mythos Model",
+      "count": 1,
+      "last_published": "2026-04-01",
+      "slugs": [
+        "2026-04-01-anthropic-source-code-leak"
+      ]
     }
   ]
 }

@@ -1,0 +1,42 @@
+---
+title: "Anthropic Source Code Leak Exposes Claude Code in Second Security Breach"
+date: "2026-04-01 10:15"
+description: "Anthropic accidentally leaks 500,000 lines of Claude Code source code via NPM, just days after exposing unreleased Mythos model details. The dual security incidents raise concerns about the company's internal security practices."
+categories:
+  - AI Security & Safety
+  - Industry News
+---
+
+Anthropic has suffered its second major security incident in less than a week, accidentally leaking approximately 500,000 lines of source code for its popular AI coding tool Claude Code. The leak, which occurred when internal code was mistakenly published to the NPM package repository, marks a significant blow to the company's reputation and raises serious questions about its security protocols.
+
+The incident follows closely on the heels of an earlier breach where the company inadvertently exposed a draft blog post detailing its forthcoming "Mythos" model (also known as "Capybara"), which reportedly represents a step-change in AI capabilities and unprecedented cybersecurity risks.
+
+## The Claude Code Leak
+
+The latest leak exposed roughly 1,900 files containing the source code for Claude Code's agentic harness—the software layer that instructs the underlying AI model how to interact with other software tools and provides critical guardrails governing its behavior. While Anthropic was quick to clarify that no customer data or model weights were exposed, cybersecurity experts warned that the implications could be severe.
+
+"This was a release packaging issue caused by human error, not a security breach," an Anthropic spokesperson told Fortune. "No sensitive customer data or credentials were involved or exposed."
+
+However, security researchers have raised concerns about what the leaked code might reveal. Roy Paz, a senior AI security researcher at LayerX Security, noted that the exposed harness code could allow competitors to reverse-engineer how Claude Code's agentic functionality works, potentially enabling them to build similar products or create open-source clones.
+
+## What Was Exposed
+
+The leaked code provides further evidence of Anthropic's unreleased Capybara model, which appears to be positioned as a new tier even more capable than the current Opus branding. According to the earlier leaked blog post, Capybara would represent the company's most advanced offering to date, potentially featuring both "fast" and "slow" variants with an expanded context window.
+
+Perhaps more concerning is what the code might reveal about Anthropic's internal architecture—the leaked harness connects to backend systems and provides a window into non-public details such as internal APIs and deployment processes. This information could potentially help sophisticated actors better understand the company's model architecture and how to work around existing safeguards.
+
+## A Pattern of Security Lapses
+
+The dual incidents represent an embarrassing stretch for Anthropic, which has positioned itself as a leader in AI safety. The company previously stated that its most powerful Opus models are capable of autonomously identifying zero-day vulnerabilities in software—capabilities that could theoretically be weaponized by malicious actors.
+
+"The contradiction is striking," said one industry observer. "Here is a company warning about the cybersecurity risks of advanced AI, while simultaneously exposing the very code that contains those safeguards."
+
+Anthropic has announced plans to implement additional release safeguards to prevent similar incidents from occurring in the future, though the company has not provided specific details on what changes will be made.
+
+## Industry Implications
+
+The incident highlights the growing pains of the rapidly scaling AI industry, where companies are rushing to deploy increasingly sophisticated products while sometimes lacking mature security processes. It also raises questions about the security practices of other major AI providers, given that similar packaging errors could theoretically occur at any company.
+
+For developers who rely on Claude Code, the immediate impact appears limited—existing installations continue to function, and the underlying model weights remain secure. However, the long-term implications for enterprise trust and the competitive landscape remain to be seen.
+
+As the AI industry continues its relentless pace of development, this incident serves as a reminder that even the most advanced AI companies are ultimately run by humans—and humans make mistakes. The challenge now is whether Anthropic can rebuild trust while continuing to push the boundaries of what's possible with AI.
