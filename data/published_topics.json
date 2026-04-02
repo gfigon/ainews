@@ -2321,6 +2321,14 @@
       "slugs": [
         "2026-04-01-anthropic-source-code-leak"
       ]
+    },
+    {
+      "term": "Mistral Voxtral TTS",
+      "count": 1,
+      "last_published": "2026-04-02",
+      "slugs": [
+        "2026-04-02-mistral-voxtral-tts"
+      ]
     }
   ]
 }
