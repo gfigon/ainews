@@ -2345,6 +2345,14 @@
       "slugs": [
         "2026-04-02-california-ai-executive-order"
       ]
+    },
+    {
+      "term": "OpenAI Spud Model",
+      "count": 1,
+      "last_published": "2026-04-03",
+      "slugs": [
+        "2026-04-03-openai-spud-model"
+      ]
     }
   ]
 }
