@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Gemma 4 Open Source",
+      "count": 1,
+      "last_published": "2026-04-03",
+      "slugs": [
+        "2026-04-03-google-gemma-4-open-source"
+      ]
+    },
+    {
       "term": "GPT-5.4 Native Computer Use",
       "count": 1,
       "last_published": "2026-04-01",
