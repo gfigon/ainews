@@ -2377,6 +2377,14 @@
       "slugs": [
         "2026-04-04-microsoft-mai-models"
       ]
+    },
+    {
+      "term": "Anthropic Claude Third Party Ban",
+      "count": 1,
+      "last_published": "2026-04-04",
+      "slugs": [
+        "2026-04-04-anthropic-claude-third-party-ban"
+      ]
     }
   ]
 }
