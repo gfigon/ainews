@@ -2363,11 +2363,19 @@
       ]
     },
     {
-      "term": "Sarvam AI .5B Valuation",
+      "term": "Sarvam AI $1.5B Valuation",
       "count": 1,
       "last_published": "2026-04-04",
       "slugs": [
         "2026-04-04-sarvam-ai-1-5b-valuation"
+      ]
+    },
+    {
+      "term": "Microsoft MAI In-House Models",
+      "count": 1,
+      "last_published": "2026-04-04",
+      "slugs": [
+        "2026-04-04-microsoft-mai-models"
       ]
     }
   ]
