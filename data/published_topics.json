@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "SpaceX xAI IPO",
+      "count": 1,
+      "last_published": "2026-04-05",
+      "slugs": [
+        "2026-04-05-spacex-xai-ipo"
+      ]
+    },
+    {
       "term": "Gemma 4 Open Source",
       "count": 1,
       "last_published": "2026-04-03",

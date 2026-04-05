@@ -1,0 +1,19 @@
+---
+title: "SpaceX Files for $1.75T IPO in Historic AI-Energy Merger"
+date: "2026-04-05 08:45"
+categories:
+  - Industry News
+  - AI Investments
+---
+
+The AI and aerospace industries witnessed an unprecedented consolidation as SpaceX, now incorporating xAI, filed confidentially with the SEC on April 1, 2026, targeting a June Nasdaq listing valued at up to $1.75 trillion. The proposed $75 billion raise would more than double Saudi Aramco's 2019 record of $29 billion.
+
+## The xAI Integration
+
+The IPO comes months after SpaceX acquired xAI in a landmark deal reportedly worth $250 billion. This merger creates the first AI-energy conglomerate combining advanced AI capabilities with orbital infrastructure. Grok, xAI's chatbot, has been integrated into SpaceX's operations, and Elon Musk is reportedly requiring banks involved in the IPO to procure Grok subscriptions as part of the deal terms.
+
+## Market Implications
+
+The listing represents more than a corporate milestone—it signals a new era of AI infrastructure at planetary scale. With SpaceX's Starlink providing global connectivity and xAI's Grok powering everything from autonomous navigation to ground station communications, the combined entity positions itself as an end-to-end AI stack from orbit to data center.
+
+Arista Networks has already seen its 2026 revenue outlook raised to $11.25 billion as data centers scramble to support the expected capital deployment from this and other AI mega-rounds.
