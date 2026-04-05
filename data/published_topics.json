@@ -2385,6 +2385,30 @@
       "slugs": [
         "2026-04-04-anthropic-claude-third-party-ban"
       ]
+    },
+    {
+      "term": "Claude Mythos 5",
+      "count": 1,
+      "last_published": "2026-04-05",
+      "slugs": [
+        "2026-04-05-anthropic-claude-mythos-5"
+      ]
+    },
+    {
+      "term": "Claude Mythos 5 Ten Trillion Parameters",
+      "count": 1,
+      "last_published": "2026-04-05",
+      "slugs": [
+        "2026-04-05-anthropic-claude-mythos-5"
+      ]
+    },
+    {
+      "term": "Anthropic High-Stakes AI",
+      "count": 1,
+      "last_published": "2026-04-05",
+      "slugs": [
+        "2026-04-05-anthropic-claude-mythos-5"
+      ]
     }
   ]
 }
