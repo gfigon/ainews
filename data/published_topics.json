@@ -2417,6 +2417,14 @@
       "slugs": [
         "2026-04-05-anthropic-claude-mythos-5"
       ]
+    },
+    {
+      "term": "Microsoft Agent Governance Toolkit",
+      "count": 1,
+      "last_published": "2026-04-05",
+      "slugs": [
+        "2026-04-05-microsoft-agent-governance"
+      ]
     }
   ]
 }
