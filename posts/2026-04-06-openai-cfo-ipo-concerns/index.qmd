@@ -1,0 +1,28 @@
+---
+title: "OpenAI CFO Raises Concerns Over 2026 IPO Timeline"
+date: "2026-04-06 10:15"
+author: "AI News"
+categories:
+  - "Industry News"
+  - "LLMs & Models"
+tags:
+  - "OpenAI"
+  - "IPO"
+  - "Sam Altman"
+  - "Sarah Friar"
+  - "Funding"
+  - "Corporate"
+summary: "OpenAI CFO Sarah Friar has voiced internal concerns over CEO Sam Altman's ambitious timeline to take the company public as early as Q4 2026, warning of financial risks and readiness challenges amid massive $600 billion cloud infrastructure spending plans."
+---
+
+A high-stakes internal rift is brewing at the world's most valuable AI startup. OpenAI's Chief Financial Officer, Sarah Friar, has reportedly expressed reservations about CEO Sam Altman's ambitious timeline to take the company public as early as the fourth quarter of 2026.
+
+According to a report by The Information, Friar conveyed to colleagues earlier this year that she is uncertain whether the company will be ready for an IPO in 2026. Her concerns are rooted in the scale of the company's financial commitments—most notably a pledge of over $600 billion toward cloud server capacity over the next five years.
+
+The tension between Altman's push for a public listing and Friar's caution represents a pivotal moment for OpenAI. The CEO has been driving toward an IPO that would mark one of the most anticipated market debuts in technology history, while the CFO emphasizes the need for greater financial stability and preparation.
+
+OpenAI has committed over $600 billion toward cloud server capacity over the next five years, intensifying pressure on its financial position. This massive infrastructure investment, essential for supporting the company's expanding AI capabilities and competitive position against rivals like Google and Anthropic, creates significant near-term financial obligations.
+
+Industry observers note that the disagreement highlights the challenges facing high-growth AI companies balancing aggressive expansion with financial prudence. The company's path to profitability remains complex as it continues to invest heavily in research, infrastructure, and talent.
+
+The debate over IPO timing comes as OpenAI faces intensifying competition from Anthropic, which is also reportedly considering going public, and Google, which continues to release new AI innovations. Whether Altman can deliver on his ambitious timeline—or whether Friar's caution proves prescient—will shape the company's trajectory in the years ahead.
