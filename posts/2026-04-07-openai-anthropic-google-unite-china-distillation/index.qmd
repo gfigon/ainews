@@ -1,0 +1,40 @@
+---
+title: "OpenAI, Anthropic, Google Unite Against Chinese Model Distillation"
+date: "2026-04-07 08:00"
+author: "AI News"
+description: "In an unprecedented move, OpenAI, Anthropic, and Google are collaborating through the Frontier Model Forum to detect and combat adversarial distillation attempts by Chinese competitors."
+categories:
+  - "AI Security & Safety"
+  - "Industry News"
+  - "Research Highlights"
+---
+
+Rivals OpenAI, Anthropic, and Alphabet's Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence (AI) models to gain an edge in the global AI race.
+
+The firms are sharing information through the Frontier Model Forum, an industry non-profit that the three tech companies founded with Microsoft in 2023, to detect so-called adversarial distillation attempts that violate their terms of service, according to sources familiar with the matter.
+
+## The Distillation Problem
+
+The rare collaboration underscores the severity of a concern raised by US AI companies that some users, especially in China, are creating imitation versions of their products that could undercut them on price and syphon away customers while posing a national security risk. US officials have estimated that unauthorized distillation costs Silicon Valley labs billions of US dollars in annual profit.
+
+Distillation is a technique where an older "teacher" AI model is used to train a newer, "student" model that replicates the capabilities of the earlier system, often at a much lower cost than producing an original model from scratch. Some forms of distillation are widely accepted—such as when companies create smaller, more efficient versions of their own models—but it's controversial when used by third parties, particularly in adversary nations such as China or Russia, to replicate proprietary work without authorization.
+
+## DeepSeek Under Fire
+
+OpenAI has accused Chinese firm DeepSeek of trying to "free-ride on the capabilities developed by OpenAI and other US frontier labs." The company warned US lawmakers in February that DeepSeek was continuing to use increasingly sophisticated tactics to extract results from US models, despite heightened efforts to prevent misuse of its products. OpenAI claimed DeepSeek was relying on distillation to develop a new version of its breakthrough chatbot.
+
+Distillation first drew significant scrutiny in January 2025 after DeepSeek's surprise release of the R1 reasoning model that took the AI world by storm. Microsoft and OpenAI subsequently investigated whether the Chinese startup had improperly exfiltrated large amounts of data from US firm's models to create R1.
+
+## A New Era of Cooperation
+
+The information-sharing approach echoes a standard practice in the cybersecurity industry, where firms regularly swap data on attacks and adversaries' tactics to strengthen network defenses. By working together, the AI firms are similarly seeking to more effectively detect the practice, identify who's responsible, and try to prevent unauthorized users from succeeding.
+
+Trump administration officials have signaled their openness to fostering information sharing among AI companies to rein in adversarial distillation. The AI Action Plan unveiled by US President Donald Trump last year called for the creation of an information sharing and analysis centre.
+
+For now, information sharing on distillation remains limited due to AI companies' uncertainty about what can be shared under existing antitrust guidance to counter the competitive threat from China. The firms would benefit from greater clarity from the US government, the sources said.
+
+## Implications for the AI Industry
+
+This unprecedented collaboration marks a significant shift in how US AI companies approach competition. By sharing intelligence on adversarial practices, these rivals are signaling that the threat from overseas model copying supersedes their normal competitive dynamics. The move also highlights the growing importance of open-weight models from Chinese labs, which pose an economic challenge to proprietary US AI companies that have bet customers will pay for access to their products.
+
+Leading US AI labs have warned that foreign adversaries could use distillation to develop AI models stripped of safety guardrails, such as limits that would prevent users from creating a deadly pathogen—adding another layer to the national security concerns driving this collaboration.
