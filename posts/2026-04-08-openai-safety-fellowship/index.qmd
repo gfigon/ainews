@@ -1,0 +1,18 @@
+---
+title: "OpenAI Launches $15K/Month Safety Fellowship to Cultivate Next-Gen AI Safety Researchers"
+date: "2026-04-08 08:00"
+description: "OpenAI announces a new fellowship program offering $3,850 weekly stipends and $15,000 in monthly compute resources for external AI safety researchers. The program runs September 2026 through February 2027."
+categories:
+  - AI Safety & Regulation
+  - Research Highlights
+---
+
+OpenAI has unveiled the **OpenAI Safety Fellowship**, a pilot program designed to support independent research on AI safety and alignment while nurturing the next generation of talent in the field. Announced on April 6, 2026, the fellowship offers participants **$3,850 per week in stipends** alongside approximately **$15,000 in monthly compute resources**.
+
+The program will run from **September 14, 2026 through February 5, 2027**, with workspace available in Berkeley at Constellation, though remote participation is also permitted. Fellows will work closely with OpenAI mentors, engage with a peer cohort, and are expected to produce substantial research outputs such as papers, benchmarks, or datasets by the program's conclusion.
+
+**Priority research areas** include safety evaluation, ethics, robustness, scalable mitigations, privacy-preserving safety methods, agentic oversight, and high-severity misuse domains. OpenAI emphasizes it is seeking work that is empirically grounded, technically strong, and relevant to the broader research community.
+
+The fellowship welcomes applicants from diverse backgrounds including computer science, social science, cybersecurity, privacy, and human-computer interaction. The application deadline is **May 3, 2026**, with selections to be announced by July 25. While fellows will receive API credits and appropriate resources, they will not have internal system access.
+
+This initiative represents a significant investment in external AI safety research at a time when the field faces mounting pressure from rapid advances in large language models and increasing regulatory scrutiny worldwide.

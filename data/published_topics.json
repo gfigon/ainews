@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI Safety Fellowship",
+      "count": 1,
+      "last_published": "2026-04-08",
+      "slugs": [
+        "2026-04-08-openai-safety-fellowship"
+      ]
+    },
+    {
       "term": "OpenAI Anthropic Google China Distillation Coalition",
       "count": 1,
       "last_published": "2026-04-07",
