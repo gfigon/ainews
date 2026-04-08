@@ -1,0 +1,27 @@
+---
+title: "Anthropic Hits $30B Revenue Run Rate, Secures 3.5 Gigawatts of Google TPU Power"
+date: "2026-04-08 08:45"
+author: "AI News"
+categories:
+  - "LLMs & Models"
+  - "Industry News"
+summary: "Anthropic has achieved a staggering $30 billion annual revenue run rate, up from $9 billion at the end of 2025, while securing a massive compute deal with Google and Broadcom for 3.5 gigawatts of TPU capacity starting in 2027."
+---
+
+Anthropic has reached a significant milestone in its rapid ascent through the AI landscape. The company announced on April 6, 2026, that its revenue run rate has now topped $30 billion, representing a more than threefold increase from just $9 billion at the end of 2025. This explosive growth positions Anthropic as one of the fastest-growing AI companies in the industry.
+
+The company's financial success coincides with a strategic computing partnership announcement. Anthropic confirmed plans to work with Broadcom and Google to power its expanding operations, securing access to 3.5 gigawatts of TPU (Tensor Processing Unit) compute capacity beginning in 2027. This represents a substantial expansion from the previous deal signed in October 2025, which provided more than one gigawatt of compute.
+
+## Broadcom's Expanding Role
+
+Broadcom announced that it has agreed to produce future versions of Google's custom AI chips, marking a significant expansion of the chipmaker's role in the AI infrastructure space. The deals would expand Anthropic's use of Google Cloud's TPUs and represent a deepening of the partnerships across the AI value chain.
+
+The news sent Broadcom's stock soaring more than 6% on April 7, 2026—its second-best day of the year—reflecting investor confidence in the company's position as a key supplier of AI infrastructure to both Google and Anthropic.
+
+## What This Means for the AI Industry
+
+The Anthropic-Google-Broadcom partnership signals a new phase in the AI chip ecosystem. With the industry moving toward specialized hardware deployments and efficient inference solutions, the ability to secure massive compute capacity has become a critical competitive advantage.
+
+As Anthropic continues its trajectory toward potential IPO considerations, this deal demonstrates the company's ability to attract the computational resources needed to train and operate frontier-class models like Claude Mythos 5—the first widely recognized ten-trillion-parameter model released this week.
+
+The expanded TPU capacity will enable Anthropic to scale its operations while diversifying beyond NVIDIA GPUs, a strategy that mirrors broader industry efforts to reduce dependency on any single chip supplier.
