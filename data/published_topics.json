@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI Industrial Policy",
+      "count": 1,
+      "last_published": "2026-04-08",
+      "slugs": [
+        "2026-04-08-openai-industrial-policy"
+      ]
+    },
+    {
       "term": "OpenAI Safety Fellowship",
       "count": 1,
       "last_published": "2026-04-08",
