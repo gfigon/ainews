@@ -1,0 +1,18 @@
+---
+title: "Gen Z's AI Skepticism Climbs Despite Steady Adoption"
+date: "2026-04-10 08:00"
+summary: "Weekly AI usage among Generation Z remains flat at 51%, but negative emotions toward the technology have intensified significantly over the past year."
+tags: ["AI adoption", "Gen Z", "public sentiment", "artificial intelligence"]
+---
+
+Generation Z's relationship with artificial intelligence is getting more complicated. While weekly AI usage has remained steady at 51%, the emotional response to the technology has shifted dramatically darker, according to a new Gallup survey conducted in late February and early March 2026.
+
+The data reveals a widening gap between behavior and attitude. Even as young people continue to incorporate AI into their daily lives, their feelings about it have grown notably more negative. Anger toward AI has surged nine percentage points to reach 31%, while excitement has plummeted 14 points to just 22%. Hopefulness dropped nine points to 18%. Only anxiety remained stable at 42%.
+
+Perhaps most concerning for AI companies: even daily users are losing enthusiasm. Those who use AI every day reported being 18 points less excited about the technology than they were a year ago, and 11 points less hopeful. Despite being the most engaged cohort, their sentiment has deteriorated nearly as fast as the general population.
+
+The survey also questions whether Gen Z believes AI actually helps. Agreement that AI tools can expedite work fell 10 points to 56%, while belief that AI can accelerate learning dropped seven points to 46%. More tellingly, 39% now believe AI will hurt their ability to generate original ideas, compared to 37% who think it will help.
+
+Gen Z K-12 students show slightly higher weekly usage (56%) than their working adult counterparts (48%), yet they share the same underlying skepticism. About half believe they will need AI skills for future education or jobs, but the conviction that AI will enhance their capabilities rather than replace critical skills is eroding.
+
+This growing skepticism among the generation that will live with AI longest represents a strategic challenge for technology companies. Adoption alone may not be enough if the emotional connection continues to weaken.
