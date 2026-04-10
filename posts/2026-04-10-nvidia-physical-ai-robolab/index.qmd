@@ -1,0 +1,35 @@
+---
+title: "NVIDIA's RoboLab Pushes Physical AI Forward"
+date: "2026-04-10 08:45"
+categories:
+  - Research Highlights
+  - AI Tools & Frameworks
+tags:
+  - NVIDIA
+  - robotics
+  - physical AI
+  - simulation
+  - Isaac
+---
+
+As National Robotics Week kicks off, NVIDIA is showcasing significant advances in bringing AI into the physical world through new simulation tools, world models, and open-source robotics platforms.
+
+## RoboLab: Benchmarking Generalist Robot Policies
+
+The centerpiece of NVIDIA's push is **RoboLab**, a high-fidelity simulation benchmark designed for developing and evaluating generalist robot policies. Built on NVIDIA Isaac and Omniverse simulation technologies, RoboLab uses photorealistic environments and physics-based modeling to train and test robotic policies at scale.
+
+The benchmark measures how well behaviors learned in simulation transfer to the real world as tasks grow in complexity — a critical challenge in robotics where the "sim-to-real gap" has long hindered deployment.
+
+## World Models for Smarter Robotics
+
+NVIDIA is also highlighting projects that use **Cosmos Reason** world foundation models to give robots physical understanding before deployment. Doosan Robotics' palletizing system demonstrates this: by analyzing a single camera image, it can infer box contents, detect damage, and adjust handling accordingly — placement, speed, and grip based on estimated weight and fragility.
+
+Toyota Research Institute is customizing Cosmos WFMs for their own world model, achieving state-of-the-art results across dynamic view synthesis, teleoperation data augmentation, and navigation.
+
+## OpenClaw on Jetson Thor
+
+OpenClaw is now running entirely locally on NVIDIA Jetson Thor — powered by optimized NVIDIA Nemotron open models and the vLLM open inference library. This marks a major leap toward private, low-latency edge AI for robotics on edge devices.
+
+## Why It Matters
+
+The combination of better simulation benchmarks (RoboLab), world models that understand physics (Cosmos), and capable edge deployment (Jetson Thor + OpenClaw) represents a converging momentum in physical AI. Robots trained on world models that capture physics and causality need dramatically less real-world data to perform reliably in conditions they've never seen — a fundamental shift for the robotics industry.
