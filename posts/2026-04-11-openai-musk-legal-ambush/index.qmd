@@ -1,0 +1,30 @@
+---
+title: "OpenAI Calls Musk Amended Lawsuit a Legal Ambush as Trial Looms"
+date: "2026-04-11 08:45"
+description: "OpenAI has accused Elon Musk of launching a legal ambush through last-minute amendments to his high-stakes lawsuit, just weeks before the scheduled trial in Oakland. The case, demanding up to 134 billion USD in damages, centers on claims that OpenAI betrayed its founding mission."
+categories: [AI Industry News, Legal]
+---
+
+OpenAI has sharply criticized Elon Musk amended lawsuit, calling it a legal ambush filed at the eleventh hour. The new filing, submitted this week, seeks to remove CEO Sam Altman and President Greg Brockman from their positions and force OpenAI to abandon its for-profit structure.
+
+## A Trial Set for April 27
+
+The jury trial is scheduled to begin on April 27, 2026, in Oakland, California, and is expected to run for four weeks. Musk is seeking damages between 79 billion and 134 billion USD—a figure that the presiding judge has already expressed skepticism about.
+
+In a court filing this week, OpenAI legal team described Musk revised complaint as legally improper and factually unsupported, arguing that the sudden changes constitute an attempt to salvage a weakening case through procedural maneuvering.
+
+## The Core of the Dispute
+
+Musk original lawsuit, filed in 2024, alleged that OpenAI strayed from its founding promise to develop artificial general intelligence for the benefit of humanity rather than for profit. The case has since evolved to include claims that OpenAI transition to a capped-profit structure betrayed early investors who contributed based on the nonprofit mission.
+
+The amended complaint now explicitly asks the court to order Altman removal and force OpenAI to revert to its nonprofit roots. Musk has also indicated he would donate any winnings from the case to charity.
+
+## OpenAI Counterattack
+
+OpenAI has not only defended against the lawsuit but also gone on the offensive. The company has urged California and Delaware regulators to investigate what it calls Musk anti-competitive behavior and has filed arguments emphasizing that the case threatens to undermine OpenAI broader mission to ensure AGI benefits all of humanity.
+
+## What This Means for the AI Industry
+
+This lawsuit sits at the intersection of technology, ethics, and corporate governance. The outcome could set important precedents for how AI companies structure their relationships with investors and whether courts will intervene in the strategic decisions of frontier AI labs.
+
+With just two weeks until the trial begins, both sides are preparing for what promises to be one of the most consequential legal battles in the AI industry short history.
