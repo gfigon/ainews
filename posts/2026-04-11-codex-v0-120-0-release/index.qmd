@@ -1,0 +1,43 @@
+---
+title: "OpenAI Codex v0.120.0 Brings Real-Time Background Agent Streaming"
+date: "2026-04-11 10:15"
+categories:
+  - AI Tools & Frameworks
+  - LLMs & Models
+summary: "OpenAI releases Codex v0.120.0 with major Realtime V2 improvements, enabling developers to stream background agent progress in real-time while work is still running."
+---
+
+OpenAI has released Codex v0.120.0, a significant update to its terminal-based coding agent that introduces real-time background agent progress streaming. This release marks a substantial step forward in making AI-assisted development more transparent and interactive.
+
+## Real-Time Background Agent Streaming
+
+The headline feature of this release is Realtime V2's ability to stream background agent progress while work is still running. Developers can now see their coding agent's thinking process unfold in real-time, with follow-up responses queued until the active response completes. This addresses a long-standing pain point where developers had to wait for complete responses before issuing follow-up commands.
+
+## Improved TUI Experience
+
+The terminal user interface has received notable improvements:
+
+- **Hook activity display** now separates live running hooks from completed hooks, making it easier to scan the current state
+- **Custom status lines** now include the renamed thread title for better context
+- **SessionStart hooks** can now distinguish between sessions created by `/clear`, fresh startup, and resume sessions
+
+## Enhanced Tool Integration
+
+Code-mode tool declarations now include MCP (Model Context Protocol) outputSchema details, enabling more precisely typed structured tool results. This improvement helps developers build more reliable integrations with external tools and services.
+
+## Bug Fixes and Stability
+
+The release includes several important bug fixes:
+
+- Windows elevated sandbox handling for split filesystem policies
+- Sandbox permission handling for symlinked writable roots and carveouts
+- WebSocket client crash fixes for remote connections (`codex --remote`)
+- Preserved tool search result ordering
+- Live Stop-hook prompts appearing immediately
+- Proper cleanup of app-server MCP resources on disconnect
+
+## Documentation Improvements
+
+The core README now documents elevated vs restricted-token Windows sandbox support, and app-server protocol documentation has been updated for the new `/clear` SessionStart source.
+
+This release demonstrates OpenAI's continued investment in making Codex a production-ready coding agent. The real-time streaming capability is particularly significant for developers who need visibility into agent reasoning during complex multi-step tasks.

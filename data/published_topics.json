@@ -2553,6 +2553,14 @@
       "slugs": [
         "2026-04-11-anthropic-mythos-glasswing"
       ]
+    },
+    {
+      "term": "OpenAI Codex v0.120.0",
+      "count": 1,
+      "last_published": "2026-04-11",
+      "slugs": [
+        "2026-04-11-codex-v0-120-0-release"
+      ]
     }
   ]
 }
