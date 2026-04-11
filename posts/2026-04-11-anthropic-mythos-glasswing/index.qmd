@@ -1,0 +1,46 @@
+---
+title: "Anthropic's Mythos: The Dangerous AI Model Too Risky to Release"
+date: "2026-04-11 08:00"
+summary: "Anthropic has unveiled Claude Mythos Preview, an AI model so capable at finding cybersecurity vulnerabilities that it's being kept from the public. Instead, the company is partnering with tech giants like Apple, Microsoft, and Google to patch vulnerabilities before malicious actors get similar tools."
+author: "AI News"
+categories:
+  - "AI Security & Safety"
+  - "Research Highlights"
+tags:
+  - "Anthropic"
+  - "Claude"
+  - "cybersecurity"
+  - "Project Glasswing"
+  - "AI safety"
+---
+
+Anthropic has made a landmark announcement that highlights the growing tension between AI capability and safety. The company revealed **Claude Mythos Preview**, an AI model with such exceptional cybersecurity capabilities that it claims the model is too dangerous to release publicly.
+
+## A New Era of AI-Powered Vulnerability Discovery
+
+According to Anthropic, Mythos Preview has found vulnerabilities in every major browser and operating system. More alarmingly, the model has already discovered:
+
+- A **27-year-old bug** in critical security infrastructure
+- **Multiple vulnerabilities in the Linux kernel**
+- Weaknesses that could threaten everything from streaming services to banking systems
+
+"This is Y2K-level alarming," noted one security expert. The implications are stark: cyberattacks that previously required serious expertise could now be within reach of amateurs, while professionals could be turbocharged in their ability to cause disruption.
+
+## Project Glasswing: A Race Against Time
+
+Rather than releasing Mythos publicly, Anthropic launched **Project Glasswing** — named after the glasswing butterfly known for its transparency. The initiative partners with approximately 40 technology companies, including Apple, Microsoft, Google, and Nvidia, to identify and patch security vulnerabilities before malicious actors obtain similar capabilities.
+
+Lee Klarich of Palo Alto Networks warned: "There will be more attacks, faster attacks and more sophisticated attacks."
+
+## The Regulatory Gap
+
+Despite the urgency, there's currently no regulation at national or international levels forcing other companies to follow Anthropic's cautious deployment strategy. Experts estimate it will likely be only a matter of months before less responsible actors — whether in the US or elsewhere — release models with comparable capabilities.
+
+The question now is whether the critical infrastructure companies given early access to Mythos can patch enough vulnerabilities in time.
+
+## Sources
+
+- [Anthropic's Project Glasswing announcement](https://www.anthropic.com/glasswing)
+- [The Guardian: Anthropic's new AI tool has implications for us all](https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications)
+- [WIRED: Anthropic's Mythos Will Force a Cybersecurity Reckoning](https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/)
+- [Infosecurity Magazine: Anthropic Launches Project Glasswing](https://www.infosecurity-magazine.com/news/anthropic-launch-project-glasswing/)
