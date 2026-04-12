@@ -1,0 +1,39 @@
+---
+title: "CoreWeave Signs Multi-Year Deal to Power Anthropic's Claude"
+date: "2026-04-12 08:00"
+author: "AI News Desk"
+summary: "AI cloud provider CoreWeave secures a multi-year agreement with Anthropic to power Claude inference workloads, just one day after landing a $21B Meta deal. The neocloud now supports 9 of the top 10 AI model providers."
+tags:
+  - CoreWeave
+  - Anthropic
+  - Claude
+  - AI Infrastructure
+  - Cloud Computing
+categories:
+  - Industry News
+---
+
+CoreWeave, the specialized AI cloud provider, has secured a multi-year agreement to power Anthropic's Claude AI models, the company announced Friday. The deal sent CoreWeave shares surging 11% in after-hours trading.
+
+The timing is notable: the Anthropic agreement came just one day after CoreWeave revealed a separate $21 billion commitment from Meta, adding to an existing $14.2 billion deal announced last September. Together, these contracts give CoreWeave a backlog exceeding $66.8 billion.
+
+> "With the addition of Anthropic, nine of the leading ten AI model providers now leverage CoreWeave's platform, reflecting the growing demand for infrastructure that can support AI at scale," CoreWeave said.
+
+The sole holdout among the top ten? xAI, Elon Musk's AI venture.
+
+## Why This Matters
+
+Anthropic's Claude has seen explosive growth in 2025-2026, with the company reporting an annual revenue run rate exceeding $30 billion—up from just $9 billion at the end of 2025. That kind of growth requires massive compute infrastructure, and Anthropic is turning to specialized cloud providers rather than building exclusively in-house.
+
+The deal will begin with a "phased infrastructure roll-out" with potential for expansion. CoreWeave operates data centers packed with hundreds of thousands of Nvidia GPUs.
+
+## The Bigger Picture
+
+CoreWeave went public last year and has taken on significant debt to finance its AI infrastructure build-out. The company held $21 billion in debt at the end of 2025, then added another $8.5 billion in March to fund new capacity. This week, it announced a $3 billion convertible notes offering to support the Meta deal.
+
+"We're focusing our energy on taking advantage of this generational opportunity to massively grow and expand our business," CEO Mike Intrator said on CNBC.
+
+With this Anthropic deal, CoreWeave has cemented its position as the leading neocloud for AI inference—one of the most critical infrastructure pieces in the AI stack today.
+
+---
+*Sources: [CNBC](https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html), [CoreWeave Announcement](https://www.coreweave.com/news/coreweave-announces-multi-year-agreement-with-anthropic)*
