@@ -2569,6 +2569,14 @@
       "slugs": [
         "2026-04-11-codex-v0-120-0-release"
       ]
+    },
+    {
+      "term": "Cisco Astrix Security Acquisition",
+      "count": 1,
+      "last_published": "2026-04-12",
+      "slugs": [
+        "2026-04-12-cisco-astrix-security-acquisition"
+      ]
     }
   ]
 }
