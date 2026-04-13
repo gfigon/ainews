@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI Third-Party Security Vulnerability",
+      "count": 1,
+      "last_published": "2026-04-13",
+      "slugs": [
+        "2026-04-13-openai-third-party-security"
+      ]
+    },
+    {
       "term": "Q1 2026 AI Venture Funding Records",
       "count": 1,
       "last_published": "2026-04-13",
