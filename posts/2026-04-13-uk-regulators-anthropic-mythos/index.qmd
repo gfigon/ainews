@@ -1,0 +1,21 @@
+---
+title: "UK Financial Regulators Launch Emergency Review of Anthropic's Mythos Model"
+date: "2026-04-13 10:15"
+description: "Bank of England, FCA, and Treasury coordinate with NCSC to assess cyber risks from Claude Mythos Preview as major banks prepare for classified briefings."
+categories:
+  - AI Regulation
+  - Industry News
+  - AI Security & Safety
+---
+
+UK financial regulators have launched an emergency review of Anthropic's latest AI model, Claude Mythos Preview, following concerns about its potential cybersecurity capabilities. The Bank of England, Financial Conduct Authority (FCA), and HM Treasury are working with the National Cyber Security Centre (NCSC) to assess risks to critical IT systems.
+
+Major British banks, insurers, and stock exchanges will receive classified briefings on the model's cyber risks within the next two weeks, according to the Financial Times. This marks the first time UK regulators have coordinated such a comprehensive assessment of a single AI model's potential threats to the financial sector.
+
+The review comes amid Anthropic's own characterization of Mythos as their most capable model yet, claiming significant advances in coding, reasoning, and cybersecurity capabilities. The company has limited public release to selected partners and researchers, citing "overwhelming responsibility" concerns.
+
+This regulatory action follows similar scrutiny in the US, where Treasury Secretary Scott Bessent summoned major bank CEOs to discuss potential risks from the model. The coordinated international response signals growing concern among policymakers about frontier AI systems and their implications for financial stability.
+
+The UK move positions Britain as taking a proactive regulatory stance on AI safety, contrasting with the country's approach to earlier AI developments. The briefings will cover potential attack vectors, defensive capabilities, and systemic risks if the technology were to be misused or compromised.
+
+Anthropic declined to comment on the regulatory review. The BoE, FCA, and NCSC also declined to provide official statements, though the urgency of the situation is clear—financial institutions representing the backbone of the UK economy are being directly engaged on AI risk within a two-week timeframe.
