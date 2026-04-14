@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Stanford AI Index 2026",
+      "count": 1,
+      "last_published": "2026-04-14",
+      "slugs": [
+        "2026-04-14-stanford-ai-index-2026"
+      ]
+    },
+    {
       "term": "OpenAI Third-Party Security Vulnerability",
       "count": 1,
       "last_published": "2026-04-13",
