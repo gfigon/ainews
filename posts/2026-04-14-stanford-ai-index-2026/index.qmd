@@ -1,0 +1,30 @@
+---
+title: "Stanford's AI Index 2026: The Best and Worst of AI Progress"
+date: "2026-04-14 08:00"
+summary: "The annual Stanford AI Index report reveals jaw-dropping progress—and troubling gaps in how we measure and govern AI."
+categories: [Research Highlights]
+---
+
+Stanford University's Human-Centered Artificial Intelligence institute just released its 2026 AI Index, a 400+ page report that paints a paradoxical picture of AI today: models are improving faster than ever, but the benchmarks we use to measure them are often broken, and the infrastructure supporting this boom is remarkably fragile.
+
+## The Good: AI Models Keep Improving
+
+Despite predictions of a plateau, the top AI models continue to advance at a remarkable pace. On SWE-bench Verified, a software engineering benchmark, scores jumped from around 60% in 2024 to nearly 100% in 2025. On Humanity's Last Exam—a benchmark of PhD-level questions—the top model (OpenAI's o1) scored just 8.8% in 2025, but as of April 2026, leading models like Anthropic's Claude Opus 4.6 and Google's Gemini 3.1 Pro now exceed 50% accuracy.
+
+Agentic AI has seen the most dramatic gains. The OSWorld benchmark, testing autonomous computer use, shows steep improvement lines that would have seemed impossible two years ago.
+
+## The Bad: Benchmarks Are Broken
+
+Here's the uncomfortable truth: the benchmarks designed to track AI progress can't keep up. Some are poorly constructed—a popular math benchmark has a 42% error rate. Others can be gamed when models train on benchmark test data. And strong benchmark performance doesn't always translate to real-world capability.
+
+"We're in a situation where the metrics don't match the mission," says Yolanda Gil, a computer scientist at USC who co-authored the report. "Knowing a legal reasoning benchmark has 75% accuracy tells us little about how well it would function in an actual law practice."
+
+## The Ugly: Infrastructure Strains
+
+AI data centers worldwide now draw 29.6 gigawatts of power—enough to run the entire state of New York at peak demand. Training xAI's Grok 4 alone generated an estimated 72,000 to 140,000 tons of carbon emissions, far exceeding previous models. GPT-4 was estimated at 5,184 tons; Meta's Llama 3.1 405B at 8,930 tons.
+
+Meanwhile, the chip supply chain remains alarmingly fragile. One company in Taiwan—TSMC—fabricates almost every leading AI chip. The US hosts most of the world's 5,427 AI data centers, but faces dependencies that could be weaponized.
+
+## The Bottom Line
+
+The report reveals a technology evolving faster than we can manage: our benchmarks are broken, our infrastructure is strained, and our policies are playing catch-up. AI is sprinting, and the rest of us are still trying to find our shoes.
