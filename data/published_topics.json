@@ -2617,6 +2617,14 @@
       "slugs": [
         "2026-04-14-stanford-ai-index-2026"
       ]
+    },
+    {
+      "term": "Anthropic Mythos Glasswing Project",
+      "count": 1,
+      "last_published": "2026-04-14",
+      "slugs": [
+        "2026-04-14-anthropic-mythos-glasswing"
+      ]
     }
   ]
 }

@@ -1,0 +1,57 @@
+---
+title: "Stanford AI Index 2026: Record Investments Meet Growing Skepticism"
+date: "2026-04-14 08:45"
+categories:
+  - Research Highlights
+  - AI Security & Safety
+  - Industry News
+summary: "The 2026 Stanford AI Index reveals AI investment hit $581B in 2025 while public trust in AI regulation remains low. Meanwhile, Anthropic restricts its powerful Mythos cybersecurity model amid hacking concerns."
+---
+
+The 2026 Stanford AI Index Report, released today, paints a picture of an industry at a crossroads. Global AI investment reached a record $581 billion in 2025—more than double 2024's $253 billion—with over $344 billion flowing into U.S. companies. Yet alongside this explosive growth, the report documents growing tensions: public skepticism toward AI regulation is rising, data center restrictions are emerging in local jurisdictions, and even AI experts are questioning whether benchmarks translate to real-world performance.
+
+The report, over 400 pages, tracks dozens of metrics across model capabilities, investment, robotics deployment, research output, and public perception. Here's what matters.
+
+## The Investment Boom Continues
+
+The scale of AI infrastructure build-out remains staggering. According to Epoch AI, world AI compute capacity has grown 3.3x annually since 2022—30-fold since 2021. Nvidia GPUs account for over 60% of global AI compute capacity, though Amazon and Google are scaling their own custom silicon.
+
+GitHub tells a similar story: AI-related projects reached 5.58 million by end of 2025, a 23.7% increase from 2024 and roughly five-fold since 2020. The number of AI projects with 10+ stars has grown proportionally, suggesting genuine human engagement rather than bot activity.
+
+## Benchmarks Are Being Crushed—But Does It Matter?
+
+AI models are defeating benchmarks faster than ever. On Humanity's Last Exam, top models now exceed 50% accuracy (Anthropic's Claude Opus 4.6 and Google's Gemini 3.1 Pro leading as of April 2026), up from just 8.8% in 2025. Agentic AI has seen the most extreme gains on OSWorld (autonomous computer use) and SWE-Bench Verified (software engineering).
+
+Yet Ray Perrault, co-director of the AI Index steering committee, cautions against overinterpreting benchmark scores. "We generally lack measures of how well a system needs to function in a particular setting," he noted. "Knowing a benchmark for legal reasoning has 75% accuracy tells us little about how well it would fit in a law practice."
+
+There's also a striking gap between model capabilities and basic physical reasoning. ClockBench, measuring multimodal LLM ability to read analog clocks, found even the best model (GPT-5.4) only achieves 50-50 accuracy. Claude Opus 4.6 scored just 8.9%.
+
+## The Public Perception Paradox
+
+The report's most surprising finding: public optimism about AI has actually increased slightly. 59% of Ipsos survey respondents said "the benefits outweigh the drawbacks," up from 55% in 2024. 68% reported having a "good understanding" of AI.
+
+But trust in government AI regulation tells a different story. The U.S. ranks lowest—only 31% trust the government to regulate AI—even as it leads in investment. European countries and Japan show similarly low trust. Meanwhile, Southeast Asian countries show growing positivity toward AI.
+
+The employment picture remains unclear. Entry-level positions in software development and customer support have decreased, while mid-career and senior roles have held steady. Counterintuitively, unemployment among workers least exposed to AI has risen more than among those most exposed.
+
+## Anthropic Mythos: When Capabilities Become Liabilities
+
+While the Stanford report documents broad trends, a parallel story is unfolding in real-time. Anthropic released Claude Mythos Preview this week—and immediately restricted its release.
+
+Internal red teaming demonstrated the model could chain together exploits against every major OS and web browser. The model discovered a 27-year-old bug in critical internet software and a 16-year-old flaw in video code. Yet over 99% of vulnerabilities Mythos uncovered remain unpatched.
+
+Rather than public release, Anthropic launched Project Glasswing, partnering with major tech companies, cybersecurity vendors, and JPMorgan Chase. The U.K.'s Financial Conduct Authority is holding urgent talks with banks to assess Mythos-related risks.
+
+This represents a new tension in AI development: the most capable models may be too dangerous to release, yet their capabilities are real and valuable. The industry is grappling with how to give defenders an advantage without empowering attackers.
+
+## The Carbon Question
+
+Training frontier models continues to generate enormous carbon emissions. The report estimates xAI's Grok 4 training produced over 72,000 tons of CO₂ (Epoch AI independently estimates ~140,000 tons). This is up dramatically from GPT-4's estimated 5,184 tons and Llama 3.1 405B's 8,930 tons.
+
+Inference emissions vary by model efficiency. DeepSeek V3 consumes ~23 watts per medium-length prompt, while Claude 4 Opus uses ~5 watts—over 10x difference.
+
+---
+
+The Stanford AI Index 2026 arrives at a pivotal moment. The technical trajectory remains steep—investment, capabilities, and deployment are all accelerating. But the gap between what AI can do and how society prepares to manage it continues to widen. The question is no longer whether AI will transform industries, but whether governance can keep pace.
+
+*Sources: [Stanford HAI](https://hai.stanford.edu/ai-index/2026-ai-index-report), [IEEE Spectrum](https://spectrum.ieee.org/state-of-ai-index-2026), [Reuters](https://www.reuters.com/legal/litigation/ai-boosted-hacks-with-anthropics-mythos-could-have-dire-consequences-banks-2026-04-13/), [Anthropic Glasswing](https://www.anthropic.com/glasswing)*
