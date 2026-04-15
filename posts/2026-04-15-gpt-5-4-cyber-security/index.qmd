@@ -1,0 +1,36 @@
+---
+title: "OpenAI Unveils GPT-5.4-Cyber: A New Cybersecurity-Focused Model"
+date: "2026-04-15 10:15"
+author: "AI News"
+summary: "OpenAI releases GPT-5.4-Cyber, a cybersecurity-focused AI model designed to find vulnerabilities in software systems, weeks after Anthropic's restrained Mythos model announcement."
+tags:
+  - Cybersecurity
+  - OpenAI
+  - AI Models
+  - GPT-5
+categories:
+  - AI Tools & Frameworks
+status: published
+---
+
+OpenAI has announced the release of **GPT-5.4-Cyber**, a new AI model specifically designed for cybersecurity applications, just a week after rival Anthropic announced its own restricted Claude Mythos Preview model.
+
+## What is GPT-5.4-Cyber?
+
+GPT-5.4-Cyber is OpenAI's first AI model explicitly built for defensive cybersecurity purposes. The model is designed to identify and find vulnerabilities in operating systems, web browsers, and other software applications.
+
+According to OpenAI, the model has already discovered "thousands" of major vulnerabilities during internal testing. This announcement comes on the heels of Anthropic's April 7 reveal of Claude Mythos Preview, which is being privately released to select organizations under a controlled initiative called "Project Glasswing."
+
+## Limited Rollout for Security Reasons
+
+Similar to Anthropic's approach with Mythos, OpenAI will initially roll out GPT-5.4-Cyber on a limited basis. Access will be restricted to vetted security vendors, organizations, and researchers who meet certain criteria.
+
+This measured approach reflects the broader industry trend of restraint when releasing powerful AI systems that could potentially be exploited by malicious actors. Both OpenAI and Anthropic have chosen to limit access rather than make these powerful cybersecurity tools publicly available.
+
+## The AI Cybersecurity Race
+
+The release intensifies the competition between OpenAI and Anthropic in the AI cybersecurity space. While Anthropic focuses on a controlled, private deployment model, OpenAI is taking a slightly more open approach—though still with significant restrictions.
+
+As AI models become increasingly capable of discovering and potentially exploiting system vulnerabilities, the industry is grappling with how to balance the benefits of defensive AI with the risks of giving bad actors powerful new tools.
+
+For now, both companies are prioritizing careful deployment over broad accessibility—a sign of the maturing approach to AI safety in 2026.
