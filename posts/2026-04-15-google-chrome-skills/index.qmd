@@ -1,0 +1,39 @@
+---
+title: "Google Launches 'Skills' in Chrome: One-Click AI Workflows for Everyone"
+date: "2026-04-15 08:00"
+summary: "Google rolls out 'Skills' in Chrome, letting users save AI prompts as reusable one-click workflows directly in the browser. The feature integrates with Gemini and could reshape how everyday users interact with AI agents."
+categories:
+  - AI Tools & Frameworks
+  - Agentic AI
+---
+
+Google just announced the release of **Skills in Chrome**, a new feature built directly into Gemini in Chrome that lets users save frequently used AI prompts as reusable, one-click browser workflows. This marks a significant step toward making AI agents accessible to everyday users—not just developers.
+
+## What Are Chrome Skills?
+
+**Skills** are essentially saved AI prompt templates that users can trigger with a single click. Instead of typing out complex instructions every time, users can create a Skill once and run it whenever needed. Think of it as macro recording for AI interactions, but powered by Gemini.
+
+The feature supports:
+
+- **Custom prompt templates** with placeholders for dynamic input
+- **One-click execution** from the Chrome toolbar
+- **Integration with Gemini's reasoning capabilities**
+- **Browser context awareness** (tabs, history, active content)
+
+## Why It Matters
+
+Until now, creating reusable AI workflows required either coding custom agents or using third-party automation platforms. Chrome Skills brings this capability directly into the browser, no setup required.
+
+For example, a user could create a Skill that:
+1. Takes a YouTube URL as input
+2. Extracts the key ideas using Gemini
+3. Formats them into meeting notes
+4. Saves directly to Google Docs
+
+All with one click.
+
+## The Bigger Picture
+
+This move positions Chrome as more than a browser—it's becoming an AI workflow hub. With Skills, Google is betting that **prompt reuse** will be the gateway for mainstream AI adoption. Rather than asking users to write perfect prompts every time, Chrome Skills lets them build once, use forever.
+
+The feature is rolling out globally over the next two weeks.
