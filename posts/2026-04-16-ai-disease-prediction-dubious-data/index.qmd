@@ -1,0 +1,32 @@
+---
+title: "Dozens of AI Disease-Prediction Models Trained on Dubious Data"
+date: "2026-04-16 08:45"
+summary: "Researchers have discovered that numerous AI models designed to predict stroke and diabetes risk were trained on health datasets with fabricated or unreliable origins, potentially compromising clinical decisions."
+---
+
+A troubling new revelation from the AI research community: dozens of artificial intelligence models used to predict stroke and diabetes risk have been trained on datasets of questionable origin, according to a preprint published on medRxiv.
+
+## The Discovery
+
+Researchers at Queensland University of Technology in Australia, led by statistician Adrian Barnett, identified 124 peer-reviewed papers that used one of two open-access health datasets to train machine learning models. Upon closer analysis, the team found multiple irregularities that suggest the data may have been fabricated.
+
+## Key Findings
+
+The investigation uncovered several concerning patterns:
+
+- **Incomplete data anomalies**: One stroke prediction dataset showed almost no missing data points, which is highly unusual for real-world health data where participants frequently drop out or miss follow-ups
+- **Suspicious values**: A diabetes dataset contained only 18 discrete blood glucose values across 100,000 participants—an impossibility given natural biological variation
+- **Widespread usage**: 104 research articles used the stroke dataset, with at least two models deployed in hospitals in Indonesia and Spain
+- **Patent inclusion**: One model was documented in a medical-device patent application filed in 2024
+
+## Clinical Implications
+
+The implications for healthcare are significant. According to Soumyadeep Bhaumik, a public health researcher at the George Institute for Global Health, "prediction models trained on provenance-unknown data have no place in clinical decision-making. They are intrinsically unreliable."
+
+These models could lead clinicians to make inappropriate decisions—either prescribing unnecessary treatments or failing to prescribe needed care when patients are misclassified as low-risk.
+
+## Industry Response
+
+The datasets in question were uploaded to Kaggle, a popular platform for machine learning datasets. The stroke dataset has been downloaded over 288,000 times. Both dataset creators claimed confidentiality restrictions prevented them from disclosing data sources.
+
+At least two journals are now investigating studies that used these datasets. The research community is calling for institutions and funders to mandate disclosure of data provenance for AI models used in medical applications.
