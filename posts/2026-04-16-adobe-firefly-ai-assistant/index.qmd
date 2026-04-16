@@ -1,0 +1,34 @@
+---
+title: Adobe Firefly AI Assistant Brings Agentic Creativity to Creative Cloud
+date: "2026-04-16 08:00"
+summary: Adobe unveiled Firefly AI Assistant, a conversational AI that orchestrates multi-step workflows across Photoshop, Premiere, Illustrator and other Creative Cloud apps.
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+---
+
+Adobe has unveiled **Firefly AI Assistant**, a new conversational AI that fundamentally shifts how creative work is done by allowing creators to describe desired outcomes in their own words while the assistant orchestrates and executes complex, multi-step workflows across Adobe's Creative Cloud applications.
+
+The assistant integrates with Photoshop, Firefly, Premiere Pro, Lightroom, Express, Illustrator and more—all within a single conversational interface. Creators simply describe what they want to achieve, and the AI handles the orchestration across apps, maintaining context and progress across sessions.
+
+### Key Features
+
+- **Unified Conversational Interface**: Firefly AI Assistant brings content creation into a single conversational experience within the Firefly app, eliminating the need to switch between multiple applications.
+
+- **Creator-Led Control**: The assistant keeps creators in control by asking contextual questions, surfacing decisions and presenting suggestions—creators can step in at any point to guide or refine outputs.
+
+- **Pre-built Creative Skills**: A growing library of purpose-built Creative Skills enables the assistant to execute complex multi-step tasks from a single prompt, from retouching portrait photos with consistent presets to generating content across social channels.
+
+- **Personalization**: The assistant learns each creator's preferences over time, including preferred tools, workflows and aesthetic choices, delivering more tailored results.
+
+- **Frame.io Integration**: Creators can ask the assistant to organize and share work in Frame.io for stakeholder review, then interpret feedback and automatically apply changes.
+
+Adobe is also bringing this new way of creating to third-party AI models including Anthropic's Claude, enabling creators to conceptualize a project in Claude and execute it directly in Adobe Firefly.
+
+### Expanded Video and Image Capabilities
+
+The Firefly Video Editor adds studio-quality sound enhancements, advanced color adjustments and Adobe Stock integration. New precision image editing features include Precision Flow and AI Markup. Firefly's roster of over 30 top industry AI models now includes Kling 3.0 and Kling 3.0 Omni, joining Google Nano Banana 2, Veo 3.1, Runway Gen-4.5 and ElevenLabs Multilingual v2.
+
+This marks Adobe's push into **agentic creativity**—where AI handles execution while humans provide vision, judgment and creative direction.
+
+**Sources**: [Adobe News](https://news.adobe.com/news/2026/04/adobe-new-creative-agent)
