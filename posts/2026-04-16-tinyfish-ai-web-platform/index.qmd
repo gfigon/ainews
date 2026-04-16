@@ -1,0 +1,31 @@
+---
+title: "TinyFish AI Launches Complete Web Infrastructure Platform for AI Agents"
+date: "2026-04-16 10:15"
+author: "AI News"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "TinyFish AI consolidates web search, browser automation, and content extraction into a unified platform, offering AI agents a streamlined path to interact with the live web without token-heavy MCP workflows."
+---
+
+Building AI agents that can reliably interact with live websites has long been hampered by fragmented tooling. Developers typically stitch together separate providers for search, browser control, and content retrieval—each requiring its own API, authentication, and integration boilerplate. TinyFish AI, a Palo Alto-based startup previously known for a standalone web agent, aims to change that calculus with a new platform that consolidates four essential capabilities under a single API key.
+
+The platform introduces Web Agent, Web Search, Web Browser, and Web Fetch as unified products. Web Agent executes autonomous multi-step workflows on real websites—navigating pages, filling forms, and returning structured data without hand-scripted sequences. Web Search delivers clean JSON results through a custom Chromium engine with a reported P50 latency of roughly 488 milliseconds, substantially faster than the 2,800ms average seen in competing services.
+
+Perhaps more significant is the underlying architecture. TinyFish built every layer of the stack in-house—search, fetch, browser, and agent logic—rather than assembling third-party APIs. This matters for optimization: when an agent task succeeds or fails, TinyFish gets end-to-end signal on exactly what was searched, what was fetched, and where breakage occurred. That feedback loop is unavailable to companies relying on vendor components.
+
+## The Token Efficiency Argument
+
+For agent developers, the token efficiency story is compelling. When using standard web fetch tools, agents typically pull entire pages into context—including navigation elements, ad code, and boilerplate markup—polluting the context window before the model even sees relevant content. TinyFish Fetch renders pages in a full browser and returns only clean Markdown or JSON. Benchmarks suggest approximately 100 tokens per operation versus roughly 1,500 for equivalent MCP workflows—an 87% reduction.
+
+The architectural difference extends beyond token count. MCP operations dump output directly into the agent's context window sequentially. TinyFish CLI instead writes output to the filesystem, letting the agent read only what it needs. This preserves context clarity across multi-step workflows and enables composability through native Unix pipes.
+
+A CLI and Agent Skill system ships alongside the API endpoints. Installing the skill teaches AI coding agents—including Claude Code, Cursor, Codex, and OpenClaw—how to invoke TinyFish endpoints autonomously. Developers simply ask their agent to "get competitor pricing from these five sites," and the agent handles endpoint selection and execution without manual SDK integration.
+
+## Why Unified Matters
+
+The practical cost of fragmented tooling compounds over time. Search finds a page the fetch layer cannot render. Fetch returns content the agent cannot parse. Browser sessions drop context between steps. Teams end up writing retry logic, fallback handlers, and validation layers—engineering work that accumulates.
+
+TinyFish also maintains session consistency across workflows: same IP, same fingerprint, same cookies throughout. Separate tools operating independently appear to target sites as multiple unrelated clients, increasing detection risk and failure rates.
+
+The platform offers 500 free steps with no credit card required, with pricing for higher volumes. For teams building agents that operate on the live web, the consolidation could meaningfully reduce integration overhead.
