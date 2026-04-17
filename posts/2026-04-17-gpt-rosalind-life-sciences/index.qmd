@@ -1,0 +1,62 @@
+---
+title: "OpenAI Unveils GPT-Rosalind: A Purpose-Built AI Model for Life Sciences Research"
+date: "2026-04-17 10:15"
+description: "OpenAI launches GPT-Rosalind, a specialized frontier reasoning model designed for biology, drug discovery, and translational medicine workflows."
+author: "AI News Daily"
+categories:
+  - Research Highlights
+  - LLMs & Models
+tags:
+  - OpenAI
+  - GPT-Rosalind
+  - Life Sciences
+  - Drug Discovery
+  - Scientific AI
+links:
+  - text: "OpenAI Release Notes - GPT-Rosalind"
+    url: "https://releasebot.io/updates/openai"
+    nofollow: true
+  - text: "GPT-Rosalind Research Preview"
+    url: "https://openai.com/research"
+    nofollow: true
+---
+
+OpenAI has introduced **GPT-Rosalind**, a specialized frontier reasoning model optimized for research across biology, drug discovery, and translational medicine. Named after Rosalind Franklin—whose pioneering work helped reveal the structure of DNA—this model represents OpenAI's first entry into domain-specific AI for life sciences.
+
+## Why a Specialized Model?
+
+The traditional drug discovery pipeline takes roughly 10 to 15 years from target discovery to regulatory approval. OpenAI argues that gains made at the earliest stages compound dramatically downstream: better target selection leads to stronger biological hypotheses and higher-quality experiments. The challenge isn't just the underlying science—it's the sheer complexity of research workflows, where scientists must navigate vast volumes of literature, specialized databases, experimental data, and evolving hypotheses.
+
+GPT-Rosalind is designed to accelerate these early-stage workflows by helping researchers explore more possibilities, surface hidden connections, and arrive at better hypotheses faster.
+
+## Key Capabilities
+
+The model delivers strong performance on tasks requiring reasoning over:
+
+- Molecules and chemical reactions
+- Protein structure, mutation effects, and interactions
+- Phylogenetic interpretation of DNA sequences
+- Multi-step research workflows including literature review, sequence-to-function interpretation, experimental planning, and data analysis
+
+It also connects to over 50 scientific tools and data sources through a new Life Sciences research plugin for Codex.
+
+## Performance Highlights
+
+On **BixBench**, a benchmark for real-world bioinformatics and data analysis, GPT-Rosalind achieved leading performance among published models.
+
+On **LABBench2**, measuring research tasks like literature retrieval, database access, and protocol design, GPT-Rosalind outperformed GPT-5.4 on 6 out of 11 tasks—with particularly notable improvements in CloningQA, which requires end-to-end design of DNA and enzyme reagents for molecular cloning.
+
+In an independent evaluation with **Dyno Therapeutics** (AI-designed gene therapies), best-of-ten model submissions ranked above the 95th percentile of human experts on RNA sequence prediction and around the 84th percentile on sequence generation.
+
+## Industry Adoption
+
+GPT-Rosalind is now available as a research preview in ChatGPT, Codex, and the API through OpenAI's trusted access program. Early customers include **Amgen**, **Moderna**, the **Allen Institute**, and **Thermo Fisher Scientific**.
+
+> *"The life sciences field demands precision at every step. Our collaboration with OpenAI enables us to apply their most advanced capabilities in innovative ways with the potential to accelerate how we deliver medicines to patients."*
+> — Sean Bruich, Senior Vice President of AI and Data, Amgen
+
+## What This Means
+
+This launch signals a broader trend: frontier AI providers are moving beyond general-purpose models toward domain-optimized variants. As scientific workflows become more complex and tool-heavy, specialized models with deeper biochemical reasoning may become essential infrastructure for pharmaceutical research, biotechnology, and academic science.
+
+GPT-Rosalind is the first in a planned life sciences model series—OpenAI plans to continue expanding its biochemical reasoning capabilities over time.
