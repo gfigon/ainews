@@ -1,0 +1,16 @@
+---
+title: "OpenAI Signs $20B+ Cerebras Deal in Bet Beyond Nvidia"
+date: "2026-04-18 08:45"
+author: "AI News"
+categories: ["LLMs & Models", "AI Tools & Frameworks"]
+tags: ["OpenAI", "Cerebras", "AI chips", "Nvidia", "inference"]
+summary: "OpenAI commits over $20 billion to Cerebras for AI servers over three years, potentially taking an equity stake, as it diversifies beyond Nvidia dominance."
+---
+
+OpenAI has struck a massive deal with chip startup Cerebras worth more than $20 billion over three years, according to reports from The Information and Reuters. The agreement will see OpenAI use Cerebras-powered servers for AI inference, potentially receiving an equity stake in return—a rare move for theChatGPT maker to diversify its compute infrastructure away from Nvidia.
+
+The deal signals OpenAI's push to reduce reliance on Nvidia GPUs, which currently dominate the AI training and inference market. Cerebras, known for its wafer-scale engine technology, offers an alternative approach to AI compute that could help OpenAI manage escalating infrastructure costs as model sizes continue to grow.
+
+Cerebras is also reportedly planning a $3 billion offering next month at a valuation around $35 billion, with an IPO targeting a valuation of $22-25 billion. The OpenAI deal could provide significant momentum for the chip startup's public market debut.
+
+This comes amid a broader wave of AI infrastructure spending. TSMC recently reported a 58% profit increase driven by AI chip demand, while the chip sector continues to see unprecedented investment across the value chain.

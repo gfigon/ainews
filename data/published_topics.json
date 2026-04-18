@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI Cerebras 0B Deal",
+      "count": 1,
+      "last_published": "2026-04-18",
+      "slugs": [
+        "2026-04-18-openai-cerebras-20b-deal"
+      ]
+    },
+    {
       "term": "Claude Design",
       "count": 1,
       "last_published": "2026-04-18",
