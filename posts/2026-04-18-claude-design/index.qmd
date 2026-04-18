@@ -1,0 +1,36 @@
+---
+title: "Anthropic Launches Claude Design, Its First Visual Design Tool"
+date: "2026-04-18 08:00"
+summary: "Anthropic introduces Claude Design, a new experimental product enabling users to create prototypes, slides, and visual assets through natural language prompts, directly challenging Figma and Canva in the design tools market."
+categories:
+  - AI Tools & Frameworks
+  - LLMs & Models
+---
+
+Anthropic has unveiled **Claude Design**, its first-ever visual design product, marking a significant expansion beyond text-based AI assistants into the creative tools market. The new experimental product was announced on April 17, 2026, and is available in research preview for Claude Pro, Max, Team, and Enterprise subscribers.
+
+### What Claude Design Does
+
+Claude Design allows users to generate visual assets—including prototypes, slide decks, one-pagers, and interactive websites—simply by describing what they want in natural language. For instance, a user could ask: *"Prototype a serene mobile meditation app with calming typography, subtle nature-inspired colors, and a clean layout."*
+
+From there, users can refine the output through direct edits or additional requests, such as adjusting colors, changing typography size, or adding a dark mode toggle.
+
+### Design System Integration
+
+A notable feature is Claude Design's ability to apply a team's existing design system to every project. By reading a company's codebase and design files, the tool ensures consistent visual identity across all outputs. Teams can maintain multiple design systems and refine components as needed.
+
+### Export Options and Canva Integration
+
+Once created, designs can be exported in multiple formats: PDF, URLs, PPTX files, or sent directly to Canva for further editing. Interestingly, Anthropic positions Claude Design as **complementary to Canva** rather than a replacement—it's designed for people who aren't starting from a design tool and need to get from idea to visualization quickly.
+
+### Market Position and Competition
+
+The launch directly challenges established design platforms like Figma and Canva. The timing is notable: Anthropic reached roughly $20 billion in annualized revenue in early March 2026, up from $9 billion at the end of 2025, and surpassed $30 billion by early April 2026, according to Bloomberg. Reports also indicate that VCs have been offering Anthropic a funding round valuing the company at $800 billion or more—potentially matching or surpassing rival OpenAI.
+
+### Built on Claude Opus 4.7
+
+Claude Design is powered by **Claude Opus 4.7**, Anthropic's latest flagship model released just a day earlier on April 16. This positions the design tool as part of Anthropic's broader strategy to expand its enterprise and prosumer offerings.
+
+This announcement follows Anthropic's earlier releases of **Claude Cowork** (an agentic assistant for complex tasks) and **Claude Code** (for developers), forming a growing suite of workplace AI tools designed to compete directly with offerings from OpenAI, Google, and Microsoft.
+
+**Sources**: [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/), [VentureBeat](https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma), [Anthropic News](https://www.anthropic.com/news/claude-design-anthropic-labs)
