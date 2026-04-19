@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "xAI Grok Speech APIs",
+      "count": 1,
+      "last_published": "2026-04-19",
+      "slugs": [
+        "2026-04-19-xai-grok-speech-apis"
+      ]
+    },
+    {
       "term": "OpenAI Cerebras 0B Deal",
       "count": 1,
       "last_published": "2026-04-18",

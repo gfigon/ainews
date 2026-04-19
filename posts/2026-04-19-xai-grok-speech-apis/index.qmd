@@ -1,0 +1,25 @@
+---
+title: "xAI Launches Grok Speech APIs at 60% Lower Pricing Than Competitors"
+date: "2026-04-19 08:00"
+author: "AI News"
+categories: ["AI Tools & Frameworks"]
+summary: "xAI releases standalone Grok Speech-to-Text and Text-to-Speech APIs, undercutting enterprise transcription services by 60% while promising lower error rates across 25+ languages."
+---
+
+xAI has unveiled standalone Grok Speech-to-Text (STT) and Text-to-Speech (TTS) APIs, marking the company's first major push into the enterprise audio services market. The launch positions Grok as a direct competitor to established players like ElevenLabs, Deepgram, and OpenAI's Whisper API.
+
+## What the APIs Offer
+
+The Grok STT API delivers transcription with word-level timestamps and speaker diarization across more than 25 supported languages. Pricing tiers start at $0.10 per hour for batch processing and $0.20 per hour for real-time streaming—a significant undercut compared to competitors charging $0.25-$0.40 per minute for similar quality.
+
+The Grok TTS API generates natural speech synthesis with granular voice control via tags, priced at $4.20 per million characters. xAI claims both APIs leverage technology originally developed for Grok Voice, Tesla vehicle integration, and Starlink customer support systems.
+
+## Competitive Landscape
+
+The timing is strategic. Enterprise voice AI demand has surged with the rise of AI agents and call center automation. xAI's 60% price reduction could intensify competition in a market where Deepgram, AssemblyAI, and ElevenLabs have dominated enterprise transcription.
+
+Early benchmarks cited by xAI show the Grok STT achieving lower word error rates than both ElevenLabs and Deepgram on standard evaluation sets, though independent verification remains limited.
+
+## Why It Matters
+
+Voice interfaces are becoming a primary interaction mode for AI agents. By offering low-cost speech APIs, xAI enables developers to build voice-enabled applications without bleeding money on transcription services. The move also strengthens Grok's ecosystem across Tesla, SpaceX, and potential future hardware—creating a unified audio stack that spans consumer vehicles, communication infrastructure, and developer tools.
