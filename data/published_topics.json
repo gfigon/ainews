@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "FBI IC3 AI Cybercrimes",
+      "count": 1,
+      "last_published": "2026-04-19",
+      "slugs": [
+        "2026-04-19-fbi-ic3-ai-cybercrimes"
+      ]
+    },
+    {
       "term": "xAI Grok Speech APIs",
       "count": 1,
       "last_published": "2026-04-19",
