@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Sam Altman Molotov Attack",
+      "count": 1,
+      "last_published": "2026-04-20",
+      "slugs": [
+        "2026-04-20-altman-attack-ai-backlash"
+      ]
+    },
+    {
       "term": "Cursor AI $2B Funding $50B Valuation",
       "count": 1,
       "last_published": "2026-04-20",
