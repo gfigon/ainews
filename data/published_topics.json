@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Google Marvell AI Chips",
+      "count": 1,
+      "last_published": "2026-04-20",
+      "slugs": [
+        "2026-04-20-google-marvell-ai-chips"
+      ]
+    },
+    {
       "term": "Anthropic 800B Valuation",
       "count": 1,
       "last_published": "2026-04-19",

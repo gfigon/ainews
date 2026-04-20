@@ -1,0 +1,39 @@
+---
+title: "Google Partners with Marvell for Custom AI Inference Chips"
+date: "2026-04-20 08:00"
+author: "AI News"
+summary: "Google is expanding its AI chip strategy by partnering with Marvell Technology to develop two new custom inference chips, adding a third design partner to complement its existing TPU supply chain with Broadcom."
+categories:
+  - "AI Chips"
+  - "Industry News"
+tags:
+  - "Google"
+  - "Marvell"
+  - "AI inference"
+  - "TPU"
+  - "ASIC"
+  - "Custom silicon"
+---
+
+Google is diversifying its AI chip supply chain by entering talks with **Marvell Technology** to develop two new custom inference chips, according to a report from *The Information* cited by Reuters. This move adds a third design partner to Google's AI chip ecosystem, complementing its existing relationships with Broadcom for Tensor Processing Units.
+
+## Why This Matters
+
+The partnership comes at a critical time. With AI inference demand projected to grow **45% in 2026**, Google is strategically building redundancy in its semiconductor supply chain. Custom ASICs (Application-Specific Integrated Circuits) offer significant advantages over general-purpose GPUs in terms of cost efficiency and power consumption for specific AI workloads.
+
+Marvell, known for its expertise in custom chip design and storage infrastructure, has been expanding its AI accelerator business. The company has established partnerships with major cloud providers and developed a custom HBM (High Bandwidth Memory) compute architecture that optimizes AI accelerator performance.
+
+## Industry Context
+
+This isn't Google's first move toward chip diversification. In March 2026, Meta announced a landmark **$100 billion partnership with AMD** to develop custom AI chips, signaling a broader industry trend toward vertical integration in AI hardware.
+
+The AI chip market is projected to reach **$1.3 trillion by 2030**, according to Bank of America forecasts. Both Google and Meta's strategies reflect a recognition that controlling silicon destiny is becoming a competitive necessity—not just for cost savings, but for guaranteeing supply chain resilience in an era of export controls and shortages.
+
+## What Comes Next
+
+If the talks materialize into production agreements, these new Marvell-designed chips would likely target specific inference workloads in Google's data centers, potentially reducing reliance on third-party GPU suppliers. With inference costs still a major bottleneck for AI deployment, custom silicon could provide meaningful efficiency gains.
+
+The broader implication: the AI hardware landscape is fragmenting into vertically integrated giants, as major players seek to control their own destinies from model architecture to silicon.
+
+---
+*Sources: [Reuters](https://www.reuters.com/business/google-talks-with-marvell-build-new-ai-chips-inference-information-reports-2026-04-19/), [The Next Web](https://thenextweb.com/news/google-marvell-ai-chips-inference-tpu-broadcom)*
