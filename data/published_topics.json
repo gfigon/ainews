@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "count": 1,
+      "last_published": "2026-04-21",
+      "slugs": [
+        "2026-04-21-ai-agent-interoperability-standard"
+      ],
+      "term": "AI Agent Interoperability Standard"
+    },
+    {
       "term": "Google Sergey Brin Strike Team Claude",
       "count": 1,
       "last_published": "2026-04-21",
