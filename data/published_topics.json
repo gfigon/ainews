@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI GPT-5.4-Cyber",
+      "count": 1,
+      "last_published": "2026-04-21",
+      "slugs": [
+        "2026-04-21-openai-gpt-5-4-cyber"
+      ]
+    },
+    {
       "term": "Sam Altman Molotov Attack",
       "count": 1,
       "last_published": "2026-04-20",
