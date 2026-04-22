@@ -1,0 +1,39 @@
+---
+title: "Google DeepMind Launches Deep Research and Deep Research Max Autonomous Agents"
+date: "2026-04-22 10:15"
+categories:
+  - Research Highlights
+  - LLMs & Models
+  - Agents & Automation
+summary: "Google DeepMind unveils Deep Research and Deep Research Max, two autonomous research agents powered by Gemini 3.1 Pro that automate complex research workflows with MCP support and native visualization capabilities."
+---
+
+Google DeepMind has launched two new autonomous research agents built on its Gemini 3.1 Pro model: Deep Research and Deep Research Max. Both agents are now in public preview through the paid tiers of the Gemini API, aimed at developers who want to automate heavy-duty research work. A single API call kicks off a full research workflow, and for the first time, the agents can pull from both the open web and proprietary data streams to deliver fully sourced analyses.
+
+### Two Flavors for Different Workloads
+
+The standard Deep Research agent replaces the preview version Google released in December, promising better quality with lower latency and lower cost. It's built for cases where speed matters most, like chat interfaces where users expect an immediate response.
+
+Deep Research Max goes the other way, prioritizing depth over speed. The agent uses extended test-time compute to reason, search, and iterate on its final report. Google points to asynchronous background workflows as the ideal use case, like an overnight cron job that drops a full due diligence report on an analyst team's desk by morning.
+
+In Google's own benchmarks, Deep Research Max shows a significant jump on retrieval and reasoning tasks. The agent pulls from more sources than the previous version and catches nuances the older model tended to miss, Google says.
+
+### MCP Support Opens the Agent to Proprietary Data
+
+One of the bigger changes is support for the Model Context Protocol (MCP). Developers can wire Deep Research into their own data sources and specialized feeds, like financial or market data providers. By accepting any tool definition, the agent shifts from a pure web searcher to a full autonomous agent that can query specialized databases, Google says.
+
+For the first time in the Gemini API, the agent can also generate native charts and infographics directly inside reports, rendered either as HTML or in Nano Banana format, making it easier to present complex data visually.
+
+### Additional Features
+
+Other additions include collaborative planning, which lets users review and tweak the agent's search plan before it runs, multimodal input from PDFs, CSVs, images, audio, and video, and real-time streaming of intermediate steps. Developers can also shut off web access entirely and limit the agent to their own data.
+
+Google says the agents run on the same infrastructure that powers research features in its consumer products, including the Gemini app, NotebookLM, Google Search, and Google Finance.
+
+### Competitive Landscape
+
+The comparison with OpenAI's GPT-5.4 and Anthropic's Opus 4.6 isn't quite apples to apples. GPT-5.4 is great at autonomous web search, but it isn't tuned for deep research. For that, OpenAI ships its own Deep Research agent, which switched to GPT-5.2 after the February update, not GPT-5.4. OpenAI's strongest search model is actually GPT-5.4 Pro, which Google apparently left out of the comparison.
+
+According to OpenAI, GPT-5.4 Pro hits up to 89.3 percent on the agentic search benchmark BrowseComp, while GPT-5.4 lands at 82.7 percent. Anthropic also reports higher BrowseComp numbers for Opus 4.6 than Google shows, specifically 84 percent.
+
+The gaps likely come down to testing methodology, whether the models were evaluated through the raw API or wrapped in each lab's own tooling. Google's numbers aren't necessarily wrong, but they're worth reading with some caution.

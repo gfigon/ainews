@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Google DeepMind Deep Research Deep Research Max",
+      "count": 1,
+      "last_published": "2026-04-22",
+      "slugs": [
+        "2026-04-22-google-deepmind-deep-research"
+      ]
+    },
+    {
       "term": "Microsoft Agent Framework 1.0.1 Security Hardening Deserialization",
       "count": 1,
       "last_published": "2026-04-22",
