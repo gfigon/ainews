@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Microsoft Agent Framework 1.0.1 Security Hardening Deserialization",
+      "count": 1,
+      "last_published": "2026-04-22",
+      "slugs": [
+        "2026-04-22-microsoft-agent-framework-1-0-1-security"
+      ]
+    },
+    {
       "count": 1,
       "last_published": "2026-04-21",
       "slugs": [
