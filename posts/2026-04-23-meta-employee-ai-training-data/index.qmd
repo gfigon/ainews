@@ -1,0 +1,33 @@
+---
+title: "Meta Turns Employees Into AI Training Data: Tracking Mouse Movements and Keystrokes"
+date: "2026-04-23 08:00"
+author: "AI News Daily"
+summary: "Meta is installing tracking software on employee computers to capture mouse movements, clicks, and keystrokes for training autonomous AI agents. The controversial initiative aims to teach AI how humans actually use computers—but raises significant privacy concerns."
+categories:
+  - AI Tools & Frameworks
+  - Industry News
+---
+
+In a move that highlights just how valuable human interaction data has become in the AI race, Meta has begun installing tracking software on employees' work computers to capture mouse movements, clicks, and keystrokes. The data will be used to train AI models designed to perform work tasks autonomously.
+
+The initiative was first reported by Reuters and confirms what many in the industry have suspected: traditional training data is no longer enough. Companies are increasingly turning to new sources to build more capable AI systems.
+
+"If we're building agents to help people complete everyday tasks using computers, our models need real examples of how people actually use them—things like mouse movements, clicking buttons, and navigating dropdown menus," a Meta spokesperson told TechCrunch. "To help, we're launching an internal tool that will capture these kinds of inputs on certain applications to help us train our models. There are safeguards in place to protect sensitive content, and the data is not used for any other purpose."
+
+**The Quest for Real-World Interaction Data**
+
+The approach represents a shift from traditional AI training methods. Large language models have typically learned from text scraped from the internet, books, and other public sources. But for AI agents that need to navigate software interfaces, parse dropdown menus, and execute multi-step workflows, this general-purpose data falls short.
+
+Meta isn't alone in this pursuit. Last week, reports emerged that startups are selling old corporate communications—Slack archives, Jira tickets, and email threads—to AI companies looking for higher-quality training data.
+
+**Privacy Implications**
+
+The Meta announcement raises questions about employee privacy and consent. The company says safeguards are in place to protect sensitive content, but the practice of monitoring employees for AI training purposes marks a new frontier in data collection.
+
+This comes as AI companies face increasing pressure to find new data sources. Competition for high-quality training data has intensified as model capabilities improve and public datasets become exhausted.
+
+**Building Autonomous Agents**
+
+The ultimate goal of collecting this granular interaction data is to build AI agents capable of performing complex workplace tasks without constant human guidance. By observing how employees actually navigate software, Meta hopes to create models that can automate workflows, manage spreadsheets, and handle routine office tasks.
+
+Whether employees will embrace being turned into training data—wittingly or not—remains to be seen. The practice highlights the growing tension between AI advancement and individual privacy in the workplace.
