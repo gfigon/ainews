@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Congress AI Jailbreak Safety Briefing",
+      "count": 1,
+      "last_published": "2026-04-24",
+      "slugs": [
+        "2026-04-24-ai-jailbreak-safety-briefing"
+      ]
+    },
+    {
       "term": "GPT-5.5 Release",
       "count": 1,
       "last_published": "2026-04-24",
