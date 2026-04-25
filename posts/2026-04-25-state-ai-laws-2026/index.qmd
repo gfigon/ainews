@@ -1,0 +1,41 @@
+---
+title: "State AI Laws in 2026: Colorado Revises, California Enforces"
+date: "2026-04-25 10:15"
+categories:
+  - AI Regulation
+  - Policy
+  - United States
+---
+
+The U.S. artificial intelligence regulatory landscape is undergoing a significant shift in 2026. As compliance deadlines approach, many state AI laws that passed just a few years ago are being revised, delayed, or reconsidered—while federal action threatens to reshape or constrain state-level initiatives.
+
+## Colorado SB 205: From High-Risk AI to Automated Decision-Making
+
+Colorado's SB 205, enacted in May 2024, created one of the first comprehensive state AI regimes, regulating "high-risk artificial intelligence systems" used in "consequential decisions." The law imposed broad obligations on developers and deployers related to risk management, impact assessments, consumer disclosures, and reporting to the Colorado attorney general.
+
+The law faced significant criticism from the tech industry regarding its scope and feasibility. These concerns prompted a special legislative session in August 2025 that postponed the enforcement date from February 1, 2026, to June 30, 2026.
+
+Now, with the delayed effective date approaching, Colorado is considering more substantive revisions. A March 2026 working group draft would repeal and reenact the law with a new focus on automated decision-making technology (ADMT), with the effective date reset to January 1, 2027.
+
+Key proposed changes include:
+
+- Replacing "high-risk AI" with "covered ADMT" that must "materially influence" a consequential decision
+- Narrowing "consequential decisions" to high-impact areas: education, employment, housing, financial services, insurance, healthcare, and government services
+- Carving out routine business processes, marketing, recommendation systems, and content moderation
+- Scaling back governance obligations, eliminating formal risk-management programs and annual reviews
+- Retaining attorney general-only enforcement with a 90-day notice-and-cure period
+
+## California: Enforcement Begins
+
+California enacted 18 AI-related laws across 2023 and 2024. With compliance effective dates now arriving in 2026, enforcement activity is picking up:
+
+- **AB 2013** (training data transparency), effective January 1, 2026, requires developers to disclose a "high-level summary" of datasets used in generative AI systems. Industry stakeholders have raised concerns about feasibility and scope.
+- **SB 942** (AI disclosure requirements) mandates that providers of generative AI image, video, and audio tools with over one million monthly users provide AI detection tools and "manifest" disclosures.
+
+New York has also revised its RAISE Act to align more closely with California's transparency-based framework, with Governor Hochul signing amendments on March 27, 2026.
+
+## Federal Preemption Looms
+
+The White House recently released its National Policy Framework for Artificial Intelligence, urging Congress to enact sweeping AI legislation that would preempt certain state AI laws, particularly those that "risk stifling innovation." On March 30, 2026, California Governor Gavin Newsom issued Executive Order N-5-26, directing state agencies to draft AI safety recommendations for companies doing business with the state.
+
+Companies should continue preparing for compliance under current state frameworks while monitoring legislative developments that could reshape obligations in the near term.
