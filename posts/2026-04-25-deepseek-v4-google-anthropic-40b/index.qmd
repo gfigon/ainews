@@ -1,0 +1,29 @@
+---
+title: "DeepSeek V4 Preview and Google’s $40B Anthropic Bet: The AI Race Accelerates"
+date: "2026-04-25 08:00"
+description: "On the same day, two major developments signal a dramatic shift in the AI landscape — DeepSeek unveils its V4 model while Google commits $40 billion to Anthropic."
+categories:
+  - Research Highlights
+  - LLMs & Models
+  - Industry News
+---
+
+DeepSeek has released a preview version of its highly anticipated V4 large language model, marking a significant milestone for the Chinese AI startup exactly one year after its R1 model sent shockwaves through the global tech industry.
+
+The new model comes in both "pro" and "flash" variants and builds on DeepSeek's signature approach: open-source availability, cost efficiency, and strong performance on agent-based tasks. According to Counterpoint Research, V4 offers "excellent agent capability at significantly lower cost" compared to competitors — a positioning that has become DeepSeek's trademark since its $6 million R1 breakthrough in January 2025.
+
+A notable development is V4's compatibility with agent tools like Anthropic's Claude Code and OpenClaw, signaling DeepSeek's effort to integrate with the broader AI developer ecosystem. Perhaps most significantly, Huawei confirmed that its Ascend AI processors can support V4, suggesting progress toward running advanced Western AI models on Chinese domestic hardware — a potential shift as U.S. export controls limit access to Nvidia's chips.
+
+## Google's $40 Billion Vote of Confidence
+
+Just hours after DeepSeek's announcement, Google-parent Alphabet revealed it will invest up to $40 billion in Anthropic, the leading AI safety company it once backed. The deal includes an initial $10 billion at Anthropic's $380 billion valuation, with another $30 billion contingent on performance milestones.
+
+This investment underscores a new reality in the AI industry: even direct competitors are becoming strategic partners. Google offers Anthropic's Claude models through its cloud division while simultaneously competing with its own Gemini models. The arrangement mirrors Amazon's separate agreement to invest up to $25 billion in Anthropic, highlighting how major tech companies are racing to secure compute capacity amid unprecedented demand.
+
+Anthropic's annualized revenue has reportedly exceeded $30 billion, driven by the explosive popularity of Claude Code among enterprise and developer customers. The company recently secured 5 gigawatts of computing capacity from a Google-Broadcom partnership that will come online next year.
+
+## What This Means for the AI Race
+
+These parallel developments illustrate the accelerating competition in artificial intelligence. DeepSeek's continued push toward affordable, open-source models challenges the premium pricing of Western AI providers. Meanwhile, massive investments from Google and Amazon signal that big tech sees AI safety and capability as infrastructure — worth billions regardless of competitive dynamics.
+
+The AI race is no longer just about model performance; it's about securing supply chains, building partnerships, and positioning for a market where demand currently outstrips compute availability.
