@@ -1,0 +1,31 @@
+---
+title: "Instacart Co-Founder Launches Abundance - An AI-Agent Hedge Fund"
+date: "2026-04-26 10:15"
+summary: "Apoorva Mehta, co-founder of Instacart, has launched Abundance, a new hedge fund with $100M in seed funding that aims to be entirely managed by AI agents - representing one of the most ambitious deployments of autonomous AI in financial services."
+tags: ["AI Agents", "Fintech", "Hedge Fund", "Instacart", "AI Investment"]
+category: "Industry News"
+---
+
+Apoorva Mehta, the co-founder of Instacart, has launched **Abundance**, a hedge fund that represents one of the most ambitious implementations of AI-driven autonomous decision-making in financial services. With $100 million in seed funding, the fund aims to have AI agents handle the entire investment process - from idea generation to trade execution.
+
+## How Abundance Works
+
+Unlike traditional hedge funds that use AI as a supporting tool for human portfolio managers, Abundance takes a fundamentally different approach:
+
+- **Thousands of AI agents** scan the internet continuously for investment ideas
+- **Autonomous research** - agents conduct fundamental analysis without human input
+- **Stock selection** - AI systems make buy/sell decisions independently
+- **Position sizing and risk management** - automated based on predefined parameters
+- **Full automation goal** - the ultimate aim is for AI to run the entire fund
+
+## A New Model for quant Funds
+
+While many hedge funds incorporate AI to augment human traders, Abundance goes further. According to Mehta, some strategies are already running solely on AI, with future strategies planned to have varying degrees of human oversight during the transition period.
+
+The fund was started last year with a small team comprising engineers, quantitative researchers, and AI specialists. This represents a significant experiment in whether autonomous AI agents can match or exceed human portfolio managers in generating returns.
+
+## Industry Implications
+
+If successful, Abundance could accelerate the trend toward AI-native quant funds, potentially disrupting traditional asset management. The financial services industry has been gradually adopting AI, but few have gone as far as fully autonomous decision-making at scale.
+
+This launch comes amid broader discussions about AI's role in financial markets and whether the technology can truly replicate - or improve upon - human judgment in fast-moving markets.
