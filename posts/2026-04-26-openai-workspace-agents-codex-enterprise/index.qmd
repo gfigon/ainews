@@ -1,0 +1,75 @@
+---
+title: "OpenAI Launches Workspace Agents: Codex-Powered Digital Coworkers Arrive in ChatGPT"
+date: "2026-04-26 08:45"
+description: "OpenAI's new Workspace Agents can draft emails, reconcile spreadsheets, file tickets, and run reports across Slack, Salesforce, and Google Drive — without human babysitting. Powered by Codex, they mark a decisive shift from chat assistants to persistent, permissioned AI workers."
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+image: https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800
+author: AI News Digest
+code: true
+---
+
+OpenAI has introduced a new class of shared AI agents inside ChatGPT that goes well beyond answering questions. Announced on April 22, 2026, **Workspace Agents** are persistent, cloud-running assistants that can take on complex multi-step workflows across enterprise tools — and keep working even when you're not at your desk.
+
+## What Workspace Agents Actually Do
+
+Unlike the custom GPTs that preceded them, Workspace Agents are designed to operate as team resources rather than personal chatbots. A single agent built by one team member can be reused across the entire organization — inside ChatGPT, deployed to Slack channels, or triggered on a schedule.
+
+OpenAI's own teams are already running agents that:
+
+- **Qualify sales leads** by pulling call notes and account research, scoring prospects, and drafting follow-up emails directly in a rep's inbox
+- **Review software requests** against approved-tools policy, recommend next steps, and automatically file IT tickets
+- **Prepare month-end accounting**, including journal entries, balance-sheet reconciliations, and variance analysis, complete with workpapers for human review
+- **Monitor product-feedback channels** across Slack and support forums, turning raw input into prioritized tickets and weekly summaries
+- **Assess third-party vendor risk** by researching sanctions exposure, financial health, and reputational signals
+
+In short: these are not agents that tell you what work looks like. They do the work.
+
+## The Codex Engine: Why It Matters
+
+The most consequential technical detail in this release is what powers the agents: **Codex**.
+
+Workspace Agents are backed by a Codex cloud session that gives them a persistent workspace — files, code execution environment, connected tools, and memory. This is a meaningful departure from the LLM-call-and-response loop that characterizes most AI assistants. When an agent needs to reconcile a CSV against a CRM export, it can actually run the code, not just describe what reconciliation would look like.
+
+This architecture also explains why OpenAI has spent the past six months building Codex into a full desktop and cloud environment with background computer use, 90+ tool integrations (Atlassian Rovo, GitLab, CircleCI, Microsoft Suite, Neon by Databricks, Render, and more), image generation, persistent memory, and the ability to wake up on its own to continue work across days or weeks.
+
+Workspace Agents inherit all of that infrastructure. When you deploy a metrics agent to a Slack channel, it's running a Codex instance — not a chatbot with a plugin.
+
+## From Custom GPTs to AI Coworkers
+
+Custom GPTs, introduced in late 2023, were a first attempt at letting businesses customize ChatGPT for specific roles. They were powerful but limited: session-based, stateless between conversations, and scoped to a single user.
+
+Workspace Agents represent a structural upgrade on every axis:
+
+- **Persistence:** Agents run in the cloud and maintain state across sessions
+- **Scheduling:** Recurring workflows run automatically without manual triggers
+- **Memory:** Agents learn from corrections and improve through use
+- **Sharing:** One agent, built once, available to an entire team
+- **Cross-app reach:** Agents work where work already happens — in Slack channels, in your inbox, in Google Drive
+
+OpenAI has announced it will deprecate the custom GPT format for Business, Enterprise, Edu, and Teacher organizations and require migration to Workspace Agents. Individual GPTs are unaffected for now.
+
+## Governance Built In
+
+Because Workspace Agents can act across business systems, OpenAI has added enterprise-grade controls:
+
+- **Role-based access control (RBAC):** Admins determine who can build, run, and publish agents — and which tools those agents can reach
+- **Human-in-the-loop for sensitive actions:** Writing to a spreadsheet, sending an email, or filing a ticket defaults to requiring approval before execution
+- **Two authentication modes:** Per-user (the agent only sees what the individual is allowed to see) and agent-owned (a shared connection using a service account — OpenAI strongly recommends this over personal accounts)
+- **Compliance API:** Every agent's configuration, updates, and runs are logged for admin visibility
+- **Prompt injection safeguards:** Built-in defenses against malicious content trying to hijack an agent mid-task
+
+## Pricing and Availability
+
+Workspace Agents are currently in research preview for ChatGPT Business ($20/user/month), Enterprise, Edu, and Teachers plans. They are **free until May 6, 2026**, after which credit-based pricing kicks in.
+
+The roadmap includes new automatic triggers, improved analytics dashboards, additional tool connectors, and support for Workspace Agents inside Codex.
+
+## Why This Matters
+
+The Workspace Agents launch is the culmination of roughly twelve months of OpenAI systematically rebuilding ChatGPT — and the API and developer platform — around agents rather than conversations.
+
+The subtext is clear: OpenAI believes the future of AI in the workplace is not a single chat window but **fleets of permissioned agents**, each with defined roles, controlled access, and the ability to take real action. The comparison point is no longer a smart assistant. It's a digital coworker who shows up, gets things done, remembers what it learned, and improves the more you work with it.
+
+For enterprises still debating whether to adopt AI, Workspace Agents lower the bar significantly: no engineering team required, no custom integration project, just a workflow described in plain language that ChatGPT turns into a shared agent.
