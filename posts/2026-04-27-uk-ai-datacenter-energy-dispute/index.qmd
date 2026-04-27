@@ -1,0 +1,42 @@
+---
+title: "UK Government Departments at Odds Over AI Datacenter Energy Demands"
+date: "2026-04-27 10:15"
+author: "AI News"
+categories:
+  - Industry News
+  - Energy & Environment
+  - Policy & Regulation
+summary: "Two UK government departments have vastly different estimates for how much electricity AI datacenters will need by 2030 — with DSIT projecting 6GW while DESNZ forecasts less than 0.1GW. The discrepancy highlights growing concerns about AI's environmental impact and raises questions about government planning for net zero."
+---
+
+The UK government is facing an embarrassing internal dispute over just how much energy AI datacenters will consume in the coming years — and the numbers don't add up.
+
+## The 10x Gap
+
+The Department of Science, Innovation and Technology (DSIT) projects that AI datacenters will require at least **6GW of electricity capacity by 2030** as part of the UK's ambitious AI growth strategy. Meanwhile, the Department of Energy Security and Net Zero (DESNZ) appears to be banking on less than a tenth of that amount.
+
+The discrepancy is more than just bureaucracy — it could have serious implications for the UK's ability to meet its legally binding net zero commitment by 2050.
+
+"This is magical thinking," said Tim Squirrell, head of strategy at the NGO Foxglove. "The government's cluelessness over the environmental impact of datacenters would be laughable, if it weren't so alarming."
+
+## A Hundred-Fold Revision
+
+The situation became even more awkward this week when DSIT was forced to revise its carbon emission estimates significantly upward — by more than a hundredfold.
+
+Originally, DSIT had claimed that additional AI computing capacity would add between 0.025m and 0.142m tonnes of CO2 equivalent — less than 0.05% of the UK's total projected emissions. Those figures were in an annex to the UK Compute Roadmap published in 2025.
+
+After questions from Carbon Brief about the plausibility of the numbers, the document was quietly removed from the government website. Then, on Thursday, DSIT posted updated figures: the UK's cumulative 10-year emissions from AI compute could range from **34 to 123 MtCO2** — roughly 0.9-3.4% of the UK's total emissions over the same period.
+
+## Who To Believe?
+
+The core issue is that DESNZ doesn't appear to have separate projections for datacentre growth at all. Instead, it fold AI datacenter energy use into its broader forecasts for the "commercial services" sector — which it estimates will grow by just 528MW between 2025 and 2030.
+
+That's equivalent to adding the electricity consumption of roughly 1.7 million homes — nowhere near the 6GW the UK has already committed to building for AI datacenters.
+
+"Either DESNZ and DSIT are incompetent, or there's some kind of magical thinking about AI and big tech," said researcher Cecilia Rikap from University College London. "Either way, the episode uncovers how these corporations control not only the AI value chain, but also the UK government."
+
+## What Happens Next
+
+The AI Energy Council is now tasked with finding ways to attract investment and support clean power development for datacenters. But with the UK targeting multiple "AI Growth Zones" across the country — each requiring at least 500MW — the pressure on the grid is set to intensify.
+
+Whether the UK's energy infrastructure can keep up with its AI ambitions remains one of the most consequential unanswered questions in the country's push to become an "AI superpower."

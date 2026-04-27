@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "UK AI Datacenter Energy Dispute",
+      "count": 1,
+      "last_published": "2026-04-27",
+      "slugs": [
+        "2026-04-27-uk-ai-datacenter-energy-dispute"
+      ]
+    },
+    {
       "term": "DeepSeek Huawei Ascend AI Sovereignty",
       "count": 1,
       "last_published": "2026-04-27",
