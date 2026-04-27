@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Agentic Reasoning Benchmarks Production Evaluation",
+      "count": 1,
+      "last_published": "2026-04-27",
+      "slugs": [
+        "2026-04-27-agentic-reasoning-benchmarks"
+      ]
+    },
+    {
+      "term": "Instacart Abundance AI Hedge Fund Apoorva Mehta",
+      "count": 1,
+      "last_published": "2026-04-26",
+      "slugs": [
+        "2026-04-26-instacart-abundance-ai-hedge-fund"
+      ]
+    },
+    {
       "term": "OpenAI Workspace Agents Codex Enterprise",
       "count": 1,
       "last_published": "2026-04-26",
