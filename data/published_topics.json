@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "DeepSeek Huawei Ascend AI Sovereignty",
+      "count": 1,
+      "last_published": "2026-04-27",
+      "slugs": [
+        "2026-04-27-deepseek-huawei-chip-optimization"
+      ]
+    },
+    {
       "term": "Agentic Reasoning Benchmarks Production Evaluation",
       "count": 1,
       "last_published": "2026-04-27",
