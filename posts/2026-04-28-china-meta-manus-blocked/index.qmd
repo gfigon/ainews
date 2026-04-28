@@ -1,0 +1,35 @@
+---
+title: "China Blocks Meta's $2B Acquisition of AI Startup Manus"
+date: "2026-04-28 08:00"
+author: "AI News Team"
+summary: "China has ordered Meta to unwind its $2 billion acquisition of Manus, a Singapore-based AI startup with Chinese founders, in a landmark decision that underscores Beijing's intensifying push for technological self-sufficiency."
+categories:
+  - "Industry News"
+  - "AI Regulation"
+tags:
+  - "Meta"
+  - "Manus"
+  - "China"
+  - "Acquisitions"
+  - "Tech Sovereignty"
+---
+
+China's Ministry of Commerce issued a formal order on Monday requiring Meta to divest its stake in Manus, marking one of the most significant interventions in a cross-border AI deal by the Chinese government. The decision reverses an acquisition announced by Meta in late December 2025, which was estimated at approximately $2 billion.
+
+Manus, founded by Chinese entrepreneurs but headquartered in Singapore, gained prominence for its autonomous AI agents capable of executing complex multi-step tasks with minimal human oversight. Meta acquired the startup to bolster its capabilities in the rapidly emerging AI agent market, integrating Manus's technology across Facebook, Instagram, and WhatsApp.
+
+## A Signal for Tech Sovereignty
+
+The ruling signals a hardening of China's stance on domestic AI companies falling under foreign ownership, particularly in cutting-edge domains like autonomous agents. Chinese regulators argued that Manus's technology represents strategic national assets that could compromise the country's AI independence if transferred to a U.S. entity.
+
+"This isn't just about one deal—it's about establishing a clear precedent," said a Chinese commerce ministry spokesperson in a press briefing. "We will not allow China's AI innovations to become leverage for foreign technological dominance."
+
+The move comes amid an escalating U.S.-China rivalry over advanced AI capabilities. Earlier this year, the U.S. imposed expanded export controls on advanced chips and AI technologies, while China has accelerated its own domestic semiconductor and model development initiatives.
+
+## Meta's Response and Market Impact
+
+Meta has stated it is "reviewing the decision" and exploring legal options. The company had previously emphasized that Manus operated independently from China and that the acquisition had received initial regulatory clearance in Singapore.
+
+The deal's collapse is expected to have ripple effects across the global AI startup ecosystem. Analysts suggest that Chinese-founded AI companies may now face heightened scrutiny when pursuing international exits, potentially cooling cross-border M&A activity in the sector.
+
+For now, Manus remains in limbo—a startup caught between two superpowers vying for technological supremacy.
