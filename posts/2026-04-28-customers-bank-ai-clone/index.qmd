@@ -1,0 +1,43 @@
+---
+title: "Customers Bank Deploys AI Clone for Earnings Call in Banking First"
+date: "2026-04-28 10:15"
+author: "AI News Digest"
+description: "Customers Bank becomes the first public company to use an AI-generated voice clone for earnings call remarks, announcing a multi-year OpenAI partnership to automate lending, deposits, and payments with AI agents."
+categories:
+  - Industry News
+  - AI Agents & Automation
+  - Financial Services
+image: /images/banking-ai.jpg
+---
+
+Pennsylvania-based **Customers Bank** has made history by becoming what appears to be the first public company to deliver portions of its quarterly earnings call through an AI-generated voice clone. CEO Sam Sidhu revealed that "the prepared remarks you heard on my behalf today were delivered by my AI clone, not read by me" during the company's Q1 2026 earnings call.
+
+The move signals a dramatic acceleration in AI adoption within the regulated banking sector. Customers Bank, with $25.9 billion in assets, announced a multi-year partnership with **OpenAI** to embed engineers directly within the bank and deploy AI agents across core operations.
+
+## From Weeks to Days
+
+The bank plans to roll out AI agents for **lending, deposits, and payments** over the next six to twelve months. If successful, the transformation could be substantial:
+
+- **Commercial loan closure times** could shrink from 30-45 days to approximately 7 days
+- **Client onboarding** for complex commercial accounts could be reduced from over a day to under 20 minutes
+
+"We're going to be co-creating enterprise solutions they could potentially sell to other banks in the future," Sidhu explained. "The goal here is end-to-end, automated agentic-led workflow."
+
+## Banking-Specific AI Economics
+
+What sets this apart from typical vendor relationships is the financial stakes. Sidhu is positioning AI not merely as a productivity tool but as a direct lever for financial performance. The initiative is expected to improve the bank's **efficiency ratio from approximately 49 to the low 40s**, potentially boosting returns as early as next year.
+
+For OpenAI, the partnership provides valuable real-world deployment in a highly regulated environment—a proving ground for financial services AI solutions that could be sold to other banks.
+
+## Why This Matters
+
+This announcement represents several firsts:
+
+1. **First public company earnings call** featuring AI-generated voice remarks
+2. **First co-development partnership** between a major AI provider and a regional bank
+3. **One of the most specific timelines** for AI agent deployment in banking
+
+The banking sector has historically been cautious about AI adoption due to regulatory requirements, but Customers Bank's move suggests that the technology has reached a maturity level where it can meet compliance standards while delivering measurable business outcomes.
+
+---
+*Source: [Business Today](https://www.businesstoday.in/technology/story/my-ai-clone-delivered-the-earnings-call-customers-bank-bets-big-on-openai-527732-2026-04-28), [CNBC](https://www.cnbc.com/2026/04/28/customers-bank-openai-partnership.html)*
