@@ -1,0 +1,35 @@
+---
+title: "Google Signs Classified Pentagon AI Deal as Big Tech Courts Defense Contracts"
+date: "2026-04-29 08:00"
+author: AI News Roundup
+categories:
+  - Industry News
+  - Defense AI
+  - Google
+summary: "Google has signed a classified AI deal with the Pentagon, marking a significant shift in the company's defense strategy. Meanwhile, Microsoft and OpenAI have restructured their partnership, opening the door for OpenAI to work with other cloud providers."
+---
+
+The U.S. defense sector is becoming an increasingly contested battleground for Big Tech companies, and the latest development shows Google making a major move into the space.
+
+According to reports from The Information and The New York Times, Google has signed a classified AI agreement with the Pentagon, allowing the Department of Defense to use Google's AI models for classified work. This places Google alongside OpenAI and Elon Musk's xAI, which already have deals to supply AI models for classified defense applications.
+
+## The Defense AI Race Heats Up
+
+This development comes amid an ongoing dispute between the Department of Defense and AI startup Anthropic over how to responsibly use AI for defense purposes. After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google stepped in to fill the gap.
+
+The agreement allows the Pentagon to use Google's AI "for any lawful government purpose," according to the report. This represents a notable shift for Google, which has historically been more cautious about defense contracts compared to some competitors.
+
+## Microsoft-OpenAI Partnership Restructured
+
+In related news, Microsoft and OpenAI have restructured their partnership, removing a key restriction that would have prevented OpenAI from working with other cloud providers. The original terms included a rider that would have allowed OpenAI to stop paying Microsoft if it achieved so-called artificial general intelligence—the point at which AI matches or surpasses human ability.
+
+The fresh terms now open the door for OpenAI to work with AWS, Google, and other cloud providers beyond Azure. This could fundamentally reshape the competitive landscape of cloud AI services.
+
+## Industry Implications
+
+These developments signal a new phase in the AI industry, where defense contracts are becoming a key battleground for major tech companies. The restructure of the Microsoft-OpenAI partnership suggests that even the closest alliances are being reevaluated as the stakes continue to rise.
+
+For enterprises considering AI adoption, these moves underscore the importance of watching how major providers are positioning themselves in the defense sector—and what that means for the long-term direction of AI technology.
+
+---
+*Sources: The New York Times, The Information, Reuters, The New Stack*
