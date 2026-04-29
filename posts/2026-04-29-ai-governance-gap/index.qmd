@@ -2,25 +2,25 @@
 title: "The AI Governance Gap: Why 73% of Enterprise AI Projects Fail to Deliver ROI"
 date: "2026-04-29 08:45"
 author: "AI News Daily"
-description: "As enterprise AI spending hits $665 billion in 2026, a new report reveals that lack of structured governance — not technology — is the real bottleneck. Only 1% of companies describe themselves as AI-mature.
-slug: 2026-04-29-ai-governance-gap
+description: "As enterprise AI spending hits $665 billion in 2026, a new report reveals that lack of structured governance -- not technology -- is the real bottleneck. Only 1% of companies describe themselves as AI-mature."
+slug: "2026-04-29-ai-governance-gap"
 ---
 
  enterprises are pouring billions into artificial intelligence with boardroom confidence. They procure the models, hire the engineers, and announce the transformation. And then, in 73% of cases, they fail to deliver the promised return on investment.
 
-That is the startling finding from the ExcelMindCyber Institute's latest analysis, released this week. The Chicago-based cybersecurity training organization is naming the cause most enterprises refuse to confront: AI transformation is a problem of governance — not a problem of technology.
+That is the startling finding from the ExcelMindCyber Institute's latest analysis, released this week. The Chicago-based cybersecurity training organization is naming the cause most enterprises refuse to confront: AI transformation is a problem of governance -- not a problem of technology.
 
 ## The Numbers Tell a Sobering Story
 
-According to Deloitte's 2026 State of AI in the Enterprise report, only 1% of companies describe themselves as AI-mature, and just 34% are genuinely reimagining their businesses with the technology. The PEX Report 2025/26 reveals that only 43% of organizations have a formal AI governance policy — meaning the majority deploying autonomous AI systems have no framework for accountability, risk thresholds, or outcome ownership.
+According to Deloitte's 2026 State of AI in the Enterprise report, only 1% of companies describe themselves as AI-mature, and just 34% are genuinely reimagining their businesses with the technology. The PEX Report 2025/26 reveals that only 43% of organizations have a formal AI governance policy -- meaning the majority deploying autonomous AI systems have no framework for accountability, risk thresholds, or outcome ownership.
 
-When agentic AI systems — those that take autonomous actions, trigger workflows, and execute decisions without real-time human approval — operate inside governance vacuums, errors compound silently. The question "who approved that decision?" turns out to have no clean answer.
+When agentic AI systems -- those that take autonomous actions, trigger workflows, and execute decisions without real-time human approval -- operate inside governance vacuums, errors compound silently. The question "who approved that decision?" turns out to have no clean answer.
 
-"The models are not the failure point. The systems, people, and structures built around those models are," said Tolulope Michael, Chief Visionary Officer at ExcelMindCyber Institute. "The bottleneck in 2026 is not building AI — it is deciding who controls it, what risk is acceptable, and how quickly decisions can be made without breaking what matters."
+"The models are not the failure point. The systems, people, and structures built around those models are," said Tolulope Michael, Chief Visionary Officer at ExcelMindCyber Institute. "The bottleneck in 2026 is not building AI -- it is deciding who controls it, what risk is acceptable, and how quickly decisions can be made without breaking what matters."
 
 ## Regulatory Pressure Mounts
 
-The timing could not be worse — or better, depending on perspective. The EU AI Act's high-risk compliance requirements activate in 2026, with fines reaching €35 million or 7% of global turnover. In the United States, over 1,100 AI-related bills were introduced in 2025 alone, creating a fragmented but rapidly activating compliance surface area.
+The timing could not be worse -- or better, depending on perspective. The EU AI Act's high-risk compliance requirements activate in 2026, with fines reaching EUR 35 million or 7% of global turnover. In the United States, over 1,100 AI-related bills were introduced in 2025 alone, creating a fragmented but rapidly activating compliance surface area.
 
 The World Economic Forum has identified the core challenge: AI governance cannot be a top-down mandate layered over an existing organization. It must be a living, business-specific, contextually intelligent operating system woven into how decisions are made every day.
 
@@ -28,8 +28,8 @@ The World Economic Forum has identified the core challenge: AI governance cannot
 
 The global AI governance market is projected to grow from $309 million in 2025 to nearly $5.9 billion by 2035, at a CAGR of 34.27%. The professionals who will design, implement, audit, and continuously improve AI governance frameworks across thousands of enterprises do not exist in sufficient numbers today.
 
-ExcelMindCyber's training programs produce professionals who understand AI governance not as an abstract compliance function, but as a business-specific, contextually intelligent operational discipline. Graduates enter roles averaging $145,000 per year — with no coding background required.
+ExcelMindCyber's training programs produce professionals who understand AI governance not as an abstract compliance function, but as a business-specific, contextually intelligent operational discipline. Graduates enter roles averaging $145,000 per year -- with no coding background required.
 
-"Governance isn't optional. It's your AI backbone," said Lee Bogner, Global Chief Generative AI Architect at Mars Inc. "Without it, you're risking bias, compliance failures, and technical drift — all while believing you're transforming."
+"Governance is not optional. It is your AI backbone," said Lee Bogner, Global Chief Generative AI Architect at Mars Inc. "Without it, you are risking bias, compliance failures, and technical drift -- all while believing you are transforming."
 
-The message is clear: the next frontier in enterprise AI is not better models — it is better governance.
+The message is clear: the next frontier in enterprise AI is not better models -- it is better governance.
