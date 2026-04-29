@@ -1,0 +1,41 @@
+---
+title: "Nvidia VP: AI Now Costs More Than Human Workers -- But the Tipping Point Is Coming"
+date: "2026-04-29 10:15"
+author: "AI News Daily"
+description: "A Nvidia executive says the cost of compute is 'far beyond' the cost of employees. Yet tech giants are pouring $740B into AI this year. What's really going on?"
+slug: "2026-04-29-ai-cost-human-workers"
+---
+
+If the narrative that AI is replacing human workers was not complicated enough, a senior Nvidia executive just threw a wrench into it: AI costs more than the humans it is supposed to replace.
+
+"For my team, the cost of compute is far beyond the costs of the employees," Bryan Catanzaro, vice president of applied deep learning at Nvidia, recently told Axios.
+
+The statement is striking because it comes from the company that arguably benefits most from the AI spending boom. It is also backed by research. A 2024 MIT study analyzing the technical requirements of AI models needed to perform jobs at a human level found that AI automation would be economically viable in only 23% of roles where vision is a primary part of the work. In the remaining 77% of cases, it was simply cheaper to keep humans on the job.
+
+## The Numbers Are Staggering
+
+Despite no clear evidence of AI improving productivity at scale -- and, according to Yale Budget Lab, no widespread data supporting the idea of AI displacing jobs -- Big Tech firms have continued to pour money into AI. This year alone, they have announced $740 billion in capital expenditures, a 69% increase from 2025, according to Morgan Stanley. At its current pace, AI expenditures may reach $5.2 trillion by 2030, with $1.6 trillion from data center spending and $3.3 trillion from IT equipment, according to McKinsey data. Spending could surge to $7.9 trillion by 2030 at an accelerated pace.
+
+The cost structure has already blown away budgets. Uber chief technology officer Praveen Neppalli Naga told The Information earlier this month that the budget he thought he would need for AI coding tools "is blown away already," referring to the rideshare giant's adoption of Anthropic's Claude Code.
+
+## Tech Layoffs Continue Regardless
+
+The disconnect is stark. More than 92,000 tech layoffs have occurred in 2026 so far across nearly 100 companies, according to data from Layoffs.fyi. The rate already far outpaces that of last year, which saw about 120,000 layoffs in total. Meta announced plans to lay off 10% of its workforce -- about 8,000 employees -- and scrap plans to hire for 6,000 open positions. Microsoft has offered thousands of employees a voluntary buyout, the largest in the company's history.
+
+So if AI is not yet cheaper, what is driving the layoffs? Keith Lee, an AI and finance professor at the Swiss Institute of Artificial Intelligence's Gordon School of Business, has a simple answer: "What we are seeing is a short-term mismatch."
+
+## Why Companies Are Still Investing
+
+Professor Lee explains that the cost of using AI has remained less efficient than human labor because hardware and energy are raising operating costs for providers. At the same time, AI software fees have increased by 20% to 37% over the past year, according to spending management firm Tropic. AI companies may also be losing money on their flat subscription models, which fail to cover operating costs for heavy users.
+
+So why are companies not just waiting? The answer lies in positioning. As one analyst put it, companies are investing in AI not because it is cost-effective today, but because waiting risks being left behind when the economics shift. The $665 billion enterprise AI spending projection for 2026 reflects not confidence in current returns, but fear of missing future ones.
+
+## The Tipping Point Is Coming
+
+There will be a warning sign of a tipping point toward AI economic viability. According to Gartner, performing inference -- how AI analyzes data -- for a large language model with 1 trillion parameters will plummet by more than 90% over the next four years. AI infrastructure will improve, and model designs and hardware supply will follow. Companies will also likely switch from flat subscription pricing to usage-based pricing.
+
+But the future of AI's economic viability will also depend on whether the technology proves itself reliable -- with fewer hallucinations and a reduced need for human oversight. Federal Reserve data shows about 18% of companies had adopted AI tools as of the end of 2025, a 68% growth in the adoption rate since September 2025.
+
+"It is not just about AI becoming cheaper than humans," Professor Lee said. "It is about becoming both cheaper and more predictable at scale."
+
+For now, the reality is more mundane: AI is an expensive complement to human labor, not a replacement. The companies laying off workers are doing so to offset AI investments, not because AI has already replaced the work. The economics will eventually flip -- but when they do, it may happen faster than anyone expects.

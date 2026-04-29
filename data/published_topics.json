@@ -1745,6 +1745,14 @@
       "slugs": [
         "2026-03-10-shenzhen-wuxi-openclaw-subsidies"
       ]
+    },
+    {
+      "term": "Nvidia VP AI Cost Human Workers",
+      "count": 1,
+      "last_published": "2026-04-29",
+      "slugs": [
+        "2026-04-29-ai-cost-human-workers"
+      ]
     }
   ]
 }
