@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "Microsoft Autonomous AI Agentic Copilot Shift",
+      "count": 1,
+      "last_published": "2026-05-01",
+      "slugs": [
+        "2026-05-01-microsoft-autonomous-agentic-ai-shift"
+      ]
+    },
+    {
       "term": "World Models AMI Labs LeCun AI Paradigm",
       "count": 1,
       "last_published": "2026-04-30",
