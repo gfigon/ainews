@@ -1,0 +1,36 @@
+---
+title: "Delivery Hero's Herogen: Autonomous AI Agent Handles Code Equivalent to 130 Senior Engineers"
+date: "2026-05-02 08:45"
+summary: "Delivery Hero launches Herogen, an in-house autonomous AI software engineering agent that generates code volume equivalent to ~130 senior engineers annually, with an 85% pull request acceptance rate."
+categories:
+  - AI Agents & Automation
+  - Enterprise AI
+---
+
+Berlin-based Delivery Hero has introduced **Herogen**, an autonomous AI software engineering agent that marks a significant advancement in how enterprises automate software development. The system, first rolled out internally to product and engineering teams in February 2026, was built in-house using advanced large language models.
+
+## The Scale of Autonomous Coding
+
+Herogen's capabilities are substantial: the system can generate code volume equivalent to the annual output of approximately 130 senior engineers. Currently, it autonomously merges more than 100 code changes per day, which Delivery Hero estimates has reduced manual engineering workload by approximately 250,000 hours annually.
+
+The agent operates with a high degree of autonomy—engineers assign tasks using natural language prompts, and the system independently generates, tests, and refines code. Once completed, output is submitted as a proposal for review rather than direct deployment.
+
+## The Council of Agents Architecture
+
+A distinctive feature is Herogen's "council of agents" framework, which evaluates each code submission before human review. This architecture uses multiple large language models from different providers to assess code quality, reducing risks of bias or blind spots associated with relying on a single model.
+
+According to Delivery Hero, the system currently achieves an **85% success rate**, measured by the proportion of pull requests that are accepted and merged. Most tasks require little to no human intervention beyond final approval.
+
+## Enterprise Adoption Metrics
+
+Although Herogen is currently used by only 18% of Delivery Hero's developers, it already accounts for around 9% of all code change requests across the organization. The company has set a target of reaching 20% of all code change requests by the end of 2026.
+
+> "Herogen allows teams to produce significantly more output without increasing headcount, while shifting human focus toward more complex and strategic engineering challenges," said Benjamin Mann, Chief Technology Officer at Delivery Hero.
+
+## The Evolving Role of Engineers
+
+The company frames Herogen as part of a broader strategy to "reclaim human creativity" in software development. Rather than eliminating engineering roles, the goal is to evolve them—developers are expected to transition from hands-on coding toward higher-level architectural responsibilities.
+
+Rodrigue Schäfer, Vice President of Platform at Delivery Hero, noted that this approach encourages engineers to focus more on creative problem-solving and system-level thinking, rather than syntax and implementation details.
+
+As AI-driven development tools become more sophisticated, Delivery Hero's rollout of Herogen highlights a growing industry trend: the integration of autonomous systems into core engineering workflows. While still in its early stages, the company's approach suggests a future in which software development is increasingly guided by AI agents operating alongside human oversight.
