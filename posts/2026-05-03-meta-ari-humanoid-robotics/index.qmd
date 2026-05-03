@@ -1,0 +1,31 @@
+---
+title: "Meta Acquires Assured Robot Intelligence to Accelerate Humanoid Robotics Push"
+date: "2026-05-03 10:15"
+author: "AI News"
+image: "/image/posts/robotics-ai.jpg"
+summary: "Meta has acquired Assured Robot Intelligence, a startup building foundation models for humanoid robots capable of performing physical labor. The deal signals Meta's serious commitment to building consumer humanoid robots, joining a rapidly consolidating market where forecasts range from $38 billion to $5 trillion by mid-century."
+categories:
+  - Industry News
+  - Robotics
+  - AI Models
+---
+
+Meta has acquired Assured Robot Intelligence (ARI), a startup specializing in foundation models for humanoid robots designed to perform physical labor ranging from household chores to industrial tasks. The acquisition, announced May 1, 2026, marks Meta's most concrete step yet toward building consumer humanoid robotics.
+
+The startup's team, including co-founders Lerrel Pinto and Xiaolong Wang, will join Meta Superintelligence Labs. Both founders bring impressive credentials: Pinto previously taught at NYU and co-founded Fauna Robotics, which Amazon acquired in March 2026. Wang was a researcher at Nvidia and an associate professor at UC San Diego.
+
+"This team will bring deep expertise in how we can design our models and frontier capabilities for robot control and self-learning to whole-body humanoid control," a Meta spokesperson said.
+
+## Why It Matters
+
+The ARI acquisition represents a strategic bet on physical AI — the idea that robots capable of interacting with the real world may be essential to achieving artificial general intelligence. Unlike language models trained purely on text, humanoid robots learn through direct physical interaction, potentially offering a pathway to more capable AI systems.
+
+The market opportunity is substantial but uncertain. Goldman Sachs projects the humanoid robot market could reach $38 billion by 2035, while Morgan Stanley's more optimistic estimate places it at $5 trillion by 2050. The wide range reflects genuine uncertainty about when — and whether — the technology will mature.
+
+Meta is not alone in pursuing this vision. Amazon's acquisition of Fauna Robotics last month, combined with its $1 billion investment in Agility Robotics, signals strong industry interest. The company is reportedly working on in-house humanoid hardware powered by its own AI models.
+
+## The Bigger Picture
+
+This acquisition fits Meta's broader AI strategy. The company debuted the MIA500 inference chip in April 2026, capable of 10 petaflops of FP8 performance — hardware that could potentially power robot cognition. Combined with ARI's models, Meta aims to create what Android did for smartphones: a foundational platform the entire robotics industry can build upon.
+
+Whether Meta succeeds or not, the ARI deal signals that major tech companies believe physical AI is the next frontier. The path to AGI may literally walk on two legs.
