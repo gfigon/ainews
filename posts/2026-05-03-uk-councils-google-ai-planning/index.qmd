@@ -1,0 +1,62 @@
+---
+title: "English Councils to Trial Google AI Tool to Speed Up Planning Decisions"
+date: "2026-05-03 08:00"
+author: "AI News Daily"
+description: "UK local authorities are testing Gemini AI to accelerate planning application reviews, marking a significant expansion of artificial intelligence in British governance."
+categories:
+  - AI Adoption
+  - Government
+  - Local Council
+  - Google
+tags:
+  - UK
+  - local government
+  - planning
+  - Gemini
+  - AI tools
+---
+
+**The UK government is piloting Google's Gemini AI across multiple English councils to automate and accelerate planning decision-making**, according to reports from the Financial Times. The trial represents one of the most extensive deployments of commercial AI in local governance to date.
+
+## How the System Works
+
+The AI tool will analyze planning applications and generate recommendations on whether to approve or reject proposed projects. Councils have struggled with lengthy decision timelines, with some applications taking months or even years to process. The Gemini-powered system aims to reduce this to days or weeks.
+
+According to government sources, the tool will assist planners rather than replace human judgment entirely. The AI will:
+- Review application documents against planning regulations
+- Check compliance with local development plans
+- Flag potential issues and concerns
+- Generate initial recommendations for human officers
+
+## Scale of the Trial
+
+Initial reports suggest the trial involves:
+- **Multiple county and district councils** across England
+- A mix of urban and rural authorities
+- Focus on standard residential and commercial applications first
+
+The government has not disclosed which specific councils are participating or when the trial began.
+
+## Implications for Local Government
+
+If successful, this could transform how British planning operates. The UK planning system has faced criticism for:
+- Average determination times of **60+ days** for minor applications
+- Staff shortages across local authorities
+- Increasing application volumes as housing demand grows
+- Complex regulatory requirements
+
+## Industry Response
+
+The Local Government Association has cautiously welcomed the approach, noting that AI could help address chronic resource constraints. However, concerns remain about:
+- Accountability when AI recommendations lead to poor decisions
+- Transparency of algorithmic decision-making
+- Data privacy for applicants submitting personal information
+- Accuracy in handling complex or edge cases
+
+This trial follows the UK government's broader AI strategy, which includes the Incubator for AI (i.AI) developing tools like Redbox for document summarisation and Consult for analysing consultation responses.
+
+**Related links:**
+- [UK government AI strategy](https://commonslibrary.parliament.uk/research-briefings/cbp-10236/)[^1]
+- [System C FormFlow councilAI adoption](https://www.resultsense.com/news/2026-05-01-system-c-formflow-15-councils)[^1]
+
+[^1]: Source verified through web search on 2026-05-03
