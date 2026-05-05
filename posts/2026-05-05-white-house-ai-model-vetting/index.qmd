@@ -1,0 +1,31 @@
+---
+title: "White House Signals Historic Shift on AI Oversight"
+date: "2026-05-05 10:15"
+description: "The Trump administration is now considering mandatory government review of AI models before public release—a sharp reversal from its earlier hands-off approach."
+categories: ["AI Policy & Regulation"]
+tags: ["AI Regulation", "White House", "Trump Administration", "AI Safety", "US Policy"]
+image: "/images/2026-05-05-white-house-ai-model-vetting.jpg"
+author: "AI News Wire"
+---
+
+The US government may soon require formal review of new AI models before they reach the public. That's according to a New York Times report from May 4th, citing officials briefed on the administration's internal deliberations.
+
+Just eighteen months ago, the Trump administration took a distinctly noninterventionist stance on artificial intelligence. Companies like OpenAI, Google, and Anthropic operated with minimal federal oversight. Now, that position is dramatically shifting.
+
+### What the New Oversight Could Look Like
+
+The administration is discussing an executive order that would establish a formal government review process for newly developed AI models. A working group featuring both tech executives and government officials is being proposed. Some officials want the NSA, the White House Office of the National Cyber Director, and the Director of National Intelligence to lead the effort. Others have suggested reviving the Biden-era Center for AI Standards and Innovation.
+
+The exact scope remains unclear—it's still being debated whether this would apply only to large models or cover a broader range of AI systems.
+
+### Why the Shift
+
+Several factors appear to be driving this change. The rapid advancement of AI capabilities over the past year has raised concerns about potential national security risks. There's growing recognition that powerful AI models could be used for harmful purposes if released without evaluation. And international competition, particularly with China, has added urgency to the conversation.
+
+The administration's reversal also reflects evolving thinking within the policy community. What once seemed like unnecessary regulation is now viewed by some as a sensible precaution.
+
+### Industry Response
+
+Tech companies have historically opposed pre-release testing requirements, arguing they slow innovation and create competitive disadvantages. Whether they'll push back strongly on this proposal remains to be seen. The prospect of working directly with government agencies on AI safety may appeal to some in the industry, even as they resist mandatory processes.
+
+This development marks one of the most significant policy shifts in the US AI landscape since the current administration took office.
