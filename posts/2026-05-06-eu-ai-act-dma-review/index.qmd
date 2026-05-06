@@ -1,0 +1,47 @@
+---
+title: "EU AI Act Meets DMA: How Europe's Digital Rulebook Is Expanding to Cover AI"
+date: "2026-05-06 08:45"
+author: "AI News Editorial"
+categories:
+  - Regulation
+  - Europe
+  - Policy
+summary: "The EU's two-year DMA review confirms AI will be integrated into Europe's digital regulations, expanding consumer choice while raising the regulatory bar for tech giants."
+---
+
+The European Commission's two-year review of the Digital Markets Act (DMA), published May 3, 2026, marks a significant turning point for AI regulation in Europe. The review confirms what regulators have been signaling for months: artificial intelligence systems will now fall directly under Europe's comprehensive digital rulebook.
+
+## From DMA to AI: The Regulatory Expansion
+
+The DMA, which came into force in 2024, was designed to rein in the power of "gatekeepers" - major platforms like Google, Apple, Meta, and Amazon. Until now, it primarily focused on traditional digital services. But the May review explicitly expands the scope to cover AI-powered tools.
+
+"For citizens, the law's expansion to cover new technologies like AI will provide greater choice over which tools are included on their devices, rather than relying solely on manufacturer defaults," the Commission acknowledged in its review.
+
+This means European users will gain the right to:
+- **Replace default AI assistants** with alternatives
+- **Unbundle AI features** from hardware ecosystems  
+- **Access AI services** without forced bundling
+
+## The AI Act Synergy
+
+The DMA expansion dovetails with the EU AI Act, which establishes risk-based rules for AI systems across the EU. Together, these regulations create a comprehensive framework:
+
+- **AI Act**: Technical safety standards, transparency requirements, and risk assessments
+- **DMA**: Market access rules, interoperability mandates, and consumer choice
+
+The combination is deliberate. As AI becomes embedded in every digital product from smartphones to cloud services, Europe is ensuring it has regulatory coverage across the entire stack.
+
+## What's Next
+
+The timeline for enforcement is clear:
+- **Immediate**: DMA provisions now apply to AI as a "core platform service"
+- **August 2026**: Full standalone AI system rules take effect under AI Act Annex III
+- **2027-2028**: Integrated systems come under expanded oversight
+
+For AI companies, this means compliance costs will increase - but also that market access to Europe's 450 million consumers becomes clearer.
+
+## The Bigger Picture
+
+Europe is betting that regulatory clarity will drive adoption, not stifle it. By establishing clear rules now, the EU aims to become the global benchmark for AI governance - much as GDPR became the worldwide standard for data privacy.
+
+Companies that crack the European regulatory code will have a template for global compliance.
