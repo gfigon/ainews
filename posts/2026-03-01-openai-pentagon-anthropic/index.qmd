@@ -4,7 +4,6 @@ date: "2026-03-01 08:00"
 description: "Major shift in AI-Pentagon relations: OpenAI gains access to classified military networks, Anthropic blocked by Trump. Analysis of implications for the industry."
 categories:
   - Industry News
-  - Industry News
   - AI Security & Policy
 tags: [OpenAI, Anthropic, Pentagon, military AI, Claude]
 ---

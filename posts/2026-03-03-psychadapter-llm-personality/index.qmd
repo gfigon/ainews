@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - AI Tools & Frameworks
 tags: ["PsychAdapter", "LLM", "personality", "mental health", "AI research"]
-image: "/images/psychadapter.jpg"
+image: "/assets/post-images/2026-03-03-psychadapter-llm-personality.svg"
 author: "AI News Team"
 author_url: "https://www.nature.com/articles/s44387-026-00071-9"
 ---

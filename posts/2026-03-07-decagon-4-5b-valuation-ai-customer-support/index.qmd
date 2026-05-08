@@ -5,7 +5,7 @@ author: "AI News Digest"
 description: "AI customer support startup Decagon launches employee tender offer at $4.5B valuation, tripling its value from $1.5B just months earlier. The company serves over 100 enterprise customers including Avis, Oura, and Away Travel."
 tags: ["AI", "startup", "funding", "customer support", "valuation", "Decagon"]
 categories: ["Industry News"]
-image: "/images/decagon-valuation.jpg"
+image: "/assets/post-images/2026-03-07-decagon-4-5b-valuation-ai-customer-support.svg"
 nofollow: true
 ---
 

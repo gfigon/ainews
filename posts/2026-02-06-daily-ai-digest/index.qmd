@@ -4,7 +4,6 @@ date: "2026-02-06 08:00"
 categories:
   - LLMs & Models
   - Industry News
-  - LLMs & Models
   - Agents & Automation
 fig-alt: "AI Frontier Daily"
 ---

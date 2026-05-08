@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/logo-mark.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f6dfdc4e1516c20afe3ccf6d757247e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-cb2295f631f18795dd50e03bc0ad1c25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-f6dfdc4e1516c20afe3ccf6d757247e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-db8958c6cc11bfc12651d5089fcf78bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-45401ea22d70c517ca7ca4b78f980a5f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-db8958c6cc11bfc12651d5089fcf78bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  
+
   gtag('consent', 'default', {
     'ad_storage': 'denied',
     'ad_user_data': 'denied',
@@ -88,22 +89,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- Klaro Cookie Consent - CSS -->
 <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
 <!-- Klaro Cookie Consent - Konfiguracja -->
-<script defer="" type="text/javascript" src="klaro-config.js"></script>
+<script defer="" type="text/javascript" src="./klaro-config.js"></script>
 <!-- Klaro Cookie Consent - Biblioteka -->
 <script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WR6KBLTV');</script>
 <!-- End Google Tag Manager -->
+<!-- Lucide icons (replaces Bootstrap Icons per design system) -->
+<script defer="" src="https://unpkg.com/lucide@latest"></script>
+<script defer="">document.addEventListener('DOMContentLoaded',function(){if(window.lucide){lucide.createIcons();}});</script>
 <meta name="author" content="Robo AI Digest">
 <meta name="description" content="Daily AI news and insights on LLMs, AI Agents, Machine Learning breakthroughs and cutting-edge technology. Stay ahead with Robo AI Digest.">
 <meta name="robots" content="index, follow">
 
 
+<link rel="stylesheet" href="assets/colors_and_type.css">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="hide-elements.css">
 <meta property="og:title" content="About Robo AI Digest">
 <meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta property="og:image" content="https://roboaidigest.com/robo_editor.jpg">
+<meta property="og:image" content="https://roboaidigest.com/assets/robo-mascot.jpg">
 <meta name="twitter:title" content="About Robo AI Digest">
 <meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
 <meta name="twitter:image" content="https://roboaidigest.com/social-share.png">
@@ -280,8 +285,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Robo AI Digest</span>
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/logo-horizontal.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/logo-horizontal.svg" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -290,6 +296,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Latest</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
@@ -300,14 +310,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="https://github.com/gfigon/ainews"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./privacy.html"> 
-<span class="menu-text">Privacy</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./terms.html"> 
-<span class="menu-text">Terms</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -329,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#the-mission-signal-over-noise" id="toc-the-mission-signal-over-noise" class="nav-link active" data-scroll-target="#the-mission-signal-over-noise">The Mission: Signal Over Noise</a></li>
   <li><a href="#what-we-cover" id="toc-what-we-cover" class="nav-link" data-scroll-target="#what-we-cover">What We Cover</a></li>
   <li><a href="#why-robo" id="toc-why-robo" class="nav-link" data-scroll-target="#why-robo">Why “Robo”?</a></li>
-  <li><a href="#contact-us" id="toc-contact-us" class="nav-link" data-scroll-target="#contact-us">Contact Us</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -361,47 +363,47 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="robo_editor.jpg" class="rounded-circle img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
+<p><img src="assets/robo-mascot.jpg" class="rad-about-portrait img-fluid quarto-figure quarto-figure-center figure-img" width="240"></p>
 </figure>
 </div>
-<section id="the-mission-signal-over-noise" class="level3">
-<h3 class="anchored" data-anchor-id="the-mission-signal-over-noise">The Mission: Signal Over Noise</h3>
+<section id="the-mission-signal-over-noise" class="level2 rad-h2">
+<h2 class="rad-h2 anchored" data-anchor-id="the-mission-signal-over-noise">The Mission: Signal Over Noise</h2>
 <p>In a world drowning in AI hype and daily announcements, <strong>Robo AI Digest</strong> was born from a simple necessity: the need for clarity. Our mission is to filter the global flow of information and deliver a precise, reliable, and accessible briefing on what truly matters in the world of Artificial Intelligence.</p>
 </section>
-<section id="what-we-cover" class="level3">
-<h3 class="anchored" data-anchor-id="what-we-cover">What We Cover</h3>
-<p>We focus on the four pillars of the modern AI revolution:</p>
+<section id="what-we-cover" class="level2 rad-h2">
+<h2 class="rad-h2 anchored" data-anchor-id="what-we-cover">What We Cover</h2>
+<div class="rad-list">
 <ul>
-<li><strong>Intelligence &amp; LLMs</strong>: Understanding the latest shifts in Large Language Models and Foundation models.</li>
-<li><strong>Workplace Automation</strong>: Identifying tools and workflows that actually increase productivity.</li>
-<li><strong>Industry Breakthroughs</strong>: Reporting on significant advancements that move the needle in business and research.</li>
-<li><strong>Future Trends</strong>: Tracking the long-term evolution of AI and its impact on society.</li>
+<li><strong>Intelligence &amp; LLMs</strong> — shifts in Large Language Models and Foundation models.</li>
+<li><strong>Workplace Automation</strong> — tools and workflows that actually increase productivity.</li>
+<li><strong>Industry Breakthroughs</strong> — advancements that move the needle in business and research.</li>
+<li><strong>Policy &amp; Ethics</strong> — regulations, safety frameworks, and societal impact.</li>
 </ul>
+</div>
 </section>
-<section id="why-robo" class="level3">
-<h3 class="anchored" data-anchor-id="why-robo">Why “Robo”?</h3>
+<section id="why-robo" class="level2 rad-h2">
+<h2 class="rad-h2 anchored" data-anchor-id="why-robo">Why “Robo”?</h2>
 <p>The “Robo” in our name stands for autonomy and precision. By leveraging advanced AI to scout and synthesize news, we provide a digest that is consistent, unbiased, and focused purely on the facts. We don’t just repeat news; we summarize the essence so you can stay informed in minutes, not hours.</p>
-<hr>
-<p><em>Stay ahead of the curve. Simple. Brief. Reliable.</em></p>
+<p><span class="rad-mono-meta">// STAY AHEAD OF THE CURVE · SIMPLE · BRIEF · RELIABLE</span></p>
 </section>
-<section id="contact-us" class="level3">
-<h3 class="anchored" data-anchor-id="contact-us">Contact Us</h3>
+<section id="contact" class="level2 rad-h2">
+<h2 class="rad-h2 anchored" data-anchor-id="contact">Contact</h2>
 <p>If you have questions, suggestions, or want to collaborate, please use the form below.</p>
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" class="rad-form">
   <div style="margin-bottom: 15px;">
-    <label for="name" style="display: block; margin-bottom: 5px;">Your Name:</label>
-    <input type="text" name="name" id="name" required="" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+    <label for="name" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// NAME</label>
+    <input type="text" name="name" id="name" required="" style="width: 100%; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px;">
   </div>
   <div style="margin-bottom: 15px;">
-    <label for="email" style="display: block; margin-bottom: 5px;">Your Email:</label>
-    <input type="email" name="email" id="email" required="" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+    <label for="email" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// EMAIL</label>
+    <input type="email" name="email" id="email" required="" style="width: 100%; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px;">
   </div>
   <div style="margin-bottom: 15px;">
-    <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
-    <textarea name="message" id="message" required="" style="width: 100%; height: 120px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+    <label for="message" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// MESSAGE</label>
+    <textarea name="message" id="message" required="" style="width: 100%; height: 140px; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px; resize: vertical;"></textarea>
   </div>
   <div>
-    <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 25px; border-radius: 5px; cursor: pointer; font-weight: bold;">Send Message</button>
+    <button type="submit" style="background: var(--signal); color: var(--bg-0); border: 1px solid var(--signal); padding: 10px 22px; border-radius: var(--radius-2); cursor: pointer; font-family: var(--font-mono); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">SEND_</button>
   </div>
 </form>
 
@@ -409,6 +411,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<footer class="rad-footer">
+  <div class="rad-footer-row">
+    <div class="rad-footer-brand">
+      <img src="./assets/logo-terminal.svg" alt="Robo AI Digest">
+    </div>
+    <div class="rad-footer-cols">
+      <div>
+        <h5>// ROBO_AI_DIGEST</h5>
+        <a href="./about.html">About</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+      </div>
+      <div>
+        <h5>// SOURCE</h5>
+        <a href="https://github.com/gfigon/ainews" rel="nofollow">github.com/gfigon/ainews</a>
+        <a href="./sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+  <div class="rad-footer-bottom">
+    <span class="rad-mono-meta">EOF · BUILT WITH QUARTO + R · NETLIFY · ©2026</span>
+    <span class="rad-mono-meta">v.2026.05.08</span>
+  </div>
+</footer>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

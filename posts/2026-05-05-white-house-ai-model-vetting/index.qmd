@@ -4,7 +4,7 @@ date: "2026-05-05 10:15"
 description: "The Trump administration is now considering mandatory government review of AI models before public release—a sharp reversal from its earlier hands-off approach."
 categories: ["AI Policy & Regulation"]
 tags: ["AI Regulation", "White House", "Trump Administration", "AI Safety", "US Policy"]
-image: "/images/2026-05-05-white-house-ai-model-vetting.jpg"
+image: "/assets/post-images/2026-05-05-white-house-ai-model-vetting.svg"
 author: "AI News Wire"
 ---
 

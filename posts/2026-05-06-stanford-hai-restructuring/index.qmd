@@ -4,7 +4,7 @@ date: "2026-05-06 08:00"
 description: "Stanford is merging its Human-Centered AI Institute with the university's Data Science initiative, creating a unified powerhouse to tackle AI's societal impact."
 categories: ["AI Research & Academia"]
 tags: ["Stanford", "HAI", "AI Research", "Academic AI", "Fei-Fei Li", "John Hennessy"]
-image: "/images/2026-05-06-stanford-hai-restructuring.jpg"
+image: "/assets/post-images/2026-05-06-stanford-hai-restructuring.svg"
 author: "AI News Wire"
 ---
 

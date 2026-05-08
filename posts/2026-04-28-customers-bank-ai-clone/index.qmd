@@ -7,7 +7,7 @@ categories:
   - Industry News
   - AI Agents & Automation
   - Financial Services
-image: /images/banking-ai.jpg
+image: "/assets/post-images/2026-04-28-customers-bank-ai-clone.svg"
 ---
 
 Pennsylvania-based **Customers Bank** has made history by becoming what appears to be the first public company to deliver portions of its quarterly earnings call through an AI-generated voice clone. CEO Sam Sidhu revealed that "the prepared remarks you heard on my behalf today were delivered by my AI clone, not read by me" during the company's Q1 2026 earnings call.

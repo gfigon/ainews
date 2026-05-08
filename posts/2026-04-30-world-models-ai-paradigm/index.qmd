@@ -5,7 +5,7 @@ description: "How Yann LeCun's AMI Labs and tech giants are betting on a new app
 categories:
   - Research Highlights
   - AI Tools & Frameworks
-image: /images/world-models-ai.jpg
+image: "/assets/post-images/2026-04-30-world-models-ai-paradigm.svg"
 ---
 
 A quiet revolution is brewing in artificial intelligence research. While the world has been mesmerized by large language models that generate text, images, and code, a fundamentally different approach—known as "world models"—is gaining serious traction among top AI researchers and investors. And it might just be the next big thing.

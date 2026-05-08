@@ -4,7 +4,6 @@ date: "2026-02-09 08:00"
 categories:
   - LLMs & Models
   - Industry News
-  - LLMs & Models
   - AI Tools & Frameworks
 fig-alt: "Coding Agent Wars"
 ---

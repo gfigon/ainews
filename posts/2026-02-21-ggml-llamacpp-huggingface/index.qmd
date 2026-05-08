@@ -4,7 +4,6 @@ description: "Georgi Gerganov's team brings the backbone of local AI inference t
 date: "2026-02-21 10:15"
 categories:
   - AI Tools & Frameworks
-  - AI Tools & Frameworks
 slug: "ggml-llamacpp-huggingface"
 ---
 In a move that could reshape the landscape of local AI inference, GGML—the organization behind llama.cpp, the most widely-used library for running large language models on consumer hardware—has officially joined Hugging Face. The announcement, made on February 20, 2026, marks a significant milestone for the open-source local AI community.

@@ -7,7 +7,7 @@ categories:
   - AI Safety
   - Policy & Regulation
   - Security
-image: /images/jailbreak-ai-congress.jpg
+image: "/assets/post-images/2026-04-24-ai-jailbreak-safety-briefing.svg"
 ---
 
 Last Wednesday, the U.S. House Homeland Security Committee received a disturbing demonstration that could reshape how Congress thinks about AI regulation. Department of Homeland Security researchers showed lawmakers just how easy it is to turn mainstream AI tools into weapons — by using "jailbroken" models that have their safety guardrails completely removed.

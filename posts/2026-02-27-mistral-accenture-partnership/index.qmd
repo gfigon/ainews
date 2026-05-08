@@ -3,7 +3,6 @@ title: "Mistral AI Partners with Accenture to Bring European AI to Enterprise"
 date: "2026-02-27 08:00"
 categories:
   - Industry News
-  - Industry News
 ---
 French AI startup Mistral AI has announced a multi-year strategic partnership with global consulting giant Accenture, marking a significant step in the company's push to bring European-developed AI models to enterprise customers worldwide.
 ## A Strategic Alliance

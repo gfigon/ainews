@@ -5,7 +5,7 @@ description: "Google's AI assistant reaches a major milestone amid intense compe
 author: "AI News"
 tags: ["Google", "Gemini", "AI Assistants", "Agentic AI", "Workspace"]
 categories: "Industry News"
-image: "/images/gemini-750m.png"
+image: "/assets/post-images/2026-03-31-gemini-750m-users.svg"
 ---
 
 Google's Gemini AI assistant has reached 750 million users, according to disclosures made during Alphabet's fourth-quarter earnings call. The milestone marks a significant acceleration in the AI assistant wars, as Google battles OpenAI, Anthropic, and emerging competitors for market dominance.

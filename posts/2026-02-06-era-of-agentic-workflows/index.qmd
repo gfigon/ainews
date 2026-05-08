@@ -4,8 +4,6 @@ date: "2026-02-06 08:00"
 categories:
   - Agents & Automation
   - AI Tools & Frameworks
-  - Agents & Automation
-  - AI Tools & Frameworks
 fig-alt: "The Era of Agentic Workflows"
 description: "Exploring the shift from simple RAG to complex agentic reasoning with the latest updates from leading orchestration frameworks."
 ---

@@ -2,7 +2,7 @@
 title: "Meta Acquires Assured Robot Intelligence to Accelerate Humanoid Robotics Push"
 date: "2026-05-03 10:15"
 author: "AI News"
-image: "/image/posts/robotics-ai.jpg"
+image: "/assets/post-images/2026-05-03-meta-ari-humanoid-robotics.svg"
 summary: "Meta has acquired Assured Robot Intelligence, a startup building foundation models for humanoid robots capable of performing physical labor. The deal signals Meta's serious commitment to building consumer humanoid robots, joining a rapidly consolidating market where forecasts range from $38 billion to $5 trillion by mid-century."
 categories:
   - Industry News

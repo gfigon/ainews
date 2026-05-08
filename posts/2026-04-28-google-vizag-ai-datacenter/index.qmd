@@ -7,7 +7,7 @@ categories:
   - Google
   - India
   - Data Centers
-image: /images/posts/2026-04-28-google-vizag.jpg
+image: "/assets/post-images/2026-04-28-google-vizag-ai-datacenter.svg"
 ---
 
 Google is laying the foundation today for its $15 billion artificial intelligence datacenter in Visakhapatnam (Vizag), India — the tech giant's largest AI infrastructure investment in South Asia to date.

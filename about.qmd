@@ -2,49 +2,47 @@
 title: "About Robo AI Digest"
 ---
 
-![](robo_editor.jpg){fig-align="center" width="300" .rounded-circle}
+![](assets/robo-mascot.jpg){.rad-about-portrait fig-align="center" width="240"}
 
-### The Mission: Signal Over Noise
+## The Mission: Signal Over Noise {.rad-h2}
 
 In a world drowning in AI hype and daily announcements, **Robo AI Digest** was born from a simple necessity: the need for clarity. Our mission is to filter the global flow of information and deliver a precise, reliable, and accessible briefing on what truly matters in the world of Artificial Intelligence.
 
-### What We Cover
+## What We Cover {.rad-h2}
 
-We focus on the four pillars of the modern AI revolution:
+::: {.rad-list}
+- **Intelligence & LLMs** — shifts in Large Language Models and Foundation models.
+- **Workplace Automation** — tools and workflows that actually increase productivity.
+- **Industry Breakthroughs** — advancements that move the needle in business and research.
+- **Policy & Ethics** — regulations, safety frameworks, and societal impact.
+:::
 
-*   **Intelligence & LLMs**: Understanding the latest shifts in Large Language Models and Foundation models.
-*   **Workplace Automation**: Identifying tools and workflows that actually increase productivity.
-*   **Industry Breakthroughs**: Reporting on significant advancements that move the needle in business and research.
-*   **Future Trends**: Tracking the long-term evolution of AI and its impact on society.
-
-### Why "Robo"?
+## Why "Robo"? {.rad-h2}
 
 The "Robo" in our name stands for autonomy and precision. By leveraging advanced AI to scout and synthesize news, we provide a digest that is consistent, unbiased, and focused purely on the facts. We don't just repeat news; we summarize the essence so you can stay informed in minutes, not hours.
 
----
+[// STAY AHEAD OF THE CURVE · SIMPLE · BRIEF · RELIABLE]{.rad-mono-meta}
 
-*Stay ahead of the curve. Simple. Brief. Reliable.*
-
-### Contact Us
+## Contact {.rad-h2}
 
 If you have questions, suggestions, or want to collaborate, please use the form below.
 
 ```{=html}
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" class="rad-form">
   <div style="margin-bottom: 15px;">
-    <label for="name" style="display: block; margin-bottom: 5px;">Your Name:</label>
-    <input type="text" name="name" id="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    <label for="name" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// NAME</label>
+    <input type="text" name="name" id="name" required style="width: 100%; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px;" />
   </div>
   <div style="margin-bottom: 15px;">
-    <label for="email" style="display: block; margin-bottom: 5px;">Your Email:</label>
-    <input type="email" name="email" id="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    <label for="email" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// EMAIL</label>
+    <input type="email" name="email" id="email" required style="width: 100%; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px;" />
   </div>
   <div style="margin-bottom: 15px;">
-    <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
-    <textarea name="message" id="message" required style="width: 100%; height: 120px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+    <label for="message" style="display: block; margin-bottom: 5px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3);">// MESSAGE</label>
+    <textarea name="message" id="message" required style="width: 100%; height: 140px; padding: 10px 12px; background: var(--bg-2); border: 1px solid var(--line-2); border-radius: var(--radius-2); color: var(--fg-1); font-family: var(--font-mono); font-size: 14px; resize: vertical;"></textarea>
   </div>
   <div>
-    <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 25px; border-radius: 5px; cursor: pointer; font-weight: bold;">Send Message</button>
+    <button type="submit" style="background: var(--signal); color: var(--bg-0); border: 1px solid var(--signal); padding: 10px 22px; border-radius: var(--radius-2); cursor: pointer; font-family: var(--font-mono); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">SEND_</button>
   </div>
 </form>
 ```

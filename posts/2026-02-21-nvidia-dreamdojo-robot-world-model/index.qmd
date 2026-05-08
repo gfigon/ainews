@@ -3,7 +3,6 @@ title: "NVIDIA DreamDojo: A World Model Trained on 44,711 Hours of Human Video"
 date: "2026-02-21"
 categories:
   - Research & Innovation
-  - Research & Innovation
 ---
 NVIDIA has released DreamDojo, an open-source robot world model trained on 44,711 hours of egocentric human video—the largest dataset of its kind for world model pretraining. This represents a major step toward solving one of robotics' most persistent challenges: the data bottleneck.
 ## The Data Problem in Robotics

@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../assets/logo-mark.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -44,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f6dfdc4e1516c20afe3ccf6d757247e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-cb2295f631f18795dd50e03bc0ad1c25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-f6dfdc4e1516c20afe3ccf6d757247e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-db8958c6cc11bfc12651d5089fcf78bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-45401ea22d70c517ca7ca4b78f980a5f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-db8958c6cc11bfc12651d5089fcf78bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  
+
   gtag('consent', 'default', {
     'ad_storage': 'denied',
     'ad_user_data': 'denied',
@@ -90,17 +91,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- Klaro Cookie Consent - CSS -->
 <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
 <!-- Klaro Cookie Consent - Konfiguracja -->
-<script defer="" type="text/javascript" src="klaro-config.js"></script>
+<script defer="" type="text/javascript" src="../../klaro-config.js"></script>
 <!-- Klaro Cookie Consent - Biblioteka -->
 <script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WR6KBLTV');</script>
 <!-- End Google Tag Manager -->
+<!-- Lucide icons (replaces Bootstrap Icons per design system) -->
+<script defer="" src="https://unpkg.com/lucide@latest"></script>
+<script defer="">document.addEventListener('DOMContentLoaded',function(){if(window.lucide){lucide.createIcons();}});</script>
 <meta name="author" content="Robo AI Digest">
 <meta name="description" content="Daily AI news and insights on LLMs, AI Agents, Machine Learning breakthroughs and cutting-edge technology. Stay ahead with Robo AI Digest.">
 <meta name="robots" content="index, follow">
 
 
+<link rel="stylesheet" href="../../assets/colors_and_type.css">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
 <meta property="og:title" content="ByteDance Maps Molecular Bonds in AI Reasoning — MOLE-SYN Synthesizes Long Chain-of-Thought From Scratch">
@@ -281,8 +286,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Robo AI Digest</span>
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/logo-horizontal.svg" alt="" class="navbar-logo light-content">
+    <img src="../../assets/logo-horizontal.svg" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -291,6 +297,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Latest</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
@@ -301,14 +311,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="https://github.com/gfigon/ainews"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../privacy.html"> 
-<span class="menu-text">Privacy</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../terms.html"> 
-<span class="menu-text">Terms</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -374,6 +376,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<footer class="rad-footer">
+  <div class="rad-footer-row">
+    <div class="rad-footer-brand">
+      <img src="../../assets/logo-terminal.svg" alt="Robo AI Digest">
+    </div>
+    <div class="rad-footer-cols">
+      <div>
+        <h5>// ROBO_AI_DIGEST</h5>
+        <a href="../../about.html">About</a>
+        <a href="../../privacy.html">Privacy</a>
+        <a href="../../terms.html">Terms</a>
+      </div>
+      <div>
+        <h5>// SOURCE</h5>
+        <a href="https://github.com/gfigon/ainews" rel="nofollow">github.com/gfigon/ainews</a>
+        <a href="../../sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+  <div class="rad-footer-bottom">
+    <span class="rad-mono-meta">EOF · BUILT WITH QUARTO + R · NETLIFY · ©2026</span>
+    <span class="rad-mono-meta">v.2026.05.08</span>
+  </div>
+</footer>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

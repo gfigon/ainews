@@ -4,7 +4,6 @@ description: "Zyphra's 380M-parameter BCI model brings the transformative power 
 date: "2026-02-19 08:00"
 categories:
   - Research & Innovation
-  - Research & Innovation
 slug: "zyphra-zuna-bci-foundation-model"
 ---
 Brain-computer interfaces (BCIs) are having their "foundation model" moment. Zyphra, the research lab behind the popular Zaria and Fuse language models, has released **ZUNA**, a 380M-parameter foundation model specifically designed for EEG (electroencephalography) signals. This marks a significant milestone: the application of the transformer-era playbook—large-scale pretraining, generalization across domains, and zero-shot capability—to the messy, heterogeneous world of brain data.

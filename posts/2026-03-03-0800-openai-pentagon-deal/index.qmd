@@ -5,7 +5,6 @@ description: "OpenAI secures a defense agreement with the Pentagon just hours af
 tags: [OpenAI, Pentagon, Anthropic, defense AI, military AI, AI ethics]
 categories:
   - Industry News
-  - Industry News
 ---
 In a stunning turn of events, OpenAI announced on Saturday that it has reached a defense agreement with the Pentagon — just hours after the Department of Defense blacklisted rival Anthropic as a "supply chain risk." The timing of the announcement has sent shockwaves through the AI industry.
 ## The Deal

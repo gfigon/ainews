@@ -5,7 +5,6 @@ description: "NVIDIA is preparing a revolution in AI inference. The new processo
 tags: [NVIDIA, inference chip, Groq, GTC 2026, OpenAI, AI hardware]
 categories:
   - AI Infrastructure
-  - AI Infrastructure
 ---
 NVIDIA is gearing up for a major announcement at the GTC conference in San Jose at the end of March 2026. According to Wall Street Journal reports, the company is working on a dedicated inference processor that could revolutionize how AI models operate in production.
 ## What is Inference and Why Does It Matter?

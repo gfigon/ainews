@@ -4,7 +4,6 @@ description: "The new 400M parameter model from nineninesix.ai brings high-fidel
 date: "2026-02-16 08:00"
 categories:
   - AI Tools & Frameworks
-  - AI Tools & Frameworks
 slug: "kani-tts-2"
 ---
 The landscape of generative audio is shifting toward efficiency. A new open-source contender, **Kani-TTS-2**, has been released by the team at nineninesix.ai. This model marks a departure from heavy, compute-expensive TTS systems. Instead, it treats audio as a language, delivering high-fidelity speech synthesis with a remarkably small footprint.

@@ -6,7 +6,7 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  
+
   gtag('consent', 'default', {
     'ad_storage': 'denied',
     'ad_user_data': 'denied',
@@ -18,12 +18,15 @@
 <!-- Klaro Cookie Consent - CSS -->
 <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css"/>
 <!-- Klaro Cookie Consent - Konfiguracja -->
-<script defer type="text/javascript" src="klaro-config.js"></script>
+<script defer type="text/javascript" src="/klaro-config.js"></script>
 <!-- Klaro Cookie Consent - Biblioteka -->
 <script defer data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WR6KBLTV');</script>
 <!-- End Google Tag Manager -->
+<!-- Lucide icons (replaces Bootstrap Icons per design system) -->
+<script defer src="https://unpkg.com/lucide@latest"></script>
+<script defer>document.addEventListener('DOMContentLoaded',function(){if(window.lucide){lucide.createIcons();}});</script>
 <meta name="author" content="Robo AI Digest">
 <meta name="description" content="Daily AI news and insights on LLMs, AI Agents, Machine Learning breakthroughs and cutting-edge technology. Stay ahead with Robo AI Digest.">
 <meta name="robots" content="index, follow">

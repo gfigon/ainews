@@ -5,7 +5,6 @@ description: "Vietnam's new AI law takes effect today, making it the first count
 tags: [Vietnam, AI regulation, Southeast Asia, AI law, policy, generative AI, deepfakes]
 categories:
   - AI Security & Policy
-  - AI Security & Policy
 ---
 Vietnam has officially become the first country in Southeast Asia to enact comprehensive artificial intelligence legislation. The law, passed by the Vietnamese National Assembly in December 2025, went into effect on March 2, 2026, marking a significant milestone in the region's approach to AI governance.
 ## A Regional First

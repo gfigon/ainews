@@ -1,71 +1,540 @@
-/* Robo AI Digest - Standard Clean Styles */
+/* ============================================================
+   Robo AI Digest — Quarto layer over the terminal design tokens.
+   Tokens (CSS vars + .t-* classes) live in assets/colors_and_type.css,
+   which Quarto loads BEFORE this file. Everything here maps Quarto's
+   generated class names onto the kit's `.rad-*` patterns.
+   ============================================================ */
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #0d1117;
-  color: #e6edf3;
-  line-height: 1.6;
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-0);
+  color: var(--fg-1);
+  font-family: var(--font-sans);
+  font-size: var(--t-16);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* Header & Hero */
+/* ---------- Headings (article body & general h-tags) ---------- */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-mono);
+  color: var(--fg-1);
+  letter-spacing: -0.01em;
+}
+h1 { font-size: var(--t-40); font-weight: 700; line-height: 1.1; }
+h2 { font-size: var(--t-28); font-weight: 700; line-height: 1.2; margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line-1); }
+h3 { font-size: var(--t-20); font-weight: 700; line-height: 1.3; }
+h4 { font-size: var(--t-16); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-bright); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+::selection { background: var(--signal); color: var(--bg-0); }
+
+code, pre {
+  font-family: var(--font-mono);
+}
+:not(pre) > code {
+  background: var(--bg-3);
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-1);
+  padding: 1px 6px;
+  color: var(--signal-bright);
+  font-size: 0.92em;
+}
+pre {
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-1);
+  padding: 16px;
+}
+
+/* ============================================================
+   NAVBAR — Quarto's website navbar, restyled as kit's .rad-navbar
+   ============================================================ */
+.navbar {
+  position: sticky; top: 0; z-index: 50;
+  height: 60px;
+  background: rgba(13, 17, 23, 0.92) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-2);
+  padding: 0 24px;
+}
+.navbar .navbar-brand,
+.navbar .navbar-brand img {
+  height: 44px;
+}
+.navbar .navbar-brand {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--fg-1);
+  letter-spacing: -0.01em;
+}
+.navbar .navbar-nav .nav-link,
+.navbar a {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg-2) !important;
+  padding: 6px 8px !important;
+  border-bottom: 1px solid transparent;
+  transition: color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar a:hover {
+  color: var(--fg-1) !important;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: var(--signal) !important;
+  border-bottom-color: var(--signal);
+}
+.navbar .navbar-toggler { border-color: var(--line-2); }
+.navbar i.bi { color: var(--fg-2); }
+
+/* ============================================================
+   HERO BANNER — used by index.qmd
+   ============================================================ */
 .hero-banner {
-  padding: 60px 0;
-  text-align: center;
-  background: #161b22;
-  border-bottom: 1px solid #30363d;
-  margin-bottom: 30px;
+  padding: 60px 0 48px;
+  border-bottom: 1px solid var(--line-1);
+  margin-bottom: 32px;
+  background: var(--bg-0);
+  text-align: left;
+}
+.rad-hero-prompt {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg-3);
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.rad-phosphor {
+  color: var(--signal);
+  text-shadow: 0 0 8px var(--signal-glow);
+}
+.rad-cursor-block {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--signal);
+  margin-left: 4px;
+  animation: rad-blink 1s infinite;
+  vertical-align: -2px;
+}
+@keyframes rad-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.rad-hero-title,
+.hero-banner .hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(48px, 8vw, 96px);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0 0 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--fg-1);
+}
+.rad-hero-sub,
+.hero-banner .hero-subtitle {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--fg-2);
+  max-width: 640px;
+  margin: 0 0 32px;
+  font-weight: 400;
+}
+.rad-hero-stats {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.rad-bracket {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--line-2);
+  padding: 4px 10px;
+  border-radius: var(--radius-1);
+  background: var(--bg-2);
+}
+.rad-bracket-inner {
+  color: var(--fg-1);
+  padding: 0 4px;
 }
 
-.hero-title {
-  font-size: 4rem;
-  font-weight: 900;
-  color: #ffffff;
+/* ============================================================
+   LISTING CARDS — .quarto-post mapped to kit's .rad-card
+   ============================================================ */
+.quarto-listing-container {
+  display: flex !important;
+  flex-direction: column;
+  gap: 12px;
 }
-
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #8b949e;
+.quarto-listing-default .list,
+.quarto-listing-default .list > * {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-
-/* Lista wpisów */
-.quarto-post .thumbnail {
-  display: none !important;
+.quarto-post {
+  display: grid !important;
+  grid-template-columns: 200px 1fr;
+  gap: 0 !important;
+  background: var(--bg-2) !important;
+  border: 1px solid var(--line-2) !important;
+  border-radius: var(--radius-3) !important;
+  overflow: hidden;
+  transition: border-color var(--dur-2) var(--ease-out);
+  padding: 0 !important;
+  height: auto !important;
+  /* Override legacy translateY/box-shadow */
+  transform: none !important;
+  box-shadow: none !important;
 }
-
+.quarto-post:hover,
+.quarto-post:focus-within {
+  border-color: var(--signal) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+.quarto-post .thumbnail,
+.quarto-post .thumbnail-image,
+.quarto-post img.thumbnail-image {
+  display: block !important;
+  background: var(--bg-3);
+  background-size: cover;
+  background-position: center;
+  min-height: 140px;
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  border-right: 1px solid var(--line-2);
+  border-bottom: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+.quarto-post .body,
+.quarto-post .listing-item-content {
+  padding: 18px 20px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--fg-1) !important;
+}
+.quarto-post .listing-date,
+.quarto-post .listing-author {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-3) !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.quarto-post .listing-date::before {
+  content: "● ";
+  color: var(--signal);
+}
 .listing-title {
-  color: #ffffff !important;
+  font-family: var(--font-mono) !important;
+  font-size: 18px !important;
   font-weight: 700 !important;
-  font-size: 1.6rem;
-  line-height: 1.3;
+  color: var(--fg-1) !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.01em;
+  margin: 0 !important;
   text-shadow: none !important;
 }
-
 .listing-title a {
-  color: #ffffff !important;
+  color: var(--fg-1) !important;
   text-decoration: none !important;
 }
-
-.listing-title a:hover {
-  color: #58a6ff !important;
-}
-
-.listing-date {
-  color: #e6edf3 !important;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
+.listing-title a:hover { color: var(--signal) !important; }
 .listing-description {
-  color: #ffffff !important;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-family: var(--font-sans) !important;
+  font-size: 14px !important;
+  color: var(--fg-2) !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
 }
-
 .listing-description a {
-  color: #ffffff !important;
+  color: var(--fg-2) !important;
   text-decoration: none !important;
 }
 
-.navbar {
-  border-bottom: 1px solid #30363d;
+/* Category tags — kit's .rad-tag */
+.listing-categories {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+.listing-categories .listing-category {
+  font-family: var(--font-mono) !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 8px !important;
+  border-radius: var(--radius-1) !important;
+  border: 1px solid var(--line-2) !important;
+  background: var(--bg-3) !important;
+  color: var(--signal) !important;
+  margin: 0 !important;
+}
+.listing-categories .listing-category:hover {
+  border-color: var(--signal) !important;
+}
+
+/* Quarto's "default listing" h2 wrapper for "Latest Updates" */
+#listing-listing,
+.quarto-listing {
+  margin-top: 16px;
+}
+.quarto-listing h2,
+main > h1 {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--fg-1);
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--line-1);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+/* ============================================================
+   ARTICLE TITLE BLOCK — Quarto's #title-block-header
+   ============================================================ */
+#title-block-header,
+.quarto-title-block {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line-1);
+}
+#title-block-header .title,
+.quarto-title-block .title {
+  font-family: var(--font-mono);
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--fg-1);
+  margin: 0 0 16px;
+}
+.quarto-title-meta,
+.quarto-title-meta-author,
+.quarto-title-meta-heading,
+.quarto-title-meta-contents {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-3);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.quarto-categories {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.quarto-categories .quarto-category {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--radius-1);
+  border: 1px solid var(--line-2);
+  background: var(--bg-3);
+  color: var(--signal);
+}
+
+/* Article body prose */
+main p {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--fg-2);
+  margin: 0 0 16px;
+}
+main strong { color: var(--fg-1); }
+main blockquote {
+  border-left: 2px solid var(--signal);
+  padding-left: 16px;
+  color: var(--fg-2);
+  font-style: normal;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-1);
+}
+
+/* ============================================================
+   TOC — Quarto's right-rail #TOC
+   ============================================================ */
+#TOC, .toc-active, nav[role="doc-toc"] {
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+#TOC > h2,
+nav[role="doc-toc"] > h2 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--fg-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin: 0 0 12px;
+}
+#TOC ul, nav[role="doc-toc"] ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid var(--line-2);
+}
+#TOC ul a, nav[role="doc-toc"] ul a {
+  display: block;
+  padding: 6px 12px;
+  color: var(--fg-2);
+  font-size: 13px;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  margin-left: -1px;
+  transition: color var(--dur-1) var(--ease-out), border-left-color var(--dur-1) var(--ease-out);
+}
+#TOC ul a:hover, nav[role="doc-toc"] ul a:hover,
+#TOC ul a.active, nav[role="doc-toc"] ul a.active {
+  color: var(--signal);
+  border-left-color: var(--signal);
+}
+
+/* ============================================================
+   ABOUT page elements
+   ============================================================ */
+.rad-about-portrait,
+img.rad-about-portrait,
+figure.rad-about-portrait img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line-2);
+  display: block;
+  margin: 24px auto 32px;
+}
+.rad-h2 {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  color: var(--fg-1);
+  margin: 28px 0 12px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.rad-list {
+  padding-left: 18px;
+  color: var(--fg-2);
+  line-height: 1.7;
+}
+.rad-list strong { color: var(--fg-1); }
+
+/* ============================================================
+   FOOTER — _partials/footer.html
+   ============================================================ */
+.rad-footer {
+  border-top: 1px solid var(--line-2);
+  padding: 48px 32px 24px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 64px auto 0;
+  font-family: var(--font-mono);
+}
+.rad-footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.rad-footer-brand img { height: 60px; }
+.rad-footer-cols {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.rad-footer-cols h5 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-3);
+  letter-spacing: 0.1em;
+  margin: 0 0 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  padding: 0;
+}
+.rad-footer-cols a {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg-2);
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+.rad-footer-cols a:hover { color: var(--signal); }
+.rad-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-1);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.rad-mono-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-3);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Hide Quarto's default page-footer when our partial is rendered.
+   Quarto emits its own <footer.footer> if include-after-body adds ours
+   after the same DOM section; suppress to avoid double-stacking. */
+body > footer.footer:not(.rad-footer) {
+  display: none;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 880px) {
+  .quarto-post {
+    grid-template-columns: 1fr !important;
+  }
+  .quarto-post .thumbnail,
+  .quarto-post .thumbnail-image {
+    min-height: 180px;
+    border-right: none;
+    border-bottom: 1px solid var(--line-2);
+  }
+  .rad-hero-stats { gap: 8px; }
+  .rad-footer-row { gap: 24px; }
+  .rad-footer-cols { gap: 24px; }
 }

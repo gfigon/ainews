@@ -5,7 +5,6 @@ description: "OpenAI is in discussions to deploy its AI technology across NATO's
 tags: [OpenAI, NATO, military AI, defense contracts, Anthropic, Pentagon, AI policy]
 categories:
   - Industry News
-  - Industry News
 ---
 OpenAI is reportedly in discussions to deploy its artificial intelligence technology across the unclassified networks of the North Atlantic Treaty Organisation (NATO), marking a significant expansion of the company's involvement with Western military and security alliances. This development comes only days after the ChatGPT creator secured a high-profile agreement with the Pentagon, signalling a rapid acceleration in the company's defense strategy.
 The proposal was initially discussed during an internal company meeting where Chief Executive Officer Sam Altman suggested the technology would be integrated into all NATO classified networks. However, a company spokesperson later clarified that Altman had misspoke, confirming that the current contract opportunity specifically targets NATO's unclassified infrastructure.

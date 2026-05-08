@@ -5,7 +5,7 @@ author: "AI News Digest"
 categories: ["Industry News"]
 tags: ["Meta", "Microsoft", "AI", "layoffs", "workforce"]
 summary: "Meta announces 10% workforce reduction while Microsoft offers voluntary buyouts, as both tech giants pivot aggressively toward AI automation."
-image: "/posts/2026-04-24-meta-microsoft-ai-layoffs/cover.jpg"
+image: "/assets/post-images/2026-04-24-meta-microsoft-ai-layoffs.svg"
 ---
 
 Meta has announced plans to lay off approximately 8,000 employees—about 10% of its workforce—starting May 20, 2026. The company is also scrapping plans to hire for 6,000 open roles. This marks one of the most significant workforce reductions in the company's history and underscores how AI investments are fundamentally reshaping the tech industry labor market.

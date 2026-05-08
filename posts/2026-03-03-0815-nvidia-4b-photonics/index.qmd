@@ -5,7 +5,6 @@ description: "Nvidia announces a massive $4 billion investment in photonics comp
 tags: [Nvidia, photonics, Coherent, Lumentum, AI infrastructure, data centers, silicon photonics]
 categories:
   - AI Infrastructure
-  - AI Infrastructure
 ---
 Nvidia is making its largest bet yet on optical technology. The chip giant announced Monday that it will invest a combined $4 billion in two leading photonics companies — $2 billion each in Coherent and Lumentum — to secure supply of silicon photonics technologies critical for AI data centers.
 ## The Investment
