@@ -1897,6 +1897,30 @@
       "slugs": [
         "2026-05-06-stanford-hai-restructuring"
       ]
+    },
+    {
+      "term": "NVIDIA RTX Spark AI PC Chip Windows",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-nvidia-rtx-spark-ai-pc"
+      ]
+    },
+    {
+      "term": "Enterprise AI Agents 54% Production Mid-2026",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-enterprise-ai-agents-production"
+      ]
+    },
+    {
+      "term": "Claude Global Outage June 22 2026",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-claude-global-outage"
+      ]
     }
   ]
 }
