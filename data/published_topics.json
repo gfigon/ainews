@@ -1937,6 +1937,22 @@
       "slugs": [
         "2026-06-23-eu-ai-liability-law"
       ]
+    },
+    {
+      "term": "Sakana AI Fugu Ultra Orchestration Model",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-sakana-fugu-ultra"
+      ]
+    },
+    {
+      "term": "Microsoft Copilot Studio Multilingual Voice Agents",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-copilot-voice-agents"
+      ]
     }
   ]
 }
