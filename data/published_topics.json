@@ -1921,6 +1921,22 @@
       "slugs": [
         "2026-06-23-claude-global-outage"
       ]
+    },
+    {
+      "term": "OpenAI GPT-5.5-Cyber Glasswing",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-openai-gpt-5-5-cyber"
+      ]
+    },
+    {
+      "term": "EU AI Liability Directive Insurance",
+      "count": 1,
+      "last_published": "2026-06-23",
+      "slugs": [
+        "2026-06-23-eu-ai-liability-law"
+      ]
     }
   ]
 }

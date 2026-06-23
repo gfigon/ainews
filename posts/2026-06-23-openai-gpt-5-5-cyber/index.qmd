@@ -1,0 +1,26 @@
+---
+title: "OpenAI GPT-5.5-Cyber Takes on Anthropic Glasswing in Cybersecurity AI Race"
+date: "2026-06-23 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "OpenAI launches GPT-5.5-Cyber, a specialized cybersecurity model achieving 85.6% on CyberGym benchmarks, directly challenging Anthropic's Project Glasswing with its Patch the Planet initiative."
+image: "/assets/post-images/2026-06-23-openai-gpt-5-5-cyber.svg"
+---
+
+OpenAI unveiled three connected cybersecurity products on June 23, directly positioning itself against Anthropic's Project Glasswing. The launch includes GPT-5.5-Cyber, the Codex Security plugin, and the Patch the Planet open-source initiative — a strategic play to own both sides of the developer security workflow.
+
+## GPT-5.5-Cyber: New Cybersecurity Benchmark
+
+GPT-5.5-Cyber achieves 85.6% on CyberGym, compared with 81.8% for standard GPT-5.5. The model is restricted to trusted defenders through OpenAI's Trusted Access for Cyber program, which reduces safety refusals for approved defensive tasks including secure code review, vulnerability triage, malware analysis, red teaming, and penetration testing — while blocking credential theft, stealth, persistence, and malware deployment.
+
+The practical demonstration is striking. Trail of Bits engineers used repeated Codex runs with GPT-5.5-Cyber to build an entire fuzzing lab covering dozens of entry points, variant builds, platforms, and novel test seeds — in less than a day. On the Linux kernel specifically: GPT-5.5-Cyber identified security-relevant components across more than 30 million lines of code, flagged potential security issues, and validated them dynamically, generating 8 kernel pointer information leak proof-of-concepts and 24 local privilege escalation exploits.
+
+## Patch the Planet: Open-Source Security Initiative
+
+More than 30 open-source projects have committed to participate, with initial participants including cURL, Go, Python, Sigstore, and pyca/cryptography. The initiative is built in partnership with Trail of Bits and HackerOne. An initial five-day sprint across multiple projects surfaced hundreds of issues, merged dozens of patches, and produced reusable testing workflows.
+
+The strategic logic mirrors Anthropic's Glasswing: fix real vulnerabilities in critical infrastructure, build trust with government, and earn the "too important to shut down" status that protected Glasswing when Fable 5 was suspended. The Codex Security plugin embeds vulnerability scanning directly into the developer workflow — if developers use Codex to write code AND scan it, OpenAI owns both sides of the platform.
+
+The cybersecurity AI race between OpenAI and Anthropic is now explicit. Both labs have concluded this is the use case where frontier AI capability is most immediately valuable and most politically defensible.
