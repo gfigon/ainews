@@ -1,0 +1,26 @@
+---
+title: "Prime Intellect prime-rl 0.6.0 Scales Trillion-Parameter MoE Training"
+date: "2026-06-24 08:00"
+author: "AI News Editorial"
+categories:
+  - "AI Infrastructure"
+  - "Research & Innovation"
+summary: "Prime Intellect's prime-rl 0.6.0 enables asynchronous RL training on trillion-parameter MoE models, achieving sub-5-minute step times on 28 H200 nodes."
+image: "/assets/post-images/2026-06-24-prime-intellect-prime-rl.svg"
+---
+
+Prime Intellect has released prime-rl 0.6.0, an open framework for asynchronous reinforcement learning on trillion-parameter Mixture-of-Experts (MoE) models. Announced June 23, 2026, the framework trained GLM-5 on SWE tasks at up to 131k sequence length, demonstrating scalability previously thought impossible at this parameter scale.
+
+The release addresses a critical bottleneck in AI development: scaling reinforcement learning to the largest models. Traditional RL training requires synchronous updates that become inefficient as model size grows. Prime Intellect's approach decouples inference from training through several key optimizations.
+
+**FP8 Inference** reduces computational overhead during the inference phase, allowing faster generation of training data. **Wide Expert Parallelism** distributes MoE experts across multiple devices more efficiently than prior approaches. **Prefill/Decode Disaggregation** separates the memory-intensive prefill phase from the compute-intensive decode phase, enabling better resource utilization.
+
+The benchmark results are notable: sub-5-minute step times with 256 rollouts on 28 H200 nodes. This represents a significant improvement over prior attempts at trillion-parameter RL, which typically required hours per step.
+
+"RL at trillion parameters was considered impractical until now," said Prime Intellect's engineering team. "prime-rl 0.6.0 proves it's not only possible but economically viable."
+
+The framework supports 3-D parallelism combining FSDP (Fully Sharded Data Parallel), Expert Parallelism (EP), and Context Parallelism (CP), enabling efficient training across large GPU clusters. The **Router Replay** mechanism improves sample efficiency by reusing intermediate computations.
+
+For the AI research community, prime-rl 0.6.0 opens new avenues for training large language models on complex reasoning tasks. SWE (Software Engineering) tasks represent a particularly demanding benchmark, requiring models to understand and modify code across large codebases.
+
+The open-source release includes documentation and example configurations for reproducing the GLM-5 training results. Early adopters include research labs focused on code generation and mathematical reasoning, domains where RL has shown particular promise.
