@@ -1,0 +1,32 @@
+---
+title: "Anthropic's Claude Tag Turns Slack Into a Persistent AI Teammate"
+date: "2026-06-24 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Anthropic launches Claude Tag, replacing its Slack integration with an autonomous AI teammate that learns team context, takes initiative, and works asynchronously across channels."
+image: "/assets/post-images/2026-06-24-anthropic-claude-tag.svg"
+---
+
+Anthropic launched Claude Tag on Tuesday, a product that embeds its most advanced AI model directly inside Slack as a persistent, shared teammate that anyone on a team can delegate work to by simply typing @Claude. The product, available in beta for Claude Enterprise and Team customers, replaces Anthropic's existing Claude in Slack app and represents the company's most aggressive move yet to colonize the enterprise collaboration layer.
+
+For enterprise technology leaders who have spent the past two years evaluating where AI fits into their operational stack, Claude Tag reframes the question entirely. This is not a chatbot, a coding assistant, or a search tool bolted onto a messaging platform. It is an AI agent designed to function as a standing member of a team—one that builds memory, takes initiative, works asynchronously, and interacts with every person in a channel rather than serving a single user.
+
+Anthropic claims 65% of its own product team's code is now created by its internal version of Claude Tag, and the company runs internal support and data insight channels through the same system. The claim is striking: Anthropic is asserting that the majority of its own product engineering output already flows through the tool it just put in customers' hands.
+
+## How Claude Tag Works
+
+At its core, Claude Tag works like this: an administrator pairs it with a Slack workspace, grants it access to specific tools and data sources, sets spending limits, and defines which channels it can operate in. From that point on, any team member in those channels can tag @Claude with a request—write a pull request, pull sales numbers, run a data analysis—and Claude will break the task into stages, execute them using the tools it has access to, and respond in a Slack thread with the result. The product runs on Claude Opus 4.8.
+
+Four capabilities differentiate Claude Tag from its predecessors. First, it is multiplayer. Within a given Slack channel, there is one Claude that interacts with everyone, not a separate instance per user. Anyone can see what it is working on, and anyone can pick up the conversation where the last person left off.
+
+Second, it learns over time. As Claude follows along with its channel, it accumulates context about the work happening there. Users do not need to re-explain projects from scratch. Third, it takes initiative. With ambient behavior enabled, Claude will proactively surface relevant information from across the channels it monitors. Fourth, it works asynchronously, pursuing projects autonomously over hours or days.
+
+## Enterprise Security and Governance
+
+Anthropic has designed the system with enterprise-grade isolation at its center. System administrators define separate Claude identities for different uses, scoped to specific channels with specific tools and data access. Everything, including Claude's accumulated memories, stays within those boundaries.
+
+Administrators can set token-spend limits at both the organizational and channel level, and can review a complete log of every action Claude has taken and which user requested each task. For organizations managing compliance, audit, or regulatory requirements, this logging and scoping architecture is table stakes—and its absence has been a dealbreaker for many enterprises evaluating AI collaboration tools over the past year.
+
+Migration from the existing Claude in Slack app requires an administrator opt-in within 30 days, and Anthropic says it is issuing introductory launch credits to eligible Enterprise and Team organizations.

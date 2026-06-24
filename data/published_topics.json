@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Self-Harness AI Agent Framework",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-self-harness-ai-agents"
+      ]
+    },
+    {
+      "term": "Anthropic Claude Tag Slack",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-anthropic-claude-tag"
+      ]
+    },
+    {
       "term": "EU AI Act DMA Review Expansion",
       "count": 1,
       "last_published": "2026-05-06",
@@ -1952,6 +1968,46 @@
       "last_published": "2026-06-23",
       "slugs": [
         "2026-06-23-copilot-voice-agents"
+      ]
+    },
+    {
+      "term": "Claude Fable 5",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-claude-fable-5"
+      ]
+    },
+    {
+      "term": "NVIDIA Canary-1B-v2",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-nvidia-canary-speech"
+      ]
+    },
+    {
+      "term": "Prime Intellect prime-rl 0.6.0",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-prime-intellect-prime-rl"
+      ]
+    },
+    {
+      "term": "US Government Export Ban Anthropic Fable 5 Mythos 5",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-us-export-ban-anthropic"
+      ]
+    },
+    {
+      "term": "Google DeepMind Multi-Agent AI Safety Research Initiative",
+      "count": 1,
+      "last_published": "2026-06-24",
+      "slugs": [
+        "2026-06-24-google-multi-agent-safety"
       ]
     }
   ]
