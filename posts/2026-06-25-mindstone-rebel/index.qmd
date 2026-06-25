@@ -1,0 +1,20 @@
+---
+title: "Mindstone Rebel Brings Auto Model Selection to Enterprise AI Agents"
+date: "2026-06-25 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "London-based Mindstone launches Rebel, a local-first AI agent platform that automatically selects the optimal model for each task."
+image: "/assets/post-images/2026-06-25-mindstone-rebel.svg"
+---
+
+London-based AI startup Mindstone has launched Rebel, a local-first agentic operating system that automatically selects the best AI model for any given task. The platform addresses one of enterprise AI's persistent headaches: the complexity of choosing and switching between models.
+
+The system uses a markdown-based shared memory architecture to route workflows between local and cloud-based models, optimizing for both data security and cost. Teams of up to 100 users can deploy the platform under a "Fair Source" license, which Mindstone positions as a middle ground between open source and proprietary software.
+
+"Enterprise AI agents should automatically remember which model is right for which task," said Mindstone's team in their announcement. The platform learns from interaction patterns and builds a model selection memory over time.
+
+Rebel is available for macOS and Windows, with Linux support in development. The local-first approach appeals to enterprises with strict data residency requirements, as sensitive workflows can stay on-premises while still benefiting from model orchestration.
+
+The launch comes amid a crowded landscape of enterprise AI agent platforms, but Mindstone differentiates through its emphasis on local deployment and automatic model routing — reducing the manual configuration typically required for multi-model AI stacks.

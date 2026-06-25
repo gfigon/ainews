@@ -1,0 +1,20 @@
+---
+title: "OpenAI Retires GPT-4.5 and o3 Models, Clearing Path for GPT-5.5"
+date: "2026-06-25 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "OpenAI announces retirement dates for GPT-4.5 and o3, as the company streamlines its model lineup ahead of GPT-5.5."
+image: "/assets/post-images/2026-06-25-openai-model-retirements.svg"
+---
+
+OpenAI has announced retirement timelines for two older model families: GPT-4.5 will be removed from ChatGPT on June 27, 2026, and o3 will follow on August 26, 2026, after a 90-day sunset period.
+
+The retirements mark a significant streamlining of OpenAI's model catalog. GPT-4.5, introduced earlier this year as a preview model, never achieved wide production adoption. The o3 reasoning model, launched with high expectations, is being retired less than a year after its debut.
+
+Industry observers see the moves as clearing the deck for GPT-5.5 and its variants. The company has been on an aggressive release cadence, with GPT-5.5 Spud completing pretraining in Q2 2026 and expected to ship with enhanced reasoning and agentic capabilities.
+
+The sunset timelines give developers a window to migrate workloads. Applications using GPT-4.5 or o3 will need to transition to GPT-5.x series models, which OpenAI positions as superior in both capability and efficiency.
+
+The retirements follow a broader industry trend of model lifecycle compression. What once spanned multi-year cycles now operates on months, as rapid advances in reasoning and agentic capabilities make earlier models obsolete faster.
