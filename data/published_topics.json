@@ -2009,6 +2009,30 @@
       "slugs": [
         "2026-06-24-google-multi-agent-safety"
       ]
+    },
+    {
+      "term": "Mistral OCR 4 Enterprise Document Extraction",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-mistral-ocr-4"
+      ]
+    },
+    {
+      "term": "Shopify AI Model Agnostic Proxy Infrastructure",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-shopify-ai-proxy"
+      ]
+    },
+    {
+      "term": "Xiaomi HarnessX Self-Writing AI Scaffolding",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-xiaomi-harnessx"
+      ]
     }
   ]
 }
