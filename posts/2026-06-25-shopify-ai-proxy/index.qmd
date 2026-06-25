@@ -1,0 +1,22 @@
+---
+title: "How Shopify Built an AI Stack That Doesn't Care Which Models Survive"
+date: "2026-06-25 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "Shopify's Farhan Thawar reveals a proxy, distillation strategy, and circuit breakers designed to keep AI systems stable regardless of which models stay available."
+image: "/assets/post-images/2026-06-25-shopify-ai-proxy.svg"
+---
+
+Shopify has revealed details of its model-agnostic AI infrastructure, designed to withstand the volatile AI model market where providers come and go. The approach, explained by VP of Engineering Farhan Thakar, uses three key techniques: a proxy layer, distillation, and circuit breakers.
+
+The proxy layer sits between Shopify's applications and the underlying AI models. This abstraction means applications don't directly call OpenAI or Anthropic APIs—they call the proxy, which handles model routing. When one provider experiences outages, pricing changes, or discontinues a model, Shopify updates the proxy rather than rewriting application code.
+
+Distillation plays a crucial role. Shopify trains smaller, specialized models on outputs from larger frontier models. These distilled models handle common tasks, reducing reliance on expensive API calls. The strategy cuts costs while maintaining performance for routine operations—a pattern increasingly common in enterprise AI deployments.
+
+Circuit breakers add another layer of resilience. If an AI provider experiences degraded performance or elevated error rates, the circuit breaker automatically routes requests to alternative providers. This automated failover happens without human intervention, ensuring continuous service for Shopify's millions of merchants.
+
+The approach reflects a maturing view of AI infrastructure. Early enterprise AI projects often directly integrated with single providers—a reasonable starting point but one that created fragility. Shopify's architecture assumes that the AI model landscape will remain unstable and builds accordingly.
+
+The strategy also signals a broader trend: enterprises are starting to treat AI models as infrastructure components that can be swapped rather than as integrated features. This abstraction mirrors how modern software handles databases and other backend services—and represents a more sophisticated approach to enterprise AI.
