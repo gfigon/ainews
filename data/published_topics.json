@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "OpenAI GPT-4.5 o3 Model Retirement",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-openai-model-retirements"
+      ]
+    },
+    {
+      "term": "Mindstone Rebel Model Selection",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-mindstone-rebel"
+      ]
+    },
+    {
       "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
