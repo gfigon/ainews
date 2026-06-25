@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "count": 1,
+      "last_published": "2026-06-25",
+      "slugs": [
+        "2026-06-25-openai-broadcom-jalapeno"
+      ]
+    },
+    {
       "term": "Self-Harness AI Agent Framework",
       "count": 1,
       "last_published": "2026-06-24",

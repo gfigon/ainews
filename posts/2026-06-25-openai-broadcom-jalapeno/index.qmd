@@ -1,0 +1,32 @@
+---
+title: "OpenAI and Broadcom Unveil Jalapeño: A First Look at OpenAI's Custom Inference Chip"
+date: "2026-06-25 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "OpenAI's debut custom silicon, built with Broadcom, targets LLM inference efficiency — marking the company's push into hardware after years of GPU dependence."
+image: "/assets/post-images/2026-06-25-openai-broadcom-jalapeno.svg"
+---
+
+OpenAI has unveiled **Jalapeño**, its first custom-designed inference chip built in partnership with Broadcom. Announced June 24, 2026, the silicon marks OpenAI's formal entry into hardware — a move long expected given the company's massive compute demands and ongoing GPU shortages.
+
+## Why This Matters
+
+Since ChatGPT's launch, OpenAI has relied heavily on NVIDIA GPUs — specifically H100s and newer Blackwell chips. But supply constraints and rising inference costs have pushed the company to explore custom silicon. Jalapeño is the result.
+
+The chip is optimized specifically for large language model inference workloads, not training. Broadcom handled physical design and manufacturing, while OpenAI contributed architecture guidance based on its internal inference serving infrastructure.
+
+## What We Know
+
+The companies revealed that OpenAI used its own models to accelerate parts of the chip design itself — a deep software-hardware co-development process that shortened development time. This is notable: AI helping design AI hardware.
+
+Details on specs (clock speeds, memory bandwidth, TDP) weren't disclosed. The chip appears targeted at datacenter scale, not consumer hardware.
+
+## Industry Context
+
+Microsoft announced its own Maia AI chip last year. Google has TPUs. Now OpenAI joins the club. The trend is clear: major AI labs are building custom silicon to control their inference economics and reduce dependence on a single vendor.
+
+Jalapeño signals OpenAI's maturation from pure AI research lab to vertically integrated AI company.
+
+---
