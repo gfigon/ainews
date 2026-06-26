@@ -1,0 +1,28 @@
+---
+title: "Gradium Launches Real-Time Speech Translation Models, Outperforms GPT-realtime-translate"
+date: "2026-06-26 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Gradium releases stt-translate and s2s-translate, real-time speech translation models beating Google and OpenAI on accuracy and latency."
+image: "/assets/post-images/2026-06-26-gradium-speech-translation.svg"
+---
+
+Gradium has released two real-time speech translation models — stt-translate and s2s-translate — covering English, French, German, Spanish, and Portuguese across 20 language pairs. The models collapse the standard three-model cascade into a two-stage pipeline, delivering better accuracy-latency tradeoff than both gpt-realtime-translate and gemini-3.5-live-translate.
+
+## From Three Models to Two
+
+Traditional real-time speech translation requires three separate models: automatic speech recognition, machine translation, and text-to-speech. This creates cumulative latency and introduces errors at each stage. Gradium's approach pairs single-pass transcription-and-translation with a Gradium TTS stage over one duplex WebSocket connection.
+
+The result is a streamlined pipeline that Gradium claims delivers superior accuracy while reducing end-to-end latency compared to the established players.
+
+## Voice Selection and Cloning
+
+Beyond translation performance, Gradium adds output voice selection and voice cloning capabilities. This allows enterprises to maintain brand voice consistency across multilingual content — a feature missing from most real-time translation services.
+
+The models support five source languages and four targets (English, French, German, Spanish, Portuguese), creating 20 directional pairs.
+
+## Market Context
+
+Real-time speech translation is a crowded space with Google and OpenAI both offering live translation features. Gradium's entry as a smaller player — and its claims of beating established models — signals intensifying competition in the speech-to-speech translation market.

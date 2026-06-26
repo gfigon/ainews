@@ -1,0 +1,30 @@
+---
+title: "Baidu Open-Sources Unlimited OCR: Flat KV Cache Breaks Long-Document Barriers"
+date: "2026-06-26 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Baidu releases Unlimited OCR, a 3B MoE model that keeps KV cache flat for dozens of document pages, scoring 93.23 on OmniDocBench."
+image: "/assets/post-images/2026-06-26-baidu-unlimited-ocr.svg"
+---
+
+Baidu has open-sourced Unlimited OCR, a 3 billion-parameter mixture-of-experts model that parses dozens of document pages in a single forward pass while maintaining constant memory and latency through its Reference Sliding Window Attention (R-SWA) mechanism.
+
+## Flat Memory, Infinite Documents
+
+Traditional OCR models struggle with long documents because their memory consumption grows linearly with the number of pages. Unlimited OCR solves this through R-SWA, which keeps the KV cache flat regardless of document length. The model can process dozens of pages in one pass without the exponential memory blowup that typically plagues long-context document processing.
+
+The model scored 93.23 on OmniDocBench v1.5, beating the previous DeepSeek OCR baseline by 6.22 points. It is released under an MIT license, making it freely available for commercial use.
+
+## Why This Matters for Enterprise
+
+Document processing at scale is a major bottleneck for enterprises handling contracts, legal filings, and financial reports. Most OCR tools require chunking documents into small batches, which breaks context and requires complex post-processing to reassemble.
+
+Unlimited OCR's flat KV cache architecture could enable true end-to-end processing of entire document repositories — something previously impossible without specialized infrastructure.
+
+## The Technical Breakthrough
+
+The Reference Sliding Window Attention mechanism works by maintaining a fixed-size cache that references document content without storing the full sequence. This allows the model to "see" long documents while using memory proportional to a short snippet.
+
+Mixture-of-experts routing means only relevant sub-networks activate for each token, keeping inference costs manageable despite the 3B parameter count.
