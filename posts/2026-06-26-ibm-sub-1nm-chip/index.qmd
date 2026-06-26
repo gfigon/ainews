@@ -1,0 +1,36 @@
+---
+title: "IBM Unveils World's First Sub-1 Nanometer Chip Technology"
+date: "2026-06-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "IBM has announced the world's first sub-1nm chip technology at 0.7nm, featuring a revolutionary nanostack 3D architecture that promises 50% more performance or 70% greater energy efficiency."
+image: "/assets/post-images/2026-06-26-ibm-sub-1nm-chip.svg"
+---
+
+IBM has unveiled the world's first sub-1 nanometer chip technology, marking a landmark moment for an industry long thought to be approaching physical limits. The new 0.7nm (7 angstrom) chip features IBM's revolutionary "nanostack" three-dimensional transistor architecture.
+
+The breakthrough packs nearly 100 billion transistors onto a chip the size of a fingernail—nearly twice the density of IBM's 2nm chip unveiled in 2021. Enabled by structural and material innovations, the technology demonstrates how continued gains in performance and efficiency remain possible even as chip features approach atomic dimensions.
+
+## Nanostack Architecture
+
+IBM researchers developed an entirely new transistor architecture called "nanostack"—the industry's first known three-dimensional, nanosheet-based design. The innovation builds on nanosheet technology, which IBM also invented.
+
+The nanostack design vertically stacks and staggers transistors, using 3D sequential integration to pack more transistors onto a chip. The design also unlocks different material combinations within each stacked layer, optimizing performance and power efficiency independently.
+
+"nanostack represents a major advance beyond nanosheet technology, the industry's current leading-edge architecture, invented by IBM," said Jay Gambetta, Director of IBM Research and IBM Fellow. "We're not just making smaller transistors—we're reinventing how chips are built."
+
+## Performance Projections
+
+Published technical results project the new chip offers up to 50 percent more performance, or 70 percent greater energy efficiency, compared to IBM's 2nm node chips. The technology could supercharge computing for applications ranging from generative AI and cloud infrastructure to next-generation electronic devices.
+
+Additionally, IBM researchers demonstrated that the nanostack architecture provides 40 percent scaling in SRAM, enabling more efficient chip designs while supporting the high-bandwidth data demands of advanced AI workloads.
+
+## Industry Implications
+
+With this breakthrough, logic technology extends below the 1nm node for the first time, advancing into angstrom-level scaling where dimensions approach the size of individual atoms. IBM's semiconductor roadmap projects at least a decade of future scaling from this innovation.
+
+IBM's research facility in Albany, New York, will soon host a High Numerical Aperture Extreme Ultraviolet (High NA EUV) lithography tool—essential for the future of logic scaling and developed by ASML.
+
+This breakthrough comes as AI infrastructure demand continues to surge, with芯片 scaling increasingly critical for training and running larger AI models. The energy efficiency gains are particularly significant for data centers running around the clock.

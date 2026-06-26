@@ -1,0 +1,24 @@
+---
+title: "White House Asks OpenAI to Limit GPT-5.6 Release Citing Security Concerns"
+date: "2026-06-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "The Trump administration has requested OpenAI stagger its GPT-5.6 release to government-approved partners only, marking an unprecedented shift in how frontier AI models reach the public."
+image: "/assets/post-images/2026-06-26-white-house-openai-gpt-release-limit.svg"
+---
+
+The Trump administration has asked OpenAI to limit the public release of its upcoming GPT-5.6 model, marking an unprecedented government intervention in how frontier AI systems reach users. According to reports from The Information, OpenAI will share GPT-5.6 only with a select group of close partners during a preview period, with the government essentially "approving access customer by customer."
+
+At a meeting with staff this week, CEO Sam Altman reportedly said the administration would be "approving access customer by customer" during the preview window. If the limited release goes well, OpenAI hopes to follow with a broader public release "a couple of weeks later."
+
+The agencies that requested the staggered release were the Office of the National Cyber Director and the Office of Science and Technology Policy. This represents a significant shift from the administration's earlier "hands-off" positioning on AI oversight.
+
+Earlier this month, Trump signed an executive order directing certain AI companies to voluntarily submit new models to the government for testing and evaluation before releasing them publicly. The order followed industry objections to more sweeping initial proposals.
+
+This isn't the first time a powerful AI model has been restricted. Earlier this year, Anthropic faced controversy when it announced that its frontier cyber model, Claude Mythos, would only be released through a partner program called Project Glasswing. Anthropic argued the model was too potentially dangerous for open release.
+
+The specific concern with frontier AI tools is their ability to identify and exploit software vulnerabilities at speeds no human analyst can match. With many enterprise networks containing hidden bugs, the risk is obvious. However, because these restricted models remain closed to the public, independently verifying the actual threat level remains difficult.
+
+OpenAI's cooperation with the administration suggests the industry is entering a new era where government and AI labs jointly determine release schedules—a model that raises questions about transparency and accountability in AI development.
