@@ -1,0 +1,36 @@
+---
+title: "MIT Murakkab Optimizes AI Agent Workflows for Speed and Energy Efficiency"
+date: "2026-06-26 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "MIT researchers introduce Murakkab, a new system that automatically optimizes AI agent workflows, reducing computational waste and energy consumption while maintaining performance."
+image: "/assets/post-images/2026-06-26-mit-murakkab-ai-agent-optimization.svg"
+---
+
+As AI agents become the backbone of cloud-based applications, their growing complexity is creating significant efficiency challenges. Researchers from MIT and Microsoft have developed Murakkab — an intelligent system that streamlines the design and deployment of agentic workflows, dramatically reducing computational waste and energy costs.
+
+## The Problem with Agentic Workflows
+
+Modern AI agents are complex systems that chain together multiple models, tools, and APIs to handle multi-step tasks like video analysis, code generation, or data processing. The challenge: developers traditionally must hard-code every technical choice upfront — which models and tools to use, the order of operations, hardware allocation, and tradeoffs between speed and cost. With dozens of configuration options across different providers, optimizing these workflows manually is nearly impossible.
+
+"Agentic workflows are getting very complicated and quickly becoming the backbone of what cloud providers are doing. Energy usage is a huge concern, so we need to be very careful about how efficient these workflows are. It is very easy to over-allocate resources, wasting energy and money," explains Gohar Chaudhry, MIT EECS graduate student and lead author.
+
+## How Murakkab Works
+
+Murakkab (meaning "composition of things" in Urdu) takes a different approach. Developers describe what they want the agentic workflow to accomplish in plain language — for example, "a video Q&A application that extracts key frames, generates a transcript, and answers user queries." The system then automatically identifies the best models and tools to combine, determines which components can run in parallel, and dynamically configures hardware allocation based on user priorities like minimizing cost or maximizing speed.
+
+When deployed on cloud infrastructure, Murakkab adjusts configurations on the fly as conditions change, without requiring manual intervention.
+
+## Performance Results
+
+In testing across several agentic workloads, Murakkab reduced the number of computational units needed for deployment while significantly cutting energy requirements and costs — without compromising performance. The system will be presented at the USENIX Symposium on Operating Systems Design and Implementation.
+
+The research team includes Gohar Chaudhry, Professor Adam Belay, and Microsoft Azure's Ricardo Bianchini.
+
+---
+
+*Related: [Enterprise AI Agents Reach Production Mid-2026](/posts/2026-06-26-enterprise-ai-agents-production/)*
+
+*Source: [MIT News](https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625)*
