@@ -1,0 +1,28 @@
+---
+title: "ON Semiconductor to Acquire Synaptics in $7B All-Stock Deal for Physical AI"
+date: "2026-06-27 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "ON Semiconductor announces $7 billion all-stock acquisition of Synaptics to accelerate physical AI capabilities, merging connected compute with edge AI systems."
+image: "/assets/post-images/2026-06-27-on-semiconductor-synaptics.svg"
+---
+
+ON Semiconductor has announced its acquisition of Synaptics in a $7 billion all-stock transaction, representing the company's largest investment to date as it positions itself for the physical AI era. Under the deal, Synaptics shareholders will receive 1.350 shares of ON Semiconductor for each Synaptics share, valuing the transaction at approximately $7 billion.
+
+The acquisition targets Synaptics' portfolio of connected compute technologies, which ON Semiconductor says will accelerate its push into physical AI—AI systems that operate in real-world environments beyond data centers. According to CEO Hassane El Khoury, consumers increasingly demand intelligent systems that blend connectivity hardware with sophisticated software, and the Synaptics acquisition directly addresses this trend.
+
+## Why All-Stock Matters
+
+Unlike recent AI-focused acquisitions involving cash transactions, ON Semiconductor chose an equity-based structure that preserves cash reserves while extending its exposure to edge AI technologies. The approach transfers some risk to stakeholders of both companies, tying success to ON Semiconductor's future stock performance. The market reaction was mixed: ON Semiconductor shares fell approximately 6% while Synaptics shares rose about 14% following the announcement.
+
+The deal is expected to close in mid-2027, subject to regulatory approval. Until then, both companies will continue operating independently.
+
+## Physical AI Strategy
+
+ON Semiconductor outsources power management technologies with a strong presence in automotive and electric vehicle markets, including silicon carbide production. The Synaptics acquisition will complement these strengths by adding connected compute capabilities relevant for both digital and physical systems.
+
+The company projects the acquisition will expand its total addressable market to $243 billion by 2030, up from approximately $213 billion currently.
+
+This acquisition follows a wave of semiconductor M&A activity targeting AI capabilities. Earlier this week, Qualcomm acquired infrastructure startup Modular, and Salesforce announced its purchase of AI customer service platform Fin for $3.6 billion. Together, these deals underscore how semiconductor and software companies are racing to build comprehensive AI stacks that span from cloud to edge.
