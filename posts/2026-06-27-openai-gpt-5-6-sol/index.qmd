@@ -1,0 +1,30 @@
+---
+title: "OpenAI Unveils GPT-5.6 Series With New Safety-First Strategy"
+date: "2026-06-27 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "OpenAI launches GPT-5.6 Sol, Terra, and Luna in limited preview, as the Trump administration imposes access restrictions on the company's most capable model yet."
+image: "/assets/post-images/2026-06-27-openai-gpt-5-6-sol.svg"
+---
+
+OpenAI has launched its GPT-5.6 series in limited preview, introducing three distinct models: Sol, Terra, and Luna. The release marks a strategic shift for the company, with the flagship Sol model representing OpenAI's strongest capabilities to date — but with government-mandated access restrictions that have drawn pushback from the company.
+
+## Three Tiers, Three Purposes
+
+GPT-5.6 Sol serves as the flagship model, delivering OpenAI's best performance in coding, biology, and cybersecurity. The company describes it as having the "most robust safety stack to date" with enhanced protections against high-risk activities, sensitive cyber requests, and potential misuse.
+
+Terra positions itself as a balanced everyday work model, delivering similar performance to GPT-5.5 at half the cost. Luna, the fastest and most affordable option, achieves strong capability at OpenAI's lowest price point.
+
+The series introduces new reasoning modes: "max" effort for complex tasks and an "ultra" mode that leverages sub-agents for multi-step work.
+
+## The Government Factor
+
+The Trump administration requested that OpenAI limit access to GPT-5.6 Sol, and the company agreed to a limited partner preview rather than a full release. In its announcement, OpenAI explicitly pushed back against the restriction, stating: "We don't believe this kind of government access process should become the long-term default. It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them."
+
+This follows a similar pattern with Anthropic, whose Claude Fable 5 and Mythos 5 models faced government access limitations despite voluntary compliance with review processes.
+
+## Looking Forward
+
+The GPT-5.6 models are available through the API and Codex to trusted partners, with broader availability in ChatGPT, Codex, and the API planned "soon." The administration is developing an AI model benchmarking and assessment framework per a June 2 executive order, which may shape future release processes.

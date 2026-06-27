@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Gradium Speech Translation",
+      "count": 1,
+      "last_published": "2026-06-26",
+      "slugs": [
+        "2026-06-26-gradium-speech-translation"
+      ]
+    },
+    {
+      "term": "Baidu Unlimited OCR",
+      "count": 1,
+      "last_published": "2026-06-26",
+      "slugs": [
+        "2026-06-26-baidu-unlimited-ocr"
+      ]
+    },
+    {
       "term": "OpenAI GPT-4.5 o3 Model Retirement",
       "count": 1,
       "last_published": "2026-06-25",
@@ -2072,6 +2088,30 @@
       "last_published": "2026-06-26",
       "slugs": [
         "2026-06-26-enterprise-ai-agents-production"
+      ]
+    },
+    {
+      "term": "OpenAI GPT-5.6 Sol Terra Luna",
+      "count": 1,
+      "last_published": "2026-06-27",
+      "slugs": [
+        "2026-06-27-openai-gpt-5-6-sol"
+      ]
+    },
+    {
+      "term": "LangMem MRAgent Agent Memory Token Reduction",
+      "count": 1,
+      "last_published": "2026-06-27",
+      "slugs": [
+        "2026-06-27-langmem-mra-agent"
+      ]
+    },
+    {
+      "term": "Liquid AI LFM2.5-230M Efficient Model",
+      "count": 1,
+      "last_published": "2026-06-27",
+      "slugs": [
+        "2026-06-27-liquid-ai-lfm-230m"
       ]
     }
   ]
