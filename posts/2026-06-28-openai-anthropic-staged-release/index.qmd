@@ -1,0 +1,32 @@
+---
+title: "OpenAI Joins Anthropic Under Government AI Access Framework"
+date: "2026-06-28 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "OpenAI's limited GPT-5.6 release puts it under the same staged-access framework as Anthropic's Mythos 5—a striking convergence for rivals who once took different paths on AI safety."
+image: "/assets/post-images/2026-06-28-openai-anthropic-staged-release.svg"
+---
+
+OpenAI's decision to limit GPT-5.6 Sol, Terra, and Luna to government-approved partners marks a striking convergence with rival Anthropic. Both companies, which have long competed on different approaches to AI safety, now operate under the same staged-release framework imposed by the Trump administration.
+
+The parallel is notable. Earlier this year, Anthropic restricted Claude Mythos 5 under its Project Glasswing program, limiting the frontier cyber model to vetted partners. OpenAI, which had previously criticized such restrictions, now finds itself in the same position.
+
+"We're taking this short-term step because we believe it is the strongest path to broader availability in the coming weeks," OpenAI said in its announcement. But the company was more explicit than Anthropic has been: "We don't believe this kind of government access process should become the long-term default."
+
+**What changed**
+
+The administration signed an executive order in early June directing AI companies to voluntarily submit models for government evaluation before public release. While the order was light on specifics, it established a framework for case-by-case review.
+
+Both OpenAI and Anthropic complied—but in different ways. Anthropic disabled access entirely for Mythos 5, then slowly restored it to US critical infrastructure organizations over 15 days. OpenAI chose to launch with a limited partner rollout from day one.
+
+The practical difference is minimal: both frontier models are now essentially unavailable to most developers and enterprises. The difference is rhetorical: OpenAI explicitly criticized the approach while implementing it, while Anthropic has largely avoided public pushback.
+
+**Industry implications**
+
+This convergence raises questions about the future of AI release practices. If the government framework persists, the "open release" model that defined the GPT and Claude series may be over.
+
+For developers, the implication is clear: the next generation of frontier models may launch behind partner walls, with broader availability coming weeks or months later—or not at all.
+
+OpenAI's explicit criticism suggests the company hopes to reverse the framework. But for now, the era of day-one open access to frontier AI models appears to have ended—not with a dramatic policy fight, but with two competitors quietly implementing the same restrictions.

@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "OpenAI Anthropic Staged Release Framework",
+      "count": 1,
+      "last_published": "2026-06-28",
+      "slugs": [
+        "2026-06-28-openai-anthropic-staged-release"
+      ]
+    },
+    {
+      "term": "Microsoft Windows Agent Framework",
+      "count": 1,
+      "last_published": "2026-06-28",
+      "slugs": [
+        "2026-06-28-microsoft-build-agent-platform"
+      ]
+    },
+    {
+      "term": "Intel Rackscale AI Infrastructure",
+      "count": 1,
+      "last_published": "2026-06-28",
+      "slugs": [
+        "2026-06-28-intel-rackscale-ai"
+      ]
+    },
+    {
       "term": "Google Search Box Redesign 2026",
       "count": 1,
       "last_published": "2026-06-27",
