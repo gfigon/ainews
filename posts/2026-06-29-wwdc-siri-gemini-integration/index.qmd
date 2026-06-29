@@ -1,0 +1,32 @@
+---
+title: "Apple Rebuilds Siri on Google Gemini at WWDC 2026"
+date: "2026-06-29 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - LLMs & Models
+summary: "Apple unveiled a complete Siri rebuild powered by Google Gemini at WWDC 2026, ending years of struggling to build competitive AI in-house."
+image: "/assets/post-images/2026-06-29-wwdc-siri-gemini-integration.svg"
+---
+
+Apple has completed its most significant strategic shift in 15 years of Siri. At WWDC 2026, the company unveiled a rebuilt assistant—now called "Siri AI"—powered entirely by a custom Google Gemini model, replacing years of in-house AI development efforts.
+
+## The $1 Billion Deal
+
+The partnership, first reported in January 2026, is reportedly worth approximately $1 billion per year to Google. According to Bloomberg's Mark Gurman, the multi-year agreement gives Google a dominant position in Apple's AI ecosystem while providing Apple with immediate access to frontier AI capabilities it could not develop internally.
+
+Apple opened WWDC 2026 on June 8 with the formal announcement: the new Siri runs on a custom 1.2-trillion-parameter version of Google's Gemini model. The company rebranded its assistant as "Siri AI" to signal a fundamental departure from the previous implementation.
+
+## What Siri AI Can Do
+
+The rebuilt assistant represents a complete reimagining of Apple's voice strategy. Key capabilities include a standalone chat interface, multimodal input processing for images and documents, web search integration, image generation, content summarization, coding assistance, file analysis, and multi-step command execution across native and third-party applications.
+
+The new Siri AI leverages personalization features tied to users' Apple accounts, including calendar, emails, and notes. A visual intelligence feature allows Siri to understand on-screen content and take actions within applications.
+
+## A Sea Change in Consumer AI
+
+The deal marks a seismic shift in the consumer AI landscape. For over a decade, Apple invested heavily in building Siri internally, but the assistant consistently lagged behind competitors in conversational capabilities. The Gemini partnership provides immediate parity—or in some areas, leadership—in AI assistant functionality.
+
+Apple also announced the formal deprecation of SiriKit, giving developers two to three years to migrate to App Intents, now the only framework for Gemini-powered Siri integration.
+
+The partnership raises questions about Google's expanding footprint in consumer technology. With Gemini now powering both Samsung's Galaxy AI and Apple's Siri, Google's AI models have become the backbone of consumer device intelligence—effectively replacing Siri's original role as an Android competitor while making Google the default AI brain for the majority of smartphones globally.
