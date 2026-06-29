@@ -2169,6 +2169,46 @@
       "slugs": [
         "2026-06-27-samsung-korea-ai-investment"
       ]
+    },
+    {
+      "term": "DeepSeek DSpark Speculative Decoding",
+      "count": 1,
+      "last_published": "2026-06-28",
+      "slugs": [
+        "2026-06-28-deepseek-dspark-speculative-decoding"
+      ]
+    },
+    {
+      "term": "Claude Code Product Thinking Shift",
+      "count": 1,
+      "last_published": "2026-06-28",
+      "slugs": [
+        "2026-06-28-claude-code-product-thinking"
+      ]
+    },
+    {
+      "term": "Anthropic Alibaba Claude Distillation Attack",
+      "count": 1,
+      "last_published": "2026-06-29",
+      "slugs": [
+        "2026-06-29-alibaba-claude-distillation"
+      ]
+    },
+    {
+      "term": "EU AI Act Digital Omnibus August 2026",
+      "count": 1,
+      "last_published": "2026-06-29",
+      "slugs": [
+        "2026-06-29-eu-ai-act-digital-omnibus"
+      ]
+    },
+    {
+      "term": "Microsoft Agent 365 Governance Enterprise",
+      "count": 1,
+      "last_published": "2026-06-29",
+      "slugs": [
+        "2026-06-29-microsoft-agent-365-governance"
+      ]
     }
   ]
 }

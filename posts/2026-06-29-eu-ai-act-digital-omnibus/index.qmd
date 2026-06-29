@@ -1,0 +1,30 @@
+---
+title: "EU AI Act Enters Full Enforcement Phase as Digital Omnibus Takes Effect"
+date: "2026-06-29 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "The EU AI Act's Digital Omnibus agreement enters force in August 2026, bringing full enforcement to high-risk AI systems and introducing new compliance requirements for foundation model providers operating in the European market."
+image: "/assets/post-images/2026-06-29-eu-ai-act-digital-omnibus.svg"
+---
+
+The European Union's AI Act enters its most critical enforcement phase yet as the Digital Omnibus agreement takes effect in August 2026. This landmark legislation transforms how AI systems are developed, deployed, and governed across the 27-member bloc, establishing what some analysts call the world's most comprehensive AI regulatory framework.
+
+## What's Changing
+
+The Digital Omnibus, agreed by EU member states earlier this year but not yet in force, introduces several key changes to the original AI Act. Full enforcement now applies to high-risk AI systems, with providers required to meet stringent conformity assessment procedures before placing products on the EU market.
+
+Foundation model providers face new transparency obligations, including requirements to document training data sources, model capabilities and limitations, and potential risks. The rules apply to any company deploying AI systems within the EU, regardless of where the company is headquartered globally.
+
+## Global Ripple Effects
+
+The EU AI Act's extraterritorial scope means it effectively governs AI development worldwide. Major AI labs including OpenAI, Anthropic, Google DeepMind, and Meta have all announced compliance frameworks tailored to EU requirements, and several have established dedicated European AI governance teams.
+
+For companies outside the EU, the regulation creates significant compliance burdens. Non-EU providers must designate authorized representatives in the EU and maintain technical documentation in accessible formats, adding operational complexity and costs to entering the European market.
+
+## Compliance Landscape
+
+The full enforcement phase arrives amid ongoing debates about implementation details. Critics argue that the rules remain unclear on several fronts, including how foundation model providers should document training data and what constitutes acceptable risk disclosures.
+
+The European Commission has indicated it will issue additional guidance before the August deadline, but companies are advised to begin compliance preparations immediately given the significant documentation and governance changes required.

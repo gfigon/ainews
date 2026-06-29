@@ -1,0 +1,28 @@
+---
+title: "Anthropic Alleges Alibaba Ran Largest-Ever AI Distillation Attack on Claude"
+date: "2026-06-29 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Anthropic claims Alibaba's Qwen lab conducted 28.8 million unauthorized Claude exchanges through 25,000 fake accounts between April and June 2026, calling it the largest known AI distillation attack in history."
+image: "/assets/post-images/2026-06-29-alibaba-claude-distillation.svg"
+---
+
+Anthropic has accused Alibaba of conducting what it calls the largest known AI distillation attack in history, alleging that operators affiliated with the Chinese tech giant's Qwen AI research division ran nearly 28.8 million unauthorized exchanges with Claude through approximately 25,000 fraudulent accounts over six weeks.
+
+In a letter dated June 10, 2026 addressed to U.S. Senate Banking Committee Chair Tim Scott and Ranking Member Elizabeth Warren, Anthropic detailed how the campaign operated from April 22 to June 5, 2026. The attackers used proxy services and automated scripts to systematically extract capabilities from Anthropic's Claude model, particularly targeting the advanced "Mythos Preview" model.
+
+## The Distillation Technique
+
+AI model distillation refers to the process of transferring knowledge from a larger, more capable model to a smaller one. While legitimate distillation is a standard practice in AI development, unauthorized extraction through fake accounts violates terms of service and potentiallyexport regulations.
+
+Anthropic's letter alleged that the attacks were specifically designed to help Alibaba's Qwen AI model access advanced reasoning capabilities, software engineering proficiency, and long-horizon task execution abilities that the company has developed through significant research investment.
+
+The timing is particularly notable: Anthropic said the campaign occurred after the Trump administration took steps to curb such illicit distillation attacks and defend U.S. national security. In April, the administration accused China of engaging in AI theft and announced measures to restrict such activities.
+
+## Industry Implications
+
+This revelation adds to a growing pattern of AI espionage and competitive intelligence battles in the industry. Earlier this year, Anthropic separately accused DeepSeek of similar distillation activities, and the broader AI sector has seen increasing concerns about model theft and unauthorized capability extraction.
+
+The incident is likely to intensify calls for stronger export controls on advanced AI models and more robust technical measures to prevent unauthorized API access. It also highlights the challenges AI companies face in protecting their model capabilities from being extracted by competitors, even when technical safeguards are in place.
