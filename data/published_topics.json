@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "AI Spend Governance Enterprise Budget Controls",
+      "count": 1,
+      "last_published": "2026-06-29",
+      "slugs": [
+        "2026-06-29-ai-spend-governance"
+      ]
+    },
+    {
+      "term": "AI Pricing Shift Flat Rate Era End",
+      "count": 1,
+      "last_published": "2026-06-29",
+      "slugs": [
+        "2026-06-29-ai-pricing-shift"
+      ]
+    },
+    {
       "term": "OpenAI Anthropic Staged Release Framework",
       "count": 1,
       "last_published": "2026-06-28",
