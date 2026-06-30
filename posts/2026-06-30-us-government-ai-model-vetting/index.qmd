@@ -1,0 +1,38 @@
+---
+title: "US Government Imposes Pre-Release Vetting on Frontier AI Models"
+date: "2026-06-30 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The Trump administration has established a 30-day pre-screening framework for frontier AI models, with OpenAI and Anthropic complying by restricting new releases to government-approved partners."
+image: "/assets/post-images/2026-06-30-us-government-ai-model-vetting.svg"
+---
+
+The U.S. government has begun requiring frontier AI labs to submit their most capable models for security review before public release—a significant shift in AI governance that marks the first time any administration has imposed pre-release vetting at scale.
+
+President Trump signed an executive order in June establishing a framework for federal agencies to assess the national security risks of advanced AI systems for up to 30 days before their public release. The order described participation as voluntary, but the practical reality has been anything but—major AI companies are falling in line.
+
+## OpenAI Restricts GPT-5.6 Sol
+
+OpenAI announced Friday that its latest model, GPT-5.6 Sol, would be available only to a "small group of trusted partners" approved by the Trump administration. The company stated it doesn't "believe this kind of government access process should become the long-term default," framing the testing period as a temporary step toward broader availability.
+
+The company acknowledged that Sol represents a "step change in capabilities" that warranted stronger safeguards and a phased release. Importantly, OpenAI noted the model is better at finding and fixing vulnerabilities than at carrying out cyberattacks—but the company also acknowledged unforeseen risks could emerge if the model is combined with other tools.
+
+## Anthropic Already Affected
+
+This isn't the first instance. Earlier in June, Anthropic was forced to take offline two newly released models—Fable 5 and Mythos 5—within days of unveiling them to comply with a Trump directive blocking their use by foreign nationals. The Pentagon had designated Anthropic as a national security risk for raising ethical concerns about AI usage in warfare.
+
+"They basically said that he had created a cyber weapon called Mythos," said investor David Sacks, who co-leads Trump's council of technology and science advisers, referencing CEO Dario Amodei's Washington testimony.
+
+## Industry Backlash
+
+Critics warn the unpredictable intervention could harm U.S. competitiveness. Stanford cybersecurity expert Alex Stamos called the actions "the dumbest thing they could possibly do" if the administration is serious about beating China in the AI race. He reviewed analysis by Amazon and found no risks present with other publicly available models—including those made in China.
+
+Representative Lori Trahan, a Democrat co-authoring bipartisan AI regulation legislation, expressed concern that "the Trump administration is deciding company by company who gets access to the newest AI model. No law. No process. No oversight."
+
+## What This Means
+
+The pre-screening framework represents a new reality for frontier AI development in the United States. Companies racing toward IPOs—OpenAI and Anthropic both exploring public offerings—now face an additional layer of government oversight that could delay product cycles and affect competitive positioning.
+
+Whether this becomes a permanent fixture of AI governance or a temporary wartime-style measure remains to be seen. But for now, the era of immediate public release for frontier models appears to be over.

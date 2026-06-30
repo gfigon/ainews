@@ -6,7 +6,7 @@ categories:
 pagitle: "Google Launches Gemini 3.1 Pro with Advanced Reasoning"
 description: "Google announces Gemini 3.1 Pro - a significant upgrade to its flagship AI model with improved reasoning capabilities\n  - achieving 77.1% on ARC-AGI-2 benchmark."
 keywords: "Google\n  - Gemini\n  - AI\n  - LLM\n  - reasoning\n  - model"
-image: /posts/2026-02-19-gemini-3-1-pro/image.svg
+image: "https://pollinations.ai/p/Google%20Launches%20Gemini%203.1%20Pro%20with%20Advanced%20Reasoning%20Capabilities?width=1024&height=576&seed=15957&nologo=true"
 ---
 Google has unveiled **Gemini 3.1 Pro**\n  - an upgraded version of its flagship AI model designed for complex problem-solving tasks. The release builds upon the Gemini 3 series and represents what Google calls "a step forward in core reasoning."
 ## Key Improvements

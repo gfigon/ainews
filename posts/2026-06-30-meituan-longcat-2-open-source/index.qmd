@@ -1,0 +1,38 @@
+---
+title: "Meituan Open-Sources LongCat-2.0: A 1.6 Trillion Parameter Model Trained Entirely on Chinese AI Chips"
+date: "2026-06-30 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "Meituan has released LongCat-2.0 under MIT license—a 1.6 trillion parameter MoE model trained exclusively on Chinese AI ASICs, marking one of the largest open-weight models ever and a milestone for China's AI independence."
+image: "https://pollinations.ai/p/Meituan%20LongCat%202.0%20open%20source%20AI%20model%20Chinese%20chips%20ASIC?width=1024&height=576&seed=30&nologo=true"
+---
+
+Chinese tech giant Meituan has open-sourced LongCat-2.0, a massive 1.6 trillion parameter Mixture-of-Experts language model trained entirely on domestic AI accelerators—a milestone that underscores China's push for technological self-sufficiency in AI infrastructure.
+
+## The Model by the Numbers
+
+LongCat-2.0 features 1.6 trillion total parameters with approximately 48 billion activated per token—making it one of the largest open-weight models ever released. The model was pretrained across millions of accelerator-hours using over 50,000 AI ASIC superpods, spanning more than 35 trillion tokens with no rollbacks or irrecoverable loss spikes.
+
+The full training run and large-scale deployment were built entirely on AI ASIC superpods—a notable achievement given that most frontier models rely on NVIDIA GPUs trained on TSMC-manufactured chips.
+
+## Agentic Coding Focus
+
+LongCat-2.0 was purpose-built for agentic coding—code understanding, generation, and execution in real-world agent workflows. The model represents a substantial step up from previous LongCat iterations, accompanied by several architectural improvements aimed at improving real-world utility.
+
+The model weights will be released under the MIT license, providing maximum legal flexibility for enterprise integration and research use.
+
+## China's AI Independence Play
+
+The release is significant for several reasons. First, it demonstrates that Chinese AI labs can train trillion-parameter class models without access to NVIDIA GPUs or TSMC's advanced manufacturing. Second, the MIT license positions the architecture for maximum adoption in China's domestic ecosystem.
+
+This comes as U.S. export controls continue restricting advanced AI chips from reaching Chinese companies. Rather than waiting for supply chains to normalize, Chinese tech companies have accelerated their domestic alternatives.
+
+The model has been leading on OpenRouter—a platform that tracks open model performance—demonstrating competitive capability despite the hardware constraints.
+
+## What This Means
+
+LongCat-2.0 represents a proof point that large-scale AI training is possible on non-NVIDIA infrastructure. While the model may not match frontier capabilities on every benchmark, its release signals that export controls are prompting Chinese AI development to take a fundamentally different path—one that could produce a parallel ecosystem over time.
+
+For enterprises evaluating open-source options, LongCat-2.0 adds another candidate to consider, particularly for organizations seeking alternatives to U.S.-controlled supply chains.

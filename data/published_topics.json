@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Meituan LongCat-2.0 1.6T Open Source Chinese ASIC",
+      "count": 1,
+      "last_published": "2026-06-30",
+      "slugs": [
+        "2026-06-30-meituan-longcat-2-open-source"
+      ]
+    },
+    {
+      "term": "US Government AI Model Pre-Screening Vetting Framework",
+      "count": 1,
+      "last_published": "2026-06-30",
+      "slugs": [
+        "2026-06-30-us-government-ai-model-vetting"
+      ]
+    },
+    {
       "term": "AI Benchmark Saturation Production Evaluation Gap",
       "count": 1,
       "last_published": "2026-06-30",
