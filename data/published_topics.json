@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Claude Sonnet 5 Pricing Discount",
+      "count": 1,
+      "last_published": "2026-07-01",
+      "slugs": [
+        "2026-07-01-claude-sonnet-5"
+      ]
+    },
+    {
+      "term": "Gemini Omni Flash API Video Production",
+      "count": 1,
+      "last_published": "2026-07-01",
+      "slugs": [
+        "2026-07-01-gemini-omni-flash-api"
+      ]
+    },
+    {
       "term": "Colorado Consumer Protections AI Act State Law",
       "count": 1,
       "last_published": "2026-07-01",
