@@ -1,0 +1,22 @@
+---
+title: "Claude Fable 5 Returns: Anthropic Lifts Export Controls After Three-Week Suspension"
+date: "2026-07-01 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "Anthropic redeploys Claude Fable 5 globally after US government lifts export controls, proposing an industry-wide framework for jailbreak severity scoring."
+image: "/assets/post-images/2026-07-01-claude-fable-5-global-release.svg"
+---
+
+Claude Fable 5 is returning to global availability starting July 1, 2026, after the US government lifted export controls that had restricted access to the model for three weeks. The redeployment marks the end of an unusual chapter in AI policy that saw Anthropic quickly suspend and then restore access to one of its flagship models.
+
+The export controls were applied on June 12, requiring Anthropic to restrict access to Fable 5 and Claude Mythos 5 for foreign nationals both inside and outside the United States. The company suspended access to both models entirely rather than implement nationality verification in real-time, erring on the side of caution while working with the government to resolve the issue.
+
+The controls were triggered after Amazon researchers discovered a method of bypassing Fable 5's safeguards—prompting the model to identify software vulnerabilities and, in one case, produce code demonstrating how to exploit them. However, subsequent testing by Anthropic revealed that the same capability existed in multiple other models, including Claude Opus 4.8, GPT-5.5, and Kimi K2.7. Every model tested could produce the same demonstration, suggesting the technique did not expose unique Fable-level cyber capabilities.
+
+Anthropic has used the resolution to propose an industry-wide framework for scoring jailbreak severity. Together with Amazon, Microsoft, Google, and other Glasswing partners, the company is developing a shared standard for assessing and categorizing AI safety bypasses. The framework aims to help AI developers triage new findings consistently and communicate risk levels to government and industry partners more effectively.
+
+"This has made clear that the industry needs a consistent way to assess and fix potential jailbreaks," Anthropic noted in its announcement. The company is also strengthening collaboration with the US government on pre-release testing, information sharing, and research coordination.
+
+Mythos 5 remains available only to approved US organizations, with Anthropic continuing to work with the government to expand access to broader domestic and international partners.

@@ -1,0 +1,22 @@
+---
+title: "Anthropic Secures Multiple Gigawatts of Next-Gen TPU Capacity in Google-Broadcom Deal"
+date: "2026-07-01 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Anthropic announces a major compute partnership with Google and Broadcom for multiple gigawatts of next-generation TPU capacity coming online in 2027."
+image: "/assets/post-images/2026-07-01-anthropic-google-broadcom-compute.svg"
+---
+
+Anthropic has signed a landmark agreement with Google and Broadcom to secure multiple gigawatts of next-generation Tensor Processing Unit (TPU) capacity, with the first deployments expected to come online in 2027. The deal marks the company's most significant compute commitment to date and signals a major escalation in the AI infrastructure arms race.
+
+The partnership builds on Anthropic's existing relationship with Google Cloud, which was expanded last October with increased TPU capacity. The addition of Broadcom as a strategic partner brings custom silicon expertise to the equation, enabling Anthropic to leverage next-generation TPU hardware specifically optimized for frontier model training and inference.
+
+"We're making our most significant compute commitment to date to keep pace with our unprecedented growth," said Krishna Rao, CFO of Anthropic. The company's run-rate revenue has surged to over $30 billion in 2026, up from approximately $9 billion at the end of 2025. More than 1,000 business customers now each spend over $1 million annually on Claude—doubling from 500 in just two months.
+
+The vast majority of the new compute capacity will be sited in the United States, expanding on Anthropic's November 2025 commitment to invest $50 billion in American AI infrastructure. This represents a substantial boost to domestic compute capacity at a time when AI chip supply remains constrained.
+
+Anthropic continues to maintain a multi-hardware strategy, training and running Claude on AWS Trainium, Google TPUs, and NVIDIA GPUs. This diversity allows the company to match workloads to the chips best suited for each task, providing better performance and greater resilience for customers who depend on Claude for critical work.
+
+The partnership keeps Amazon as Anthropic's primary cloud provider and training partner through Project Rainier, while maintaining Claude as the only frontier model available across all three major cloud platforms: AWS Bedrock, Google Vertex AI, and Microsoft Azure Foundry.

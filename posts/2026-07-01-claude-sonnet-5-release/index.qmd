@@ -1,0 +1,22 @@
+---
+title: "Anthropic Releases Claude Sonnet 5: Near-Opus Performance at Fraction of the Cost"
+date: "2026-07-01 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Claude Sonnet 5 launches June 30, 2026, delivering frontier-level agentic performance at roughly 40% of Opus pricing."
+image: "/assets/post-images/2026-07-01-claude-sonnet-5-release.svg"
+---
+
+Anthropic has released Claude Sonnet 5, the latest iteration in its mid-tier model family, delivering performance that approaches its flagship Opus line at a significantly lower price point. The model launched on June 30, 2026, and is now the default for both Free and Pro plans on the Claude platform.
+
+The headline achievement is straightforward: Sonnet 5 achieves performance close to Opus 4.8 on benchmarks critical for real-world work, particularly in agentic contexts involving coding, tool use, and multi-step reasoning—while costing roughly 40% of Opus's standard price. At $2 per million input tokens and $10 per million output tokens (through August 31, 2026), it represents a compelling value proposition for enterprises seeking frontier capability without frontier pricing.
+
+The system card released alongside the model reveals that the performance gains come primarily from improvements in agentic behavior—the ability to use tools, maintain context across multiple turns, and execute complex multi-step tasks reliably. This positions Sonnet 5 as particularly attractive for building AI agents and automated workflows, a market segment experiencing explosive growth in 2026.
+
+Safety evaluations show Sonnet 5 scored lower on undesirable behaviors compared to earlier Sonnet versions. The model deploys with real-time cyber safeguards similar to those used in Opus models, reflecting Anthropic's continued investment in safety alongside capability.
+
+"With Sonnet 5, we're proving that you don't need to choose between performance and price," said an Anthropic spokesperson. The release reinforces Anthropic's three-tier strategy: Haiku for speed and cost-efficiency, Sonnet for balanced capability, and Opus for maximum performance on the most demanding tasks.
+
+The launch comes amid intense competition in the AI model market, with OpenAI, Google, and Meta all releasing new models in recent weeks. Anthropic's positioning of Sonnet 5 as an "Opus-level experience at Sonnet prices" aims to capture the enterprise market seeking high capability without the premium pricing of flagship models.
