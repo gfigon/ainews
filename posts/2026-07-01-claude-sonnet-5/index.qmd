@@ -1,0 +1,24 @@
+---
+title: "Anthropic Launches Claude Sonnet 5 at 60% Discount Ahead of IPO"
+date: "2026-07-01 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Anthropic's newest Sonnet model undercuts Opus pricing by 60%, signaling aggressive market positioning as the company prepares for a potential blockbuster IPO."
+image: "https://pollinations.ai/p/Anthropic%20Claude%20Sonnet%205%20discount%20pricing%20API%20AI%20model?width=1024&height=576&seed=42&nologo=true"
+---
+
+Anthropic has unveiled Claude Sonnet 5, its latest mid-tier model that represents a dramatic pricing shift from previous generations. The new model launched at just $2 per million input tokens and $10 per million output tokens—a 60% discount compared to Opus 4.8 pricing—signaling the company's aggressive push to capture market share ahead of its anticipated IPO.
+
+The release makes Sonnet 5 the default model for users on Anthropic's Free and Pro plans, while also being available to Max, Team, and Enterprise customers. The introductory pricing will hold through August 31, after which it rises to $3 and $15 respectively—still well below Opus pricing but significantly higher than the launch offer.
+
+"Anthropic is positioning Sonnet 5 as the most agentic Sonnet model yet," the company stated, emphasizing improvements in coding, agentic tasks, and professional work. The model maintains the consistency required for long-running workflows that made Opus popular, while delivering performance suitable for most enterprise use cases at a much lower price point.
+
+Industry analysts see this pricing strategy as a calculated move to establish Anthropic as the go-to choice for developers and enterprises seeking a balance between capability and cost. With OpenAI's GPT-5 family commanding premium pricing and Google pushing forward with Gemini iterations, Anthropic's aggressive positioning could attract price-sensitive customers who don't require the full power of Opus.
+
+The timing is notable: the release comes amid reports that Anthropic is racing toward a blockbuster IPO. By flooding the market with an affordable, capable model, the company can build developer lock-in and market presence before going public. A strong user base and API adoption rate would bolster its valuation arguments.
+
+The pricing war in AI is intensifying. Google's Gemini 3.1 Flash-Lite launched last week at extremely competitive rates, and Mistral's recent OCR 4 release also emphasized cost efficiency. As the market matures, AI companies are balancing capability improvements with accessibility—recognizing that the highest-performing model doesn't always win if it exceeds budget constraints.
+
+Sonnet 5 is available immediately through the Anthropic API, with documentation emphasizing its suitability for agentic workflows, code generation, and complex reasoning tasks that don't require the full Opus capability.
