@@ -1,0 +1,24 @@
+---
+title: "Claude Fable 5 Returns — After 20 Days, US Lifts Export Ban"
+date: "2026-07-02 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Anthropic's Fable 5 is back globally after the Commerce Department lifted export controls — proving the original ban rested on a flawed technical premise."
+image: "/assets/post-images/2026-07-02-fable-5-export-ban-lifted.svg"
+---
+
+Claude Fable 5 is back. The US Commerce Department lifted export controls on Anthropic's frontier model on June 30, restoring global access as of July 1 — exactly 20 days after the June 12 ban that sparked an international regulatory crisis.
+
+The reversal came after Anthropic demonstrated a finding that undermined the original justification: the same jailbreak technique that triggered the ban — reportedly discovered by Amazon researchers — worked identically on Opus 4.8, GPT-5.5, and Kimi K2.7. Every model tested could produce the same vulnerability identification and exploit code. Fable 5 had no unique offensive capability worth restricting.
+
+Commerce Secretary Howard Lutnick personally wrote to Anthropic co-founder Tom Brown confirming the removal. Anthropic's commitments in exchange: proactive jailbreak hunting, coordinated government review of future frontier model releases, 24/7 monitoring of malicious use, and a dedicated HackerOne bug bounty for Fable 5 jailbreaks. Most significantly, Anthropic agreed to give the US government earlier access to test future models before public release — the closest thing to a formal pre-approval process that currently exists.
+
+The ban's reversal comes with a 50% free usage window through July 7 for Pro, Max, Team, and select Enterprise users. After July 7, standard pricing applies — $10 per million input tokens, $50 per million output tokens. Cloud providers AWS, Google Cloud, and Microsoft Foundry are re-enabling access "as quickly as possible."
+
+Sam Altman called the government's phased approval pattern "bad news" — and with reason. GPT-5.6 Sol, Terra, and Luna currently sit in exactly the same restricted-preview situation Fable 5 just escaped. Every major US AI lab now faces unpredictable timelines and business disruption from ad-hoc review processes, while Chinese competitors face no equivalent restrictions.
+
+Mythos 5, however, remains limited to roughly 100 vetted US critical infrastructure operators under the Project Glasswing framework. No general access date has been announced.
+
+The 20-day episode exposed a uncomfortable truth: Washington still has no binding process for frontier model review, only improvised responses. As the dust settles, one question remains — if every model tested could do what Fable 5 was banned for, what was the point?
