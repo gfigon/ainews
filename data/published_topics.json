@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Claude Fable 5 Export Ban Lifted",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-fable-5-export-ban-lifted"
+      ]
+    },
+    {
+      "term": "Meta Engineers Claude Code Ban Distillation",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-meta-claude-code-ban"
+      ]
+    },
+    {
       "term": "Claude Sonnet 5 Pricing Discount",
       "count": 1,
       "last_published": "2026-07-01",
