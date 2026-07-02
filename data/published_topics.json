@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "xAI Voice Agent Builder No-Code Platform",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-xai-voice-agent-builder"
+      ]
+    },
+    {
+      "term": "Meta AI Cloud Compute Excess GPU",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-meta-ai-cloud-compute"
+      ]
+    },
+    {
       "term": "Claude Fable 5 Export Ban Lifted",
       "count": 1,
       "last_published": "2026-07-02",
