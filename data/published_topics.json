@@ -2313,6 +2313,30 @@
       "slugs": [
         "2026-06-29-microsoft-agent-365-governance"
       ]
+    },
+    {
+      "term": "MGX UAE AI Fund 49B",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-mgx-49b-ai-fund"
+      ]
+    },
+    {
+      "term": "Meituan General 365 Reasoning Benchmark",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-meituan-general-365-benchmark"
+      ]
+    },
+    {
+      "term": "Video-Use Coding Agents Video Editing",
+      "count": 1,
+      "last_published": "2026-07-02",
+      "slugs": [
+        "2026-07-02-video-use-ai-editing"
+      ]
     }
   ]
 }

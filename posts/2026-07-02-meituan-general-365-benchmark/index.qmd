@@ -1,0 +1,28 @@
+---
+title: "Meituan's General 365 Benchmark Exposes Reasoning Gap: Top AI Models Score Below 63%"
+date: "2026-07-02 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "New benchmark from Meituan's LongCat team reveals significant limitations in complex reasoning across 26 major AI models."
+image: "/assets/post-images/2026-07-02-meituan-general-365-benchmark.svg"
+---
+
+Meituan's LongCat team has released General 365, a demanding new benchmark designed to evaluate the complex reasoning capabilities of large language models. The results paint a sobering picture: even the most advanced AI systems struggle with sophisticated reasoning tasks, with the top-performing model achieving just 62.8% accuracy.
+
+The benchmark assessed 26 mainstream models, establishing what the team describes as a "passing mark" at the 60% threshold. Most models failed to reach this standard, revealing that complex reasoning remains one of the most challenging frontiers for artificial intelligence.
+
+## Why General 365 Matters
+
+Traditional benchmarks like MMLU and HumanEval have driven significant progress in AI capabilities over the past several years. However, these tests often measure discrete skills or narrow competencies rather than the integrated reasoning required for real-world decision-making. General 365 was designed to close this gap by presenting models with multi-step problems requiring sustained logical chains, contextual understanding, and the ability to handle ambiguity.
+
+The benchmark's name references the challenge of achieving consistent performance across 365 days of varied reasoning tasks—a nod to the need for AI systems that can maintain competence across diverse contexts rather than excelling at narrow test conditions.
+
+## Industry Implications
+
+The benchmark results have significant implications for organizations building AI products. When top models barely clear a 60% threshold on complex reasoning, enterprises deploying AI for high-stakes decisions must implement robust verification workflows rather than assuming AI outputs are correct. The finding also suggests that scaling model size alone may not bridge the reasoning gap—a conclusion that aligns with emerging research on diminishing returns from parameter count increases.
+
+For AI researchers, General 365 provides a new standardized metric for tracking progress on reasoning capabilities. The LongCat team's release of the benchmark to the research community enables reproducible comparisons across labs and model generations.
+
+As the AI industry grapples with the gap between benchmark performance and real-world reliability, benchmarks like General 365 serve as crucial tools for understanding where current systems excel and where they require human oversight.
