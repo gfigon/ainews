@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Claude NVIDIA GB300 Blackwell Ultra Azure",
+      "count": 1,
+      "last_published": "2026-07-03",
+      "slugs": [
+        "2026-07-03-anthropic-azure-gb300"
+      ]
+    },
+    {
+      "term": "Microsoft 150B AI Capex Infrastructure Azure",
+      "count": 1,
+      "last_published": "2026-07-03",
+      "slugs": [
+        "2026-07-03-microsoft-150b-ai-capex"
+      ]
+    },
+    {
+      "term": "OpenAI Frontier Enterprise Agent Platform",
+      "count": 1,
+      "last_published": "2026-07-03",
+      "slugs": [
+        "2026-07-03-openai-frontier-enterprise"
+      ]
+    },
+    {
       "term": "xAI Voice Agent Builder No-Code Platform",
       "count": 1,
       "last_published": "2026-07-02",
