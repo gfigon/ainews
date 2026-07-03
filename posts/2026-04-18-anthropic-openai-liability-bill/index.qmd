@@ -14,7 +14,6 @@ tags:
   - "liability"
   - "regulation"
   - "AI safety"
-format: "md"
 status: "published"
 ---
 

@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-03-zcode-ai-coding-tool/index.html",
+      "/posts/2026-07-03-enterprise-ai-governance-crisis/index.html",
+      "/posts/2026-07-03-enterprise-ai-agent-failures/index.html",
+      "/posts/2026-07-03-alibaba-tool-routing-framework/index.html",
       "/posts/2026-07-03-anthropic-azure-gb300/index.html",
       "/posts/2026-07-03-openai-frontier-enterprise/index.html",
       "/posts/2026-07-03-microsoft-150b-ai-capex/index.html",
@@ -120,7 +124,7 @@
       "/posts/2026-04-19-anthropic-800b-valuation/index.html",
       "/posts/2026-04-19-fbi-ic3-ai-cybercrimes/index.html",
       "/posts/2026-04-19-xai-grok-speech-apis/index.html",
-      "/posts/2026-04-18-anthropic-openai-liability-bill/index.md",
+      "/posts/2026-04-18-anthropic-openai-liability-bill/index.html",
       "/posts/2026-04-18-openai-cerebras-20b-deal/index.html",
       "/posts/2026-04-18-claude-design/index.html",
       "/posts/2026-04-17-gpt-rosalind-life-sciences/index.html",

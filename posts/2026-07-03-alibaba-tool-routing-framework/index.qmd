@@ -1,0 +1,30 @@
+---
+title: "Alibaba's New AI Framework Cuts Agent Token Use 99% By Skipping Tool Loading"
+date: "2026-07-03 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "A new framework from Alibaba solves the tool routing problem that chokes most AI agents, reducing token consumption by 99%."
+image: "https://pollinations.ai/p/Alibabas+New+AI+Framework+Cuts+Agent+Token+Use+99+By+Skipping+Tool+Loading?width=1024&height=576&seed=20888&nologo=true"
+---
+
+Alibaba has unveiled a new AI framework that addresses one of the most persistent bottlenecks in agentic AI systems: the challenge of selecting the right tool from thousands of available options. The framework eliminates the need to load every tool into the model's context, achieving a 99% reduction in token usage for tool-intensive agents.
+
+## The Tool Routing Problem
+
+Modern AI agents increasingly need to choose from vast toolkits — APIs, functions, data sources, and external services. As these tool collections grow into the thousands, agents spend enormous computational resources simply determining which tools to consider. This overhead often exceeds the tokens used for the actual task.
+
+The traditional approach loads all available tools into the prompt, forcing the model to "read" through hundreds or thousands of tool definitions before making a selection. For enterprise deployments with extensive internal toolchains, this approach becomes impractical.
+
+## How It Works
+
+Alibaba's framework implements intelligent routing that identifies the relevant tool subset before the agent processes them. Rather than exhaustive search through every available tool, the system uses lightweight classifiers to narrow down options to a handful of candidates.
+
+Early benchmarks suggest the approach maintains or improves task completion rates while dramatically reducing computational overhead. The 99% token reduction applies specifically to the tool selection phase — the actual tool execution and response processing remain unchanged.
+
+## Implications for Enterprise
+
+For enterprises building agentic systems, the breakthrough could enable tool-rich deployments previously impractical due to cost and latency constraints. Financial services, healthcare, and enterprise software — domains with large internal tool ecosystems — stand to benefit most.
+
+The framework is being released as an open-source project, allowing developers to integrate the routing approach into their own agent architectures. Industry observers note that efficient tool routing could become a standard component of enterprise agent platforms, much like vector databases became essential for retrieval-augmented generation.
