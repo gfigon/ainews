@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Alibaba SkillWeaver Tool Routing 99% Token Reduction",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-alibaba-skillweaver"
+      ]
+    },
+    {
+      "term": "ZCode AI Coding Tool Zhipu GLM-52 Huawei Chips",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-zcode-ai-coding"
+      ]
+    },
+    {
       "term": "AI Agent CVE Vulnerabilities MS-Agent Cursor Security",
       "count": 1,
       "last_published": "2026-07-04",
