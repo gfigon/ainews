@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "AI Agent CVE Vulnerabilities MS-Agent Cursor Security",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-ai-agent-cve-vulnerabilities"
+      ]
+    },
+    {
+      "term": "Cloudflare AI Traffic Control Bot Management Search Agent Training",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-cloudflare-ai-traffic-controls"
+      ]
+    },
+    {
+      "term": "AI Vulnerability Discovery CVE Spike Epoch AI 3.5x",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-record-cve-spike-ai-discovery"
+      ]
+    },
+    {
       "term": "Anthropic Claude NVIDIA GB300 Blackwell Ultra Azure",
       "count": 1,
       "last_published": "2026-07-03",
