@@ -1,0 +1,38 @@
+---
+title: "Alibaba's SkillWeaver Cuts AI Agent Token Use by 99% Through Smarter Tool Routing"
+date: "2026-07-04 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Alibaba researchers unveil SkillWeaver, a framework that reduces token consumption by over 99% while improving accuracy in multi-tool AI agent workflows."
+image: "/assets/post-images/2026-07-04-alibaba-skillweaver.svg"
+---
+
+As enterprise AI systems scale to handle complex workflows, practitioners face a growing challenge: routing subtasks to the right tools among hundreds or even thousands available. A new framework from Alibaba researchers aims to solve this efficiency bottleneck.
+
+## The Tool Routing Problem
+
+Modern AI agents can have hundreds of tools and skills at their disposal, but determining which one to use for each step of a workflow quickly overwhelms context limits. Exposing an entire tool library to an LLM consumes hundreds of thousands of tokens per request.
+
+"Exposing an entire library to an LLM to find the right tool is highly inefficient, quickly overwhelms context limits, and consumes hundreds of thousands of tokens," noted researchers in their paper.
+
+## How SkillWeaver Works
+
+The framework introduces **Skill-Aware Decomposition (SAD)**, a technique that uses a feedback loop to enable the agent to fetch and vet relevant tool candidates iteratively. The system operates in three stages:
+
+1. **Decompose** — An LLM breaks complex user queries into sequences of sub-tasks
+2. **Retrieve** — An embedding model compares each sub-task against the skill library
+3. **Compose** — A planner evaluates retrieved candidates for inter-skill compatibility
+
+The key innovation is the SAD feedback loop, which solves a common problem: LLMs often produce generic step descriptions that fail to match the specific, technical vocabulary of actual tools. SAD works by having the LLM draft an initial plan, conduct a preliminary search, and then feed retrieved skills back as hints to rewrite the decomposition.
+
+## Dramatic Results
+
+In experiments using a library of 2,209 real-world skills from the MCP ecosystem, SkillWeaver reduced token consumption by more than 99% compared to naive approaches that stuff all tool names into prompts.
+
+The framework also improved accuracy significantly. A lightweight 7-billion parameter model achieved only 51% decomposition accuracy in vanilla setups. With SAD activated, accuracy jumped to 67.7%—and reached 92% with the larger Qwen-Max model. On hard tasks requiring four to five distinct skills, SAD improved accuracy by 50%.
+
+Perhaps surprisingly, larger models sometimes performed worse without guidance—the 14-billion parameter model saw accuracy plummet below the 7B model because it over-decomposed tasks into unnecessary steps. SAD anchored the model back to reality.
+
+The research will be presented at ArXiv and represents a significant step toward practical multi-tool AI agent deployments.
