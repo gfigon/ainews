@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-04-trunk-tools-document-review/index.html",
+      "/posts/2026-07-04-square-ai-ordering/index.html",
       "/posts/2026-07-04-ai-agent-cve-vulnerabilities/index.html",
       "/posts/2026-07-04-cloudflare-ai-traffic-controls/index.html",
       "/posts/2026-07-04-record-cve-spike-ai-discovery/index.html",
