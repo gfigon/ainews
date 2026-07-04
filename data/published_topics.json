@@ -257,7 +257,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -2416,6 +2416,22 @@
       "last_published": "2026-07-02",
       "slugs": [
         "2026-07-02-video-use-ai-editing"
+      ]
+    },
+    {
+      "term": "Trunk Tools Document Review 60 10 Days Specialized Models",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-trunk-tools-document-review"
+      ]
+    },
+    {
+      "term": "Square AI Ordering ChatGPT Claude Restaurant Integration",
+      "count": 1,
+      "last_published": "2026-07-04",
+      "slugs": [
+        "2026-07-04-square-ai-ordering"
       ]
     }
   ]
