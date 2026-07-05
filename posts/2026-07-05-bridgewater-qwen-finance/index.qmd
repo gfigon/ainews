@@ -1,0 +1,30 @@
+---
+title: "Fine-Tuned Qwen Outperforms GPT and Claude on Finance Tasks—With a Caveat"
+date: "2026-07-05 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Bridgewater and Thinking Machines Lab say a tuned Alibaba Qwen model beats frontier models on finance tasks, but experts say the lesson is better feedback loops, not bigger models."
+image: "/assets/post-images/2026-07-05-bridgewater-qwen-finance.svg"
+---
+
+Bridgewater Associates' AIA Labs and Thinking Machines Lab say a fine-tuned Qwen3-235B open-weight model outperformed leading commercial AI models in a finance-task evaluation. The trained model reached 84.7% accuracy versus 78.2% for the strongest frontier model tested and reduced inference cost per 1,000 tasks by 13.8 times.
+
+The evaluation focused on document triage—determining which financial filings and reports are relevant to investment decisions. This task is hard to automate because correct answers often depend on Bridgewater's private workflow rather than public web knowledge.
+
+## What Made the Difference
+
+Variants of Google's Gemini, Anthropic's Claude, and OpenAI's GPT models averaged roughly 50% accuracy when given only task descriptions. Expert-written prompts pushed frontier-model averages into the mid-70% range, still below the 80% threshold the companies set for trustworthy deployment.
+
+The key was private feedback, labels, review rules, and corrections. Contractor labels alone were not enough—a training data cleanup process routed examples to investment experts when a model trained on vendor labels disagreed with those labels.
+
+The training run used Thinking Machines Lab's Tinker platform, which lets researchers control model training while the company handles infrastructure. Tinker paired with Qwen3-235B for task-specific extra training using LoRA, limiting customer data so organizations can fine-tune a smaller adapter.
+
+## What This Does Not Prove
+
+Independent analyst Vijay Vijayasankar frames the result as a scope caveat rather than a verdict on every larger model. He called the advantage "a better feedback loop" because expert correction, task definition, and deployment constraints matter alongside model size.
+
+A large adaptable model still requires GPUs, batching, latency tuning, and engineering staff—so lower inference costs do not eliminate infrastructure demands. Financial firms still need to maintain the system as filings and regulations change.
+
+The numbers are company-run measurements, not independent public benchmarks. Bridgewater warns that AI-tool outputs can contain inaccuracies, errors, defects, or security vulnerabilities found only after use.

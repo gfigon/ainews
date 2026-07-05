@@ -1,0 +1,30 @@
+---
+title: "Anthropic's Claude Science Bets on Workflow Over Specialized Intelligence"
+date: "2026-07-05 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Anthropic launches Claude Science, an AI workbench connecting 60+ scientific databases, betting that scientists need better tools rather than smarter models."
+image: "/assets/post-images/2026-07-05-claude-science.svg"
+---
+
+Anthropic launched Claude Science on June 30, 2026, introducing an AI workbench that brings over 60 scientific databases, computing tools, and research workflows into a single environment. The product targets life sciences researchers who currently split their work across tools like PubMed, Jupyter, R, and cluster terminals.
+
+The launch places Anthropic in a direct three-way competition with OpenAI and Google DeepMind for a fast-growing market. OpenAI released GPT-Rosalind in April 2026, a model fine-tuned specifically for biological reasoning. Google launched Gemini for Science at I/O, bundling its proprietary AlphaFold and AlphaGenome models with 30+ databases.
+
+## The Workflow Bet
+
+What distinguishes Anthropic's approach is what the company deliberately chose *not* to do. Claude Science does not introduce any new model or specialized biological intelligence. The product runs on existing Claude models, including Claude Opus 4.8, and adds a research-specific layer of database connectors, compute management, and provenance tracking.
+
+A main coordinating agent acts as a project manager, connecting to pre-built toolkits for genomics, proteomics, structural biology, and cheminformatics. It can spin up sub-agents for specialized tasks or hand work off to custom expert agents that researchers build themselves.
+
+Key features include reproducibility tracking—every figure includes the exact code, environment, and conversation history—and built-in fact checking via a separate reviewer agent that validates citations before outputs reach researchers.
+
+## Three Strategies, One Market
+
+The most revealing aspect of this launch is how differently the three companies are approaching scientific AI. Anthropic chose breadth and workflow, available to any paid subscriber. OpenAI chose depth and specialization with GPT-Rosalind, but gates access behind an enterprise qualification process. Google chose proprietary science, bundling its AlphaFold and AlphaGenome models that neither competitor can replicate.
+
+Anthropic's strategy mirrors how Claude Code became popular with developers—not because of model superiority, but because it solved the workflow problem. By making Claude Science available to any paid subscriber rather than gating it behind enterprise qualification, Anthropic is lowering the barrier to trial.
+
+The AI in drug discovery market is projected to grow from roughly $4 billion in 2026 to over $25 billion by 2035. Major pharmaceutical companies including Novo Nordisk appear as partners for both Anthropic and OpenAI, suggesting they are running parallel evaluations rather than choosing a single vendor.
