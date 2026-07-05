@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Claude Science AI Workbench 60 Scientific Databases",
+      "count": 1,
+      "last_published": "2026-07-05",
+      "slugs": [
+        "2026-07-05-claude-science"
+      ]
+    },
+    {
+      "term": "Bridgewater Qwen Finance Model Outperforms GPT Claude Gemini",
+      "count": 1,
+      "last_published": "2026-07-05",
+      "slugs": [
+        "2026-07-05-bridgewater-qwen-finance"
+      ]
+    },
+    {
+      "term": "Anthropic Revenue Overtakes OpenAI 47B Run Rate",
+      "count": 1,
+      "last_published": "2026-07-05",
+      "slugs": [
+        "2026-07-05-anthropic-revenue-openai"
+      ]
+    },
+    {
       "term": "Alibaba SkillWeaver Tool Routing 99% Token Reduction",
       "count": 1,
       "last_published": "2026-07-04",
