@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "OpenAI US Government 5% Stake 42B Public Wealth Fund",
+      "count": 1,
+      "last_published": "2026-07-05",
+      "slugs": [
+        "2026-07-05-openai-us-gov-stake"
+      ]
+    },
+    {
+      "term": "Nvidia AI Factory Revenue Sharing Model Cloud Partners",
+      "count": 1,
+      "last_published": "2026-07-05",
+      "slugs": [
+        "2026-07-05-nvidia-ai-factory-revenue-share"
+      ]
+    },
+    {
       "term": "Anthropic Claude Science AI Workbench 60 Scientific Databases",
       "count": 1,
       "last_published": "2026-07-05",

@@ -1,0 +1,20 @@
+---
+title: "OpenAI Proposes Giving US Government 5% Stake Worth $42B"
+date: "2026-07-05 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI has discussed handing the US government a 5% equity stake, worth approximately $42.6 billion, in an unprecedented move to defuse political scrutiny."
+image: "/assets/post-images/2026-07-05-openai-us-gov-stake.svg"
+---
+
+OpenAI is proposing to give the US government a 5% equity stake in the company, a move that would represent the first time a major AI company has offered partial ownership to a national government. According to reports from the Financial Times, the stake would be worth roughly $42.6 billion based on the company's estimated $852 billion valuation.
+
+CEO Sam Altman has championed the proposal, arguing that giving the public a financial interest in AI development would help address growing political concerns about the technology's power and potential misuse. The plan involves creating what Altman has called a "Public Wealth Fund" that would hold the government stake.
+
+The timing of the proposal comes as AI companies face intensifying scrutiny in Washington. Both OpenAI and Anthropic have faced questions about their relationships with the Pentagon, and regulators have expressed concerns about the concentration of AI capabilities in private hands. By offering the government ownership, OpenAI appears to be attempting to preempt stricter regulatory measures.
+
+The proposal would also mark a significant shift in how the US government interacts with AI companies. Rather than simply regulating from outside, the government would have a direct financial stake in one of the most consequential technology companies in the world. It's unclear whether other AI companies would follow OpenAI's lead, though the proposal could set a precedent for government involvement in the industry.
+
+The deal remains preliminary, and it's uncertain whether the Trump administration would accept such an arrangement or push for different terms. However, the proposal signals that AI leaders are increasingly willing to make structural concessions to address regulatory and political concerns about their technology.
