@@ -1,0 +1,22 @@
+---
+title: "Chinese Video Generation Startup Kling AI Raises $2.8 Billion at $15 Billion Valuation"
+date: "2026-07-05 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "Kuaishou's AI subsidiary secures massive funding from Alibaba and Tencent, signaling China's serious push into video generation AI."
+image: "/assets/post-images/2026-07-05-kling-ai-funding.svg"
+---
+
+Kling AI, the video generation subsidiary of Chinese short-video giant Kuaishou, has closed a $2.8 billion funding round, pushing its valuation to approximately $15 billion. The round drew participation from Alibaba and Tencent, marking one of the largest investments in China's AI sector this year.
+
+The funding signals intensifying competition in the video generation space, where Western players like OpenAI's Sora and Google's Veo have dominated headlines. Kling AI has operated in over 40 countries since 2025, with annual revenue reportedly exceeding $140 million—a rare example of Chinese AI exports gaining traction internationally.
+
+The investment from both Alibaba and Tencent is noteworthy: the two tech giants have historically competed fiercely, yet both see strategic value in backing a unified video generation platform. Their joint participation suggests a recognition that video AI represents the next major frontier in generative technology, requiring massive compute resources that few players can sustain independently.
+
+With this capital injection, Kling AI is positioned to accelerate its expansion into North American and European markets. However, the company will face familiar challenges unique to video generation—including copyright concerns around training data and portrait rights of real individuals depicted in generated content.
+
+The valuation itself—$15 billion for a company with $140 million in annual revenue—highlights the premium investors place on generative video capabilities. Industry observers note that video generation requires substantially more computational power than text or image generation, making it a capital-intensive endeavor where funding advantages translate directly into competitive positioning.
+
+As the video AI race accelerates, attention now turns to how Kling AI will differentiate from established Western competitors and whether it can translate its early revenue traction into sustained international growth.
