@@ -1,0 +1,40 @@
+---
+title: "OpenAI Launches GPT-5.6 Sol With Government-Controlled Access, Calls It 'Unsustainable'"
+date: "2026-07-06 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "OpenAI's new flagship model claims to beat Claude Mythos in agentic coding but remains restricted to approved partners under US government direction."
+image: "/assets/post-images/2026-07-06-gpt-56-sol-government-access.svg"
+---
+
+OpenAI has unveiled GPT-5.6 Sol, its newest flagship model positioned to compete directly with Anthropic's Claude Mythos class. The launch, however, comes with a significant caveat: access is limited to select partners through API and Codex, at what the company explicitly describes as "the explicit direction of the US government."
+
+The restricted rollout follows a pattern established with Claude Mythos 5, which the US government forced Anthropic to disable worldwide in June. OpenAI frames the access limitations as a temporary measure, but acknowledges uncertainty about when—or if—broader release will occur.
+
+## Performance Benchmarks
+
+GPT-5.6 Sol shows meaningful improvements over previous generations in several key areas:
+
+**Agentic Coding**: On Terminal-Bench 2.1, Sol scores 88.8%, while Sol Ultra reaches 91.9%. Claude Mythos 5 scores 88.0%, and Gemini 3.1 Pro Preview trails at 70.7%.
+
+**Cybersecurity**: On ExploitBench, which tests autonomous vulnerability discovery, Sol matches Mythos Preview performance while using roughly one-third of the output tokens. OpenAI characterizes the model as a "defender" rather than attacker, noting it stays below the "Cyber Critical" threshold in the company's Preparedness Framework.
+
+**Biology Research**: On GeneBench v1, Sol achieves 30% success versus GPT-5.5's 22% best case, while consuming fewer tokens.
+
+## Pricing and Availability
+
+The tiered pricing structure introduces three permanent performance levels:
+
+- **Sol**: $5 input / $30 output per million tokens
+- **Terra**: $2.50 / $15 (matches GPT-5.5 capability at half cost)
+- **Luna**: $1 / $6 (budget option)
+
+Additional reasoning modes include "max" for deeper analysis and "ultra" for parallel sub-agent orchestration. Prompt caching receives an overhaul with explicit breakpoints and guaranteed 30-minute cache lifetime, with cache writes at 1.25x input price and reads receiving a 90% discount.
+
+## Industry Implications
+
+The Sol launch highlights an emerging tension in frontier AI development: capability advances increasingly trigger regulatory scrutiny before public release. OpenAI's blog post states directly: "We don't believe this kind of government access process should become the long-term default. It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them."
+
+The model's Cerebras deployment is scheduled for July, potentially expanding access beyond current API limitations.

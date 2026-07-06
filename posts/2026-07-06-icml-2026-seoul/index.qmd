@@ -1,0 +1,34 @@
+---
+title: "ICML 2026 Seoul: Record Submissions and AI Agent Focus as Conference Kicks Off"
+date: "2026-07-06 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "The International Conference on Machine Learning returns to Seoul with 23,918 submissions—double last year's count—and a dominant agentic AI workshop program."
+image: "/assets/post-images/2026-07-06-icml-2026-seoul.svg"
+---
+
+The 43rd International Conference on Machine Learning (ICML 2026) opens Monday in Seoul, South Korea, marking the first time the premier machine learning research venue lands in Asia. The conference runs July 6-11 at the COEX Convention & Exhibition Center, drawing researchers from around the world for what organizers call a "record-breaking" year.
+
+## A Year of Milestones
+
+The 2026 submission cycle saw 23,918 papers queued for review—nearly double the approximately 12,000 received in 2025. This explosive growth has created what reviewers describe as a "peer review crisis," with the program committee straining to maintain quality under volume. ICML organizers implemented a new LLM-assisted review policy, including watermark-based detection that identified 398 reviewers who violated guidelines by using AI tools during the review process.
+
+The conference arrives amid heightened industry interest in machine learning research. Major tech companies—Nvidia, Google, Meta, and Anthropic—have all increased their research presence at the venue, with dozens of workshops dedicated to practical applications.
+
+## Agentic AI Takes Center Stage
+
+Perhaps the most notable shift: agentic AI has become the dominant theme. Of 247 workshop proposals, at least 60 included "agentic AI" in their descriptions. Key workshops include:
+
+- **Agents in the Wild** (July 9): Examining how intelligent agents can reason, act, and adapt in real-world environments
+- **Generative and Agentic AI for Biology**: Bridging AI capabilities with scientific discovery
+- **Efficient Agentic AI Systems**: Focusing on multimodal agent architectures and test-time adaptation
+
+The "Agents in the Wild" workshop returns for its second year, reflecting the growing academic and industry interest in deploying AI agents beyond controlled environments.
+
+## Practical Details
+
+The tutorial day runs July 6, with main conference sessions July 7-9 and workshops July 10-11. In-person registrations for tutorials and the main conference are sold out, though virtual participation remains available for several sessions.
+
+This year's venue marks ICML's debut in Seoul, part of a broader shift in AI research geography toward Asia. The conference will rotate to Vienna in 2027.
