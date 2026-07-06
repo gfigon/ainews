@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "SK Hynix 28B Nasdaq Listing AI Infrastructure Memory Chips",
+      "count": 1,
+      "last_published": "2026-07-06",
+      "slugs": [
+        "2026-07-06-sk-hynix-nasdaq-listing"
+      ]
+    },
+    {
+      "term": "Alibaba Elements Claw Superconductor Discovery AI Materials Science",
+      "count": 1,
+      "last_published": "2026-07-06",
+      "slugs": [
+        "2026-07-06-alibaba-elements-claw"
+      ]
+    },
+    {
       "term": "Kling AI 2.8B Funding 15B Valuation Alibaba Tencent Video Generation",
       "count": 1,
       "last_published": "2026-07-05",
@@ -329,7 +345,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
