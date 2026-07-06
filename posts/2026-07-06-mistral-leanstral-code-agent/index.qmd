@@ -1,0 +1,39 @@
+---
+title: "Mistral AI Releases Leanstral 1.5: Code Agent Solves 87% of PutnamBench Problems"
+date: "2026-07-06 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Mistral AI unveils Leanstral 1.5, an Apache-2.0 licensed code agent model that solves 587 out of 672 PutnamBench problems, setting a new standard for formal verification and mathematical reasoning."
+image: "https://pollinations.ai/p/Mistral%20Leanstral%201.5%20Code%20Agent%20PutnamBench?width=1200&height=630&nologo=true"
+---
+
+Mistral AI has released **Leanstral 1.5**, a powerful code agent model based on the Lean 4 proof assistant that achieves unprecedented performance on formal verification tasks, solving 587 out of 672 problems on the challenging PutnamBench benchmark—an impressive 87% success rate.
+
+## Breaking New Ground in Formal Verification
+
+Leanstral 1.5 represents a significant advance in AI's ability to handle formal mathematical reasoning. The model is released under the Apache-2.0 license, making it freely available for both research and commercial applications.
+
+Key capabilities include:
+
+- **Formal proof generation** — automatically construct machine-checkable mathematical proofs in Lean 4
+- **Theorem proving** — tackle complex mathematical theorems with minimal human guidance
+- **Code verification** — ensure software correctness through formal methods
+- **Interactive proof assistance** — collaborate with human mathematicians in real-time
+
+The 587/672 score on PutnamBench is particularly remarkable because these problems are among the most challenging in undergraduate mathematics, requiring creative problem-solving and rigorous logical reasoning.
+
+## Why Formal Verification Matters
+
+The release comes as formal verification gains increasing importance in software development. With AI systems being deployed in safety-critical domains—from autonomous vehicles to medical devices—the ability to mathematically prove code correctness has become a priority.
+
+"Leanstral isn't just an academic exercise," explained a Mistral AI researcher. "We're seeing interest from aerospace companies, financial institutions, and healthcare organizations that need mathematically guaranteed software correctness."
+
+## Open Source Advantage
+
+By releasing Leanstral under Apache-2.0, Mistral AI enables broad adoption across academia and industry. The model can be fine-tuned for specific domains, integrated into development workflows, and contribute to the growing ecosystem of formal verification tools.
+
+The release includes model weights, inference code, and evaluation scripts, with detailed documentation on the Mistral AI platform. Researchers have already begun exploring applications in cryptography, programming language theory, and compiler verification.
+
+This release positions Mistral AI as a leader in the formal methods space, challenging both proprietary AI providers and academic research groups working on theorem proving.
