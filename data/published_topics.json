@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "China AI Companion Law ByteDance Doubao Alibaba Qwen Shutdown",
+      "count": 1,
+      "last_published": "2026-07-07",
+      "slugs": [
+        "2026-07-07-china-ai-companion-crackdown"
+      ]
+    },
+    {
+      "term": "Xiaomi MiMo-V2-Pro OpenRouter Dominance 45% Chinese Models",
+      "count": 1,
+      "last_published": "2026-07-07",
+      "slugs": [
+        "2026-07-07-xiaomi-mimo-openrouter-dominance"
+      ]
+    },
+    {
+      "term": "Tesla Robotaxi Miami Driverless First No Safety Monitor",
+      "count": 1,
+      "last_published": "2026-07-07",
+      "slugs": [
+        "2026-07-07-tesla-robotaxi-miami-driverless"
+      ]
+    },
+    {
       "term": "ICML 2026 Seoul Record Submissions AI Agent Workshops",
       "count": 1,
       "last_published": "2026-07-06",
