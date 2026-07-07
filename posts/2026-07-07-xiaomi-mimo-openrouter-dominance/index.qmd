@@ -1,0 +1,22 @@
+---
+title: "Xiaomi MiMo-V2-Pro Dominates OpenRouter as Chinese Models Claim 45% of Traffic"
+date: "2026-07-07 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Xiaomi's MiMo-V2-Pro becomes the most-used model on OpenRouter with 4.65 trillion weekly tokens, as Chinese open-weight models surge to capture nearly half of all platform traffic."
+image: "/assets/post-images/2026-07-07-xiaomi-mimo-openrouter-dominance.svg"
+---
+
+Xiaomi's MiMo-V2-Pro has become the most-used model on OpenRouter, processing approximately 4.65 trillion weekly tokens—more than double the traffic of the second-place model. The surge represents a remarkable shift in the AI landscape, with Chinese open-weight models now accounting for roughly 45% of all traffic on the platform.
+
+The numbers tell a striking story: Xiaomi now holds approximately 21% of OpenRouter's total traffic, compared to just 7.5% for OpenAI. This dramatic shift reflects growing developer appetite for capable open-weight alternatives to proprietary models, particularly those that can be deployed with greater control and at lower cost.
+
+The rise of Chinese models on OpenRouter represents more than a market share story—it's indicative of a broader decoupling from Western AI infrastructure. Developers increasingly favor these models for their strong performance on coding and reasoning tasks, combined with flexible deployment options that avoid dependency on any single provider.
+
+MiMo-V2-Pro's performance is particularly notable given its relatively recent release. The model has quickly overtaken established players to claim the top spot, suggesting that the pace of innovation in Chinese AI labs continues to accelerate despite export controls and geopolitical tensions.
+
+For enterprises and developers, this shift raises important considerations. Open-weight models offer transparency and customization capabilities that proprietary alternatives cannot match. However, the dominance of Chinese models introduces questions about supply chain dependencies, data privacy considerations, and the geopolitical risks of relying on models subject to potential future restrictions.
+
+The broader trend suggests the AI market is fragmenting into distinct ecosystems rather than consolidating around a handful of dominant Western providers. As Chinese models continue to improve and capture market share, this division appears likely to deepen—making strategic decisions about AI infrastructure increasingly complex for organizations worldwide.

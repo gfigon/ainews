@@ -1,0 +1,24 @@
+---
+title: "China's AI Companion Law Forces ByteDance & Alibaba to Pull Agents From 345M Users"
+date: "2026-07-07 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "China's first law regulating humanlike AI triggers mass agent shutdowns, forcing ByteDance's Doubao and Alibaba's Qwen to disable custom AI companion features for 345M+ users by July 15."
+image: "/assets/post-images/2026-07-07-china-ai-companion-crackdown.svg"
+---
+
+China has enacted its first law regulating humanlike AI, and the impact is already being felt across the country's tech landscape. ByteDance's Doubao, with over 345 million users, and Alibaba's Qwen will disable custom AI agent and companion features on July 15, when the Interim Measures for AI Anthropomorphic Interactive Services take effect.
+
+The regulations, co-issued in April by the Cyberspace Administration and four other agencies, mandate strict requirements for AI systems that interact with users in humanlike ways. These include anti-addiction systems, mandatory identity verification for minors, and comprehensive content review protocols.
+
+Qwen is pulling user-created agents even earlier, on July 10, while Doubao users will retain read-only access to their agents' data only until October 15—after which it will be permanently deleted. ByteDance is redirecting users to Maoxiang, a separate application purpose-built for compliance with the new rules.
+
+This represents the most significant regulatory action targeting AI companions globally. The law effectively creates a two-tier system: compliant AI assistants operating under strict oversight, and personalized AI agents that simulate human relationships—which authorities appear determined to restrict.
+
+The timing is notable. Doubao and Qwen represent two of China's most popular AI platforms, and the shutdown affects a massive user base that has grown accustomed to personalized AI interactions. The regulation appears designed to prevent what authorities describe as potentially harmful anthropomorphic interactions, particularly for younger users.
+
+For international observers, the law offers a template for how governments might approach AI regulation focused specifically on humanlike interaction—a growing concern as AI systems become increasingly sophisticated at mimicking human conversation patterns.
+
+The post continues the trend of China's aggressive approach to AI governance, following earlier actions on algorithmic recommendations, generative AI content, and AI model exports. Tech companies operating in China now face the challenge of building compliant products or abandoning features that users have come to expect.
