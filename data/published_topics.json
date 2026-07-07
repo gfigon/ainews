@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "UN Global AI Governance Assessment 2026 Geneva",
+      "count": 1,
+      "last_published": "2026-07-07",
+      "slugs": [
+        "2026-07-07-un-global-ai-governance"
+      ]
+    },
+    {
+      "term": "Tencent Hy3 Apache Licensed Open Model GLM-5.2",
+      "count": 1,
+      "last_published": "2026-07-07",
+      "slugs": [
+        "2026-07-07-tencent-hy3-open-model"
+      ]
+    },
+    {
       "term": "China AI Companion Law ByteDance Doubao Alibaba Qwen Shutdown",
       "count": 1,
       "last_published": "2026-07-07",
