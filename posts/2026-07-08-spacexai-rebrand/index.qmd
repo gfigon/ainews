@@ -1,0 +1,22 @@
+---
+title: "xAI Becomes SpaceXAI: The Rebrand That Confirms Where Musk's Bet Actually Is"
+date: "2026-07-08 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "xAI completes its integration into SpaceX with a new name and logo, revealing that AI is now the primary business by the company's own financial framing."
+image: "/assets/post-images/2026-07-08-spacexai-rebrand.svg"
+---
+
+xAI changed its X handle to @SpaceXAI on July 6 and unveiled a new logo embedding "AI" into the SpaceX emblem — completing the organisational integration that began when SpaceX acquired xAI in February for an all-stock deal valuing the combined entity at $1.25 trillion.
+
+For Grok users and API developers, nothing changes today. Grok is still Grok. SuperGrok pricing, agent slots, and voice mode remain unchanged. The Grok 4.3 API on Amazon Bedrock at $1.25/$2.50 per million tokens is unchanged.
+
+**What the rebrand reveals is the actual nature of SpaceX's public company identity.** The IPO prospectus attributed $26.5 trillion of a $28.5 trillion total addressable market to AI — dwarfing the traditional space business at $370 billion. AI capex hit $12.7 billion in 2025, more than three times what SpaceX spent on space and Starlink combined.
+
+The financial numbers are striking: Anthropic pays $1.25 billion per month and Google pays $920 million per month for Colossus compute access. SpaceX is, by its own financial framing, an AI company that also launches rockets. The SpaceXAI name makes that visible.
+
+SPCX joined the Nasdaq-100 on July 7, cementing its position as one of the most valuable technology companies in the index. The rebrand signals to investors and the market that AI infrastructure — specifically compute capacity — is the core asset, with space operations serving as a differentiation rather than the primary value driver.
+
+For the AI industry, the SpaceXAI rebrand sets a precedent: companies are willing to fully embrace their AI identity even when founded on other technological foundations. It also raises questions about how other hybrid companies will position themselves as the AI market continues to consolidate around compute infrastructure as the scarce resource.
