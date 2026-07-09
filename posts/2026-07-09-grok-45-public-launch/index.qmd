@@ -1,0 +1,22 @@
+---
+title: "SpaceXAI's Grok 4.5 Goes Public: The Claude Opus Rival Launches Same Day as GPT-5.6"
+date: "2026-07-09 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "xAI rebrands to SpaceXAI and releases Grok 4.5 publicly, directly challenging OpenAI's GPT-5.6 in what analysts call the most competitive single-day AI launch since GPT-4."
+image: "/assets/post-images/2026-07-09-grok-45-public-launch.svg"
+---
+
+Elon Musk's xAI has officially rebranded to SpaceXAI and released Grok 4.5 to the public, choosing to launch on the same day as OpenAI's GPT-5.6 broad release in what the company calls a deliberate move to capture maximum developer attention.
+
+The Grok 4.5 launch brings a 1.5 trillion parameter V9 foundation model that Musk claims matches Anthropic's Claude Opus 4.8 in capability while being faster, cheaper, and more token-efficient. The model has been in private beta since June 28 and includes training data from Cursor IDE interactions, along with reinforcement learning deployed in SpaceX and Tesla engineering environments.
+
+**The competitive timing is unprecedented.** Rather than scheduling a separate launch window, SpaceXAI deliberately chose July 9 to go head-to-head with GPT-5.6. "The timing is deliberate," xAI noted in its documentation. "xAI is ensuring that Grok 4.5 enters public consciousness at the moment when developer attention is at its highest."
+
+The model supports function calling, structured responses, and configurable reasoning—features specifically optimized for AI agent workflows. Grok 4.5 is available under the aliases grok-4.5-latest and grok-build-latest, with gradual rollout to more users as the company scales infrastructure.
+
+Independent benchmark verification will begin immediately as public access expands. The LMSYS Arena crowd-sourced leaderboard will be the first independent measure of how Grok 4.5 compares to GPT-5.6 Sol and Claude Opus 4.8. Early votes could provide a reliable performance signal within the first 24 hours.
+
+Pricing and API availability details remain under wraps, though the company has indicated Bedrock deployment is planned. The launch marks SpaceXAI's most aggressive market entry yet, directly positioning against OpenAI's flagship release rather than avoiding direct competition.
