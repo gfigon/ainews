@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "OpenAI GPT-Live Full-Duplex Voice ChatGPT July 2026",
+      "count": 1,
+      "last_published": "2026-07-09",
+      "slugs": [
+        "2026-07-09-gpt-live-voice"
+      ]
+    },
+    {
+      "term": "Slack Salesforce AI Agent CRM Integration July 2026",
+      "count": 1,
+      "last_published": "2026-07-09",
+      "slugs": [
+        "2026-07-09-slack-salesforce-ai"
+      ]
+    },
+    {
       "term": "Meta AI Agents Behind Schedule $145B Bet Zuckerberg July 2026",
       "count": 1,
       "last_published": "2026-07-08",
