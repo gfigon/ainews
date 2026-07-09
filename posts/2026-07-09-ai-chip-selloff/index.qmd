@@ -1,0 +1,24 @@
+---
+title: "AI Chip Stocks Suffer Sharp Selloff as Market Gets Selective"
+date: "2026-07-09 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Semiconductor stocks plunge in early July 2026, with Micron falling 13% and Samsung slipping despite 1,800% profit growth — signaling a shift in how investors value AI hardware."
+image: "/assets/post-images/2026-07-09-ai-chip-selloff.svg"
+---
+
+Semiconductor stocks experienced one of their sharpest selloffs of 2026 in early July, wiping out billions in market value and raising questions about whether the AI hardware rally has run its course. The decline wasn't confined to a single company or market — it hit US chipmakers, South Korean memory giants, and Chinese foundries within the same trading week.
+
+**The scale of the selloff** proved striking. Micron Technology fell as much as 13% in a single session, erasing roughly $138 billion in market value. Intel and Applied Materials each dropped around 10%, while AMD declined 7–8%. The selling spread to Asia, where South Korea's Kospi index plunged 10% intraday and triggered circuit breakers. Samsung Electronics and SK Hynix each slid 9–12%.
+
+The irony? Samsung reported preliminary second-quarter operating profit of 89.4 trillion won — about $58.4 billion — representing growth of more than 1,800% year-over-year. Instead of celebrating, investors sold. The stock closed nearly 7% lower.
+
+**The "sell-the-news" effect** explains this seemingly contradictory reaction. Stock prices don't just reflect results — they reflect how those results compare to expectations. With the Philadelphia Semiconductor Index having rallied over 130% in the twelve months leading into the selloff, the bar for "winning" had become impossibly high.
+
+**Beneath the surface, the fundamentals remain strong.** Hyperscalers are still guiding to a combined roughly $725 billion in 2026 AI capital spending, up 77% from 2025. Goldman Sachs data shows hedge funds trimmed technology-hardware exposure for a fourth straight week — consistent with profit-taking, not a broad retreat from AI.
+
+**SK Hynix is delaying HBM4 memory expansion** in favor of higher-margin DDR5 production — a supply-chain shift, not evidence of falling AI demand. The Federal Reserve's hawkish surprise — nine of 18 policymakers now project a 2026 rate hike — added to the pressure on growth stocks.
+
+The selloff signals a new phase: investors are becoming far more selective about AI hardware valuations after one of the strongest semiconductor rallies on record. The buildout continues, but the easy money in chips may be gone.
