@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-10-tencentdb-agent-memory/index.html",
+      "/posts/2026-07-10-ai-system-prompt-leaks/index.html",
       "/posts/2026-07-10-muse-spark-11/index.html",
       "/posts/2026-07-10-grok-45-coding/index.html",
       "/posts/2026-07-10-copilot-autopilot/index.html",
