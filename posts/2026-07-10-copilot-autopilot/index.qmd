@@ -1,0 +1,34 @@
+---
+title: "Microsoft Unveils Copilot Autopilot: Autonomous Agents Coming to 365"
+date: "2026-07-10 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Microsoft announces Autopilot, a new class of AI agents that operate continuously without prompting, alongside plans to merge consumer and enterprise Copilot into a unified app."
+image: "/assets/post-images/2026-07-10-copilot-autopilot.svg"
+---
+
+Microsoft has announced a major overhaul of its Copilot strategy, introducing Autopilot—a new class of AI agents that operate continuously without being prompted—as part of a broader restructuring of its AI assistant lineup. The announcement, confirmed via an internal memo obtained by The Decoder, represents Microsoft's most significant shift toward autonomous AI agents.
+
+The changes include merging the split consumer and enterprise Copilot products into a single unified app, targeted for August 2026 release. This consolidation marks a departure from Microsoft's previous approach of maintaining separate products for different user segments.
+
+## Autopilot: AI That Works in the Background
+
+The introduction of Autopilot agents represents Microsoft's answer to the growing demand for AI that doesn't require constant user input. Unlike traditional AI assistants that wait for prompts, Autopilot agents will operate continuously in the background, handling tasks proactively.
+
+"Autopilots, a new class of AI agent that operates continuously without being prompted," the internal memo outlined. This approach aligns with broader industry trends toward autonomous AI systems that can handle complex workflows with minimal human intervention.
+
+## Copilot Studio Expands
+
+As part of the announcement, Copilot Studio is expanding its low-code tools for custom agent development, making it easier for organizations to build and deploy their own AI agents tailored to specific business needs. The expansion reflects Microsoft's strategy of empowering enterprises to create bespoke AI solutions without requiring deep technical expertise.
+
+Security remains a focus, with Copilot agents automating threat detection and response across Microsoft Defender, Entra, and Purview. These capabilities are becoming standard in M365 subscriptions starting July 1, 2026, as Microsoft integrates AI and security features into baseline offerings.
+
+## Price Increases Reflect AI Integration
+
+The announcement also included news of global price increases reflecting the integration of AI capabilities into baseline Microsoft 365 offerings. As AI features become standard rather than optional add-ons, the pricing structure adapts to reflect the expanded value proposition.
+
+The unified Copilot app will merge consumer and enterprise tools into one platform, with the August 2026 release date suggesting Microsoft is moving quickly to execute on its vision. The changes come amid increasing competition from Google, OpenAI, and Anthropic in the AI assistant space.
+
+For enterprises already invested in Microsoft's ecosystem, the Autopilot agents represent a significant evolution in how AI can support daily workflows—potentially reducing the manual effort required to manage complex business processes.

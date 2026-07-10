@@ -1,0 +1,32 @@
+---
+title: "xAI Grok 4.5 Brings Frontier Coding Capabilities to the Masses"
+date: "2026-07-10 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Agents & Automation
+summary: "xAI releases Grok 4.5, describing it as an Opus-class model for coding and agentic tasks, available through Grok Build, Cursor, and the xAI API."
+image: "/assets/post-images/2026-07-10-grok-45-coding.svg"
+---
+
+xAI has released Grok 4.5, describing it as the company's smartest model yet for coding, agentic tasks, and knowledge work. The release, announced on July 8, 2026, marks a significant step in xAI's push to compete with OpenAI and Anthropic in the increasingly crowded AI developer tools market.
+
+The model is available through multiple channels: Grok Build, Cursor on all plans, and the xAI API console. For a limited time, xAI is offering free usage in both Grok Build and Cursor, potentially lowering the barrier for developers looking to test the new capabilities.
+
+## Trained for Technical Work
+
+xAI trained Grok 4.5 on datasets covering coding, science, engineering, and mathematics—a focused approach that distinguishes it from some competitors who prioritize broader capabilities. In its documentation, xAI states that Grok 4.5 supports function calling, structured responses, and configurable reasoning, making it suitable for developers building automated workflows.
+
+"Grok 4.5 arrived on July 8, 2026 with a very specific pitch: coding, agentic tasks, and knowledge work," noted one analysis. "That makes this less of a consumer novelty and more of a workflow decision for teams that already use AI in software delivery, internal operations, or knowledge-heavy support."
+
+## Competitive Pricing
+
+At $2 per million input tokens and $6 per million output tokens through OpenRouter, Grok 4.5 positions itself competitively against other frontier models. The 500,000 token context window provides ample room for working with large codebases and complex projects.
+
+Elon Musk described Grok 4.5 as an "Opus-class model" in his announcement, signaling xAI's ambition to compete at the highest levels of AI capability. The company says more users will gain access gradually as the rollout continues.
+
+## Integration Ecosystem
+
+Beyond the xAI console, Grok 4.5 is integrated into Grok Build and Cursor, making it accessible to the broader developer community. This multi-platform approach reflects xAI's strategy of meeting developers where they already work, rather than requiring them to adopt new tools.
+
+The release comes on the heels of other major AI announcements this week, including Meta's Muse Spark 1.1 and OpenAI's GPT-5.6, underscoring the rapid pace of innovation in the AI coding space. For developers, the competition translates to more choices and potentially better pricing as providers vie for market share.

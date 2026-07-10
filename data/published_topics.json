@@ -9,6 +9,30 @@
       ]
     },
     {
+      "term": "Microsoft Copilot Autopilot Autonomous Agents 365 July 2026",
+      "count": 1,
+      "last_published": "2026-07-10",
+      "slugs": [
+        "2026-07-10-copilot-autopilot"
+      ]
+    },
+    {
+      "term": "xAI Grok 4.5 Opus Class Coding Model July 2026",
+      "count": 1,
+      "last_published": "2026-07-10",
+      "slugs": [
+        "2026-07-10-grok-45-coding"
+      ]
+    },
+    {
+      "term": "Meta Muse Spark 1.1 AI Coding July 2026",
+      "count": 1,
+      "last_published": "2026-07-10",
+      "slugs": [
+        "2026-07-10-muse-spark-11"
+      ]
+    },
+    {
       "term": "OpenAI GPT-Live Full-Duplex Voice ChatGPT July 2026",
       "count": 1,
       "last_published": "2026-07-09",
