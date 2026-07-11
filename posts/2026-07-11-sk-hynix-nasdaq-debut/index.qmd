@@ -1,0 +1,22 @@
+---
+title: "SK Hynix Surges 13% on Nasdaq Debut in Historic AI Infrastructure IPO"
+date: "2026-07-11 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "SK Hynix's $26.5B Nasdaq debut — largest-ever US IPO by a foreign company — signals institutional confidence that AI spending is structural, not cyclical."
+image: "https://pollinations.ai/p/SK%20Hynix%20Nasdaq%20IPO%20AI%20chips%20memory%20infrastructure?width=1024&height=576&nologo=true"
+---
+
+SK Hynix closed up 13% on its first day of trading on Nasdaq Friday, ending at $168.01 per share with a $1.27 trillion market cap. The $26.5 billion offering was oversubscribed seven times — the strongest possible validation that the AI infrastructure boom has fundamentally ended the memory chip boom-and-bust cycle.
+
+The debut marks the largest-ever US IPO by a foreign company. At close, SK Hynix became the 11th-most valuable company in the US market, sitting between Tesla and Eli Lilly. Chairman Chey Tae-won told CNBC that AI agents and robots need "a lot of memory chips" — and that even after SK Hynix announced plans to double capacity within five years, customers still demanded more.
+
+"This is the signal the AI IPO market needed," noted one analyst at the closing bell. "If institutional investors believe the AI boom has permanently reshaped demand for memory chips, they'll apply the same logic to Anthropic and OpenAI."
+
+SK Hynix's inclusion in the Nasdaq 100, expected at December's routine rebalancing, adds a second passive demand catalyst. The company supplies high-bandwidth memory (HBM) chips critical for training and running large language models — a market that has exploded since 2023.
+
+The IPO result matters beyond memory chips. It tests the thesis that AI spending is structural, not cyclical — a thesis that will shape how Wall Street prices Anthropic's targeted $965 billion S-1 and OpenAI's anticipated $830 billion to $1 trillion valuation.
+
+Options on SK Hynix ADRs are expected to list July 14, giving the market its first clear signal of institutional directional conviction post-debut. For now, the +13% first-day close speaks for itself: the AI infrastructure trade is not only alive — it's priced to keep running.

@@ -1,0 +1,22 @@
+---
+title: "Apple Sues OpenAI as Siri Switches to Gemini in Historic Big Tech Split"
+date: "2026-07-11 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Apple's trade secret lawsuit against OpenAI and switch to Google Gemini marks the end of Big Tech AI cooperation — and the start of a high-stakes legal battle."
+image: "https://pollinations.ai/p/Apple%20OpenAI%20lawsuit%20Siri%20Gemini%20trade%20secrets?width=1024&height=576&nologo=true"
+---
+
+Apple filed a lawsuit against OpenAI on Friday, alleging theft of trade secrets in connection with OpenAI's $6.4 billion acquisition of IO Products. The timing is far from coincidental: OpenAI is preparing for its IPO, and the lawsuit arrives as a material S-1 risk.
+
+The core allegation centers on hardware technology developed during the Siri-ChatGPT integration partnership. After OpenAI entered the consumer hardware sector — directly encroaching on Apple's core stronghold — the relationship deteriorated rapidly.
+
+The legal blow lands alongside a strategic one. Apple confirmed that the new version of Siri, set for release this autumn, will abandon ChatGPT in favor of Google's Gemini AI model. The partnership that once saw Apple integrate ChatGPT because it needed AI capability, and OpenAI integrate with Apple because it needed distribution, is formally over.
+
+The double impact — lawsuit plus distribution loss — arrives at the exact moment OpenAI needs the cleanest possible IPO narrative. Active litigation from a $3 trillion company requires S-1 disclosure as material litigation risk. The Siri switch weakens OpenAI's consumer distribution claim at a critical moment.
+
+The cooperation phase of Big Tech AI is officially dead. What began as pragmatic partnerships to bridge capability and distribution gaps has ended in court. As one industry analyst put it: "Both companies decided the partnership cost more than it was worth."
+
+Watch for Gemini 3.5 Pro general availability this week — if Google ships, the competitive landscape resets again. But the bigger story may be the legal one: the AI industry's biggest partnership just became its biggest lawsuit.
