@@ -1,0 +1,30 @@
+---
+title: "Google Research Introduces SensorFM: Wearable Health Foundation Model Trained on 1 Trillion Minutes"
+date: "2026-07-11 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "SensorFM is a new wearable health foundation model from Google Research pretrained on over one trillion minutes of sensor data from 5 million participants."
+image: "/assets/post-images/2026-07-11-google-sensorfm-health.svg"
+---
+
+Google Research, in collaboration with Google DeepMind and university partners, has introduced SensorFM—a wearable health foundation model pretrained on more than one trillion minutes of unlabeled sensor signals from five million consented participants. The release represents a significant advancement in applying foundation model approaches to wearable health data.
+
+## Massive Scale Training
+
+SensorFM uses a ViT-1D (Vision Transformer for 1D signals) masked-autoencoder backbone trained on an unprecedented scale of wearable sensor data. The training corpus includes data from various wearable devices capturing movement, heart rate, sleep patterns, and other physiological signals. This massive dataset enables the model to learn generalizable representations of human health signals.
+
+The research demonstrates co-scaling results across four model sizes and four data volumes, including cases where model capacity outruns available data—providing insights into optimal scaling laws for health AI systems.
+
+## Strong Transfer Learning Results
+
+Experiments show that frozen embeddings combined with a PCA-50 linear probe outperform feature-engineered baselines on 34 of 35 health prediction tasks. This suggests SensorFM learns representations that transfer effectively across diverse health prediction tasks without requiring task-specific fine-tuning.
+
+The model also enables an "agentic classroom" approach that searched over 30,000 prediction heads, and includes clinician evaluation grounding a Personal Health Agent for personalized health insights.
+
+## Democratizing Health AI
+
+SensorFM's release addresses a key bottleneck in wearable health AI: the need for large labeled datasets for each new prediction task. By learning from unlabeled sensor data at scale, the model provides a foundation that can be adapted to new health prediction tasks with minimal data and compute requirements.
+
+The research team noted that the model enables health insights from wearable devices to reach broader populations, potentially enabling earlier detection of health conditions and more personalized wellness recommendations.
