@@ -1,0 +1,32 @@
+---
+title: "Meituan's LongCat-2.0: Trillion-Parameter Model Trained on 50K Domestic GPU Cluster"
+date: "2026-07-11 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "Meituan unveils LongCat-2.0, a 1.6-trillion parameter model completing its entire training lifecycle on a 50,000-GPU domestic cluster—the first of its kind."
+image: "/assets/post-images/2026-07-11-longcat-2-trillion-parameters.svg"
+---
+
+Meituan's technical team has unveiled LongCat-2.0, a groundbreaking trillion-parameter model that marks a significant milestone in China's AI development. As the industry's first model of this scale to complete its entire training and inference lifecycle on a domestic computing cluster of 50,000 GPUs, LongCat-2.0 represents a major achievement in domestic AI infrastructure.
+
+## Scale Meets Specialization
+
+LongCat-2.0 features 1.6 trillion total parameters with a dynamic activation range, meaning the model selectively activates relevant parameters based on task complexity. This architectural choice enables efficient resource utilization while maintaining the capacity for complex reasoning. Critically, the model was pre-trained from scratch and natively supports a 1 million token context window—placing it among the longest-context models available.
+
+The architecture is specifically engineered to excel in agentic coding tasks, focusing on the efficient and stable understanding, generation, and execution of code. This specialization positions LongCat-2.0 as a potential foundation for enterprise AI agents requiring robust code manipulation capabilities.
+
+## Breaking the Dependency Cycle
+
+The most significant aspect of LongCat-2.0 may be its training infrastructure. By completing the entire pipeline—from initial pre-training through fine-tuning to production inference—on a domestic cluster of 50,000 cards, Meituan has demonstrated that large-scale AI development can proceed without relying on foreign hardware or cloud services.
+
+This achievement carries strategic implications as export controls increasingly restrict advanced AI chips from reaching Chinese organizations. The 50,000-GPU cluster, built entirely with domestically available technology, suggests China's AI industry is making meaningful progress toward technological self-sufficiency.
+
+## Enterprise Implications
+
+For enterprises, LongCat-2.0's agentic coding focus addresses a critical market need. Organizations deploying AI coding assistants require models that not only generate code but understand execution contexts, maintain state across multi-file projects, and reliably interact with development environments.
+
+The model's availability, combined with Meituan's broader ecosystem of research tools including the recently released VitaBench 2.0 benchmark for long-term agent personalization, signals the company's ambition to become a comprehensive AI infrastructure provider for the Chinese market and potentially international developers seeking alternatives to Western models.
+
+Meituan has not yet announced commercial availability details for LongCat-2.0, but the research community can access related tools and benchmarks through the project's GitHub repository.
