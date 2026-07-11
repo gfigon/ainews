@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "SK Hynix Nasdaq IPO AI Infrastructure Memory Chips 13% Debut",
+      "count": 1,
+      "last_published": "2026-07-11",
+      "slugs": [
+        "2026-07-11-sk-hynix-nasdaq-debut"
+      ]
+    },
+    {
+      "term": "Apple Sues OpenAI Trade Secret Lawsuit Siri Gemini",
+      "count": 1,
+      "last_published": "2026-07-11",
+      "slugs": [
+        "2026-07-11-apple-sues-openai"
+      ]
+    },
+    {
       "term": "OfficeCLI AI Agent Office Suite Microsoft Office Automation",
       "count": 1,
       "last_published": "2026-07-11",
