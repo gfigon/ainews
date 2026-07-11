@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "OfficeCLI AI Agent Office Suite Microsoft Office Automation",
+      "count": 1,
+      "last_published": "2026-07-11",
+      "slugs": [
+        "2026-07-11-officecli-ai-office-suite"
+      ]
+    },
+    {
+      "term": "PentAGI Autonomous AI Penetration Testing Security Agents",
+      "count": 1,
+      "last_published": "2026-07-11",
+      "slugs": [
+        "2026-07-11-pentagi-ai-penetration-testing"
+      ]
+    },
+    {
+      "term": "Meituan LongCat-2.0 Trillion Parameter Model 50K GPU Cluster",
+      "count": 1,
+      "last_published": "2026-07-11",
+      "slugs": [
+        "2026-07-11-longcat-2-trillion-parameters"
+      ]
+    },
+    {
       "term": "TencentDB-Agent-Memory Local Memory AI Agents Zero API Dependencies",
       "count": 1,
       "last_published": "2026-07-10",
