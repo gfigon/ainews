@@ -1,0 +1,18 @@
+---
+title: "Qualcomm in Talks to Acquire Tenstorrent for $8-10B in Major AI Chip Deal"
+date: "2026-07-12 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Qualcomm is in early talks to acquire Jim Keller's RISC-V AI chip company Tenstorrent for $8-10 billion, potentially creating a significant Nvidia alternative."
+image: "/assets/post-images/2026-07-12-qualcomm-tenstorrent.svg"
+---
+
+Qualcomm is in early talks to acquire Tenstorrent, the RISC-V AI chip company led by veteran chip architect Jim Keller, for between $8 and $10 billion. The acquisition would give Qualcomm its first competitive position in data center AI hardware — a market currently dominated by Nvidia and AMD.
+
+Tenstorrent designs AI chips using the open RISC-V standard, avoiding Arm and x86 licensing fees. The company is explicitly designed to compete with Nvidia's H-series GPUs. The reported valuation reflects how valuable AI chip engineering talent has become in 2026 — the bet is on Keller's engineering team, not current revenue.
+
+Jim Keller previously led AMD's Zen CPU revival, Apple's A4/A5 chips, and Tesla's FSD chip — making him the most credible chip architect attached to an Nvidia alternative in the current market. Qualcomm dominates edge AI through Snapdragon but has had no competitive data center AI accelerator.
+
+If the talks proceed to completion, this would be the most significant AI chip M&A since Intel's $5.4 billion Habana Labs acquisition in 2019. The deal would create a genuine alternative to Nvidia for AI workloads across both edge and data center environments.

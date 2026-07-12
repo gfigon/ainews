@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Qualcomm Tenstorrent Acquisition $8-10B RISC-V AI Chips Jim Keller",
+      "count": 1,
+      "last_published": "2026-07-12",
+      "slugs": [
+        "2026-07-12-qualcomm-tenstorrent"
+      ]
+    },
+    {
+      "term": "FLI AI Safety Index Anthropic C+ xAI Failing Claude Corps",
+      "count": 1,
+      "last_published": "2026-07-12",
+      "slugs": [
+        "2026-07-12-fli-safety-index"
+      ]
+    },
+    {
+      "term": "GPT-5.6 Sol Ultra Cycle Double Cover Math Proof 50-Year Conjecture",
+      "count": 1,
+      "last_published": "2026-07-12",
+      "slugs": [
+        "2026-07-12-sol-ultra-math-proof"
+      ]
+    },
+    {
       "term": "SK Hynix Nasdaq IPO AI Infrastructure Memory Chips 13% Debut",
       "count": 1,
       "last_published": "2026-07-11",

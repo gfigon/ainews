@@ -1,0 +1,20 @@
+---
+title: "GPT-5.6 Sol Ultra Claims Proof of 50-Year-Old Math Conjecture"
+date: "2026-07-12 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "OpenAI's GPT-5.6 Sol Ultra claims to have proved the Cycle Double Cover Conjecture using 64 subagents — the first AI-claimed proof of a decades-old graph theory problem."
+image: "/assets/post-images/2026-07-12-sol-ultra-math-proof.svg"
+---
+
+OpenAI announced on July 10 that GPT-5.6 Sol Ultra — made generally available just one day prior — had produced a proof of the Cycle Double Cover Conjecture, a graph theory problem that has remained unresolved since it was independently posed by George Szekeres in 1973 and Paul Seymour in 1979.
+
+The company published both the proof and the full 700-word prompt that generated it as PDFs on its CDN, attributing the mathematics entirely to the model. The proof was produced using 64 concurrent subagents, managed "aggressively and dynamically," with early rounds designed to maintain diversity across different mathematical formulations, algebraic angles, and structural inductions.
+
+Mathematician Thomas Bloom called the proof "very nice" and "elementary," noting it could have been discovered in the 1980s. However, Bloom criticised it for lacking citations for foundational prior work. The conjecture has attracted multiple previous "proofs" over the years that were later found to have gaps or were withdrawn. The proof has not yet undergone peer review.
+
+The prompt technique is immediately useful regardless of whether the mathematical claim holds up. The dynamic multi-agent orchestration architecture — deploying dozens of subagents with independent review mechanisms — is applicable to any complex structured problem beyond mathematics.
+
+HN commenters estimate the run cost between $275 and $13,000 — accessible to any well-funded team. The first credible expert assessment confirming or identifying a gap in the proof is expected within one to two weeks.

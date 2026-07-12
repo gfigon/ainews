@@ -1,0 +1,20 @@
+---
+title: "FLI AI Safety Index Gives Top Labs Mixed Grades: Anthropic C+, xAI Fails"
+date: "2026-07-12 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The Future of Life Institute's AI Safety Index ranks Anthropic first but only at C+, while xAI receives a failing grade. All major labs accused of weakening safety commitments."
+image: "/assets/post-images/2026-07-12-fli-safety-index.svg"
+---
+
+The Future of Life Institute released its AI Safety Index, revealing that even the best-performing lab received only a C+ grade. Anthropic ranked first among AI developers but with a C+ overall score, while OpenAI and Google DeepMind each received a C. xAI fell from fourth to seventh place, receiving a failing grade.
+
+The index found that Anthropic, OpenAI, Google DeepMind, and Meta have weakened or eliminated earlier commitments to pause development if their systems approached specified danger thresholds — a pattern the reviewers described as "moving the goalposts."
+
+xAI's decline was the most significant movement in the rankings. Contributing factors include: no system card for Grok 4.5, no published red-teaming framework comparable to Anthropic's Responsible Scaling Policy or OpenAI's Preparedness Framework, a $530 million legal reserve disclosed in the IPO prospectus, and the adult content controversy.
+
+For enterprise procurement teams, a failing FLI grade is not a automatic procurement barrier, but it does serve as a governance documentation flag. The index provides a benchmark for assessing AI lab accountability as the industry navigates increasingly powerful systems.
+
+Meanwhile, Anthropic launched Claude Corps — a paid 12-month fellowship placing early-career professionals in nonprofit organisations to build AI capability. The fellowship is open to applicants aged 18 or older with less than two years of work experience, authorised to work in the US.
