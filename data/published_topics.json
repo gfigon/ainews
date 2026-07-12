@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "OpenAI ChatGPT Work Enterprise AI Agent Email Slack Calendar",
+      "count": 1,
+      "last_published": "2026-07-12",
+      "slugs": [
+        "2026-07-12-chatgpt-work"
+      ]
+    },
+    {
+      "term": "Enterprise AI Evaluation Gap Agents Autonomy Verification",
+      "count": 1,
+      "last_published": "2026-07-12",
+      "slugs": [
+        "2026-07-12-enterprise-ai-evaluation-gap"
+      ]
+    },
+    {
       "term": "Qualcomm Tenstorrent Acquisition $8-10B RISC-V AI Chips Jim Keller",
       "count": 1,
       "last_published": "2026-07-12",
