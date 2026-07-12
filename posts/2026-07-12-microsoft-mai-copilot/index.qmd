@@ -1,0 +1,30 @@
+---
+title: "Microsoft Replaces OpenAI and Anthropic with Own MAI Models in Copilot Products"
+date: "2026-07-12 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Microsoft is replacing OpenAI and Anthropic models with its internally-developed MAI AI in Excel, Outlook, and GitHub Copilot, marking a strategic shift toward AI independence."
+image: "/assets/post-images/2026-07-12-microsoft-mai-copilot.svg"
+---
+
+Microsoft has begun replacing AI models from OpenAI and Anthropic with its own internally-built MAI models across parts of its Copilot portfolio, according to Bloomberg. Tens of thousands of AI prompts in widely-used applications like Excel and Outlook are now being completed each week with Microsoft's MAI model.
+
+## From Partner to Competitor
+
+The move represents a significant strategic shift for Microsoft, which has invested over $13 billion in OpenAI and relied heavily on Anthropic's Claude models for enterprise features. AI model chief Mustafa Suleyman stated in June that the company was actively working to reduce spending on Anthropic by deploying more MAI models.
+
+"We pay a lot of money to Anthropic — so our goal is to reduce and ultimately eliminate that cost," Suleyman said at Microsoft's Build conference in June, where the company announced seven new AI models.
+
+## Cost-Driven Decision
+
+Microsoft uses a massive number of tokens in products like Copilot. While the company currently receives technology at a discount due to its partnership with OpenAI, that arrangement could change. The company announced that one of its new models can match Anthropic's Opus 4.6 coding capabilities at a significantly reduced cost.
+
+The MAI models are already available within GitHub Copilot, and Microsoft plans to expand MAI usage to Teams video conferencing and other products in the coming months.
+
+## Industry Implications
+
+The shift highlights a broader trend: major tech companies are building in-house AI capabilities to reduce dependency on external providers. OpenAI is reportedly planning to launch its own platform to compete with Microsoft-owned LinkedIn and is working to secure greater independence from Microsoft, including plans to produce its own AI chips in partnership with Broadcom starting next year.
+
+Despite the shift, Microsoft stated that OpenAI remains a partner on frontier models and that the company remains committed to its long-term partnership.
