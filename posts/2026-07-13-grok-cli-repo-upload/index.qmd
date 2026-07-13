@@ -1,0 +1,38 @@
+---
+title: "xAI Grok Build CLI Found Uploading Entire Codebases to Cloud Storage"
+date: "2026-07-13 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Security researchers discover xAI's Grok Build CLI uploads complete Git repositories to Google Cloud Storage—including files the agent never accesses."
+image: "/assets/post-images/2026-07-13-grok-cli-repo-upload.svg"
+---
+
+A wire-level analysis of xAI's Grok Build CLI has revealed a significant privacy concern: the coding tool uploads entire Git repositories to a Google Cloud Storage bucket, not just the files the agent actually reads or modifies.
+
+## What Researchers Found
+
+Independent security researcher [Cereblab](https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547) published a detailed teardown on July 12, 2026, showing that Grok Build CLI version 0.2.93 packages the entire tracked repository—including complete git history—and uploads it via POST requests to `/v1/storage`. The uploads go to a Google Cloud Storage bucket named `grok-code-session-traces`.
+
+In one test case, a 12 GB repository generated 5.10 GB of storage uploads during a single session. Critically, this behavior occurs regardless of which files the coding agent actually opens or edits.
+
+## The Privacy Problem
+
+The discovery raises several concerns:
+
+- **Excessive data collection**: Users expect AI coding assistants to access only relevant files, but Grok uploads everything
+- **Secret exposure**: Full repository uploads potentially include API keys, tokens, and credentials that may exist in configuration files
+- **Opt-out ignored**: The analysis suggests the privacy toggle in Grok settings does not prevent this behavior
+
+The researcher notes this represents a serious transparency failure—developers using Grok Build may unknowingly share proprietary codebases with xAI.
+
+## Industry Response
+
+The findings quickly hit Hacker News front page, reaching 353 points and sparking debate about AI coding tool privacy practices. A community-created tool called "grok-upload-audit" has already emerged to help users audit what Grok uploads from their machines.
+
+This incident adds to growing concerns about AI coding assistants and data handling. Earlier this year, similar discussions emerged around Claude Code and Cursor's data practices.
+
+## What This Means for Developers
+
+Organizations using xAI's Grok Build CLI should review their repository contents and consider restricting the tool's access to sensitive projects until xAI addresses the behavior. The community audit tool is available on GitHub for those wanting to verify what Grok has uploaded from their systems.
