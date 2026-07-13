@@ -1,0 +1,37 @@
+---
+title: "Ant Group Unveils LingBot-VA 2.0: A Native Physical AI Model Running at 225 Hz"
+date: "2026-07-13 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Ant Group's Robbyant releases LingBot-VA 2.0, a causal video-action foundation model built from scratch for embodiment, achieving 225 Hz asynchronous control."
+image: "/assets/post-images/2026-07-13-lingbot-va-2.svg"
+---
+
+Ant Group's robotics unit Robbyant has published the LingBot-VA 2.0 technical report, introducing what it calls the first **Physical AI video-action foundation model built from scratch for embodiment**—not fine-tuned from a video generator.
+
+## Built for Real-Time Control
+
+Unlike previous approaches that adapt video generation models for robotics, LingBot-VA 2.0 was designed from the ground up for physical interaction. The model achieves **225 Hz asynchronous control**, enabling real-time feedback loops with robotic systems.
+
+The key technical innovations include:
+
+- **Foresight Reasoning**: Predicts future states ahead of execution, allowing the robot to plan several steps ahead
+- **Re-grounding on Every Observation**: Continuously updates its internal model based on real sensory input
+- **Causal DiT Architecture**: A causal Diffusion Transformer specifically designed for action prediction
+- **Sparse-MoE Video Stream**: Mixture of Experts design for efficient video processing
+
+## How It Differs from VLA Approaches
+
+Vision-Language-Action (VLA) models like Google's RT-2 and DeepMind's RT-3 typically adapt large language or vision models for robot control. LingBot-VA 2.0 takes a different path by building a **native action model** that understands the physics of movement from training data.
+
+The model was pretrained on approximately 60,000 hours of robot trajectory data, covering 20 different robot configurations and 10,000 hours of egocentric human video. It maps every embodiment into a **55-dimensional canonical action space**, supporting arms, dexterous hands, waists, heads, and mobile bases.
+
+## Industry Implications
+
+This release signals a shift in the Physical AI landscape. While companies like Tesla (Optimus), Boston Dynamics, and Figure AI focus on humanoid robots, Ant Group's approach emphasizes **general-purpose manipulation** across different robot forms.
+
+The 225 Hz control rate is particularly notable—most commercial robot systems operate at 50-100 Hz. This higher frequency enables smoother, more responsive control for delicate tasks like object manipulation and tool use.
+
+Robbyant has released the technical report with performance benchmarks, though deployment code and quantitative evaluations are still limited. The model is available for research purposes under an Apache 2.0 license.

@@ -1,0 +1,30 @@
+---
+title: "Gemini 3.5 Pro Targets Thursday: The Only Major Frontier Model Without Government Restrictions"
+date: "2026-07-13 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Google targets July 17 for Gemini 3.5 Pro general availability — the only major frontier model with no government access restrictions, featuring 2M token context."
+image: "/assets/post-images/2026-07-13-gemini-35-pro-availability.svg"
+---
+
+Google is targeting **July 17** for Gemini 3.5 Pro's general availability, according to Business Insider — four weeks after missing its June deadline. The launch marks a significant shift in the frontier model landscape: Gemini 3.5 Pro will be the only major frontier model without government access restrictions.
+
+## The Availability Advantage
+
+A broadly available Pro model beats a benchmark-topping model that most people cannot access. GPT-5.6 Sol just cleared a 13-day government review. Grok 4.5 is unavailable in the EU. Claude Fable 5 requires credits. Gemini 3.5 Pro's availability advantage is immediate and tangible.
+
+The reported specifications include a **2 million token context window** — the largest in any production model by a factor of two. Deep Think extended-inference reasoning will be restricted to $250/month Ultra subscribers, with estimated pricing of approximately $15/$60 per million tokens.
+
+## What Remains Unknown
+
+The SWE-bench Pro score has not been published — that benchmark is the most relevant for developer adoption, and it will be the most-watched number when the model card drops on Thursday. The competitive front has moved to who can be trusted to run a 30-step task unsupervised. That is the bar Gemini 3.5 Pro has to clear.
+
+Four senior Gemini researchers left for Anthropic in recent months — a brain drain that raises questions about team stability, though it does not necessarily predict model quality.
+
+## Market Positioning
+
+At approximately $15/$60 per million tokens, Gemini 3.5 Pro enters a competitive pricing tier. Claude Sonnet 5's introductory pricing ($2/$10/M) ends August 31. GPT-5.6 Terra offers $2.50/$15/M. Developers will need to benchmark carefully to determine cost-effectiveness for their specific workloads.
+
+The launch represents Google's renewed push into the premium AI model market after months of speculation about Gemini's trajectory. With the availability advantage and the largest context window in production, Gemini 3.5 Pro could capture developers who have been frustrated by access restrictions on competing models.
