@@ -1,0 +1,42 @@
+---
+title: "Oracle Adds Pro-Code Builder for Fusion Agentic Applications"
+date: "2026-07-15 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Oracle expands its AI Agent Studio with a pro-code development experience, letting developers build Fusion agentic applications using VS Code, CLI, and Git."
+image: "https://pollinations.ai/p/Oracle%20Fusion%20AI%20Agent%20Studio%20pro-code%20developer%20experience?width=1024&height=576&seed=1508&nologo=true"
+---
+
+Oracle is bridging the gap between low-code business user tools and professional developer workflows. The company announced an AI-native builder experience that lets pro-code developers and coding agents create and run Fusion Agentic Applications directly within Oracle AI Agent Studio.
+
+## What Changed
+
+Previously, Oracle's agent building focused on low-code, business-user-friendly interfaces within the Fusion ecosystem. The new pro-code builder opens the platform to developers working in VS Code, command-line interfaces, and Git—while keeping those agents within the same Fusion governance and telemetry framework.
+
+The key integration point: agents built with pro-code tools run inside Fusion's governance boundaries, giving enterprises the best of both worlds—developer flexibility with enterprise controls.
+
+## Why It Matters for Enterprise
+
+Oracle Fusion serves thousands of large enterprises running ERP, HCM, and SCM workloads. The traditional path to workflow automation meant either:
+
+1. Low-code tools with limited customization
+2. Custom integrations that broke the governance model
+
+The pro-code builder solves the third option: agents that automate back-office processes (invoice reconciliation, inventory optimization, HR workflows) while staying fully visible to Fusion's monitoring, compliance, and audit systems.
+
+For organizations with existing Oracle footprints, this means faster time-to-value for agent deployments that would have required custom development or third-party workarounds.
+
+## Developer Experience
+
+The builder supports:
+
+- Local development with VS Code extensions
+- CLI-based agent creation and deployment
+- Git-based version control for agent configurations
+- Direct integration with Oracle's existing API and SDK ecosystem
+
+## The Bottom Line
+
+Oracle's move reflects a broader enterprise pattern: low-code for business users, pro-code for developers, but both under unified governance. The question for Oracle customers is whether the Fusion-native approach can compete with more flexible, polyglot agent frameworks—or whether the governance trade-off is worth the simplification.

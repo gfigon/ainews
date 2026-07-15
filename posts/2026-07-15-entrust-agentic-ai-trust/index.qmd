@@ -1,0 +1,35 @@
+---
+title: "Entrust Launches Agentic AI Trust Accelerator for Enterprise Identity-First Security"
+date: "2026-07-15 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Entrust debuts a co-development program focused on identity, authorization, and cryptographic controls to help enterprises deploy autonomous agents safely in production."
+image: "https://pollinations.ai/p/Entrust%20Agentic%20AI%20Trust%20Accelerator%20enterprise%20identity%20security%20AI%20agents?width=1024&height=576&seed=1507&nologo=true"
+---
+
+The security gap in enterprise AI agent deployments just got a structured response. Entrust has launched the Agentic AI Trust Accelerator, a co-development program designed to address identity, authorization, and cryptographic controls for autonomous agents moving from pilot to production.
+
+## Why It Matters
+
+Enterprise AI agents increasingly act on behalf of users or systems—approving transactions, accessing sensitive data, orchestrating workflows. But the identity infrastructure hasn't kept pace. Traditional service accounts and API keys weren't built for agents that can make decisions autonomously and adapt behavior mid-flight.
+
+The Trust Accelerator signals a maturing market recognition: agent identity isn't an afterthought. Organizations need continuous verification, scoped permissions that can evolve with agent behavior, and auditable action logs that satisfy compliance teams.
+
+## What the Program Offers
+
+Entrust's co-development approach brings together identity specialists and enterprise customers to build reference implementations for:
+
+- **Agent credentials**: Short-lived, revocable identities that replace static API keys
+- **Delegation frameworks**: Clear rules for what agents can do on behalf of users, with explicit consent boundaries
+- **Continuous verification**: Real-time validation that agent actions stay within approved parameters
+- **Audit trails**: Cryptographically signed logs of agent decisions for regulatory compliance
+
+## The Bigger Picture
+
+This launch reflects a broader shift in enterprise AI from capability-focused deployments to governance-first architectures. With 54% of enterprises now running agents in production (per mid-year 2026 reports), the pain point has shifted from "can we build agents?" to "can we trust them in production?"
+
+Entrust's move positions identity as the gating factor for agent scale—similar to how certificate authorities became essential for HTTPS adoption. Early adopters will help shape reference architectures that the broader market follows.
+
+For operators, the takeaway is practical: if you're piloting agents, build identity-first from day one. The patterns established now will define your security posture when agents scale.

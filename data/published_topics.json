@@ -2793,6 +2793,30 @@
       "slugs": [
         "2026-07-12-microsoft-mai-copilot"
       ]
+    },
+    {
+      "term": "Entrust Agentic AI Trust Accelerator Identity Enterprise Security",
+      "count": 1,
+      "last_published": "2026-07-15",
+      "slugs": [
+        "2026-07-15-entrust-agentic-ai-trust"
+      ]
+    },
+    {
+      "term": "Oracle Fusion Agentic Applications Pro-Code Builder",
+      "count": 1,
+      "last_published": "2026-07-15",
+      "slugs": [
+        "2026-07-15-oracle-fusion-agentic-builder"
+      ]
+    },
+    {
+      "term": "Alation AIOS Governed Intelligence Operating System Data Agents",
+      "count": 1,
+      "last_published": "2026-07-15",
+      "slugs": [
+        "2026-07-15-alation-aios"
+      ]
     }
   ]
 }

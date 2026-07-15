@@ -34,10 +34,10 @@ Cutting-edge updates from the global AI frontier.<br/>
 :::
 
 ::: {.rad-hero-stats}
-[[ [390 ARTICLES]{.rad-bracket-inner} ]]{.rad-bracket}
+[[ [402 ARTICLES]{.rad-bracket-inner} ]]{.rad-bracket}
 [[ [20 SOURCES]{.rad-bracket-inner} ]]{.rad-bracket}
 [[ [7 CATEGORIES]{.rad-bracket-inner} ]]{.rad-bracket}
-[[ [UPDATED 2026-07-13 08:45]{.rad-bracket-inner} ]]{.rad-bracket}
+[[ [UPDATED 2026-07-15 08:00]{.rad-bracket-inner} ]]{.rad-bracket}
 :::
 :::
 
