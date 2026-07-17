@@ -1,0 +1,22 @@
+---
+title: "Meta Faces Lawsuit Over AI-Assisted Layoffs That Allegedly Targeted Disabled Workers"
+date: "2026-07-15 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Twenty-six Meta employees file federal suit alleging AI-powered ranking systems disproportionately selected workers on medical, pregnancy, and parental leave during May's 8,000-person layoffs."
+image: "/assets/post-images/2026-07-15-meta-ai-layoffs-lawsuit.svg"
+---
+
+Twenty-six current and former Meta employees have filed a federal lawsuit alleging the company's AI-powered employee ranking systems disproportionately targeted workers on medical, pregnancy, and parental leave during May's mass layoffs that eliminated 8,000 positions, approximately 10% of the company's workforce.
+
+The lawsuit, filed in Oakland federal court, accuses Meta of using productivity metrics and AI token-usage data to identify employees for termination in ways that allegedly violated the Americans with Disabilities Act (ADA), Family and Medical Leave Act (FMLA), Pregnancy Discrimination Act, and emerging AI-bias laws in California and New York.
+
+Among the plaintiffs is a scientist who was selected for termination just two days before giving birth, and a manager on approved pregnancy disability leave. The complaint alleges Meta's AI systems used metrics that penalized employees who took legally protected leave, effectively creating a systematic bias against workers who exercised their rights to medical and family leave.
+
+Meta has denied the allegations, stating that "workforce management decisions were made by people, not AI." However, the lawsuit highlights growing concerns about the role of algorithmic decision-making in employment termination and the potential for AI systems to encode or amplify existing biases.
+
+The case emerges amid a broader reckoning over AI's impact on workers. Companies across the technology sector have increasingly deployed AI tools for performance evaluation, workforce planning, and termination decisions, prompting scrutiny from regulators and lawmakers concerned about accountability and fairness.
+
+This lawsuit could set precedent for how AI-assisted employment decisions are evaluated under existing anti-discrimination law, as courts grapple with questions about responsibility when algorithmic systems contribute to biased outcomes.

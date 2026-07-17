@@ -1,0 +1,40 @@
+---
+title: "Canva Code 2.0 Brings AI Website Building to 265 Million Users"
+date: "2026-07-16 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Industry News
+summary: "Canva launches Code 2.0, enabling all 265 million monthly users to build interactive websites through plain-language prompts with full drag-and-drop editing."
+image: "https://pollinations.ai/p/Canva+Code+2.0+AI+website+builder+vibe+coding?width=1024&height=576&seed=18168&nologo=true"
+---
+
+<!-- description: Canva launches Code 2.0, bringing AI-powered website building to all 265 million users with drag-and-drop editing and 75% faster code generation. -->
+
+Canva is taking its most aggressive step yet into the "vibe coding" market. On July 14, 2026, the design platform launched Canva Code 2.0 — a major upgrade to its AI-powered coding tool that lets users build interactive websites, apps, and experiences using plain-language prompts. The feature is now available to all of Canva's 265 million monthly users across every pricing tier, including free accounts.
+
+The move enters a category that barely existed 18 months ago but has already reshaped how non-developers think about building software. Market research from Luminix AI estimates the vibe coding and AI app builder market reached $4.7 billion in 2026, with projections pointing toward $12.3 billion by 2027 at roughly 38 percent compound annual growth. AI-generated code now comprises approximately 41 percent of all code written globally.
+
+## The Editability Advantage
+
+Where rivals like Lovable, Replit, and Bolt.new have focused primarily on generating functional code from text prompts, Canva is betting that the real bottleneck isn't creating the code — it's making the output actually look good.
+
+"Most vibe coding tools stop at functional," Canva stated in its announcement. "You might get a working prototype, but making it actually look like yours requires a complex editing surface, a separate design tool, a developer, or endless back-and-forth prompting."
+
+Danny Wu, Canva's Head of AI Products, framed the product's positioning clearly: "We are deliberately targeting non-technical users. What we're trying to do is bring the power of AI coding into the Canva platform, while answering our users' requests for more interactivity and customization."
+
+## What's New in Code 2.0
+
+The update introduces several capabilities designed to collapse the distance between generating code and publishing a polished interactive experience. Users can now create Canva Code projects directly inside other design projects — embedding interactive elements within a whiteboard, presentation deck, or standalone page. The company has also added more than 50 new templates specifically designed for interactive designs, along with the ability to import raw HTML files from other AI coding tools and convert them into editable Canva designs.
+
+The performance improvements are significant. Canva says it has reduced average code generation time by 75 percent and cut the median time from initial prompt to a published site by 30 percent. Integrating Canva Code into the broader Canva editor — allowing users to treat coded outputs like any other design element — has increased active Code users by 25 percent.
+
+Perhaps the most distinctive feature is the editing experience itself. Unlike most AI coding platforms, which require users to re-prompt or modify raw code to make visual changes, Canva Code 2.0 lets users click directly into generated elements to change text, drag and drop images from Canva's built-in library of over 120 million templates and assets, update colors and fonts through a familiar toolbar, or refine elements through conversational AI. Every output is fully interactive and automatically adapts to different screen sizes, with a built-in mobile preview.
+
+## Competing in a Crowded Market
+
+Canva's entry arrives at a pivotal moment. Lovable, which focuses on conversational, design-forward app generation for non-technical founders, has reportedly reached approximately $400 million in annual recurring revenue — possibly the fastest revenue ramp in the category's history. Replit and Bolt.new continue to attract developers and non-technical users alike.
+
+Canva's advantage is clear: the company's existing user base already thinks of it as the place to make things look good. By embedding AI code generation within the same platform where users design presentations, social graphics, and marketing materials, Canva is positioning code as just another design medium — not a separate discipline requiring specialized skills.
+
+The question is whether professional developers will embrace a tool explicitly built for non-technical users, or whether Canva Code becomes primarily a gateway for users who later outgrow it and move to more developer-centric platforms.

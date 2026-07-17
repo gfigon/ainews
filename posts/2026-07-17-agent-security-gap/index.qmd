@@ -1,0 +1,35 @@
+---
+title: "The Agent Security Gap: 54% of Enterprises Report AI Agent Incidents"
+date: "2026-07-17 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "New research reveals that more than half of enterprises have experienced AI agent security incidents, while identity controls lag behind autonomous deployments."
+image: "/assets/post-images/2026-07-17-agent-security-gap.svg"
+---
+
+A new survey of 107 enterprises reveals a troubling reality: AI agents are being deployed faster than the security controls needed to contain them. More than half of organizations (54%) have already experienced a confirmed AI agent security incident or a near-miss, according to VentureBeat Pulse Research conducted in June 2026.
+
+The study found that only about a third (32%) of enterprises give each AI agent its own scoped, managed identity. The majority still rely on shared credentials or API keys, meaning a single compromised agent can create a wide blast radius. Only three in ten enterprises (30%) isolate their highest-risk agents in sandboxes to bound potential damage.
+
+## The Gap Between Deployment and Control
+
+What makes this gap particularly concerning is the disconnect between enterprise confidence and actual security posture. The survey found that enterprises are largely satisfied with their current security stack, rating provider-native controls from OpenAI, Google, and Anthropic at 4.2 out of 5 on average. Yet only a third believe their defenses are ahead of AI-enabled attackers, and a clear majority plan to change tooling within the year.
+
+Spending on agent security remains a thin slice of overall security budgets, and the security stack is overwhelmingly borrowed from model providers and hyperscalers rather than purpose-built for autonomous agents. This creates a paradox: enterprises are satisfied with controls they are simultaneously preparing to replace.
+
+## Incidents Are Already Happening
+
+The survey's most striking finding is how widespread incidents already are. Of the 54% who reported events:
+- 18% confirmed a security incident
+- 36% caught a near-miss before harm occurred
+- Only 42% reported no agent-related security events
+
+The fact that near-misses outnumber confirmed incidents suggests enterprises are beginning to detect problems—but also that many events may be going undetected entirely.
+
+## What This Means for Enterprise AI
+
+As organizations grant AI agents more autonomy—accessing systems, processing data, and executing operations—the security implications grow. The agent security gap represents a fundamental misalignment between the autonomy being granted and the controls in place to govern it. Until enterprises close this gap, every agent deployment carries unseen risk.
+
+The survey suggests the path forward requires purpose-built agent security tools, stronger identity management for autonomous systems, and investment in isolation mechanisms that can contain agent behavior within defined boundaries.
