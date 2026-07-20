@@ -1,0 +1,22 @@
+---
+title: "Daniel Ek's Neko Health Scores $700M to Bring AI Body Scanning to America"
+date: "2026-07-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Spotify co-founder's preventive healthcare startup secures massive Series C funding to expand AI-powered full-body scans across the United States."
+image: "https://pollinations.ai/p/neko-health-ai-body-scan-700m-funding?width=1024&height=576&seed=42&nologo=true"
+---
+
+Neko Health, the Swedish health technology startup founded by Spotify co-founder Daniel Ek, has raised $700 million in Series C funding to accelerate its expansion into the United States market. The round was co-led by Lightspeed Venture Partners and O.G. Venture Partners, with participation from existing investors including General Catalyst, Atomico, and Lakestar.
+
+The funding arrives as Neko Health prepares to open its first U.S. clinics in New York and other major cities later this year. The company's flagship offering is a comprehensive AI-powered full-body scan that analyzes hundreds of health indicators in minutes, aiming to detect diseases at earlier, more treatable stages.
+
+"We're building a new healthcare system centered on early detection and disease prevention," the company stated. "This funding enables us to bring our technology to the U.S. and scale the future of preventive healthcare."
+
+Neko's scanning technology uses a combination of advanced sensors and AI algorithms to create detailed health profiles without invasive procedures. The system can identify potential health issues before symptoms appear, a capability that traditional healthcare models—focused on reactive treatment—typically lack.
+
+The $700 million injection represents one of the largest funding rounds in the digital health sector this year, underscoring investor confidence in AI-driven preventive medicine as a market opportunity. The company has now raised over $1 billion since its founding in 2018.
+
+For the U.S. healthcare market, Neko's arrival signals growing competition in the preventive health technology space. With chronic disease costs driving healthcare spending higher, AI-powered early detection tools could play an increasingly important role in reducing long-term treatment expenses.

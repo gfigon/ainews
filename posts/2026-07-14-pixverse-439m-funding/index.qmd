@@ -1,0 +1,24 @@
+---
+title: "PixVerse Closes $439M Series C Extension, Valuation Surpasses $2B"
+date: "2026-07-14 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Singapore-based AI video generation startup PixVerse secures massive funding as competition intensifies in the text-to-video space."
+image: "https://pollinations.ai/p/pixverse+439m+series+c+valuation+2b?width=1024&height=576&seed=141&nologo=true"
+---
+
+Singapore-based AI video generation startup PixVerse announced on July 13, 2026 that it has closed a $439 million Series C extension, pushing its valuation above $2 billion. The round saw participation from new investors including Alibaba, Mirae Asset, BlueFocus, and Eastern Bell Capital, alongside existing backers iGlobe Partners and Lion X Ventures.
+
+The funding marks one of the largest investments in the AI video generation space this year and signals continued investor appetite for generative media startups despite broader market volatility. PixVerse, founded in 2023, now claims over 150 million registered users and more than 15 million monthly active users across its platform.
+
+The company offers three tiers of video generation: V-Series for consumer users, C-Series for professional creators, and R-Series featuring world-model technology. All tiers support 4K video output with embedded audio, a capability that distinguishes PixVerse from some competitors.
+
+Co-founder Jaden Xie said that "only a few companies" can produce high-quality video models at scale, pointing to OpenAI's Sora shutdown and limitations at Meta and Tencent as factors that have cleared the runway for PixVerse's growth. The statement highlights the competitive dynamics in text-to-video, where technical barriers and compute costs have kept the field relatively narrow.
+
+The investment comes as the AI video generation market experiences rapid growth, with enterprises increasingly adopting generative media for marketing, training, and entertainment content. PixVerse plans to use the funding to expand into interactive entertainment and further develop its world-model capabilities.
+
+This funding round follows an initial Series C closing in March 2026, led by CDH Investments, which Bloomberg reported at roughly $300 million. The extension brings total Series C fundraising to $439 million, demonstrating strong investor confidence in PixVerse's market position.
+
+The news underscores the continued dominance of Chinese and Singapore-based startups in the generative video space, even as US-based companies like OpenAI and RunwayML pursue similar goals. With the new capital, PixVerse is positioned to accelerate product development and expand its global footprint.

@@ -1,0 +1,32 @@
+---
+title: "Moonshine Micro Brings Voice AI to $0.80 Microcontrollers"
+date: "2026-07-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "New open-source toolkit runs complete speech pipeline—voice detection, speech recognition, and neural TTS—in under 500KB RAM on a Raspberry Pi RP2350."
+image: "https://pollinations.ai/p/voice%20AI%20microcontroller%20embedded%20speech?width=1024&height=576&nologo=true"
+---
+
+Moonshine Micro, a new open-source project from moonshine-ai, demonstrates that real-time voice AI can run on microcontroller-scale hardware. The complete pipeline—including voice activity detection, speech-to-text, and neural text-to-speech—operates in just 470 KB of RAM on a Raspberry Pi RP2350 microcontroller priced at $0.80.
+
+## Three Components, Ultra-Low Resource
+
+The toolkit breaks the speech pipeline into three independently usable components:
+
+- **Voice Activity Detection**: ~36 KB SRAM, runs at 25 MMAC/s
+- **Speech-to-Text (SpellingCNN)**: ~346 KB SRAM, processes at 36 MMAC/s  
+- **Neural TTS**: ~340 KB SRAM, generates speech at 37 MMAC typical reply
+
+All components use TensorFlow Lite Micro for neural inference and time-share a single 384 KB memory arena, enabling the entire pipeline to fit within the RP2350's 520 KB available SRAM.
+
+## Real-Time on Embedded Hardware
+
+A complete end-to-end demo shows the system classifying voice commands and responding with synthesized speech in 0.7–1.0 seconds. The reference implementation includes WiFi connectivity, demonstrating a fully standalone voice assistant on a chip.
+
+The code ships under the permissive MIT license, making it suitable for commercial embedded voice products. This represents a significant democratization of voice AI—previously requiring cloud APIs or expensive processors.
+
+## Why It Matters
+
+Ultra-low-resource speech AI opens new possibilities for smart devices: battery-powered voice interfaces in IoT sensors, embedded voice control in appliances, and privacy-preserving local speech processing without cloud round-trips. The 500KB footprint is small enough for most microcontrollers, potentially bringing voice interaction to billions of low-cost devices.

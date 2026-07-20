@@ -1,0 +1,37 @@
+---
+title: "Vercel Deepsec Brings AI-Powered Vulnerability Scanning to Enterprise Codebases"
+date: "2026-07-19 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Security & Policy
+summary: "Vercel Labs launches Deepsec, an agent-powered vulnerability scanner that uses coding agents to find hard-to-detect security issues in large codebases."
+image: "/assets/post-images/2026-07-19-vercel-deepsec.svg"
+---
+
+Vercel Labs has released Deepsec, an agent-powered vulnerability scanner designed to surface hard-to-find security issues lurking in enterprise codebases. Unlike traditional static analysis tools, Deepsec leverages coding agents with access to full repository context, enabling it to identify complex vulnerabilities that rule-based scanners miss.
+
+## How Deepsec Works
+
+The tool operates in a multi-stage pipeline:
+
+1. **Scan** — Uses regex matchers to quickly identify candidate vulnerability sites
+2. **Process** — AI agents investigate each candidate, analyzing code context and relationships to determine if it's a genuine vulnerability
+3. **Triage** — Classifies findings by severity (P0/P1/P2) using smaller, faster models
+4. **Revalidate** — Re-checks existing findings and verifies whether they've been fixed
+
+Deepsec is designed to run on large-scale repositories, with work fanning out across worker machines in parallel. If a scan is interrupted, it picks up where it left off—skipping already-analyzed files.
+
+## Premium Analysis at a Premium Price
+
+Deepsec is configured to use the best available models at maximum thinking levels, meaning scans can cost thousands or even tens of thousands of dollars for large codebases. Vercel positions this as a feature, not a bug: "Our customers have found the cost worth it for how quickly they were able to patch vulnerabilities that would have otherwise gone unfixed."
+
+For local development, Deepsec falls back to existing Claude or Codex subscriptions. For production scans, Vercel recommends using Vercel AI Gateway, which provides sufficient quota for concurrent research workloads.
+
+## Security Considerations
+
+Running an AI agent with shell access to your codebase raises obvious security questions. Vercel addresses this through Vercel Sandbox microVMs, which isolate the agent environment and prevent exfiltration of API keys. The sandbox approach limits network egress to only the coding agent hosts during the bootstrap phase.
+
+## The Bigger Picture
+
+Deepsec represents a shift in how enterprises approach security: instead of relying solely on traditional static analysis or manual code review, organizations can now deploy AI agents to actively hunt for vulnerabilities. Whether the cost-to-benefit ratio makes sense for typical projects remains to be seen—but for security-critical codebases, the tool may prove invaluable.

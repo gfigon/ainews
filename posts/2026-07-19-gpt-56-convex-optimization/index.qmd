@@ -1,0 +1,26 @@
+---
+title: "GPT-5.6 Sol Closes 30-Year Convex Optimization Gap"
+date: "2026-07-19 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "GPT-5.6 Sol Pro solved a 30-year-old convex optimization problem in 148 minutes, producing the first proven lower bound for derivative-free optimization."
+image: "https://pollinations.ai/p/gpt-5.6%20convex%20optimization%20math%20proof?width=1024&height=576&nologo=true"
+---
+
+A UC Berkeley mathematician used GPT-5.6 Sol Pro to solve a complexity problem in convex optimization that has remained open since 1996. In a 148-minute session, the model produced a proof establishing a quadratic lower bound for deterministic zeroth-order convex optimization—effectively closing a three-decade gap in the field.
+
+The problem concerns the oracle complexity of optimizing convex functions when algorithms can only query function values, not gradients. While a 1996 algorithm by Protasov demonstrated that d² function evaluations are sufficient, no matching lower bound existed. The new result proves that no algorithm can do better than order d² evaluations—establishing that Protasov's approach is essentially optimal.
+
+## From CDC Proof to Optimization Breakthrough
+
+The achievement follows OpenAI's recent demonstration where GPT-5.6 Sol Pro proved the Cycle Double Cover Conjecture, a 50-year-old topology problem. The Berkeley researcher adapted the same prompting methodology, constructing a ten-page prompt following OpenAI's approach.
+
+"Modern AI methods will solve problems attainable with existing techniques," the researcher noted. "What this means is that it no longer makes sense to work on low-hanging fruit. We'll be needed for problems where novel approaches are truly required."
+
+## Verified in Lean
+
+The proof was formally verified in Lean, a proof assistant that mechanically checks mathematical reasoning. This verification adds confidence in the result's correctness—a crucial step for AI-assisted mathematical proofs.
+
+The work suggests frontier language models are becoming capable of genuine mathematical research, not just pattern matching on training data. As formal verification tools improve, AI-assisted proofs may become increasingly common in pure mathematics.

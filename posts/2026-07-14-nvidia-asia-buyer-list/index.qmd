@@ -1,0 +1,24 @@
+---
+title: "Nvidia Halves Asia AI Chip Buyer List in China Export Crackdown"
+date: "2026-07-14 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Security & Policy
+summary: "Nvidia implements strict new whitelist for Asian customers amid intensified US pressure to prevent AI chip diversion to China."
+image: "https://pollinations.ai/p/nvidia+asia+buyer+list+chip+export+crackdown?width=1024&height=576&seed=142&nologo=true"
+---
+
+Nvidia has more than halved the number of Asian customers authorized to buy its AI chips, according to a July 14, 2026 Financial Times report. The company introduced a new "white list" of vetted companies that have passed tougher compliance checks designed to prevent advanced processors from being diverted to China.
+
+The move follows intensified US pressure to close loopholes in semiconductor export controls. The new approved list cuts more than half of Nvidia's previous customers in the region, with neo-cloud providers particularly affected. The tightened due diligence covers companies in Singapore, Malaysia, and Japan—key transit points for chip shipments to China.
+
+The crackdown comes after March charges against Supermicro executives over an alleged $2.5 billion China-diversion scheme, which highlighted the effectiveness of gray-market channels for circumventing export restrictions. US officials have been increasingly concerned about sophisticated methods used to route advanced AI hardware through Southeast Asia.
+
+According to analysis from cryptoBriefing, Nvidia's China market share is projected to fall from 66% to just 8% by the end of 2026 as a result of the tightened controls. The company, which has long been the dominant supplier of AI training chips to Chinese technology companies, now faces the prospect of losing significant revenue from the world's second-largest economy.
+
+The white list approach represents a shift from Nvidia's previous distribution model, which relied on a broader network of distributors and resellers across Asia. Under the new system, only companies that demonstrate robust end-use verification and compliance infrastructure will be permitted to purchase advanced AI chips.
+
+Industry analysts note that the move could accelerate China's efforts to develop domestic alternatives to Nvidia hardware. Chinese companies including Huawei have been investing heavily in domestically produced AI accelerators, though current generations still lag behind Nvidia's latest offerings in performance.
+
+For US-based AI companies, the tightened controls could mean improved access to Nvidia chips as supply constraints ease. However, the company's revenue from China—a market that historically contributed significant percentages of its data center revenue—faces significant headwinds.

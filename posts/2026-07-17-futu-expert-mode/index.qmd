@@ -1,0 +1,24 @@
+---
+title: "Futu Launches Agentic Investing Platform with 'Expert' Mode"
+date: "2026-07-17 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Futu unveils an Agentic AI + Skills architecture that lets retail investors compose multi-skill agent teams for research and trade execution with simulation defaults."
+image: "/assets/post-images/2026-07-17-futu-expert-mode.svg"
+---
+
+Retail investing is getting its first mainstream agentic platform. Futu, a Hong Kong-based fintech unicorn, launched "Expert" mode—an AI agent architecture that lets everyday users build and deploy multi-skill agent teams for market research and trade execution.
+
+**What happened:** Futu announced a comprehensive AI upgrade featuring "Expert" mode, a self-developed built-in agent powered by a novel "Agentic AI + Skills" architecture. The platform lets retail users compose agent teams that can handle research, analysis, and—critically—trade execution through natural language commands.
+
+Key features include simulated-test defaults that require explicit user confirmation before live trades, plus password protections to separate sandbox trading from live execution. The Skills framework lets agents specialize: one might focus on technical analysis, another on fundamental research, and a third on risk management.
+
+**Why it matters:** Financial services firms and fintech founders have been cautious about agent-enabled trading due to regulatory concerns around custody, suitability, and audit trails. Futu's approach addresses these directly—simulation-first defaults, explicit confirmations, and clear separation between test and live environments set a template others will likely follow.
+
+For the broader fintech industry, the launch signals that agentic trading features are moving from experimental to productized. Competitive pressure is building to package end-to-end, execution-capable experiences rather than just research chatbots.
+
+**What's next:** If you're building or purchasing trading agents, insist on sandbox-first designs with test defaults before any live order capability. Watch regulatory guidance on agent-enabled execution and recordkeeping—this is where product safety and compliance will be decided.
+
+**The bigger picture:** Agentic finance is no longer just for hedge funds. Futu's launch puts multi-agent investing in the hands of retail users, raising the stakes for every fintech competitor. Expect rapid iteration on features, and likely regulatory scrutiny, as the model proves itself at scale.

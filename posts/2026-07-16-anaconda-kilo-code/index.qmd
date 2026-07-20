@@ -1,0 +1,28 @@
+---
+title: "Anaconda Acquires Kilo Code to Bring Enterprise Governance to AI Coding Agents"
+date: "2026-07-16 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "Anaconda acquires Kilo Code, the AI coding agent platform used by 3M+ developers processing 10 trillion tokens monthly, to solve enterprise AI governance and token consumption visibility."
+image: "/assets/post-images/2026-07-16-anaconda-kilo-code.svg"
+---
+
+Anaconda has acquired Kilo Code, the open-source, model-agnostic agentic coding platform used by more than 3 million developers, the company announced today. The acquisition aims to address growing enterprise concerns around AI governance, token consumption visibility, and vendor lock-in in AI-native development workflows.
+
+Kilo Code orchestrates nearly 10 trillion tokens per month across its developer base, routing through more than 500 models via its gateway. The platform supports VS Code, JetBrains, web, and CLI environments, making it one of the most widely adopted AI coding agent solutions.
+
+## The Enterprise Governance Gap
+
+The acquisition addresses what Anaconda CEO David DeSanto called the "tokenpocalypse" — the invisible accumulation of AI spend across dozens of tools, work accounts, and personal accounts. "Organizations are spending enormous sums, with very little visibility into where the risk is and whether they are getting an ROI," DeSanto stated.
+
+Enterprise leaders face a false trade-off between velocity and trust, according to Kilo Code CEO Scott Breitenother. "Developers aren't going to stop using AI. The question is whether enterprises are going to own that experience end to end or just hope for the best," he said.
+
+The combined platform claims early customers report 30-50% token consumption reductions through the unified gateway that routes across multiple model providers.
+
+## Looking Forward
+
+The deal follows Anaconda's earlier acquisition of Outerbounds and positions the company as what it calls "the enterprise governance layer for AI-native development." With over 52 million developers and 95% of the Fortune 500 using Anaconda's foundation layer, the integration aims to extend governance from experimentation into production AI agent workflows.
+
+The acquisition signals a maturing market for AI development tools, where governance and visibility are becoming as important as capability.

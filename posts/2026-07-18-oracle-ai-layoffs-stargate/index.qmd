@@ -1,0 +1,22 @@
+---
+title: "Oracle Cuts 30,000 Jobs to Fund $500B Stargate AI Infrastructure Push"
+date: "2026-07-18 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Oracle lays off 20,000-30,000 employees to redirect capital toward AI datacenter construction, including the $500 billion Stargate partnership with OpenAI and SoftBank—making explicit the human cost behind the AI infrastructure boom."
+image: "https://pollinations.ai/p/oracle%20layoffs%2030000%20ai%20infrastructure%20stargate?width=1024&height=576&seed=43&nologo=true"
+---
+
+Oracle has announced massive workforce reductions, cutting 20,000 to 30,000 positions—approximately 18% of its total workforce—as it redirects spending toward massive AI datacenter infrastructure projects. The layoffs affect employees across sales, engineering, and security departments, with internal metrics showing a drop of 10,000 Slack users overnight.
+
+The cuts fund Oracle's $500 billion Stargate partnership with OpenAI and SoftBank, making explicit a pattern visible throughout July's infrastructure announcements. TSMC reported record revenue growth of 77% year-over-year from AI chip orders. SK Hynix debuted at 13% on AI memory demand. Oracle now demonstrates where the capital for those orders originates: labor cost reductions at the companies financing the buildout.
+
+**Profitable company, strategic redeployment**
+
+Notably, Oracle remains profitable with record cloud revenue. These are not distress cuts—they represent strategic redeployment of capital from human operating costs to physical compute infrastructure. The company is choosing to fund AI compute buildout rather than maintain its current workforce.
+
+The layoffs close the loop on July's infrastructure narrative. Tech companies increasingly cite AI as justification for mass reductions despite posting record profits. Oracle makes the mechanism explicit in a way that is difficult to dismiss: compute requires capital, and capital comes from workforce reduction.
+
+The timing coincides with Oracle's aggressive expansion of AI-ready datacenters as part of the Stargate initiative, which aims to build the largest AI computing infrastructure in history.

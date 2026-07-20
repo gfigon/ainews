@@ -1,0 +1,26 @@
+---
+title: "Hyundai Takes Full Control of Boston Dynamics, Plans Atlas Deployment at Georgia Plant in 2028"
+date: "2026-07-16 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "Hyundai Motor Group acquires SoftBank's remaining stake in Boston Dynamics for approximately $335M, planning to deploy Atlas humanoid robots at its Georgia car plant starting in 2028."
+image: "/assets/post-images/2026-07-16-hyundai-boston-dynamics-atlas.svg"
+---
+
+Hyundai Motor Group has completed its acquisition of Boston Dynamics, buying out SoftBank's remaining approximately 10% stake in a transaction valued at roughly $335 million (500 billion won). The deal marks the first time the Korean automotive giant will fully own the robotics company it acquired a majority stake in during 2021.
+
+## From Viral Videos to Production Lines
+
+The announcement confirms what industry observers have anticipated since Hyundai's initial acquisition: Atlas humanoid robots are moving from viral YouTube demonstrations to real manufacturing floor deployments. The company plans to begin deploying Atlas humanoids at its Georgia Metaplant in 2028 for parts sequencing, with ambitions to expand to broader assembly work by 2030.
+
+Reports suggest Hyundai may deploy over 25,000 Atlas robots across its U.S. auto plants, representing one of the largest planned rollouts of humanoid robots in the automotive industry.
+
+## Physical AI Takes Shape
+
+The timing of the full acquisition aligns with the broader "physical AI" push from companies like Nvidia, which has been building a robotics ecosystem through its Cosmos platform and partnerships with Japanese robot makers announced this week. Hyundai's ownership of Boston Dynamics positions it uniquely among major automakers investing in humanoid robotics.
+
+"This is the clearest signal yet that humanoid robots are moving from viral videos to real production lines," noted one industry analyst. The Georgia plant deployment will serve as a proof of concept for wider manufacturing applications.
+
+The acquisition underscores a shifting landscape in automotive manufacturing, where traditional automation meets AI-powered humanoid robots capable of navigating unstructured environments previously requiring human dexterity.

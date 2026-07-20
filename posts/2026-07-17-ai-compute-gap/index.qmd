@@ -1,0 +1,32 @@
+---
+title: "The AI Compute Gap: Enterprises Buy Infrastructure Faster Than They Can Track Costs"
+date: "2026-07-17 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "New research reveals 83% of enterprises report GPU utilization at 50% or less, while 64% plan to switch infrastructure providers within a year."
+image: "/assets/post-images/2026-07-17-ai-compute-gap.svg"
+---
+
+A new survey of 107 enterprises reveals a striking disconnect: organizations are pouring money into AI infrastructure faster than they can measure what it actually costs. The findings paint a picture of an industry in rapid expansion mode, but running blind.
+
+Only 21% of enterprises currently run AI in production at scale, yet infrastructure spending intentions are racing ahead of that maturity. The single largest planned evaluation area over the next year is AI-specialized clouds (45%), a category almost none of these enterprises use today. This represents a fundamental re-platforming in the making.
+
+## The Utilization Problem
+
+Perhaps the most revealing statistic: 83% of enterprises report GPU utilization at 50% or less. In practical terms, this means most organizations are sitting on expensive compute capacity they aren't fully using. Fewer than half (44%) can rigorously track what their AI compute costs. The result is a compute gap—massive investment running ahead of the visibility needed to control it.
+
+"When you buy infrastructure faster than you can measure its economics, you're essentially flying blind," noted one analyst familiar with the findings. "This isn't a vendor problem—it's a maturity problem."
+
+## The Coming Switch Wave
+
+The data also reveals remarkable instability in infrastructure choices. A full 64% of enterprises plan to switch or add an infrastructure provider within twelve months, with 38% planning changes within the next quarter. For a category this foundational, that's extraordinary churn intent.
+
+When they do switch, enterprises say integration (41%) and total cost of ownership (35%) drive decisions—not headline token pricing. Only 8% cite cost per million tokens as the deciding factor. This suggests enterprises are prioritizing flexibility and control over pure price competition.
+
+## What This Means
+
+The findings suggest a multi-layered transition: from hyperscalers to specialized AI clouds, from single vendors to multi-provider strategies, and—critically—from reactive buying to more disciplined cost governance. Enterprises that master this transition first may gain significant competitive advantages in the AI era.
+
+The question facing IT leaders isn't whether to invest in AI infrastructure, but whether they can build the visibility needed to make those investments pay off.

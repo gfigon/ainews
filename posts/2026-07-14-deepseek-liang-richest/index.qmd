@@ -1,0 +1,26 @@
+---
+title: "DeepSeek Founder Liang Wenfeng Becomes World's Richest AI Billionaire"
+date: "2026-07-14 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "DeepSeek founder Liang Wenfeng's net worth has surged to $36 billion following a $7.4 billion funding round, making him the world's richest AI company founder."
+image: "/assets/post-images/2026-07-14-deepseek-liang-richest.svg"
+---
+
+DeepSeek founder Liang Wenfeng has overtaken all AI company founders to become the world's wealthiest, according to the Bloomberg Billionaires Index. His net worth has skyrocketed to $36 billion from approximately $16.7 billion after his company's latest funding round, putting him ahead of Anthropic co-founder Dario Amodei and OpenAI's Greg Brockman.
+
+The Chinese entrepreneur's fortune is tied to DeepSeek's recent $7.4 billion funding round, which valued the company at $50 billion. This represents a nearly fivefold increase from April when the startup was first reported to be valued at $10 billion. Despite investing $3 billion in the latest round, Liang retains approximately 78% ownership in DeepSeek.
+
+## From Hedge Fund to AI Giant
+
+Liang, born in 1985 in Zhanjiang, China, studied electronic engineering at Zhejiang University. He founded DeepSeek in 2023 as a spin-off from his hedge fund's AI division. His hedge fund had made early investments in advanced graphics chips before US export restrictions tightened, providing DeepSeek with the computing power needed to create its groundbreaking models without relying heavily on traditional venture capital.
+
+DeepSeek stunned the global tech scene in early 2025 with a model that matched US competitors like OpenAI but at a fraction of the cost. The startup recently unveiled its V4 model, highlighting compatibility with Huawei Technologies' chips—a significant move that underscores China's shift from consumer internet tycoons to state-backed artificial intelligence as a key national asset.
+
+## The Equity Advantage
+
+What distinguishes Liang from his US counterparts is his massive equity retention. Building a $50 billion frontier AI company in the United States typically requires giving up large portions of equity to tech giants and venture capitalists. However, by retaining a near-78% stake in DeepSeek, Liang enjoys unprecedented personal wealth and control compared to modern AI founders.
+
+This development marks a pivotal moment in the AI industry, demonstrating that Chinese AI startups can achieve massive valuations while maintaining founder control—a model that could reshape how AI companies globally approach fundraising and governance.

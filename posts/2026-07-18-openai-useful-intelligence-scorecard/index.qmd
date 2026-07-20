@@ -1,0 +1,36 @@
+---
+title: "OpenAI Proposes \"Useful Intelligence per Dollar\" Scorecard for Enterprise AI"
+date: "2026-07-18 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "OpenAI introduces a four-metric framework to help CFOs measure AI ROI beyond cost-per-token, focusing on useful work completed, task cost, dependability, and value at scale."
+image: "/assets/post-images/2026-07-18-openai-useful-intelligence-scorecard.svg"
+---
+
+OpenAI has proposed a new framework for measuring AI's economic value in the enterprise, moving beyond simple cost-per-token metrics to a more comprehensive "Useful Intelligence per Dollar" scorecard. The approach, detailed in a July 17, 2026 blog post addressed to CFOs, answers four key questions about AI investments.
+
+## Beyond Token Pricing
+
+The traditional metric of cost per token fails to capture the full economics of AI deployment, according to OpenAI CEO Sam Altman. A lower-cost model may require more attempts, more human review, or more time to achieve acceptable results. Meanwhile, a more capable model might complete the same task in one pass, reducing total cost despite higher token prices.
+
+"Understanding the value of AI demands a more powerful measure: work accomplished," the post states. "The ultimate scorecard for the age of AI could be looked at as 'Useful Intelligence per Dollar.'"
+
+## The Four Metrics
+
+The framework evaluates AI investments across four dimensions:
+
+**Useful Work Completed** measures tangible outcomes: customer issues resolved, code changes shipped, contracts reviewed, and time returned to employees. The key is defining "done" for each workflow and measuring that outcome where the work actually happens.
+
+**Cost per Successful Task** adds up the full cost of AI-assisted work—including model costs, employee time, human review, retries, and rework—then divides by tasks meeting the quality bar. This reveals why the cheapest tokens don't always produce the cheapest outcomes.
+
+**Dependability** tracks three outcomes: results ready to use as delivered, results needing correction, and results requiring human escalation. These measures show whether AI genuinely reduces total work rather than shifting it to human reviewers.
+
+**Value at Scale** examines whether economics improve as usage grows by tracking successful tasks, total cost, and cost per task over time. If completed work grows faster than total cost while quality holds or improves, each AI dollar is producing more value.
+
+## GPT-5.6 Economics
+
+The scorecard accompanies OpenAI's recent GPT-5.6 launch, which introduced a three-tier family: Sol (flagship), Terra (balanced), and Luna (fastest, most affordable). The company claims GPT-5.6 Sol with maximum reasoning achieved 72.7% on the Artificial Analysis Coding Agent Index, surpassing Claude Fable 5's 69.9% at 36% lower estimated API cost.
+
+The framework arrives as enterprises grapple with rising AI infrastructure costs. Recent industry surveys indicate many organizations still cannot clearly see their unit economics, with GPUs often sitting at half utilization or less.

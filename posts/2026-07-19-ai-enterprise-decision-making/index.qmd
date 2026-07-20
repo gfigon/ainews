@@ -1,0 +1,41 @@
+---
+title: "The AI Mania: Inside Enterprise's 'Mass Psychosis' Around AI Investments"
+date: "2026-07-19 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "A scathing analysis argues that global organizations are gripped by 'AI psychosis,' with almost all AI projects failing while executives push forward regardless."
+image: "/assets/post-images/2026-07-19-ai-enterprise-decision-making.svg"
+---
+
+A provocative new essay from software industry veteran Mitchell Hashimoto and collaborators argues that organizations worldwide are suffering from "mass psychosis" around AI adoption, with virtually no AI projects delivering meaningful results—and anyone who questions the status quo risks termination.
+
+## The 0% Success Rate Claim
+
+The analysis, titled "AI Mania Is Eviscerating Global Decision-Making," draws on the authors' experience working across Fortune 500 companies, government institutions, and startups over the past 18 months. Their conclusion is stark: every single AI project they've observed has failed.
+
+"The failure rate is so high that even basic inquiry leaves us in an untenable position," the authors write. "Any coherent question about how it's going, what the goal is, who is using it, constitutes an inadvertent attack on the chain of command."
+
+The most common failure mode is the internally-facing chatbot: companies build LLM-powered knowledge bases but employees don't use them because documentation quality is poor. LLMs can't extract information that hasn't been written down. Customer-facing chatbots fare no better—the authors cite their own experience with Mitsubishi, where an AI phone bot promised a callback that never came, likely "resolving" the query by simply losing it.
+
+## The Religion of AI
+
+The essay describes a troubling dynamic where expressing doubt about AI ROI has become career-threatening. In organizations with 500+ employees, "continued advancement, and increasingly continued employment, has started to require repeated professions of belief in the transformative power of AI."
+
+The authors document cases where executives have created AI strategies without ever using an AI tool themselves. One executive with a $2B+ revenue company produced a technical strategy entirely centered on AI despite having never used ChatGPT or any AI tool.
+
+## Why Projects Fail
+
+The analysis identifies two core problems:
+
+1. **Companies are bad at software projects** — AI projects inherit all the failure modes of normal projects plus novel failure modes from the technology's unpredictability
+2. **LLMs have real limitations** — Even when everything is executed well, the underlying technology may simply be incapable of the task
+
+The authors note that project leaders frequently avoid tracking basic metrics like tool usage, or track metrics easily gamed to show artificial success.
+
+## The Silence Problem
+
+The essay argues that almost every public claim of "massive AI productivity gains" is demonstrably untrue. Executives who tell the truth to the press get removed. Employees who are honest get fired. The result is a perfect information blackout where no one can discuss what's actually happening.
+
+"What's the alternative?" the authors ask. "Continuing to pour resources into a hole? We suspect the answer is yes, because the only other option is admitting that years of strategy were completely wrong."
