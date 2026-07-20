@@ -1,6 +1,46 @@
 {
   "topics": [
     {
+      "term": "Anthropic S-1 IPO Filing SEC Confidential October 2026",
+      "count": 1,
+      "last_published": "2026-07-20",
+      "slugs": [
+        "2026-07-20-anthropic-ipo"
+      ]
+    },
+    {
+      "term": "Mistral Robostral Navigate Robot Navigation Model R2R-CE",
+      "count": 1,
+      "last_published": "2026-07-20",
+      "slugs": [
+        "2026-07-20-mistral-robostral-navigate"
+      ]
+    },
+    {
+      "term": "CausalDS Benchmark LLM Agent Causal Reasoning Data Science",
+      "count": 1,
+      "last_published": "2026-07-20",
+      "slugs": [
+        "2026-07-20-causalds-benchmark"
+      ]
+    },
+    {
+      "term": "DataShield Fine-tuning Safety LLM Alignment Consensus",
+      "count": 1,
+      "last_published": "2026-07-20",
+      "slugs": [
+        "2026-07-20-datashield-finetuning-safety"
+      ]
+    },
+    {
+      "term": "Verifier RL Fine-tuning Energy Control Thermal Systems",
+      "count": 1,
+      "last_published": "2026-07-20",
+      "slugs": [
+        "2026-07-20-verifier-rl-finetuning"
+      ]
+    },
+    {
       "term": "Enterprise AI Agent Security Gap 54% Incidents Credentials Identity",
       "count": 1,
       "last_published": "2026-07-17",
