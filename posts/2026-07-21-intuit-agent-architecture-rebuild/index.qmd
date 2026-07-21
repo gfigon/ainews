@@ -1,0 +1,34 @@
+---
+title: "Intuit Rebuilds AI Agent Architecture Twice in Four Months — Lessons Learned"
+date: "2026-07-21 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Intuit VP Nhung Ho revealed at VB Transform 2026 how the company scrapped its AI agent orchestration layer twice in four months, ultimately rebuilding in 60 days with a skills-and-tools architecture."
+image: "https://pollinations.ai/p/Intuit+AI+agent+architecture+rebuild?width=1024&height=576&seed=48291&nologo=true"
+---
+
+Intuit, an early pioneer in agentic AI, revealed at VB Transform 2026 that it rebuilt its entire AI agent architecture twice in just four months before finding a sustainable approach. The journey offers a cautionary tale for enterprises rushing agent systems into production.
+
+## The First Rebuild: Specialist Agents to Orchestration
+
+The company initially deployed a fleet of specialist agents but faced a common customer complaint—users still had to decide which agent to use for each task. Intuit's solution was an orchestration layer that could route tasks internally without customer intervention.
+
+That architecture held for approximately three months before failing. The problem wasn't capacity but **error compounding through natural language handoffs**. When agents passed results to each other in natural language, each downstream agent had to infer how the previous one reached its conclusions—and that inference degraded with each additional hop.
+
+"If you have 10 agents and they all are passing to each other, every time that pass happens, error compounds," explained Nhung Ho, Intuit's VP of AI.
+
+## The Second Rebuild: Skills and Tools
+
+Intuit abandoned the orchestration approach entirely, rebuilding in 60 days (with a first working version in under 20) using a **skills and tools architecture**. The key insight: rather than passing context between agents, decompose capabilities into reusable skills and tools that any agent can call directly.
+
+The rebuild required convincing both leadership and the engineers who had built the original specialist agents. Ho's team built a demo using real production customer queries, demonstrating better performance than the existing system—a more persuasive argument than any architectural discussion.
+
+## Human-in-the-Loop and Feedback at Scale
+
+The new architecture enables a feature currently in early testing with 1% of customers: bringing a human into the conversation mid-stream. Customers can pull in an Intuit support person, their own accountant, or a bookkeeper with full context of what the agent has already accomplished.
+
+Perhaps most significantly, the shift transformed feedback collection. From roughly 0.3% of customers providing explicit feedback in traditional chat systems, Intuit now collects feedback from nearly 100% of conversations. The tone is direct: "They straight up tell you, 'You suck. I hate this. This is not right.'" But customers also correct the system and give it grace—creating an unprecedented volume of actionable improvement data.
+
+The lesson for enterprise AI: the fastest path forward sometimes requires the courage to start over.

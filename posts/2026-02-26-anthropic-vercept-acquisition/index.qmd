@@ -1,12 +1,10 @@
 ---
 title: "Anthropic Acquires Seattle AI Startup Vercept to Boost Computer Use Capabilities"
 date: "2026-02-26 08:45"
-author: "AI News Digest"
-description: "Anthropic acquires Vercept, a Seattle AI startup that built computer-use agents, in a bid to enhance Claude's autonomous task capabilities. The acquisition brings on board researchers with impressive credentials, including alumni from the Allen Institute for AI."
+author: "AI News Editorial"
+description: "Anthropic acquires Vercept, a Seattle AI startup that built computer-use agents, in a bid to enhance Claude's autonomous task capabilities. The acquisition brings on board researchers with impressive credentials."
 categories:
-
   - Industry News
-
 image: "https://pollinations.ai/p/Anthropic%20Vercept%20acquisition%20computer%20use%20agents/?width=1024&height=576&nologo=true"
 ---
 Anthropic has acquired Vercept, a Seattle-based AI startup specializing in computer-use agents, the company announced Wednesday. The acquisition marks Anthropic's latest move to strengthen Claude's autonomous task capabilities, following their December purchase of Bun to scale Claude Code.

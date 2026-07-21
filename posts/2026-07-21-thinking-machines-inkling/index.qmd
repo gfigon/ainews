@@ -1,0 +1,35 @@
+---
+title: "Thinking Machines Releases Inkling: First Open-Source 1 Trillion Parameter Multimodal Model"
+date: "2026-07-21 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Thinking Machines unveils Inkling, a 975B active parameter open multimodal model with native image, text, and audio support, 1M context window, and day-0 transformers integration."
+image: "https://pollinations.ai/p/Thinking+Machines+Inkling+1T+multimodal+model?width=1024&height=576&seed=29725&nologo=true"
+---
+
+Thinking Machines has released **Inkling**, what the company calls the first large open model with approximately 1 trillion parameters and 1 million context window to natively accept image, text, and audio inputs. The model was trained on 45 trillion tokens spanning text, images, audio, and video.
+
+## Architecture Highlights
+
+Inkling is a decoder-only multimodal Mixture-of-Experts model with 975B total and 41B active parameters. The architecture introduces several novel components:
+
+- **Relative attention** replaces RoPE for positional encoding, learning position directly in attention logits
+- **Hybrid attention** alternates between sliding window (5:1 ratio) and global attention layers for computational efficiency  
+- **Short convolution (SConv)** processes local context, freeing attention and MoE modules from local representations
+- **MoE with shared experts** routes to 6 experts plus 2 always-active shared experts across 256 total experts
+
+The multimodal towers are notably simple—unlike models with separate encoders, each image patch and audio chunk passes through dedicated embedding towers to produce unified token representations.
+
+## Capabilities and Inference
+
+Inkling supports any-to-any modality processing through a unified pipeline. The model comes in full BF16 (requiring 2TB VRAM) and a quantized NVFP4 variant (600GB VRAM) for Blackwell GPUs. Day-0 support is available in transformers (v5.14.0+), SGLang, and llama.cpp for local deployment via ggml quants.
+
+Users can adjust reasoning effort across seven levels from "none" to "max" via the `reasoning_effort` parameter. The model includes speculative MTP layers for faster inference.
+
+## Enterprise Implications
+
+With native multimodal reasoning across all major modalities and a 1M token context, Inkling targets domain adaptation via fine-tuning. The open model release—available on Hugging Face—signals a new wave of multimodal reasoning applications where enterprises can build specialized systems without relying on proprietary APIs.
+
+The combination of open weights, extensive modality support, and mainstream inference framework integration makes this a notable addition to the open model ecosystem.

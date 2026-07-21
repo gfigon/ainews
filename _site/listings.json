@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-21-intuit-agent-architecture-rebuild/index.html",
+      "/posts/2026-07-21-thinking-machines-inkling/index.html",
+      "/posts/2026-07-21-intuit-agent-rebuild/index.html",
+      "/posts/2026-07-21-rag-cleanup-trap/index.html",
       "/posts/2026-07-21-pinecone-nexus/index.html",
       "/posts/2026-07-21-nvidia-mcp-cosmos/index.html",
       "/posts/2026-07-21-aws-agentcore-ga/index.html",
