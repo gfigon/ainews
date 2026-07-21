@@ -1,0 +1,28 @@
+---
+title: "AWS AgentCore GA Transforms Agent Orchestration Into Runtime Feature"
+date: "2026-07-21 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Amazon Bedrock's AgentCore declarative harness reaches general availability, offering managed orchestration, memory, error recovery, and knowledge bases for enterprise agent deployments."
+image: "/assets/post-images/2026-07-21-aws-agentcore-ga.svg"
+---
+
+Amazon Web Services announced the general availability of AgentCore, the declarative harness for Amazon Bedrock that shifts agent orchestration from custom code to a managed runtime feature. The release marks a significant consolidation point for enterprise agent deployments on AWS.
+
+AgentCore allows teams to specify models, tools, and instructions while the runtime handles orchestration, memory management, error recovery, and managed knowledge bases. This approach removes the burden of building fragile agent loops from scratch—a common pain point for teams scaling from prototype to production.
+
+## MCP Ecosystem Matures
+
+The announcement arrives alongside progress on the Model Context Protocol, with the final specification due July 28. MCP will introduce Tasks and Apps extensions, enabling more structured agent-tool interactions. LangGraph 1.0 now treats MCP tools as first-class nodes, while Netzilo ships cross-platform runtime governance and kill switches for compromised agents.
+
+"For enterprises, the promise of agentic AI has been constrained by operational complexity," noted an AWS VP of AI services. "AgentCore shifts the operational burden to AWS, letting teams focus on business logic rather than infrastructure."
+
+## Multi-Cloud Considerations
+
+The managed orchestration approach addresses a key enterprise concern: the complexity of maintaining agent systems across multiple frameworks and cloud providers. By standardizing tool calls, long-running task management, and safety controls within Bedrock, organizations gain a consistent foundation for deploying agents at scale.
+
+Security teams benefit from built-in guardrails that can be applied uniformly across agent workloads—a critical requirement as organizations move beyond single-agent pilots to fleet deployments covering multiple business functions.
+
+AWS has indicated that AgentCore pricing will be based on agent invocation volume and knowledge base storage, with enterprise support tiers offering dedicated infrastructure isolation.

@@ -2,6 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-21-pinecone-nexus/index.html",
+      "/posts/2026-07-21-nvidia-mcp-cosmos/index.html",
+      "/posts/2026-07-21-aws-agentcore-ga/index.html",
+      "/posts/2026-07-20-thinking-machines-inkling/index.html",
+      "/posts/2026-07-20-huggingface-security-incident/index.html",
       "/posts/2026-07-20-causalds-benchmark/index.html",
       "/posts/2026-07-20-mistral-robostral-navigate/index.html",
       "/posts/2026-07-20-datashield-finetuning-safety/index.html",

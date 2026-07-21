@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "NVIDIA MCP Cosmos 3 Edge SIGGRAPH 2026",
+      "count": 1,
+      "last_published": "2026-07-21",
+      "slugs": [
+        "2026-07-21-nvidia-mcp-cosmos"
+      ]
+    },
+    {
+      "term": "AWS AgentCore GA Bedrock Orchestration Runtime",
+      "count": 1,
+      "last_published": "2026-07-21",
+      "slugs": [
+        "2026-07-21-aws-agentcore-ga"
+      ]
+    },
+    {
+      "term": "Pinecone Nexus Knowledge Engine Agents Enterprise",
+      "count": 1,
+      "last_published": "2026-07-21",
+      "slugs": [
+        "2026-07-21-pinecone-nexus"
+      ]
+    },
+    {
       "term": "Anthropic S-1 IPO Filing SEC Confidential October 2026",
       "count": 1,
       "last_published": "2026-07-20",
