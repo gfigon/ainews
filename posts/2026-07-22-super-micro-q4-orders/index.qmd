@@ -1,0 +1,22 @@
+---
+title: "Super Micro Q4 Orders Hit Record $60B as AI Server Demand Explodes"
+date: "2026-07-22 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Super Micro Computer reports Q4 FY2026 orders exceeding $60B, the largest backlog in company history, with gross margins nearly doubling prior guidance."
+image: "/assets/post-images/2026-07-22-super-micro-q4-orders.svg"
+---
+
+Super Micro Computer has delivered a blockbuster earnings preview that underscores the insatiable demand for AI infrastructure. The server maker filed an 8-K late Monday revealing Q4 FY2026 orders topped $60 billion—the largest backlog in company history—with revenue expected near the low end of the $11–12.5 billion range.
+
+The headline number that caught Wall Street's attention was gross margins. Super Micro now projects margins of 15–17%, nearly double the prior guidance of 8.2–8.4%. The jump reflects a favorable shift in customer composition and product mix as AI-server demand accelerates across hyperscalers, enterprises, and sovereign AI initiatives.
+
+The announcement sent Super Micro shares jumping 17–20% in after-hours trading, erasing months of concerns about the company's ability to scale liquid cooling and GPU-dense server deployments. The $60 billion in orders represents a staggering pipeline that should keep production lines busy well into 2027.
+
+Super Micro has emerged as the go-to partner for NVIDIA's AI server reference designs, particularly the GB200 NVL72 and upcoming Blackwell Ultra configurations. The company's liquid cooling expertise—once viewed as a differentiator—has become a prerequisite as AI clusters consume unprecedented power density.
+
+The results validate the thesis that AI infrastructure spending is not slowing down despite concerns about ROI and GPU utilization. If anything, the margin expansion suggests Super Micro is moving up the value chain, capturing more profitable component and integration revenue rather than merely shipping commodity boxes.
+
+For the broader market, the $60B figure signals that the AI build-out remains in its early innings. Major customers are locking in multi-year supply commitments, and the company flagged that it still cannot meet demand across all product lines.
