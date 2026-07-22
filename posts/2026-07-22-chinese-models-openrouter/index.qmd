@@ -1,0 +1,22 @@
+---
+title: "Chinese Open-Weight Models Now Power 60% of US OpenRouter Traffic"
+date: "2026-07-22 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "US companies have shifted heavily toward Chinese open-weight models on OpenRouter, with Qwen, DeepSeek, and Kimi now handling majority of token volume—complicating potential Washington restrictions."
+image: "/assets/post-images/2026-07-22-chinese-models-openrouter.svg"
+---
+
+US enterprises have quietly become reliant on Chinese artificial intelligence models, with open-weight offerings from Alibaba's Qwen, DeepSeek, and Moonshot's Kimi now accounting for roughly 60% of token usage on model marketplace OpenRouter. The scale of adoption complicates any US move to restrict Chinese frontier models—cutting them off would disrupt significant enterprise workloads already routed through these open-weight endpoints.
+
+The finding, reported by Bloomberg, represents a dramatic shift in just months. OpenRouter, which provides a unified API for accessing dozens of language models, has become a critical infrastructure layer for developers seeking to mix and match models based on cost and capability. The dominance of Chinese models reflects their strong performance on coding and reasoning tasks combined with aggressive pricing through API access.
+
+Qwen models have proven particularly popular for enterprise applications requiring strong multilingual capabilities, while DeepSeek's offerings have gained traction among developers seeking high performance at lower costs. Kimi K3, released earlier this month, has quickly become a favorite for its analytical capabilities despite higher operational costs compared to alternatives.
+
+The adoption pattern poses a challenge for Washington policymakers exploring restrictions on Chinese AI technologies. Many US companies have already built workflows, fine-tuning pipelines, and production systems around these Chinese models. Restricting access would require not just regulatory action but significant engineering effort to migrate to alternatives—a process that could take months and incur substantial costs.
+
+Industry analysts note that the open-weight nature of these models provides some workaround potential even under strict sanctions, as the model weights can theoretically be downloaded and self-hosted. However, this would eliminate the convenience and scalability of API-based access through platforms like OpenRouter.
+
+The development also highlights the success of Chinese AI labs in producing competitive open-weight alternatives to Western frontier models. What began as an effort to catch up has evolved into a situation where Chinese models now lead in certain market segments—a dynamic that US policy has not yet fully addressed.
