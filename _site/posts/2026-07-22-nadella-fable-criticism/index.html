@@ -8,7 +8,7 @@
 
 <meta name="author" content="AI News Editorial">
 
-<title>Intuit Rebuilds AI Agent Architecture Twice in Four Months — Lessons Learned</title>
+<title>Microsoft CEO Satya Nadella Calls Anthropic’s Fable ‘Editorially Controlled’ in Rare Public Criticism</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,16 +107,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../assets/colors_and_type.css">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
-<meta property="og:title" content="Intuit Rebuilds AI Agent Architecture Twice in Four Months — Lessons Learned">
+<meta property="og:title" content="Microsoft CEO Satya Nadella Calls Anthropic’s Fable ‘Editorially Controlled’ in Rare Public Criticism">
 <meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta property="og:image" content="https://pollinations.ai/p/Intuit+AI+agent+architecture+rebuild?width=1024&amp;height=576&amp;seed=48291&amp;nologo=true">
-<meta name="twitter:title" content="Intuit Rebuilds AI Agent Architecture Twice in Four Months — Lessons Learned">
+<meta property="og:image" content="https://roboaidigest.com/assets/post-images/2026-07-22-nadella-fable-criticism.svg">
+<meta name="twitter:title" content="Microsoft CEO Satya Nadella Calls Anthropic’s Fable ‘Editorially Controlled’ in Rare Public Criticism">
 <meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta name="twitter:image" content="https://pollinations.ai/p/Intuit+AI+agent+architecture+rebuild?width=1024&amp;height=576&amp;seed=48291&amp;nologo=true">
+<meta name="twitter:image" content="https://roboaidigest.com/assets/post-images/2026-07-22-nadella-fable-criticism.svg">
 <meta name="twitter:creator" content="@roboaidigest">
 <meta name="twitter:site" content="@roboaidigest">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/posts/2026-07-21-intuit-agent-architecture-rebuild/">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-07-22-nadella-fable-criticism/">
 </head>
 
 <body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Intuit Rebuilds AI Agent Architecture Twice in Four Months — Lessons Learned</h1>
+      <h1 class="title">Microsoft CEO Satya Nadella Calls Anthropic’s Fable ‘Editorially Controlled’ in Rare Public Criticism</h1>
                                     </div>
   </div>
     
@@ -341,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026-07-21 10:15</p>
+        <p class="date">2026-07-22 08:00</p>
       </div>
     </div>
     
@@ -352,16 +352,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-first-rebuild-specialist-agents-to-orchestration" id="toc-the-first-rebuild-specialist-agents-to-orchestration" class="nav-link active" data-scroll-target="#the-first-rebuild-specialist-agents-to-orchestration">The First Rebuild: Specialist Agents to Orchestration</a></li>
-  <li><a href="#the-second-rebuild-skills-and-tools" id="toc-the-second-rebuild-skills-and-tools" class="nav-link" data-scroll-target="#the-second-rebuild-skills-and-tools">The Second Rebuild: Skills and Tools</a></li>
-  <li><a href="#human-in-the-loop-and-feedback-at-scale" id="toc-human-in-the-loop-and-feedback-at-scale" class="nav-link" data-scroll-target="#human-in-the-loop-and-feedback-at-scale">Human-in-the-Loop and Feedback at Scale</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -374,26 +366,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Intuit, an early pioneer in agentic AI, revealed at VB Transform 2026 that it rebuilt its entire AI agent architecture twice in just four months before finding a sustainable approach. The journey offers a cautionary tale for enterprises rushing agent systems into production.</p>
-<section id="the-first-rebuild-specialist-agents-to-orchestration" class="level2">
-<h2 class="anchored" data-anchor-id="the-first-rebuild-specialist-agents-to-orchestration">The First Rebuild: Specialist Agents to Orchestration</h2>
-<p>The company initially deployed a fleet of specialist agents but faced a common customer complaint—users still had to decide which agent to use for each task. Intuit’s solution was an orchestration layer that could route tasks internally without customer intervention.</p>
-<p>That architecture held for approximately three months before failing. The problem wasn’t capacity but <strong>error compounding through natural language handoffs</strong>. When agents passed results to each other in natural language, each downstream agent had to infer how the previous one reached its conclusions—and that inference degraded with each additional hop.</p>
-<p>“If you have 10 agents and they all are passing to each other, every time that pass happens, error compounds,” explained Nhung Ho, Intuit’s VP of AI.</p>
-</section>
-<section id="the-second-rebuild-skills-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="the-second-rebuild-skills-and-tools">The Second Rebuild: Skills and Tools</h2>
-<p>Intuit abandoned the orchestration approach entirely, rebuilding in 60 days (with a first working version in under 20) using a <strong>skills and tools architecture</strong>. The key insight: rather than passing context between agents, decompose capabilities into reusable skills and tools that any agent can call directly.</p>
-<p>The rebuild required convincing both leadership and the engineers who had built the original specialist agents. Ho’s team built a demo using real production customer queries, demonstrating better performance than the existing system—a more persuasive argument than any architectural discussion.</p>
-</section>
-<section id="human-in-the-loop-and-feedback-at-scale" class="level2">
-<h2 class="anchored" data-anchor-id="human-in-the-loop-and-feedback-at-scale">Human-in-the-Loop and Feedback at Scale</h2>
-<p>The new architecture enables a feature currently in early testing with 1% of customers: bringing a human into the conversation mid-stream. Customers can pull in an Intuit support person, their own accountant, or a bookkeeper with full context of what the agent has already accomplished.</p>
-<p>Perhaps most significantly, the shift transformed feedback collection. From roughly 0.3% of customers providing explicit feedback in traditional chat systems, Intuit now collects feedback from nearly 100% of conversations. The tone is direct: “They straight up tell you, ‘You suck. I hate this. This is not right.’” But customers also correct the system and give it grace—creating an unprecedented volume of actionable improvement data.</p>
-<p>The lesson for enterprise AI: the fastest path forward sometimes requires the courage to start over.</p>
+<p>In an unusually public display of tension between technology partners, Microsoft CEO Satya Nadella has criticized Anthropic’s Fable AI model for being excessively restrictive, describing it as “editorially controlled” during an internal meeting with Copilot engineering teams on July 16.</p>
+<p>The remarks, which emerged publicly this week, represent a remarkable moment in the otherwise cozy relationship between Microsoft and Anthropic. Despite Microsoft having invested $5 billion in Anthropic and holding a significant Azure commitment from the company, Nadella directly questioned Fable’s design philosophy in front of his own engineering teams—the very people building Microsoft’s AI assistant on top of Claude technology.</p>
+<p>“When you use Fable, when it refuses for any random thing, it just is like, when was the last time you had a creation tool that was so editorially controlled?” Nadella said in the meeting. “It doesn’t make sense.”</p>
+<p>The criticism centers on Fable’s content refusal patterns, which Nadella argued are too aggressive even for harmless requests. From a product perspective, the Microsoft CEO suggested that excessive caution undermines the utility that enterprise customers expect from AI assistants. The internal friction highlights a fundamental tension in the AI industry: the balance between safety guardrails and practical utility, especially in enterprise contexts where users expect AI to handle a wide range of tasks without unnecessary limitations.</p>
+<p>Beyond the immediate product criticism, Nadella also addressed broader market concerns. “It can’t be that there are only two companies in the world with token capital, and everybody else is renting it,” he said—a structural argument against the concentration of AI capabilities among a small number of frontier labs that effectively control global AI access terms.</p>
+<p>The remarks carry particular weight given the financial entanglements between the two companies. Microsoft’s $5 billion investment in Anthropic was announced as a strategic partnership to accelerate AI safety research, while Anthropic committed $30 billion to Microsoft Azure for compute infrastructure. This interdependence makes the public nature of Nadella’s criticism all the more striking.</p>
+<p>Anthropic declined to comment on the remarks. The company has maintained that its safety-focused approach—characterized by more aggressive content policies and refusal behaviors—represents a competitive differentiation rather than a limitation. Fable’s guardrails have been a central selling point for enterprise customers prioritizing risk management over raw capability.</p>
+<p>For Microsoft, the situation presents a strategic quandary. The company has invested heavily in Anthropic as an alternative to OpenAI while simultaneously building its own MAI models. The Copilot team, tasked with delivering AI assistance to hundreds of millions of Microsoft users, finds itself dependent on technology that its own CEO publicly questions.</p>
+<p>The incident signals a maturing of enterprise AI partnerships, where the public positioning of strategic alliances may diverge from private engineering frustrations. As AI assistants become central to enterprise workflows, the tension between safety-first and utility-first design philosophies will likely produce more such public disputes—even among companies with deep financial relationships.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <footer class="rad-footer">

@@ -1,0 +1,30 @@
+---
+title: "Thinking Machines Lab Releases Inkling: A 975B Open-Weight MoE Model"
+date: "2026-07-20 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Thinking Machines Lab releases Inkling, a 975 billion parameter open-weight Mixture-of-Experts model with innovative architectural choices including short convolutions and relative-position bias."
+image: "/assets/post-images/2026-07-20-thinking-machines-inkling.svg"
+---
+
+Thinking Machines Lab, the AI research startup founded by former Google DeepMind researchers, has released Inkling, a 975 billion parameter open-weight Mixture-of-Experts (MoE) model. The release marks one of the largest open-weight models to date and introduces several architectural innovations that set it apart from existing open-source offerings.
+
+## Architectural Innovations
+
+Inkling's architecture includes several notable design choices. The model employs a sparse MoE structure where only a fraction of parameters are active for any given token, enabling efficient inference despite the massive total parameter count. Short convolutions replace some traditional attention mechanisms, potentially reducing computational overhead while maintaining model capability.
+
+The model also incorporates embedding RMSNorm for improved layer normalization and uses relative-position bias instead of absolute positional encodings. According to initial benchmark notes from AI researcher Sebastian Raschka, these choices represent a departure from conventional transformer designs while maintaining compatibility with established training pipelines.
+
+## Benchmark Performance
+
+Early benchmark results position Inkling competitively against other frontier models. The technical profile suggests strong performance across reasoning, coding, and general language tasks, though independent verification of these claims remains pending as the research community begins evaluating the model.
+
+## Open-Weight Strategy
+
+By releasing Inkling as an open-weight model, Thinking Machines Lab joins the growing ecosystem of companies providing access to large-scale AI capabilities. This approach enables researchers and developers to inspect, fine-tune, and deploy the model locally, contrasting with API-only access models offered by some competitors.
+
+The release comes amid intensifying competition in the large language model space, with Chinese labs, established US companies, and new entrants all vying for position in the rapidly evolving market. Inkling's combination of scale and open accessibility could influence how the AI community approaches model development and distribution in the second half of 2026.
+
+Thinking Machines Lab has made the model weights available through their website, with documentation covering architecture details, intended use cases, and limitations.

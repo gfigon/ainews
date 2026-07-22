@@ -1,0 +1,40 @@
+---
+title: "Intuit Reveals: We Rebuilt Our AI Agent Architecture Twice in Four Months"
+date: "2026-07-21 08:45"
+author: "AI News Editorial"
+categories:
+  - "Agents & Automation"
+  - "Industry News"
+summary: "Intuit's VP of AI reveals how the company discarded its orchestration layer twice, settling on a skills-and-tools architecture after discovering that agent-to-agent handoffs compound errors with each hop."
+image: "https://pollinations.ai/p/intuit%20AI%20agent%20rebuild"
+---
+
+Intuit was an early pioneer in agentic AI, but its path to success has hardly been a straight line. At VB Transform 2026, Intuit VP of AI Nhung Ho described how the company rebuilt its agent architecture twice in the span of about four months, first moving from a fleet of specialist agents to a central orchestration layer, then abandoning that layer for a skills and tools based system once the orchestrator itself started failing under its own complexity.
+
+The failure mode that forced the second rewrite was specific. Agents in the orchestrated system passed results to each other in natural language, and each handoff lost context the next agent needed to act correctly. "If you have 10 agents and they all are passing to each other, every time that pass happens, error compounds," Ho said.
+
+## Why the orchestration layer broke down
+
+Ho said the original push toward specialist agents came from a straightforward customer complaint. A fleet of capable agents is still something a customer has to manage, deciding which agent to use for which task. Intuit's answer was a system that could take a task and route it internally, without asking the customer to pick an agent themselves.
+
+That orchestration layer held up for about three months, which Ho described only half joking as roughly a year in the compressed timeline of agent development in 2026.
+
+It broke for a structural reason rather than a capacity one. Passing outcomes between agents in natural language meant each downstream agent had to infer how the upstream agent reached its conclusion, and that inference degraded with each additional hop. A ten agent chain did not fail occasionally, it compounded errors by design.
+
+## The 60-day rebuild
+
+That diagnosis is what sent Intuit back to a skills and tools architecture. Rebuilding a production agent system in 60 days required more than an architectural decision. Ho said the harder problem was internal, convincing both leadership and the engineers who had built the original agents that scrapping recent work was the right call.
+
+The pitch to leadership relied on evidence rather than argument. Ho's team built a demo of the new architecture using real customer queries pulled from production, then showed it performing better than the existing system on the same tasks.
+
+Winning over engineering required a different case. Hundreds of engineers outside Ho's core team had built the specialist agents being retired, and the ask was to take their agents apart into individual skills and tools instead. Ho said the motivating argument was scale. A standalone agent solved one narrow problem, while a shared skill or tool built into the new architecture could serve every customer who touched that part of the product.
+
+The clearest customer facing result of the rebuild is a feature that lets a live agent conversation pull in a human — though it's currently in early testing, live to about 1% of Intuit's customer base.
+
+## Feedback at scale
+
+The rebuild also changed how Intuit gathers and uses feedback. "Feedback in the past used to be very, very sparse, and it was also very bimodal," Ho said. "Either they loved it or they hated it, and usually it tends towards the negative."
+
+In a chat based system, every conversation functions as feedback, which Ho said moved the company from roughly 0.3% of customers ever giving explicit feedback to something close to 100%.
+
+The lesson for enterprises building agent systems: the orchestration layer pattern that seems intuitive may actually introduce compounding errors. Skills and tools architectures, where agents pull from shared capabilities rather than passing work between each other, may prove more reliable at scale.
