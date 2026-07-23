@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "White House AI Pre-Release Review Framework August 1 Voluntary",
+      "count": 1,
+      "last_published": "2026-07-23",
+      "slugs": [
+        "2026-07-23-white-house-ai-review"
+      ]
+    },
+    {
+      "term": "Anthropic Claude NVIDIA GB300 Blackwell Ultra Azure Foundry GA",
+      "count": 1,
+      "last_published": "2026-07-23",
+      "slugs": [
+        "2026-07-23-anthropic-azure-gb300"
+      ]
+    },
+    {
+      "term": "NVIDIA Microsoft Unified Agentic AI Stack Windows Azure RTX Spark",
+      "count": 1,
+      "last_published": "2026-07-23",
+      "slugs": [
+        "2026-07-23-nvidia-microsoft-agentic-stack"
+      ]
+    },
+    {
       "term": "Chinese Open-Weight Models 60% US OpenRouter Tokens Qwen DeepSeek Kimi",
       "count": 1,
       "last_published": "2026-07-22",

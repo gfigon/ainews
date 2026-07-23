@@ -1,0 +1,24 @@
+---
+title: "Anthropic's Claude Models Now Run on NVIDIA GB300 Blackwell Ultra in Microsoft Azure"
+date: "2026-07-23 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Claude models hosted on NVIDIA GB300 Blackwell Ultra GPUs are now generally available in Microsoft Foundry, enabling enterprises to build autonomous agents on Azure-native infrastructure."
+image: "/assets/post-images/2026-07-23-anthropic-azure-gb300.svg"
+---
+
+Anthropic's Claude models running on NVIDIA GB300 Blackwell Ultra GPUs are now generally available in Microsoft Foundry, giving Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. The availability marks a significant milestone in the partnership between Anthropic, NVIDIA, and Microsoft to deliver high-performance AI inference at scale.
+
+The GB300 Blackwell Ultra represents NVIDIA's latest generation of AI accelerators, designed specifically for the demanding inference workloads required by large language models. The combination of Blackwell Ultra hardware with Claude's capabilities creates what NVIDIA describes as a "powerful new foundation" for enterprise AI agent development.
+
+Enterprises accessing Claude through Microsoft Foundry will benefit from the native integration with Azure's broader AI infrastructure, including connections to Azure OpenAI Service, Azure AI Search, and other platform services. This integration simplifies the development pipeline for organizations building multi-agent systems that combine different AI capabilities.
+
+The availability comes amid intensifying competition in the enterprise AI inference market, with major cloud providers racing to offer the latest models on their platforms. Microsoft has positioned Foundry as its unified AI development platform, enabling organizations to access frontier models from multiple providers through a consistent API and tooling surface.
+
+From an infrastructure perspective, the GB300 delivers substantial improvements in throughput and efficiency compared to previous generations. NVIDIA's blog post highlighted that the Blackwell Ultra architecture was purpose-built for the token-processing demands of modern LLMs, with particular optimizations for the long-context workloads that enterprise agents typically require.
+
+Industry analysts note that the availability of Claude on Azure with Blackwell Ultra infrastructure represents a strategic win for Anthropic in the enterprise market, where many organizations prefer multi-cloud or Azure-first strategies. The partnership gives Anthropic access to Microsoft's enterprise customer base while providing those customers with another frontier model option beyond OpenAI's GPT family.
+
+The general availability follows a preview period during which select enterprise customers tested the combination for production workloads. Microsoft reports strong interest from financial services, healthcare, and manufacturing companies looking to deploy Claude-powered agents for complex reasoning tasks.

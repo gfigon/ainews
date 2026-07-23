@@ -1,0 +1,24 @@
+---
+title: "White House Finalizes 30-Day Pre-Release AI Review Framework Targeting August 1"
+date: "2026-07-23 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "The White House and five leading AI labs agree to voluntary pre-release model review framework with 30-day engagement period ahead of August 1 deadline."
+image: "/assets/post-images/2026-07-23-white-house-ai-review.svg"
+---
+
+The White House is finalizing a voluntary pre-release AI model review framework with five leading AI laboratories—Anthropic, OpenAI, Google, Microsoft, and Amazon—targeting an August 1, 2026 deadline for implementation. The framework represents a significant shift in how frontier AI models will be evaluated before public release.
+
+Under the voluntary framework, AI labs would engage with federal agencies for up to 30 days before releasing new models, providing advance notice and opportunity for security assessment. The initiative builds on Executive Order 14409 signed by President Trump in June 2026, titled "Promoting Advanced Artificial Intelligence Innovation and Security," which directed agencies to establish guidelines for secure deployment of frontier AI systems.
+
+The deal includes adoption of what the labs are calling the first standardized jailbreak scoring scale, providing a quantitative metric for evaluating model safety before release. This represents a departure from the previous approach where each company conducted its own safety evaluations with varying methodologies.
+
+"This looks more like a delay-reduction setup than a new AI approval system," noted one analyst at AInvest, highlighting that the framework remains voluntary rather than mandatory. The administration has emphasized this is a collaborative approach working with industry rather than imposing top-down regulations.
+
+The framework specifically excludes Meta from the initial five-company agreement, according to reports, and benchmarks used in evaluations may be classified. The agreement comes amid intensifying global competition in AI development, particularly following recent advances from Chinese labs including Moonshot AI's Kimi K3 model.
+
+Industry observers note that while the voluntary nature provides flexibility for companies, it also raises questions about enforceability and whether market pressures will be sufficient to ensure compliance. The 30-day window is notably shorter than the 90-day pre-release sharing period initially proposed in earlier drafts of the framework.
+
+The pre-release review framework is expected to focus primarily on frontier models with capabilities approaching or exceeding current state-of-the-art systems, while smaller models and incremental updates may proceed under existing review processes.
