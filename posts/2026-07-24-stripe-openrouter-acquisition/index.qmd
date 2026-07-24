@@ -1,0 +1,22 @@
+---
+title: "Stripe in Talks to Acquire OpenRouter for $10B"
+date: "2026-07-24 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Stripe is in discussions to acquire AI model marketplace OpenRouter for approximately $10 billion, nearly 8x its May valuation of $1.3 billion."
+image: "/assets/post-images/2026-07-24-stripe-openrouter-acquisition.svg"
+---
+
+Payments giant Stripe is in talks to acquire OpenRouter, the AI model API marketplace that aggregates access to over 400 models from OpenAI, Anthropic, Google, Meta, and open-source providers. The deal is valued at roughly $10 billion — a staggering 8x multiplier on OpenRouter's $1.3 billion valuation from just two months ago.
+
+The Wall Street Journal first reported the negotiations, noting that a formal announcement could come soon, though talks could still fall through. The deal would represent one of the largest acquisitions in the AI infrastructure space and signals a significant consolidation trend in how enterprises access AI models.
+
+**Why it matters**: OpenRouter has emerged as a critical abstraction layer for AI deployments, allowing developers to switch between models without vendor lock-in. Stripe's interest suggests the payments company sees AI inference as a core infrastructure play — OpenRouter already processes payments for thousands of AI applications, and acquiring the platform would give Stripe direct ownership of the routing and billing infrastructure.
+
+OpenRouter's annualized revenue reached approximately $50 million in April. While modest compared to Stripe's overall business, the growth trajectory and strategic positioning in the AI stack appear to justify the premium valuation.
+
+The acquisition would also give Stripe a foothold in the rapidly expanding AI API marketplace, competing directly with cloud giants' native model services. With AI spending projected to reach hundreds of billions annually across enterprises, controlling the routing and payment layer for model access represents a compelling strategic asset.
+
+If completed, the deal would rank among the largest AI infrastructure acquisitions to date, alongside Microsoft's $13 billion GitHub investment and Amazon's Anthropic commitments.

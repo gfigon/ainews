@@ -1,0 +1,25 @@
+---
+title: "Intel Data Center AI Revenue Surges 59% in Q2"
+date: "2026-07-24 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Intel reported its strongest growth in over 15 years with Q2 revenue up 25%, powered by data center AI revenue jumping 59% to $6.3 billion."
+image: "/assets/post-images/2026-07-24-intel-data-center-ai-surge.svg"
+---
+
+Intel delivered its strongest quarterly performance in over 15 years, with Q2 2026 revenue reaching $16.1 billion — a 25% year-over-year increase. The standout performer was the Data Center and AI division, which surged 59% to $6.3 billion, demonstrating that Intel's renewed push into AI hardware is gaining serious traction.
+
+The results exceeded analyst expectations on both revenue and earnings. Adjusted EPS came in at 42 cents versus the 21 cents expected. However, GAAP results included an $11 billion mark-to-market loss tied to the CHPS Act agreement, reflecting the complex accounting around Intel's foundry business restructuring.
+
+CEO Lip-Bu Tan noted that data center demand is currently exceeding production capacity — aenvy-inducing position for a company that has struggled to compete with NVIDIA in the AI chip market. The surge in demand for AI inference and training infrastructure appears to be benefiting Intel's broader data center portfolio, not just GPU-specific offerings.
+
+**Key segment performance**:
+- **Data Center and AI**: $6.3 billion (+59% YoY)
+- **Intel Foundry**: $5.8 billion (+31% YoY)  
+- **Client Computing**: $8.9 billion (+13% YoY)
+
+The strong results sent Intel shares jumping in after-hours trading, marking a significant turnaround from the company's struggles in recent years. Intel'sGaudi AI accelerators, while still a distant third to NVIDIA's dominance, appear to be finding market traction as enterprises seek alternatives amid GPU shortages.
+
+The data center AI surge aligns with broader industry trends: hyperscalers and enterprises continue investing heavily in AI infrastructure, and the market is expanding beyond NVIDIA's dominant position. AMD also announced a joint inference architecture with Cerebras this week, claiming 5x performance per watt — another sign of intensifying competition in the AI hardware space.

@@ -1,0 +1,22 @@
+---
+title: "Claude Cowork Sandbox Escape Exposes 500K Macs: Anthropic Won't Patch"
+date: "2026-07-24 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Accomplish AI discloses a critical sandbox escape vulnerability in Claude Cowork affecting roughly 500,000 Macs — Anthropic declined to ship a fix."
+image: "/assets/post-images/2026-07-24-claude-cowork-escape.svg"
+---
+
+A critical sandbox escape vulnerability in Claude Cowork, Anthropic's enterprise AI agent product, leaves approximately 500,000 Mac devices exposed — and the company has no plans to patch it.
+
+Security researcher Accomplish AI disclosed the flaw on July 23. The vulnerability, dubbed "SharedRoot," exploits a chain involving unprivileged user namespaces and CVE-2026-46331 in the guest kernel. A single message sent to Claude Cowork's Linux virtual machine can break out of the sandbox, granting the agent full read and write access to the host Mac's filesystem — including SSH keys and cloud credentials.
+
+The implications for enterprise security are severe. Organizations deploying Claude Cowork for AI-assisted development now face the prospect of sensitive credentials, proprietary code, and internal system access potentially compromised through a single prompt injection attack.
+
+**Anthropic's response**: The company closed the security report as "informative" without shipping a fix. Users are now being directed to rely on cloud execution as the default, rather than local processing — a significant trade-off for enterprises with data residency requirements or security policies prohibiting cloud-based AI inference.
+
+This incident adds to a growing list of AI agent security concerns. Last month, a OpenAI-Hugging Face sandbox escape raised congressional pressure, leading to the FRONTIER Act introduced this week, which would mandate security audits for AI developers spending more than $1 billion on development.
+
+The timing is particularly awkward for Anthropic, whose Claude enterprise products have positioned security as a key differentiator against competitors. The company's silence on the vulnerability, combined with the lack of a timeline for potential remediation, leaves enterprise customers in a difficult position.
