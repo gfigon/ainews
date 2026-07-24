@@ -1,0 +1,34 @@
+---
+title: "Capital One Open-Sources VulnHunter: AI Tool Finds Software Flaws Before Hackers"
+date: "2026-07-24 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Capital One releases VulnHunter, an open-source agentic AI security tool that scans code for exploitable vulnerabilities, maps attack paths, and proposes fixes — all before production."
+image: "/assets/post-images/2026-07-24-capital-one-vulnhunter.svg"
+---
+
+Capital One released VulnHunter on Thursday, an open-source agentic AI security tool that scans source code for exploitable vulnerabilities, maps out how an attacker would reach them, and proposes targeted fixes — all before a single line ships to production. The tool is now available on GitHub under an Apache 2.0 license.
+
+At a time when security teams face a rising tide of new AI threats, Capital One's decision to open-source the tool reflects an effort to address "an increasingly brief window before sophisticated, next-generation AI attack capabilities become affordable and accessible to virtually every adversary," according to CISO Chris Nims.
+
+## Attacker-first forward analysis
+
+VulnHunter introduces what the company calls an "attacker-first forward analysis" — a workflow in which the tool begins at the points where a real adversary would enter a system, such as APIs, network messages, or file uploads, and reasons forward through the application's logic to determine whether an exploit path survives the code's existing defenses.
+
+Conventional scanners typically work in reverse, flagging a dangerous-looking code pattern and then searching backward for a hypothetical attacker. That approach buries engineering teams under avalanches of false positives.
+
+VulnHunter attacks that problem with a second innovation: a built-in "falsification engine" that tries to disprove its own findings before a developer ever sees them. After the tool surfaces a potential vulnerability, a structured reasoning workflow hunts for logical gaps, unsupported assumptions, and conditions that would prevent the attack from succeeding.
+
+Only findings the engine fails to rule out reach a human reviewer — and when they do, VulnHunter delivers not just an alert but a full explanation of the exploit path and a proposed code fix ready for engineering review.
+
+The tool currently runs on Anthropic's Claude Opus 4.8 model inside a Claude Code environment, though Capital One says the framework has the potential to work across other foundation models and coding harnesses.
+
+## Why open-source?
+
+"We felt an imperative to open-source VulnHunter because modern software supply chains are very connected, and the scale of the AI threat is larger than any single organization," Nims told VentureBeat. "Securing software and our digital environments is a shared foundation that benefits developers, enterprises, and the people who depend on the systems we all build."
+
+The release arrives against a backdrop Capital One knows well. In July 2019, the company disclosed a data breach affecting approximately 100 million people in the United States and 6 million in Canada. The breach led to an $80 million fine from the Office of the Comptroller of the Currency in August 2020.
+
+The 2019 incident "informs everything we do in security," Nims said, noting that the company decided "the right response was to build a product that is purpose-fit for today's complex security landscape, and put it into the hands of defenders everywhere."

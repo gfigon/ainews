@@ -1,0 +1,36 @@
+---
+title: "Poolside Releases Laguna S 2.1: Open-Weight Coding Model Outperforms Models 10x Its Size"
+date: "2026-07-24 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Poolside launches Laguna S 2.1, a 118B parameter MoE coding model that beats DeepSeek and Thinking Machines on benchmarks while running on a single Nvidia DGX Spark."
+image: "/assets/post-images/2026-07-24-poolside-laguna-s21.svg"
+---
+
+Poolside, the San Francisco AI lab known for selling coding models to governments and defense agencies, released Laguna S 2.1 on Tuesday — an unusually aggressive bet that radical transparency, not raw scale, is how smaller labs can compete at the frontier.
+
+The model is a 118-billion-parameter Mixture-of-Experts system that activates only 8 billion parameters per token, supports a context window of up to 1 million tokens, and — according to company-published benchmarks — matches or beats open models several times its size on agentic coding tasks. The weights are available on Hugging Face under the permissive OpenMDW-1.1 license.
+
+**The headline numbers are striking for a model this small.** Poolside reports that Laguna S 2.1 scores 70.2% on Terminal-Bench 2.1, a benchmark of long-horizon terminal tasks, placing it 11th on the compiled leaderboard — ahead of DeepSeek-V4-Pro-Max, a 1.6-trillion-parameter model that scored 64.0%, and Thinking Machines' 975-billion-parameter Inkling, at 63.8%.
+
+On SWE-Bench Multilingual, it posts 78.5%, and on SWE-Bench Pro's public dataset, 59.4%. The model went from the start of pre-training on May 22 to public launch in under nine weeks, trained on 4,096 Nvidia H200 GPUs.
+
+## Why the West needs competitive open-weight models
+
+The release lands in the middle of an increasingly pointed debate about the provenance of open-weight AI. Over the past year, developer adoption has shifted decisively toward open-weight systems — and the leading options have overwhelmingly come from Chinese labs: DeepSeek, Qwen, Kimi, GLM, MiniMax, and Tencent's Hunyuan.
+
+Poolside frames Laguna S 2.1 explicitly as a response, noting the model occupies a size class into which no Western lab has released open weights in 11 months — since OpenAI's gpt-oss-120b last August. "The West needs open-weight models it can trust, run, and build on," said Jason Warner, Poolside's co-CEO.
+
+The strategic logic extends beyond philanthropy. Poolside's core business is deploying models inside government, defense, and regulated enterprises — customers for whom closed, metered API access is often a non-starter for compliance and sovereignty reasons.
+
+## Token economics for enterprise AI agents
+
+The sparse MoE architecture means inference costs scale with the 8 billion active parameters, not the 118 billion total. The model is small enough to run on a single Nvidia DGX Spark, the desktop-class AI machine.
+
+On OpenRouter, Poolside offers a free 256K-context endpoint and a dedicated 1M-context deployment priced at $0.10 per million input tokens and $0.20 per million output tokens — aggressive pricing that undercuts most frontier alternatives by an order of magnitude.
+
+The ecosystem support includes integrations across vLLM, SGLang, Ollama, and llama.cpp, plus quantized variants down to 4-bit GGUF files for local use.
+
+The most consequential part of the release may be Poolside's decision to publish the complete, unedited trajectory of every trial in its benchmark evaluations — a transparency move with little precedent among major labs.
