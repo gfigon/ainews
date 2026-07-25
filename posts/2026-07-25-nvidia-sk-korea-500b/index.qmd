@@ -1,0 +1,20 @@
+---
+title: "Nvidia and SK Group Unveil $500B+ Korea AI Initiative"
+date: "2026-07-25 08:00"
+author: "AI News Editorial"
+categories:
+  - "AI Infrastructure"
+  - "Industry News"
+summary: "Jensen Huang and SK Group announced a $500B+ AI package during President Lee Jae Myung's San Francisco visit, cementing Korea as a sovereign AI hub."
+image: "https://pollinations.ai/p/Nvidia%20SK%20Korea%20500B%20AI%20infrastructure?width=1024&height=576&nologo=true"
+---
+
+Nvidia CEO Jensen Huang and SK Group Chair Chey Tae-won unveiled a joint AI initiative exceeding $500 billion during South Korean President Lee Jae Myung's San Francisco visit, marking one of the largest sovereign AI infrastructure commitments to date.
+
+The package pairs SK Hynix and Samsung HBM supply deals with a gigawatt-class AI cloud operated by SK Telecom on Nvidia's DSX platform. The initiative also includes a large-scale Nvidia investment in Naver and a Korea LLM collaboration with KAIST. A joint Nvidia-Hyundai program aims to deploy autonomous Genesis sedans powered by Nvidia technology.
+
+President Lee framed the announcement as an "SF AI Declaration" designed to establish Korea as a top-three sovereign AI hub. The deal secures long-term high-bandwidth memory supply for Nvidia's GPU production while giving Korean companies priority access to next-generation AI compute infrastructure.
+
+The partnership reflects a broader pattern of nation-state AI infrastructure deals, with South Korea joining the UAE, Saudi Arabia, and the UK in committing billions to build domestic AI capabilities. Korea's existing strength in semiconductor manufacturing gives it unique leverage in these negotiations — SK Hynix and Samsung together control a significant share of global HBM production.
+
+For the AI industry, the deal signals that major hardware suppliers are deepening strategic relationships with key markets rather than relying purely on open-market sales. The implications for global AI chip distribution could be significant as nations seek guaranteed access to cutting-edge compute.

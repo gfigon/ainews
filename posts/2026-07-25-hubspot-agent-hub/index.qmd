@@ -1,0 +1,20 @@
+---
+title: "HubSpot Opens Agent Hub: No-Code AI Agents for CRM Workflows Hit Beta"
+date: "2026-07-25 08:00"
+author: "AI News Editorial"
+categories:
+  - "Agents & Automation"
+  - "AI Tools & Frameworks"
+summary: "HubSpot's new Agent Hub and Agent Builder let non-developers build CRM-aware AI agents via natural language, executing actions metered against HubSpot Credits."
+image: "https://pollinations.ai/p/HubSpot%20Agent%20Hub%20no%20code%20CRM%20automation?width=1024&height=576&nologo=true"
+---
+
+HubSpot launched Agent Hub and Agent Builder in public beta on July 23, opening AI agent creation to non-developers within the company's CRM ecosystem. The release targets Professional and Enterprise customers seeking to automate customer relationship workflows without engineering resources.
+
+Agent Hub provides a central console for building, monitoring, and governing AI agents with shared CRM context. Agent Builder lets users assemble custom agents through a natural-language canvas, describing what they want the agent to do rather than writing code. When agents take actions — sending emails, updating records, triggering workflows — execution consumes HubSpot Credits.
+
+The timing positions HubSpot against emerging competitors in the no-code agent space, including Microsoft's Copilot Studio and Salesforce's Agentforce. By tying agents directly to CRM data, HubSpot aims to capture businesses already invested in its platform who want automation without APIs or integrations.
+
+Early use cases center on sales follow-ups, customer support triage, and marketing workflow automation — all areas where CRM-context awareness provides clear value. The credit-based metering model allows HubSpot to monetize usage while keeping initial experimentation accessible.
+
+For the broader agent platform market, HubSpot's entry signals that vertical-specific agent builders are gaining traction. Rather than general-purpose code agents, the company bets that business users prefer workflow agents pre-integrated with their existing data.

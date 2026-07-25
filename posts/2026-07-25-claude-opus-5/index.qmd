@@ -1,0 +1,20 @@
+---
+title: "Anthropic Ships Claude Opus 5: Half the Price of Fable 5, Beats It on Benchmarks"
+date: "2026-07-25 08:00"
+author: "AI News Editorial"
+categories:
+  - "LLMs & Models"
+  - "AI Tools & Frameworks"
+summary: "Anthropic's Claude Opus 5 undercuts Fable 5 on pricing while outperforming it on Frontier-Bench, marking a strategic pivot toward accessible frontier AI."
+image: "https://pollinations.ai/p/Claude%20Opus%205%20Anthropic%20half%20price%20benchmark?width=1024&height=576&nologo=true"
+---
+
+Anthropic released Claude Opus 5 on July 24, positioning it as a direct competitor to Fable 5 at roughly half the price. The new model prices at $5 per million input tokens and $25 per million output tokens, compared to Fable 5's $10/$50 pricing structure.
+
+The pricing strategy appears designed to capture users who want frontier-level capabilities without the premium costs. On Frontier-Bench v0.1, Opus 5 achieved 43.3% versus Fable 5's 33.7%, winning five of nine head-to-head benchmarks. The model also gained 10.2 points on organic chemistry tasks over Opus 4.8 and demonstrates what Anthropic calls its "most-aligned model to date" — with cyber classifiers intervening approximately 85% less often than Fable 5's.
+
+The release makes Opus 5 the default model across Claude Max, the API, Claude Code, and Claude Cowork. This broad deployment suggests Anthropic views the model as production-ready for enterprise workloads.
+
+Anthropic's dual-model strategy now becomes clearer: Fable 5 remains the flagship for users needing government-accessible models, while Opus 5 targets cost-conscious developers and businesses that don't require those certifications. The price-performance positioning mirrors the company's broader effort to expand market share against OpenAI's GPT-5 family.
+
+For enterprise buyers evaluating AI infrastructure costs, Opus 5's arrival provides a compelling mid-tier option between Sonnet-level pricing and Fable-level capabilities — without the access restrictions that have complicated some government and regulated-industry deployments.

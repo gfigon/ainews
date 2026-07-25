@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Claude Opus 5 Half Price Benchmark Frontier-Bench",
+      "count": 1,
+      "last_published": "2026-07-25",
+      "slugs": [
+        "2026-07-25-claude-opus-5"
+      ]
+    },
+    {
+      "term": "Nvidia SK Group $500B Korea AI Initiative Infrastructure",
+      "count": 1,
+      "last_published": "2026-07-25",
+      "slugs": [
+        "2026-07-25-nvidia-sk-korea-500b"
+      ]
+    },
+    {
+      "term": "HubSpot Agent Hub No-Code CRM AI Agents Beta",
+      "count": 1,
+      "last_published": "2026-07-25",
+      "slugs": [
+        "2026-07-25-hubspot-agent-hub"
+      ]
+    },
+    {
       "term": "InclusionAI Ling-3.0-Flash Free Model Release",
       "count": 1,
       "last_published": "2026-07-24",
