@@ -1,0 +1,22 @@
+---
+title: "OpenForge RL: Training AI Agents in Their Actual Work Environment"
+date: "2026-07-25 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Researchers from Columbia, Dartmouth, and Microsoft Research release an open framework that trains RL agents directly through production inference harnesses, beating larger models."
+image: "/assets/post-images/2026-07-25-openforge-rl.svg"
+---
+
+Researchers from Columbia University, Dartmouth College, and Microsoft Research have released OpenForge RL, an open framework that fundamentally changes how reinforcement learning agents are trained. Instead of using simulated environments or toy benchmarks, OpenForge RL runs training directly through production inference harnesses including Claude Code, Codex, and OpenClaw.
+
+The approach uses a lightweight proxy and Kubernetes orchestrator on Azure to interface with real inference APIs. This means agents are trained on actual code completion tasks, genuine software engineering challenges, and real tool-use scenarios—not artificial proxies that may not transfer to production.
+
+In benchmarks, the trained agents outperformed similarly sized open baselines across multiple evaluations: 31.7% on ClawEval (pass@3), 33.7% on QwenClawBench (pass@1), 37.7% on OSWorld-Verified, and 72.3% on WebVoyager. Perhaps most notably, these results often match models several times larger, suggesting that training in realistic environments produces more efficient learning than traditional simulated approaches.
+
+The framework addresses a persistent problem in AI agent development: the gap between benchmark performance and real-world capability. Training in toy simulations often produces agents that excel at test cases but fail when faced with the messy reality of production systems, API rate limits, ambiguous requirements, and the thousand edge cases that only emerge in actual use.
+
+OpenForge RL represents a shift toward what researchers call "in-harness training"—embedding the learning process directly into the tools agents will actually use. This mirrors how humans learn: an apprentice doesn't train in a simulation before working alongside a master craftsman.
+
+The researchers have promised to release the code, training data, and model weights, though exact timelines were not specified. For the growing ecosystem of AI coding agents and automation tools, this could mark a turning point in how agents are developed and evaluated.

@@ -1,0 +1,22 @@
+---
+title: "Workers Express Nostalgia for Pre-AI Era as Automation Accelerates"
+date: "2026-07-26 08:00"
+author: "AI News Editorial"
+categories:
+  - "Industry News"
+  - "AI Security & Policy"
+summary: "Financial Times reports growing worker sentiment favoring the pre-AI workplace, as automation accelerates across industries and employees grapple with rapidly changing job requirements."
+image: "/assets/post-images/2026-07-26-workers-nostalgic-ai.svg"
+---
+
+A growing number of workers are expressing nostalgia for the pre-artificial intelligence workplace, according to a Financial Times report published July 26. As AI tools become increasingly integrated into daily work routines, employees across industries are reporting mixed feelings about the rapid technological transformation of their jobs.
+
+The sentiment reflects broader concerns about job security, skill obsolescence, and the psychological impact of working alongside AI systems. While companies trumpet productivity gains and efficiency improvements, many workers report feeling displaced by tools that can perform tasks previously requiring human judgment and creativity.
+
+The phenomenon appears particularly pronounced in sectors where AI adoption has accelerated most dramatically over the past year. Knowledge workers in finance, legal services, and content creation report heightened anxiety about the pace of change, with some describing a sense of mourning for work routines that valued distinctly human skills.
+
+Industry analysts suggest the tension between productivity-focused AI adoption and workforce wellbeing represents a growing challenge for enterprise leaders. Companies that deploy AI aggressively may achieve short-term efficiency gains but risk alienating their talent base if change management fails to address worker concerns.
+
+The findings add to an ongoing debate about AI's impact on labor markets. While proponents argue AI will create new categories of work and augment human capabilities, critics point to mounting evidence of displacement without adequate transition support.
+
+For enterprise decision-makers, the worker sentiment signals a need for more thoughtful AI rollout strategies that incorporate training, transparent communication about job impacts, and meaningful human-AI collaboration frameworks rather than pure replacement models.
