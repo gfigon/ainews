@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Enterprise AI Agent Governance Gap Deployment Survey",
+      "count": 1,
+      "last_published": "2026-07-26",
+      "slugs": [
+        "2026-07-26-enterprise-ai-agent-governance-gap"
+      ]
+    },
+    {
+      "term": "Microsoft In-House AI Models Cost 89% Reduction OpenAI",
+      "count": 1,
+      "last_published": "2026-07-26",
+      "slugs": [
+        "2026-07-26-microsoft-in-house-ai-models"
+      ]
+    },
+    {
       "term": "OpenForge RL Training AI Agents Production Inference Harness",
       "count": 1,
       "last_published": "2026-07-25",
