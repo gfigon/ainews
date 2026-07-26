@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Reve 2.1 Layer-Based Image Generation Text-to-Image Arena",
+      "count": 1,
+      "last_published": "2026-07-26",
+      "slugs": [
+        "2026-07-26-reve-21-layer-generation"
+      ]
+    },
+    {
+      "term": "Cohere Transcribe Arabic Open Source ASR Speech-to-Text",
+      "count": 1,
+      "last_published": "2026-07-26",
+      "slugs": [
+        "2026-07-26-cohere-transcribe-arabic"
+      ]
+    },
+    {
       "term": "Enterprise AI Agent Governance Gap Deployment Survey",
       "count": 1,
       "last_published": "2026-07-26",
