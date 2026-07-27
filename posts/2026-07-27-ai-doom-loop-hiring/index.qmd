@@ -1,0 +1,40 @@
+---
+title: "The AI Doom Loop: Job Seekers Pay $20 Per Application While Employers Fight Back"
+date: "2026-07-27 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "Greenhouse CEO exposes how job seekers spend $20 on AI tools to mass-apply for positions, while employers use AI filters—creating a self-perpetuating cycle that benefits no one."
+image: "/assets/post-images/2026-07-27-ai-doom-loop-hiring.svg"
+---
+
+The hiring market has become trapped in what industry leaders are calling an "AI doom loop." Job seekers are paying around $20 per AI-generated application to flood hiring platforms with automated submissions, while employers deploy AI screening tools to filter out the noise—creating a self-perpetuating cycle that benefits no one.
+
+Greenhouse CEO Daniel Chait has become the latest industry voice to sound the alarm on this growing problem. "Hiring is stuck in an AI doom loop," Chait said in a recent interview. "It's never been easier to apply for a job, and never harder to land one."
+
+## The $20 Application Economy
+
+A new cottage industry has emerged around AI-powered job applications. Job seekers are paying approximately $20 per application to use AI tools that tailor resumes, write cover letters, and submit mass applications across multiple platforms. These tools promise to beat applicant tracking systems and optimize applications for each position.
+
+The economics are brutal but logical from the job seeker's perspective. With unemployment remaining elevated in many sectors and competition fierce, candidates feel compelled to maximize their application volume. AI makes that possible at scale—one human can now submit what previously required a small army of recruiters.
+
+The result is overwhelming for hiring managers. Positions that might have attracted 200 genuine applicants now receive thousands of AI-generated submissions, many nearly identical in structure and language.
+
+## Employers Fight Back With AI
+
+Companies have responded by deploying their own AI tools to screen candidates. Resume parsers, skills assessment algorithms, and automated interview scheduling have become standard practice. But this creates an arms race dynamic: as applicants get better at optimizing their materials, employers need more sophisticated filtering.
+
+"We're seeing AI fight AI on both sides," noted one HR technology analyst. "Candidates use AI to write applications, employers use AI to read them. Neither side trusts the other anymore."
+
+The paradox is that despite all this technology, hiring managers report worse candidate quality and longer time-to-fill positions. The signal-to-noise ratio has collapsed under the weight of AI-generated content.
+
+## A Broken System
+
+Greenhouse has introduced a "Dream Job" feature allowing candidates to mark one application per month as their top choice, attempting to surface high-intent candidates. But the underlying problem runs deeper than any single feature can fix.
+
+The doom loop reflects broader concerns about AI's impact on knowledge work. When both sides of a transaction automate their engagement, genuine human connection gets lost. Job applications have become a box-checking exercise optimized for algorithms rather than a meaningful exchange between people.
+
+"We're building systems that are technically efficient but fundamentally broken," Chait observed. The challenge now is finding a path back to hiring that values human judgment and authentic engagement—not just keyword matching and automated scoring.
+
+As AI capabilities continue advancing, this hiring paradox may intensify before it resolves. The companies that figure out how to inject genuine human connection back into recruiting may be the ones that win the talent war.
