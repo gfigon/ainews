@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Nvidia $250B OpenAI Ohio Megacampus Financing Backstop",
+      "count": 1,
+      "last_published": "2026-07-27",
+      "slugs": [
+        "2026-07-27-nvidia-openai-ohio-deal"
+      ]
+    },
+    {
+      "term": "Moonshot Kimi K3 Open Weights 2.8T Frontier Largest Release",
+      "count": 1,
+      "last_published": "2026-07-27",
+      "slugs": [
+        "2026-07-27-kimi-k3-open-weights"
+      ]
+    },
+    {
       "term": "Reve 2.1 Layer-Based Image Generation Text-to-Image Arena",
       "count": 1,
       "last_published": "2026-07-26",
