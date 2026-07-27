@@ -1,0 +1,20 @@
+---
+title: "Moonshot Releases Kimi K3 Open Weights — Largest Frontier Model to Date"
+date: "2026-07-27 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Moonshot AI releases full Kimi K3 open weights under Modified MIT license, a 2.8T-parameter MoE model requiring 4-8x H100 GPUs for local inference."
+image: "/assets/post-images/2026-07-27-kimi-k3-open-weights.svg"
+---
+
+Moonshot AI has released the full open weights for its Kimi K3 model, making it the largest frontier model ever published under an open license. The release dropped on Hugging Face at 00:00 UTC on July 27, roughly ten days after the API launch.
+
+The model boasts 2.8 trillion parameters using a mixture-of-experts architecture, with 16 of 896 experts active per token—approximately 50 billion active parameters. In native MXFP4 format, the weights come in at around 594 GB, while community-driven BF16 requantization pushes the footprint toward 1.4 TB.
+
+Running the full model locally requires 4 to 8 NVIDIA H100 GPUs with 80 GB of memory each, making it accessible only to well-resourced organizations and research teams. Despite the hardware demands, the release enables unprecedented opportunities for fine-tuning, alignment research, and studying emergent capabilities in large-scale language models.
+
+The release uses a Modified MIT license, balancing open access with some commercial restrictions. This positions Kimi K3 as a competitor to other open-weight releases like DeepSeek V4 and Qwen 3, but at a scale that dwarfs previous attempts.
+
+The timing is notable: Chinese AI labs have been aggressively releasing open-weight models in recent months, intensifying competition with Western providers. Kimi K3's release underscores the accelerating push from China's AI ecosystem to establish technological leadership in the open-source space.

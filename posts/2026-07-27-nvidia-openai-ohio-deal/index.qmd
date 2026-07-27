@@ -1,0 +1,20 @@
+---
+title: "Nvidia Reportedly in Talks to Backstop $250B for OpenAI Ohio Megacampus"
+date: "2026-07-27 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Nvidia is negotiating to provide $250B in financing guarantees for OpenAI's 10-gigawatt Ohio data center campus, the largest AI infrastructure project announced to date."
+image: "/assets/post-images/2026-07-27-nvidia-openai-ohio-deal.svg"
+---
+
+Nvidia is in discussions to provide approximately $250 billion in financing guarantees to backstop OpenAI's ambitious Ohio data center project, according to WSJ reporting. The campus, being developed by SoftBank's SB Energy on former Department of Energy land in Pike County, southern Ohio, represents the largest AI infrastructure commitment announced to date.
+
+The full buildout is estimated at around $500 billion, with first phase targeted for 2028. The 10-gigawatt facility would be among the world's largest AI computing installations, powering OpenAI's next generation of frontier models and API services.
+
+The financing structure positions Nvidia not just as a chip supplier but as a strategic financial partner in OpenAI's expansion. This deepening relationship comes amid intensifying competition for compute capacity and as OpenAI seeks guaranteed access to processing power for its growing user base.
+
+Other major tech firms are also circling the project. Anthropic, Microsoft, and Google have all expressed interest in securing capacity at the Ohio campus, though OpenAI is reported to have the strongest position. Power allocation is controlled by Commerce Secretary Howard Lutnick, adding a political dimension to the infrastructure race.
+
+The deal, if finalized, would represent a significant escalation in the AI industry's infrastructure arms race. Hyperscalers are competing not just for chips but for power, land, and financing to build the data centers that will train and serve the next generation of models.
