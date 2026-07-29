@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "DeepMind AlphaFold Authors Defect Anthropic Nobel Laureate John Jumper",
+      "count": 1,
+      "last_published": "2026-07-29",
+      "slugs": [
+        "2026-07-29-deepmind-alphafold-anthropic"
+      ]
+    },
+    {
+      "term": "MCP Model Context Protocol Stateless Specification Update 2026-07-28",
+      "count": 1,
+      "last_published": "2026-07-29",
+      "slugs": [
+        "2026-07-29-mcp-stateless-spec-update"
+      ]
+    },
+    {
       "term": "xAI Minnesota HF1606 Nudification Ban Federal Lawsuit First Amendment",
       "count": 1,
       "last_published": "2026-07-29",
