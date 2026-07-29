@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "xAI Minnesota HF1606 Nudification Ban Federal Lawsuit First Amendment",
+      "count": 1,
+      "last_published": "2026-07-29",
+      "slugs": [
+        "2026-07-29-xai-minnesota-nudification-ban"
+      ]
+    },
+    {
+      "term": "Silicon Valley Anthropic Open Weights Letter Backlash VC Criticism",
+      "count": 1,
+      "last_published": "2026-07-29",
+      "slugs": [
+        "2026-07-29-anthropic-open-weights-backlash"
+      ]
+    },
+    {
+      "term": "OpenAI Codex Security CLI Open Source Repository Vulnerability Scanning",
+      "count": 1,
+      "last_published": "2026-07-29",
+      "slugs": [
+        "2026-07-29-openai-codex-security-cli"
+      ]
+    },
+    {
       "term": "Nvidia $250B OpenAI Ohio Megacampus Financing Backstop",
       "count": 1,
       "last_published": "2026-07-27",

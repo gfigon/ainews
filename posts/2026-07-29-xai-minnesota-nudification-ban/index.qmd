@@ -1,0 +1,30 @@
+---
+title: "xAI Sues Minnesota Over AI Nudification Ban,arguing First Amendment Rights"
+date: "2026-07-29 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "xAI filed a federal lawsuit against Minnesota challenging the state's AI nudification ban as an overbroad restriction on protected speech, setting up a major First Amendment test for AI-generated content regulations."
+image: "/assets/post-images/2026-07-29-xai-minnesota-nudification-ban.svg"
+---
+
+xAI has escalated the regulatory battle over AI-generated intimate imagery by filing a federal lawsuit against Minnesota Attorney General Keith Ellison, challenging the state's new anti-nudification law as an unconstitutional restriction on free speech.
+
+The lawsuit, filed in federal court this week, targets HF 1606—legislation that creates a civil cause of action against anyone who creates or distributes AI-generated intimate images without consent. The law is set to take effect immediately and imposes penalties of up to $500,000 per violation.
+
+xAI's legal team argues the statute is constitutionally defective on multiple grounds. First, they contend the law's definition of "intimate part" is unconstitutionally vague—sweeping in depictions of shirtless men, swimwear, and other non-explicit imagery. Second, the company argues the law amounts to a content-based restriction on speech that fails strict scrutiny under the First Amendment.
+
+"Technology developers cannot be held liable for how users ultimately deploy their products," the complaint states. "Holding software developers strictly liable for end-user conduct transforms every AI tool into a potential strict liability weapon against its creator."
+
+The Minnesota law targets both creators and distributors of AI-generated intimate images. Unlike traditional defamation or harassment statutes, it imposes liability regardless of intent or knowledge—a standard xAI's lawyers describe as "a content-based ban dressed up as a civil remedy."
+
+Attorney General Ellison has defended the law as essential protection for victims of AI-generated abuse. "AI nudification robs the target of their dignity," Ellison's office said in a statement. "This technology has been weaponized to harass, humiliate, and exploit—and Minnesota has a compelling interest in protecting its citizens."
+
+The case is likely to become a landmark test for how First Amendment principles apply to generative AI. Similar laws have passed or been proposed in at least 15 states, but none have faced a direct constitutional challenge from a major AI company. If xAI succeeds, it could invalidate or force reconsideration of the broader wave of state-level AI content regulations.
+
+Legal scholars note the case presents difficult questions about the boundaries of free speech in the age of AI. While non-consensual intimate imagery has long been actionable as invasion of privacy or intentional infliction of emotional distress, extending liability to tool developers represents a significant expansion of intermediary liability doctrine.
+
+The lawsuit also highlights the growing tension between AI companies and state regulators. xAI, which has positioned itself as a more permissive alternative to competitors like OpenAI and Anthropic, may be using the case to signal its commitment to resisting regulatory overreach—a potentially valuable stance for recruiting users and developers skeptical of what they see as excessive content restrictions.
+
+A federal court injunction blocking the law's enforcement could come within weeks. But regardless of the immediate outcome, this case will almost certainly shape the trajectory of AI content regulation for years to come.

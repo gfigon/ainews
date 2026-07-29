@@ -1,0 +1,30 @@
+---
+title: "Cursor Launches $7 India-Only Plan Ahead of SpaceX Acquisition"
+date: "2026-07-28 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Anysphere introduces a ₹649 monthly tier exclusive to India, its third-largest market, featuring Composer 2.5 and Grok 4.5 access but excluding frontier OpenAI and Anthropic models."
+image: "/assets/post-images/2026-07-28-cursor-india-pricing.svg"
+---
+
+Anysphere, the developer behind the AI-powered code editor Cursor, has launched "Cursor Start," a ₹649 (approximately $7) monthly subscription tier exclusively available in India. The move positions Cursor's most affordable plan yet in its third-largest market, where user base has tripled over the past year.
+
+The new tier includes Composer 2.5 — Cursor's AI-assisted coding feature — and access to Grok 4.5, the latest model from xAI. However, notably absent from the plan are frontier models from OpenAI and Anthropic, which are available on higher-priced tiers targeting developers in the U.S. and Europe.
+
+## Strategic timing
+
+The launch comes ahead of Cursor's pending acquisition by SpaceX, a deal that has attracted significant attention in the developer tools space. Simon Green, Anysphere's Head of APAC, framed the move as "right-sizing the commercial model" to drive adoption across India's 27 million-plus developer community.
+
+India represents a massive untapped market for AI developer tools. Most local developers have historically relied on free or low-cost alternatives, with premium tools largely out of reach due to pricing in dollars. At $7 per month, Cursor Start undercuts most competing AI coding assistants in the region.
+
+## What the plan misses
+
+The exclusion of OpenAI's GPT models and Anthropic's Claude from the India tier is significant. Both have dominated AI coding benchmarks, and many developers specifically seek them out for complex engineering tasks. By offering only Grok 4.5 — which has shown strong coding capabilities but hasn't achieved the same benchmark dominance — Anysphere appears to be managing its API costs while still delivering meaningful AI assistance.
+
+This tiered approach mirrors strategies used by other SaaS companies in emerging markets, where feature-limited plans drive user acquisition with the expectation that users will upgrade as their careers progress.
+
+## Market implications
+
+For Indian developers, Cursor Start provides accessible AI-assisted coding at a price point that fits local budgets. For Anysphere, it represents a bet on capturing market share early in a rapidly growing developer ecosystem. The success or failure of this strategy could influence how other AI tool providers approach emerging markets in the future.

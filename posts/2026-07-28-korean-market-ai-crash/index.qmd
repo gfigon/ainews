@@ -1,0 +1,30 @@
+---
+title: "Korean Markets Crash on AI Fears — Samsung and SK Hynix Plummet"
+date: "2026-07-28 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "South Korea's KOSPI fell 9% in its biggest single-day drop, as memory-chip giants Samsung and SK Hynix cratered amid concerns over Chinese AI competition and capex financing."
+image: "/assets/post-images/2026-07-28-korean-market-ai-crash.svg"
+---
+
+South Korea's stock market experienced its worst single-day crash in years on Tuesday, as the KOSPI index fell as much as 9% at the open, triggering a sidecar circuit breaker. The rout was led by the nation's two largest technology companies — Samsung Electronics and SK Hynix — which lost 11% and 13% respectively, wiping out tens of billions of dollars in market capitalization.
+
+The selloff rippled across Asian markets, with Japan's Nikkei 225 dropping nearly 4% and SoftBank shedding roughly 5%. The damage followed an overnight rout in U.S. semiconductors, where the Philadelphia Semiconductor Index lost more than 5% and Nvidia fell 5% on renewed concerns about AI capital expenditure financing and cheaper Chinese open-weight competition.
+
+## What triggered the crash?
+
+Analysts point to a convergence of factors. First, the rapid rise of Chinese open-weight AI models — particularly Qwen, DeepSeek, and Kimi — has intensified competition in the AI chip market. These models, offered at a fraction of the cost of Western alternatives through platforms like OpenRouter, have raised questions about whether the massive capital spending on AI infrastructure can be justified.
+
+Second, investors are increasingly scrutinizing AI capex spending. With major tech companies collectively planning to spend hundreds of billions on AI infrastructure this year, any sign of diminishing returns or competitive pressure sparks sharp selloffs.
+
+## Implications for AI infrastructure
+
+Samsung and SK Hynix are the world's two largest suppliers of high-bandwidth memory (HBM) chips, which are critical components for AI accelerators. Any slowdown in AI infrastructure spending directly impacts their revenue outlook.
+
+"The memory market was already facing pressure from oversupply concerns," said one analyst at a Seoul-based securities firm. "Now you have this additional layer of uncertainty around AI demand itself."
+
+The crash underscores the delicate balance between AI infrastructure investment and competitive pressures. As Chinese labs continue releasing increasingly capable open-weight models, the economics of AI hardware are being reshaped in real time.
+
+For enterprise AI deployments, this could mean more competitive pricing from chipmakers eager to maintain volumes. For the broader AI ecosystem, it serves as a reminder that the sector's growth trajectory isn't guaranteed — and that market sentiment can shift quickly when investors sense a change in the competitive landscape.
