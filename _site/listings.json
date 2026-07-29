@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-07-29-deepmind-alphafold-anthropic/index.html",
+      "/posts/2026-07-29-mcp-stateless-spec-update/index.html",
       "/posts/2026-07-29-openai-codex-security-cli/index.html",
       "/posts/2026-07-29-xai-minnesota-nudification-ban/index.html",
       "/posts/2026-07-29-anthropic-open-weights-backlash/index.html",
