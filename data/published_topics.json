@@ -3265,6 +3265,30 @@
       "slugs": [
         "2026-07-21-intuit-agent-architecture-rebuild"
       ]
+    },
+    {
+      "term": "Enterprise AI Agent Interoperability Crisis Startups Fixing",
+      "count": 1,
+      "last_published": "2026-07-30",
+      "slugs": [
+        "2026-07-30-enterprise-agent-interoperability"
+      ]
+    },
+    {
+      "term": "Nimble Domain Specialized Web Search Agents Cost Reduction",
+      "count": 1,
+      "last_published": "2026-07-30",
+      "slugs": [
+        "2026-07-30-nimble-domain-search-agents"
+      ]
+    },
+    {
+      "term": "Claude Shared Conversations Indexed Google Search Privacy",
+      "count": 1,
+      "last_published": "2026-07-30",
+      "slugs": [
+        "2026-07-30-claude-conversations-indexed"
+      ]
     }
   ]
 }
