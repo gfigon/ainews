@@ -1,0 +1,38 @@
+---
+title: "How Waymo Decides When AI Is Safe Enough for the Road"
+date: "2026-07-30 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Waymo's Manasi Joshi reveals the company's rigorous evaluation framework for autonomous vehicle AI — and what any enterprise team can learn from it."
+image: "/assets/post-images/2026-07-30-waymo-ai-safety-evals.svg"
+---
+
+At Waymo, an AI project isn't ready until its evals are — not when the model performs well. That's the core philosophy shared by Manasi Joshi, the company's head of AI safety, in a recent talk at VB Transform 2026.
+
+## Beyond Benchmarks
+
+Most AI evaluation focuses on benchmark performance: accuracy, F1 scores, human preference rankings. Waymo's approach is fundamentally different. The company evaluates AI systems based on failure modes and edge cases rather than success rates.
+
+"A model that achieves 99.9% accuracy but fails catastrophically in the remaining 0.1% isn't ready for the road," Joshi explained. "We need to understand exactly what happens in those rare scenarios."
+
+## The Three-Layer Evaluation Framework
+
+Waymo's framework has three layers:
+
+**1. Simulation stress testing** — millions of virtual miles testing rare scenarios: pedestrians jumping from behind buses, construction zones with contradictory signage, emergency vehicles approaching from blind spots.
+
+**2. Closed-course validation** — real-world testing on Waymo's private track with safety drivers ready to intervene. Every "disengagement" (when the safety driver takes control) is logged and analyzed.
+
+**3. Shadow mode deployment** — the AI makes decisions in real vehicles but doesn't control them. Engineers analyze what the AI would have done versus what the human driver did.
+
+## What Enterprises Can Learn
+
+The approach has implications beyond autonomous vehicles. Any company deploying AI in high-stakes environments can adopt similar principles:
+
+- **Map failure modes first** — before optimizing for accuracy, identify what could go wrong
+- **Test the unusual** — standard benchmarks don't capture edge cases
+- **Always have a human in the loop** — until AI reliability reaches six-sigma levels
+
+Waymo's method isn't fast or cheap. But as AI systems take on more critical tasks, the industry may need to adopt similar rigor — or face the consequences.

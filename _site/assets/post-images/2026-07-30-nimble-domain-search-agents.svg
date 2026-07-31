@@ -23,11 +23,11 @@
   <!-- Watermark keyword -->
   <text x="512" y="370" text-anchor="middle"
         font-size="162" font-weight="800"
-        fill="#4ade80" opacity="0.10"
+        fill="#d946ef" opacity="0.10"
         letter-spacing="-0.04em">NIMBLE</text>
 
   <!-- Bracket frame -->
-  <g stroke="#4ade80" stroke-width="2" fill="none">
+  <g stroke="#d946ef" stroke-width="2" fill="none">
     <path d="M 32 32 L 32 96 M 32 32 L 96 32"/>
     <path d="M 992 32 L 992 96 M 992 32 L 928 32"/>
     <path d="M 32 544 L 32 480 M 32 544 L 96 544"/>
@@ -42,21 +42,21 @@
 
   <!-- Title block -->
   <g fill="#e6edf3" font-weight="700">
-    <text x="56" y="220" font-size="40" letter-spacing="-0.02em">Nimble&apos;s Domain-Specialized Web Search</text>
-    <text x="56" y="270" font-size="40" letter-spacing="-0.02em">Agents Cut Costs in Half</text>
+    <text x="56" y="220" font-size="40" letter-spacing="-0.02em">Nimble Claims Domain-Specialized Web</text>
+    <text x="56" y="270" font-size="40" letter-spacing="-0.02em">Search Agents Cut Costs ...</text>
   </g>
 
   <!-- Category badge -->
   <g transform="translate(56 320)">
-    <rect x="0" y="0" width="247" height="32"
-          fill="#161b22" stroke="#4ade80" stroke-width="1" rx="2"/>
-    <text x="121" y="21" text-anchor="middle"
-          font-size="13" font-weight="700" letter-spacing="0.14em" fill="#4ade80">AI TOOLS &amp; FRAMEWORKS</text>
+    <rect x="0" y="0" width="225" height="32"
+          fill="#161b22" stroke="#d946ef" stroke-width="1" rx="2"/>
+    <text x="110" y="21" text-anchor="middle"
+          font-size="13" font-weight="700" letter-spacing="0.14em" fill="#d946ef">AGENTS &amp; AUTOMATION</text>
   </g>
 
   <!-- Bottom-left tag with keyword -->
   <g transform="translate(56 504)" filter="url(#glow-2026-07-30-nimble-domain-search-agents)">
-    <text x="0" y="0" font-size="20" font-weight="700" fill="#4ade80" letter-spacing="0.06em">// NIMBLE_</text>
+    <text x="0" y="0" font-size="20" font-weight="700" fill="#d946ef" letter-spacing="0.06em">// NIMBLE_</text>
   </g>
 
   <!-- Bottom-right signature line -->

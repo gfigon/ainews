@@ -1,0 +1,30 @@
+---
+title: "AI Breaks Post-Quantum Crypto in 60 Hours — South Korea Certifies Hybrid Hedge"
+date: "2026-07-31 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Anthropic's Claude Mythos weakened the HAWK post-quantum algorithm in just 60 hours, prompting South Korea to certify a hybrid encryption module as a hedge against AI-driven crypto breaks."
+image: "/assets/post-images/2026-07-31-south-korea-post-quantum-crypto.svg"
+---
+
+A landmark moment in cryptographic security has arrived — and it came faster than anyone expected. Anthropic's Claude Mythos AI model discovered fatal mathematical flaws in HAWK, a NIST post-quantum cryptography candidate, in just 60 hours of analysis. The discovery has sent shockwaves through the security community and prompted South Korea to certify a hybrid post-quantum encryption module as a defensive measure.
+
+## The HAWK Collapse
+
+HAWK had survived two rounds of NIST's rigorous post-quantum standardization evaluation process. The algorithm was considered a promising candidate for protecting sensitive communications against future quantum computers. That changed on July 29, 2026, when Anthropic published research showing that Claude Mythos could identify mathematical weaknesses that reduced HAWK's effective security margin significantly.
+
+The attack, dubbed the "Mythos attack" by researchers, doesn't break HAWK in practical terms — the algorithm hasn't been standardized yet, and no production systems rely on it. However, the implications are profound: AI systems can now systematically analyze cryptographic candidates at speeds that human cryptographers cannot match.
+
+## South Korea's Response
+
+Within days of the announcement, South Korea's Korea Internet & Security Agency (KISA) certified a hybrid post-quantum encryption module developed by local firm ITCEN PNS. The hybrid approach combines classical encryption with post-quantum algorithms, ensuring that even if one layer fails, the other provides protection.
+
+This represents the first time a national government has explicitly cited AI-driven cryptographic analysis as the reason for accelerating post-quantum certification. South Korea's move signals that other nations may follow suit, particularly for sensitive government and financial communications.
+
+## What This Means for Security
+
+The discovery marks a turning point in how we think about cryptographic security. For decades, the assumption was that mathematical proofs and human peer review were sufficient to validate encryption algorithms. Now, AI can amplify cryptanalytic capabilities exponentially.
+
+Experts recommend that organizations planning post-quantum migrations adopt hybrid approaches rather than relying on single algorithms. The lesson is clear: in the age of AI, trust no single cryptographic assumption — and always have a backup.

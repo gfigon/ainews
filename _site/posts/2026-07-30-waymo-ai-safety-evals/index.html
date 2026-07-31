@@ -8,7 +8,7 @@
 
 <meta name="author" content="AI News Editorial">
 
-<title>Nimble Claims Domain-Specialized Web Search Agents Cut Costs in Half</title>
+<title>How Waymo Decides When AI Is Safe Enough for the Road</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,16 +107,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../assets/colors_and_type.css">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
-<meta property="og:title" content="Nimble Claims Domain-Specialized Web Search Agents Cut Costs in Half">
+<meta property="og:title" content="How Waymo Decides When AI Is Safe Enough for the Road">
 <meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta property="og:image" content="https://roboaidigest.com/assets/post-images/2026-07-30-nimble-domain-search-agents.svg">
-<meta name="twitter:title" content="Nimble Claims Domain-Specialized Web Search Agents Cut Costs in Half">
+<meta property="og:image" content="https://roboaidigest.com/assets/post-images/2026-07-30-waymo-ai-safety-evals.svg">
+<meta name="twitter:title" content="How Waymo Decides When AI Is Safe Enough for the Road">
 <meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta name="twitter:image" content="https://roboaidigest.com/assets/post-images/2026-07-30-nimble-domain-search-agents.svg">
+<meta name="twitter:image" content="https://roboaidigest.com/assets/post-images/2026-07-30-waymo-ai-safety-evals.svg">
 <meta name="twitter:creator" content="@roboaidigest">
 <meta name="twitter:site" content="@roboaidigest">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/posts/2026-07-30-nimble-domain-search-agents/">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-07-30-waymo-ai-safety-evals/">
 </head>
 
 <body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Nimble Claims Domain-Specialized Web Search Agents Cut Costs in Half</h1>
+      <h1 class="title">How Waymo Decides When AI Is Safe Enough for the Road</h1>
                                     </div>
   </div>
     
@@ -341,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026-07-30 10:15</p>
+        <p class="date">2026-07-30 08:45</p>
       </div>
     </div>
     
@@ -352,8 +352,16 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#beyond-benchmarks" id="toc-beyond-benchmarks" class="nav-link active" data-scroll-target="#beyond-benchmarks">Beyond Benchmarks</a></li>
+  <li><a href="#the-three-layer-evaluation-framework" id="toc-the-three-layer-evaluation-framework" class="nav-link" data-scroll-target="#the-three-layer-evaluation-framework">The Three-Layer Evaluation Framework</a></li>
+  <li><a href="#what-enterprises-can-learn" id="toc-what-enterprises-can-learn" class="nav-link" data-scroll-target="#what-enterprises-can-learn">What Enterprises Can Learn</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -366,20 +374,31 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>What if your AI agent could be a search expert in medicine, law, or finance — without needing a general-purpose model to learn everything about everything? Nimble is betting that’s the future of enterprise search, and it’s launching domain-specialized web search agents that reportedly cut token costs in half while boosting accuracy.</p>
-<p>The core idea: instead of using the same search algorithm across every domain, Nimble builds proprietary indexes tailored to specific fields, combined with real-time web retrieval and task-specific search policies. A medical research agent queries medical literature indexes and prioritizes peer-reviewed sources. A legal agent searches case law databases and weights precedent differently. A financial agent pulls earnings calls and regulatory filings.</p>
-<p><strong>The efficiency gains come from three sources:</strong></p>
-<ol type="1">
-<li><p><strong>Smaller, specialized models</strong> — Rather than sending queries to a massive general-purpose LLM, Nimble uses smaller models fine-tuned for specific domains. That means fewer tokens processed per query.</p></li>
-<li><p><strong>Smarter retrieval</strong> — Domain-specific indexes contain higher-quality, more relevant results upfront, reducing the back-and-forth needed between the model and the search tool.</p></li>
-<li><p><strong>Task-specific policies</strong> — Different search tasks require different strategies. Comparing two companies’ earnings calls needs different logic than finding regulatory changes in a specific jurisdiction.</p></li>
-</ol>
-<p>Nimble claims the approach delivers both cost savings and accuracy improvements. By reducing token consumption by roughly 50%, the service appeals to enterprises running high-volume agent workflows where search is a daily operation. The accuracy boost comes from domain-tuned relevance ranking that general-purpose search can’t match.</p>
-<p>The launch arrives as enterprises are increasingly deploying AI agents that need to gather information autonomously. Generic web search works for simple queries, but business use cases often require domain expertise — knowing which sources matter, which terms are outdated, and how to interpret specialized results.</p>
-<p>Other players in the space include Perplexity (general-purpose AI search), Anthropic’s constitutional AI approaches to source verification, and vertical SaaS companies building domain-specific tools. Nimble’s differentiation is positioning the search layer itself as something that can be specialized, not just the model on top.</p>
-<p>For now, Nimble is targeting early enterprise customers in healthcare, legal, and financial services — industries where search accuracy directly impacts compliance, research speed, and decision quality. The broader question is whether every domain will eventually need its own specialized search agent, or whether general-purpose models will close the gap on their own.</p>
+<p>At Waymo, an AI project isn’t ready until its evals are — not when the model performs well. That’s the core philosophy shared by Manasi Joshi, the company’s head of AI safety, in a recent talk at VB Transform 2026.</p>
+<section id="beyond-benchmarks" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-benchmarks">Beyond Benchmarks</h2>
+<p>Most AI evaluation focuses on benchmark performance: accuracy, F1 scores, human preference rankings. Waymo’s approach is fundamentally different. The company evaluates AI systems based on failure modes and edge cases rather than success rates.</p>
+<p>“A model that achieves 99.9% accuracy but fails catastrophically in the remaining 0.1% isn’t ready for the road,” Joshi explained. “We need to understand exactly what happens in those rare scenarios.”</p>
+</section>
+<section id="the-three-layer-evaluation-framework" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-layer-evaluation-framework">The Three-Layer Evaluation Framework</h2>
+<p>Waymo’s framework has three layers:</p>
+<p><strong>1. Simulation stress testing</strong> — millions of virtual miles testing rare scenarios: pedestrians jumping from behind buses, construction zones with contradictory signage, emergency vehicles approaching from blind spots.</p>
+<p><strong>2. Closed-course validation</strong> — real-world testing on Waymo’s private track with safety drivers ready to intervene. Every “disengagement” (when the safety driver takes control) is logged and analyzed.</p>
+<p><strong>3. Shadow mode deployment</strong> — the AI makes decisions in real vehicles but doesn’t control them. Engineers analyze what the AI would have done versus what the human driver did.</p>
+</section>
+<section id="what-enterprises-can-learn" class="level2">
+<h2 class="anchored" data-anchor-id="what-enterprises-can-learn">What Enterprises Can Learn</h2>
+<p>The approach has implications beyond autonomous vehicles. Any company deploying AI in high-stakes environments can adopt similar principles:</p>
+<ul>
+<li><strong>Map failure modes first</strong> — before optimizing for accuracy, identify what could go wrong</li>
+<li><strong>Test the unusual</strong> — standard benchmarks don’t capture edge cases</li>
+<li><strong>Always have a human in the loop</strong> — until AI reliability reaches six-sigma levels</li>
+</ul>
+<p>Waymo’s method isn’t fast or cheap. But as AI systems take on more critical tasks, the industry may need to adopt similar rigor — or face the consequences.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <footer class="rad-footer">

@@ -1,0 +1,30 @@
+---
+title: "Enterprise AI Agents Can't Talk to Each Other — 5 Startups Fixing That"
+date: "2026-07-30 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "Five startups are tackling the interoperability crisis in enterprise AI agents, with one claiming to cut cyberattack containment time from seven hours to twelve minutes."
+image: "/assets/post-images/2026-07-30-enterprise-ai-agent-interoperability.svg"
+---
+
+Enterprise AI agents are multiplying inside companies, but they're speaking different languages — and it's becoming a security nightmare. A new report from VentureBeat highlights how today's AI agents can't communicate with each other, can't be trusted with permissions, and can't be audited — and five startups are already racing to solve it.
+
+The problem is straightforward: as organizations deploy AI agents for customer service, coding, data analysis, and workflow automation, each agent was built in isolation. There's no standard way for an agent handling emails to coordinate with an agent managing inventory, or for a security agent to audit what a coding agent is actually doing.
+
+The consequences are real. One startup highlighted in the report achieved dramatic results: cutting cyberattack containment time from seven hours to twelve minutes through proper agent orchestration and communication protocols. That's the promise — but getting there requires solving fundamental interoperability challenges.
+
+**The three biggest pain points:**
+
+1. **Communication** — Agents use different APIs, protocols, and data formats. A CRM agent can't naturally hand off context to a finance agent without custom integration work.
+
+2. **Permissions** — Agents operating with elevated access represent a growing attack surface. Without cross-agent trust frameworks, organizations essentially have multiple unsupervised doors into sensitive systems.
+
+3. **Auditability** — When something goes wrong — a data leak, a compliance violation — it's nearly impossible to trace what happened across multiple agent interactions.
+
+Five startups are tackling this from different angles. Some are building universal translation layers that sit between agents. Others are creating agent-specific security frameworks that establish trust boundaries. A few are developing orchestration platforms that give humans visibility into multi-agent workflows.
+
+The timing matters. Enterprise agent deployments are accelerating, with Gartner predicting that by 2028, 80% of enterprise software will include AI agents. Without interoperability standards, organizations face a choice: lock into a single vendor's ecosystem, or manage a patchwork of incompatible agents.
+
+The MCP (Model Context Protocol) update from late July represents one step toward standardization, but it's focused on agent-to-tool communication rather than agent-to-agent coordination. The interoperability problem is still largely unsolved — which means opportunity for the startups building solutions, and risk for enterprises deploying agents today.
