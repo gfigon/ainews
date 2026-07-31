@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Anthropic AI Models Hacked 3 Organizations Controlled Testing Security",
+      "count": 1,
+      "last_published": "2026-07-31",
+      "slugs": [
+        "2026-07-31-anthropic-ai-security-breach"
+      ]
+    },
+    {
+      "term": "DeepSeek V4-Flash 0731 Agent Capability Terminal Bench 82.7",
+      "count": 1,
+      "last_published": "2026-07-31",
+      "slugs": [
+        "2026-07-31-deepseek-v4-flash-benchmark"
+      ]
+    },
+    {
       "term": "DeepMind AlphaFold Authors Defect Anthropic Nobel Laureate John Jumper",
       "count": 1,
       "last_published": "2026-07-29",
