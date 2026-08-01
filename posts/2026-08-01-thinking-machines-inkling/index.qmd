@@ -1,0 +1,35 @@
+---
+title: "Thinking Machines Launches Inkling Small: A Compact Open-Source Model at Quarter Size"
+date: "2026-08-01 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Thinking Machines releases Inkling Small, an open-source AI model achieving near-predecessor performance at just 25% of the size."
+image: "/assets/post-images/2026-08-01-thinking-machines-inkling.svg"
+---
+
+**Thinking Machines** has launched **Inkling Small**, an open-source AI model that delivers performance close to its larger predecessor while requiring only about one-quarter of the computational resources. Released on July 31, 2026, the model targets enterprises and developers who need powerful AI capabilities without the infrastructure overhead of larger frontier models.
+
+## Compact Yet Capable
+
+Inkling Small represents a shift in the AI landscape toward efficient, deployable models. While the race for ever-larger models continues, there's growing recognition that many real-world applications don't require the full capabilities of frontier models—what matters is getting the right balance of performance, size, and cost.
+
+The model achieves performance levels that are "nearing" its predecessor while being approximately 75% smaller. For companies that want control over their data, model behavior, and fine-tuning capabilities, this smaller footprint may be more important than chasing the highest possible benchmark score.
+
+## Open Source for Enterprise
+
+The release maintains Thinking Machines' commitment to open-source AI. Inkling Small is available under an open license, allowing enterprises to:
+
+- Deploy on-premises or in private clouds
+- Fine-tune on proprietary datasets
+- Maintain full data privacy and security control
+- Customize model behavior for specific use cases
+
+## The Efficiency Frontier
+
+The release comes amid growing industry focus on AI efficiency. As model competition shifts toward cost optimization, companies are increasingly looking for models that deliver sufficient performance at a fraction of the compute cost.
+
+Inkling Small joins a growing ecosystem of efficient open-source models that challenge the assumption that bigger is always better. For edge deployment, on-device inference, and privacy-sensitive applications, compact models like Inkling Small offer a compelling alternative to frontier models.
+
+This release signals that the AI industry is maturing beyond pure benchmark-chasing toward practical, deployable solutions that balance capability with efficiency.

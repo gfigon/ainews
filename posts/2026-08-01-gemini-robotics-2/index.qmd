@@ -1,0 +1,36 @@
+---
+title: "Google DeepMind Unveils Gemini Robotics 2: A New Intelligence Layer for Humanoid Robots"
+date: "2026-08-01 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Google DeepMind releases Gemini Robotics 2, a vision-language-action model that brings whole-body intelligence to robots, enabling advanced dexterity and multi-robot collaboration."
+image: "/assets/post-images/2026-08-01-gemini-robotics-2.svg"
+---
+
+Google DeepMind has unveiled **Gemini Robotics 2**, the company's latest advancement in physical AI and robotics. Released on July 31, 2026, this new model represents a significant leap forward in giving robots intelligent whole-body control, advanced dexterity, and the ability to collaborate with other robots.
+
+## Whole-Body Intelligence
+
+Unlike previous robotics models that focused on tabletop manipulation, Gemini Robotics 2 unifies whole-body dynamics under a single vision-language-action (VLA) model. This addresses a persistent limitation in learning-based robotics—the structural decoupling of locomotion and manipulation. Previously, navigation models would steer a robot to a coordinate, then hand control over to a secondary manipulation policy once stationary.
+
+Gemini Robotics 2 pairs deep spatial reasoning with long-horizon planning, enabling robots to map multi-step sequences and complete complex, unfamiliar tasks. The model can control everything from tabletop robots to full-body humanoids.
+
+## Three Tiers for Different Needs
+
+DeepMind released Gemini Robotics 2 as three separate models with different access tiers:
+
+- **Gemini Robotics 2 (ER 2)**: The flagship model with the highest reasoning capabilities for general robotics tasks
+- **Gemini Robotics On-Device 2**: A version optimized for running directly on robot hardware
+- **Safety-focused variant**: The team's safest model yet, with robust ability to understand safety constraints and halt actions when humans are nearby
+
+## Multi-Robot Collaboration
+
+A standout feature is multi-robot collaboration. Gemini Robotics 2 allows two robots to divide labor and collaborate on completing a single task—a capability that could prove transformative for warehouse, manufacturing, and logistics operations.
+
+## Training with Apptronik's Robot Park
+
+The model was trained using data from Apptronik's Robot Park facility, where Apollo 2 robots collect real-world interaction data. This partnership between DeepMind and Apptronik represents a new paradigm for robotics AI training, combining simulation with physical robot data collection.
+
+With Gemini Robotics 2, Google DeepMind is positioning itself as the "intelligence layer" for the next generation of adaptable robots—machines that can move beyond pre-programmed tasks and truly adapt to changing environments.
