@@ -1,6 +1,46 @@
 {
   "topics": [
     {
+      "term": "Target SVP AI Moat Everything Around Models Enterprise",
+      "count": 1,
+      "last_published": "2026-08-02",
+      "slugs": [
+        "2026-08-02-target-ai-moat"
+      ]
+    },
+    {
+      "term": "GM AI Agents Pull Requests Engineering Workflows Tripled",
+      "count": 1,
+      "last_published": "2026-08-02",
+      "slugs": [
+        "2026-08-02-gm-ai-agent-engineering"
+      ]
+    },
+    {
+      "term": "Enterprise AI Agents Communication Permissions Audit Interoperability Crisis",
+      "count": 1,
+      "last_published": "2026-08-02",
+      "slugs": [
+        "2026-08-02-enterprise-ai-agent-interoperability"
+      ]
+    },
+    {
+      "term": "Enterprise AI Agents Trust Gap Permissions Audit Interoperability",
+      "count": 1,
+      "last_published": "2026-08-02",
+      "slugs": [
+        "2026-08-02-enterprise-ai-agent-trust-gap"
+      ]
+    },
+    {
+      "term": "DataFlow-Harness Structured AI Data Pipelines Enterprise Open Source",
+      "count": 1,
+      "last_published": "2026-08-02",
+      "slugs": [
+        "2026-08-02-dataflow-harness-structured-pipelines"
+      ]
+    },
+    {
       "term": "Thinking Machines Inkling Small Open Source Compact Model Quarter Size",
       "count": 1,
       "last_published": "2026-08-01",

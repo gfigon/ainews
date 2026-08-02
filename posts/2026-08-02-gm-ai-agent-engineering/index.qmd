@@ -1,0 +1,38 @@
+---
+title: "GM Tripled Its Pull Requests With AI Agents—Here's How"
+date: "2026-08-02 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "General Motors redesigned its entire engineering workflow around AI agents, resulting in a 3x increase in merged pull requests. The key: loop-by-loop agent access rather than chat interfaces."
+image: "https://pollinations.ai/p/GM+AI+Agents+Engineering+Workflow+Pull+Requests?width=1024&height=576&seed=804&nologo=true"
+---
+
+General Motors has achieved a 3x increase in merged pull requests by redesigning its engineering workflows around AI agents—a case study that's drawing attention from enterprise IT leaders struggling to demonstrate AI ROI.
+
+Rashed Haq, GM's VP of AI and analytics, shared the details at VB Transform 2026: the automaker's transformation wasn't about adding a chatbot to existing workflows. It was about fundamentally rethinking how human engineers and AI agents collaborate.
+
+**Beyond the chatbot paradigm**
+
+The traditional approach to AI in software development has been to add a chat interface—developers ask questions, AI responds. GM took a different path: loop-by-loop agent access, where AI agents work continuously on subtasks within the engineering process itself.
+
+This approach treats AI not as an assistant to query but as a collaborator embedded in the workflow. Agents handle code reviews, testing, documentation updates, and refactoring—tasks that previously created bottlenecks in the review process.
+
+**What changed in practice**
+
+GM's engineers shifted from reviewing every line of AI-generated code to reviewing agent behavior patterns. The AI agents operate within defined boundaries, escalating complex decisions to humans while handling routine improvements autonomously.
+
+The result: engineers spend less time on mechanical review tasks and more time on architecture decisions and edge cases. The 3x increase in merged pull requests reflects not just more code shipped, but code that reaches the main branch faster and with fewer integration issues.
+
+**Lessons for enterprise AI adoption**
+
+GM's success offers several takeaways for organizations deploying AI agents:
+
+First, embedding agents in workflows outperforms standalone chat interfaces. The context of ongoing work allows agents to be more helpful than reactive question-answering.
+
+Second, trust is built through boundaries, not blanket permissions. GM's agents operate within clear limits, with human oversight on significant decisions.
+
+Third, measuring engineering velocity requires looking at completed work, not just activity metrics. Pull requests merged is a clearer signal than prompts issued or tokens processed.
+
+The automotive industry has long been a proving ground for manufacturing automation. Now, GM is demonstrating that the same principles—embedding automation in workflows, measuring outcomes, and iterating on implementation—can transform software engineering as well.

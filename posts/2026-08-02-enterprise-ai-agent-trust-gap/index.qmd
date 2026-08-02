@@ -1,0 +1,26 @@
+---
+title: "Enterprise AI Agents Can't Talk to Each Other — 5 Startups Fixing That"
+date: "2026-08-02 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "Five startups at VB Transform 2026 unveiled solutions for enterprise AI agent interoperability, security, and auditability gaps that are blocking production deployment."
+image: "https://pollinations.ai/p/Enterprise+AI+Agents+Interoperability+Trust+Gap+Startups?width=1024&height=576&seed=802&nologo=true"
+---
+
+Enterprise AI agents can do the work—but the infrastructure to let them talk to each other, prove they should be trusted, and be audited when something goes wrong is still being built. That's the core finding from VB Transform 2026, where five startups showcased solutions targeting what analysts call the "agent trust gap."
+
+**The problem**: AI agents are deployed across enterprises for automation, but they operate in silos. They can't communicate with each other, can't be trusted with sensitive permissions, and leave no audit trail when things go wrong.
+
+"Agents see each other. They understand. They can collaborate together. They discuss issues. They fix issues, and they ask for review from another," said Vlad Luzin, CTO and co-founder of BAND, which is building a coordination infrastructure layer for multi-agent AI systems. His assessment is stark: "They are still alone in a kind of digital solitary confinement."
+
+The challenge is fundamentally about connecting remote processes—a distributed systems problem, Luzin noted. The transportation layer needs to be solved first: how agents communicate in real time across channels, conversational spaces, and platforms.
+
+**Security at machine speed**: Conifers is tackling the defensive side of the agent problem. "The biggest challenge defenders face today is that they're still running at human speed, but adversaries are running at machine speed," said CEO Tom Findling. Attackers are already adopting agents, and malicious campaigns that used to take months now take hours—or minutes. Conifers' system condenses cyberattack containment time from 7 hours to 12 minutes.
+
+**Auditability**: Raindrop AI addresses the audit problem. "One of the defining problems of the current era is finding critical issues in AI agents," said CTO Ben Hylak. As agents become more capable and run for hours or days, issues become catastrophic in healthcare or defense. Raindrop's platform finds critical issues in production agents and simulates fixes before deployment.
+
+**Authorization**: Arcade.dev provides a secure agent runtime with authentication and authorization layers so agents can pass security reviews. "AI agents are designed to do all kinds of things for you, but they often hit three major snags: authorization, governance, and reliability," said CTO Sam Partee.
+
+The market is responding to a real need. Enterprises are eager to deploy agents but can't until these foundational problems are solved. The five startups are each taking different approaches—but all agree on one thing: the agent infrastructure boom is just beginning.
