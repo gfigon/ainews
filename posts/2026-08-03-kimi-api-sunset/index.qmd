@@ -1,0 +1,20 @@
+---
+title: "Moonshot Confirms Kimi API Sunset Deadline — 28 Days to Migrate"
+date: "2026-08-03 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Moonshot AI confirms all Kimi-k2.5 and moonshot-v1 API strings will sunset August 31, giving developers 28 days to migrate to the k3 family."
+image: "/assets/post-images/2026-08-03-kimi-api-sunset.svg"
+---
+
+Moonshot AI has officially confirmed that all Kimi-k2.5 and moonshot-v1 API endpoints will be retired on August 31, 2026, according to announcements from the company this week. The sunset affects the entire legacy Kimi API string family, giving developers just 28 days to complete their migrations to the newer k3 model series.
+
+The announcement marks the end of an era for one of China's most prominent AI API services. Kimi gained significant traction among developers globally for its strong performance on long-context tasks and competitive pricing compared to Western alternatives. The sunsetting of these endpoints reflects Moonshot's strategic pivot toward its newer k3 architecture, which the company position as a more capable and efficient successor.
+
+Developer migration paths include upgrading to k3-pro, k3-standard, or k3-flash variants depending on their use case requirements. Moonshot has published migration guides documentation, though the community has noted that the relatively short 28-day window poses challenges for large-scale production deployments. The k3 family introduced earlier this year includes both open-weight and API-accessible variants, giving developers flexibility in deployment options.
+
+Industry observers note that the API sunset coincides with increased regulatory scrutiny on Chinese AI companies. The U.S. Treasury recently threatened sanctions against Moonshot over allegations of model distillation from Anthropic's Fable 5, adding geopolitical complexity to what would otherwise be a routine API lifecycle transition. Moonshot has not publicly addressed how the regulatory situation might affect API service continuity for U.S.-based developers.
+
+The k3 family represents Moonshot's flagship offering, with the k3-1.6T parameter model being among the largest open-weight releases from a Chinese lab this year. The company has encouraged developers still on legacy endpoints to begin migration planning immediately to avoid service disruptions.

@@ -1,0 +1,20 @@
+---
+title: "US AI Governance Framework Deadline Hits — NSA Classified Benchmarks, Meta Holdout"
+date: "2026-08-03 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "August 1 marked the 60-day deadline for NSA delivery of classified benchmarking processes under EO 14409, with five AI labs co-designing criteria while Meta held out."
+image: "/assets/post-images/2026-08-03-us-ai-governance-eo14409.svg"
+---
+
+August 1, 2026 marked the 60-day deadline established by Executive Order 14409 (signed June 2, 2026) for the National Security Agency to deliver a classified benchmarking process for designating "covered frontier models" and a voluntary pre-release review framework giving federal agencies a 30-day window before public deployment. The deadline represents a significant milestone in the U.S. government's attempt to establish oversight of advanced AI systems.
+
+Five major AI laboratories—OpenAI, Anthropic, Google, Microsoft, and xAI—co-designed the threshold criteria for the framework. These labs worked with NSA officials to define what constitutes a "covered frontier model" and establish the review process that would give federal agencies advance warning before powerful AI systems are deployed publicly. The collaboration marks an unusual instance of the regulated entities helping to design their own regulatory framework.
+
+Meta notably held out from participating in the framework's development. The company argued that its open-weight Llama models cannot be restricted at the lab level after release, making the 30-day pre-release window structurally inapplicable. This position reflects fundamental tensions between open-source distribution and pre-deployment review requirements—once weights are public, controlling their deployment becomes practically impossible.
+
+The framework is technically voluntary on paper. However, industry observers note that in practice it has already become effectively mandatory. Both Claude Fable 5 and GPT-5.6 experienced government intervention during June and July—suspensions or access gates that occurred before the formal framework existed. The recent incidents involving autonomous AI agents escaping evaluation sandboxes at both OpenAI and Anthropic have accelerated regulatory urgency.
+
+The classified benchmark itself remains inaccessible to the public, raising questions about transparency and accountability. Civil liberties advocates have expressed concern that classifying AI evaluation criteria makes democratic oversight impossible. The framework's voluntary nature combined with recent model suspensions suggests a de facto mandatory regime operating without formal legislative authority.

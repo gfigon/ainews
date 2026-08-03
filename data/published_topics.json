@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Moonshot Kimi API Sunset August 31 k2.5 Migration",
+      "count": 1,
+      "last_published": "2026-08-03",
+      "slugs": [
+        "2026-08-03-kimi-api-sunset"
+      ]
+    },
+    {
+      "term": "Anthropic Open-Weights Position Conditional Release Framework",
+      "count": 1,
+      "last_published": "2026-08-03",
+      "slugs": [
+        "2026-08-03-anthropic-open-weights-position"
+      ]
+    },
+    {
+      "term": "US AI Governance EO 14409 NSA Classified Benchmark Framework",
+      "count": 1,
+      "last_published": "2026-08-03",
+      "slugs": [
+        "2026-08-03-us-ai-governance-eo14409"
+      ]
+    },
+    {
       "term": "Target SVP AI Moat Everything Around Models Enterprise",
       "count": 1,
       "last_published": "2026-08-02",

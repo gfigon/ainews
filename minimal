@@ -1,0 +1,14 @@
+(ERROR) NotFound: No such file or directory (os error 2): stat '/home/skutek/projekty/ainews/posts/2026-07-28-open-secure-ai-alliance/index_files'
+
+Stack trace:
+    at Object.statSync (ext:deno_fs/30_fs.js:415:3)
+    at createWalkEntrySync (file:///opt/quarto/bin/quarto.js:6239:22)
+    at walkSync (file:///opt/quarto/bin/quarto.js:6359:11)
+    at walkSync.next (<anonymous>)
+    at advanceMatch (file:///opt/quarto/bin/quarto.js:6485:16)
+    at advanceMatch.next (<anonymous>)
+    at expandGlobSync (file:///opt/quarto/bin/quarto.js:6499:18)
+    at expandGlobSync.next (<anonymous>)
+    at expandGlobs (file:///opt/quarto/bin/quarto.js:7233:18)
+    at resolveGlobs (file:///opt/quarto/bin/quarto.js:7315:24)
+

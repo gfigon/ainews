@@ -1,0 +1,56 @@
+---
+title: "How Waymo Evaluates AI for 220 Million Autonomous Miles — And What Enterprises Can Learn"
+date: "2026-08-02 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Waymo's director of engineering shared the company's eval-centric development approach at VB Transform 2026, revealing how it achieved 17x fewer serious crash injuries than human drivers."
+image: "/assets/post-images/2026-08-02-waymo-ai-evaluation-safety.svg"
+---
+
+Few companies face higher stakes when deploying AI than [Waymo](https://waymo.com/), the self-driving car company under Alphabet that spun out of Google. Its models don't merely generate text or automate back-office tasks: they help vehicles navigate unpredictable streets, respond to human drivers, and make split-second decisions in the physical world.
+
+But the methods Waymo uses to manage those risks — continuous evaluation, carefully curated data, human oversight, and clearly defined business outcomes — offer a broader playbook for enterprises deploying AI agents in nearly any industry.
+
+Manasi Joshi, Waymo's director of engineering for systems intelligence and machine learning, explained at VB Transform 2026 how the autonomous vehicle company trains, tests, and deploys AI at scale. To date, Waymo has driven more than 220 million fully autonomous, or "rider-only," miles, with 17 times fewer serious crash injuries than human drivers over the same distance, according to the company.
+
+## Eval-centric development
+
+To achieve these results, Joshi said Waymo has adopted what she called "eval-forced development" or "eval-centric development," making evaluation a core part of engineering rather than a final check performed before deployment.
+
+"The stage at which our projects are maturing can be easily kind of transpired based on the eval maturity that they showcase," Joshi said.
+
+In practice, Waymo assesses a project's readiness partly by examining the maturity of the tests surrounding it. That approach has clear implications for enterprises building customer service agents, coding assistants, financial systems, or other AI applications: if a company cannot reliably measure a system's performance, it may not be ready to place that system into production.
+
+## Continuous evaluation, not one-time testing
+
+Joshi said much of Waymo's quality work has shifted toward evaluations, including tests conducted during model training, after training, and inside open-loop and closed-loop simulations.
+
+"Eval is not a one-time task to launch a model," she said.
+
+Waymo instead treats evaluation as a continuous process spanning driving, simulation, and validation. Its methodology combines datasets, performance metrics, and infrastructure capable of operating efficiently at scale.
+
+For enterprises, that means testing an agent before launch is insufficient. Teams must continue evaluating it as underlying models, business processes, user behavior, and incoming data change. Those evaluations should also connect to actual business outcomes rather than relying solely on broad industry benchmarks.
+
+## Testing the rare and dangerous cases
+
+Waymo's evaluation hierarchy remains grounded in one overriding objective: safety.
+
+The company draws on first-party driving logs, some third-party data, and realistic simulations that expose its systems to scenarios spanning billions of synthetic miles. Task owners choose specialized data and metrics for situations involving vulnerable road users, railroad crossings, construction zones, and other complex environments.
+
+The same principle applies outside autonomous driving. Enterprises need to test not only the routine requests their agents handle successfully, but also uncommon situations where errors could create financial, legal, security, or reputational damage.
+
+Joshi emphasized that Waymo does not leave release decisions entirely to automated systems. Its production-readiness reviews include extensive human oversight, while internal safety leaders approve software releases and service-area expansions.
+
+"This is not AI-driven and completely automated and zero human oversight," she said. "Human lives are at stake."
+
+## Efficiency without compromising reliability
+
+Waymo faces another problem familiar to enterprise AI teams: demand for compute, storage, memory, and network capacity is growing faster than the resources available.
+
+The company pursues efficiency across data extraction and storage, distributed model training, model distillation, simulation, and evaluation. It also emphasizes "data efficiency," selecting the most useful training examples instead of treating greater volume as inherently better.
+
+For enterprise leaders, Waymo's larger lesson is that agentic AI requires more than choosing a powerful model. Organizations need a clearly defined objective, representative evaluation data, continuous testing, infrastructure that can operate efficiently, and named human decision-makers who remain accountable for deployment.
+
+"Earning trust is supremely important," Joshi said.
