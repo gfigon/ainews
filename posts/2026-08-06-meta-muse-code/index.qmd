@@ -1,0 +1,22 @@
+---
+title: "Meta's Muse Code Enters Coding Agent Race With aggressive 10x Price Cut"
+date: "2026-08-06 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Meta launches Muse Code, its first AI coding agent, with pricing undercutting Anthropic and OpenAI by over 10x as Alexandr Wang's team bets on cost as the differentiator."
+image: "/assets/post-images/2026-08-06-meta-muse-code.svg"
+---
+
+Meta has officially entered the crowded AI coding agent market with the launch of Muse Code, the company's first terminal-based AI agent designed for enterprise software development. The release marks a significant escalation in the competition between Meta's AI division and established players Anthropic and OpenAI.
+
+The new coding agent, announced by AI chief Alexandr Wang at the Bloomberg Tech conference, represents Meta's attempt to challenge Anthropic's Claude Code and OpenAI's Codex assistant. What sets Muse Code apart is its aggressive pricing strategy—a contributor tier that Wang claims is "more than 10 times cheaper" than existing pay-as-you-go options.
+
+"You can install it with one command and then use it to take on complete software engineering tasks across a wide variety of use cases, planning changes, writing code, validating the results," Wang explained in an interview. The agent works alongside Muse Spark 1.2, Meta's latest AI model developed specifically to improve coding performance.
+
+The launch comes at a critical moment for Meta. The company's shares tumbled last week after issuing a light revenue forecast and revealing dwindling free cash flow in Q2. Muse Code represents a direct attempt to generate meaningful AI revenue as Meta continues its massive investments in data centers and computing infrastructure.
+
+The agent is available through Meta's developer platform alongside the Muse Spark API, with the company also confirming availability on OpenRouter—the popular platform hosting open-weight models from Chinese labs like DeepSeek and Z.ai. This multi-platform distribution strategy suggests Meta is serious about capturing market share beyond its own ecosystem.
+
+Industry observers note that while the pricing play is aggressive, the true test will be whether Muse Code can match the coding capabilities of Claude and Codex in production environments. With 80% of enterprises now running AI agents in production according to recent Gartner data, the timing of this launch could not be better for Meta's monetization ambitions.
