@@ -1,0 +1,26 @@
+---
+title: "DeepGrove Maple-Preview: 20B Ternary-Weight MoE Hits 218 Tokens/Second on M4 Mac Mini"
+date: "2026-08-06 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "DeepGrove's new 20B-parameter ternary-weight MoE model runs at 218 tokens/second on an M4 Mac mini, delivering 5-16x speedups over Gemma 4, Qwen3.5, and gpt-oss."
+image: "/assets/post-images/2026-08-06-deepgrove-maple-preview.svg"
+---
+
+DeepGrove has published Maple-Preview, a 20B-parameter ternary-weight Mixture-of-Experts model designed specifically for on-device reasoning, achieving remarkable performance metrics on consumer hardware.
+
+The model runs at 218 tokens per second on an M4 Mac mini — representing a 5-16x speedup compared to Gemma 4, Qwen3.5, and gpt-oss running on equivalent hardware. The 5.31 GB checkpoint enables deployment on devices previously considered impractical for reasoning workloads.
+
+Maple-Preview uses a 128K context window and features a 24-layer architecture with 256 experts, of which 8 remain active during inference. The model is released under the MIT license, making it available for both commercial and research applications.
+
+The benchmark coverage includes LCBv6, AIME 2026, HMMT 2026, and GPQA-D — representing reasoning-focused evaluation suites that test mathematical, scientific, and coding capabilities. This positions Maple-Preview as a practical solution for developers seeking reasoning capabilities without cloud API dependencies.
+
+The ternary-weight approach is significant: by constraining weights to just three values (-1, 0, +1), the model achieves dramatic compression while maintaining competitive performance. This technique reduces memory footprint and enables faster inference through simplified computations.
+
+For enterprise deployments, the on-device capability addresses key concerns around data privacy and latency. Reasoning workloads that previously required cloud API calls can now execute locally, reducing both costs and data exposure risks.
+
+The release reflects a broader trend toward efficient on-device AI. As model optimization techniques mature, the boundary between cloud and edge AI continues to shift. Maple-Preview demonstrates that frontier-level reasoning capabilities may soon be accessible entirely on consumer devices.
+
+Developers can access the model checkpoint through DeepGrove's repository, with documentation covering deployment across different Apple Silicon configurations. The MIT license removes traditional barriers to commercial adoption.
