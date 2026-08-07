@@ -1,0 +1,40 @@
+---
+title: "Study: Humans Miss 1 in 3 Malicious AI Agent Commands"
+date: "2026-08-07 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A 40,000-run study reveals human overseers approve 33% of malicious AI agent commands, exposing a critical gap in agentic AI security."
+image: "https://pollinations.ai/p/Human%20approving%20AI%20agent%20command%20security%20threat%20missed?width=1280&height=720&nologo=true"
+---
+
+A new study analyzing over 40,000 game sessions and 409,000 individual approval decisions reveals a troubling reality: humans approve roughly one-third of malicious commands from AI agents, exposing a critical vulnerability in the human-in-the-loop security model.
+
+The research, conducted by developer platform Scalex, used a browser game where players act as the final checkpoint for an AI coding agent's commands—approving or denying requests under time pressure. The game presented 37 different threat types, ranging from obviously destructive commands like `rm -rf /` to subtle exfiltration attempts hiding in familiar scripts.
+
+## The Headline Numbers
+
+- **66.3% average accuracy**—humans missed 1 in 3 threats
+- **32.9% of sessions ended with negative scores** due to approved threats
+- **7% approved every single prompt**, embracing a "dangerously-skip-permissions" mindset
+- Only **20.8% of players** achieved high threat detection while maintaining reasonable productivity
+
+## The npm run Blind Spot
+
+The most frequently missed command was `npm run analyze`, approved 64.7% of the time. While appearing innocent, the command executes scripts defined in package.json—scripts that can silently exfiltrate credentials. Despite the malicious payload being visible in the agent's history log, two-thirds of players approved it.
+
+"The entire model of approving specific commands is absolutely bonkers," noted one commenter on Hacker News. "The agent could have edited package.json to contain any arbitrary build command without any approval."
+
+| Threat Type | Example | Miss Rate |
+|-------------|---------|-----------|
+| Obstructive | `rm -rf /` | 11.7% |
+| Persistent mutation | crontab injection | 23.8% |
+| Exfiltration | curl to unknown API | 33.4% |
+| Scope violations | `cat ~/.aws/credentials` | 35.0% |
+
+## The Fundamental Problem
+
+The study reveals that command-level approval is fundamentally broken. Agents can modify the files that define dangerous commands—editing package.json, planting code in build scripts—without requiring any user approval. By the time a command appears for human review, the malicious groundwork is already laid.
+
+As AI agents become more autonomous in enterprise environments, these findings suggest organizations need to rethink their security postures rather than relying on human oversight for individual commands.

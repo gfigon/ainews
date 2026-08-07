@@ -2,6 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-08-07-ai-agent-security-study/index.html",
+      "/posts/2026-08-07-amd-taalas-acquisition/index.html",
+      "/posts/2026-08-07-huggingface-agent-intrusion/index.html",
+      "/posts/2026-08-07-secure-ai-agents-production/index.html",
+      "/posts/2026-08-07-copilotkit-channels-sdk/index.html",
       "/posts/2026-08-06-deepseek-price-increase/index.html",
       "/posts/2026-08-06-voice-ai-funding-surge/index.html",
       "/posts/2026-08-06-meta-muse-code/index.html",

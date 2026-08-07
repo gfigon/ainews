@@ -1,0 +1,30 @@
+---
+title: "AMD Acquires Taalas to Bake AI Models Directly Into Silicon"
+date: "2026-08-07 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "AMD's acquisition of Toronto-based Taalas promises 48x faster inference by etching model weights directly into transistors, challenging Nvidia's dominance."
+image: "https://pollinations.ai/p/AMD%20Taalas%20silicon%20chip%20etched%20AI%20model%20weights?width=1280&height=720&nologo=true"
+---
+
+AMD has acquired Taalas, a Toronto-based AI chip startup that takes a radically different approach to inference: baking model weights directly into silicon transistors. The deal, announced at market close on Thursday, positions AMD to challenge Nvidia's dominance in high-performance AI inference.
+
+Unlike conventional GPUs that rely on high-bandwidth memory (HBM) to store model weights, Taalas' chips etch weights directly into the semiconductor itself. The startup revealed its first test chip, the HC1, fabbed on TSMC's 6nm process in February. Initial benchmarks showed the chip serving Meta's Llama 3.1 8B at 16,960 tokens per second—48x faster than Nvidia's GPUs and 8.5x faster than Cerebras' wafer-scale accelerators.
+
+## The Model-Specific IC Tradeoff
+
+Taalas' processors consist of two main regions: a mask-ROM recall fabric where model weights are etched, and an SRAM recall fabric for KV caches and fine-tuning adapters. This architecture delivers unprecedented inference speed but comes with a significant constraint—customers are locked into their chosen model until a chip re-spin.
+
+"Once the chips are deployed you're stuck with that model," The Register noted. However, Taalas claims updating to new models requires changing only two metal layers, dramatically reducing cost and time compared to full re-fabrication.
+
+The second-generation HC2 chip, due this summer, targets 20 billion parameters per chip. At that density, just 50 accelerators could serve a trillion-parameter model—far more efficient than Nvidia's LPX systems requiring dozens of GPUs.
+
+## AMD's Disaggregated Strategy
+
+AMD intends to pair its Instinct-based Helios racks with Taalas accelerators in a disaggregated architecture. Compute-heavy prompt processing will run on GPUs while token generation offloads to Taalas-based accelerators.
+
+"AMD is building a full-stack AI platform that gives customers the flexibility to deploy the right compute solutions for every AI workload," said AMD's SVP of AI, Vamsi Boppana.
+
+The acquisition signals AMD's commitment to capturing the inference market, particularly for AI agents and code assistants where low-latency token generation is critical. Terms were not disclosed, but the deal appears to be a full acquisition rather than an acquihire.
