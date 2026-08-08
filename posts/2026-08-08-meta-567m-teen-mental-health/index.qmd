@@ -1,0 +1,37 @@
+---
+title: "Judge Orders Meta to Pay $567M Over Teen Mental Health Harms"
+date: "2026-08-08 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "A New Mexico judge ordered Meta to pay $567M into a youth mental health fund and impose restrictive settings for users under 18, following a $375M jury verdict earlier this year."
+image: "/assets/post-images/2026-08-08-meta-567m-teen-mental-health.svg"
+---
+
+Chief District Court Judge Bryan Biedscheid ordered Meta to pay $567 million into a five-year youth mental health fund and imposed sweeping default-restrictive settings for users under 18, marking one of the largest regulatory actions against a tech company over impacts on teenage mental health.
+
+The ruling requires Meta to implement default settings for all users under 18 that include a 90-hour monthly cap across Facebook and Instagram, blocked notifications during school and sleep hours, no adult-to-teen direct messaging, and mandated safeguards for AI chatbots serving minors.
+
+## Largest Penalty to Date
+
+The $567 million penalty comes in addition to a $375 million jury verdict earlier this year, bringing Meta's total liability to $942 million over adolescent mental health concerns. The combined amount exceeds any previous regulatory penalty related to social media's impact on youth.
+
+"The evidence demonstrated a direct correlation between Meta's design choices and harm to minors," Judge Biedscheid wrote in his ruling. "The company's engagement-maximization algorithms deliberately targeted young users despite documented risks."
+
+## Required Safeguards
+
+Beyond the financial penalty, the order mandates specific product changes:
+
+- **Time limits**: 90-hour monthly cap across Facebook and Instagram
+- **Notification controls**: No notifications during school hours (8 AM–3 PM) and sleep hours (9 PM–7 AM)
+- **Messaging restrictions**: No adult-to-teen direct messages permitted
+- **AI chatbot safeguards**: Mandatory content filters and time limits on AI assistants used by minors
+
+The ruling also requires Meta to fund independent research into the effects of social media on adolescent mental health, with the company prohibited from using findings to train its recommendation systems.
+
+## Industry Implications
+
+The ruling sets a precedent for other platforms facing similar scrutiny. TikTok, Snap, and YouTube all face pending litigation over youth mental health impacts, and legal experts predict this decision will influence settlement negotiations across the industry.
+
+Meta has announced plans to appeal the ruling, arguing that the company has already implemented extensive safeguards for minor users. The appeal process is expected to take several months, during which the required changes will remain paused.
