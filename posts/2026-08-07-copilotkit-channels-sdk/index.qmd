@@ -1,0 +1,26 @@
+---
+title: "CopilotKit Channels SDK Brings AG-UI Agents to Slack and Teams"
+date: "2026-08-07 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "CopilotKit releases an MIT-licensed SDK that runs any AG-UI compatible agent inside Slack and Microsoft Teams without platform-specific rewrites."
+image: "/assets/post-images/2026-08-07-copilotkit-channels-sdk.svg"
+---
+
+CopilotKit has released the Channels SDK, an open-source library that deploys existing AI agents into messaging platforms without requiring a separate implementation for each surface. The SDK runs on Slack and Microsoft Teams as early access surfaces, with Discord and Google Chat planned for future releases.
+
+The core assumption is straightforward: organizations already have an agent with a model, tools, and business logic. Channels gives that agent a workplace inside messaging apps without rewriting it for each platform. Installation requires just two npm packages: `@copilotkit/channels` and `@copilotkit/runtime`.
+
+The connection to agents uses AG-UI, the agent-user interaction protocol maintained by CopilotKit. Any agent that speaks AG-UI works with Channels—including those built with LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK, or a plain HTTP agent. The model and orchestration layer remain where they are; Channels acts purely as a transport and rendering target.
+
+What makes this approach different from existing solutions is the rendering model. Messages are authored as JSX and lowered to a serializable intermediate representation. The adapter then translates that into each platform's native format—Block Kit in Slack, Adaptive Cards in Teams—rather than pushing text blobs through webhooks. This preserves interactive elements across platforms.
+
+The runtime lifecycle follows a clear pattern. Creating a channel involves defining its name, provider, and the agent it will carry. The listener starts the channel connection, and awaiting `channels.ready()` ensures broken configurations fail loudly at startup rather than silently. The runtime exposes listeners for Node, Hono, and Express through the `@copilotkit/runtime/v2/*` subpaths. Deployment requires Node.js 22+, an ESM project, and a long-running process—serverless functions cannot maintain the persistent connection.
+
+For what agents can do inside channels, the feature set targets work that happens in threads rather than chat for its own sake. Generative UI lets agents render interfaces when tasks call for it. Human-in-the-loop patterns let a person approve critical actions before execution. Tools allow agents to file issues, book meetings, or open pull requests. A persistence layer plus transcripts carry memory across platforms, and slash commands map to the right agent interactions.
+
+The OpenTag pattern demonstrates the approval workflow concretely. Every Linear and Notion mutation is intercepted in code before the MCP request runs. The interceptor emits a `confirm_write` and proceeds only after user approval. Reads and rendering continue without pausing.
+
+The SDK is MIT licensed and available on npm. Slack is generally available as a managed provider, while Teams carries an early access designation. Discord, Telegram, and WhatsApp adapters are included as upcoming integrations in the shipped package.

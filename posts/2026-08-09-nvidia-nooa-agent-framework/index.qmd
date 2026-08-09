@@ -1,0 +1,38 @@
+---
+title: "NVIDIA Open-Sources NOOA: A Single-Class Python Agent Framework Hitting 82.2% on SWE-bench"
+date: "2026-08-09 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "NVIDIA releases NOOA, an object-oriented Python agent framework where an agent is a single class, achieving 82.2% on SWE-bench Verified and 86.8% on CyberGym L1."
+image: "/assets/post-images/2026-08-09-nvidia-nooa-agent-framework.svg"
+---
+
+NVIDIA has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework that treats an AI agent as a single Python class. Released on July 30, 2026, and announced on August 9, NOOA achieved 82.2% on SWE-bench Verified, 86.8% on CyberGym L1, and 85.1% on ARC-AGI-3 benchmarks.
+
+## One Class, One Agent
+
+The framework's core innovation is its simplicity: an agent is defined as a Python class where methods become actions, fields represent state, and docstrings serve as prompts. This object-oriented approach consolidates what traditional agent frameworks split across prompt templates, tool schemas, callback code, and workflow graphs.
+
+"Traditional agent development is fragmented across multiple abstractions," the NVIDIA team noted in their arXiv paper. "NOOA brings these concepts together in a Python class."
+
+The framework is available via `pip install nooa` under the Apache 2.0 license. It supports multiple models through LiteLLM integration, making it model-agnostic—developers can swap between GPT, Claude, Gemini, or open-weight models without changing agent logic.
+
+## Performance and Cost Benefits
+
+Benchmark results position NOOA among the top open-source agent frameworks. The 82.2% on SWE-bench Verified is notable because it was achieved with what NVIDIA describes as roughly half the token spend compared to other scaffolding approaches. For organizations burning significant inference budgets on complex multi-agent systems, this efficiency gain could translate to substantial cost reductions.
+
+CyberGym L1 (86.8%) measures cybersecurity task performance, while ARC-AGI-3 (85.1%) tests general reasoning capabilities. Together, these scores suggest NOOA handles both code-related and general problem-solving tasks effectively.
+
+## Security Considerations
+
+The NVIDIA team includes a clear security warning: AST (Abstract Syntax Tree) checks provide containment but aren't foolproof for untrusted environments. The alpha release (v0.0.8) documentation recommends running NOOA agents in containers or VMs when handling potentially malicious inputs. This is a notable departure from frameworks that claim complete isolation—the honest acknowledgment reflects growing industry awareness of agent security risks.
+
+## Industry Implications
+
+NOOA enters a crowded agent framework landscape that includes LangChain, LlamaIndex, AutoGen, and others. NVIDIA's entry differs in two key ways: the object-oriented paradigm shift and the explicit focus on benchmark performance with cost efficiency.
+
+For enterprises evaluating agent frameworks, NOOA offers a new option that combines performance with the familiarity of Python's class syntax. The Apache 2.0 license means it's free for commercial use, and the model-agnostic design avoids vendor lock-in.
+
+The release also signals NVIDIA's continued push beyond hardware into the software layer of AI development—a strategy that complements their GPU business by making their infrastructure more attractive to developers building agentic applications.

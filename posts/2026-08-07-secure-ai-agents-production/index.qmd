@@ -1,0 +1,22 @@
+---
+title: "Securing AI Agents in Production: A Practical Framework"
+date: "2026-08-07 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Mend.io releases a comprehensive practitioner guide for securing AI agents, MCP servers, and LLM applications against emerging threats that bypass traditional AppSec."
+image: "/assets/post-images/2026-08-07-secure-ai-agents-production.svg"
+---
+
+Traditional application security assumes applications do what their code says. Agentic AI breaks that assumption entirely. Agent behavior emerges from a model, a system prompt, retrieved context, user input, and the tools it may call—making two identical deployments behave differently. A new practitioner guide from Mend.io tackles this growing gap with a practical three-phase framework: see what matters, fix what matters faster, and protect AI in production.
+
+The guide identifies five distinct risk layers that organizations must monitor. The interaction layer covers user inputs, retrieved documents, and inter-agent messages—vectors for prompt injection, context poisoning, and data exfiltration. The agent layer encompasses system prompts, configurations, memory, and autonomy settings where over-permissioned tools and unsafe defaults create vulnerabilities. Integration risks include MCP servers, tool definitions, plugins, and APIs where poisoned tool descriptions can redirect agent behavior without touching the application. The model layer addresses foundation and fine-tuned models, embeddings, and end-of-life model risks. Finally, the code layer covers AI-generated code, frameworks, and SDKs where vulnerable code and malicious packages can infiltrate deployments.
+
+Shadow agents present one of the biggest challenges. Unlike traditional software procurement, AI agents rarely arrive through formal channels. Organizations must hunt for three categories: unregistered MCP servers, shadow agents deployed outside IT oversight, and embedded AI frameworks. Discovery methods include scanning repositories for agentic signatures, watching network egress for model API calls, auditing service accounts and API keys, and implementing lightweight registration systems that make declaration easy.
+
+The fix phase introduces a prioritization framework based on five signals: reachability, exploitability context, business context, agentic amplification, and fix availability. The guide recommends automating evidence-backed triage while keeping risk acceptance and novel findings as human-only decisions. Every automated closure must carry evidence—if the system cannot explain why something is a false positive, it escalates to a human reviewer.
+
+Runtime protection combines guardrails, prompt hardening, policy enforcement, and monitoring in a continuous loop with AI red teaming. Guardrails deploy either as an in-app Python SDK supporting online or isolated offline modes, or as a standalone Docker API server requiring no code changes. System prompt hardening follows five patterns: assuming disclosure is possible, separating instructions from data, constraining blast radius, versioning and reviewing prompts, and conducting adversarial testing. The guide notes that setting strict permissions is more effective than prompt instructions—preventing tool access removes the need to instruct against dangerous actions.
+
+The framework aligns with NIST AI RMF, OWASP AIMA, ISO/IEC 42001, and the EU AI Act, providing organizations with a maturity roadmap from Emerging through Leading stages. As AI agents move from experimentation to enterprise deployment at scale, this practical guide addresses the security gap that has emerged between agent capability and defensive capability.
