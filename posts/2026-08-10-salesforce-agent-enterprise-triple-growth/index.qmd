@@ -1,0 +1,22 @@
+---
+title: "Enterprise AI Agents Triple in 14 Months as Salesforce Reports 13 Active Deployments Average"
+date: "2026-08-10 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Salesforce's second Agentic Enterprise Index reveals explosive growth in enterprise AI agent adoption, with average deployment rising from 5 to 13 agents per organization."
+image: "/assets/post-images/2026-08-10-salesforce-agent-enterprise-triple-growth.svg"
+---
+
+Enterprise AI agent deployments have nearly tripled over the past 14 months, according to Salesforce's latest Agentic Enterprise Index released this week. The data, drawn from Agentforce telemetry spanning February 2025 through April 2026, provides the most comprehensive quantitative picture yet of how enterprises are actually deploying AI agents in production.
+
+The key findings paint a striking picture of accelerating adoption. Organizations now run an average of 13 activated agents, up from just 5 in early 2025—representing a 160% increase at a 7% compound monthly growth rate. More significantly, the average time to create a new agent has dropped 53% to just 1.9 days, suggesting that enterprises have moved beyond experimentation into scaling mode.
+
+Retail deployments show particularly strong results, with agent-enabled online sales growth averaging 4x compared to control groups. The Salesforce internal deployment of Slackbot saves employees approximately five hours per week with 83% company-wide adoption—a concrete ROI metric that enterprise buyers are increasingly demanding.
+
+"Most of the demos are theater," noted one analyst at Futurum Group, contrasting the hype surrounding AI agents with actual production deployments. The Salesforce data suggests that while the enterprise software industry has broadly embraced agentic AI, the gap between pilot and production remains significant.
+
+The index also tracked protocol adoption, with 43% of organizations expressing interest in the Agent Network Protocol as a standard for connecting agents across platforms. Prebuilt SaaS agents account for 36% of deployments, while 34% use embedded agents within enterprise platforms and 30% build custom solutions in-house.
+
+As enterprises move from experimentation to scale, the question shifts from whether agents deliver value to how quickly organizations can operationalize them across their workflows.

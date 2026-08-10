@@ -1,0 +1,22 @@
+---
+title: "US Data Center Bans Top 500 Jurisdictions as Local Opposition Intensifies"
+date: "2026-08-10 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Security & Policy
+summary: "The number of US jurisdictions actively banning or restricting new data centers has crossed 500, up from 300 in late June, with New York and Texas joining at the state level."
+image: "/assets/post-images/2026-08-10-us-data-center-bans-500.svg"
+---
+
+The wave of local opposition to data center construction in the United States has reached a new milestone, with more than 500 city, county, and state jurisdictions now actively restricting new facilities. This represents a roughly 67% increase since late June, when approximately 300 jurisdictions had enacted some form of ban or limitation.
+
+New York and Texas—the two states most critical to AI infrastructure buildout—have now joined the pushback at the state level. According to The Information, the tally confirms a broader trend that Heatmap News documented in late July, when over 530 local laws restricting data centers were identified, with approximately 40% enacted since June 1.
+
+The opposition stems from multiple concerns: electricity demand straining local grids, water consumption for cooling systems, noise from massive cooling fans, and the visual impact of facilities that can span millions of square feet. Communities that have hosted hyperscale data centers report increased electricity rates and reliability concerns, fueling citizen activism against new construction.
+
+For hyperscalers and neocloud operators, the trend directly constrains site selection for the AI buildout that has defined the past two years of infrastructure investment. Companies like Microsoft, Google, and Amazon Web Services, along with emerging GPU cloud providers, now face a shrinking map of welcoming jurisdictions.
+
+The data center ban wave presents a strategic challenge for US AI competitiveness at a moment when China is aggressively expanding its own infrastructure. While state and federal officials have emphasized the importance of domestic AI compute capacity, local governance structures are increasingly acting as a counterweight.
+
+Industry groups have pushed back, arguing that modern data centers create high-skilled jobs and generate significant tax revenue. But the grassroots opposition shows no signs of abating, suggesting that the friction between national AI ambitions and local quality-of-life concerns will remain a defining tension through at least the next election cycle.
