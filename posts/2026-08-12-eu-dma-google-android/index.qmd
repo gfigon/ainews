@@ -1,0 +1,36 @@
+---
+title: "EU Forces Google to Open Android to Claude and ChatGPT by 2027"
+date: "2026-08-12 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "European Commission issues binding DMA orders requiring Google to open Android system-level access to rival AI assistants."
+image: "/assets/post-images/2026-08-12-eu-dma-google-android.svg"
+---
+
+The European Commission has delivered its most significant AI regulatory action yet. On July 16, 2026, binding orders were issued requiring Google to open Android to rival AI assistants—including Claude and ChatGPT—by August 2027.
+
+The order affects 11 Android system features that will now be accessible to qualifying AI assistants, not just Gemini. Voice invocation, on-device app context, autonomous app control, and on-device ML models must all be opened to competitors under the Digital Markets Act.
+
+**What changes for users**
+
+Currently, only Gemini has full system-level integration on Android. By August 2027, when Android 18 ships, EU users will be able to set Claude, ChatGPT, or any qualifying AI assistant as their default—and that assistant will have the same capabilities as Gemini.
+
+Voice activation from any screen, reading app context across installed applications, autonomously controlling apps on your behalf, and running on-device machine learning models—all of this becomes available to competitors.
+
+The search data provisions kick in earlier: starting January 2027, Google must share search query, click, and ranking data with rival search engines and eligible AI chatbot providers under FRAND (fair, reasonable, and non-discriminatory) pricing.
+
+**The stakes**
+
+Fines reach up to 10% of global turnover for non-compliance—potentially tens of billions of dollars for Google. The company has publicly disagreed with the orders and may appeal, but the orders remain binding unless overturned.
+
+This is EU/EEA only. Android users in the United States and other regions will not see these changes.
+
+**Why it matters**
+
+The order fundamentally reshapes the European AI assistant market. Currently, Gemini's deep Android integration creates a structural advantage impossible for competitors to match through software alone. Opening those APIs levels the playing field—but only for Europe's 450 million Android users.
+
+For AI companies, the search data provision may prove equally significant. Google's query-click-ranking data is among the most valuable datasets in AI. Opening it to competitors under FRAND pricing could accelerate improvements in search-grounded AI responses across the industry.
+
+The EU has now moved from regulating AI outputs to regulating platform access—the most consequential intervention since the DMA's passage.

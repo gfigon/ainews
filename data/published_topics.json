@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Theseus Data Centers Macquarie GIC Infrastructure JV",
+      "count": 1,
+      "last_published": "2026-08-12",
+      "slugs": [
+        "2026-08-12-anthropic-theseus-data-centers"
+      ]
+    },
+    {
+      "term": "EU DMA Google Android Open AI Assistants Claude ChatGPT 2027",
+      "count": 1,
+      "last_published": "2026-08-12",
+      "slugs": [
+        "2026-08-12-eu-dma-google-android"
+      ]
+    },
+    {
+      "term": "Meta Muse Glimmer 30B Open Weight Local Agent Single GPU Apache 2.0",
+      "count": 1,
+      "last_published": "2026-08-12",
+      "slugs": [
+        "2026-08-12-meta-muse-glimmer-30b"
+      ]
+    },
+    {
       "term": "Salesforce Agentic Enterprise Index 13 Agents 3x Growth 53% Creation Time",
       "count": 1,
       "last_published": "2026-08-10",
