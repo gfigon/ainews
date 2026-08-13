@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Google Gemini 1B Users Monthly Active 1 Billion ChatGPT",
+      "count": 1,
+      "last_published": "2026-08-13",
+      "slugs": [
+        "2026-08-13-gemini-1b-users"
+      ]
+    },
+    {
+      "term": "OpenAI Daybreak Blue Red GPT-5.6-Cyber Chrome Zero-Days CVE-2026-15903",
+      "count": 1,
+      "last_published": "2026-08-12",
+      "slugs": [
+        "2026-08-12-openai-daybreak-cyber"
+      ]
+    },
+    {
+      "term": "NVIDIA NOOA Object Oriented Agent Framework Python Class Apache 2.0 SWE-bench 82.2",
+      "count": 1,
+      "last_published": "2026-08-12",
+      "slugs": [
+        "2026-08-12-nvidia-nooa-agent-framework"
+      ]
+    },
+    {
       "term": "Anthropic Theseus Data Centers Macquarie GIC Infrastructure JV",
       "count": 1,
       "last_published": "2026-08-12",

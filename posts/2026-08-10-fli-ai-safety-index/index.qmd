@@ -1,0 +1,32 @@
+---
+title: "FLI Summer 2026 AI Safety Index: No Lab Above C+"
+date: "2026-08-11 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Future of Life Institute's Summer 2026 AI Safety Index reveals no AI lab exceeds C+ rating, with Anthropic leading at C+ (2.66), while top labs weakened pause pledges."
+image: "/assets/post-images/2026-08-10-fli-ai-safety-index.svg"
+---
+
+The Future of Life Institute (FLI) released its Summer 2026 AI Safety Index, revealing that no AI laboratory exceeds a C+ rating. Anthropic leads the field at C+ (2.66), followed by OpenAI at C, Google DeepMind at C, and Meta at D+. xAI, DeepSeek, and Mistral received failing grades.
+
+## Grading Methodology
+
+The index evaluates labs across multiple dimensions including governance structures, transparency practices, capability control measures, and commitment to safe development. Each category carries weighted scoring that contributes to the overall grade.
+
+Anthropic's leading score reflects its relatively robust safety infrastructure, including its Independent Safety Review Committee (ISRC) and detailed model specification processes. However, even the top performer fell short of a B rating, indicating systemic challenges across the industry.
+
+"The results demonstrate that while individual labs have made progress, the industry as a whole has not achieved the level of safety assurance that would warrant higher grades," said FLI Executive Director.
+
+## Weakened Pause Pledges
+
+A particularly concerning finding: the top four laboratories have weakened their original pause pledges from 2023. The report notes that commitments to halt development beyond specific capability thresholds have been "moved goalposts" — with labs adjusting what they consider acceptable risk levels as capabilities advance.
+
+OpenAI, which originally committed to not train models beyond GPT-4 capability levels without safety review, has continued rapid development of increasingly powerful systems. The report suggests that commercial pressures have systematically overridden initial safety commitments.
+
+## Industry Reaction
+
+Lab representatives have questioned the index's methodology, noting that safety practices are difficult to quantify and that public grades may not reflect internal security measures. Nevertheless, the report has reignited debate about whether voluntary industry commitments can ensure safe AI development.
+
+The findings arrive amid intensifying regulatory attention. The US government's 60-day deadline from Executive Order 14409 passed in early August, requiring the NSA to deliver a classified benchmark framework for frontier model evaluation. Meta notably held out from participating in the framework's design.

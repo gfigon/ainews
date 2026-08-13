@@ -1,0 +1,28 @@
+---
+title: "EU Orders Google to Open Android to AI Assistants Under DMA"
+date: "2026-08-11 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The European Union has issued binding orders under the DMA requiring Google to open Android to AI assistants including Claude, ChatGPT, and Copilot, with system-level access due by August 2027."
+image: "https://pollinations.ai/p/EU%20Google%20Android%20DMA%20AI%20Assistants?width=1280&height=720&nologo=true"
+---
+
+The European Commission has issued binding orders under the Digital Markets Act (DMA) requiring Google to provide system-level access to Android for AI assistants, including Anthropic's Claude, OpenAI's ChatGPT, and Microsoft's Copilot. The deadline for compliance is August 2027, with data sharing requirements beginning in January 2027.
+
+## Breaking Platform Lock-In
+
+The orders represent the most significant regulatory intervention in mobile AI distribution since the DMA came into force. Google must now allow AI assistants to integrate at the operating system level, enabling features that were previously exclusive to Google's Gemini or reserved for Android's native capabilities.
+
+"This is a landmark decision for AI competition in Europe," said a European Commission spokesperson. "The DMA aims to ensure that gatekeepers cannot leverage their platform positions to disadvantage competitors in emerging technology markets."
+
+The data sharing requirements, effective January 2027, will force Google to provide rivals with access to search data and user interaction patterns under reasonable and non-discriminatory terms. This provision is expected to significantly impact Google's advertising business model, which relies heavily on search data advantages.
+
+## Industry Response
+
+The AI assistant market has reacted positively to the news. Anthropic, OpenAI, and Microsoft have all indicated plans to develop enhanced European versions of their assistants that leverage the new Android access.
+
+Google has stated it will comply with the DMA orders while continuing to invest in its own AI capabilities. The company faces potential fines of up to 10% of global annual revenue for non-compliance, though industry observers note that Google has historically adapted quickly to regulatory requirements.
+
+The timing of the orders is significant: they come just weeks before the expected launch of OpenAI's public S-1 and amid ongoing discussions about AI governance frameworks across Western democracies.

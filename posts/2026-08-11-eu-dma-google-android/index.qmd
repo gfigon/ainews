@@ -1,0 +1,32 @@
+---
+title: "EU Orders Google to Open Android to Claude, ChatGPT by August 2027"
+date: "2026-08-11 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The European Commission issued binding DMA orders requiring Google to open Android to rival AI assistants, with penalties up to 10% of global turnover."
+image: "/assets/post-images/2026-08-11-eu-dma-google-android.svg"
+---
+
+The European Union is forcing Android open. On July 16, 2026, the European Commission issued two binding Digital Markets Act orders against Google, and the implications for the AI assistant market are significant.
+
+## Two Binding Orders
+
+**Order 1 (Article 6(7))**: Google must open 11 Android features to rival AI assistants—Claude, ChatGPT, Copilot—giving them the same system-level access that Gemini currently enjoys. The deadline is tied to Android 18, shipping no later than August 1, 2027.
+
+**Order 2 (Article 6(11))**: Google must share anonymized search query, click, and ranking data with rival search engines and eligible AI companies. This takes effect in January 2027.
+
+The penalties for non-compliance are steep: up to 10% of global annual turnover.
+
+## What This Means
+
+For users, the orders could mean setting Claude or ChatGPT as the default assistant on Android devices, with full access to system APIs that currently favor Google's Gemini. For AI companies, it's a pathway to system-level integration that has been blocked by Android's walled garden.
+
+The EU is specifically targeting the gatekeeper role Google plays through Android. The orders don't affect US Android devices—yet. But they establish a precedent that could influence regulatory approaches elsewhere.
+
+## Market Implications
+
+The timing is notable: this comes amid OpenAI's expansion into device-level AI with ChatGPT Work, and Anthropic's push into enterprise through its Ode joint venture. If Claude can match Gemini's system access on Android, it becomes a more viable default choice for the billions of Android users worldwide.
+
+Google has not yet indicated whether it will appeal. But with the deadline tied to Android 18, the company has roughly a year to implement the changes—or face the largest regulatory fine in EU tech history.

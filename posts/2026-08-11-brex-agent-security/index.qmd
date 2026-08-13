@@ -1,0 +1,32 @@
+---
+title: "Brex Builds Network-Level Security for AI Agents with Open-Source CrabTrap"
+date: "2026-08-11 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "Fintech startup Brex developed CrabTrap, an open-source HTTP proxy that monitors AI agent network traffic using an LLM-as-judge approach, allowing only 2% of requests to require human review."
+image: "https://pollinations.ai/p/Brex%20CrabTrap%20AI%20agent%20network%20security%20proxy?width=1280&height=720&nologo=true"
+---
+
+Brex has released CrabTrap, an open-source network security layer for AI agents that shifts the traditional code-level security perimeter to the network level, addressing enterprise concerns about autonomous agent deployments.
+
+The solution emerged from Brex's internal deployment of the OpenClaw agent framework. When CEO Pedro Franceschi proposed automating internal functions, the security team rejected the idea—citing uncontrolled code execution capabilities as an unacceptable risk.
+
+"The premise was that coding capabilities were critical to the model having the ability to do a variety of tasks," Franceschi explained at VB Transform 2026. Rather than limiting agent tool usage, Brex chose to monitor what agents actually attempt to communicate externally.
+
+## How CrabTrap Works
+
+CrabTrap operates as an HTTP proxy that assumes agents can do anything and might already be compromised. All outbound traffic between the agent container and the internet passes through the proxy, where an LLM judges whether each request aligns with approved policy.
+
+To avoid latency from LLM-based evaluation of every request, Brex implemented a bifurcated system. Routine, pre-approved actions like a recruiting agent viewing LinkedIn profiles use static rules and pass instantly. Only high-risk actions such as sending emails get routed to the LLM judge—resulting in just 2% of requests requiring model evaluation.
+
+Franceschi noted that LLMs perform surprisingly well at this task because their training includes billions of web pages and HTTP requests, providing inherent semantic understanding of network traffic patterns.
+
+## Human-in-the-Loop Integration
+
+When CrabTrap flags an unapproved action, it notifies a human manager via Slack, explaining the agent's intent and suggesting a policy update. Managers can approve or deny with a single click, creating dynamic policy evolution.
+
+The approach treats AI agents similarly to human employees: when they hit a wall, they escalate to management. Brex tested this with "Jim," a virtual recruiter handling candidate sourcing, applicant scoring, and outbound communications.
+
+While Franceschi acknowledged a 70% chance the company would abandon CrabTrap within six months, the experience gained from operating at the bleeding edge justified the investment. "The answer is not to do nothing," he concluded.

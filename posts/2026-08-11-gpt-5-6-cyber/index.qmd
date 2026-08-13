@@ -1,0 +1,30 @@
+---
+title: "OpenAI Launches GPT-5.6-Cyber with 95% Success Rate on Advanced Security Tasks"
+date: "2026-08-11 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "OpenAI's new specialized cybersecurity model completes 95% of advanced vulnerability research tasks, available exclusively through the new Daybreak Red program for vetted defenders."
+image: "https://pollinations.ai/p/OpenAI%20GPT-5.6-Cyber%20cybersecurity%20model%2095%20percent%20completion?width=1280&height=720&nologo=true"
+---
+
+OpenAI has launched GPT-5.6-Cyber, a specialized model designed for advanced vulnerability research and exploit development, targeting authorized security teams in a new tiered access program called Daybreak.
+
+The model represents what OpenAI calls its "first large-scale attempt at directly improving capabilities for advanced cybersecurity tasks such as exploit development." Unlike general-purpose models that often refuse higher-risk security requests, GPT-5.6-Cyber is specifically trained to handle tasks involving authentication bypass, privilege escalation, and exploit chain development.
+
+## Performance and Pricing
+
+On OpenAI's internal Advanced Cybersecurity Completion Rate benchmark, GPT-5.6-Cyber achieved a 95% completion rate—compared to just 57.3% from GPT-5.5-Cyber and a mere 1.5% from the standard GPT-5.6 Sol model with all safeguards enabled.
+
+However, access is tightly controlled. The model is only available through Daybreak Red, a new tier of OpenAI's cybersecurity program requiring extensive vetting. Organizations must apply through the Daybreak Access portal and demonstrate security certifications such as SOC 2 Type II or ISO 27001, along with documented incident-response processes and role-based access controls.
+
+Pricing reflects the specialized nature of the model: $12.50 per million input tokens and $75 per million output tokens—significantly higher than GPT-5.6 Sol at $5/$30 per million tokens under the same program.
+
+## Daybreak Tiers Explained
+
+Daybreak Red serves security teams performing authorized vulnerability research, penetration testing, and red-team exercises. Daybreak Blue offers broader access to general models like GPT-5.6 Sol with adjusted guardrails for legitimate defensive work including secure-code review, malware analysis, and incident response.
+
+The program builds on OpenAI's Cybersecurity Grant Program launched in 2023 and the Trusted Access for Cyber framework introduced in February 2026. Partners in the expanded program include Cisco, Intel, SentinelOne, Snyk, and Cloudflare.
+
+The launch underscores a growing trend in the AI industry: specialized models for high-stakes domains where standard safety measures would otherwise block legitimate professional use cases.

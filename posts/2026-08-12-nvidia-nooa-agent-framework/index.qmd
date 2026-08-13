@@ -1,0 +1,47 @@
+---
+title: "NVIDIA Open-Sources NOOA — An Agent Framework Where One Agent Equals One Python Class"
+date: "2026-08-12 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "NVIDIA Labs releases NOOA, an Apache 2.0 agent framework that represents each agent as a single Python class, achieving 82.2% on SWE-bench Verified."
+image: "/assets/post-images/2026-08-12-nvidia-nooa-agent-framework.svg"
+---
+
+NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework that fundamentally reimagines how developers construct AI agents. Instead of managing prompts, tools, callbacks, and workflow graphs as separate abstractions, NOOA collapses everything into a single Python class. The project is available under the Apache 2.0 license.
+
+## The Problem with Current Agent Frameworks
+
+Building reliable AI agents today typically involves coordinating multiple separate components: prompt templates, tool schema definitions, callback handlers for state management, and workflow graphs that define execution order. This fragmentation makes agents difficult to debug, test, and maintain.
+
+NOOA addresses this by applying object-oriented programming principles directly to agent design. An agent becomes a Python class where:
+
+- **Methods** define the actions the model can take
+- **Fields** store the agent's internal state
+- **Docstrings** serve as the prompts that guide model behavior
+- **Type hints** communicate tool schemas automatically
+
+## Technical Details and Performance
+
+The framework is model-agnostic, meaning it works with any LLM that supports function calling. In internal testing, NOOA-powered agents achieved 82.2% on SWE-bench Verified—a benchmark measuring ability to solve real-world software engineering problems—and 86.8% on CyberGym Level 1, which evaluates cybersecurity task performance.
+
+Installation is straightforward via pip:
+
+```bash
+pip install nooa
+```
+
+The framework handles the complexity of tool calling, state management, and execution flow internally, allowing developers to focus on defining what their agents should do rather than how they should do it.
+
+## Security Considerations
+
+NVIDIA explicitly notes that NOOA is not a sandboxing solution. The framework includes abstract syntax tree (AST) checks, but these are designed for code quality rather than containment. The company recommends running agents built with NOOA within containers or virtual machines, particularly when working with untrusted inputs.
+
+This distinction matters as more organizations deploy AI agents in production environments where input validation and execution isolation are critical.
+
+## Implications for Developer Experience
+
+By treating agents as first-class Python objects, NOOA enables standard software engineering practices that were previously difficult with agent systems. Developers can now leverage inheritance, composition, and standard debugging tools when building AI agents.
+
+The framework joins a crowded agent framework landscape that includes LangChain, LlamaIndex, and Microsoft's Agent Framework. NOOA's unique value proposition is its insistence that agent complexity should match the problem—not the tooling.
