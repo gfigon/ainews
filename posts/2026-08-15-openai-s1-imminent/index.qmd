@@ -1,0 +1,36 @@
+---
+title: "OpenAI's $1 Trillion IPO: Public S-1 Filing Expected Within Weeks"
+date: "2026-08-15 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "OpenAI's confidential S-1 submission is set to go public on SEC EDGAR mid-to-late August, revealing audited financials for the first time."
+image: "/assets/post-images/2026-08-15-openai-s1-imminent.svg"
+---
+
+OpenAI's highly anticipated initial public offering is one step closer to reality. The company's confidential S-1 submission to the SEC, filed in June 2026, is expected to become publicly available on EDGAR in mid-to-late August—approximately 15 days before any investor roadshow begins.
+
+The public filing will mark the first time OpenAI's audited financials become visible to the market, offering unprecedented insight into the economics of the world's most valuable private AI company.
+
+## What we already know
+
+While the full prospectus remains under wraps, pre-IPO disclosures have revealed significant financial details. OpenAI is generating approximately $2 billion per month in revenue, projecting $24 billion in annualized revenue for 2026. However, the company expects to post a projected operating loss of $14 billion for the full year—meaning OpenAI loses $1.22 for every dollar it earns.
+
+The company carries a private valuation of $852 billion as of its last funding round in March 2026, led by Thrive Capital with participation from Microsoft, Nvidia, and SoftBank. Goldman Sachs, Morgan Stanley, and JPMorgan are serving as bookrunners for the offering, with a September listing target.
+
+The filing will also shed light on the Microsoft revenue-sharing agreement—a key relationship that has drawn scrutiny from regulators and investors alike. Details on how revenue is split between OpenAI's API business, ChatGPT subscriptions, and enterprise deals have never been publicly disclosed.
+
+## The profitability paradox
+
+OpenAI's path to profitability has become one of the most closely watched metrics in tech. While Anthropic's Q2 profit milestone demonstrates that frontier AI can generate returns, OpenAI's losses reflect its massive compute infrastructure investments and aggressive talent acquisition.
+
+The company has been clear that profitability is not its primary near-term objective. "We're investing for capability—building the most capable AI systems we can," CEO Sam Altman has repeatedly stated. The S-1 will reveal just how big those investments have become.
+
+## Regulatory headwinds
+
+The IPO faces several regulatory considerations. The Microsoft partnership may require scrutiny given current antitrust focus on Big Tech's AI investments. Additionally, OpenAI's structure—with a capped-profit entity and a non-profit governing the mission—will need to be clearly explained to public market investors.
+
+The offering is targeting a valuation above $1 trillion, which would make it the largest tech IPO in history. Whether investors will embrace a company losing $14 billion annually in pursuit of artificial general intelligence remains the central question.
+
+The public S-1 filing is expected to appear on SEC EDGAR any day now.
