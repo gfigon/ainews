@@ -1,0 +1,26 @@
+---
+title: "SpaceXAI's Grok Bot Turns AI Into Persistent Coworkers That Never Sleep"
+date: "2026-08-17 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "SpaceXAI launches Grok Bot — always-on AI teammates with their own cloud computers that sign into your apps, work 24/7, and learn your workflows."
+image: "/assets/post-images/2026-08-17-spacexai-grok-bot.svg"
+---
+
+SpaceXAI has launched Grok Bot, a product that transforms AI assistants into persistent digital coworkers that operate around the clock with their own cloud infrastructure. Announced on August 11, 2026, the service represents a departure from traditional AI assistants by giving each bot its own virtual machine, browser, filesystem, and terminal.
+
+Unlike conventional AI tools that require constant prompting, Grok Bots work independently within your existing software ecosystem. They sign into your apps using your credentials, execute multi-step workflows, and only return when human approval is needed. The bots can handle sales outreach, marketing campaigns, bug fixes, and operational tasks without supervision.
+
+"The difference between 90% done and 100% done is huge," noted a SpaceXAI product lead. "Most AI gets you almost there. Grok Bot finishes the job because the work lands where a human would put it—in the actual tool."
+
+Inside SpaceXAI itself, the system has been handling real coordinated workflows: sales bots updating CRMs with call transcripts, operations bots seating new hires and processing invoices, and engineering bots reproducing bugs before filing tickets. Users describe the experience as having "eight arms like an octopus, with every arm in concert with the others."
+
+The service is available in beta for SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium subscribers at $120 per month. Enterprise users can join a waitlist for future access. The integration with Cursor means coding-specific workflows are natively supported.
+
+What distinguishes Grok Bot from other agent frameworks is its persistence and learning capability. Users can demonstrate workflows by having the bot observe tasks being performed, after which it saves the process as a reusable routine. Over time, bots adapt to individual preferences, pick up context from previous conversations, and become more proactive in identifying work that needs attention.
+
+The launch follows xAI's acquisition by SpaceX in April 2026, which rebranded the company as SpaceXAI. The product emerged from internal prototypes that spread across the company's teams, suggesting deep integration with SpaceX's operational needs.
+
+The broader implication is a shift toward AI systems that operate as permanent team members rather than on-demand tools. Whether this model gains traction beyond early adopters will depend on whether businesses trust AI agents with persistent access to corporate systems.
