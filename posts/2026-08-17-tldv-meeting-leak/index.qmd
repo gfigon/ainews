@@ -1,0 +1,24 @@
+---
+title: "tl;dv Meeting Recorder Exposed 181,874 Meetings: A Six-Month Security Failure"
+date: "2026-08-17 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "AI meeting recorder tl;dv left 181,874 meeting records exposed without authentication for six months — exposing the gap between SOC 2 compliance and actual security responsiveness."
+image: "https://pollinations.ai/p/tldv-Meeting-Recorder-Leak-181874-Meetings-Security-Failure?width=1024&height=576&seed=10240&nologo=true"
+---
+
+Security researcher bobdahacker disclosed a significant data exposure affecting tl;dv, an AI-powered meeting recording tool used by over 2 million people. The vulnerability left 181,874 meeting records from 84,312 users across 35,003 email domains publicly accessible — including government domains from 23 countries.
+
+The root cause was a missing authentication layer on tl;dv's Cloud Firestore database. Any authenticated user, including free-tier signups, could query every meeting record on the platform. Each record contained the meeting creator's email, conferencing provider, timestamps, recording status, and critically — a conference ID that provided direct access to underlying Google Meet or Teams rooms.
+
+The researcher demonstrated the severity by joining calls he was never invited to, including a meeting hosted by the Malaysian Ministry of Education. At any given moment, approximately 1,000 live recordings were accessible through the exposed conference IDs.
+
+The most troubling aspect isn't the vulnerability itself — it was the response timeline. The issue was reported on January 28, 2026. Six months later, in July, the data remained exposed. The tl;dv CTO never replied to the disclosure. A separate unauthenticated API exposing internal employee directories compounded the problem.
+
+This disclosure raises hard questions about vendor security assessments. tl;dv holds SOC 2 certification, a benchmark many enterprises rely on for vendor risk evaluation. But SOC 2 represents a point-in-time attestation — it doesn't guarantee that a vendor will respond when a security researcher finds a hole. The tl;dv case illustrates that SOC 2 Type II, evaluated over six to twelve months, should be the minimum bar for any tool recording sensitive meetings.
+
+For organizations evaluating AI meeting tools, the incident reinforces several principles. First, ask vendors about their vulnerability disclosure policy and response SLAs before signing. Second, understand that compliance certifications are necessary but not sufficient — real security requires ongoing responsiveness. Third, consider the blast radius: a meeting recorder breach exposes not just metadata but the content of potentially sensitive discussions.
+
+As AI-powered meeting tools proliferate, the tl;dv incident serves as a reminder that convenience features often come with data exposure risks that only become apparent after a breach makes headlines.

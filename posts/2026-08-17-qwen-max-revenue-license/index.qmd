@@ -1,0 +1,22 @@
+---
+title: "Qwen 3.8-Max Open Weights Come With a Catch: Revenue-Share License"
+date: "2026-08-17 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Alibaba's first open-weight Max-class model ships with a custom license imposing revenue-share thresholds on cloud providers — raising questions about what 'open source' really means in the AI era."
+image: "https://pollinations.ai/p/Qwen+3.8-Max+Open+Weights+Revenue+Share+License?width=1024&height=576&seed=31295&nologo=true"
+---
+
+Alibaba released Qwen 3.8-Max weights on August 12, marking the first time a Max-class model from the Qwen family became available for download. But the celebration was short-lived: the weights shipped under a custom license rather than Apache 2.0, with revenue-share provisions that fundamentally change what "open weights" means for commercial deployments.
+
+The model itself is impressive. Qwen 3.8-Max scales to 2.4 trillion parameters and represents the most capable Qwen variant to date. The hosted API, launched August 3, offers vision input and a 1-million-token context window — features conspicuously absent from the downloadable weights. What you get is a text-only checkpoint with forced thinking capabilities, missing both the vision modality and the extended context that made the hosted product stand out.
+
+The license structure targets large commercial cloud providers directly. Instead of the typical permissive open-source approach where anyone can host and monetize, Alibaba is requiring revenue sharing from providers that deploy Qwen 3.8-Max at scale. This positions the release as something between a true open-weight model and a traditional SaaS product — a hybrid approach that flips the script on how frontier AI capabilities reach developers.
+
+For the broader ecosystem, the implications are significant. Meta's Llama and Mistral's recent releases maintained Apache 2.0 or similar permissive licenses, keeping the open-weights playing field relatively level. Alibaba's revenue-share model introduces a new variable: commercial cloud providers now have to factor licensing costs into their deployment calculations, potentially favoring models with traditional open licenses.
+
+The smaller Qwen3.8-27B variant, released August 14 under Apache 2.0, offers a more traditional open-source path. It runs on a single 24GB GPU and scored 61.7 on SWE-Bench Pro, beating Claude Opus 4.6 Max's 53.4 on the same benchmark. For developers seeking frontier capability without licensing complexity, the 27B model may be the pragmatic choice.
+
+What remains clear is that the definition of "open AI" continues to fragment. Qwen 3.8-Max demonstrates that even when frontier weights become downloadable, the terms of use can create meaningful restrictions that shift advantage toward the model's original creator. The industry will be watching to see whether other providers follow Alibaba's lead or if the market punishes revenue-share licensing in favor of genuinely permissive alternatives.
