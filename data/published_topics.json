@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Risk Report 186-Page Safety Verdict Model 2 Shelved 11-Month Gap",
+      "count": 1,
+      "last_published": "2026-08-18",
+      "slugs": [
+        "2026-08-18-anthropic-risk-report"
+      ]
+    },
+    {
+      "term": "Google A2A Protocol Agentic AI Foundation Standardization Multi-Agent",
+      "count": 1,
+      "last_published": "2026-08-18",
+      "slugs": [
+        "2026-08-18-google-a2a-foundation"
+      ]
+    },
+    {
+      "term": "Qwen 3.8-27B 3 Million Downloads Laptop Model Apache 2.0 Open Weight",
+      "count": 1,
+      "last_published": "2026-08-18",
+      "slugs": [
+        "2026-08-18-qwen-27b-laptop-model"
+      ]
+    },
+    {
       "term": "SpaceXAI Grok Bot Always-On AI Teammates Persistent Cloud Computer",
       "count": 1,
       "last_published": "2026-08-17",
