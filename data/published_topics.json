@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Google DeepMind Gemini 3.7 Flash Reasoning Model Release August 2026",
+      "count": 1,
+      "last_published": "2026-08-19",
+      "slugs": [
+        "2026-08-19-gemini-37-flash"
+      ]
+    },
+    {
+      "term": "Google DeepMind WeatherNext Cyclone Forecasting AI Model Breakthrough",
+      "count": 1,
+      "last_published": "2026-08-19",
+      "slugs": [
+        "2026-08-19-weathernext-forecast-model"
+      ]
+    },
+    {
       "term": "Anthropic Risk Report 186-Page Safety Verdict Model 2 Shelved 11-Month Gap",
       "count": 1,
       "last_published": "2026-08-18",
