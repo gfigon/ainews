@@ -1,0 +1,22 @@
+---
+title: "Wiz Red Agent Exploits Snowflake GitHub Vulnerability in 5 Days"
+date: "2026-08-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Wiz's autonomous Red Agent discovered and exploited a script injection flaw in Snowflake's GitHub repository just five days after a code change, raising questions about AI-assisted development security."
+image: "https://pollinations.ai/p/wiz red agent snowflake exploit github security/?width=1200&height=630&nologo=true"
+---
+
+Wiz Research has disclosed that its autonomous AI security agent, Red Agent, discovered and exploited a critical script injection vulnerability in Snowflake's public GitHub repository within five days of a code change being merged. The incident, disclosed on August 17, 2026, highlights the dual-edged nature of AI-assisted development tools.
+
+The vulnerability existed in a GitHub Actions workflow that automatically created Jira tickets when issues were opened on the repository. On June 18, 2026, a change co-authored by GitHub's Copilot Autofix inadvertently removed input sanitization, leaving the CI/CD pipeline vulnerable to command injection through crafted issue titles.
+
+Wiz's Red Agent identified the flaw, triggered it using a specially crafted issue title, and successfully exfiltrated a Jira API token—gaining access to Snowflake's internal environment. The autonomous agent even diagnosed a bug in its own exploit, rewrote the attack, and successfully completed the intrusion without human intervention.
+
+"This is not simply a story about GitHub Copilot," noted the research team. "It demonstrates that autonomous AI agents can now independently identify, exploit, and iterate on vulnerabilities at speed."
+
+GitHub disputes Wiz's initial characterization that Copilot Autofix wrote the vulnerable code, stating its AI never reviewed the specific change. Wiz later clarified that the vulnerability resulted from a human-developer edit, not AI-generated code, though the incident raises broader concerns about AI code review reliability.
+
+The disclosure adds to mounting concerns about AI-assisted development security. Earlier this year, Microsoft's Agent Framework faced CVE-2026-2256, and security researchers have documented a 3.5x spike in AI-related vulnerability discoveries. As autonomous security agents become more capable, the industry faces a new arms race between offensive AI tools and defensive countermeasures.

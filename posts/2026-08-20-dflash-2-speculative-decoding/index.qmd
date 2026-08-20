@@ -1,0 +1,24 @@
+---
+title: "DFlash 2 Pushes Speculative Decoding to 3.4x Throughput Gain"
+date: "2026-08-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Inco releases DFlash 2, achieving 2.7-3.4x throughput over autoregressive decoding through path selection and local convolution modules for improved token accuracy."
+image: "https://pollinations.ai/p/DFlash+2+Pushes+Speculative+Decoding+to+3.4x+Throughput+Gain?width=1024&height=576&seed=42&nologo=true"
+---
+
+Inco has released DFlash 2, an upgraded speculative decoding system that achieves 2.7 to 3.4 times the throughput of traditional autoregressive decoding at batch size one. The update addresses two key limitations in the original DFlash: selecting the right tokens from candidate lists and maintaining accuracy at block boundaries.
+
+Speculative decoding uses a small draft model to predict multiple tokens, which the target model then verifies in a single forward pass. DFlash made this process fully parallel by predicting entire blocks in one pass rather than token-by-token. DFlash 2 extends this approach with two new mechanisms: a path selector that chooses coherent token sequences from candidate lists, and a local convolution module that fixes accuracy decay at block endings.
+
+The path selector addresses a fundamental challenge: while DFlash's top candidate is correct 85.4% of the time, coherence across multiple positions remains difficult. By selecting from the top 16 candidates at each position—which contains the correct token 99.5% of the time—the selector can dramatically improve acceptance rates without abandoning the parallel drafting architecture.
+
+"The right token is already in the candidate list," Inco explained. "We just need to select the right path through those candidates."
+
+The convolution module adds minimal overhead—approximately 3% cycle latency compared to 15% for deeper alternatives—while recovering accuracy at block boundaries. Combined, these improvements deliver 16-25% gains across benchmarks, with over 20% more output from every verification pass.
+
+DFlash 2 is already integrated into major inference frameworks including SGLang, vLLM, llama.cpp, and Ollama. The accompanying Qwen3.8-27B drafter model is available on Hugging Face, where DFlash models have now been downloaded over 3.5 million times.
+
+The release supports NVIDIA GPUs via CUDA, Apple Silicon via Metal, and cloud deployments. With agentic AI workflows consuming tokens at rates far exceeding traditional chat interactions, inference optimization has become critical for practical deployment at scale.

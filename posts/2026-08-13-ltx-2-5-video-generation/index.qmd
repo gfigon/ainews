@@ -1,0 +1,34 @@
+---
+title: "LTX-2.5 Brings Real-Time AI Video Generation to Open Weights"
+date: "2026-08-13 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "LTX-2.5 generates 10-second videos in 6.8 seconds on Nvidia superchips, challenging closed AI video APIs with an open-weights model available for free under $10M ARR."
+image: "/assets/post-images/2026-08-13-ltx-2-5-video-generation.svg"
+---
+
+LTX, the open world model company spun out of Lightricks, has released LTX-2.5 — an open-weights video generation model that the company claims can produce a 10-second clip from a static image in just 6.8 seconds. The release marks a significant shift in the video AI market, where closed APIs from Google, OpenAI, and ByteDance have dominated.
+
+The model arrives with native integration into ComfyUI, the popular node-based workflow tool that has become the de facto prototyping environment for open generative media. This day-one partnership reflects a broader strategy: betting that open weights — not closed APIs — will win the video and world model market.
+
+"We're trying to maintain the same efficiency and the inference speed that we're known for, but constantly pushing the quality up," said Zeev Farbman, LTX co-founder and CEO. The company reports 33 million downloads across the LTX model family, claiming it as the most-used open world model line on the market.
+
+## What's New in LTX-2.5
+
+The release rebuilds nearly every stage of the generation pipeline. Key improvements include a new diffusion video decoder that reduces visual artifacts in high-motion footage and reconstructs fine details like text and faces. Native multishot generation allows rendering a full sequence as a single output, maintaining character, scene, and voice consistency across cuts — a significant advancement over stitching individually generated shots together.
+
+A custom Gemma 4 language backbone and dedicated prompt enhancer handle complex, multi-subject prompts more accurately. The release also includes a pretrained checkpoint tuned for physical AI and robotics, giving teams a base to fine-tune on domain data that differs substantially from cinematic video.
+
+On cost, LTX-2.5 generates 720p video with audio at $0.09 per second through its API, putting a 10-second clip at $0.90. This undercuts premium models like Google's Veo 3.1 ($4.00) and Black Forest Labs' FLUX 3 Video ($1.70), though Google's budget tier Veo 3.1 Lite at $0.50 remains cheaper per clip.
+
+## The Open Weights Play
+
+The launch positions LTX against both closed API providers and open-licensed competitors whose weights are unavailable in the U.S. and Europe or restrict fine-tuning. Organizations under $10 million in annual recurring revenue can use LTX-2.5 free for self-hosting, with larger companies negotiating a license.
+
+The model runs on any GPU with a minimum of 16GB of VRAM, deploying on-premises, at the edge, or via API. Notably, output carries no visible watermark, though the license requires disclosure that content is machine-generated and forbids removing embedded provenance features.
+
+The speed benchmark was measured on two Nvidia GB200 superchips. Through LTX's managed API at 1080p, the same job took 23.7 seconds — still notably faster than competitors, where Google's Gemini Omni Flash measured 52 seconds on the same task.
+
+Independent benchmarks remain limited. Gemini Omni Flash currently leads Artificial Analysis' text-to-video arenas; LTX-2.5 has not yet been evaluated there. The company's own human preference tests show a 67% win rate against Seedance 2.5's 65%, though these figures are vendor-reported and labeled preliminary.

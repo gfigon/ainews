@@ -1,0 +1,26 @@
+---
+title: "Anthropic's $65B Revenue Surge Powers IPO Race Against OpenAI"
+date: "2026-08-19 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Anthropic's annualized revenue hits $65 billion, positioning it to potentially IPO ahead of OpenAI this fall."
+image: "/assets/post-images/2026-08-19-anthropic-ipo-race.svg"
+---
+
+Anthropic is on track to generate annualized revenue of more than $65 billion based on its current performance, up more than sevenfold from its pace at the end of last year. The dramatic acceleration positions the AI startup to potentially go public as soon as this fall, ahead of rival OpenAI.
+
+The company's revenue run rate hit $65 billion by the end of July, according to people familiar with the matter who spoke on condition of anonymity. Anthropic shared the figures as part of a regular update with investors. The company reported preliminary revenue of more than $11.5 billion in its latest completed quarter, compared with $787 million in the same period in 2025, while also reporting positive adjusted operating income for the quarter.
+
+## A New Valley Challenger
+
+Anthropic was valued at $965 billion after a funding round in May, making it one of the world's largest private companies and eclipsing OpenAI's valuation for the first time. Once viewed as the underdog, Anthropic has gained significant traction with AI tools that streamline complex tasks, including coding.
+
+The company's revenue trajectory has been remarkable: its run rate topped $9 billion in late 2025, crossed $47 billion in May 2026, and now stands at $65 billion. OpenAI's revenue run rate recently exceeded $40 billion, though the two firms may not measure it the same way.
+
+Both Anthropic and OpenAI have filed confidential paperwork to go public. Anthropic is working with Morgan Stanley, Goldman Sachs, and JPMorgan on the potential listing. An IPO this fall would see Anthropic debut not only before OpenAI but also before DeepSeek, the Chinese AI firm preparing for its own potential IPO.
+
+The public listing would help Anthropic tap into ample funding capacity to maintain its lead over OpenAI and others, as AI companies spend hundreds of billions of dollars to develop cutting-edge models. The company is also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.
+
+This surge in revenue and valuation marks a significant shift in the AI landscape, with Anthropic emerging as a serious challenger to OpenAI's dominance.

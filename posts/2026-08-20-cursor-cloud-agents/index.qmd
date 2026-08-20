@@ -1,0 +1,24 @@
+---
+title: "Cursor Introduces Always-On Cloud Agents With Event Subscriptions"
+date: "2026-08-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Cursor's August 19 update transforms cloud agents into always-on workers that subscribe to PRs, Slack threads, and cron schedules, with support for isolated VM subagents."
+image: "https://pollinations.ai/p/Cursor+Introduces+Always-On+Cloud+Agents+With+Event+Subscriptions?width=1024&height=576&seed=42&nologo=true"
+---
+
+Cursor has released a significant update that transforms its cloud agents from reactive tools into persistent, always-on workers capable of monitoring repositories and responding to events without developer intervention. The August 19 release introduces a Subscription system that lets cloud agents subscribe to pull requests, Slack threads, and time-based triggers, enabling them to wake automatically when relevant activity occurs.
+
+The update addresses a key limitation of traditional AI coding assistants: their reliance on explicit human invocation. With subscriptions, developers can configure agents to monitor specific channels or events, allowing the AI to take initiative on ongoing tasks rather than waiting to be prompted.
+
+"Cloud agents can now watch PRs, monitor Slack threads, and run scheduled tasks—waking when something happens that needs attention," Cursor explained in its release notes. "This turns AI assistance from a tool you invoke into a teammate that stays engaged."
+
+The release also introduces Custom Modes that remain pinned in the chat interface, providing persistent context for long-running development workflows. Developers can now maintain agent state across multiple sessions without reestablishing context each time.
+
+Perhaps most notably, Cursor now supports subagents running on isolated virtual machines with their own project copies. This architecture enables parallel agent swarming on complex tasks, where multiple AI agents can work simultaneously on different aspects of a problem without interfering with each other's context.
+
+The update adds a /goal command that lets developers specify long-lived objectives like "fix all flaky tests and make CI green"—tasks that span multiple sessions and require the agent to maintain awareness of progress over time. Non-interrupting steering messages queue until the next tool call, allowing developers to guide agent behavior without breaking its flow.
+
+These capabilities position Cursor as a more autonomous development teammate, moving beyond code completion into genuine collaborative engineering. The features reflect a broader industry shift toward persistent AI agents that can handle ongoing responsibilities rather than single-turn tasks.

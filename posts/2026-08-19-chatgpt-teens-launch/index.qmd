@@ -1,0 +1,22 @@
+---
+title: "OpenAI Launches ChatGPT for Teens With Age-Appropriate Safety Features"
+date: "2026-08-19 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "OpenAI unveils a dedicated teen experience for ChatGPT with enhanced safety measures, parental controls, and learning tools, addressing years of teen usage without dedicated protections."
+image: "https://pollinations.ai/p/openai chatgpt teens safety parental controls/?width=1200&height=630&nologo=true"
+---
+
+OpenAI announced ChatGPT for Teens on August 18, 2026, introducing a dedicated experience for users aged 13-17 with age-appropriate safety guardrails and parental controls. The launch comes years after teens became one of ChatGPT's largest user demographics.
+
+The new experience automatically applies to users estimated to be under 18 through OpenAI's age prediction system, which analyzes account behavior to estimate user age. Teens will receive stronger built-in protections against harmful content, alongside learning-focused features designed to encourage educational use.
+
+Key features include Study Mode, which helps teens use AI for learning rather than bypassing homework, and enhanced content filters that adapt to developmental appropriateness. Parents will gain visibility into usage patterns and access to additional controls—though the company emphasized that teen privacy remains a priority.
+
+"We've always known teens were using ChatGPT extensively," said OpenAI. "This dedicated experience ensures they have protections designed specifically for them, while still having access to powerful learning tools."
+
+The timing reflects growing regulatory pressure. Several U.S. states have introduced legislation targeting AI products used by minors, and a recent study found 81% of young Americans expressed concern about AI company leadership. California recently passed legislation requiring additional safeguards for minors using AI products.
+
+OpenAI's approach combines default-on protections with optional parental controls, a balance the company says respects both teen autonomy and parental responsibility. The age prediction system will improve over time as more users verify their ages.

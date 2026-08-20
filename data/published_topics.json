@@ -1,6 +1,38 @@
 {
   "topics": [
     {
+      "term": "Copilot CoSnitch CVE-2026-24301 Vulnerability Meta-Hacking Research",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-copilot-cosnitch-vulnerability"
+      ]
+    },
+    {
+      "term": "OpenAI 2027 IPO CFO Sarah Friar Public Listing Commitment",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-openai-2027-ipo"
+      ]
+    },
+    {
+      "term": "TrueFoundry TrueForge Open Source Agent Harness MIT License Cost Savings",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-truefoundry-trueforge"
+      ]
+    },
+    {
+      "term": "Snowflake Cortex AI Gateway Dynamic Model Routing Enterprise Cost Reduction",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-snowflake-ai-gateway-routing"
+      ]
+    },
+    {
       "term": "Google DeepMind Gemini 3.7 Flash Reasoning Model Release August 2026",
       "count": 1,
       "last_published": "2026-08-19",
@@ -3680,6 +3712,30 @@
       "last_published": "2026-07-31",
       "slugs": [
         "2026-07-31-openai-ai-price-wars"
+      ]
+    },
+    {
+      "term": "UK Chip Startup Fractile 6.5B Valuation Anthropic 250M Deal",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-fractile-anthropic-chip-deal"
+      ]
+    },
+    {
+      "term": "Cursor Cloud Agents Subscriptions Always-On Event Subscriptions",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-cursor-cloud-agents"
+      ]
+    },
+    {
+      "term": "DFlash 2 Speculative Decoding 3.4x Throughput Inco",
+      "count": 1,
+      "last_published": "2026-08-20",
+      "slugs": [
+        "2026-08-20-dflash-2-speculative-decoding"
       ]
     }
   ]

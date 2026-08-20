@@ -1,0 +1,40 @@
+---
+title: "OpenAI's Public S-1 Landing 'Any Day' — First Look at Full Financial Picture Ahead of September IPO Target"
+date: "2026-08-13 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "OpenAI's confidential S-1 is expected to become public on SEC EDGAR any day, revealing audited financials, Microsoft revenue-share terms, and the full offering structure."
+image: "/assets/post-images/2026-08-13-openai-s1-ipo.svg"
+---
+
+The most anticipated IPO in tech history is entering its most consequential phase. OpenAI confidentially filed its S-1 with the SEC on May 22, 2026, and the public version is expected to land on SEC EDGAR any day now — the first complete view of the company's finances, Microsoft partnership terms, and unit economics ahead of a September listing target.
+
+## The Numbers: $2B Monthly Revenue, $14B Projected 2026 Loss
+
+The S-1 will reveal details that have been closely guarded since OpenAI's founding. The company is generating approximately $2 billion in monthly revenue on an annualized basis — roughly $25 billion in annual recurring revenue — but continues to burn cash at an extraordinary rate.
+
+Projected losses for 2026 total approximately $14 billion, meaning OpenAI loses about $1.22 for every $1.00 of revenue it generates. The loss figure includes heavy investments in compute infrastructure, talent acquisition, and the ambitious Stargate project to build data centers across the United States.
+
+## The Microsoft Question
+
+One of the most scrutinized aspects of the S-1 will be the Microsoft revenue-sharing arrangement. The partnership, which began with a $1 billion investment in 2019 and expanded to $10 billion in 2023, includes complex terms around Azure compute pricing, revenue splits on certain products, and equity dilution.
+
+Investors will be looking for clarity on how much of OpenAI's revenue actually flows through Microsoft's cloud infrastructure — and what happens to those economics if OpenAI builds its own compute capacity through Stargate.
+
+## The $1 Trillion Question
+
+Goldman Sachs and Morgan Stanley are leading the offering, with a target valuation above $1 trillion. The number would make OpenAI the most valuable company in the world by a significant margin — dwarfing the largest tech IPOs in history.
+
+The valuation math depends heavily on assumptions about future revenue growth, path to profitability, and the competitive landscape. OpenAI's position as the creator of ChatGPT — now crossing 1 billion users — provides a consumer brand that no other AI company matches.
+
+## The Governance Structure
+
+The S-1 will also detail OpenAI's unusual governance structure. The company transitioned from a nonprofit board to a capped-profit structure under OpenAI LP, with significant oversight from the original nonprofit. Any changes to this structure — or the nonprofit's ongoing role — will be closely examined by regulators and investors.
+
+## Why It Matters
+
+OpenAI's IPO will be the defining Wall Street event of 2026 — and likely one of the most significant tech public offerings in history. The S-1 disclosure will answer fundamental questions about whether frontier AI companies can build sustainable businesses at massive scale, and what the path to profitability actually looks like.
+
+For the broader AI industry, the filing will provide a template for how investors should value AI companies — and what metrics matter most when evaluating companies that are simultaneously burning cash and growing revenue at unprecedented rates.

@@ -1,0 +1,44 @@
+---
+title: "OmniScientist: The AI That Conducts Full Scientific Research From Raw Data"
+date: "2026-08-16 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "New arXiv paper introduces OmniScientist, an AI system that conducts multidisciplinary research from heterogeneous raw evidence including images, video, audio, and 3D structures."
+image: "https://pollinations.ai/p/OmniScientist%20AI%20scientist%20multidisciplinary%20research%20arXiv%20paper?width=1024&height=576&seed=8162026&nologo=true"
+---
+
+A new paper from arXiv introduces **OmniScientist**, an end-to-end AI scientist capable of conducting complete research workflows directly from heterogeneous raw evidence. The system represents a significant advance in automating scientific discovery.
+
+## Beyond Text and Code
+
+Previous AI scientist systems have typically reasoned over text, code, labels, or precomputed summaries. This approach leaves out what researchers call "scientific evidence" — the spatial, temporal, cross-channel, and procedural relations that are often decisive in scientific discovery.
+
+OmniScientist breaks this limitation by processing multiple modalities directly: images, signals, audio, video, 3D structures, trajectories, tables, formulae, and graphs. The system doesn't rely on human-preprocessed summaries; it works from raw scientific data.
+
+## System Architecture
+
+The system consists of three main components:
+
+- **Perception Layer**: Processes heterogeneous raw evidence across all modalities
+- **Ideation Agent**: Generates research hypotheses based on observed data
+- **Experiment Agent**: Designs and executes experiments to test hypotheses
+- **Writeup Agent**: Prepares manuscripts communicating findings
+
+A deterministic pipeline allows observations to shape research questions throughout the entire lifecycle — not just at the beginning.
+
+## Evaluation Results
+
+The researchers evaluated OmniScientist on 36 real-data cases spanning five discipline families and four families of scientific evidence. The system completed the full path from raw data to a compiled manuscript in all 36 cases.
+
+Key findings include:
+- Mean overall paper score of 6.3 using the reference reasoning backbone
+- Direct perception improved all seven evaluation dimensions compared to text-only approaches
+- Won 85% of head-to-head judgments against variants using only precomputed scalar features
+
+## What This Means
+
+OmniScientist demonstrates that lifecycle-wide perception is essential for evidence-grounded scientific discovery. The system provides a practical path toward broadly capable AI scientists that can work across scientific disciplines.
+
+While still a research prototype, the implications are significant. Scientific research traditionally requires years of training to conduct effectively. Systems like OmniScientist could eventually augment human scientists, accelerating discovery in domains from drug development to materials science.

@@ -1,0 +1,50 @@
+---
+title: "AgentRadio Lets Four AI Agents Coordinate in Real Time — Outperforms Claude Opus 4.8"
+date: "2026-08-12 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Coral AI Labs introduces AgentRadio, an asynchronous message-passing layer enabling four Claude Code agents to outperform a single Opus 4.8 on enterprise coding tasks."
+image: "/assets/post-images/2026-08-12-agentradio-multi-agent-coordination.svg"
+---
+
+A team of four AI agents coordinating in real time can now outperform a single agent running on the most advanced model available. Researchers at Coral AI Labs have developed AgentRadio, an asynchronous message-passing layer that allows AI agents to communicate between their execution steps without interrupting their main work. The result: nearly double the task accuracy compared to four agents working independently.
+
+## The Coverage Problem
+
+Single-agent systems break down on long-horizon tasks because of what researchers call the "coverage problem." As an agent's context grows, its initial plan becomes harder to revise, and discoveries made late in the investigation do not always propagate to earlier reasoning.
+
+"A single agent follows one serial path through the repository," explained Xinxing Ren, Caelum Forder, and Peter Carroll, co-authors of the AgentRadio paper. "The hard part is keeping every obligation, dependency, and piece of contradictory evidence active across a long investigation."
+
+The SWE-Atlas QnA benchmark measures AI performance on this exact challenge — long-horizon, natural-language questions over production repositories that require running code, executing commands, and synthesizing evidence over extended periods.
+
+## The Results: AgentRadio vs. Single Agents
+
+Single Claude Code on Opus 4.6 resolves just 32.3% of these tasks. Upgrading to Opus 4.8 yields a 57.2% success rate — impressive, but still under 60%.
+
+A natural solution is distributing work across multiple agents, each handling a smaller context. Multi-agent systems can provide substantial gains when tasks are "cleanly decomposable" — solvable separately and merged at the end.
+
+But codebase understanding is rarely clean. Subtasks are highly interdependent. A critical configuration file or bug uncovered by one agent can completely redirect another agent's exploration path. Existing multi-agent systems fail here because they force agents to coordinate only at strict, synchronized round boundaries — forcing them to stop and wait before sharing discoveries.
+
+## How AgentRadio Works
+
+AgentRadio dissolves the mutual exclusion between working and listening. It gives concurrently working agents passive awareness of one another over a lateral, natural-language channel. Agents can make mid-course corrections rather than continue on dead-end paths until a formal review phase.
+
+The results are dramatic. A team of four Claude Code agents powered by AgentRadio achieved nearly double the task accuracy of four agents working independently. More remarkably, the four-agent team also outmatched single agents running on more advanced models — meaning coordination architecture can beat raw compute and model scale.
+
+## The Three Flawed Patterns
+
+Existing multi-agent systems generally fall into three categories, none of which solve the real-time coordination problem:
+
+- **Parallel but isolated**: Agents operate simultaneously but don't communicate at all.
+- **Parallel but round-synchronized**: Agents can communicate only at strict boundaries, forcing expensive waits.
+- **Asynchrony in adjacent forms**: Limited async features like top-down task dispatching, but no peer-to-peer channels between agents.
+
+"To our knowledge, no existing system gives concurrently working agents passive awareness of one another over a lateral, natural-language channel," the researchers write.
+
+## Why It Matters
+
+AgentRadio demonstrates that the right coordination structure can outmatch raw compute and model scale. For enterprises with massive codebases, this means AI agents that can investigate complex issues across millions of lines of code — coordinating in real time rather than working in isolation until a human intervenes.
+
+The research suggests a new paradigm: building AI systems around team coordination rather than individual capability. As agentic AI moves into production enterprise workflows, the ability to coordinate multiple specialized agents in real time may matter more than the raw power of any single model.

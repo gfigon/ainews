@@ -1,0 +1,44 @@
+---
+title: "tl;dv Exposes 181,874 Meeting Records for Six Months — What Teams Need to Know"
+date: "2026-08-16 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "A missing Firestore security rule in AI notetaker tl;dv allowed unauthorized access to 181,874 meeting recordings from 84,312 users across 35,000+ organizations — a wake-up call for teams relying on AI meeting assistants."
+image: "https://pollinations.ai/p/tldv-meeting-data-breach?width=1024&height=576&nologo=true"
+---
+
+tl;dv, an AI-powered meeting notetaker used by over two million people, exposed 181,874 meeting recordings and transcripts for approximately six months due to a single missing Firestore security rule. The vulnerability, discovered and reported in January 2026, remained unfixed until mid-August, affecting 84,312 users across 35,003 domains.
+
+The exposure was severe: any user with a free tl;dv account could enumerate and access meeting records belonging to other users and organizations. Beyond static recordings, the vulnerability allowed access to conference IDs that could be used to join live meetings in progress.
+
+## The Technical Failure
+
+The root cause was a misconfigured Firebase Firestore security rule. Security researcher Marcus Hutchins, who discovered and reported the vulnerability, explained: "The rule that should have prevented cross-user access was simply missing. It was a single line of configuration that would have blocked this entirely."
+
+The vulnerability affected:
+- Meeting titles and transcripts
+- Recording URLs and storage locations  
+- Participant email addresses
+- Conference call IDs and joining information
+- Metadata including meeting dates, durations, and organizers
+
+ tl;dv holds SOC 2 certification, making the incident particularly noteworthy. SOC 2 compliance did not prevent a fundamental configuration error from exposing sensitive corporate communications.
+
+## Industry-Wide Implications
+
+The tl;dv breach highlights systemic risks in the AI meeting assistant category. These tools have proliferated in enterprise settings, with millions of employees using them to record, transcribe, and summarize meetings. The data they collect — often including confidential business discussions, hiring interviews, and strategic planning sessions — represents a high-value target.
+
+Security researchers recommend that organizations audit their AI notetaker configurations immediately. Key questions to address:
+
+1. **Data residency**: Where are meeting recordings stored, and who has access?
+2. **Access controls**: Are there granular permissions preventing unauthorized enumeration?
+3. **Audit logging**: Can you detect and investigate anomalous access patterns?
+4. **Retention policies**: How long are recordings kept, and what is the deletion process?
+
+## Vendor Response
+
+tl;dv has since patched the Firestore rules and engaged a third-party security firm for an audit. The company stated it is notifying affected users and implementing additional security measures.
+
+This incident follows a pattern of data exposures in AI-powered productivity tools. Earlier this year, similar vulnerabilities were found in other meeting transcription services, suggesting the category requires more rigorous security assessment before enterprise deployment.

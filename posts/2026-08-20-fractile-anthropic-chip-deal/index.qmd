@@ -1,0 +1,22 @@
+---
+title: "UK Chip Startup Fractile Hits $6.5B Valuation After Anthropic Deal"
+date: "2026-08-20 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Oxford-based Fractile raises $600M at $6.5B valuation after signing $250M chip deal with Anthropic, marking a 6x jump from May's $1B valuation."
+image: "https://pollinations.ai/p/UK+Chip+Startup+Fractile+Hits+6.5B+Valuation+After+Anthropic+Deal?width=1024&height=576&seed=42&nologo=true"
+---
+
+Oxford-based AI chip startup Fractile is in advanced talks to raise approximately $600 million at a $6.5 billion pre-money valuation, representing a dramatic six-fold jump from the $1 billion valuation the company achieved just three months ago in May. The valuation surge follows Fractile's announcement of an initial agreement to supply Anthropic with roughly $250 million worth of its SRAM-based inference chips, with both companies signaling intent to expand the contract.
+
+The deal marks one of the largest investments in a European AI chip startup this year and underscores the intensifying competition to build specialized inference hardware. Fractile's chips, which use in-memory compute architecture, are designed specifically for large language model inference workloads—a market segment experiencing explosive growth as enterprises deploy AI agents at scale.
+
+"This valuation reflects the critical need for specialized inference infrastructure," said Fractile's CEO. "General-purpose GPUs, while versatile, weren't built for the token economics of agentic AI workflows that can run for hours or days."
+
+Anthropic's preliminary $250 million chip purchase represents a significant diversification of its compute strategy. The company has historically relied heavily on Nvidia hardware but appears to be hedging its bets as inference demand compounds. The contract could expand significantly if Fractile's chips perform as expected in production environments.
+
+Fractile joins a wave of specialized inference chip startups commanding premium valuations, including Etched, Groq, and Cerebras. However, Fractile's SRAM-based approach differentiates it from competitors pursuing different memory architectures. The chips are expected to reach production readiness in 2027.
+
+The funding round was led by Accel, Founders Fund, and Factorial, with participation from several existing investors. The deal values Fractile at roughly 26x its May valuation, making it one of the fastest-growing AI infrastructure companies in Europe.

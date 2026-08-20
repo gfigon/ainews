@@ -1,0 +1,28 @@
+---
+title: "TrueFoundry Open-Sources TrueForge Agent Harness, Claims 30-75% Cost Savings Over Claude Managed Agents"
+date: "2026-08-20 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "San Francisco B2B startup TrueFoundry releases MIT-licensed TrueForge agent harness, achieving 30-75% lower costs than Anthropic's Claude Managed Agents through context engineering innovations."
+image: "/assets/post-images/2026-08-20-truefoundry-trueforge.svg"
+---
+
+TrueFoundry, a San Francisco B2B machine learning startup co-founded in 2021 by former Meta engineers, has released TrueForge, an open-source agent harness under the MIT License, challenging enterprise AI agent orchestration costs with significant savings over existing solutions.
+
+The company demonstrated TrueForge's capabilities by completing 11 of 14 tasks on DevRev's Enterprise-Bench, which tests multi-step tool use across CRM, issue tracking, and document management systems. When paired with the open-source GLM-5.2 LLM, TrueForge achieved these results at just $2.90 compared to $11.80 for the same tasks using Anthropic's Claude Managed Agents—a 75% cost reduction.
+
+Even when using the same model in each harness—Opus 4.8—TrueFoundry claims approximately 30% cost savings ($8.50 vs $11.80).
+
+## Context Engineering Drives Efficiency
+
+TrueForge's architecture centers on context engineering—controlling how much information gets sent back into the model at each step of an agent run. The system employs several optimization strategies: delaying the loading of MCP tool schemas until needed, delegating isolated tasks to subagents, moving oversized tool results into files instead of stuffing them into the active context window, processing structured results through code, and automatically compacting long-running conversations (default threshold: 50,000 tokens).
+
+The sandbox approach also differs from traditional runtimes. Rather than keeping an agent inside an isolated environment throughout its run, TrueForge provisions a sandbox as a tool only when the agent needs to execute code or work with files—reducing unnecessary compute and allowing servers to run more agents concurrently.
+
+"We're seeing enterprises increasingly want vendor-neutral options for agent orchestration," said Anuraag Gutgutia, TrueFoundry's co-founder and COO. "TrueForge gives them control while significantly lowering costs compared to proprietary managed agent services."
+
+The harness is available on GitHub under the MIT License, allowing enterprises to fork, modify, self-host, and incorporate it into commercial products. Developers can start locally with a single command and SQLite, then migrate to shared deployments using Docker Compose or Helm with Postgres and Redis.
+
+For organizations already using TrueFoundry's paid AI Gateway for model access control and observability, TrueForge handles the agent loop above that governance layer—giving enterprises a vendor-neutral path to production agent deployments while maintaining cost efficiency.

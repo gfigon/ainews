@@ -1,0 +1,36 @@
+---
+title: "Nvidia Switchyard Router Cuts AI Agent Costs to a Third With Intelligent Model Routing"
+date: "2026-08-13 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Agents & Automation
+summary: "Nvidia releases Nemotron 3.5 Lightning and Switchyard, an open-source router that routes each agent task to the optimal model, cutting costs to a third of running frontier models alone."
+image: "/assets/post-images/2026-08-13-nvidia-switchyard-router.svg"
+---
+
+Nvidia has released Nemotron 3.5 Lightning, a 30-billion-parameter open mixture-of-experts model built for high-volume specialized agent tasks, alongside NeMo Switchyard — an open-source library that routes each step of an agent workflow to whichever model fits it best. The combination delivers frontier-level task completion while cutting benchmark costs to roughly one-third of running Opus 4.8 alone.
+
+The timing places Nvidia squarely in the busiest open-weight release stretch the industry has seen in months. With Alibaba, Moonshot, Zhipu, and DeepSeek shipping competitive open models, and Meta releasing its own 30-billion-parameter Muse Glimmer, open weights have shifted from differentiator to table stakes.
+
+## How Model Routing Works
+
+Model routing isn't a new category. OpenRouter, LiteLLM, and routing startups already let developers direct traffic across multiple providers. What makes Switchyard different is its response to shifting agent state — the right model changes as an agent moves through a task.
+
+"The router will actually choose Lightning if it's set up in your pool of models," explained Kari Briski, Nvidia's vice president of generative AI. "It has many types of routing strategies — you can have an agent state route or a classifier route. Depending on your routing strategy, it wants to choose the best model."
+
+Cost enters the routing decision directly. Switchyard can evaluate model verbosity — how many tokens a given model tends to produce for a task — and use that prediction to steer work toward the cheaper option before the call is made.
+
+## Partner Results
+
+Nvidia shared results from nine companies testing Switchyard with specific figures. LangChain reported a 74% cost reduction across 145 multi-turn Deep Agents tasks by routing just 7% of calls to a frontier model, accepting a 6% accuracy tradeoff. Ramp matched a frontier model's performance on Ramp SWE-Bench while cutting costs 58% and runtime 33%. Cognition integrated Switchyard's staged router into Devin Desktop and reported near-frontier performance while cutting mean cost 28% relative to routing everything to a single frontier model.
+
+The library integrates with existing infrastructure rather than replacing it. Agent frameworks including Cognition, LangChain, and Nous Research call Switchyard directly. LLM gateways including Kong, LiteLLM, and OpenRouter have built Switchyard support into their products. Kong ships Switchyard natively inside Kong AI Gateway.
+
+## Nemotron 3.5 Lightning
+
+Lightning extends the hybrid Mamba-Transformer, latent mixture-of-experts architecture Nvidia introduced with the Nemotron 3 family in December 2025. Built for the fast, cheap end of a routing setup, it runs and ships independent of any router.
+
+According to the Artificial Analysis Intelligence Index, Lightning scores 24 on general capability benchmarks, tied with gpt-oss-120b and behind Gemma 4 31B and Claude 4.5 Haiku. The narrower claim: Lightning matches Qwen3.6-35B's accuracy roughly 30% faster and beats Gemma 4 26B's accuracy at a similar completion time on PinchBench, a real-world agent task benchmark.
+
+Switchyard's real rivals aren't other open models — they're Not Diamond, which powers OpenRouter's Auto mode, and RouteLLM from UC Berkeley and LMSYS. Neither ships its own model. Nvidia's bet is that owning both the model and the routing layer under one open license provides an advantage neither model-only nor router-only competitors can match.

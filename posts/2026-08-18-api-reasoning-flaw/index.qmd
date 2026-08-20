@@ -1,0 +1,43 @@
+---
+title: "Critical API Flaw Let Weaker AI Models Decode Stronger Models' Hidden Reasoning"
+date: "2026-08-18 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Researchers discovered a vulnerability in OpenAI, Anthropic, and Google APIs that allowed weaker models to extract hidden reasoning traces from stronger models, exposing 704 privacy artifacts including API keys and passwords."
+image: "/assets/post-images/2026-08-18-api-reasoning-flaw.svg"
+---
+
+A newly disclosed security flaw in the way major AI providers handle hidden reasoning between API calls allowed researchers to recover confidential thinking traces from proprietary models. The vulnerability affected encrypted reasoning objects used by OpenAI, Anthropic, and Google, potentially exposing sensitive internal reasoning and user data.
+
+## The Vulnerability
+
+The weakness, documented in a paper titled "Stealing Reasoning Traces from Proprietary LLM APIs," affected encrypted reasoning blocks that providers use to preserve conversation state across stateless API calls. These reasoning objects—used by OpenAI's reasoning items, Anthropic's extended thinking, and Google's thought signatures—could be replayed across sessions and even between different models from the same provider.
+
+During testing, researchers demonstrated that a weaker model could act as a "fuzzy decoder" to extract hidden reasoning from stronger models. For example, Claude Haiku 4.5 could transcribe reasoning produced by premium Claude models, and GPT-5.6 Luna could decode traces from GPT-5.6 Sol.
+
+## Privacy Impact
+
+The research team analyzed 6,708 public agent trajectories and decoded 315,320 thinking blocks. After excluding benchmark sources, they identified 704 distinct privacy artifacts from genuine user sessions, including:
+
+- 62 API keys
+- 33 passwords  
+- 24 access tokens
+- 7 private keys
+
+Notably, 64 of these artifacts appeared only in hidden reasoning blocks and nowhere in visible trace text—meaning sanitizing conversation output could still leave secrets exposed inside opaque reasoning objects.
+
+The attack also enabled invisible prompt injection proof of concept, where malicious instructions could be embedded in opaque reasoning blocks and executed when replayed into unrelated tasks.
+
+## Attack Limitations
+
+The cross-user attack required obtaining an encrypted reasoning block (such as one published in an agent log) and API access to a compatible model from the same provider. It did not provide arbitrary access to private chats and targeted developers who published raw agent logs with reasoning objects intact.
+
+Researchers disclosed findings to affected providers. According to their reproducibility statement, the demonstrated attacks stopped working after mitigations and are no longer reproducible as of August 2026.
+
+## Developer Recommendations
+
+Security researchers advise developers to strip reasoning blocks and opaque reasoning fields from shared traces. Organizations should avoid committing raw API transcripts, even when visible text has been sanitized, and carefully review any published agent logs for embedded reasoning objects.
+
+The vulnerability highlights the security implications of carrying hidden reasoning state in API calls—a design choice made to preserve context across stateless interactions.
