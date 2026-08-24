@@ -1,0 +1,24 @@
+---
+title: "Nvidia in Talks for $30B+ Perplexity Stake as AI Search Revenues Soar"
+date: "2026-08-24 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "The chip giant is exploring a major investment in Perplexity as the AI search startup's ARR tops $750 million."
+image: "/assets/post-images/2026-08-24-nvidia-perplexity-stake.svg"
+---
+
+Nvidia is in discussions to invest in Perplexity as part of an equity round that would value the AI search company at more than $30 billion, The Information reports. The potential stake represents a 50% premium over Perplexity's $20 billion valuation from September last year.
+
+Perplexity's annualized revenue has climbed to over $750 million, up from under $250 million at the start of 2026 — a remarkable threefold increase in just eight months. The AI-powered search engine has positioned itself as an alternative to traditional search, offering direct answers powered by large language models rather than links.
+
+This is not Nvidia's first attempt to deepen its relationship with Perplexity. The company had previously explored a technology-licensing deal and staff hires before pursuing the equity investment route. Both companies declined to comment on the ongoing discussions.
+
+The potential investment aligns with Nvidia's strategy of building relationships across the AI startup ecosystem. The company has made numerous strategic investments in AI companies, viewing stakes in promising startups as a way to ensure its chips remain central to the AI infrastructure stack.
+
+Perplexity has emerged as one of the most successful AI-native search alternatives to Google and Microsoft. The company's approach of providing cited, conversational answers has gained traction among users seeking alternatives to traditional search engine results pages.
+
+The $30 billion valuation would make Perplexity one of the most valuable AI startups globally, rivaling some of the largest private AI companies. The premium reflects not just revenue growth but the strategic importance of AI search as a use case for advanced GPU compute.
+
+If the deal materializes, it would represent one of the largest investments in an AI search company and further cement Nvidia's position as the dominant infrastructure provider for AI applications.
