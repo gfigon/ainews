@@ -1,0 +1,22 @@
+---
+title: "NVIDIA Ships Groq 3 LPX: A Chip OpenAI Did Not Test"
+date: "2026-08-27 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "NVIDIA's Groq 3 LPX inference accelerator enters full production, targeting the latency-critical decode workload that OpenAI's Jalapeno benchmarks did not compare against."
+image: "/assets/post-images/2026-08-27-nvidia-groq-3-lpx.svg"
+---
+
+NVIDIA has shipped **Groq 3 LPX**, a dedicated inference accelerator now in full production as of August 24, 2026 — one day before OpenAI published its Jalapeno benchmarks against NVIDIA's older GB200 and GB300 chips.
+
+The timing is notable. At the Hot Chips conference, NVIDIA announced that Groq 3 LPX extends its Vera Rubin NVL72 platform with up to 256 accelerators per rack. The architecture splits the inference workload: Rubin GPUs handle large-scale context processing, while LPX handles latency-critical token-by-token generation. In demonstrations, a Vera Rubin NVL72 with Groq 3 LPX produced 3,400 tokens per second on Gemma 4 31B at 100,000-token context — NVIDIA claims this is the fastest recorded on that model.
+
+**The design rationale** stems from how agent loops work. An agent reasoning through a task generates enormous volumes of tokens across hundreds or thousands of steps. Processing context and generating tokens are fundamentally different workloads: one benefits from parallel throughput, the other from minimal latency. Optimizing a single chip for both means compromising on each. Splitting them is the answer, and NVIDIA positions LPX as purpose-built for the decode phase that makes agents feel responsive.
+
+OpenAI published Jalapeno benchmarks the day after LPX shipped, claiming 1.5 to 1.9 times more work per watt than GB200 and GB300. However, the benchmarks did not test against Vera Rubin — and specifically not against a configuration with LPX handling exactly the decode workload Jalapeno targets. That is not unusual (comparing against shipping hardware is reasonable), but it means the "beats NVIDIA" headline merits context: the comparison used the previous generation, while LPX was already in production.
+
+Nebius is the first AI cloud to adopt Groq 3 LPX. CoreWeave has separately deployed Spectrum-X Multiplane connecting Vera Rubin racks.
+
+For organizations running latency-sensitive agents, the implication is clear: decode speed is what makes an agent feel responsive. NVIDIA claims 4x faster responsiveness than unnamed alternatives, positioning this directly at the growing market for interactive AI agents rather than batch processing workloads.

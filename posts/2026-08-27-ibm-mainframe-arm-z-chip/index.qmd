@@ -1,0 +1,26 @@
+---
+title: "IBM Unveils First Dual-Architecture Mainframe Chip Running Arm and Z Workloads"
+date: "2026-08-27 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "IBM announces a groundbreaking mainframe processor that natively runs both IBM Z and Arm workloads on the same cores, enabling enterprises to run AI frameworks alongside mission-critical transactions."
+image: "/assets/post-images/2026-08-27-ibm-mainframe-arm-z-chip.svg"
+---
+
+IBM has announced what may be the most consequential change to mainframe architecture in decades: a processor whose cores can natively execute both IBM's own instruction set and Arm's — switching between the two in nanoseconds.
+
+The chip, which will power the next generation of IBM Z and LinuxONE systems, is the **first dual-architecture mainframe processor ever built**. It is designed to let enterprises run the vast and fast-growing ecosystem of Arm-native Linux software — including AI frameworks like PyTorch and ONNX Runtime — directly alongside the z/OS transaction-processing workloads that anchor the world's banks, insurers, and governments.
+
+"On this chip are 11 cores, and each core can dynamically switch back and forth between Arm software mode and traditional Z software mode," said Christian Jacobi, IBM Fellow and CTO of IBM Systems Development. "That enables us to run the mission-critical enterprise software right next, on the same chip, to the much broader software ecosystem of Arm applications."
+
+The mechanism relies on the open-source KVM hypervisor. Enterprises can run Arm64 Linux VMs and Linux on Z VMs side by side, with the core flipping into the corresponding mode as the hypervisor dispatches each VM. The performance penalty, Jacobi said, is effectively zero — the switch takes about a nanosecond scale, amortizing to no measurable impact.
+
+Built on a leading-edge 2-nanometer process node, the chip runs its 11 high-performance cores at a base frequency above 5.7 GHz, with on-chip AI inference accelerators for in-transaction fraud detection, a dedicated data processing unit for I/O acceleration, and a large cache architecture. Full systems will scale to hundreds of cores and tens of terabytes of memory.
+
+The strategic logic centers on software ecosystem. IBM's s390x architecture runs an enormous share of the world's mission-critical transactions, but the broader enterprise software universe — monitoring tools, security agents, cloud-native middleware, and the AI stack — was built for x86 and increasingly for Arm. By Arm's estimates, close to half of compute shipped to major hyperscalers in 2025 was Arm-based. Arm counts more than 22 million developers worldwide.
+
+"Notably, customers weren't asking for a dual-architecture chip per se — they were asking for outcomes," said Tina Tarquinio, chief product officer for IBM Z and LinuxONE. "They were saying, 'Help me get these surround workloads to run in a quicker-to-market fashion.'"
+
+IBM is also previewing the next generation of its Spyre AI accelerator at Hot Chips, pairing with the new processor to bring enterprise AI capabilities directly into the mainframe's transaction path.

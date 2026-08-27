@@ -1,0 +1,36 @@
+---
+title: "One in Five Enterprises Can't Stop Runaway AI Agent Spending in Real Time"
+date: "2026-08-25 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "New survey reveals enterprises are running three orchestration platforms on average but still lack real-time spending controls for autonomous AI agents."
+image: "/assets/post-images/2026-08-25-runaway-ai-agent-spending.svg"
+---
+
+The autonomous agent economy has a visibility problem. According to new survey data from VentureBeat's VB Pulse, one in five enterprises cannot stop a runaway AI agent's spending in real time—meaning costly agent actions continue unchecked until someone manually intervenes.
+
+The data comes from an ongoing analysis of how 107 enterprises are actually deploying and using AI agents, their platforms of choice, and what guides their decision-making around cost control and security.
+
+## Three orchestration platforms and counting
+
+Enterprise AI teams have stopped betting on a single orchestration platform. The median enterprise now runs three at once—not by accident, but because none of them fully trusts a single vendor to run the show.
+
+Microsoft AI Foundry/Copilot Studio shows up in 70% of stacks, OpenAI's Agents SDK in 68%, and Anthropic's Claude Platform in 47%. Builders surveyed are also using Google's Enterprise Agent Platform, LangChain/LangGraph, Salesforce Agentforce, Amazon Bedrock, and LlamaIndex. Twenty-two percent run custom in-house orchestration on top of vendor tools.
+
+This hybrid approach is deliberate. More than half of respondents (53%) said the primary control plane will be hybrid by the end of 2026. Fourteen percent expect to use a provider-managed service, 13% plan on a custom in-house control plane, and 11% are betting on external platforms abstracted away from model providers.
+
+## The spending visibility gap
+
+Despite running multiple platforms, enterprises struggle most with token usage and visibility into agent spending. The survey found that spending reflects enterprise priority on visibility, security, and control—yet the gap between awareness and action remains wide.
+
+Builders are investing the most in agent monitoring and debugging (31%) and security and permissions enforcement (30%). Workflow tooling accounts for another 19%—a shift from a prior wave when workflow tooling led orchestration spending outright.
+
+Satisfaction with platforms is decent (4.17 out of 5 for overall satisfaction), but drops when it comes to ease of implementation (3.91 out of 5) and value for money (3.63 out of 5).
+
+## Platform switching is the new normal
+
+More than two-thirds of respondents plan to change platforms within the year: 15% in the next three months, 24% in three to six months, and 28% in six to twelve months. Claude Agent SDK is a top tool under consideration—43% of builders are exploring the Anthropic-built model. Roughly one-third are looking at Google's Enterprise Agent Platform, another 31% are focused on custom in-house orchestration, and 25% are investigating OpenAI's options.
+
+The lesson: in the agentic era, platform loyalty is dead. Enterprises are building for a future where multiple orchestration platforms, models, and agents work together across a hybrid control plane—whether vendors like it or not.

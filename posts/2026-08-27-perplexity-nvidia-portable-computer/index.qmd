@@ -1,0 +1,24 @@
+---
+title: "Perplexity Brings AI Agents Local With Nvidia Partnership"
+date: "2026-08-27 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "Perplexity launches Portable Computer, a fully local AI agent running on Nvidia DGX Spark and RTX GPUs with zero token costs."
+image: "/assets/post-images/2026-08-27-perplexity-nvidia-portable-computer.svg"
+---
+
+Perplexity has unveiled **Portable Computer**, a version of its agentic platform that runs entirely on hardware users already own — marking one of the most aggressive attempts yet to move serious AI agent workloads from the cloud to local devices.
+
+The product, developed in close partnership with Nvidia, lets users run the full Perplexity agent stack — including models, inference engine, tools, and app connectors — on Nvidia's DGX Spark desktop supercomputer or any Linux machine equipped with an RTX GPU (24GB+ VRAM). Work completed locally consumes no billing credits, and every task starts on the device by default, only escalating to the cloud when the local model hits its limits.
+
+"We've basically brought the exact same UI to a fully local app," said Nate, Perplexity's VP of engineering for infrastructure and enterprise. "This incorporates the entirety of the agent harness and inference and everything needed to do work locally."
+
+The launch arrives with a published research paper arguing that effective local agents require co-designing the model and agent harness together. Perplexity found that although models like Qwen 3.8 27B advertise 260,000-token contexts, they begin struggling beyond 100,000 tokens. The company built a deliberately minimal harness with a succinct system prompt, a small set of core tools, and capabilities that load as on-demand "skills."
+
+**Benchmark results** from Perplexity's internal Local Knowledge Work Bench (53 tasks spanning research, financial analysis, and document creation) show Computer running Qwen 3.8 27B on DGX Spark scored 82.6%, versus 77.6% for the open-source Pi harness and 74.0% for Hermes. Perplexity's post-trained PPLX 27B pushed the score to 85.4%. On the challenging Terminal Bench 2.1 coding benchmark, the fully local Qwen model scored 59.6% at zero marginal cost — escalating to a Claude Opus 5 "advisor" in the cloud raised the score further.
+
+The strategic logic centers on token economics. "With agents, you want these agents always on if you can," said Nader, Nvidia's director of developer technology. "What we're seeing is an insatiable demand for tokens, and that's something that makes local AI so great — you were not metered by the token."
+
+Portable Computer is available now for Pro, Max, Enterprise Pro, and Enterprise Max subscribers on Linux, with Windows support coming in September.

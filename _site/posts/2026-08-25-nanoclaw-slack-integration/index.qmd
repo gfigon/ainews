@@ -1,0 +1,34 @@
+---
+title: "NanoClaw Brings Persistent AI Agent Teams to Slack"
+date: "2026-08-25 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "NanoCo launches Slack integration allowing users to create entire teams of AI agents with their own identities, memories, and permissions from a single message."
+image: "/assets/post-images/2026-08-25-nanoclaw-slack-integration.svg"
+---
+
+Adding an AI agent to Slack sounds appealing—until you actually try it. The reality, as many enterprises have discovered, is often clunkier than expected. NanoCo wants to change that calculus with a new integration that treats Slack as a native home for persistent AI agent teams.
+
+The company behind the open-source NanoClaw autonomous agent harness has launched a Slack integration that lets human users spin up entire teams of agents with their own specialized skills, workflows, and even custom avatars, all from a single Slack prompt.
+
+"In the next 12 to 18 months, everyone on a team will be a manager of agents," NanoCo CEO and co-founder Gavriel Cohen told VentureBeat in an exclusive interview.
+
+## Agents with identities
+
+The key distinction is persistence and separation. NanoClaw doesn't present additional workers as invisible subagents that disappear after one task. Each agent can be given its own role, memory context, instructions, and permissions—creating a structure closer to a small digital department than a single chatbot with a long prompt.
+
+"In the past, you had to do all these weird things to try to have multiple different agents behind the scenes using the same bot, and now every agent gets its own identity in Slack—its own avatar, its own face, its own name," Cohen explained. "You can tag them. They can tag each other."
+
+The agents can work together in Slack channels and shared Canvases, and can be messaged outside of Slack on other platforms like Telegram or WhatsApp—letting their human colleagues ping them across messaging platforms just as they would their fellow humans.
+
+## Simplified setup
+
+The setup process starts with cloning the project and running the nanoclaw.sh installer, which walks users through dependencies, credentials, building the agent container, and pairing a first messaging channel. The Slack-specific flow offers a Connect Slack option: the user names the agent, authenticates, and the first agent appears in Slack and begins communicating.
+
+Importantly, this initial authorization is largely a one-time workspace connection. After that, NanoClaw can provision each additional agent as its own Slack bot, complete with its own name, generated avatar, and identity. Those agents continue running on the customer's infrastructure and connect to Slack over Socket Mode. NanoCo says it does not store the agents' Slack tokens—those tokens remain on the user's machine.
+
+As with the original open-source version released in January, developers and enterprises can choose whichever underlying large language model they wish to power their NanoClaw agents, optimizing for performance, cost, or other combinations of factors.
+
+Slack's standard administrative controls still apply. Organizations can use their normal app-approval policies for the NanoClaw integration, and the app's Home tab displays the agents currently running in the workspace.

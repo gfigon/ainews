@@ -1,0 +1,22 @@
+---
+title: "The August 31 AI Deadline: Three Changes, One Day"
+date: "2026-08-27 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - LLMs & Models
+summary: "August 31 marks a rare convergence: Claude Sonnet 5 price rises, GPT-5.4 leaves ChatGPT, and Kimi K2.5 sunsets — all in one day."
+image: "/assets/post-images/2026-08-27-ai-deadline-august-31.svg"
+---
+
+Mark your calendar. August 31, 2026 sees three significant AI service changes land simultaneously — a rare convergence that highlights how quickly the pricing and availability landscape shifts.
+
+**Claude Sonnet 5 price increase**: Anthropic's mid-tier model rises from $2 to $3 per million input tokens, and from $10 to $15 per million output tokens. The hike is accompanied by a tokenizer change that adds 10 to 35 percent more tokens on code — meaning existing integrations may see costs rise faster than the headline price increase suggests. This follows Anthropic's first operating profit in Q2 2026, and signals the company's confidence in sustained enterprise demand.
+
+**GPT-5.4 and GPT-5.4 mini exit ChatGPT**: Starting August 31, these models leave the ChatGPT sign-in experience and migrate to Codex-only access. They remain available via API for developers with existing keys, but the consumer-facing offering consolidates around GPT-5.6 variants. OpenAI's promotional pricing on GPT-5.6 Sol ($4/$20 per million tokens) is also set to end around mid-November, returning to $5/$30.
+
+**Kimi K2.5 and moonshot-v1 sunset**: China's Moonshot AI deprecated its Kimi models, requiring developers to migrate to the newer Kimi K3. The company had positioned K2.5 as competitive with frontier models on reasoning benchmarks, but the sunset marks another consolidation in the crowded Chinese LLM market.
+
+**The broader pattern**: These coinciding deadlines underscore how the AI market is maturing. Price adjustments, model transitions, and deprecations that once happened in isolation now cluster around calendar milestones. For enterprises, the practical implication is that August 31 is a maintenance day: review API integrations, audit tokenization changes, and verify which models your pipelines depend on.
+
+Grok 4.7 remains slated for early-to-mid September, and OpenAI's public S-1 has not yet appeared on SEC EDGAR despite confidential filing in June.
