@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "NVIDIA Groq 3 LPX Inference Accelerator Vera Rubin Decode Latency Agents",
+      "count": 1,
+      "last_published": "2026-08-27",
+      "slugs": [
+        "2026-08-27-nvidia-groq-3-lpx"
+      ]
+    },
+    {
+      "term": "Claude Sonnet 5 Price Hike GPT-5.4 Deprecation Kimi K2.5 Sunset August 31",
+      "count": 1,
+      "last_published": "2026-08-27",
+      "slugs": [
+        "2026-08-27-ai-deadline-august-31"
+      ]
+    },
+    {
       "term": "Perplexity Nvidia Portable Computer Local AI Agent Zero Token Costs DGX Spark",
       "count": 1,
       "last_published": "2026-08-27",
