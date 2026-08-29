@@ -1,0 +1,20 @@
+---
+title: "Z.ai Opens GLM-5.3 Weights After Safety Hold, Flash Variant Linked to Stealth Model"
+date: "2026-08-28 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Z.ai releases GLM-5.3 model weights today after a two-week safety evaluation, with the Flash variant revealed as the mysterious Ox Alpha model that dominated OpenRouter leaderboards."
+image: "/assets/post-images/2026-08-28-z-ai-glm-53-weights.svg"
+---
+
+Z.ai is publishing the weights for its GLM-5.3 flagship model today, concluding an unprecedented two-week safety evaluation period that began when the model launched on August 14. The release marks one of the most transparent safety holds for a frontier-grade open weights model.
+
+The company announced GLM-5.3 as "state of the art" on CyberGym for vulnerability discovery, with performance more than doubling GLM-5.2 on exploitation benchmarks. The model achieved a 50% gain over its predecessor on the Z.ai Code Bench and reached state-of-the-art performance among open-source models on public benchmarks including Terminal Bench 3.0.
+
+What surprised the AI community was the revelation that GLM-5.3-Flash is the same model that appeared on OpenRouter two weeks ago under the mysterious name "Ox Alpha" or "0x Alpha." The unidentified model reportedly served trillions of tokens at strong coding performance, with no company claiming responsibility until now.
+
+"After extensive safety evaluation and hardening, we are confident in releasing these weights to the open source community," Z.ai stated in their release notes. The company has not yet clarified the flagship license terms, which remain under discussion.
+
+The timing is significant: today also marks three days before the August 31 deadline when several AI providers, including Anthropic's Claude Sonnet 5, are implementing pricing changes. The double deadline effect has created a wave of activity across the AI industry, with companies rushing to finalize their positions before the changes take effect.

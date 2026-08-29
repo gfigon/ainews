@@ -1,0 +1,26 @@
+---
+title: "Anthropic Overtakes OpenAI in Q2 Revenue for First Time"
+date: "2026-08-21 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - LLMs & Models
+summary: "Anthropic reported $11.6B in Q2 revenue, surpassing OpenAI's $6.7B for the first time while also achieving its first operating profit."
+image: "/assets/post-images/2026-08-21-anthropic-revenue-openai.svg"
+---
+
+In a landmark shift for the AI industry, Anthropic has overtaken OpenAI in quarterly revenue for the first time, according to Wall Street Journal reports. The milestone marks a significant reversal in the competitive landscape between the two leading AI laboratories.
+
+Anthropic reported Q2 2026 revenue of $11.6 billion, more than doubling from the previous quarter, while OpenAI's revenue grew only 18% to $6.7 billion. The gap represents a fundamental shift in how enterprise customers are choosing their AI providers.
+
+Beyond revenue, Anthropic achieved a historic milestone: its first operating profit of $559 million in Q2 2026—two years ahead of internal projections. The company attributes this to improved efficiency in computing resource utilization and strong enterprise adoption.
+
+OpenAI's losses deepened significantly during the same period, widening from $9.3 billion to $12.3 billion. While the company added $1 billion in quarterly revenue, its losses grew by $3 billion—raising questions about its path to profitability ahead of its planned IPO next year.
+
+The timing is particularly significant as both companies prepare to go public. Anthropic is targeting an autumn IPO with a reported $2 trillion valuation, while OpenAI is expected to follow in 2027. Each is pitching a different narrative: Anthropic points to profitability and efficient growth, while OpenAI emphasizes its reaccelerating July growth (32% month-over-month for business customers) and expanding enterprise base.
+
+"The revenue gap with Anthropic is the story," noted the Wall Street Journal. "For most startups, nearly $7 billion in quarterly revenue would be remarkable. The bar for OpenAI is different."
+
+OpenAI has responded by reshuffling leadership, replacing its chief revenue officer after less than a year, and releasing a "super app" combining Codex, ChatGPT, and a web browser. Co-founder Greg Brockman has taken a more active role in product and business teams to reignite growth.
+
+The competitive pressure extends to pricing. Both companies have cut prices on latest models as corporate customers become more cost-conscious and shift some workloads to cheaper Chinese alternatives like Qwen and DeepSeek.

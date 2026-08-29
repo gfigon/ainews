@@ -1,0 +1,30 @@
+---
+title: "South Korean AI Companion Startup Wrtn Raises $72M at $722M Valuation"
+date: "2026-08-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Wrtn Technologies closed a Series C at a $722M valuation, with its North America-focused AI entertainment platform OOC reaching $7.2M monthly revenue within three months."
+image: "https://pollinations.ai/p/Wrtn+AI+Companion+South+Korea+72M+Funding?width=1024&height=576&seed=123&nologo=true"
+---
+
+South Korea's Wrtn Technologies has closed a $72 million Series C funding round at a valuation exceeding $722 million, the company announced Tuesday. The round was led by Coreline Ventures and Eugene Asset Management, with participation from existing investors including Goodwater Capital, Antler, KDB, and Capstone. Total funding to date stands at approximately $166 million.
+
+The valuation reflects growing investor appetite for AI companion and entertainment platforms, even as regulatory scrutiny intensifies in some markets. Wrtn's OOC platform, focused on the North American market, crossed $7.2 million in monthly revenue within three months of launching in May 2026.
+
+## From Korea to North America
+
+Wrtn's strategy centers on AI-driven entertainment products that blend companion interactions with social features. The company originally built its business in Korea before pivoting to target North American users with OOC—a platform combining AI conversation, interactive content, and social features.
+
+The rapid revenue traction in North America suggests strong demand for AI companion experiences beyond the utility-focused products dominant in enterprise AI. OOC's early metrics demonstrate that consumers are willing to pay for engaging AI interactions that combine entertainment with functionality.
+
+The company projects 2026 revenue will exceed 200 billion won (approximately $150 million), up from 47.1 billion won in 2025—a fourfold increase. Wrtn is positioning for a potential IPO in 2028, leveraging the strong growth trajectory to build toward a public offering.
+
+## Market Context
+
+The AI companion space has seen significant investment activity in 2026, with multiple startups raising large rounds to capture consumer attention. However, the sector faces regulatory headwinds in some regions. China, for instance, recently imposed restrictions on AI companion services, creating uncertainty for companies operating globally.
+
+Wrtn's focus on North America may provide some insulation from regulatory risks affecting Asian markets. The company's ability to achieve meaningful revenue in a compressed timeframe also differentiates it from many AI startups that remain pre-revenue despite substantial funding.
+
+The funding will support continued product development and potential acquisitions as Wrtn seeks to expand its platform capabilities ahead of its IPO target.

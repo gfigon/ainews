@@ -1,0 +1,22 @@
+---
+title: "Skild AI's S1 Robot Learns 10-Minute Tasks from Single Video"
+date: "2026-08-28 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Skild AI unveils S1, a robotics foundation model that executes complex manipulation tasks up to 10 minutes long from a single human video demonstration with zero fine-tuning."
+image: "/assets/post-images/2026-08-28-skild-s1-robot-video-learning.svg"
+---
+
+Skild AI has unveiled S1, a robotics foundation model that represents a significant leap in embodied artificial intelligence. Unlike traditional robot learning approaches that require extensive fine-tuning for each new task, S1 treats a video demonstration as the program itself.
+
+The model can execute previously unseen, multistep manipulation tasks spanning up to 10 minutes—such as potting plants, making pour-over coffee, flipping pancakes, and assembling kits—directly from a single human video prompt without any task-specific training.
+
+## In-Context Learning for Manipulation
+
+Skild founder Deepak Pathak framed the breakthrough as "in-context learning for manipulation graduating from last year's brief gestures to full procedural tasks." The company reports that S1 achieves 66% success on unseen tasks compared to just 9% for language-prompted vision-language-action (VLA) models at the same 100k-hour training scale.
+
+Sequoia Capital's Alfred Lin called single-prompt execution of long-horizon tasks "a game changer" for robotics deployment. The ability to teach robots new skills through simple video demonstration could dramatically accelerate industrial automation and domestic robot adoption.
+
+The model was trained on 100k hours of robot interaction data and represents a new paradigm where robots can adapt to novel situations without retraining—a capability long sought in the field of embodied AI.

@@ -1,0 +1,20 @@
+---
+title: "Reddit Lost 86% of Its ChatGPT Citations in Three Days"
+date: "2026-08-26 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Industry News
+summary: "ChatGPT Search citations crashed for Reddit after an unannounced retrieval change on August 8 — vendor documentation now dominates AI search results."
+image: "/assets/post-images/2026-08-26-reddit-chatgpt-citations-collapse.svg"
+---
+
+Reddit held 3.83 percent of all ChatGPT Search citations for three weeks, then watched that share collapse to just 0.52 percent between August 14 and 17. The culprit: a retrieval change OpenAI made on August 8 without announcing it.
+
+What makes this significant is where the share went. It didn't migrate to other discussion forums or social platforms. Instead, it moved to vendor documentation and first-party brand pages. This marks a quiet but fundamental shift in how AI search engines value content sources.
+
+The implications for content creators are stark. Community discussions, forums, and user-generated expertise — once considered valuable training and retrieval material — are being deprioritized in favor of official documentation. For companies building AI-powered search products, this data point reinforces a emerging pattern: the AI retrieval layer rewards polished, structured content over organic community discussions.
+
+For the broader AI industry, the Reddit collapse is a case study in algorithmic dependency. Reddit had built significant traffic from ChatGPT citations, essentially becoming a discovered knowledge source for millions of users. That relationship proved fragile, dependent entirely on a single company's undisclosed ranking changes.
+
+The incident also raises questions about transparency in AI search. Unlike traditional search engines that provide Webmaster tools and ranking explanations, ChatGPT Search offered no advance notice of the retrieval shift. Reddit discovered the change through monitoring — the same way most publishers will discover their own ranking changes in an AI-first search world.

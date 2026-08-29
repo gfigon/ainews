@@ -1,0 +1,24 @@
+---
+title: "Chinese Humanoid Robots Smash Athletic Records at Beijing Games, Gap Widens"
+date: "2026-08-28 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "The World Humanoid Robot Games in Beijing saw machines outpace human world records in sprinting, high jump, and long jump, highlighting China's accelerating lead in embodied AI."
+image: "/assets/post-images/2026-08-28-china-humanoid-robot-records.svg"
+---
+
+China's World Humanoid Robot Games concluded with machines setting new benchmarks that exceed human athletic achievements, underscoring the country's widening lead in physical AI systems.
+
+The X-Humanoid TianGong Ultra robot ran the 100-meter dash in 8.86 seconds, shattering the 9.32-second record set earlier in the competition and definitively beating Usain Bolt's 9.58-second human world record. The event featured more than 2,000 humanoid robots competing across 51 events over five days at Beijing's National Speed Skating Oval.
+
+Beyond sprinting, robots set records in high jump and long jump. One robot notably adopted an unconventional running gait mid-race to optimize efficiency—a behavior that emerged spontaneously during competition rather than being explicitly programmed.
+
+The competition highlighted both rapid capability advances and persistent governance gaps. Commentators flagged the absence of standardized physical "kill switches" for humanoid robots as safety infrastructure struggles to keep pace with mechanical capabilities.
+
+The United States was largely absent from the competition, with Chinese manufacturers dominating the field. This marks a significant widening of the robotics gap between the two nations in physical AI deployment.
+
+"The pace of capability is accelerating faster than governance frameworks can adapt," noted one commentator during the broadcast. "We need standardized safety protocols before these machines operate in real-world environments."
+
+The event, now in its second year, has become a key showcase for China's strategy of prioritizing visible, physical AI deployment over frontier model competition—a contrast to the U.S. approach of focusing on large language models.

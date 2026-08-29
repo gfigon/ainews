@@ -1,0 +1,26 @@
+---
+title: "Skild AI S1 Learns 10-Minute Tasks from Single Video"
+date: "2026-08-28 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Skild AI releases S1 robotics foundation model capable of executing complex, multi-minute tasks from a single human video demonstration without any fine-tuning."
+image: "/assets/post-images/2026-08-28-skild-s1-robot.svg"
+---
+
+Skild AI has unveiled S1, a robotics foundation model that can learn and execute tasks up to 10 minutes long from a single human video prompt—with no fine-tuning required. The breakthrough addresses one of robotics' most persistent challenges: teaching physical systems to perform complex, multi-step tasks efficiently.
+
+Current vision-language-action (VLA) models typically require extensive fine-tuning for each new task or rely on language prompts that struggle with long-horizon physical behaviors. S1 takes a fundamentally different approach: it watches a single video of a human performing a task, then generalizes that demonstration to new situations.
+
+In testing, S1 achieved 66% success rates on unseen tasks, compared to just 9% for language-prompted VLAs trained at the same 100,000-hour scale. The demonstrations covered practical skills including pancake flipping, pour-over coffee preparation, plant potting, and kit assembly—tasks requiring sustained manipulation, environmental adaptation, and error correction.
+
+Sequoia Capital's Alfred Lin called single-prompt execution of long-horizon tasks "a game changer" for robotics development. The implications extend beyond novelty: if robots can learn complex behaviors from one demonstration, the economics of robotic deployment in manufacturing, logistics, and domestic settings shift dramatically.
+
+The model addresses what researchers call the "long-horizon" problem in robotics. Most existing systems handle brief, atomic actions well—pick up an object, push a button—but struggle with sequences that require planning across minutes. A human can watch someone set a table and replicate the full sequence; teaching a robot the same capability has required hundreds of demonstrations or explicit programming of each step.
+
+Skild's approach mirrors developments in language models, where few-shot and zero-shot capabilities have transformed expectations. Just as GPT models can perform new tasks from instruction alone, S1 suggests robots might eventually learn new physical skills from observation rather than explicit training.
+
+The timing matters for industrial automation. Labor shortages across manufacturing and logistics have intensified demand for more flexible robotic systems—machines that can adapt to new tasks without weeks of reprogramming. If S1's capabilities scale, they could accelerate robotic deployment in high-mix, low-volume environments that have resisted automation.
+
+Not all challenges are solved. S1 still operates within controlled environments, and real-world variability—uneven lighting, unexpected obstacles, novel objects—presents ongoing research problems. But the demonstration that complex, multi-minute physical tasks can transfer from a single video marks a meaningful step toward more adaptable robotics.

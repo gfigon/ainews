@@ -1,0 +1,30 @@
+---
+title: "AWS to Shut Down Mechanical Turk After 21 Years"
+date: "2026-08-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Amazon's pioneering human-task marketplace, once described by Jeff Bezos as 'artificial artificial intelligence,' will cease operations on September 30, 2026."
+image: "https://pollinations.ai/p/AWS+Mechanical+Turk+Shutdown+21+Years?width=1024&height=576&seed=42&nologo=true"
+---
+
+Amazon Web Services announced Tuesday that Mechanical Turk, the pioneering human-task marketplace that has operated since 2005, will shut down on September 30, 2026. The platform, which once represented Amazon's bet on human computation as a complement to AI, ends its 21-year run as AI-native alternatives have largely supplanted its original mission.
+
+The platform stopped accepting new customers on July 30 and had been gradually eclipsed by AI-driven data-labeling platforms including Scale AI, Mercor, and Prolific. A 2023 study found that many Mechanical Turk workers were quietly routing tasks through large language models, undermining the human-judgment premise that originally defined the service.
+
+"After an internal assessment, we have made the difficult decision to retire Mechanical Turk," AWS told users in the announcement. The company has given existing customers five weeks to complete any pending work before the September cutoff.
+
+## From Pioneer to Legacy
+
+Mechanical Turk was launched in 2005 as a web service enabling developers to submit human-intelligence tasks—called Human Intelligence Tasks (HITs)—to a global workforce. Jeff Bezos once described the service as "artificial artificial intelligence," reflecting his belief that human judgment could be harnessed at scale for tasks that stump pure software.
+
+The platform became foundational to early machine learning development, providing annotated training data for countless AI models. Academic researchers, startups, and enterprises relied on it for data labeling, survey collection, and quality assurance tasks that required human perception.
+
+However, the rise of foundation models capable of handling many of these tasks has dramatically shifted the landscape. LLMs can now classify text, generate annotations, and perform quality checks that previously required human workers—often faster and at lower cost.
+
+## The AI Labeling Market Transforms
+
+The Mechanical Turk shutdown reflects broader shifts in the data-labeling industry. Specialized AI-native platforms have emerged to fill the gap, offering more sophisticated workflows, higher quality control, and integrations with ML pipelines. Scale AI, backed by Amazon, has become a dominant player, while startups like Mercor and Prolific have attracted significant investment for their AI-augmented labeling approaches.
+
+For organizations still relying on human annotation, the retirement of Mechanical Turk signals an accelerating transition. The question is no longer whether AI will replace human labeling for routine tasks, but how quickly enterprises can migrate to more automated pipelines.

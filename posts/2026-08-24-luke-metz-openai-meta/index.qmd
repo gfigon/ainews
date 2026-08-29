@@ -1,0 +1,22 @@
+---
+title: "Luke Metz Leaves OpenAI for Meta Superintelligence Labs"
+date: "2026-08-24 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "AI researcher Luke Metz departs OpenAI for Meta's Superintelligence Labs, marking another high-profile exit as Meta continues its aggressive talent acquisition from OpenAI."
+image: "/assets/post-images/2026-08-24-luke-metz-openai-meta.svg"
+---
+
+Meta's campaign to recruit OpenAI talent has claimed another notable scalp. Luke Metz, an AI researcher who had returned to OpenAI from Mira Murati's Thinking Machines Lab in January, is now joining Meta's Superintelligence Labs and will report to chief AI officer Alexandr Wang.
+
+Metz co-developed DCGAN, a foundational deep learning technique for generative adversarial networks, and contributed to OpenAI's o1 system card—the reasoning model's safety documentation. His move extends Meta's ongoing raid on OpenAI's post-training team and marks a second departure from the team that Fidji Simo assembled around Barret Zoph earlier this year.
+
+The timing is notable. Meta's Superintelligence Labs, led by Alexandr Wang (formerly of Scale AI), has been on a hiring spree to build what Wang has described as "the world's best AI research team." The lab reportedly offers competitive packages that include significant equity stakes—something OpenAI's restructuring has complicated for its own employees.
+
+Metz isn't the only high-profile departure from OpenAI this year. The company has seen multiple researchers leave for competitors including Anthropic, Google DeepMind, and various startups. The churn has raised questions about internal culture and the direction of OpenAI's research priorities under Sam Altman's leadership.
+
+For Meta, each hire represents progress in its ambitious goal to build artificial general intelligence. The company has committed billions to AI infrastructure and talent, positioning itself as the primary challenger to OpenAI's dominance. The Metz hiring signals continued momentum in that effort.
+
+The broader trend points to intensifying competition for top AI talent. With valuations and funding reaching unprecedented levels across the industry, researchers have more options than ever. For companies like OpenAI, retaining talent requires not just competitive compensation but compelling research problems and a clear mission—something the Metz departure suggests may be wavering internally.

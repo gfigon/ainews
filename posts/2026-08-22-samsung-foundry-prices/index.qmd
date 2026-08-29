@@ -1,0 +1,22 @@
+---
+title: "Samsung Raises Foundry Prices Up to 15% as AI Demand Strains Chip Capacity"
+date: "2026-08-22 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Samsung increases SF4 and SF5 foundry prices 10-15% on July orders as Pyeongtaek fab runs at full capacity since 2022, with AI applications projected to exceed 30% of revenue."
+image: "/assets/post-images/2026-08-22-samsung-foundry-prices.svg"
+---
+
+Samsung has raised prices for its advanced semiconductor foundry services by 10-15%, reflecting intensifying demand for AI chip manufacturing capacity. The price increases apply to the company's SF4 4nm and SF5 5nm processes, with the 8nm process seeing nearly 10% price hikes on July orders, sources told Reuters.
+
+The foundry price adjustments underscore the continued strain on advanced chip manufacturing capacity globally. Samsung's Pyeongtaek SF4 production line has operated at full capacity since late 2022, and the company is struggling to keep pace with demand from AI accelerator makers and hyperscalers. The price increases represent Samsung's effort to manage allocation and reflect the rising costs of expanding advanced manufacturing capacity.
+
+TSMC's 3nm and 2nm production lines remain sold out to major customers including Apple, NVIDIA, and AMD, pushing overflow demand toward Samsung's alternative production capabilities. This dynamic has given Samsung leverage to raise prices even as it competes with TSMC for the most advanced AI chip orders.
+
+The company now expects AI applications to comprise more than 30% of its foundry revenue, up significantly from previous projections. This shift reflects the broader structural changes in semiconductor demand as AI accelerators become the dominant driver of advanced chip consumption. Samsung's memory business, which supplies HBM chips for AI processors, has also benefited from this trend.
+
+Industry observers note that foundry price increases ultimately flow through to AI hardware pricing. As chip costs rise, cloud providers and enterprises may face continued pressure on AI deployment economics. However, the demand signal remains strong, with Samsung reportedly unable to accept additional large AI chip orders until later in 2027 due to capacity constraints.
+
+The price increases also highlight the strategic importance of semiconductor manufacturing capacity in the AI era. Governments worldwide, including the United States, South Korea, and the European Union, have launched initiatives to expand domestic chip production, seeking to reduce reliance on Taiwan Semiconductor Manufacturing Company and ensure supply chain resilience for AI infrastructure.

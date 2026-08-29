@@ -1,0 +1,20 @@
+---
+title: "Critical API Flaw Let Attackers Extract Hidden Reasoning From OpenAI, Anthropic, and Google Models"
+date: "2026-08-25 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Researchers discovered a vulnerability in encrypted reasoning objects used by OpenAI, Anthropic, and Google APIs that allowed weaker models to decode proprietary reasoning, exposing 704 privacy artifacts including 62 API keys and 33 passwords."
+image: "https://pollinations.ai/p/Critical%20API%20Flaw%20Extracting%20Hidden%20Reasoning%20From%20OpenAI%20Anthropic%20Google?width=1024&height=576&seed=42&nologo=true"
+---
+
+A newly disclosed security flaw in the way OpenAI, Anthropic, and Google handle hidden AI reasoning between API calls allowed researchers to recover internal reasoning traces and sensitive data from session logs. The vulnerability affected encrypted reasoning objects used by the providers' reasoning APIs, where blocks created in one session could be replayed into another—or even handed to a weaker model in the same provider family to reveal hidden content.
+
+The research team behind the paper "Stealing Reasoning Traces from Proprietary LLM APIs" demonstrated four distinct abuse paths. Attackers could steal proprietary reasoning for model distillation, extract private data from other users' published traces, recover harmful content concealed behind safe visible answers, and hide prompt injections inside opaque reasoning blocks. The attacks worked by obtaining an encrypted reasoning block from a published agent log and replaying it into an API session using a compatible model from the same provider.
+
+Across 6,708 public agent trajectories analyzed, the researchers decoded 315,320 thinking blocks. After excluding benchmark sources, they identified 704 distinct privacy artifacts from genuine user sessions, including 62 API keys, 33 passwords, 24 access tokens, and seven private keys. Notably, 64 of these artifacts appeared only in hidden reasoning and nowhere in the visible trace—meaning sanitizing readable conversation text could still leave secrets inside opaque blocks vulnerable to replay attacks.
+
+The vulnerability leveraged the design choice of preserving reasoning across API calls when conversation state is managed manually or statelessly. OpenAI returns encrypted reasoning items that applications replay with manually managed history, Anthropic carries full reasoning in an encrypted signature, and Google uses encrypted thought signatures. These objects were portable across sessions, users, and models, allowing weaker models to act as "fuzzy" decoders—Claude Haiku 4.5 for Claude traces, GPT-5.6 Luna for GPT traces, and Gemini Robotics ER-1.6 for Gemini traces.
+
+The researchers disclosed findings to affected providers, and the demonstrated attacks stopped working after mitigations were deployed. The main extraction attack is no longer reproducible as of August 2026. Developers are advised to strip reasoning blocks and opaque reasoning fields from shared traces and avoid committing raw API transcripts even when visible text has been sanitized.

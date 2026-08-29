@@ -1,0 +1,24 @@
+---
+title: "xAI Grok 4.6 Lands on AWS Bedrock with 500K Context Window"
+date: "2026-08-22 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "AWS adds SpaceXAI's Grok 4.6 to Amazon Bedrock with 500K context window, configurable reasoning efforts, and $2.20/$6.60 per 1M tokens pricing across US and global profiles."
+image: "/assets/post-images/2026-08-22-grok-46-aws-bedrock.svg"
+---
+
+AWS has added xAI's Grok 4.6 to Amazon Bedrock, offering the model with a 500,000 token context window and configurable reasoning efforts. The deployment, which became available on August 19, positions Grok 4.6 as one of the longest-context models available through a major cloud provider.
+
+The Bedrock deployment includes several configuration options that differentiate it from previous Grok releases. Users can select from four reasoning effort levels: low, medium, high, and xhigh, enabling tuning between response speed and analytical depth. The service supports both a US geographic profile for data residency requirements and a global profile for broader availability.
+
+Pricing is set at $2.20 per million input tokens and $6.60 per million output tokens, placing Grok 4.6 in the premium tier of Bedrock offerings. The model supports the Responses, Chat Completions, and Converse APIs with standard AWS controls, facilitating integration into existing applications built on Bedrock.
+
+The Bedrock release marks a significant expansion of Grok's availability beyond xAI's own platform. Previously, Grok models were primarily accessible through xAI's direct API, limiting enterprise adoption by organizations with existing AWS or multi-cloud infrastructure. The Bedrock integration removes this friction for the substantial number of enterprises standardized on AWS.
+
+xAI has been rapidly expanding Grok distribution throughout 2026, with the Bedrock launch following recent additions to other cloud platforms. The strategy mirrors NVIDIA's approach with the CUDA ecosystem, where broad platform availability drives developer adoption. Grok 4.6's 500K context window particularly targets enterprise use cases involving large document processing, codebases, and extended conversations.
+
+The move also reflects intensifying competition in the long-context model space. Anthropic's Claude, Google's Gemini, and OpenAI's GPT models all offer extended context capabilities, and Bedrock users increasingly expect multi-model choice. Grok 4.6's entry provides an alternative for workloads where the model's particular strengths in reasoning and information synthesis are valued.
+
+Industry analysts note that xAI's cloud platform distribution strategy represents a pragmatic approach to market share acquisition. Rather than competing solely on its own platform, xAI meets enterprises where they already operate, potentially accelerating revenue growth and market penetration.

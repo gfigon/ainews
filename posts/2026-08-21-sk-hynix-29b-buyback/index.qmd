@@ -1,0 +1,22 @@
+---
+title: "SK Hynix Unveils $29B Stock Buyback After AI-Driven Stock Rout"
+date: "2026-08-21 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "SK Hynix announced a $28.6B treasury stock buyback and boosted shareholder returns to over 50% of free cash flow, seeking to reassure investors after a nearly 10% single-day drop."
+image: "/assets/post-images/2026-08-21-sk-hynix-29b-buyback.svg"
+---
+
+South Korean memory chip giant SK Hynix has announced a massive $28.6 billion treasury stock buyback program, responding to investor concerns about the durability of AI infrastructure spending that has driven the company's record growth. The buyback, covering up to 24 million shares, will take place between August 20 and November 19, 2026.
+
+The announcement comes on the heels of a nearly 10% single-day stock rout as investors questioned whether hyperscaler capital expenditure on AI infrastructure had reached its peak. SK Hynix, a critical supplier of high-bandwidth memory (HBM) chips for AI accelerators, has seen its stock soar in recent years as demand for AI training hardware exploded.
+
+Alongside the buyback, management raised the company's shareholder-return floor to more than 50% of free cash flow, signaling confidence in the company's ability to generate sustained cash flows from its AI-focused memory business. The message from leadership is clear: management does not believe memory pricing is about to roll over despite the market's concerns.
+
+SK Hynix has been one of the primary beneficiaries of the AI chip boom, supplying HBM3 and HBM3E memory to NVIDIA and other AI accelerator manufacturers. The company's memory chips are essential components in the data center GPUs that power large language model training and inference. Recent quarters have seen record revenue as AI cloud customers stockpiled memory ahead of anticipated demand growth.
+
+The buyback program represents one of the largest returning of capital to shareholders in the semiconductor industry this year. It also reflects management's view that the current stock price does not adequately reflect the company's long-term positioning in the AI memory market, where supply constraints are expected to persist as AI model sizes continue to grow.
+
+Industry analysts note that while the immediate stock reaction was negative, the buyback could provide a floor for the stock and signal that insiders see value at current levels. The timing is notable—coming just as questions emerge about whether hyperscaler capex spending on AI infrastructure might be approaching a plateau after two years of explosive growth.

@@ -1,0 +1,22 @@
+---
+title: "Pew: One-Third of US Adults Now Use AI Chatbots for Health Information"
+date: "2026-08-28 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "A new Pew Research survey finds 34% of US adults now use AI chatbots for at least one health-related task, with younger adults and Asian Americans showing highest adoption rates."
+image: "/assets/post-images/2026-08-28-pew-ai-health-chatbots-survey.svg"
+---
+
+A Pew Research survey of 3,488 US adults reveals that 34% of Americans now use AI chatbots for at least one health-related task, marking significant integration of AI into healthcare decision-making.
+
+The leading use cases include fetching quick health information (28%), understanding potential symptoms (25%), and accessing low-cost medical information (22%). While 47% of users rate the answers as extremely or very helpful, only 29% say they are very comfortable sharing personal health data with AI tools.
+
+## Demographic Divides in Healthcare AI Adoption
+
+The survey highlights stark demographic differences in adoption rates. Asian Americans lead with 56% usage, followed by adults under 30 at 44%. This generational and ethnic divide suggests AI health tools are reaching younger, more technologically engaged populations first.
+
+A companion Pew report published the same day found Americans are more likely to say chatbots hurt than help those using them for loneliness, depression, or stress—raising questions about AI's role in mental health support.
+
+The findings arrive as healthcare systems increasingly integrate AI diagnostic and informational tools, balancing accessibility benefits against data privacy concerns and the limitations of AI-generated medical advice.

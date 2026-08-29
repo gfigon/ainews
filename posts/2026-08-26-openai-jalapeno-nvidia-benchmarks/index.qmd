@@ -1,0 +1,22 @@
+---
+title: "OpenAI Published Jalapeño Benchmarks the Day Before NVIDIA Reports"
+date: "2026-08-26 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "OpenAI's Jalapeño custom chip posted 1.5-1.9x more work per watt than NVIDIA GB200 and GB300 — but the benchmarks omit key comparisons."
+image: "/assets/post-images/2026-08-26-openai-jalapeno-nvidia-benchmarks.svg"
+---
+
+OpenAI published benchmark results for its custom inference chip, Jalapeño, on the eve of NVIDIA's Q2 earnings report. The numbers paint a favorable picture: 1.5 to 1.9 times more work per watt and up to 3.6 times lower latency compared to NVIDIA's GB200 and GB300 accelerators.
+
+The timing is notable. NVIDIA reports earnings after market close today, and the benchmark release positions OpenAI's hardware ambitions squarely in investor view. But four important caveats accompany the headline numbers.
+
+First, OpenAI ran the tests itself — not an independent lab. Second, Jalapeño is designed exclusively for inference, not training. It cannot be used to train frontier models, which remains NVIDIA's core market. Third, the comparison excluded NVIDIA's upcoming Vera Rubin chip, which could change the efficiency calculus. Fourth, when compared against a GB300 running multi-token prediction, the efficiency advantage narrows to approximately 1.5x.
+
+The inference chip market is heating up. Major AI labs including Google, Amazon, Microsoft, and now OpenAI have all announced or deployed custom silicon. The rationale is straightforward: inference now dominates AI compute costs as models ship to billions of users, and custom chips can optimize specifically for deployment workloads.
+
+For NVIDIA, the benchmark attack is a familiar pattern. The company faces competition on efficiency claims from every major customer-turned-competitor. The response typically emphasizes ecosystem, software stack, and the flexibility of general-purpose GPUs — arguments that matter more to enterprises running diverse workloads than to a single company optimizing its own inference.
+
+What remains clear is that the era of pure NVIDIA dominance in AI hardware is giving way to a more fragmented landscape. Custom silicon from AI labs will capture a meaningful share of inference workloads, even as NVIDIA maintains its position in training and multi-tenant cloud deployments.

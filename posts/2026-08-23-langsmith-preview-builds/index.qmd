@@ -1,0 +1,32 @@
+---
+title: "LangSmith Preview Builds Enable Safe Agent Testing Before Production"
+date: "2026-08-23 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "LangChain introduces Preview Builds for LangSmith, allowing developers to test agent changes in isolated environments before deploying to production."
+image: "/assets/post-images/2026-08-23-langsmith-preview-builds.svg"
+---
+
+LangChain has launched Preview Builds for LangSmith, a new capability that enables developers to test agent changes in isolated environments before deploying to production systems. The feature addresses a critical pain point in agent development: the difficulty of safely testing changes that could have unintended consequences in live systems.
+
+## Isolated testing environments
+
+Preview Builds create parallel versions of agent configurations that developers can modify and test without affecting production deployments. Each preview build maintains its own configuration, including system prompts, tool definitions, and model settings. This isolation allows teams to experiment freely while maintaining stable production services.
+
+The system integrates with LangSmith's existing observability features, meaning test runs in preview environments generate the same detailed traces and metrics as production calls. Developers can compare performance between preview and production configurations side-by-side, making it easier to identify regressions or improvements.
+
+## Workflow integration
+
+The feature supports typical development workflows: create a preview build from the current production configuration, make targeted changes, run tests against the preview, and—when satisfied—promote the preview to production. This promotion can happen incrementally, allowing gradual rollouts where a percentage of traffic is routed to the new configuration.
+
+LangSmith Preview Builds also support A/B testing scenarios. Teams can run concurrent experiments comparing different agent configurations against the same test cases, with LangSmith automatically collecting and comparing results.
+
+## Addressing deployment risk
+
+The announcement comes amid increased focus on agent deployment safety. As enterprises deploy more autonomous AI systems, the potential impact of flawed configurations grows. A poorly tested agent making autonomous decisions in production could cause significant disruption before issues are discovered.
+
+By enabling thorough testing in environments that mirror production conditions, Preview Builds aim to reduce the deployment risk that Gartner identified as a leading cause of agent project failures. The feature complements other LangSmith capabilities like tuned evaluators and observability tools, forming a comprehensive approach to agent lifecycle management.
+
+For organizations building and deploying AI agents, the ability to test safely before production represents an important step toward more reliable agent deployments—addressing the governance and control concerns that McKinsey's research identified as barriers to enterprise AI adoption.

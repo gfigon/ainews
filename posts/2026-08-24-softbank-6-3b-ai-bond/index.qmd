@@ -1,0 +1,24 @@
+---
+title: "SoftBank Plans Record $6.3B Retail Bond for AI Push"
+date: "2026-08-24 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "SoftBank prepares Japan's largest retail bond ever—¥1 trillion ($6.3B)—to fund its OpenAI stake and physical-AI acquisitions, signaling aggressive AI investment strategy."
+image: "/assets/post-images/2026-08-24-softbank-6-3b-ai-bond.svg"
+---
+
+SoftBank is marshaling unprecedented financial firepower for its AI ambitions. The company is preparing what would be Japan's largest retail bond ever—approximately ¥1 trillion ($6.3 billion) with a seven-year maturity—to help repay a bridge loan backing its OpenAI stake and fund additional physical-AI acquisitions.
+
+This marks SoftBank's third bond sale this year, building on a $10 billion credit facility secured earlier in August against its OpenAI holding. The scale of the fundraising underscores Masayoshi Son's conviction that AI represents the "second SoftBank revolution" after the original internet bet that produced Alibaba.
+
+The bond terms are expected to be finalized in early September with yields above 4%—attractive for Japanese retail investors seeking yield in a low-rate environment. The offering will likely draw strong demand given SoftBank's brand recognition and the AI narrative driving tech valuations.
+
+The proceeds will serve dual purposes. First, refinancing the bridge loan that enabled SoftBank's reported $10+ billion OpenAI investment—its largest single bet on an AI company. Second, funding acquisitions in "physical AI" domains including robotics, autonomous vehicles, and related infrastructure.
+
+This financial maneuvering reflects SoftBank's transformed strategy under Son. After years of Vision Fund investments in internet platforms, the firm has pivoted aggressively toward AI infrastructure. The OpenAI stake alone reportedly values the company at potentially $150 billion or more, making it SoftBank's most significant position.
+
+The bond sale also signals confidence in continued AI market strength despite broader market volatility. With yields above 4% in Japan—a country where rates remain near zero—the offering suggests institutional investors see AI infrastructure as a compelling fixed-income opportunity with upside participation.
+
+For the broader AI industry, SoftBank's massive capital commitment validates the sector's growth trajectory. The bond market's appetite for AI-related issuance continues to outstrip supply, creating opportunities for companies and investors alike.

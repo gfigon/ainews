@@ -1,0 +1,24 @@
+---
+title: "Z.ai Opens GLM-5.3 Weights After Two-Week Safety Review"
+date: "2026-08-28 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Z.ai releases open weights for GLM-5.3 coding model, delivering 50% improvement over predecessor with state-of-the-art vulnerability discovery capabilities."
+image: "/assets/post-images/2026-08-28-glm-53-weights.svg"
+---
+
+Z.ai has released the open weights for GLM-5.3, the company's flagship coding model that launched via API on August 14, 2026. The two-week delay between API availability and weight release followed what Z.ai described as its most extensive safety evaluation to date.
+
+The model builds on the same 744 billion parameter MoE architecture as GLM-5.2 but achieves substantially stronger performance through refined post-training. On Z.ai's internal code benchmark, GLM-5.3 demonstrates a 50% improvement over GLM-5.2, reaching state-of-the-art results among open-source models on public benchmarks including Terminal Bench 3.0.
+
+Perhaps more notably, GLM-5.3 achieves top performance on CyberGym, a benchmark focused on vulnerability discovery and exploitation. The model's gains are most pronounced at the later stages of the exploitation chain, where it more than doubles GLM-5.2's performance.
+
+"GLM-5.3 represents our most capable coding model to date," Z.ai stated in its release announcement. "The extended safety review ensured the model meets our standards for responsible deployment, particularly given its enhanced capabilities in security-relevant tasks."
+
+The weight release comes amid intensifying competition in the open-weight coding model space. Meta's recent Muse models, Qwen's continued iterations, and Mistral's frontier releases have all pushed the boundaries of what's available without API calling costs.
+
+For developers, the local deployment requirements remain substantial. The smallest usable quantization sits around 241GB, meaning home labs will largely need to rely on API access rather than local running.
+
+The timing is significant: Z.ai faces a August 31 deadline for other model transitions, with Claude Sonnet 5 repricing also scheduled for that date—creating a double-deadline day for the AI industry.
