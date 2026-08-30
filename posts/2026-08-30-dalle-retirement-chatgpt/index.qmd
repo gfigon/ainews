@@ -1,0 +1,28 @@
+---
+title: "OpenAI Retires DALL-E GPT from ChatGPT"
+date: "2026-08-30 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Industry News
+summary: "OpenAI removes the official DALL·E GPT from ChatGPT today — image generation stays, but users must download anything they want to keep."
+image: "/assets/post-images/2026-08-30-dalle-retirement-chatgpt.svg"
+---
+
+OpenAI has officially retired the DALL·E GPT from ChatGPT as of August 30, 2026. While image generation capabilities remain available within the platform, users are being advised to download any creations they wish to keep before they become inaccessible.
+
+The retirement marks the end of an era for the dedicated DALL·E GPT interface that launched alongside ChatGPT's plugin ecosystem. However, OpenAI has clarified that image generation functionality itself is not being discontinued — users can still generate images through other means within the ChatGPT interface.
+
+## What Changed
+
+The standalone DALL·E GPT, which provided a dedicated experience for text-to-image generation, has been removed from the ChatGPT plugin marketplace. This move aligns with OpenAI's broader strategy to consolidate AI capabilities directly into the main ChatGPT interface rather than maintaining separate GPTs for individual features.
+
+Users who relied on the dedicated DALL·E GPT for image generation will need to use alternative methods within the ChatGPT ecosystem. The core DALL·E image generation technology remains integrated into ChatGPT's capabilities, just no longer accessible through the separate GPT interface.
+
+## Industry Context
+
+This retirement comes amid a period of significant change for OpenAI's product lineup. Tomorrow, August 31, marks several additional transitions: Claude Sonnet 5 repricing, GPT-5.4 leaving Codex, and two Kimi models sunsetting. The DALL·E GPT retirement adds to this list of scheduled changes.
+
+The consolidation of image generation into ChatGPT's core interface reflects a broader industry trend toward unified AI assistants rather than fragmented specialized tools. OpenAI has been progressively integrating its various capabilities — including image generation, voice, and advanced reasoning — into a single cohesive experience.
+
+For users with existing DALL·E creations, the immediate priority is ensuring any desired images are downloaded locally. OpenAI has not announced a specific timeline for when access to previously generated images will be affected.
