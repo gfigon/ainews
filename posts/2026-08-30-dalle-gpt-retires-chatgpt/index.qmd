@@ -1,0 +1,22 @@
+---
+title: "DALL-E GPT Retires From ChatGPT — Image Generation Stays"
+date: "2026-08-30 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - LLMs & Models
+summary: "OpenAI retires the official DALL-E GPT from ChatGPT today, though image generation continues through ChatGPT Images on all tiers."
+image: "/assets/post-images/2026-08-30-dalle-gpt-retires-chatgpt.svg"
+---
+
+OpenAI retired the official DALL-E GPT from ChatGPT on August 30, marking the end of a product that introduced millions of users to AI image generation. The retirement affects only the dedicated DALL-E GPT interface within ChatGPT — image generation capabilities remain available through ChatGPT Images on every subscription tier, including free users.
+
+The distinction matters. ChatGPT Images, launched as part of the GPT-4o update, integrates image generation directly into the main chat interface. Custom GPTs that include image generation capabilities are explicitly unaffected by this change. What disappears today is the standalone DALL-E GPT that appeared in the GPT Store as a separate integration.
+
+**What users need to know:** OpenAI has not clarified what happens to images generated through the old DALL-E GPT after today. The company's guidance is straightforward — download any images you want to keep. This applies to images created via the DALL-E GPT specifically, not to the broader ChatGPT Images feature.
+
+The timing separates this from a separate API retirement. OpenAI removed the dall-e-2 and dall-e-3 API models in May 2026, an action announced in November 2025. Today's change is purely a ChatGPT product decision, not an API one.
+
+The retirement arrives alongside several other deadline-related changes. Tomorrow, August 31, brings a Claude Sonnet 5 pricing increase, GPT-5.4 leaving the Codex interface, and two Moonshot Kimi models sunsetting. The convergence of multiple model changes in a single week reflects broader shifts in how AI providers manage their product portfolios — emphasizing integrated experiences over standalone tools.
+
+For users who relied on the DALL-E GPT specifically, the migration path is clear. ChatGPT Images offers equivalent or improved capabilities within the main interface, and the change does not affect custom GPTs that incorporate image generation. The practical impact is minimal — the integration simply moves from a dedicated GPT to the core product.

@@ -1,0 +1,40 @@
+---
+title: "vLLM 0.28.0 Brings Major Inference Optimizations"
+date: "2026-08-30 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "vLLM 0.28.0 ships with 584 commits from 270 contributors, introducing Decode Context Parallel, tiered KV cache offloading, and Blackwell CUDA graph support."
+image: "/assets/post-images/2026-08-30-vllm-0-28-0-release.svg"
+---
+
+vLLM, the high-performance open-source inference engine, has released version 0.28.0 with significant performance improvements and new features. The release includes 584 commits from 270 contributors, making it one of the most substantial updates to the popular inference framework.
+
+## Key Features
+
+The update brings several major enhancements:
+
+**Decode Context Parallel**: A new optimization for handling long context decoding, specifically optimized for Kimi-K3 MoE models. This feature enables more efficient processing of extended sequences by parallelizing decode operations across multiple contexts.
+
+**DeepSeek V4 Support**: The release includes end-to-end sparse MLA (Multi-head Latent Attention) optimization for DeepSeek V4, improving memory efficiency and inference speed for this popular open-weight model.
+
+**DFlash2 Speculative Decoding**: A new speculative decoding implementation with confidence-scheduled verification. This technique uses a smaller "draft" model to predict token sequences, then verifies them with the main model—significantly accelerating inference when predictions are correct.
+
+**Tiered KV Cache Offloading**: The most significant architectural change allows KV cache to be offloaded to disk in a tiered manner. This enables serving larger models or more concurrent requests within the same GPU memory footprint.
+
+**Model Runner V2**: The new Model Runner architecture reaches production maturity, providing more flexible model deployment options.
+
+## Performance Improvements
+
+Beyond new features, the release includes substantial performance tuning:
+
+- Default `max_num_batched_tokens` increased from 8,192 to 16,384
+- Blackwell CUDA graph capture support extended to 1,024 nodes
+- General inference throughput improvements across supported models
+
+## Industry Context
+
+vLLM has become a critical infrastructure component for AI deployments, powering inference for many open-weight models. The 0.28.0 release arrives at a time when inference efficiency is increasingly important as organizations deploy more AI agents and large language models in production.
+
+The tiered KV cache offloading feature is particularly relevant for enterprises running large models on limited hardware, enabling more efficient resource utilization without sacrificing model quality.

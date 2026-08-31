@@ -1,0 +1,26 @@
+---
+title: "89% of Executives Report No AI Productivity Gains — But Layoffs Continue"
+date: "2026-08-30 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "National Bureau of Economic Research survey finds 89% of executives see no productivity gains from AI adoption, yet job cuts in the sector persist."
+image: "/assets/post-images/2026-08-30-nber-survey-no-ai-productivity-gains.svg"
+---
+
+A sweeping survey from the National Bureau of Economic Research reveals a striking disconnect in the AI industry: 89% of executives report no productivity gains from three years of AI adoption at their own companies, while 90% report no effect on employment. Yet layoffs across the sector have continued unabated.
+
+The finding challenges both the optimistic narrative of AI-driven productivity transformation and the pessimistic view of mass automation-driven job losses. Instead, it suggests something more mundane — and more interesting.
+
+**The survey versus reality:** The NBER findings represent executive perception at their own organizations, not industry-wide sentiment. These are leaders at companies that have deployed AI, reporting on what they've observed internally. Their responses paint a picture of technology that has arrived but not yet delivered measurable impact.
+
+Independent telemetry from Linear, a project management platform, corroborates the finding through a completely different method. Coding agents tripled weekly pull requests at teams using them — from 21 to 65 — while teams without agents went from 8 to 10. But total development time increased, not decreased. The mechanism: agents raise throughput without raising speed, because code review scales with volume and lands on human reviewers.
+
+**Where AI does work:** The exceptions are instructive. Salesforce's data across 400 businesses shows measurable gains in customer service, where 70% of sessions are now handled autonomously with stable escalation rates. Mathematical proofs can be automatically verified — OpenAI's Astra resolved ten open problems for roughly $2,000 in compute. Protein design shows doubled success rates because labs can measure binding outcomes.
+
+The pattern is consistent: AI delivers measurable results where a cheap automatic checker exists. Most office work has no such verification mechanism.
+
+**The uncomfortable question:** If AI isn't driving productivity gains or displacement, what explains the continued layoffs? The survey cannot answer this definitively. Possible explanations include cost pressure from investors, lagged effects of earlier automation, or differences between the firms cutting jobs and those surveyed.
+
+What the data does establish is that the confident narratives in either direction — AI transforming productivity or AI causing mass unemployment — remain unsupported by observable results at most organizations. The technology is present. The transformation has not yet arrived.

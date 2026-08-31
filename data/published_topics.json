@@ -1,6 +1,14 @@
 {
   "topics": [
     {
+      "term": "vLLM 0.28.0 Decode Context Parallel Kimi-K3 DeepSeek V4 DFlash2 KV Cache",
+      "count": 1,
+      "last_published": "2026-08-30",
+      "slugs": [
+        "2026-08-30-vllm-0-28-0-release"
+      ]
+    },
+    {
       "term": "NVIDIA Groq 3 LPX Inference Accelerator Vera Rubin Decode Latency Agents",
       "count": 1,
       "last_published": "2026-08-27",
@@ -3896,6 +3904,22 @@
       "last_published": "2026-08-30",
       "slugs": [
         "2026-08-30-nber-ai-productivity-study"
+      ]
+    },
+    {
+      "term": "EU AI Act Enforcement RFIs OpenAI Anthropic Google First Fines 15M",
+      "count": 1,
+      "last_published": "2026-08-31",
+      "slugs": [
+        "2026-08-31-eu-ai-act-enforcement"
+      ]
+    },
+    {
+      "term": "Nvidia Pauses 36B AI Cloud Financing Program Antitrust Concerns",
+      "count": 1,
+      "last_published": "2026-08-31",
+      "slugs": [
+        "2026-08-31-nvidia-pauses-financing"
       ]
     }
   ]

@@ -1,0 +1,22 @@
+---
+title: "EU AI Act Enforcement Begins: First RFIs Sent to OpenAI, Anthropic, and Google"
+date: "2026-08-31 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "European Commission issues first formal enforcement requests to frontier AI labs, with penalties up to €15M or 3% of global turnover for non-compliance."
+image: "https://pollinations.ai/p/EU+AI+Act+Enforcement+Begins+First+RFIs+OpenAI+Anthropic+Google?width=1024&height=576&seed=42&nologo=true"
+---
+
+The European Union's AI Office has issued its first formal enforcement requests under the AI Act, targeting OpenAI, Anthropic, and Google just four weeks after GPAI obligations became enforceable on August 2, 2026.
+
+European Commission Executive Vice-President Henna Virkkunen confirmed the RFIs (Requests for Information) cover two distinct tracks: security, evaluation, and monitoring requirements, plus training-content summary compliance. The enforcement action marks the first real teeth of the EU AI Act since its passage.
+
+"Non-response or misleading answers carry fines up to €15 million or 3% of global turnover," noted one legal analyst. The penalties represent a significant escalation from the voluntary compliance period that preceded the August 2 enforcement date.
+
+The timing is notable—the RFIs arrive as multiple AI labs face simultaneous pressure on other fronts. OpenAI is navigating GPT model retirements and pricing changes, Anthropic recently corrected its Claude Code pricing after community pushback, and Google continues to face scrutiny over Gemini model delays.
+
+For enterprise AI users in Europe, the enforcement actions signal that the regulatory framework is no longer theoretical. Labs developing frontier models will need to demonstrate compliance with documentation, evaluation, and monitoring requirements or face substantial financial consequences.
+
+The AI Office's action follows months of deliberation over how to apply the Act's tiered approach to large-scale AI providers. Frontier model developers face the most stringent requirements, including mandatory evaluations and transparency reports on training data sources.
