@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Pentagon GenAI.mil ChatGPT Mil Grok Claude Excluded 3M DoD Personnel",
+      "count": 1,
+      "last_published": "2026-09-01",
+      "slugs": [
+        "2026-09-01-pentagon-genaimil"
+      ]
+    },
+    {
+      "term": "EU LUMI-AI Supercomputer AMD Instinct MI430X EuroHPC 387.8M Finland",
+      "count": 1,
+      "last_published": "2026-09-01",
+      "slugs": [
+        "2026-09-01-eu-lumi-ai-supercomputer"
+      ]
+    },
+    {
       "term": "vLLM 0.28.0 Decode Context Parallel Kimi-K3 DeepSeek V4 DFlash2 KV Cache",
       "count": 1,
       "last_published": "2026-08-30",

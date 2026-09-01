@@ -1,0 +1,28 @@
+---
+title: "EU Signs €387.8M LUMI-AI Supercomputer Deal with AMD"
+date: "2026-09-01 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "EuroHPC awards €387.8M contract to build LUMI-AI in Finland with AMD Instinct MI430X GPUs, delivering 10x current AI capacity."
+image: "/assets/post-images/2026-09-01-eu-lumi-ai-supercomputer.svg"
+---
+
+The European High-Performance Computing Joint Undertaking (EuroHPC JU) signed a €387.8 million procurement contract on August 31 to build LUMI-AI, a next-generation AI supercomputer at CSC's Kajaani data center in Finland.
+
+The system will be powered by AMD Instinct MI430X GPUs and 6th-generation EPYC 256-core CPUs, delivering approximately ten times the AI capacity and twice the HPC throughput of the current LUMI supercomputer. Deployment is scheduled for the second half of 2027.
+
+## AMD Gains Ground in European AI Infrastructure
+
+The contract represents a significant win for AMD in the European AI infrastructure market, historically dominated by NVIDIA. The MI430X GPUs are part of AMD'sInstinct family designed for large-scale AI training and inference workloads.
+
+Funding is split evenly between EuroHPC and the LUMI AI Factory consortium, which includes Finland, Belgium, Czechia, Denmark, Norway, Poland, Sweden, and Switzerland. The project also includes an environmental twist: waste heat from the data center will be recycled into Kajaani's district heating network.
+
+## European Sovereign AI Capacity
+
+LUMI-AI underscores Europe's push for sovereign AI compute capacity amid growing US dominance in advanced AI chips. The EuroHPC JU has been steadily awarding contracts for AI-capable supercomputers across the continent, with systems planned in Germany, Italy, and Spain.
+
+The timing is notable as the US tightens export controls on advanced AI chips to China, making domestic European capacity strategically more important. LUMI-AI will be available to researchers and industry across the EU through open access proposals.
+
+*Source: [EuroHPC JU](https://eurohpc-ju.europa.eu), [AMD](https://amd.com)*

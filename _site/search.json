@@ -13585,5 +13585,47 @@
     "title": "Terms of Service",
     "section": "Contact Information",
     "text": "Contact Information\nFor questions about these Terms of Service, please contact us via the contact form on our About page.\nEffective Date: February 8, 2026"
+  },
+  {
+    "objectID": "posts/2026-09-01-pentagon-genaimil/index.html",
+    "href": "posts/2026-09-01-pentagon-genaimil/index.html",
+    "title": "Pentagon Opens GenAI.mil to 3M Staff with ChatGPT Mil and Grok",
+    "section": "",
+    "text": "The Department of Defense officially opened GenAI.mil on September 1, a secure portal bundling OpenAI’s ChatGPT Mil and xAI/Starshield’s Grok for Government alongside Google Gemini, now available to 3 million DoD personnel.\nThe rollout has already onboarded 1.7 million unique users, representing one of the largest government AI adoption initiatives to date."
+  },
+  {
+    "objectID": "posts/2026-09-01-pentagon-genaimil/index.html#claude-notably-absent",
+    "href": "posts/2026-09-01-pentagon-genaimil/index.html#claude-notably-absent",
+    "title": "Pentagon Opens GenAI.mil to 3M Staff with ChatGPT Mil and Grok",
+    "section": "Claude notably absent",
+    "text": "Claude notably absent\nAnthropic’s Claude is conspicuously absent from the platform. The exclusion follows the Trump administration’s designation of Anthropic as a supply-chain risk, citing concerns about the company’s safety-focused approach and potential delays in government use cases.\nChatGPT Mil and Grok for Government are described as “tailored versions” that carve consumer data collection out of sensitive government workflows. The Pentagon emphasized these tools are designed for “immediate productivity gains” for warfighters across the Department."
+  },
+  {
+    "objectID": "posts/2026-09-01-pentagon-genaimil/index.html#security-concerns-vs.-adoption-speed",
+    "href": "posts/2026-09-01-pentagon-genaimil/index.html#security-concerns-vs.-adoption-speed",
+    "title": "Pentagon Opens GenAI.mil to 3M Staff with ChatGPT Mil and Grok",
+    "section": "Security Concerns vs. Adoption Speed",
+    "text": "Security Concerns vs. Adoption Speed\nThe launch pits security caution against rapid adoption. While Claude has been praised for its constitutional AI approach and safety features, the DoD prioritized tools perceived as more immediately deployable.\nGoogle Gemini’s inclusion maintains the company’s strong government relationships, while xAI’s Grok represents a newer entrant gaining surprising traction in federal circles. The combination suggests the Pentagon is betting on multiple AI providers rather than relying on a single vendor.\nThis marks a significant shift from the Biden administration’s more cautious AI procurement approach and signals the Trump administration’s priority on fast, commercially-available AI tools for defense applications.\nSource: DoD GenAI.mil, The Washington Post"
+  },
+  {
+    "objectID": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html",
+    "href": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html",
+    "title": "EU Signs €387.8M LUMI-AI Supercomputer Deal with AMD",
+    "section": "",
+    "text": "The European High-Performance Computing Joint Undertaking (EuroHPC JU) signed a €387.8 million procurement contract on August 31 to build LUMI-AI, a next-generation AI supercomputer at CSC’s Kajaani data center in Finland.\nThe system will be powered by AMD Instinct MI430X GPUs and 6th-generation EPYC 256-core CPUs, delivering approximately ten times the AI capacity and twice the HPC throughput of the current LUMI supercomputer. Deployment is scheduled for the second half of 2027."
+  },
+  {
+    "objectID": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html#amd-gains-ground-in-european-ai-infrastructure",
+    "href": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html#amd-gains-ground-in-european-ai-infrastructure",
+    "title": "EU Signs €387.8M LUMI-AI Supercomputer Deal with AMD",
+    "section": "AMD Gains Ground in European AI Infrastructure",
+    "text": "AMD Gains Ground in European AI Infrastructure\nThe contract represents a significant win for AMD in the European AI infrastructure market, historically dominated by NVIDIA. The MI430X GPUs are part of AMD’sInstinct family designed for large-scale AI training and inference workloads.\nFunding is split evenly between EuroHPC and the LUMI AI Factory consortium, which includes Finland, Belgium, Czechia, Denmark, Norway, Poland, Sweden, and Switzerland. The project also includes an environmental twist: waste heat from the data center will be recycled into Kajaani’s district heating network."
+  },
+  {
+    "objectID": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html#european-sovereign-ai-capacity",
+    "href": "posts/2026-09-01-eu-lumi-ai-supercomputer/index.html#european-sovereign-ai-capacity",
+    "title": "EU Signs €387.8M LUMI-AI Supercomputer Deal with AMD",
+    "section": "European Sovereign AI Capacity",
+    "text": "European Sovereign AI Capacity\nLUMI-AI underscores Europe’s push for sovereign AI compute capacity amid growing US dominance in advanced AI chips. The EuroHPC JU has been steadily awarding contracts for AI-capable supercomputers across the continent, with systems planned in Germany, Italy, and Spain.\nThe timing is notable as the US tightens export controls on advanced AI chips to China, making domestic European capacity strategically more important. LUMI-AI will be available to researchers and industry across the EU through open access proposals.\nSource: EuroHPC JU, AMD"
   }
 ]

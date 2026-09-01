@@ -9,3 +9,4 @@ _site/PROJECT_LOG.html
 _site/data/
 
 **/*.quarto_ipynb
+**/index.html

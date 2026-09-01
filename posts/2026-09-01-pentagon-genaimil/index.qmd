@@ -1,0 +1,30 @@
+---
+title: "Pentagon Opens GenAI.mil to 3M Staff with ChatGPT Mil and Grok"
+date: "2026-09-01 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "DoD launches secure GenAI portal offering ChatGPT Mil and Grok to 3 million personnel, notably excluding Anthropic's Claude."
+image: "/assets/post-images/2026-09-01-pentagon-genaimil.svg"
+---
+
+The Department of Defense officially opened GenAI.mil on September 1, a secure portal bundling OpenAI's ChatGPT Mil and xAI/Starshield's Grok for Government alongside Google Gemini, now available to 3 million DoD personnel.
+
+The rollout has already onboarded 1.7 million unique users, representing one of the largest government AI adoption initiatives to date.
+
+## Claude notably absent
+
+Anthropic's Claude is conspicuously absent from the platform. The exclusion follows the Trump administration's designation of Anthropic as a supply-chain risk, citing concerns about the company's safety-focused approach and potential delays in government use cases.
+
+ChatGPT Mil and Grok for Government are described as "tailored versions" that carve consumer data collection out of sensitive government workflows. The Pentagon emphasized these tools are designed for "immediate productivity gains" for warfighters across the Department.
+
+## Security Concerns vs. Adoption Speed
+
+The launch pits security caution against rapid adoption. While Claude has been praised for its constitutional AI approach and safety features, the DoD prioritized tools perceived as more immediately deployable.
+
+Google Gemini's inclusion maintains the company's strong government relationships, while xAI's Grok represents a newer entrant gaining surprising traction in federal circles. The combination suggests the Pentagon is betting on multiple AI providers rather than relying on a single vendor.
+
+This marks a significant shift from the Biden administration's more cautious AI procurement approach and signals the Trump administration's priority on fast, commercially-available AI tools for defense applications.
+
+*Source: [DoD GenAI.mil](https://genai.mil), [The Washington Post](https://washingtonpost.com)*
