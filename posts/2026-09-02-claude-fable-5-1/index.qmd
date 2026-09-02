@@ -1,0 +1,32 @@
+---
+title: "Anthropic Ships Claude Fable 5.1 With Dramatic Science Benchmark Gains"
+date: "2026-09-02 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Claude Fable 5.1 achieves 52.6% on Terminal-Bench-Science, more than doubling Fable 5's score, while cache costs drop 75%."
+image: "/assets/post-images/2026-09-02-claude-fable-5-1.svg"
+---
+
+Anthropic has released Claude Fable 5.1, a significant update to its reasoning-focused model that delivers dramatic improvements on science benchmarks while substantially reducing inference costs.
+
+## Benchmark Performance
+
+Fable 5.1 scores 52.6% on Terminal-Bench-Science 0.1, more than doubling its predecessor's 24.7% score. The model also achieves 55.8% on Terminal-Bench 4.0, surpassing Mythos 5's 42.0%. These gains represent a substantial leap in the model's ability to handle complex scientific reasoning tasks.
+
+A restricted variant, Mythos 5.1, shipped alongside Fable 5.1 and scores 60.9% on the coding benchmark. Access is limited to vetted US cyber-defence and life-sciences organizations, reflecting Anthropic's cautious approach to deploying its most capable models in sensitive domains.
+
+## Cost Reductions
+
+Anthropic has also introduced significant pricing improvements. Cache reads drop 75% to $0.25 per million tokens—roughly 25% off a typical workload and up to 45% off heavily agentic work. Input and output prices remain at $10 and $50 per million tokens respectively.
+
+The cost reduction addresses one of the key friction points for developers building agentic applications, where repeated context lookups can quickly accumulate. By dramatically lowering cache costs, Anthropic makes long-running agent workflows more economically viable.
+
+## What This Means
+
+The benchmark gains position Fable 5.1 as one of the strongest open-reasoning models available. The 2x improvement on science tasks suggests meaningful advances in the model's ability to handle multi-step reasoning, domain knowledge retrieval, and complex problem-solving.
+
+For enterprises evaluating AI models, the combination of improved reasoning and lower costs makes Fable 5.1 an attractive option for scientific analysis, research assistance, and technical documentation tasks.
+
+The simultaneous release of Mythos 5.1 to vetted organizations indicates Anthropic continues balancing capability deployment with safety considerations—a pattern seen throughout its model release strategy.

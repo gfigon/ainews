@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Claude Fable 5.1 Terminal-Bench-Science 52.6% Benchmark",
+      "count": 1,
+      "last_published": "2026-09-02",
+      "slugs": [
+        "2026-09-02-claude-fable-5-1"
+      ]
+    },
+    {
+      "term": "ChatGPT Epic Health Records Integration Healthcare Clinicians",
+      "count": 1,
+      "last_published": "2026-09-02",
+      "slugs": [
+        "2026-09-02-chatgpt-epic-healthcare"
+      ]
+    },
+    {
       "term": "Pentagon GenAI.mil ChatGPT Mil Grok Claude Excluded 3M DoD Personnel",
       "count": 1,
       "last_published": "2026-09-01",
