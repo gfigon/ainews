@@ -1,0 +1,32 @@
+---
+title: "AIR Security Startup Emerges with $50M to Secure AI Agent Supply Chains"
+date: "2026-09-03 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "AI security startup AIR has raised $50 million to build a platform for discovering and securing the growing ecosystem of tools used by autonomous AI agents in enterprise environments."
+image: "/assets/post-images/2026-09-03-air-agent-security-50m.svg"
+---
+
+AI security startup AIR has emerged from stealth with $50 million in funding to address a rapidly emerging challenge: securing the tools and extensions that autonomous AI agents rely on inside enterprise environments.
+
+## The Problem
+
+AI agents increasingly connect to email, databases, cloud systems, browsers, and internal applications—often through third-party extensions, plug-ins, skills, and MCP servers. This creates what AIR calls an emerging software supply chain where a malicious or compromised component could manipulate an agent into exposing sensitive information or executing damaging actions.
+
+"AI agents are becoming the new attack surface," said Yair Saban, co-founder of AIR and former Israeli Unit 8200 cybersecurity specialist. "The tools they use—the plug-ins, skills, and MCP servers—are largely unvetted, and a single compromised extension could give attackers access to everything the agent can touch."
+
+The company says approximately 27% of publicly available AI agent add-ons and skills fail its security criteria during evaluation.
+
+## The Solution
+
+AIR's platform can discover AI agents operating inside enterprises, inspect the components they use, and block those that fail security checks. The system provides visibility into what agents can access, what tools they're using, and whether any components show signs of compromise.
+
+The funding, raised across two seed rounds led by Sequoia and Greenoaks, will accelerate product development and expand go-to-market efforts. Competition is already forming around the category, with companies including Noma Security, Zenity, and Astrix pursuing similar approaches.
+
+## Why It Matters
+
+As AI agents gain permission to act inside corporate systems—authorizing payments, accessing customer data, modifying records—securing what those agents can install, access, and trust may become as important as securing human users. The $50 million investment signals that venture capital views agent governance as a distinct security market, not merely a feature inside existing endpoint products.
+
+For enterprises deploying AI agents at scale, the message is clear: the security perimeter now extends to every extension your agents use.

@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "OpenAI Astra Critical Cyber Threshold Zero-Day Exploit Preparedness Framework",
+      "count": 1,
+      "last_published": "2026-09-03",
+      "slugs": [
+        "2026-09-03-openai-astra-critical-cyber"
+      ]
+    },
+    {
+      "term": "AIR Security Startup $50M Agent Supply Chain Enterprise Agents Plug-ins",
+      "count": 1,
+      "last_published": "2026-09-03",
+      "slugs": [
+        "2026-09-03-air-agent-security-50m"
+      ]
+    },
+    {
+      "term": "Enflame IPO Chinese AI Chips Shanghai $900M Tencent 6000x Oversubscribed",
+      "count": 1,
+      "last_published": "2026-09-03",
+      "slugs": [
+        "2026-09-03-enflame-ipo-chinese-ai-chips"
+      ]
+    },
+    {
       "term": "Claude Fable 5.1 Terminal-Bench-Science 52.6% Benchmark",
       "count": 1,
       "last_published": "2026-09-02",
