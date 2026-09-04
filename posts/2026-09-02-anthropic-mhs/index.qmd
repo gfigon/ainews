@@ -1,0 +1,38 @@
+---
+title: "Anthropic Unveils Model Hardware Standard to Safely Guide AI Agents in Physical World"
+date: "2026-09-02 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "Anthropic launches Model Hardware Standard, a shared specification enabling AI agents to safely operate physical devices like robots and manufacturing equipment."
+image: "/assets/post-images/2026-09-02-anthropic-mhs.svg"
+---
+
+Anthropic has announced the Model Hardware Standard (MHS), a new shared specification designed to help AI agents safely operate physical devices, marking a significant step toward bridging the gap between digital AI capabilities and the physical world.
+
+The specification, currently in research preview, is being released to a select group of scientific research labs and advanced manufacturers. MHS provides a common framework for AI systems to interface with hardware in a way that prioritizes safety and predictability—critical concerns as agents gain the ability to control robots, manufacturing equipment, and other physical systems.
+
+## Why a Hardware Standard Matters
+
+AI agents have made remarkable progress in digital tasks—writing code, analyzing data, and managing workflows. However, extending these capabilities to the physical realm introduces new risks. An agent misinterpreting sensor data or executing a command unsafely could cause real-world damage.
+
+MHS addresses this by establishing standardized protocols for:
+- **Safe command validation** before physical actions execute
+- **Sensor data interpretation** with built-in safety checks
+- **Emergency stop mechanisms** that agents must respect
+- **Hardware capability discovery** so agents know what they can and cannot do
+
+The standard represents Anthropic's approach to the "physical AI" problem—ensuring that as models gain the ability to control machinery, they do so within defined safety boundaries.
+
+## Industry Context
+
+The announcement comes amid intense competition in robotics and physical AI. Google DeepMind recently released Gemini Robotics ER 2, which brings video understanding and task orchestration to robots. Meanwhile, Tesla's robotaxi operations are expanding, and China's Unitree Robotics went public in July.
+
+What sets Anthropic's approach apart is its focus on creating a *shared* standard rather than proprietary solutions. By opening MHS to research labs and manufacturers, the company aims to establish baseline safety practices that could become industry-wide.
+
+## Looking Ahead
+
+Anthropic's MHS is initially limited to research preview with select partners. The company has not announced timeline for broader availability, but the move signals growing attention to the safety challenges of physical AI systems.
+
+As AI agents prepare to enter factories, warehouses, and eventually homes, standards like MHS could become foundational infrastructure—analogous to how USB-C established a common charging standard for electronics.
