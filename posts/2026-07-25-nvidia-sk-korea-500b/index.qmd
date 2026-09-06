@@ -6,7 +6,7 @@ categories:
   - "AI Infrastructure"
   - "Industry News"
 summary: "Jensen Huang and SK Group announced a $500B+ AI package during President Lee Jae Myung's San Francisco visit, cementing Korea as a sovereign AI hub."
-image: "https://pollinations.ai/p/Nvidia%20SK%20Korea%20500B%20AI%20infrastructure?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Nvidia+and+SK+Group+Unveil+$500B++Korea+AI+Initiative?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Nvidia CEO Jensen Huang and SK Group Chair Chey Tae-won unveiled a joint AI initiative exceeding $500 billion during South Korean President Lee Jae Myung's San Francisco visit, marking one of the largest sovereign AI infrastructure commitments to date.

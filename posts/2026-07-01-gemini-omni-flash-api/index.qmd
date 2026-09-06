@@ -6,7 +6,7 @@ categories:
   - AI Tools & Frameworks
   - Research & Innovation
 summary: "Google's first Omni model in production lets teams generate, revise and edit video through plain-language instructions, replacing complex multi-tool pipelines."
-image: "https://pollinations.ai/p/Google%20Gemini%20Omni%20Flash%20API%20video%20production%20AI%20conversation?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Googles+Gemini+Omni+Flash+API+Turns+Video+Production+Into+Conversation?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Google has released the Gemini Omni Flash API, marking the first production-ready model in its Omni family that brings multimodal video generation into the enterprise space. The new API enables teams to generate, revise and edit video through plain-language instructions—transforming what traditionally required a film crew, an editor, and multiple revision rounds into a simple conversation with AI.

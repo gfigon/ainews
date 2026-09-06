@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "OpenAI launches Frontier, a new enterprise platform specifically designed for deploying secure, production-ready AI agents that integrate with enterprise systems of record."
-image: "https://pollinations.ai/p/OpenAI%20Frontier%20enterprise%20AI%20agent%20platform/?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/OpenAI+Frontier:+The+Companys+First+Dedicated+Enterprise+Agent+Platform?width=1024&height=576&seed=1&nologo=true"
 ---
 
 OpenAI has launched Frontier, its first dedicated enterprise platform for building and deploying AI agents in production environments. The platform addresses a growing need from businesses that want to move beyond chatbots and experiment prototypes toward autonomous systems that can handle real enterprise workflows.

@@ -1,0 +1,24 @@
+---
+title: "Nvidia to Acquire Hugging Face in $12.9 Billion Deal"
+date: "2026-09-04 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Nvidia's acquisition of the leading AI model hub marks the chipmaker's biggest move yet to control the open-source AI ecosystem."
+image: "/assets/post-images/2026-09-04-nvidia-hugging-face-acquisition.svg"
+---
+
+Nvidia has agreed to acquire Hugging Face, the popular open-source AI platform, for $12.93 billion in cash. The deal, announced September 3, represents the largest acquisition in Nvidia's history and signals the company's definitive push to dominate the AI developer ecosystem.
+
+The acquisition comes after weeks of speculation and positions Nvidia as the central infrastructure provider for both AI model training and distribution. Hugging Face hosts over 500,000 AI models and serves millions of developers through its platform.
+
+"This acquisition will expand access to AI for developers and institutions worldwide," said Jensen Huang, Nvidia's CEO, in a blog post. "Together, we will scale Hugging Face's platform, strengthen its infrastructure, and accelerate innovation."
+
+Hugging Face, founded in 2016, has become the de facto repository for open-source AI models, particularly since the generative AI boom began in 2022. The platform's Transformers library has been downloaded over 1 billion times, making it essential infrastructure for the AI community.
+
+The deal underscores Nvidia's strategy of controlling the entire AI stack—from hardware through software to distribution. With this acquisition, Nvidia gains direct access to the developer relationships that determine which models get attention and which inference infrastructure gets used.
+
+The transaction is expected to close in early 2027, pending regulatory approval. It will likely face scrutiny given Nvidia's dominant position in the AI chip market and the strategic importance of the Hugging Face platform to open-source AI development.
+
+For developers, the acquisition raises questions about the future of Hugging Face's platform independence. Industry analysts suggest Nvidia will likely maintain the platform's open-source ethos while integrating its CUDA ecosystem more tightly.

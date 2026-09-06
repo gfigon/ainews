@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - AI Tools & Frameworks
 summary: "Anthropic's invisible text watermark, deployed to comply with the EU AI Act, sparks backlash as paying Claude Max subscribers cancel their subscriptions."
-image: "https://pollinations.ai/p/Claude-Max-Subscribers-Cancel-Over-Anthropics-New-Watermark?width=1024&height=576&seed=5529&nologo=true"
+image: "https://pollinations.ai/p/Claude+Max+Subscribers+Cancel+Over+Anthropics+New+Watermark?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Anthropic's rollout of an invisible text watermark for Claude is generating significant user resistance, with several paying subscribers canceling their Claude Max subscriptions in response to the new feature. The watermark, designed to comply with the European Union's Artificial Intelligence Act, applies globally rather than solely in Europe.

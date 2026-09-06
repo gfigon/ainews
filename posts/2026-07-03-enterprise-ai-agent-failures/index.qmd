@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "New research reveals that just 1 in 10 enterprises can automatically catch a failing AI system in production, while 79% have already paid for an agent going rogue."
-image: "https://pollinations.ai/p/Enterprise+AI+Agents+Are+Failing+in+Production+And+Most+Companies+Cant+Even+Detect+It?width=1024&height=576&seed=2246&nologo=true"
+image: "https://pollinations.ai/p/Enterprise+AI+Agents+Are+Failing+in+Production+—+And+Most+Companies+Cant+Even+Detect+It?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The enterprise AI agent revolution is hitting a hard reality check. New data from industry analysis published this week shows that only 10% of enterprises have automated systems capable of detecting when an AI agent fails in production — leaving 90% of companies flying blind when their AI systems go wrong.

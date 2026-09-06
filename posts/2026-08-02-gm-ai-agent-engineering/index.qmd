@@ -6,7 +6,7 @@ categories:
   - Industry News
   - Agents & Automation
 summary: "General Motors redesigned its entire engineering workflow around AI agents, resulting in a 3x increase in merged pull requests. The key: loop-by-loop agent access rather than chat interfaces."
-image: "https://pollinations.ai/p/GM+AI+Agents+Engineering+Workflow+Pull+Requests?width=1024&height=576&seed=804&nologo=true"
+image: "https://pollinations.ai/p/GM+Tripled+Its+Pull+Requests+With+AI+Agents—Heres+How?width=1024&height=576&seed=1&nologo=true"
 ---
 
 General Motors has achieved a 3x increase in merged pull requests by redesigning its engineering workflows around AI agents—a case study that's drawing attention from enterprise IT leaders struggling to demonstrate AI ROI.

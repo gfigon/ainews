@@ -1,0 +1,20 @@
+---
+title: "Chinese Robot Galbot G1 Handles Real Pharmacy Tasks at IFA, Blocked from US Market"
+date: "2026-09-05 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "Beijing Galbot showcased its G1 humanoid robot running live pharmacy retrieval demos at IFA 2026, handling 5,000 SKUs with 99.5% pick success, while a recent FCC decision blocks the robot from US equipment authorization."
+image: "/assets/post-images/2026-09-05-galbot-g1-pharmacy-if.svg"
+---
+
+Beijing-based Galbot made a compelling case for embodied AI at IFA 2026 this week, demonstrating its G1 wheeled humanoid robot handling real pharmacy tasks in live retrieval demos at the IFA Next booth. The robot, already deployed in a Beijing Haidian pharmacy managing 5,000 stock-keeping units, achieved a 99.5% pick success rate during the demonstration.
+
+The G1 robot operates not just in pharmacies but also powers over 170 autonomous Galbot Store retail units across more than 40 Chinese cities. At IFA, Galbot highlighted its transition from demonstration units to production-ready robots capable of complex manipulation tasks in commercial environments.
+
+However, the IFA showcase takes on added significance given the robot's受阻 status in the United States. The July 28 FCC decision added foreign-produced advanced robotic devices to the Covered List, effectively blocking Galbot and similar Chinese robotics companies from obtaining US equipment authorization. This regulatory barrier transforms what was a technology showcase into a pointed Europe-focused business push.
+
+The timing is notable: as consumer electronics companies at IFA emphasized AI moving beyond chatbots into physical devices—termed "embodied intelligence"—Galbot represents one of the most concrete examples of that transition already operating at commercial scale. The company demonstrated that the technology works in real-world retail and healthcare settings, even as the geopolitical environment limits where it can be deployed.
+
+For the robotics industry, Galbot's situation illustrates the growing divide between US and European approaches to Chinese AI hardware. While Europe hosts demonstrations and pursues partnerships, the US market remains effectively closed to advanced Chinese robotic systems.

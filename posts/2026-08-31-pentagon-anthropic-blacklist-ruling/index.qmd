@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Industry News
 summary: "Federal judge found the Pentagon's supply-chain risk designation violated the First and Fifth Amendments, ordering all directives rescinded. A second related case remains pending in Washington D.C."
-image: "https://pollinations.ai/p/Judge+Strikes+Down+Pentagon+Blacklist+Anthropic?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Judge+Strikes+Down+Pentagon+Blacklist+of+Anthropic?width=1024&height=576&seed=1&nologo=true"
 ---
 
 U.S. District Judge Rita Lin found that the Pentagon's designation of Anthropic as a national security supply-chain risk violated the First and Fifth Amendments, ordering the government to rescind all directives against the company. The 59-page ruling, issued Thursday in the Northern District of California, marks the first time a U.S. company has been publicly designated under that statute—and the first time such a designation has been struck down in court.

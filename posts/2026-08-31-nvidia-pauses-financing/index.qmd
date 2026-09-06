@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Nvidia halts its AI Compute Partnership less than two months after launch, with WSJ reporting antitrust worries over revenue-sharing terms with smaller GPU cloud providers."
-image: "https://pollinations.ai/p/Nvidia+Pauses+36B+AI+Cloud+Financing+Antitrust+Concerns?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Nvidia+Pauses+$36B+AI+Cloud+Financing+Program+Amid+Antitrust+Concerns?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Nvidia has paused its AI Compute Partnership program less than two months after launch, the Wall Street Journal reports, as antitrust concerns mounted over the $36 billion initiative's revenue-sharing terms.

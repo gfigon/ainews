@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Mistral AI announces a $38B infrastructure plan to build 1 gigawatt of European AI compute by 2030, with enterprise commitments and a surprising partnership hosting Z.ai's GLM-5.2."
-image: "https://pollinations.ai/p/Mistral+AI+European+compute+gigawatt+infrastructure?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Mistral+AI+Pledges+1+Gigawatt+of+European+Compute+by+2030?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Mistral AI is turning European AI sovereignty from a political talking point into a contractual commitment — with a price tag that underscores just how expensive that sovereignty will be. The French company announced plans to build one gigawatt of AI compute capacity across Europe by 2030, backed by enterprise "Compute Units" and a coalition of industrial heavyweights.

@@ -6,7 +6,7 @@ categories:
   - Industry News
   - AI Tools & Frameworks
 summary: "Spotify co-founder's preventive healthcare startup secures massive Series C funding to expand AI-powered full-body scans across the United States."
-image: "https://pollinations.ai/p/neko-health-ai-body-scan-700m-funding?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Daniel+Eks+Neko+Health+Scores+$700M+to+Bring+AI+Body+Scanning+to+America?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Neko Health, the Swedish health technology startup founded by Spotify co-founder Daniel Ek, has raised $700 million in Series C funding to accelerate its expansion into the United States market. The round was co-led by Lightspeed Venture Partners and O.G. Venture Partners, with participation from existing investors including General Catalyst, Atomico, and Lakestar.

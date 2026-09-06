@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - AI Security & Policy
 summary: "Z.ai's latest GLM-5.3 model shows massive coding improvements through post-training alone, but its rapidly advancing cybersecurity capabilities are raising fresh questions about capability control."
-image: "https://pollinations.ai/p/Z.ai+GLM-5.3+coding+agents+cybersecurity?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Z.ai+GLM-5.3+Pushes+Coding+Agents+Forward+—+and+Sparks+Security+Concerns?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Chinese AI startup Z.ai has released GLM-5.3, a model that delivers substantial improvements in long-horizon coding and agentic engineering without retraining the base model — achieving gains purely through scaled post-training. The release also surfaces an uncomfortable truth for frontier AI labs: the same capabilities that make models better at software engineering also make them more capable at security research.

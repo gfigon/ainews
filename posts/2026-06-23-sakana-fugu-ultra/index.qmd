@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - AI Tools & Frameworks
 summary: "Sakana AI releases Fugu Ultra, a model that orchestrates multiple frontier AI systems through a single API—challenging the belief that bigger models are the only path to intelligence."
-image: "https://pollinations.ai/p/Sakana%20AI%20Fugu%20Ultra%20Orchestration%20Model?width=1024&height=576&seed=23&nologo=true"
+image: "https://pollinations.ai/p/Sakana+AI+Unveils+Fugu+Ultra:+The+Orchestration+Model+That+Coordinates+Frontier+AI?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Sakana AI has unveiled **Fugu Ultra**, a novel approach to AI capability that sidesteps the arms race for larger models in favor of what the startup calls "autonomous model orchestration." Released on June 22, 2026, Fugu Ultra matches frontier-level performance on engineering, scientific, and reasoning benchmarks—not by being the biggest model, but by intelligently coordinating specialized AI systems.

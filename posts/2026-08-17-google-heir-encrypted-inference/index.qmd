@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - AI Infrastructure
 summary: "Google open-sourced HEIR, a compiler toolchain enabling neural network inference on homomorphically encrypted data — letting servers compute on ciphertext without ever accessing plaintext."
-image: "https://pollinations.ai/p/Google-HEIR-Homomorphic-Encryption-AI-Inference?width=1024&height=576&seed=8558&nologo=true"
+image: "https://pollinations.ai/p/Google+HEIR+Enables+AI+Inference+on+Data+the+Server+Can+Never+See?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Google released HEIR, an open-source compiler toolchain that enables neural network inference on homomorphically encrypted data. The project, published on GitHub, represents a significant step toward practical privacy-preserving machine learning — allowing servers to process encrypted inputs and return encrypted outputs without ever seeing the underlying data.

@@ -6,7 +6,7 @@ categories:
   - AI Tools & Frameworks
   - Research & Innovation
 summary: "New open-source toolkit runs complete speech pipeline—voice detection, speech recognition, and neural TTS—in under 500KB RAM on a Raspberry Pi RP2350."
-image: "https://pollinations.ai/p/voice%20AI%20microcontroller%20embedded%20speech?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Moonshine+Micro+Brings+Voice+AI+to+$0.80+Microcontrollers?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Moonshine Micro, a new open-source project from moonshine-ai, demonstrates that real-time voice AI can run on microcontroller-scale hardware. The complete pipeline—including voice activity detection, speech-to-text, and neural text-to-speech—operates in just 470 KB of RAM on a Raspberry Pi RP2350 microcontroller priced at $0.80.

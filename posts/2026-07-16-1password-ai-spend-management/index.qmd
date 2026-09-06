@@ -6,7 +6,7 @@ categories:
   - Industry News
   - AI Infrastructure
 summary: "1Password launches AI Spend and Consumption Management, extending its SaaS governance platform to track and control escalating token costs across Anthropic, Cursor, and OpenAI."
-image: "https://pollinations.ai/p/1Password+AI+Spend+Management+token+enterprise+budget?width=1024&height=576&seed=31982&nologo=true"
+image: "https://pollinations.ai/p/1Password+Moves+Into+AI+Cost+Management+Targeting+Token+Spend+as+Next+Enterprise+Budget+Crisis?width=1024&height=576&seed=1&nologo=true"
 ---
 
 <!-- description: 1Password launches AI Spend and Consumption Management to help enterprises track and control AI token costs across Anthropic, Cursor, and OpenAI. -->

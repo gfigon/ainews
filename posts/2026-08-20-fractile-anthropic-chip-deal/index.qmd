@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Oxford-based Fractile raises $600M at $6.5B valuation after signing $250M chip deal with Anthropic, marking a 6x jump from May's $1B valuation."
-image: "https://pollinations.ai/p/UK+Chip+Startup+Fractile+Hits+6.5B+Valuation+After+Anthropic+Deal?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/UK+Chip+Startup+Fractile+Hits+$6.5B+Valuation+After+Anthropic+Deal?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Oxford-based AI chip startup Fractile is in advanced talks to raise approximately $600 million at a $6.5 billion pre-money valuation, representing a dramatic six-fold jump from the $1 billion valuation the company achieved just three months ago in May. The valuation surge follows Fractile's announcement of an initial agreement to supply Anthropic with roughly $250 million worth of its SRAM-based inference chips, with both companies signaling intent to expand the contract.

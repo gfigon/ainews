@@ -6,7 +6,7 @@ categories:
   - "Agents & Automation"
   - "AI Tools & Frameworks"
 summary: "HubSpot's new Agent Hub and Agent Builder let non-developers build CRM-aware AI agents via natural language, executing actions metered against HubSpot Credits."
-image: "https://pollinations.ai/p/HubSpot%20Agent%20Hub%20no%20code%20CRM%20automation?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/HubSpot+Opens+Agent+Hub:+No-Code+AI+Agents+for+CRM+Workflows+Hit+Beta?width=1024&height=576&seed=1&nologo=true"
 ---
 
 HubSpot launched Agent Hub and Agent Builder in public beta on July 23, opening AI agent creation to non-developers within the company's CRM ecosystem. The release targets Professional and Enterprise customers seeking to automate customer relationship workflows without engineering resources.

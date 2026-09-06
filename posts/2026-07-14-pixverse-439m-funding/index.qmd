@@ -6,7 +6,7 @@ categories:
   - Industry News
   - AI Tools & Frameworks
 summary: "Singapore-based AI video generation startup PixVerse secures massive funding as competition intensifies in the text-to-video space."
-image: "https://pollinations.ai/p/pixverse+439m+series+c+valuation+2b?width=1024&height=576&seed=141&nologo=true"
+image: "https://pollinations.ai/p/PixVerse+Closes+$439M+Series+C+Extension+Valuation+Surpasses+$2B?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Singapore-based AI video generation startup PixVerse announced on July 13, 2026 that it has closed a $439 million Series C extension, pushing its valuation above $2 billion. The round saw participation from new investors including Alibaba, Mirae Asset, BlueFocus, and Eastern Bell Capital, alongside existing backers iGlobe Partners and Lion X Ventures.

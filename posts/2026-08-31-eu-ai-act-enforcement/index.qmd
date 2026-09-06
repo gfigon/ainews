@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Industry News
 summary: "European Commission issues first formal enforcement requests to frontier AI labs, with penalties up to €15M or 3% of global turnover for non-compliance."
-image: "https://pollinations.ai/p/EU+AI+Act+Enforcement+Begins+First+RFIs+OpenAI+Anthropic+Google?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/EU+AI+Act+Enforcement+Begins:+First+RFIs+Sent+to+OpenAI+Anthropic+and+Google?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The European Union's AI Office has issued its first formal enforcement requests under the AI Act, targeting OpenAI, Anthropic, and Google just four weeks after GPAI obligations became enforceable on August 2, 2026.

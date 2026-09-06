@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - LLMs & Models
 summary: "Anthropic CEO Dario Amodei rejects the framing that AI regulation must choose between concentrated power and no rules, arguing open-weight releases alone cannot ensure safety."
-image: "https://pollinations.ai/p/Amodei-Open-Weights-Insufficient-for-AI-Safety?width=1024&height=576&seed=17072&nologo=true"
+image: "https://pollinations.ai/p/Amodei:+Open+Weights+Alone+Are+Insufficient+for+AI+Safety?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Anthropic CEO Dario Amodei has publicly challenged the growing narrative that open-weight AI model releases represent a sufficient solution to AI safety concerns, calling such framing "insufficient" in an August 15 exchange on X with investor Gavin Baker.

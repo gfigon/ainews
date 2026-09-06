@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - Research & Innovation
 summary: "DeepMind releases Gemini 3.7 Flash alongside WeatherNext, an AI model achieving breakthrough cyclone forecasting capabilities."
-image: "https://pollinations.ai/p/Google%20DeepMind%20Gemini%203.7%20Flash%20WeatherNext%20weather%20forecasting%20breakthrough?width=1024&height=576&seed=8162026&nologo=true"
+image: "https://pollinations.ai/p/Google+DeepMind+Unveils+Gemini+3.7+Flash+and+WeatherNext+Weather+Forecasting+Breakthrough?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Google DeepMind has announced two significant AI releases in August 2026: **Gemini 3.7 Flash**, the latest iteration of their multimodal language model, and **WeatherNext**, an AI model achieving breakthrough performance in weather forecasting, particularly for cyclone prediction.

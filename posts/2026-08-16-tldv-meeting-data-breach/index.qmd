@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - AI Tools & Frameworks
 summary: "A missing Firestore security rule in AI notetaker tl;dv allowed unauthorized access to 181,874 meeting recordings from 84,312 users across 35,000+ organizations — a wake-up call for teams relying on AI meeting assistants."
-image: "https://pollinations.ai/p/tldv-meeting-data-breach?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/tl;dv+Exposes+181874+Meeting+Records+for+Six+Months+—+What+Teams+Need+to+Know?width=1024&height=576&seed=1&nologo=true"
 ---
 
 tl;dv, an AI-powered meeting notetaker used by over two million people, exposed 181,874 meeting recordings and transcripts for approximately six months due to a single missing Firestore security rule. The vulnerability, discovered and reported in January 2026, remained unfixed until mid-August, affecting 84,312 users across 35,003 domains.

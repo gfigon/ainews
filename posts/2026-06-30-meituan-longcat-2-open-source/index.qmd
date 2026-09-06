@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - AI Infrastructure
 summary: "Meituan has released LongCat-2.0 under MIT license—a 1.6 trillion parameter MoE model trained exclusively on Chinese AI ASICs, marking one of the largest open-weight models ever and a milestone for China's AI independence."
-image: "https://pollinations.ai/p/Meituan%20LongCat%202.0%20open%20source%20AI%20model%20Chinese%20chips%20ASIC?width=1024&height=576&seed=30&nologo=true"
+image: "https://pollinations.ai/p/Meituan+Open-Sources+LongCat-2.0:+A+1.6+Trillion+Parameter+Model+Trained+Entirely+on+Chinese+AI+Chips?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Chinese tech giant Meituan has open-sourced LongCat-2.0, a massive 1.6 trillion parameter Mixture-of-Experts language model trained entirely on domestic AI accelerators—a milestone that underscores China's push for technological self-sufficiency in AI infrastructure.

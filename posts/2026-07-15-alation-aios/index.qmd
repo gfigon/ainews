@@ -6,7 +6,7 @@ categories:
   - AI Tools & Frameworks
   - Agents & Automation
 summary: "Alation introduces a governed intelligence operating system that links data, dynamic context, and agents with lineage, freshness checks, and continuous governance."
-image: "https://pollinations.ai/p/Alation%20AIOS%20governed%20intelligence%20operating%20system%20data%20agent%20governance?width=1024&height=576&seed=1509&nologo=true"
+image: "https://pollinations.ai/p/Alation+Launches+AIOS:+A+Governed+Intelligence+Operating+System+for+Data+++Agents?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Data catalog specialist Alation is moving beyond traditional data governance into agent territory. The company announced AIOS, a governed "intelligence operating system" that connects data, dynamic context, and agents under a unified governance framework.

@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Industry News
 summary: "Apple's trade secret lawsuit against OpenAI and switch to Google Gemini marks the end of Big Tech AI cooperation — and the start of a high-stakes legal battle."
-image: "https://pollinations.ai/p/Apple%20OpenAI%20lawsuit%20Siri%20Gemini%20trade%20secrets?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Apple+Sues+OpenAI+as+Siri+Switches+to+Gemini+in+Historic+Big+Tech+Split?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Apple filed a lawsuit against OpenAI on Friday, alleging theft of trade secrets in connection with OpenAI's $6.4 billion acquisition of IO Products. The timing is far from coincidental: OpenAI is preparing for its IPO, and the lawsuit arrives as a material S-1 risk.

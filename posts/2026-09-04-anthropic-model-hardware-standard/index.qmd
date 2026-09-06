@@ -1,0 +1,24 @@
+---
+title: "Anthropic Opens Research Preview of Model Hardware Standard for Physical AI Agents"
+date: "2026-09-04 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Anthropic launches Model Hardware Standard, a shared specification enabling AI agents to safely operate physical devices, opening research preview for scientific labs and manufacturers."
+image: "/assets/post-images/2026-09-04-anthropic-model-hardware-standard.svg"
+---
+
+Anthropic has unveiled the Model Hardware Standard (MHS), a new shared specification designed to enable AI agents to safely operate physical devices. The company announced on August 27, 2026 that it is opening a research preview of MHS to a select group of scientific research labs and advanced manufacturers.
+
+The Model Hardware Standard represents a significant step toward bridging the gap between software AI agents and the physical world. By establishing a common specification, Anthropic aims to provide a framework that allows AI systems to interact with hardware—including robots, industrial equipment, and other physical systems—while maintaining safety guardrails.
+
+Physical AI presents unique challenges that differ substantially from text-based or even vision-based AI systems. When AI agents gain the ability to manipulate objects, control machinery, or interact with the physical environment, the potential for harm increases dramatically. The MHS addresses this by establishing standardized protocols for safe operation, including constraints on physical actions, emergency stop mechanisms, and verification procedures before executing physical commands.
+
+Anthropic's approach aligns with the company's broader focus on AI safety. The research preview will allow participating labs and manufacturers to test the specification in controlled environments, providing real-world feedback to refine the standard before broader adoption.
+
+The move comes amid growing interest in physical AI applications, including robotics, manufacturing automation, and scientific research equipment. Several companies have been developing AI-powered robots capable of performing complex physical tasks, but the lack of standardized safety specifications has been a barrier to widespread deployment.
+
+By opening the specification to the research community, Anthropic hopes to establish MHS as a foundational standard for physical AI safety—similar to how existing standards govern industrial machinery and robotics. The company has not yet announced when a full public release is planned.
+
+The research preview marks an important milestone in the development of safe, capable physical AI systems that can work alongside humans in manufacturing, laboratory, and industrial settings.

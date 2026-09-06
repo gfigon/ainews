@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - AI Tools & Frameworks
 summary: "Oracle expands its AI Agent Studio with a pro-code development experience, letting developers build Fusion agentic applications using VS Code, CLI, and Git."
-image: "https://pollinations.ai/p/Oracle%20Fusion%20AI%20Agent%20Studio%20pro-code%20developer%20experience?width=1024&height=576&seed=1508&nologo=true"
+image: "https://pollinations.ai/p/Oracle+Adds+Pro-Code+Builder+for+Fusion+Agentic+Applications?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Oracle is bridging the gap between low-code business user tools and professional developer workflows. The company announced an AI-native builder experience that lets pro-code developers and coding agents create and run Fusion Agentic Applications directly within Oracle AI Agent Studio.

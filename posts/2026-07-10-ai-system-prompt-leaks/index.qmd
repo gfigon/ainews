@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Research & Innovation
 summary: "A GitHub repository aggregating leaked system prompts from Claude, GPT, and Gemini models sparks debate over AI transparency and security practices."
-image: "https://pollinations.ai/p/system%20prompt%20leak%20AI%20models%20Claude%20GPT%20Gemini%20security%20transparency?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Massive+System+Prompt+Leak+Reveals+Inner+Workings+of+Leading+AI+Models?width=1024&height=576&seed=1&nologo=true"
 ---
 
 A newly surfaced GitHub repository containing what appears to be leaked system prompts from major AI providers has ignited fresh debate about AI transparency, security practices, and the secrecy surrounding model behavior guidelines.

@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Microsoft has committed to a $150 billion annual capital expenditure run rate for AI infrastructure, signaling the most aggressive infrastructure investment in corporate history as Azure AI revenue surges."
-image: "https://pollinations.ai/p/Microsoft%20Azure%20AI%20capex%20150B%20infrastructure%20data%20center/?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Microsofts+Record+$150B+AI+Bet:+The+Largest+Infrastructure+Wager+in+Corporate+History?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Microsoft has escalated its AI infrastructure bet to an unprecedented level, with capital expenditure reaching a $150 billion annual run rate as of early 2026. The software giant's spending on AI data centers, GPUs, and networking now exceeds the market capitalization of most technology companies, representing the largest infrastructure wager in corporate history.

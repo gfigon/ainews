@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - AI Tools & Frameworks
 summary: "AI meeting recorder tl;dv left 181,874 meeting records exposed without authentication for six months — exposing the gap between SOC 2 compliance and actual security responsiveness."
-image: "https://pollinations.ai/p/tldv-Meeting-Recorder-Leak-181874-Meetings-Security-Failure?width=1024&height=576&seed=10240&nologo=true"
+image: "https://pollinations.ai/p/tl;dv+Meeting+Recorder+Exposed+181874+Meetings:+A+Six-Month+Security+Failure?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Security researcher bobdahacker disclosed a significant data exposure affecting tl;dv, an AI-powered meeting recording tool used by over 2 million people. The vulnerability left 181,874 meeting records from 84,312 users across 35,003 email domains publicly accessible — including government domains from 23 countries.

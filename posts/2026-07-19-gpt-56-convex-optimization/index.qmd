@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - LLMs & Models
 summary: "GPT-5.6 Sol Pro solved a 30-year-old convex optimization problem in 148 minutes, producing the first proven lower bound for derivative-free optimization."
-image: "https://pollinations.ai/p/gpt-5.6%20convex%20optimization%20math%20proof?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/GPT-5.6+Sol+Closes+30-Year+Convex+Optimization+Gap?width=1024&height=576&seed=1&nologo=true"
 ---
 
 A UC Berkeley mathematician used GPT-5.6 Sol Pro to solve a complexity problem in convex optimization that has remained open since 1996. In a 148-minute session, the model produced a proof establishing a quadratic lower bound for deterministic zeroth-order convex optimization—effectively closing a three-decade gap in the field.

@@ -6,7 +6,7 @@ categories:
   - Industry News
   - Agents & Automation
 summary: "National Bureau of Economic Research survey finds three years of AI adoption produced no measurable productivity gains at most firms, while Linear telemetry confirms agents boost throughput but extend cycle time."
-image: "https://pollinations.ai/p/NBER+Survey+89+Executives+No+AI+Productivity+Gains?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/NBER+Survey:+89%+of+Executives+Report+No+AI+Productivity+Gains?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The National Bureau of Economic Research surveyed executives on the effects of roughly three years of AI adoption at their own companies. The results challenge the dominant narrative: more than nine in ten reported no effect on employment, and 89 percent reported no effect on productivity. This is not a survey of skeptics about AI in general—these are people at firms that have deployed it, reporting on what actually happened at their own organization.

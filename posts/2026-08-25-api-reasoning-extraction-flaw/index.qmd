@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Research & Innovation
 summary: "Researchers discovered a vulnerability in encrypted reasoning objects used by OpenAI, Anthropic, and Google APIs that allowed weaker models to decode proprietary reasoning, exposing 704 privacy artifacts including 62 API keys and 33 passwords."
-image: "https://pollinations.ai/p/Critical%20API%20Flaw%20Extracting%20Hidden%20Reasoning%20From%20OpenAI%20Anthropic%20Google?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Critical+API+Flaw+Let+Attackers+Extract+Hidden+Reasoning+From+OpenAI+Anthropic+and+Google+Models?width=1024&height=576&seed=1&nologo=true"
 ---
 
 A newly disclosed security flaw in the way OpenAI, Anthropic, and Google handle hidden AI reasoning between API calls allowed researchers to recover internal reasoning traces and sensitive data from session logs. The vulnerability affected encrypted reasoning objects used by the providers' reasoning APIs, where blocks created in one session could be replayed into another—or even handed to a weaker model in the same provider family to reveal hidden content.

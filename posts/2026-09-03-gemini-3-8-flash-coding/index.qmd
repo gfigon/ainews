@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - Research & Innovation
 summary: "Google releases Gemini 3.8 Flash just weeks after 3.7, with internal tests showing the model outperforming Anthropic's Opus on coding tasks via Google's JetSki benchmark."
-image: "https://pollinations.ai/p/Google%20Gemini%203.8%20Flash%20coding%20benchmark?width=1024&height=576&seed=104&nologo=true"
+image: "https://pollinations.ai/p/Google+Accelerates+Flash+Line+with+Gemini+3.8+Flash+Targets+Coding+Superiority?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Google has released Gemini 3.8 Flash, an updated version of its fast, cost-efficient AI model line, barely a month after launching Gemini 3.7 Flash. The rapid iteration signals Google's intensified competitive push against OpenAI and Anthropic, particularly in the coding and developer tools segment.

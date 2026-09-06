@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - AI Security & Policy
 summary: "Nvidia implements strict new whitelist for Asian customers amid intensified US pressure to prevent AI chip diversion to China."
-image: "https://pollinations.ai/p/nvidia+asia+buyer+list+chip+export+crackdown?width=1024&height=576&seed=142&nologo=true"
+image: "https://pollinations.ai/p/Nvidia+Halves+Asia+AI+Chip+Buyer+List+in+China+Export+Crackdown?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Nvidia has more than halved the number of Asian customers authorized to buy its AI chips, according to a July 14, 2026 Financial Times report. The company introduced a new "white list" of vetted companies that have passed tougher compliance checks designed to prevent advanced processors from being diverted to China.

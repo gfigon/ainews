@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Anthropic's Claude models are now generally available on NVIDIA GB300 Blackwell Ultra GPUs in Microsoft Azure, giving enterprises a new high-performance foundation for building autonomous AI agents."
-image: "https://pollinations.ai/p/Anthropic%20Claude%20GB300%20Blackwell%20Azure%20AI%20agents/?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Anthropics+Claude+Arrives+on+NVIDIA+GB300+Blackwell+Ultra+in+Microsoft+Azure?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Anthropic's Claude models have reached a significant infrastructure milestone, now running on NVIDIA's latest GB300 Blackwell Ultra GPUs in Microsoft Azure. The integration, announced jointly by NVIDIA and Microsoft, gives Azure-native enterprises access to what the companies describe as the most powerful AI inference platform available.

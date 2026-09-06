@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "Intuit VP Nhung Ho revealed at VB Transform 2026 how the company scrapped its AI agent orchestration layer twice in four months, ultimately rebuilding in 60 days with a skills-and-tools architecture."
-image: "https://pollinations.ai/p/Intuit+AI+agent+architecture+rebuild?width=1024&height=576&seed=48291&nologo=true"
+image: "https://pollinations.ai/p/Intuit+Rebuilds+AI+Agent+Architecture+Twice+in+Four+Months+—+Lessons+Learned?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Intuit, an early pioneer in agentic AI, revealed at VB Transform 2026 that it rebuilt its entire AI agent architecture twice in just four months before finding a sustainable approach. The journey offers a cautionary tale for enterprises rushing agent systems into production.

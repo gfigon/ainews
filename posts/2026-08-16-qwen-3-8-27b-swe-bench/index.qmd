@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - Research & Innovation
 summary: "Alibaba's Qwen 3.8-27B open-weight model outperforms Claude Opus 4.6 Max on SWE-Bench Pro while running locally on a consumer GPU, signaling a shift in how developers access frontier-class coding capabilities."
-image: "https://pollinations.ai/p/Qwen-3.8-27b-beats-Opus-4.6-SWE-Bench?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Qwen+3.8-27B+Beats+Claude+Opus+4.6+Max+on+SWE-Bench+—+Runs+on+Single+24GB+GPU?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Alibaba's Qwen team has released Qwen 3.8-27B, a 27-billion parameter open-weight model that outperforms Anthropic's Claude Opus 4.6 Max on SWE-Bench Pro — the gold-standard benchmark for real-world software engineering capability. The model's standout feature: it runs inference on a single 24GB consumer GPU, making frontier-class coding performance accessible without enterprise infrastructure.

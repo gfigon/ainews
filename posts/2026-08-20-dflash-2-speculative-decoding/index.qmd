@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - AI Infrastructure
 summary: "Inco releases DFlash 2, achieving 2.7-3.4x throughput over autoregressive decoding through path selection and local convolution modules for improved token accuracy."
-image: "https://pollinations.ai/p/DFlash+2+Pushes+Speculative+Decoding+to+3.4x+Throughput+Gain?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/DFlash+2+Pushes+Speculative+Decoding+to+3.4x+Throughput+Gain?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Inco has released DFlash 2, an upgraded speculative decoding system that achieves 2.7 to 3.4 times the throughput of traditional autoregressive decoding at batch size one. The update addresses two key limitations in the original DFlash: selecting the right tokens from candidate lists and maintaining accuracy at block boundaries.

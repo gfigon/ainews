@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - AI Tools & Frameworks
 summary: "Alibaba's first open-weight Max-class model ships with a custom license imposing revenue-share thresholds on cloud providers — raising questions about what 'open source' really means in the AI era."
-image: "https://pollinations.ai/p/Qwen+3.8-Max+Open+Weights+Revenue+Share+License?width=1024&height=576&seed=31295&nologo=true"
+image: "https://pollinations.ai/p/Qwen+3.8-Max+Open+Weights+Come+With+a+Catch:+Revenue-Share+License?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Alibaba released Qwen 3.8-Max weights on August 12, marking the first time a Max-class model from the Qwen family became available for download. But the celebration was short-lived: the weights shipped under a custom license rather than Apache 2.0, with revenue-share provisions that fundamentally change what "open weights" means for commercial deployments.

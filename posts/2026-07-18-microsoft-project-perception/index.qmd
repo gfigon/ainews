@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Industry News
 summary: "Microsoft launches multi-model AI security product using Anthropic, OpenAI, and its own models—positioned as a lower-cost Mythos alternative deployable in regions where Anthropic cannot operate."
-image: "https://pollinations.ai/p/microsoft-project-perception-anthropic-mythos-ai-security?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Microsofts+Project+Perception+Takes+Direct+Aim+at+Anthropics+Mythos+Security+Monopoly?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Microsoft is preparing to launch Project Perception, a new AI-powered security product designed to identify and fix enterprise vulnerabilities, directly challenging Anthropic's dominant position in the AI cybersecurity market. The product combines models from Anthropic, OpenAI, and Microsoft itself in a multi-model architecture that the company positioning as a cost-effective alternative to Anthropic's Mythos 5.

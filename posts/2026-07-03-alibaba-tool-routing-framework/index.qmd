@@ -6,7 +6,7 @@ categories:
   - AI Tools & Frameworks
   - Research & Innovation
 summary: "A new framework from Alibaba solves the tool routing problem that chokes most AI agents, reducing token consumption by 99%."
-image: "https://pollinations.ai/p/Alibabas+New+AI+Framework+Cuts+Agent+Token+Use+99+By+Skipping+Tool+Loading?width=1024&height=576&seed=20888&nologo=true"
+image: "https://pollinations.ai/p/Alibabas+New+AI+Framework+Cuts+Agent+Token+Use+99%+By+Skipping+Tool+Loading?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Alibaba has unveiled a new AI framework that addresses one of the most persistent bottlenecks in agentic AI systems: the challenge of selecting the right tool from thousands of available options. The framework eliminates the need to load every tool into the model's context, achieving a 99% reduction in token usage for tool-intensive agents.

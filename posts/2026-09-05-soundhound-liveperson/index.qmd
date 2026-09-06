@@ -1,0 +1,22 @@
+---
+title: "SoundHound AI Completes LivePerson Acquisition, Creates Conversational AI Giant"
+date: "2026-09-05 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "SoundHound AI completed its acquisition of LivePerson on September 4, combining voice and agentic AI capabilities with a digital messaging network serving 25 Fortune 100 companies, while retiring all outstanding debt."
+image: "/assets/post-images/2026-09-05-soundhound-liveperson.svg"
+---
+
+SoundHound AI finalized its acquisition of LivePerson on September 4, two days after shareholder approval, creating what the company describes as a world-leading omnichannel conversational AI powerhouse. The deal combines SoundHound's voice and agentic AI technology with LivePerson's established digital messaging platform.
+
+The merged entity now serves 25 Fortune 100 companies through LivePerson's existing customer relationships, which span financial services, retail, telecommunications, and healthcare sectors. SoundHound cited $500 million in future revenue potential from the existing customer base alone, suggesting significant cross-selling opportunities for its voice AI products.
+
+As part of the transaction close, SoundHound retired all of LivePerson's outstanding debt, leaving the combined company with a debt-free balance sheet. LivePerson shares ceased trading on Nasdaq at market close, concluding a chapter that began with the company's founding as a pioneer in web-based customer service messaging.
+
+The acquisition accelerates SoundHound's strategy to offer both voice and text-based conversational AI across multiple channels. While LivePerson specialized in asynchronous messaging and chatbot deployments, SoundHound brought real-time voice recognition and natural language processing capabilities to the combination.
+
+For enterprises evaluating conversational AI vendors, the merger creates a more comprehensive alternative to pure-play voice or text providers. The combined platform can now address the full spectrum of customer interactions, from voice calls to messaging apps to web chat, under a single vendor relationship.
+
+Industry observers note that the deal reflects ongoing consolidation in the conversational AI space, as vendors seek scale to compete with larger cloud providers and face pressure to offer comprehensive platforms rather than point solutions.

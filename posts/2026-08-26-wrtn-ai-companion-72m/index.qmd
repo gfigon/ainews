@@ -6,7 +6,7 @@ categories:
   - Industry News
   - AI Tools & Frameworks
 summary: "Wrtn Technologies closed a Series C at a $722M valuation, with its North America-focused AI entertainment platform OOC reaching $7.2M monthly revenue within three months."
-image: "https://pollinations.ai/p/Wrtn+AI+Companion+South+Korea+72M+Funding?width=1024&height=576&seed=123&nologo=true"
+image: "https://pollinations.ai/p/South+Korean+AI+Companion+Startup+Wrtn+Raises+$72M+at+$722M+Valuation?width=1024&height=576&seed=1&nologo=true"
 ---
 
 South Korea's Wrtn Technologies has closed a $72 million Series C funding round at a valuation exceeding $722 million, the company announced Tuesday. The round was led by Coreline Ventures and Eugene Asset Management, with participation from existing investors including Goodwater Capital, Antler, KDB, and Capstone. Total funding to date stands at approximately $166 million.

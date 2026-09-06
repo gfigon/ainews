@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - AI Tools & Frameworks
 summary: "Cursor's August 19 update transforms cloud agents into always-on workers that subscribe to PRs, Slack threads, and cron schedules, with support for isolated VM subagents."
-image: "https://pollinations.ai/p/Cursor+Introduces+Always-On+Cloud+Agents+With+Event+Subscriptions?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Cursor+Introduces+Always-On+Cloud+Agents+With+Event+Subscriptions?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Cursor has released a significant update that transforms its cloud agents from reactive tools into persistent, always-on workers capable of monitoring repositories and responding to events without developer intervention. The August 19 release introduces a Subscription system that lets cloud agents subscribe to pull requests, Slack threads, and time-based triggers, enabling them to wake automatically when relevant activity occurs.

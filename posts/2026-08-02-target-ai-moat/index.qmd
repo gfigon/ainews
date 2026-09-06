@@ -6,7 +6,7 @@ categories:
   - Industry News
   - Agents & Automation
 summary: "Target's senior vice president reveals that the retailer's competitive advantage in AI comes from surrounding infrastructure, not model selection—a perspective challenging the prevailing AI narrative."
-image: "https://pollinations.ai/p/Target+AI+Moat+Strategy+Infrastructure+Models?width=1024&height=576&seed=803&nologo=true"
+image: "https://pollinations.ai/p/Target+SVP:+Our+Real+AI+Moat+Isnt+the+Models—Its+Everything+Around+Them?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The AI industry is obsessed with model benchmarks, parameter counts, and capability ceilings. Target's senior vice president just offered a counter-narrative that could reshape how enterprises think about their AI investments.

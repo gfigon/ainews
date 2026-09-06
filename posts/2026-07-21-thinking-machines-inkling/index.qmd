@@ -6,7 +6,7 @@ categories:
   - Research & Innovation
   - AI Tools & Frameworks
 summary: "Thinking Machines unveils Inkling, a 975B active parameter open multimodal model with native image, text, and audio support, 1M context window, and day-0 transformers integration."
-image: "https://pollinations.ai/p/Thinking+Machines+Inkling+1T+multimodal+model?width=1024&height=576&seed=29725&nologo=true"
+image: "https://pollinations.ai/p/Thinking+Machines+Releases+Inkling:+First+Open-Source+1+Trillion+Parameter+Multimodal+Model?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Thinking Machines has released **Inkling**, what the company calls the first large open model with approximately 1 trillion parameters and 1 million context window to natively accept image, text, and audio inputs. The model was trained on 45 trillion tokens spanning text, images, audio, and video.

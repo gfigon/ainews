@@ -1,0 +1,24 @@
+---
+title: "Anthropic Finalizing $15 Billion Pre-IPO Credit Facility"
+date: "2026-09-04 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Anthropic is expanding its credit facility to $15 billion as the AI startup prepares for its highly anticipated public listing."
+image: "/assets/post-images/2026-09-04-anthropic-15b-credit-facility.svg"
+---
+
+Anthropic PBC is set to finalize expanding its revolving credit facility to $15 billion, according to sources familiar with the matter. The deal, led by Morgan Stanley with participation from Goldman Sachs, JPMorgan, and Citigroup, clears a significant hurdle before the AI firm's planned initial public offering.
+
+The $15 billion figure exceeds Anthropic's earlier target of $10 billion and dramatically outpaces its existing $2.5 billion credit line from 2025. The expanded facility signals significant lender confidence in Anthropic's financial position and growth trajectory as the company prepares to go public.
+
+The credit facility expansion comes amid intense investor interest in AI companies preparing for public listings. Anthropic's upcoming IPO is expected to be one of the largest technology offerings in recent years, potentially rivaling or exceeding SpaceX in capital raised.
+
+Anthropic has been on a rapid growth trajectory, with recent reports indicating the company reached $3 billion in annual recurring revenue. The company has positioned itself as the safety-focused alternative to OpenAI, emphasizing its constitutional AI approach and responsible development practices.
+
+The expanded credit facility provides Anthropic with substantial financial flexibility as it navigates the complex process of going public. The company will need to address questions about its governance structure, safety commitments, and competitive positioning against well-capitalized rivals like OpenAI and Google.
+
+Industry observers note that the pre-IPO credit facility size reflects the massive capital requirements of competing in the frontier AI race. Training large language models and maintaining competitive AI infrastructure requires billions in ongoing investment.
+
+The IPO is expected to test external trust in Anthropic's governance model, particularly given the company's unique public benefit corporation structure. Investors will scrutinize the board's power over safety decisions and the company's commitments to responsible AI development.

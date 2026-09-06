@@ -6,7 +6,7 @@ categories:
   - AI Tools & Frameworks
   - Industry News
 summary: "Canva launches Code 2.0, enabling all 265 million monthly users to build interactive websites through plain-language prompts with full drag-and-drop editing."
-image: "https://pollinations.ai/p/Canva+Code+2.0+AI+website+builder+vibe+coding?width=1024&height=576&seed=18168&nologo=true"
+image: "https://pollinations.ai/p/Canva+Code+2.0+Brings+AI+Website+Building+to+265+Million+Users?width=1024&height=576&seed=1&nologo=true"
 ---
 
 <!-- description: Canva launches Code 2.0, bringing AI-powered website building to all 265 million users with drag-and-drop editing and 75% faster code generation. -->

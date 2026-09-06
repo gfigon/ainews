@@ -6,7 +6,7 @@ categories:
   - Industry News
   - AI Tools & Frameworks
 summary: "OpenAI notifies SpaceX it will terminate Cursor's access to GPT models by November 2026, citing prior contract violations by Elon Musk's companies and concerns about Astra model misuse."
-image: "https://pollinations.ai/p/OpenAI+Cuts+Off+Cursor+SpaceX+Acquisition+Contract+Violations?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/OpenAI+Cuts+Off+Cursor+After+SpaceX+Acquisition+Citing+Contract+Violations?width=1024&height=576&seed=1&nologo=true"
 ---
 
 OpenAI announced on August 28 that it will terminate Cursor's access to its GPT models, following SpaceX's acquisition of the popular AI coding tool. The company proposed a shutoff date of November 12, 2026, giving developers the maximum contractual notice period to transition away.

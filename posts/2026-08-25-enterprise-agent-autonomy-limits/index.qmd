@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "New research reveals that companies winning with AI agents are restricting their capabilities rather than giving them more freedom — a fundamental shift in how enterprises approach agentic AI deployment."
-image: "https://pollinations.ai/p/Enterprise+AI+Agents+Succeed+by+Limiting+Autonomy?width=1024&height=576&seed=825&nologo=true"
+image: "https://pollinations.ai/p/Enterprise+AI+Agents+Succeed+by+Limiting+Autonomy+Not+Expanding+It?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The conventional wisdom in enterprise AI has held that more autonomy equals better performance — give agents room to plan, decide, and act across multi-step workflows, and they'll deliver superior results. That assumption is now being challenged in production environments across industries, and the companies seeing real returns from agentic AI are taking a dramatically different approach.

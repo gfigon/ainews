@@ -6,7 +6,7 @@ categories:
   - AI Security & Policy
   - Agents & Automation
 summary: "Entrust debuts a co-development program focused on identity, authorization, and cryptographic controls to help enterprises deploy autonomous agents safely in production."
-image: "https://pollinations.ai/p/Entrust%20Agentic%20AI%20Trust%20Accelerator%20enterprise%20identity%20security%20AI%20agents?width=1024&height=576&seed=1507&nologo=true"
+image: "https://pollinations.ai/p/Entrust+Launches+Agentic+AI+Trust+Accelerator+for+Enterprise+Identity-First+Security?width=1024&height=576&seed=1&nologo=true"
 ---
 
 The security gap in enterprise AI agent deployments just got a structured response. Entrust has launched the Agentic AI Trust Accelerator, a co-development program designed to address identity, authorization, and cryptographic controls for autonomous agents moving from pilot to production.

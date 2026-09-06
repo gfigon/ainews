@@ -6,7 +6,7 @@ categories:
   - "LLMs & Models"
   - "AI Tools & Frameworks"
 summary: "Anthropic's Claude Opus 5 undercuts Fable 5 on pricing while outperforming it on Frontier-Bench, marking a strategic pivot toward accessible frontier AI."
-image: "https://pollinations.ai/p/Claude%20Opus%205%20Anthropic%20half%20price%20benchmark?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/Anthropic+Ships+Claude+Opus+5:+Half+the+Price+of+Fable+5+Beats+It+on+Benchmarks?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Anthropic released Claude Opus 5 on July 24, positioning it as a direct competitor to Fable 5 at roughly half the price. The new model prices at $5 per million input tokens and $25 per million output tokens, compared to Fable 5's $10/$50 pricing structure.

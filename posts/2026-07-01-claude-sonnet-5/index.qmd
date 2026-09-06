@@ -6,7 +6,7 @@ categories:
   - LLMs & Models
   - Industry News
 summary: "Anthropic's newest Sonnet model undercuts Opus pricing by 60%, signaling aggressive market positioning as the company prepares for a potential blockbuster IPO."
-image: "https://pollinations.ai/p/Anthropic%20Claude%20Sonnet%205%20discount%20pricing%20API%20AI%20model?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Anthropic+Launches+Claude+Sonnet+5+at+60%+Discount+Ahead+of+IPO?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Anthropic has unveiled Claude Sonnet 5, its latest mid-tier model that represents a dramatic pricing shift from previous generations. The new model launched at just $2 per million input tokens and $10 per million output tokens—a 60% discount compared to Opus 4.8 pricing—signaling the company's aggressive push to capture market share ahead of its anticipated IPO.

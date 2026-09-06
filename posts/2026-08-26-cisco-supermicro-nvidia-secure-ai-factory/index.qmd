@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Cisco deepens its Nvidia partnership through Supermicro, integrating high-density compute into pre-validated AI infrastructure ahead of October's Nvidia refresh."
-image: "https://pollinations.ai/p/Cisco+Supermicro+Nvidia+Secure+AI+Factory+Infrastructure?width=1024&height=576&seed=825&nologo=true"
+image: "https://pollinations.ai/p/Cisco+Expands+Secure+AI+Factory+with+Supermicro+Nvidia+Partnership?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Cisco announced Tuesday it is expanding its Secure AI Factory initiative through a new partnership with Supermicro, integrating the server maker's high-density liquid- and air-cooled compute systems into Cisco's pre-validated full-stack AI infrastructure. The move positions the collaboration to serve enterprises, neoclouds, and sovereign clouds ahead of Nvidia's anticipated October product refresh.

@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - AI Tools & Frameworks
 summary: "TencentCloud's new open-source project enables AI agents to maintain persistent local memory without external API calls, addressing cost and privacy concerns."
-image: "https://pollinations.ai/p/TencentDB-Agent-Memory%20local%20memory%20AI%20agents%20no%20API%20dependencies?width=1024&height=576&nologo=true"
+image: "https://pollinations.ai/p/TencentDB-Agent-Memory+Brings+Zero-API+Local+Memory+to+AI+Agents?width=1024&height=576&seed=1&nologo=true"
 ---
 
 TencentCloud has released TencentDB-Agent-Memory, an open-source framework that gives AI agents persistent long-term memory capabilities without relying on external API calls. The project, which has trended on GitHub this week, introduces a four-stage progressive pipeline designed to enable autonomous memory retention and recall in agentic workflows.

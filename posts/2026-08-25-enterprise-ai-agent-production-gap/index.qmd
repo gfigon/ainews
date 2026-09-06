@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "New research reveals that while 80% of enterprise applications now embed AI agents, only 31% run them in production, with 88% of pilots never shipping to live environments."
-image: "https://pollinations.ai/p/Enterprise%20AI%20Agent%20Paradox%2080%25%20Embed%20Only%2031%25%20Production?width=1024&height=576&seed=42&nologo=true"
+image: "https://pollinations.ai/p/Enterprise+AI+Agent+Paradox:+80%+Embed+Agents+But+Only+31%+Reach+Production?width=1024&height=576&seed=1&nologo=true"
 ---
 
 A striking gap between AI agent adoption and production deployment has emerged in enterprise environments, with new research revealing that while 80% of enterprise applications now embed AI agents, only 31% actually run them in live production environments. The findings highlight a persistent challenge in moving AI pilots from concept to deployment.

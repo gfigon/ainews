@@ -6,7 +6,7 @@ categories:
   - AI Infrastructure
   - Industry News
 summary: "Nvidia's latest SEC 13F filing reveals $21 billion in SpaceX shares and $30 billion in Intel stock—both companies committed to Nvidia GPU exclusivity for their AI infrastructure."
-image: "https://pollinations.ai/p/Nvidias-50B-Equity-Play-21B-SpaceX-Stake-and-30B-Intel-Position?width=1024&height=576&seed=29315&nologo=true"
+image: "https://pollinations.ai/p/Nvidias+$50B+Equity+Play:+$21B+SpaceX+Stake+and+$30B+Intel+Position+Revealed?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Nvidia's second-quarter SEC 13F filing, released on August 14, 2026, revealed a staggering $51 billion equity portfolio concentrated in just two companies: approximately $21 billion in SpaceX Class A stock and $30 billion in Intel shares. The positions, disclosed as of June 30, 2026, together represent over 80% of Nvidia's reported $63.44 billion equity book.

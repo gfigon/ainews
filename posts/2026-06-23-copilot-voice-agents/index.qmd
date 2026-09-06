@@ -6,7 +6,7 @@ categories:
   - Agents & Automation
   - Industry News
 summary: "Microsoft's latest Copilot Studio update enables autonomous voice agents supporting 26 languages, marking a significant step toward AI-native customer service at scale."
-image: "https://pollinations.ai/p/Microsoft%20Copilot%20Studio%20Multilingual%20Voice%20Agents?width=1024&height=576&seed=23&nologo=true"
+image: "https://pollinations.ai/p/Microsoft+Copilot+Studio+Adds+26-Language+Voice+Agents+for+Contact+Centers?width=1024&height=576&seed=1&nologo=true"
 ---
 
 Microsoft has announced multilingual voice agents for Dynamics 365 Contact Center, a capability that enables enterprises to deploy AI-powered customer service across 26 languages—without requiring separate systems or manual translation workflows. The update rolled out in June 2026 through Copilot Studio.

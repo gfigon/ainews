@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Google Gemini 3.8 Flash Cyber Fairwind Program 650 Partners Defense",
+      "count": 1,
+      "last_published": "2026-09-06",
+      "slugs": [
+        "2026-09-06-gemini-3-8-flash-cyber-fairwind"
+      ]
+    },
+    {
+      "term": "Anthropic Enterprise Frontier Safeguards Claude Fable 5.1 Privacy ZDR",
+      "count": 1,
+      "last_published": "2026-09-06",
+      "slugs": [
+        "2026-09-06-anthropic-enterprise-frontier-safeguards"
+      ]
+    },
+    {
       "term": "MiniMax H3 Max Real-Time Video Generation Faster Than Watch Time",
       "count": 1,
       "last_published": "2026-09-04",
@@ -4032,6 +4048,22 @@
       "last_published": "2026-08-31",
       "slugs": [
         "2026-08-31-nvidia-pauses-financing"
+      ]
+    },
+    {
+      "term": "DeepMind 100 Agent Swarm Cheaters Converts Whistleblowers Research Study",
+      "count": 1,
+      "last_published": "2026-09-06",
+      "slugs": [
+        "2026-09-06-deepmind-100-agent-swarm"
+      ]
+    },
+    {
+      "term": "OpenAI Anthropic Google Simultaneous AI Service Outages September 3 Infrastructure",
+      "count": 1,
+      "last_published": "2026-09-06",
+      "slugs": [
+        "2026-09-06-ai-service-outages"
       ]
     }
   ]
