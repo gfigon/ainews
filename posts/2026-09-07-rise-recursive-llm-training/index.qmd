@@ -1,0 +1,46 @@
+---
+title: "RISE: A New Paradigm for Continuous LLM Improvement Without External Teachers"
+date: "2026-09-07 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Researchers propose RISE, a method that enables language models to improve themselves recursively using their own training trajectories, without relying on external teachers."
+image: "/assets/post-images/2026-09-07-rise-recursive-llm-training.svg"
+---
+
+A new research paper introduces a paradigm shift in language model training: a method called RISE (Recursive Improvement via Self-Extrapolating Policy Distillation) that allows models to improve themselves continuously without relying on external teacher models.
+
+## The Problem with Current Approaches
+
+Modern language model training relies heavily on two approaches: reinforcement learning from verifiable outcomes (RLVR) and on-policy distillation (OPD). RLVR provides sparse, outcome-based supervision—rewarding models only when they reach correct final answers. OPD offers denser, token-level guidance from a teacher model.
+
+However, both approaches have limitations. External teachers suffer from "distribution mismatch"—they're trained on different data and may not align with the student's learning needs. Self-distillation using privileged in-context conditioning is constrained by the model's own context window capacity.
+
+## Enter RISE
+
+RISE proposes a elegant solution: create a synthetic teacher directly from the model's own training trajectory. The method works by extrapolating the "displacement" between the current model checkpoint and a trailing anchor point—both in parameter space and output logit space.
+
+This extrapolation converts sparse, outcome-induced parameter updates into dense, token-level targets. The model essentially teaches itself, using its own learning progress as the reference point.
+
+## A Recursive Loop
+
+What makes RISE particularly innovative is its recursive nature. The method combines RLVR and OPD in a complementary loop:
+
+- **Outcome rewards ground the extrapolation** toward correct reasoning paths
+- **The extrapolated teacher refines token-level decisions** that pure RLVR cannot address
+- **The teacher refreshes every iteration** as the student improves, making distillation a continuous improvement mechanism rather than a one-time compression step
+
+## Results
+
+Experiments across mathematical reasoning, multi-domain STEM, code generation, and multi-turn agentic tasks show RISE outperforms both RLVR-only training and traditional on-policy self-distillation across all settings.
+
+The approach represents a significant step toward self-improving AI systems that can continuously enhance their capabilities without human-curated training data or external model supervision.
+
+## Why This Matters
+
+As frontier models approach human-level performance on many tasks, traditional scaling approaches face diminishing returns. Self-improvement methods like RISE offer a path to continued advancement by enabling models to discover and correct their own weaknesses.
+
+The research also has practical implications: organizations could use RISE to specialize models for domain-specific tasks without requiring expensive external model APIs or curated distillation datasets.
+
+The paper is available on arXiv (2609.05295).

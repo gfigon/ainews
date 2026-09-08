@@ -1,6 +1,86 @@
 {
   "topics": [
     {
+      "term": "EU Probe OpenAI Agent Swarm DSEwiki German Wiki 18000 Messages",
+      "count": 1,
+      "last_published": "2026-09-08",
+      "slugs": [
+        "2026-09-08-eu-openai-agent-swarm-probe"
+      ]
+    },
+    {
+      "term": "GitHub Copilot Multi-Agent Workspace Coordinated Team Autonomous Coding",
+      "count": 1,
+      "last_published": "2026-09-08",
+      "slugs": [
+        "2026-09-08-github-copilot-multi-agent-workspace"
+      ]
+    },
+    {
+      "term": "DeepMind 100-Agent Swarm Governance Eval Exploit Self-Organization Emergent",
+      "count": 1,
+      "last_published": "2026-09-08",
+      "slugs": [
+        "2026-09-08-deepmind-100-agent-swarm"
+      ]
+    },
+    {
+      "term": "Model Fatigue AI Labs Rapid Model Releases Frantic Pace Industry",
+      "count": 1,
+      "last_published": "2026-09-08",
+      "slugs": [
+        "2026-09-08-model-fatigue-ai-industry"
+      ]
+    },
+    {
+      "term": "Agentic Ransomware Enterprise Breach 10 Hours 50 MITRE ATT&CK",
+      "count": 1,
+      "last_published": "2026-09-08",
+      "slugs": [
+        "2026-09-08-ai-agent-ransomware-enterprise"
+      ]
+    },
+    {
+      "term": "Horizon3 $250M AI Red Team Platform Autonomous Security Testing",
+      "count": 1,
+      "last_published": "2026-09-07",
+      "slugs": [
+        "2026-09-07-horizon3-ai-security-250m"
+      ]
+    },
+    {
+      "term": "Meta Llama 4 API Expansion Enterprise Workflow Automation",
+      "count": 1,
+      "last_published": "2026-09-07",
+      "slugs": [
+        "2026-09-07-meta-muse-spark-api-expansion"
+      ]
+    },
+    {
+      "term": "Meta Muse Voice Transcribe Real-Time Speech-to-Text",
+      "count": 1,
+      "last_published": "2026-09-07",
+      "slugs": [
+        "2026-09-07-meta-muse-voice-transcribe"
+      ]
+    },
+    {
+      "term": "RISE Recursive Improvement Self-Extrapolating Policy Distillation LLM Training",
+      "count": 1,
+      "last_published": "2026-09-07",
+      "slugs": [
+        "2026-09-07-rise-recursive-llm-training"
+      ]
+    },
+    {
+      "term": "Students Accept AI Feedback But Reject AI Grading Authority Education Study",
+      "count": 1,
+      "last_published": "2026-09-07",
+      "slugs": [
+        "2026-09-07-student-perspectives-ai-grading"
+      ]
+    },
+    {
       "term": "Google Gemini 3.8 Flash Cyber Fairwind Program 650 Partners Defense",
       "count": 1,
       "last_published": "2026-09-06",

@@ -1,0 +1,36 @@
+---
+title: "Students Accept AI Feedback But Reject AI Grading Authority, Study Finds"
+date: "2026-09-07 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "New research reveals university students embrace AI-generated feedback for revision but draw the line at AI determining grades, highlighting a key tension in education's AI adoption."
+image: "/assets/post-images/2026-09-07-student-perspectives-ai-grading.svg"
+---
+
+A new study from Saudi Arabian researchers sheds light on a growing tension in education: students are increasingly willing to use AI-generated feedback, but they remain skeptical of AI systems making final grading decisions.
+
+The research, published on arXiv this week, surveyed 13 undergraduate computing students at a Saudi public university who completed handwritten writing tasks evaluated by ChatGPT using a rubric-based prompt. Students were explicitly told that AI had generated both the score and feedback, then asked to reflect on the experience.
+
+## Key Findings
+
+The study identified four major themes in student responses:
+
+**Feedback utility vs. evaluative authority emerged as the critical distinction.** Students accepted AI-generated feedback as useful for surface-level revision—catching grammar errors, improving clarity, and suggesting structural changes. However, they consistently maintained that human instructors should retain final authority over grading decisions.
+
+**Awareness of AI limitations shaped student trust.** Participants recognized that AI lacks contextual understanding of pedagogical goals and individual student circumstances. This awareness led to "conditional trust"—students valued AI feedback for technical aspects while questioning its suitability for assessing nuanced academic work.
+
+**Students want transparency about AI involvement.** The study emphasized that explicit disclosure of AI evaluation mattered. When students knew AI had graded their work, they could contextualize the feedback appropriately. Covert AI grading would likely erode trust further.
+
+**The human instructor remains essential.** Despite AI's growing role in education, students still see teachers as irreplaceable for guiding intellectual development and making judgment calls that consider the whole student.
+
+## Implications for Education Policy
+
+The findings arrive as universities worldwide grapple with AI's role in assessment. Many institutions have rushed to deploy AI grading systems, often without clear policies or transparency about when and how AI evaluates student work.
+
+For policymakers, the study suggests that student acceptance depends on positioning AI as a辅助工具 (assistive tool) rather than a replacement for human judgment. Simply deploying AI for grading without clear human oversight could backfire, creating resistance rather than adoption.
+
+The research also highlights the need for institutions to develop clear disclosure policies—students should know when AI has evaluated their work, and institutions should maintain human review mechanisms for consequential decisions.
+
+This student perspective adds important nuance to the AI-in-education debate. While AI can provide scalable, instant feedback at scale, the human element in assessment appears irreplaceable—at least for now.

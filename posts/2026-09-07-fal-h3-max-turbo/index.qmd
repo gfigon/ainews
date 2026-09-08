@@ -1,0 +1,26 @@
+---
+title: "fal Launches H3 Max Turbo: Video Generation at One Cent Per Second"
+date: "2026-09-07 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "fal releases MiniMax H3 Max Turbo, delivering near-full quality video generation at just $0.01 per second—half the price of the standard model."
+image: "/assets/post-images/2026-09-07-fal-h3-max-turbo.svg"
+---
+
+fal has launched H3 Max Turbo, a cost-optimized variant of its MiniMax-powered video generation model that achieves approximately 97% of the full H3 Max quality at roughly half the price. The new model generates video clips in just 1.4 seconds at a cost of $0.01 per second for 768p resolution—positioning it as one of the most affordable high-quality video generation options available.
+
+The September 3, 2026 release targets developers and content creators who need rapid video generation without the premium pricing of earlier models. According to live tests conducted during the ThursdAI weekly stream, H3 Max Turbo produces results nearly indistinguishable from the full H3 Max for most use cases, with generation speed that enables real-time applications.
+
+Pricing has been a critical factor in the video generation market. At $0.01 per second, H3 Max Turbo undercuts competitors significantly—making automated video content creation economically viable for a broader range of applications. A 10-second clip costs just $0.10, compared to $0.20 or more with previous generations.
+
+Beyond cost, the model addresses a longstanding concern in AI video generation: copyright enforcement. Live testing found that H3 Max Turbo no longer renders copyrighted characters in the same manner as its predecessor, suggesting improved content filtering without sacrificing overall quality.
+
+The release comes as video generation becomes increasingly competitive. Runway's GWM Worlds 2, also announced in early September, promises real-time 720p generation at 24 frames per second. However, fal's pricing advantage could attract developers building high-volume applications such as personalized advertising, educational content, and social media automation.
+
+"We're entering the era where video generation becomes a utility rather than a premium feature," noted an AI infrastructure analyst. "At these price points, the economics shift from experimentation to production deployment."
+
+H3 Max Turbo is available immediately through fal's API, with documentation for integration into existing applications. The company recommends the model for use cases where slight quality trade-offs are acceptable in exchange for significant cost savings—particularly batch processing, A/B testing creative variations, and applications requiring high generation volume.
+
+The release adds to fal's growing portfolio of accessible AI generation tools, following their strategy of democratizing high-quality AI capabilities through aggressive pricing and developer-friendly APIs.
