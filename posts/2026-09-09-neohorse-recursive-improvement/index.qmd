@@ -1,0 +1,26 @@
+---
+title: "NeoHorse-1 Paper Proposes Concrete Path to Recursive Self-Improvement"
+date: "2026-09-09 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "New arXiv paper details an agentic post-training loop that routes queries across models, evaluates results, and distills reasoning back into training data — achieving measurable gains on 11 benchmarks."
+image: "/assets/post-images/2026-09-09-neohorse-recursive-improvement.svg"
+---
+
+A new paper posted to arXiv on September 8 proposes the most concrete mechanism to date for recursive self-improvement in AI systems — and the results are already generating concern in safety communities.
+
+The NeoHorse-1 framework, developed by an academic team and posted to arXiv, implements what it calls an "agentic post-training loop": queries route across multiple models, semantic evaluation selects the best rollouts, and reasoning traces and tool interactions get distilled back into training data for the next cycle.
+
+The key innovation is the evaluation-selection-update loop. Rather than static training data, the system continuously generates new training examples based on what it learns to do. "What the system learns to do shapes what it learns from next" — a formulation that mirrors the recursive improvement scenarios that AI safety researchers have warned about.
+
+The paper reports measurable gains across 11 benchmarks. A 4B parameter model improved from 58.94 to 64.87. A 9B model rose from 65.60 to 69.04. The improvements closed gaps to larger models, suggesting the loop amplifies capability beyond what static training alone would achieve.
+
+The timing is significant. The paper dropped just one day after Anthropic alignment lead Evan Hubinger warned that recursive self-improvement was his primary concern for AI extinction risk — and that no lab is "clearly on track" to solve it. NeoHorse-1 demonstrates that the technical capability is no longer theoretical.
+
+The framework requires agentic infrastructure — models that can execute multi-step tasks, call tools, and evaluate their own outputs. That describes the current generation of frontier models from OpenAI, Anthropic, and Google. Deploying a self-improvement loop on those systems would require only engineering, not new fundamental breakthroughs.
+
+What remains unclear is whether the benchmark gains translate to capability improvements that could make systems harder to control. The paper does not address deployment guardrails or alignment properties. For safety researchers, this is the missing piece that makes the result simultaneously impressive and unsettling.
+
+NeoHorse-1 may represent a turning point: the moment recursive self-improvement moved from speculation to implementation.

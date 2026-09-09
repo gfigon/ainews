@@ -1,0 +1,24 @@
+---
+title: "Anthropic Safety Researcher Quits, Warns Industry Heads for 'Endgame'"
+date: "2026-09-09 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "27-year-old Anthropic researcher Jacob Coxon resigns, warning that AI labs are on a dangerous trajectory toward uncontrollable self-improving systems within months."
+image: "/assets/post-images/2026-09-09-anthropic-researcher-quit.svg"
+---
+
+A 27-year-old Anthropic researcher who joined the lab from OpenAI earlier this year has told the Wall Street Journal he is leaving the AI industry because no single lab can safely build self-improving systems while others race to do so first.
+
+Jacob Coxon's resignation, announced publicly on September 9, follows similar departures across the AI safety community and comes amid mounting concerns about recursive self-improvement — the theoretical capability of AI systems to improve their own code and capabilities without human oversight.
+
+"We're on track for a lot of the most aggressive of these scenarios where by the end of next year things could be out of control already," Coxon told the WSJ. He said colleagues increasingly describe capability progress with words like "crunchtime" and "endgame," language that underscores the tension between safety researchers and product-focused teams racing to deploy increasingly capable systems.
+
+The same day, Anthropic's own Alignment Science lead Evan Hubinger posted on X that he "earnestly believes AI could kill all humans" and put his personal extinction-risk estimate at more than than 10% within the next decade. Hubinger conceded Anthropic has no concrete plan to solve alignment for superintelligence and is "not clearly on track" to do so, singling out recursive self-improvement as his primary concern.
+
+The timing of both announcements — on the same day from the same organization — represents an extraordinary public split within one of the industry's most safety-conscious labs. Anthropic has positioned itself as the responsible alternative to OpenAI and Google, building its brand on constitutional AI and safety research. The dual departures suggest that even internally, the gap between safety aspirations and deployment reality is widening.
+
+Coxon argued that meaningful coordination across the industry or government is now essential before self-improving systems become significantly harder to steer. So far, no such coordination exists. The EU AI Act remains focused on narrow AI risks, and the US has punted on binding federal AI safety requirements.
+
+For now, the warning lights are flashing. Two researchers from the same lab, on the same day, both pointing toward the same horizon — and neither claiming to have a solution.
