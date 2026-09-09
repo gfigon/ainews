@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Safety Researcher Quit Extinction Risk 10% Endgame Warning",
+      "count": 1,
+      "last_published": "2026-09-09",
+      "slugs": [
+        "2026-09-09-anthropic-researcher-quit"
+      ]
+    },
+    {
+      "term": "US States Data Center Tax Breaks Rollback $1B Infrastructure",
+      "count": 1,
+      "last_published": "2026-09-09",
+      "slugs": [
+        "2026-09-09-data-center-tax-rollback"
+      ]
+    },
+    {
+      "term": "NeoHorse-1 Recursive Self-Improvement ArXiv Paper Agentic Loop",
+      "count": 1,
+      "last_published": "2026-09-09",
+      "slugs": [
+        "2026-09-09-neohorse-recursive-improvement"
+      ]
+    },
+    {
       "term": "EU Probe OpenAI Agent Swarm DSEwiki German Wiki 18000 Messages",
       "count": 1,
       "last_published": "2026-09-08",
