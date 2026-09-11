@@ -1,6 +1,54 @@
 {
   "topics": [
     {
+      "term": "OpenAI Agents API Production Platform Tool Calling Memory Security Enterprise",
+      "count": 1,
+      "last_published": "2026-09-11",
+      "slugs": [
+        "2026-09-11-openai-agents-api"
+      ]
+    },
+    {
+      "term": "Cognition SWE-2 Coding Agent Devin Fable 5.1 GPT-Astra Benchmark",
+      "count": 1,
+      "last_published": "2026-09-11",
+      "slugs": [
+        "2026-09-11-cognition-swe2"
+      ]
+    },
+    {
+      "term": "OpenAI Navier-Stokes Millennium Prize Problem 10K Agents Lean 4 Formal Proof",
+      "count": 1,
+      "last_published": "2026-09-11",
+      "slugs": [
+        "2026-09-11-openai-navier-stokes-proof"
+      ]
+    },
+    {
+      "term": "Microsoft Rust Tier-1 Language MSVC Codegen SDL Security",
+      "count": 1,
+      "last_published": "2026-09-11",
+      "slugs": [
+        "2026-09-11-microsoft-rust-tier1"
+      ]
+    },
+    {
+      "term": "Google ADK CVE-2026-79696 CVSS 10 Remote Code Execution Vulnerability",
+      "count": 1,
+      "last_published": "2026-09-10",
+      "slugs": [
+        "2026-09-10-google-adk-cve"
+      ]
+    },
+    {
+      "term": "NVIDIA Australian 2-Gigawatt AI Factory Partnership Firmus CDC AirTrunk",
+      "count": 1,
+      "last_published": "2026-09-10",
+      "slugs": [
+        "2026-09-10-nvidia-australia-ai-factories"
+      ]
+    },
+    {
       "term": "Anthropic Safety Researcher Quit Extinction Risk 10% Endgame Warning",
       "count": 1,
       "last_published": "2026-09-09",
