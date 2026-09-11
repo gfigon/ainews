@@ -1,0 +1,26 @@
+---
+title: "Cognition Launches SWE-2 Coding Agent, Rivals Anthropic Fable 5.1 and OpenAI GPT-Astra"
+date: "2026-09-11 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "Cognition releases SWE-2, its latest AI coding agent that achieves competitive performance with Anthropic's Fable 5.1 and OpenAI's GPT-Astra on software engineering benchmarks."
+image: "/assets/post-images/2026-09-11-cognition-swe2.svg"
+---
+
+Cognition, the AI startup behind the autonomous coding assistant Devin, unveiled SWE-2 on September 11, 2026—a new coding agent model that the company claims achieves parity with Anthropic's Fable 5.1 and OpenAI's GPT-Astra on established software engineering benchmarks.
+
+The release represents a significant escalation in the AI coding wars, with all three major players now offering production-grade autonomous coding agents. SWE-2 builds on lessons from Devin's deployment across enterprise customers, incorporating improvements in code generation, test writing, bug detection, and multi-file refactoring capabilities.
+
+According to Cognition's benchmark results, SWE-2 achieves 94.2% pass rate on SWE-bench Lite, a widely-used evaluation for real-world software engineering problems extracted from GitHub issues. This places it within striking distance of Fable 5.1's reported 95.1% and GPT-Astra's 94.8%, while maintaining faster inference times according to the company's internal measurements.
+
+"We learned something crucial from deploying Devin to thousands of enterprise developers," said Cognition's CEO. "It's not just about solving problems—it's about solving them in ways that fit naturally into existing developer workflows. SWE-2 is designed to be collaborative rather than disruptive."
+
+The model introduces what Cognition calls "intelligent context preservation"—a mechanism for maintaining project awareness across discontinuous coding sessions. Unlike previous approaches that treat each task as isolated, SWE-2 maintains a lightweight project graph that allows the agent to understand architectural decisions made hours or days earlier.
+
+Pricing for SWE-2 follows a subscription model at $39 per month for individual developers, with team plans starting at $99 per month. Enterprise deployments include API access with custom fine-tuning options. Notably, Cognition has opted against a pay-per-token model, arguing that agent usage patterns don't align well with token-based billing.
+
+The launch comes amid intensifying competition in the AI coding space. Anthropic recently enhanced Fable 5.1 with expanded enterprise features, while OpenAI's GPT-Astra benefits from deep integration with the new Agents API. Open-source alternatives including OpenDevin and AI-Coding-Agent continue to gain traction among developers preferring self-hosted solutions.
+
+Independent evaluations from the agentic coding research community have begun appearing on Hacker News, with mixed but generally positive early results. Some developers report that SWE-2 excels at greenfield code generation but shows more variable performance on legacy codebases with complex dependencies.
