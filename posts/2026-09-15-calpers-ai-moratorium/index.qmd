@@ -1,0 +1,30 @@
+---
+title: "CalPERS Board Debates AI Moratorium After Anthropic Resignation"
+date: "2026-09-15 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "The $655B CalPERS pension fund board discussed AI guardrails and a potential moratorium following former Anthropic researcher Jacob Coxon's resignation warning."
+image: "/assets/post-images/2026-09-15-calpers-ai-moratorium.svg"
+---
+
+California's largest public pension fund is grappling with questions about AI risk. The CalPERS board of administration debated whether to publicly back AI guardrails or pursue a moratorium following Jacob Coxon's high-profile resignation from Anthropic.
+
+## The Debate
+
+CalPERS President Theresa Taylor urged the $655 billion pension fund's board to take a public stance on AI guardrails, arguing: "If we don't have retirees, if we don't have state workers because of AI, we don't have a pension fund." Taylor cited Coxon's resignation from Anthropic, where he warned about extinction-level AI risks, as justification for the board to act.
+
+Chief Investment Officer Stephen Gilmore pushed back, noting that AI outcomes span "a very wide distribution"—acknowledging both the technology's benefits and potential risks. The board ultimately took no action on either a formal statement or portfolio adjustments.
+
+## Context: The Coxon Resignation
+
+Jacob Coxon, a former Anthropic researcher who served on the company's responsible AI team, resigned in September 2026 with a public warning about the trajectory of frontier AI development. His departure added fuel to ongoing debates about AI safety and corporate governance at leading AI labs.
+
+The CalPERS discussion reflects growing institutional investor concern about AI risks. As one of the world's largest pension funds, any portfolio adjustments or policy positions from CalPERS could signal broader institutional attitudes toward AI companies.
+
+## What's Next
+
+While no immediate action was taken, the debate marks a notable moment where pension fund governance intersects with AI policy. With House Speaker Johnson signaling potential hearings with AI executives on guardrail legislation, institutional investors may face increasing pressure to articulate their positions on AI risk.
+
+---

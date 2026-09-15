@@ -1,0 +1,30 @@
+---
+title: "RSIAgent: Training-Free Recursive Self-Improvement Beats GPT-6"
+date: "2026-09-15 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "New arXiv paper introduces RSIAgent, a training-free multi-agent framework that lets open-source models like Kimi K3 and GLM-5.3 outperform frontier systems including GPT-6."
+image: "/assets/post-images/2026-09-15-rsiatrain-free-recursive.svg"
+---
+
+A groundbreaking arXiv paper introduces RSIAgent, a training-free multi-agent framework that achieves recursive self-improvement without touching model weights. The system uses curriculum, actor, and verifier agents to build reusable environment memory, enabling open-source models to surpass frontier systems including GPT-6.
+
+## How RSIAgent Works
+
+Traditional AI agent improvements require expensive fine-tuning and GPU-intensive training. RSIAgent takes a different approach by leveraging a "broad-then-deep" exploration strategy that captures causal action-outcome traces and hidden constraints within the environment.
+
+The framework consists of three core components: a curriculum agent that structures learning tasks, an actor agent that executes actions, and a verifier agent that validates outcomes. Together, they build reusable environment memory that can be transferred to downstream tasks without any fine-tuning.
+
+## Benchmark Results
+
+On OSWorld-v2 and Agent's Last Exam benchmarks, RSIAgent enabled open-source models Kimi K3 and GLM-5.3 to outperform closed-source frontier systems including GPT-6. The frozen memory transfers to new tasks without requiring additional training, making the approach particularly cost-effective.
+
+## Implications for AI Development
+
+The research represents a shift from weight-based to memory-based intelligence. By building external environment memory rather than modifying internal model parameters, RSIAgent sidesteps the computational costs and potential alignment risks of traditional training methods.
+
+The paper's authors position RSI-friendly R&D as project-level human-AI partnership rather than autonomous task execution—a notable framing in the current landscape of AI safety debates.
+
+---
