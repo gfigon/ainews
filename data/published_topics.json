@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "RSIAgent Training-Free Recursive Self-Improvement Kimi K3 GLM-5.3 GPT-6",
+      "count": 1,
+      "last_published": "2026-09-15",
+      "slugs": [
+        "2026-09-15-rsiatrain-free-recursive"
+      ]
+    },
+    {
+      "term": "CalPERS $655B AI Moratorium Board Debate Anthropic Jacob Coxon Resignation",
+      "count": 1,
+      "last_published": "2026-09-15",
+      "slugs": [
+        "2026-09-15-calpers-ai-moratorium"
+      ]
+    },
+    {
       "term": "OpenAI Agents API Production Platform Tool Calling Memory Security Enterprise",
       "count": 1,
       "last_published": "2026-09-11",
