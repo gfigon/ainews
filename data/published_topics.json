@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Anthropic Claude R&D Automation Index 26% August 2026",
+      "count": 1,
+      "last_published": "2026-09-18",
+      "slugs": [
+        "2026-09-18-anthropic-claude-rd-automation"
+      ]
+    },
+    {
+      "term": "OpenAI Astra for Law GPT-6 Legal Vertical September 2026",
+      "count": 1,
+      "last_published": "2026-09-18",
+      "slugs": [
+        "2026-09-18-openai-astra-law"
+      ]
+    },
+    {
       "term": "MediaTek Dimensity 9600 Pro 2nm TSMC N2P Native AI Architecture Mobile Chip",
       "count": 1,
       "last_published": "2026-09-15",
