@@ -1,0 +1,30 @@
+---
+title: "Anthropic's Claude Now Leads 26% of Its Own AI Research and Development"
+date: "2026-09-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Security & Policy
+summary: "Anthropic reveals its R&D Automation Index, showing Claude now leads 26% of internal AI research—up from under 1% in February—raising fresh questions about recursive self-improvement timelines."
+image: "/assets/post-images/2026-09-18-anthropic-claude-rd-automation.svg"
+---
+
+Anthropic published the first results of its prototype R&D Automation Index on September 17, revealing that Claude now leads 26% of the company's own AI research and development work as of August 2026—up from under 1% in February. The measurement uses Epoch AI's Automation Level scale, which ranges from AL0 (no AI involvement) to AL5 (fully autonomous with no human in the loop).
+
+The index was built by randomly sampling 20% of staff across departments in July 2026, identifying approximately 15,000 granular R&D tasks from Slack and internal documents. These were organized into a 542-node hierarchy with 378 leaf nodes, with an independent Claude judge assigning automation levels weighted by person-time.
+
+## What the Numbers Mean
+
+At AL4—"leads"—the model completes most of a task end-to-end from a high-level prompt while a human supervises. Work at AL3 ("collaborates") or above now accounts for more than 90% of Anthropic's research, meaning almost none of the company's R&D happens without the model in the loop anymore.
+
+Thirty thousand research and engineering agents operate simultaneously inside Anthropic. Online monitors cover 100% of agent actions before execution and block roughly 1 action in 47,000. Offline monitors flag about 100,000 transcripts per week, of which approximately 50 escalate to humans.
+
+Zero percent at AL5—the fully autonomous level—is the line Anthropic wants read carefully. Fully autonomous AI R&D is exactly the scenario that Dario Amodei's recent "pacing essay" warned about when arguing for a six-to-twelve-month slowdown.
+
+## Safety Compute: 6% of R&D
+
+In the week of July 13-20, 6% of AI R&D compute and 12% of AI-driven AI R&D compute went to safety work—figures Anthropic calls deliberately conservative. This is the first time any lab has published such a ratio.
+
+The disclosure comes just six days after Amodei publicly asked the industry to slow down. The timing is unlikely coincidental: the automation index provides the quantitative backing for why the pacing concern matters.
+
+"If Claude leads a quarter of its own development today and the curve holds, the next index reads 50% by spring," noted one observer. "That's the number the botnet warning was actually about."

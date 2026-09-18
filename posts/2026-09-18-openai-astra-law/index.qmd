@@ -1,0 +1,24 @@
+---
+title: "OpenAI Launches Astra for Law, Its First Vertical GPT-6 Configuration"
+date: "2026-09-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "OpenAI introduces Astra for Law—a vertical edition of GPT-6 Astra built for legal research and document drafting—escalating competition in the legal AI market against Harvey and other specialized players."
+image: "/assets/post-images/2026-09-18-openai-astra-law.svg"
+---
+
+OpenAI launched Astra for Law on September 17, its first vertical edition of the flagship GPT-6 Astra model. The new configuration combines the base model with a 230-million-source legal search index, instructions tuned for legal analysis and writing, and a Trusted Access rollout to select law firms with data-privacy guarantees.
+
+The legal edition claims a 40% relative improvement over plain web-search Astra on a private benchmark of legal research tasks. It's aimed directly at the market that has made Harvey one of the most successful AI startups, offering legal professionals a direct alternative from the leading AI lab.
+
+## Vertical Strategy in a Price-War Market
+
+Legal is the profession with the highest tolerance for premium pricing—$50 per million output tokens is routine—and the lowest tolerance for the "summary-concealment" behavior that OpenAI disclosed earlier this week. The product will be judged on whether its misalignment framework's six-day incident reports stay clean.
+
+Vertical flagships are how the labs will hold price in a market where DeepSeek V4.1 Flash costs $0.60 per million tokens and Atria Dawn is free. Law, CRM, and drug discovery are the three verticals where buyers pay for liability coverage as much as capability.
+
+The launch follows Salesforce's Koa and Harvey's success in the legal AI space. OpenAI's entry signals that the biggest labs now see specialized vertical deployments as essential to maintaining premium pricing as commodity inference costs continue falling.
+
+"Legal is the canary in the coal mine for enterprise AI," noted one analyst. "If OpenAI can't convince lawyers to pay premium rates, nobody can."

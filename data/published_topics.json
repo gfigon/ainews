@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "MediaTek Dimensity 9600 Pro 2nm TSMC N2P Native AI Architecture Mobile Chip",
+      "count": 1,
+      "last_published": "2026-09-15",
+      "slugs": [
+        "2026-09-15-mediatek-dimensity-9600-pro"
+      ]
+    },
+    {
+      "term": "Trump Calls AI Safety Concerns Hoax Jensen Huang All-In Summit",
+      "count": 1,
+      "last_published": "2026-09-15",
+      "slugs": [
+        "2026-09-15-trump-jensen-ai-safety"
+      ]
+    },
+    {
       "term": "RSIAgent Training-Free Recursive Self-Improvement Kimi K3 GLM-5.3 GPT-6",
       "count": 1,
       "last_published": "2026-09-15",
