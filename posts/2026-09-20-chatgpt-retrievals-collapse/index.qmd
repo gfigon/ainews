@@ -1,0 +1,22 @@
+---
+title: "ChatGPT Retrieval Traffic Drops 85% Since August"
+date: "2026-09-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "Publisher traffic from ChatGPT dropped 85% since early August, as AI search behavior shifts and crawler policies tighten."
+image: "/assets/post-images/2026-09-20-chatgpt-retrievals-collapse.svg"
+---
+
+Publisher traffic from ChatGPT has collapsed by 85 percent since early August, according to server log analysis from AI news publications. The decline coincides with changes to ChatGPT Search query scoping and new default blocking by content delivery networks.
+
+The data shows ChatGPT retrievals peaked at 7,507 on August 5 and fell to 1,118 by September 18—down 85 percent. Meanwhile, OpenAI's web crawl volume has roughly tripled over the same period, indicating that retrieval preferences changed rather than overall crawling activity.
+
+Two specific changes drove the decline. On August 8, ChatGPT Search began scoping queries to specific domains and preferring official brand sites. Reddit's citation share fell 86 percent over the following nine days. Then on September 15, Cloudflare changed its default settings to block AI Training and Agent crawlers.
+
+The shift has significant implications for publishers who built strategies around AI search traffic. While OpenAI's OAI-SearchBot is up roughly 3.5 times and GPTBot up 2.9 times since the GPT-5 launch, the content they surface has narrowed considerably.
+
+The analysis also found Bingbot outpacing Googlebot by a 6.4-to-1 ratio on AI-focused publications. This crawl behavior difference may influence which content appears in different AI search products.
+
+For publishers, the takeaway is that AI search traffic is becoming less predictable and more dependent on direct partnerships and domain-specific visibility rather than broad content availability.

@@ -1,0 +1,20 @@
+---
+title: "Anthropic Targets November IPO with $65 Billion Run Rate"
+date: "2026-09-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - LLMs & Models
+summary: "Anthropic is targeting a November listing with a reported valuation up to $2 trillion, as revenue grew from $9B to $65B in seven months."
+image: "/assets/post-images/2026-09-20-anthropic-ipo-november.svg"
+---
+
+Anthropic is targeting a November initial public offering, according to multiple reports, marking the most significant AI company listing attempt since the generative AI boom began. The company filed confidentially on June 1, 2026.
+
+The reported valuation ranges up to $2 trillion with a potential raise of up to $100 billion, though these figures vary by outlet and the timing may still change. The revenue trajectory is more concrete: approximately $9 billion at the end of 2025, growing to about $65 billion by the end of July 2026—a seven-month expansion that underscores the rapid commercial adoption of Claude and other AI models.
+
+This timeline differs from earlier investor expectations of an October debut. Meanwhile, OpenAI ruled out a 2026 listing on September 12, stating the company is targeting 2027 or later. The two companies' IPO strategies have now fully diverged.
+
+Anthropic's path to profitability has been notable. The company achieved its first profitable quarter in Q2 2026 with $559 million in operating income on $10.9 billion in revenue. The November listing would represent a major milestone for the AI startup ecosystem and provide liquidity for early investors.
+
+The IPO comes amid heightened regulatory scrutiny of AI companies and ongoing discussions about safety practices. Anthropic has faced questions about its approach to AI safety following researcher departures and disclosures about model behavior, though the company has also been more transparent than competitors in some areas, recently publishing its R&D Automation Index and internal safety metrics.

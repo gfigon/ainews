@@ -1,0 +1,22 @@
+---
+title: "OpenAI Releases Australian Youth Safety Blueprint for AI Guidelines"
+date: "2026-09-20 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI unveils a six-pillar framework for protecting young people in AI products, coinciding with ChatGPT for Teens rollout in Australia."
+image: "/assets/post-images/2026-09-20-openai-australia-youth-safety.svg"
+---
+
+OpenAI has introduced the Australian Youth Safety Blueprint, a comprehensive roadmap for protecting young people as they use AI tools. The six-pillar framework addresses AI literacy, age-appropriate safeguards, privacy-protective age assurance, connections to crisis support, and accessible parental controls.
+
+The release coincides with OpenAI's rollout of ChatGPT for Teens in Australia, a new default experience for users identified as aged 13 to 17. The teen-specific version includes updated safeguards designed around the developmental needs of adolescents—a approach the company says acknowledges that responsibility for safety should not fall primarily on young people or their families.
+
+The blueprint outlines how responsible AI should work for teens and how companies should be held accountable for identifying and addressing risks to young people. It represents OpenAI's practical contribution to the Australian policy landscape, where regulators are actively shaping standards for AI deployment.
+
+Australia has emerged as an important testing ground for AI safety policies. The country's regulators have been working on evidence-based standards that balance protecting young people while preserving access to AI's benefits. OpenAI's blueprint could influence broader policy discussions beyond Australia.
+
+The company emphasized that building protections into products from the outset—rather than relying solely on families to monitor usage—represents a more sustainable approach to youth safety. This positioning aligns with growing regulatory pressure on tech companies to demonstrate proactive safety measures.
+
+OpenAI stated it is committed to ongoing collaboration with teens, parents, educators, researchers, and policymakers as the framework evolves. The blueprint acknowledges that this is initial work and more development is needed as AI adoption among young people continues to grow.
