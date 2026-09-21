@@ -1,0 +1,22 @@
+---
+title: "Google's Gemini 3.8 Live Undercuts GPT-Voice on Price While Apple Ships Gemini-Powered Siri"
+date: "2026-09-17 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Google's Gemini 3.8 Live takes the speech-to-speech leaderboard at half GPT-Live's price, while Apple's Gemini-powered Siri goes live on iPhone 15 Pro—though EU users are left out."
+image: "/assets/post-images/2026-09-17-gemini-38-live-siri.svg"
+---
+
+Google DeepMind released Gemini 3.8 Live on September 15, delivering the first real challenge to OpenAI's voice dominance. The model ranks first on the Artificial Analysis Speech-to-Speech Leaderboard at 82.6 percent, beating GPT-Live-1 that shipped just five days earlier. More significantly, Gemini 3.8 Live costs $1.38 per hour of audio output versus $3 or more for OpenAI's offering—a 54 percent price advantage.
+
+The technical leap matters beyond the leaderboard. Gemini 3.8 Live supports simultaneous visual input processing and API calls across 97 languages, enabling voice agents that can see a screen and take action. A customer-service bot that listens, watches, and executes transactions becomes economically viable at $1.38/hour—below the fully loaded cost of human agents anywhere.
+
+Apple deployed the rebuilt Siri powered by Google's Gemini models on September 14 with iOS 27. The feature works on iPhone 15 Pro and newer, but European Union users are excluded. Apple's reasoning: a Gemini-powered assistant with ambient transcription cannot clear the AI Act and Digital Markets Act deadlines. The exclusion hands roughly 450 million EU consumers to competitors, likely Google's own Gemini app.
+
+The distribution angle is striking. Gemini now runs inside Android devices, Chrome, Workspace, Windows desktops, and now Siri—the widest model distribution ever achieved by a company that trails Anthropic and OpenAI on capability rankings. Distribution is winning.
+
+What to watch: OpenAI has not priced GPT-Live-1 in the API five days after launch while Google set the price anchor. Expect OpenAI to match or undercut $1.38 within the month. Voice agents are the product category where per-hour cost determines deployment scale.
+
+The wiretap question on Apple Watch's Live Rewind feature—recording 15 seconds of ambient conversation—remains unresolved. Legal experts in roughly 12 all-party consent states say the feature could trigger wiretap statutes. Apple maintains no audio is stored or transmitted off-device.

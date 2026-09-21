@@ -1,0 +1,35 @@
+---
+title: "Needle 3: 8-29MB AI Model Matches DeepSeek V4 Flash on Edge Devices"
+date: "2026-09-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "Cactus Compute releases Needle 3, a tiny 8-29MB foundation model designed for mobile, wearables, robots, and microcontrollers that matches DeepSeek V4 Flash after fine-tuning."
+image: "/assets/post-images/2026-09-19-needle3-tiny-models.svg"
+---
+
+A new entrant in the race to shrink artificial intelligence models for edge devices has emerged with a surprising claim: a foundation model small enough to run on microcontrollers can match frontier-level AI systems after task-specific fine-tuning.
+
+**Needle 3**, released by Cactus Compute, is an 8-29 megabyte foundation model designed for mobile phones, wearables, robots, smart home devices, automotive systems, and microcontrollers. The model uses a novel "intelligence laddering" approach where every layer of the network represents a sub-network with progressively increasing capacity.
+
+The architecture produces 9 to 29 megabyte CQ2-bit binaries that support a wide range of tiny devices. According to Cactus, when fine-tuned on downstream tasks for just one epoch, the 4-layer subnetwork can match **DeepSeek V4 Flash**—a model with vastly more parameters.
+
+## Practical Applications
+
+The model enables on-device AI capabilities without cloud connectivity:
+
+- **Smart home**: Execute commands like "dim the bedroom and lock up" entirely offline
+- **Robots**: Give vacuums nuanced instructions like "clean the kitchen but leave the bedroom"
+- **Phones**: Create albums from photos, open sites, or find documents without network calls
+- **Wearables**: Convert notifications into structured data on the wrist
+- **AR glasses**: Navigation and nearby search with no phone or network required
+- **Automotive**: Climate, media, navigation and calls from voice requests
+
+## Performance Specifications
+
+The model family ranges from 29 million to 121 million parameters using Laddered Simple Attention Networks with CQ2 quantization. Training utilized 360 billion tokens from a proprietary structured dataset. Decode speeds reach 400-4,000 tokens per second on a Raspberry Pi 5.
+
+Every response carries a confidence score from a calibrated head, with a floor of 0.1 applied by the engine. Below this threshold, tool calls are withheld; above it, developers can decide whether to act immediately, confirm with the user, or treat empty results as refusals.
+
+The release challenges the assumption that frontier AI capabilities require massive models running in data centers, demonstrating that targeted fine-tuning on small models can achieve competitive results for specific tasks.

@@ -1,0 +1,26 @@
+---
+title: "India Doubles Semiconductor Mission to $13.5B as Global Chip Race Intensifies"
+date: "2026-09-18 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Prime Minister Modi unveils Phase 2 of India's semiconductor push with $13.5B in funding, while Applied Materials commits $5B and Lam Research pledges $10,000 crore to the initiative."
+image: "/assets/post-images/2026-09-18-india-chip-mission.svg"
+---
+
+Prime Minister Narendra Modi has announced a major expansion of India's semiconductor ambitions, unveiling Phase 2 of the India Semiconductor Mission with a $13.5 billion outlay over 12 years—up from $8 billion in the initial phase.
+
+The announcement came at SEMICON India 2026 in Mumbai on September 17, where Modi framed the investment as essential to India's strategic autonomy in the AI era. The expanded mission includes new rules allowing foreign firms to partner directly with Indian startups and design houses.
+
+"Semiconductors are the foundation of the AI economy," Modi said. "India intends to be not just a consumer but a creator of this technology."
+
+The expanded funding drew immediate commitments from major equipment makers. Applied Materials pledged $5 billion over 10 years, including a 140-acre research park. Lam Research committed approximately ₹10,000 crore (around $1.2 billion) for its first Indian silicon component fabrication facility. Tata Electronics signed 16 supplier memoranda of understanding to support its domestic manufacturing ecosystem.
+
+India currently imports approximately 90% of its semiconductor needs, a dependency that the government has identified as a strategic vulnerability. The new mission aims to capture a meaningful share of global chip manufacturing, which has become increasingly concentrated in Taiwan and South Korea.
+
+The timing coincides with intensifying geopolitical competition over semiconductor technology. The U.S. and its allies have been actively encouraging supply chain diversification away from Taiwan, and India sees an opportunity to position itself as an alternative manufacturing hub.
+
+Industry analysts note that while the funding is substantial, India faces significant challenges in competing with established manufacturing ecosystems in Taiwan and South Korea. Building a skilled workforce and attracting downstream customers will be critical to the mission's success.
+
+The expanded semiconductor mission also aligns with India's broader AI infrastructure ambitions, which include plans for large-scale compute facilities and data center investments.

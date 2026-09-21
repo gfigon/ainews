@@ -1,0 +1,42 @@
+---
+title: "IBM Research Cuts AI Agent Consistency Gap in Half with New Guidelines System"
+date: "2026-09-19 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "IBM's ALTK-Evolve system identifies flip-prone decision points in agent trajectories and generates consistency guidelines, reducing the reliability gap from 24.4 to 12.0 percentage points."
+image: "/assets/post-images/2026-09-19-ibm-altk-evolve-consistency.svg"
+---
+
+IBM Research has unveiled a new approach to addressing one of AI agents' most persistent problems: reliability. Their ALTK-Evolve system now includes consistency guidelines that can cut the consistency gap in coding agents by roughly half, the company announced earlier this week.
+
+## The Consistency Problem
+
+When AI agents succeed in a demo or test, users naturally expect them to succeed again when given the same task. But that's often not what happens. A ReAct agent using GPT-4.1 on the AppWorld benchmark achieves a Mean@5 score of 77.4%—genuinely strong performance. Yet it succeeds on all five repeated runs for only 53.0% of tasks, revealing a 24.4-point "consistency gap" between average performance and reliable performance.
+
+"This isn't a capability problem you fix with a bigger model," IBM's research team explained. "An agent can be capable and inconsistent at the same time."
+
+## How ALTK-Evolve Works
+
+The new system operates in two stages. First, the Consistency Analyzer replays each decision point in a recorded trajectory, measuring how much the model's output varies through controlled resampling. This identifies "flip-prone" decision points—steps where the model was one token-sample away from taking a different action.
+
+Second, these identified points become candidates for consistency guidelines. The system automatically generates guidelines that target the specific instabilities, rather than task-specific trivia. Example guidelines include instructions like "use a line-anchored regex match rather than a plain substring count" for string-processing tasks, or "always verify search results by checking for multiple matches."
+
+## Results
+
+Applied to AppWorld test_normal with a ReAct agent on GPT-4.1, the consistency guidelines achieved significant improvements:
+
+- **Pass^5** (all five runs succeed) rose from 53.0% to 69.0%
+- **Mean@5** rose from 77.4% to 81.0%
+- The consistency gap narrowed from 24.4 points to 12.0 points
+
+The improvements were most pronounced on medium-difficulty tasks (+22.9 percentage points) and hard tasks (+14.3 points), with no degradation in average accuracy at any difficulty level.
+
+## Why Agents Flip
+
+The root cause lies in the shape of probability distributions during token generation. "Sharp" distributions concentrate most mass on a single token, making outcomes resilient to minor perturbations. "Flat" distributions spread comparable mass across several near-tied tokens, making outcomes sensitive to tiny changes in GPU floating-point calculations, request batching, or other platform-side effects.
+
+Because an agent trajectory chains dozens of decisions together, a small per-step chance of flipping compounds into a large chance that some run goes differently—explaining how a 24-point gap emerges from seemingly minor variations.
+
+The full technical report is available on [arXiv](https://arxiv.org/abs/2609.08832).

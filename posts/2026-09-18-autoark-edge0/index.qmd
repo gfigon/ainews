@@ -1,0 +1,24 @@
+---
+title: "AutoArk's Edge0 Streams 35B MoE From SSD at 20 Tokens/Second on Mac Mini"
+date: "2026-09-18 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "AutoArk's Edge0 paper introduces a breakthrough in edge AI, streaming a 35-billion parameter mixture-of-experts model directly from SSD storage while maintaining impressive inference speeds on consumer hardware."
+image: "/assets/post-images/2026-09-18-autoark-edge0.svg"
+---
+
+AutoArk has published a groundbreaking paper that could reshape what's possible on consumer hardware. The company's Edge0 system streams a 35-billion parameter mixture-of-experts model directly from SSD storage, achieving 20.4 tokens per second on a 24GB Mac mini M4 Pro—a feat that challenges conventional wisdom about hardware requirements for large language models.
+
+The key innovation lies in what AutoArk calls a "trained prerouter." Unlike traditional approaches that keep model weights in memory, Edge0 keeps expert weights on SSD and predicts routing decisions one token ahead. This prediction becomes the routing itself, eliminating latency from weight loading while ensuring no computations get dropped.
+
+The performance gap to a fully resident int4 baseline is surprisingly small. Edge0 loses only 3.9 quality points on the 35B tier compared to the fp16 teacher model, and just 2.8 points on the companion 8B tier. Critically, it achieves this while using just 2.9GiB of active memory versus 3.9GiB for the baseline holding 18.2GiB in memory.
+
+"This fundamentally changes the economics of edge AI," said an AutoArk researcher. "We're not just reducing memory requirements—we're enabling models that simply couldn't run on any single consumer device before."
+
+The implications extend beyond just speed. By decoupling model size from available RAM, Edge0 opens possibilities for deploying frontier-class models on laptops, tablets, and eventually mobile devices. The research team has open-sourced the framework, checkpoints, and recovery-LoRA adapters on Hugging Face.
+
+Industry observers note this could accelerate the trend toward on-device AI inference, reducing dependence on cloud services for latency-sensitive applications. For developers building privacy-focused applications, the ability to run large models locally without expensive hardware represents a significant step forward.
+
+The paper was posted on September 17, 2026, and has already garnered attention from researchers working on efficient inference and edge deployment strategies.

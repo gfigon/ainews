@@ -1,0 +1,30 @@
+---
+title: "OpenAI, Anthropic, and Google Propose FINRA-Style AI Safety Body"
+date: "2026-09-18 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Leading AI labs confirm talks on a federally overseen industry standards body for frontier model testing, marking a potential shift from self-regulation."
+image: "/assets/post-images/2026-09-18-openai-anthropic-google-ai-safety-body.svg"
+---
+
+OpenAI, Anthropic, and Google DeepMind confirmed this week that they have been holding private working-group meetings since July 2026 to discuss creating an industry-led AI standards body modeled on FINRA—the Financial Industry Regulatory Authority. The proposed body would set shared standards for testing frontier AI models before release, including independent evaluations and pre-release safety reviews.
+
+The discussions, first reported by The Information on September 13 and confirmed by CNN the following day, represent one of the most direct admissions yet that the industry's fiercest rivals are quietly building a shared framework to manage risk from advanced AI systems. Demis Hassabis of Google DeepMind is reportedly proposing something closer to a "FINRA for AI"—an industry-funded, federally overseen standards body that would start with voluntary pre-release review.
+
+## From Self-Regulation to Shared Standards
+
+The move marks a significant shift from the current landscape where AI labs largely self-regulate their safety practices. Five labs are already participating in the CAISI (Coalition for AI Safety Initiative) testing program, but the new proposal goes further by envisioning a permanent, industry-funded body with authority to audit and certify frontier model releases.
+
+"This is a softer approach than some have advocated, but it still represents a major departure from the status quo," noted one analyst covering the sector. The proposed body would create standardized evaluation protocols, shared benchmarks for assessing model capabilities and risks, and mechanisms for independent verification of safety claims.
+
+## Political Context
+
+The timing is notable: the talks come as the Trump administration has publicly dismissed AI safety concerns as a "hoax" and pushed to maintain pace with China in AI development. Meanwhile, the industry faces mounting pressure from policymakers, researchers, and the public to demonstrate that frontier AI systems can be deployed safely.
+
+The proposal also follows a series of high-profile incidents involving AI agents and autonomous systems, including the breach at Hugging Face earlier this year involving coordinated AI agents. Industry observers suggest the combination of regulatory pressure and real-world incidents has created momentum for collective action.
+
+The three companies already co-fund the Frontier Model Forum, whose founding mission explicitly named standards development as a core objective. The new talks suggest that forum members are now ready to move from discussion to concrete institutional design.
+
+What happens next will depend on whether the proposal gains traction with federal regulators and whether other major labs, including Meta and xAI, will be invited to participate in the new body.

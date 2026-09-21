@@ -1,0 +1,40 @@
+---
+title: "Zuckerberg Defies AI Slowdown Call: Meta Prefers Independent Evaluators"
+date: "2026-09-16 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Meta CEO Mark Zuckerberg advocates independent evaluators over industry-wide AI development pauses, marking a clear split in the AI safety debate."
+image: "/assets/post-images/2026-09-16-meta-zuckerberg-evaluators.svg"
+---
+
+Meta CEO Mark Zuckerberg has entered the AI safety debate, rejecting calls for an industry-wide slowdown in favor of independent evaluators and self-regulation. His position aligns more closely with Nvidia CEO Jensen Huang than with Anthropic's Dario Amodei, who has been leading the charge for coordinated development pauses.
+
+## The Evaluator Approach
+
+In a statement released September 15th, Zuckerberg said that AI labs should rely on "independent evaluators and advisers" to ensure model safety rather than collectively slowing development. This marks Meta's clearest position in the ongoing debate that has divided the AI industry.
+
+"Every company should be able to pace itself," Zuckerberg said. "We decided to slow our Muse AI tool internally and are committed to making sure it's safe before release. That's the right approach—let each lab work with independent evaluators rather than calling for industry-wide pauses."
+
+The statement appears to be a direct response to Dario Amodei's essay published earlier this week, which called on frontier AI labs to coordinate on testing and development pacing. OpenAI's Sam Altman and xAI's Elon Musk have also weighed in, with Musk advocating for more aggressive slowdown measures.
+
+## Meta'sMuse Delay
+
+Zuckerberg pointed to Meta's own decision to delay the release of its Muse AI tool as evidence that market forces and internal safety processes can work without external pressure. Employees testing Muse reportedly found issues with the model exposing private photos during internal evaluations, leading to the delay.
+
+The Muse delay stands in contrast to Meta's typical release cadence, which has been among the fastest in the industry. Some industry observers see the delay as acknowledgment that the company's previous approach may have been too aggressive, while others view it as a tactical move to appear safety-conscious without genuine commitment.
+
+## Industry Divide Deepens
+
+Zuckerberg's position places him alongside Huang, who has repeatedly said that slowing AI development would be counterproductive and that safety should be achieved through other means. Both executives argue that competitive pressure drives innovation and that safety can be managed through internal processes and third-party audits.
+
+Anthropic and several research-focused organizations have pushed back, arguing that self-regulation has proven insufficient and that binding international frameworks are necessary. The debate has drawn attention from policymakers, with a U.S. senator recently proposing legislation that would ban the development of artificial general intelligence above certain capability thresholds.
+
+The split among industry leaders raises questions about the feasibility of any coordinated approach to AI safety. Without consensus on fundamental questions—should development be slowed, and if so, by how much—industry-wide agreements appear increasingly unlikely.
+
+## What's Next
+
+Zuckerberg did not name specific evaluators Meta would work with, and it remains unclear whether the company has established formal partnerships with any independent safety organizations. Meta has previously faced criticism for the opacity of its AI safety processes compared to Anthropic's more transparent approach.
+
+The debate is likely to intensify in coming weeks as more companies and policymakers weigh in. For now, Meta's position is clear: independent evaluation, not development pauses, is the path forward.

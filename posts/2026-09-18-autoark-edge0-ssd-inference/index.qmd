@@ -1,0 +1,32 @@
+---
+title: "AutoArk's Edge0 Streams 35B MoE from SSD at 20 Tokens/Second on Mac Mini"
+date: "2026-09-18 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "New paper describes a 'prerouter' technique that keeps expert weights on SSD and predicts routing one token ahead, achieving 20 tok/s on a 24GB Mac Mini M4 Pro."
+image: "/assets/post-images/2026-09-18-autoark-edge0-ssd-inference.svg"
+---
+
+AutoArk's research team has published a paper describing Edge0, a system that can run a 35B-class Mixture-of-Experts model directly from SSD storage, achieving 20.4 tokens per second on a 24GB Mac Mini M4 Pro. The breakthrough could dramatically expand which AI models can run locally on consumer hardware.
+
+## The Prerouter Innovation
+
+The key innovation is a trained per-layer "prerouter" that predicts the next layer's routing decision one token ahead. Since the prediction is used as the routing itself, nothing gets dropped—unlike speculative decoding, which can introduce quality degradation when predictions are wrong.
+
+The system keeps a 35B-class MoE's expert weights on SSD and cleverly hides SSD latency behind this trained prediction mechanism. On the 24GB Mac Mini M4 Pro, the pipeline decodes at 20.4 tokens per second while using only 2.9GiB of active memory. For comparison, a fully resident int4 baseline holding 18.2GiB achieves just 3.9 tokens per second.
+
+## Quality Trade-offs
+
+The quality gap to the fp16 teacher model averages 3.9 points on the 35B tier and 2.8 on a companion 8B tier. The team has released the framework, checkpoints, and recovery-LoRA adapters as open source, allowing developers to fine-tune for specific use cases.
+
+The approach represents a fundamentally different direction from standard model compression techniques like quantization or pruning. Instead of making the model smaller to fit in memory, Edge0 keeps the full model on storage and optimizes access patterns to hide latency.
+
+## Implications for Local AI
+
+The technique could enable far more capable local AI assistants on consumer devices. A 35B MoE model offers substantially better reasoning and knowledge than the 7-8B models typically run on consumer hardware, while maintaining interactive speeds.
+
+"This changes the calculus for local deployment," noted one AI researcher. "We're no longer limited to distilled or quantized models on consumer hardware."
+
+The paper was posted on September 17, 2026, and the code and checkpoints are available on Hugging Face.

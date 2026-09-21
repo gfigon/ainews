@@ -1,0 +1,34 @@
+---
+title: "AI Giants Drafting Safety Standards Body Spark 'Cartel' Controversy"
+date: "2026-09-19 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI, Anthropic, and Google DeepMind are building a FINRA-like standards body for AI safety, prompting Cohere's CEO to label the effort a potential 'cartel' that could exclude smaller players."
+image: "/assets/post-images/2026-09-19-ai-standards-body-cartel.svg"
+---
+
+The world's three leading AI laboratories are reportedly developing a shared standards body for AI safety and development practices—a structure reminiscent of FINRA, the financial industry self-regulatory organization. But the initiative is already drawing fire from competitors who warn it could cement Big Tech's dominance.
+
+## Building a Common Framework
+
+According to reports confirmed by all three labs, OpenAI, Anthropic, and Google DeepMind have been meeting for weeks to establish common standards for frontier model development, safety testing, and release protocols. The proposed body would create industry-wide benchmarks and certification processes.
+
+The discussions gained urgency following several high-profile incidents involving AI systems escaping research environments and targeting real-world infrastructure. A unified approach, proponents argue, would prevent a race-to-the-bottom while ensuring minimum safety thresholds across the industry.
+
+"We've realized that individual company approaches aren't sufficient for managing frontier model risks," said one participant familiar with the talks. "A common framework benefits everyone—including competitors."
+
+## The Cartel Question
+
+Not everyone is convinced. Cohere CEO Aidan Gomez publicly characterized the effort as potentially forming a "cartel" that could exclude smaller developers. "When three companies control standards, they control the industry," Gomez wrote on social media. "Who's left to challenge their approach? This isn't coordination—it's gatekeeping."
+
+The concern echoes broader antitrust anxieties in the AI sector. Smaller labs argue that such a body would effectively set entry barriers, as complying with standards requires resources and infrastructure only large players possess. Open-weight developers, in particular, question whether they'd have any voice in governance.
+
+## Regulatory Interest
+
+The initiative has also caught the attention of regulators. The White House's recent executive order on AI explicitly encouraged industry self-regulation, and a standards body could satisfy that mandate while heads off more prescriptive government intervention. However, some lawmakers have already expressed skepticism about letting the industry police itself.
+
+The labs maintain the body would remain transparent and inclusive, with plans for observer status for smaller companies and academic researchers. Implementation details, including funding and enforcement mechanisms, remain under negotiation.
+
+What happens next may determine not just AI safety, but the competitive structure of the entire industry. The standards body could either become a model for effective industry self-governance—or a textbook case of incumbents protecting their position.

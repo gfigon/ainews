@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Google DeepMind AlphaGenome Atlas Predictive DNA Map Human Genome",
+      "count": 1,
+      "last_published": "2026-09-21",
+      "slugs": [
+        "2026-09-21-alphagenome-atlas"
+      ]
+    },
+    {
+      "term": "Anthropic Threat Intelligence Report September 2026 AI Misuse Detection",
+      "count": 1,
+      "last_published": "2026-09-21",
+      "slugs": [
+        "2026-09-21-anthropic-threat-report"
+      ]
+    },
+    {
       "term": "Anthropic Claude R&D Automation Index 26% August 2026",
       "count": 1,
       "last_published": "2026-09-18",

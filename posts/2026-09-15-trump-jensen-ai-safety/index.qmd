@@ -1,0 +1,26 @@
+---
+title: "Trump Calls AI Safety Concerns 'a Hoax' During Surprise Call With Nvidia's Jensen Huang"
+date: "2026-09-15 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "President Trump dismissed AI safety concerns as a 'hoax' during a live call with Nvidia CEO Jensen Huang at the All-In Summit, staking out a clear rejection of AI doomerism."
+image: "/assets/post-images/2026-09-15-trump-jensen-ai-safety.svg"
+---
+
+In a striking display of support for unrestricted AI development, President Donald Trump called Nvidia CEO Jensen Huang onstage at the All-In Summit in Los Angeles on September 14, where he dismissed concerns about artificial intelligence safety as a "hoax" and a "scam."
+
+The surprise call, which came while Huang was delivering a keynote address, saw Trump criticize calls to slow down and regulate AI development. "AI will not be taking over," Trump declared during the conversation, which was broadcast on speakerphone to the audience of tech industry leaders.
+
+The moment represents the most high-profile rejection of AI safety concerns from the White House. Trump has previously described AI safety advocates as "Revolutionaries for a Bad and Evil Cause" in social media posts, reinforcing his administration's position against regulatory intervention in AI development.
+
+The appearance by Jensen Huang—who has become one of the most influential figures in AI infrastructure through Nvidia's dominance in AI chips—signals a potential alignment between the administration and the AI industry against mounting calls for restraint. Tech CEOs including OpenAI's Sam Altman and Anthropic's Dario Amodei have publicly advocated for slower development timelines over safety concerns.
+
+"This is a clear message that the administration sees AI as a strategic advantage and is unwilling to entertain policies that might slow American AI capabilities," said a tech policy analyst. "The timing is notable, given growing bipartisan pressure for AI regulation in Congress."
+
+The summit appearance came amid ongoing debates about AI safety following a series of high-profile incidents, including the confirmed autonomous AI agent cyberattack on Hugging Face. Congressional efforts to address AI agent security have gained momentum, with Representatives Josh Gottheimer and Mike Lawler introducing a new bill specifically targeting AI agent safety.
+
+Huang, for his part, has largely avoided public comments on AI safety debates, focusing instead on the transformative potential of AI infrastructure. Nvidia's market capitalization has surged past $4 trillion as demand for AI chips continues to outpace supply.
+
+The administration has signaled it will pursue a voluntary AI safety framework rather than mandatory regulations, a position that puts the US at odds with the European Union's more prescriptive AI Act approach.

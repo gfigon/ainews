@@ -1,0 +1,28 @@
+---
+title: "Anthropic Unifies Claude Chat and Cowork Into Single Product"
+date: "2026-09-17 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "Anthropic merges its consumer Claude experience with Cowork agent platform, adding presentation creation with PDF and PowerPoint export in a unified interface."
+image: "/assets/post-images/2026-09-17-anthropic-claude-merged-interface.svg"
+---
+
+Anthropic merged its Claude chat and Cowork products into a single interface on September 16, adding presentation creation with PDF and PowerPoint export, collaborative document editing, and automatic routing across chat, Artifacts, and Claude Design. The rollout begins with Pro and Max tiers on web, desktop, and mobile, with free and team tiers to follow.
+
+The merge comes two days after Anthropic cut Claude Code weekly limits by a net 17 percent and in the same week Claude approached profitability for a second consecutive quarter.
+
+## One Front Door Instead of Two
+
+Folding Cowork into the main product is Anthropic conceding that users did not want two separate entry points. Automatic routing is the feature that makes the merge work—the model now decides whether a request is a conversation, a document, a design, or a deck rather than the user picking a mode first.
+
+Presentations with PowerPoint export is the direct competitor to Gamma and to Microsoft's Copilot in PowerPoint. It ships in the same week Mustafa Suleyman, Microsoft's AI chief, publicly criticized Anthropic's model welfare framing in Claude's constitution, calling the consciousness reasoning circular and arguing that training AI to prioritize its own welfare makes systems harder to turn off.
+
+## Timing Ahead of Listing
+
+The timing is not accidental. Anthropic is moving compute from heavy developer sessions toward a broader paid base ahead of a potential listing. The merged interface is live now for Pro and Max users, and the routing feature is worth a week of testing before rebuilding any workflow around it.
+
+This is the consumer product Anthropic has needed since Cowork launched. The consolidation signals a shift from offering multiple specialized interfaces to providing a single, intelligent routing layer that adapts to user intent—a pattern increasingly common across AI assistant platforms.
+
+For teams currently using both Claude and Cowork, the migration path is straightforward: existing conversations and projects carry over, and the automatic routing should reduce the friction of switching between modes manually.

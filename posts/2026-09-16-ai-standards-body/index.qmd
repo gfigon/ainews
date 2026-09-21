@@ -1,0 +1,37 @@
+---
+title: "OpenAI, Anthropic, and Google DeepMind Explore Joint AI Standards Body"
+date: "2026-09-16 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The three leading AI labs have been holding working-group meetings since July to establish an industry-led standards body for AI safety, modeled after FINRA."
+image: "/assets/post-images/2026-09-16-ai-standards-body.svg"
+---
+
+OpenAI, Anthropic, and Google DeepMind are in talks to create a joint AI standards body that would set safety standards and audit frontier models, according to multiple reports confirmed this week. The discussions have been ongoing since July 2026, predating Dario Amodei's public call for AI companies to coordinate on testing and auditing.
+
+## Rivals Turn Collaborators
+
+The three companies, which collectively control the most powerful AI systems in existence, have been holding regular working-group meetings to explore an industry-led approach to AI safety. The initiative was sparked by a proposal from Google's Demis Hassabis in July, who called for a U.S.-led "Standards Body" modeled after FINRA—the Financial Industry Regulatory Authority.
+
+"Every company recognizes that the current trajectory is unsustainable," said Chris Lehane, OpenAI's global policy chief, in a statement. "Self-regulation has served us well, but the stakes are too high for the industry to act alone."
+
+## Competing Visions
+
+Despite the collaboration, the labs hold different views on government involvement. Anthropic CEO Dario Amodei has advocated for binding international treaties and mandatory safety testing, while Google's proposal favors voluntary pre-release reviews with federal oversight—a softer approach that still represents a major shift from the status quo.
+
+OpenAI has published a blog post emphasizing its commitment to advancing voluntary AI standards while supporting specific legislation in California. The company also confirmed weeks of AI safety talks with Anthropic and Google DeepMind as pressure mounts from regulators and the public.
+
+## What the Standards Body Would Do
+
+The proposed body would likely be responsible for:
+
+- Establishing benchmark safety tests for frontier models
+- Conducting pre-release audits of new AI systems
+- Creating certification standards for AI deployment
+- Coordinating vulnerability disclosure across the industry
+
+Industry observers note that such a body would represent an unprecedented level of cooperation among rivals who have spent years competing for dominance in the AI race. The move comes amid escalating concerns about AI risks, including recent incidents involving autonomous AI agents exploiting real systems and a joint letter from over 100 companies calling for improved cyber defenses.
+
+The talks remain preliminary, and it's unclear when—or if—a formal standards body will emerge. However, the very fact that these competitors are discussing collaboration signals a recognition that AI safety challenges may be too large for any single company to address alone.

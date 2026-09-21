@@ -1,0 +1,40 @@
+---
+title: "OpenAI's Sponsored Agents Bring Conversational Ads to ChatGPT"
+date: "2026-09-17 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "OpenAI tests business-sponsored AI agents in ChatGPT ads, letting users chat with brands before clicking through—a new monetization frontier with HubSpot and Shopify integrations."
+image: "/assets/post-images/2026-09-17-openai-sponsored-agents.svg"
+---
+
+OpenAI launched Sponsored Agents on September 16, 2026—a new advertising format that lets users have conversations with business-sponsored AI agents directly within ChatGPT before deciding whether to visit a company's website.
+
+The format works like this: when a relevant ad appears in ChatGPT, users can choose to enter a clearly labeled conversation with a business-sponsored agent. In that conversation, they can ask follow-up questions, get personalized recommendations, and click through to the business's website when ready to make a purchase decision. OpenAI gave the example of a shopper asking whether a dining table fits their space, how many people it seats, or how to care for its finish.
+
+## A New Kind of Ad Experience
+
+Sponsored Agents represent a fundamental shift from traditional advertising. Rather than clicking through from a static ad, users engage in a dialogue. OpenAI describes the conversation as distinct from ChatGPT's independent answers and separate from the user's original conversation thread—meaning sponsored interactions are clearly walled off from personal chat history.
+
+The company is testing the format with select advertisers in the United States, with early participants including Newegg, Best Buy, Lowe's, and VistaPrint. Alec Shao, performance marketing manager at Newegg, said the retailer wants to reach people while they research purchases, and that being present in ChatGPT during that research phase helps build consideration.
+
+## AI-Powered Campaign Tools
+
+Beyond Sponsored Agents, OpenAI introduced several AI tools for advertisers. The Ads Manager plugin now accepts natural-language prompts for campaign creation, management, and analysis. Advertisers can start with a website URL or brief, and the system will generate campaign copy, suggest imagery, and report on performance.
+
+A third capability is opt-in AI-powered text customization that adjusts headlines and descriptions to fit the context of a user's conversation, and automatically translates ad copy into the user's preferred language.
+
+## HubSpot and Shopify Integrations
+
+OpenAI described HubSpot as its first CRM partner and Shopify as its first e-commerce partner for ChatGPT Ads. Starting September 16, businesses using HubSpot can connect their ChatGPT Ads account and create ads, monitor performance, and follow up on leads without leaving the platform.
+
+US-based Shopify merchants can use the new ChatGPT Ads app—free and available in the Shopify App Store—to create campaigns from their product catalog. The app automatically syncs product inventory, tracks performance through a Shopify pixel, and offers targeting options for audience segments, custom audiences, device, location, and product category.
+
+The app launches internationally on September 23 in markets where ChatGPT Ads are available.
+
+## Monetization at Scale
+
+The timing matters. OpenAI shelved its 2026 IPO on safety grounds, per CEO Sam Altman's comments last week. Sponsored Agents represent a clear path to revenue diversification beyond API and ChatGPT subscriptions. With 900,000 companies using ChatGPT for work, according to Anthropic's SMB announcement, the advertising play targets the research-to-purchase moment that defines e-commerce.
+
+What to watch: whether users embrace conversational ads or perceive them as intrusive will determine whether Sponsored Agents become a durable revenue stream or a footnote in OpenAI's monetization history.

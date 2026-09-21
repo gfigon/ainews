@@ -1,0 +1,22 @@
+---
+title: "Alibaba Open-Sources Medical AI Model Detecting 150 Conditions from CT Scans"
+date: "2026-09-19 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Alibaba's Damo Academy releases Damo Radar, an open-source vision-language model achieving 0.913 AUC across 146 clinical findings for abdominal CT scan analysis."
+image: "/assets/post-images/2026-09-19-alibaba-medical-ai.svg"
+---
+
+Alibaba Group's research arm, Damo Academy, has open-sourced a medical artificial intelligence model capable of identifying nearly 150 abdominal conditions—including various cancers—by analyzing computed tomography scans, marking a significant advancement in medical AI accessibility.
+
+The vision-language model, called **Damo Radar**, was designed to analyze contrast-enhanced CT scans covering 18 abdominal organs and identify a broad range of diseases and abnormalities, such as malignant tumors. According to Alibaba, the model represents "the world's first expert-level generalist medical imaging model."
+
+In testing across nearly 40,000 real-world examinations, Damo Radar achieved an average area under the curve (AUC) of **0.913** across 146 clinical findings. An AUC of 1.0 represents perfect diagnostic accuracy, making 0.913 a strong result for a generalist model.
+
+The model was trained using CT scans paired with clinical reports, enabling it to learn the relationship between visual features in imaging and diagnostic conclusions. The research team noted that the training methodology could eventually be extended to other types of medical imaging beyond abdominal CT scans.
+
+The open-source release makes the model available to researchers and healthcare institutions worldwide, potentially democratizing access to advanced diagnostic AI capabilities that were previously available only through proprietary systems. This approach aligns with a broader trend among Chinese AI labs in releasing capable models under open licenses.
+
+Medical AI has become a key battleground for major AI laboratories, with applications ranging from radiology and pathology to drug discovery and patient triage. Alibaba's Damo Academy has been particularly active in this space, contributing to the growing body of open-source medical AI tools that can be adapted for various healthcare settings.

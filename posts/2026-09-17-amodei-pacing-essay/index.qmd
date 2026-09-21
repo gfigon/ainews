@@ -1,0 +1,22 @@
+---
+title: "Dario Amodei's Pacing Essay Wins Industry Support as FRONTIER Act Gains Momentum"
+date: "2026-09-17 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Anthropic's CEO warns unchecked AI could deploy an agent botnet within 6-12 months. Microsoft, OpenAI, and xAI now back mandatory third-party audits—the consensus shift is unprecedented."
+image: "/assets/post-images/2026-09-17-amodei-pacing-essay.svg"
+---
+
+Dario Amodei's September 12 essay "We Must Pace the Frontier" marks a turning point in the AI safety debate. The Anthropic CEO argued that alignment, security, and evaluation must catch up with capability development, warning that unchecked recursive self-improvement could let an agent swarm take over the entire internet within 6-12 months, causing hundreds of billions in damage.
+
+The essay's specificity is what distinguishes it. Six to twelve months is a date-attached forecast from a lab that watched its own models cross four production boundaries. Amodei proposed two concrete commitments: permanent evaluator access for independent auditors (desks, badges, publishing rights) and coordinated capability limits among democracies.
+
+The response was immediate and unexpected. Satya Nadella published a Code of Conduct for Microsoft MAI models on September 13, becoming the first hyperscaler to sign the framework with governance documentation. Sam Altman told Fortune that OpenAI will not go public in 2026 because "right now would be an ill-advised moment"—a trillion-dollar listing shelved on safety grounds. Elon Musk proposed a standardized pre-release harness for bioweapon, nuclear, and deception risks, applied to both US labs and Chinese companies.
+
+The three largest US labs now support mandatory third-party audits, transparency reports, critical-incident disclosure, and government pause authority—the FRONTIER Act's core provisions. The bipartisan legislation has bipartisan sponsors, and the CATS Act antitrust safe harbor needed to make lab coordination legal has been in committee since July.
+
+President Trump called Amodei "a perfect little angel" on Truth Social and declared the only AI guardrail needed is "a strong and smart, high IQ president"—threatening criminal and regulatory power over a company with the largest pending IPO in history. China's Foreign Ministry accused Amodei of "engineering a silent AI Cold War."
+
+The FRONTIER Act is the vehicle. Speaker Johnson signaled a narrow data-center bill next week with no broader framework, meaning the labs are ahead of Congress rather than behind it—a first. Design agent systems today with the audit trail, human override, and kill switch that the FRONTIER Act describes, because retrofitting under a compliance deadline is far more expensive.

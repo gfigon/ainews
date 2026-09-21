@@ -1,0 +1,49 @@
+---
+title: "Hugging Face Funes Gives Coding Agents Long-Term Memory Across Sessions"
+date: "2026-09-19 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "Funes is a new open-source memory layer that lets coding agents remember past sessions, share memory across different agents, and work seamlessly across multiple machines."
+image: "/assets/post-images/2026-09-19-huggingface-funes-memory.svg"
+---
+
+Hugging Face has released Funes, an open-source memory layer for coding agents that allows AI systems to remember past sessions and share that memory across different agents and machines. The tool addresses a fundamental limitation: agents that meet every project as a stranger, forgetting everything when a session ends.
+
+## The Memory Problem
+
+Every developer who works with AI coding agents knows the frustration: reasoning from "last Tuesday" disappears when the session ends. Each new agent, on each new host, starts from zero. The agent's traces—the record of what it tried, what errors it hit, what documentation it read, and why it changed direction—are produced but not retained.
+
+"While the diagnosis is correct, traces are only potential memory," Hugging Face explained. "The session logs of an agent are still just an archive. You cannot grep your way to 'why did we move off the streaming parser?' across ten thousand turns."
+
+## How Funes Works
+
+Funes is a single binary that adds durable memory to existing coding agents. It supports Claude Code, Codex, pi, and Hermes out of the box. Installation is straightforward:
+
+```
+curl -fsSL https://huggingface.co/buckets/huggingface/funes/resolve/install.sh | sh
+funes add claude  # or: codex, pi, hermes
+```
+
+The system builds an index from the agent's existing sessions, giving the agent two new tools: **recall** (for finding past decisions and rationale) and **get** (for opening the full turn and its surrounding context). Indexing is incremental—new runs add new turns rather than re-embedding the entire history.
+
+Under the hood, Funes parses traces into a turn-and-block shape, chunks the content, embeds it with a pinned local model, and writes to a local Lance dataset. Queries combine vector and BM25 search, fuse their rankings, rerank with a cross-encoder, and attach neighboring chunks for context.
+
+## Cross-Agent, Cross-Machine Memory
+
+A key feature is that memory isn't tied to a specific agent or model. A developer can start a task in Claude Code, continue it in Codex the following week, and the second agent can recall the first agent's reasoning. This works across machines too—bind a memory to a Hugging Face dataset and it syncs across devices.
+
+The memory is local by default. No account or Hub repository is required, and embedding and reranking happen entirely on the user's machine. A hosted model never processes user sessions for indexing.
+
+For teams, a new teammate's agent can retrieve months of decisions on day one, including dead ends and rationale that never made it into a pull request. For open-source projects, maintainers can publish sessions behind a release, creating a searchable CLAUDE.md that holds the history of why the project is the way it is.
+
+## Security Considerations
+
+Before anything reaches the Hub, credentials are redacted during indexing. A security scanner runs at publish time and withholds anything that still looks like a secret. The scanner's behavior is documented in the project's SECURITY.md.
+
+## Performance Benchmarks
+
+Hugging Face tested recall against other approaches (compaction and written handoffs) on tasks whose answer cannot be reconstructed without prior session knowledge. Recall was 8x cheaper than a written handoff on one task and 4x cheaper on the other. Compaction sometimes failed entirely, flattening the findings that mattered.
+
+Funes is available on [GitHub](https://github.com/huggingface/funes) under an open license.
