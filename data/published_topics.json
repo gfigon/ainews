@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Microsoft MAI Code of Conduct Behavioral Rules Cyberattacks Deepfakes Nuclear September 2026",
+      "count": 1,
+      "last_published": "2026-09-22",
+      "slugs": [
+        "2026-09-22-microsoft-mai-code-conduct"
+      ]
+    },
+    {
+      "term": "DeepMind Institute 30-Day Model Review Pre-Release Framework September 2026",
+      "count": 1,
+      "last_published": "2026-09-22",
+      "slugs": [
+        "2026-09-22-deepmind-institute-review"
+      ]
+    },
+    {
+      "term": "Anthropic IPO November 2026 100 Billion Revenue Target 2 Trillion Valuation",
+      "count": 1,
+      "last_published": "2026-09-22",
+      "slugs": [
+        "2026-09-22-anthropic-ipo-november"
+      ]
+    },
+    {
       "term": "Google DeepMind AlphaGenome Atlas Predictive DNA Map Human Genome",
       "count": 1,
       "last_published": "2026-09-21",
