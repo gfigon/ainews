@@ -1,0 +1,22 @@
+---
+title: "DeepMind Institute Launches With 30-Day Pre-Release Model Review Proposal"
+date: "2026-09-22 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Security & Policy
+summary: "Google DeepMind has launched the DeepMind Institute, proposing a 30-day pre-release review framework for frontier AI models to address safety concerns while supporting innovation."
+image: "/assets/post-images/2026-09-22-deepmind-institute-review.svg"
+---
+
+Google DeepMind has formally launched the DeepMind Institute, a new research body designed to surface competing views on artificial general intelligence from inside Google and the wider academic community. The institute debuted on September 17, 2026, with four opening essays that put concrete AI policy proposals on the table.
+
+The most notable proposal is a framework for frontier AI model review that would require a 30-day pre-release evaluation period before deploying new models. This approach aims to balance innovation incentives with responsible behavior, allowing time for safety testing while avoiding excessive regulatory bottlenecks that could slow AI progress.
+
+"The DeepMind Institute is significant less because it settles the AGI debate than because it gives Google DeepMind a formal venue for making disagreements and policy proposals more visible," noted one analysis. The institute's opening agenda links model architecture, safety research, economic disruption, and public oversight—areas that are often discussed separately within AI labs.
+
+Demis Hassabis, co-founder of DeepMind, has championed the institute as a way to broaden the AGI conversation beyond Google's walls. The institute will feature researchers from DeepMind, Google, and external academics who "will not always agree, and they will likely change" their positions as the field evolves.
+
+This initiative arrives at a critical moment for AI governance. With OpenAI, Anthropic, and Google now in active safety talks—confirmed by all three companies in mid-September—the industry is grappling with how to coordinate on risk management without stifling competition. The DeepMind Institute's proposals could inform a potential standards body similar to FINRA, which oversees securities markets.
+
+The 30-day review framework echoes earlier proposals from the AI Safety Institute but adds specificity around timeline and scope. Whether other labs will adopt similar practices remains uncertain, but the institute's formal structure gives the proposals institutional weight that previous blog posts and research papers lacked.

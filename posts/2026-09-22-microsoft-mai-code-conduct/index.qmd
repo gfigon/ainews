@@ -1,0 +1,27 @@
+---
+title: "Microsoft Publishes 37-Page Behavioral Code for MAI Models"
+date: "2026-09-22 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Microsoft has released a comprehensive Code of Conduct for its MAI models, banning cyberattacks, nuclear weapons assistance, and deepfakes while opening a six-week public consultation."
+image: "/assets/post-images/2026-09-22-microsoft-mai-code-conduct.svg"
+---
+
+Microsoft has published its first formal Code of Conduct governing the company's in-house MAI (Microsoft AI) models, marking a significant departure from the typical AI industry approach to self-governance. The 37-page document, released on September 14, 2026, opens a six-week public comment period on rules that explicitly bar the company's AI systems from running cyberattacks, aiding nuclear weapons development, or generating deepfakes.
+
+The code builds on CEO Satya Nadella's earlier post arguing that AI governance "must not be" left to market forces alone. Under the new framework, Microsoft AI's MAI models must operate within safety constraints that prioritize human wellbeing above all other considerations. The document establishes what the company calls a "Humanist AI" approach—putting people matter more than AI as its foundational principle.
+
+Specifically, the Code of Conduct prohibits MAI models from:
+
+- Conducting or assisting with cyberattacks targeting infrastructure, systems, or individuals
+- Providing technical assistance for nuclear weapons development or use
+- Generating synthetic media (deepfakes) designed to deceive or manipulate
+- Operating with insufficient human oversight in high-stakes decisions
+
+The six-week consultation window reflects Microsoft's recognition that AI governance cannot be designed in isolation. The company is actively soliciting feedback from researchers, policymakers, industry peers, and the public before finalizing the framework.
+
+This move positions Microsoft as the first major AI provider to codify behavioral constraints for its models in such a public, detailed manner. While OpenAI and Anthropic have published safety guidelines and system cards, Microsoft's approach is notable for its prescriptive, legally-structured format and explicit public consultation process.
+
+The timing is significant: the Code of Conduct follows a period of intense scrutiny of AI safety after multiple high-profile incidents involving autonomous AI agents. Industry observers suggest the document may become a template for other companies facing pressure to demonstrate concrete governance measures.
