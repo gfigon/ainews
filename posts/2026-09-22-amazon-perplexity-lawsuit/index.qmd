@@ -1,0 +1,22 @@
+---
+title: "Amazon Alleges Perplexity Misled Court in Ongoing Legal Dispute"
+date: "2026-09-22 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Amazon claims Perplexity made false statements to the Ninth Circuit about direct server access, documenting actual traffic between March and May 2026."
+image: "/assets/post-images/2026-09-22-amazon-perplexity-lawsuit.svg"
+---
+
+Amazon has escalated its legal battle against Perplexity, filing an amended complaint on September 21 alleging that the AI search startup made false statements to the Ninth Circuit Court of Appeals. The new filing shifts the dispute from computer fraud claims to contract law allegations, with Amazon accusing Perplexity of directly lying to the court.
+
+In the amended complaint, Amazon engineers documented direct server-to-server traffic between Amazon's infrastructure and Perplexity's systems every day from March 18 to May 11, 2026. This contradicts Perplexity's previous assertion to the court that "no Perplexity computer ever has direct access to an Amazon computer."
+
+The dispute centers on Perplexity'sComet product, which Amazon alleges uses several questionable practices: copying Amazon session cookies to Perplexity's cloud infrastructure, running headless browsers that request Amazon pages, and impersonating Chrome in its user-agent string to evade detection.
+
+Amazon originally filed suit under the Computer Fraud and Abuse Act, alleging that Perplexity exploited vulnerabilities to scrape content. The Ninth Circuit's August ruling narrowed the scope of those claims, prompting Amazon to refile on contract law grounds.
+
+Perplexity has defended its practices as within legal boundaries, arguing that its search engine operates similarly to other web crawlers. The company's CEO has previously stated that Perplexity respects robots.txt directives and website terms of service.
+
+The case highlights growing tensions between AI search companies and content providers over data access practices. Amazon's detailed traffic documentation suggests the company has been monitoring Perplexity's infrastructure activity and may have been building a case for some time.

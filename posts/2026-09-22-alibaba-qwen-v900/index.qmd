@@ -1,0 +1,20 @@
+---
+title: "Alibaba Unveils 5-10 Trillion Parameter Qwen Successor and Zhenwu V900 Chip"
+date: "2026-09-22 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "Alibaba announces plans for a 5-10T parameter successor to Qwen alongside China's most powerful AI chip, the Zhenwu V900, targeting 500,000-card clusters for frontier AI."
+image: "/assets/post-images/2026-09-22-alibaba-qwen-v900.svg"
+---
+
+Alibaba has announced ambitious plans to build a successor to its Qwen language model with 5 to 10 trillion parameters, nearly quadrupling the current ~2.4 trillion parameter footprint. CEO Eddie Wu revealed the plans at the Apsara conference in Hangzhou, positioning the next-generation model as a direct challenge to frontier models from OpenAI, Anthropic, and Google.
+
+The announcement coincides with the unveiling of the Zhenwu V900, which Alibaba claims is China's most powerful AI chip. According to the company, the V900 delivers three times the performance of its predecessor, with mass production scheduled for Q1 2027. Alibaba is targeting clusters of up to 500,000 V900 cards for both frontier training and inference workloads.
+
+The chip announcement reinforces China's push toward domestic semiconductor independence amid ongoing US export restrictions on advanced AI accelerators. Alibaba Cloud has committed to 20 gigawatts of data center capacity by 2032, extending a previously announced $53 billion three-year AI spending commitment.
+
+Wu's keynote emphasized that the larger model would require unprecedented computational resources, with the 500,000-card cluster target representing a scale comparable to the largest AI training installations globally. The announcement signals intensifying competition between Chinese AI labs and Western counterparts, particularly as frontier model capabilities continue to advance rapidly.
+
+Industry observers note that achieving stable training at 5-10 trillion parameters will require significant advances in distributed computing, memory bandwidth, and training methodology. Qwen currently powers Alibaba's Tongyi Qianwen chatbot and is available through multiple open-weight releases under Apache 2.0 licensing.
