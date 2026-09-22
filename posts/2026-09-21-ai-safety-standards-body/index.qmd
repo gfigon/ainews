@@ -1,0 +1,34 @@
+---
+title: "OpenAI, Anthropic & Google Propose Joint AI Safety Standards Body"
+date: "2026-09-21 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI, Anthropic, and Google DeepMind are discussing an industry-led body for AI safety standards, modeled on FINRA."
+image: "/assets/post-images/2026-09-21-ai-safety-standards-body.svg"
+---
+
+In a rare display of cross-industry collaboration, OpenAI, Anthropic, and Google DeepMind have confirmed they're in talks to establish a joint AI safety standards body. The initiative, discussed since July 2026 and confirmed on September 15, would create a centralized framework for evaluating and releasing frontier AI models.
+
+The proposed body would operate similarly to FINRA, the Financial Industry Regulatory Authority—a federally overseen, industry-funded organization that sets standards for brokerage firms. Demis Hassabis first proposed this approach in a July 14 blog post, arguing that AI labs need a unified mechanism for pre-release safety reviews and independent evaluations.
+
+## Rivals United by Common Concern
+
+The three companies, which collectively control the most powerful AI systems in existence, have historically competed fiercely. Their collaboration represents a significant shift from the current landscape where each lab largely self-regulates its model releases. OpenAI's chief global affairs officer confirmed the discussions during a Washington briefing, stating that no antitrust waiver was necessary for the talks.
+
+The timing is notable: the announcement comes amid intense pressure from governments worldwide to address mounting AI safety concerns. Simultaneously, the Trump administration has pushed for accelerated AI development to maintain competitive parity with China, creating a complex balancing act for labs navigating both safety imperatives and competitive pressures.
+
+## What the Standards Body Would Do
+
+While details remain under discussion, the proposed body would likely handle several key functions: establishing baseline safety evaluation protocols for frontier models, conducting independent pre-release assessments, coordinating vulnerability disclosure, and creating standardized reporting requirements for AI incidents.
+
+This follows Anthropic's September 10 release of its latest Threat Intelligence Report, which documented evolving misuse patterns of AI systems. The report highlighted how threat actors continue attempting to leverage Claude and other models for malicious activities, underscoring the urgency of coordinated safety measures.
+
+## Industry Implications
+
+The formation of such a body could fundamentally alter how AI labs approach model releases. A unified standards framework might slow individual lab release cycles but could build greater public trust in AI technologies—particularly as models approach or exceed human-level capabilities across most tasks.
+
+For enterprises deploying AI systems, standardized safety benchmarks would provide clearer guidance on model selection and risk assessment. The FINRA model suggests the body could eventually have enforcement mechanisms, potentially including tiered certification levels for different deployment contexts.
+
+The proposal still faces significant hurdles, including competition concerns, governance structure questions, and international coordination. However, the mere fact that these rivals are discussing collaboration signals a mature recognition that AI safety may require collective action—even among companies that compete aggressively in the marketplace.
