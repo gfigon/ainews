@@ -1,0 +1,26 @@
+---
+title: "Mid-Frontier Models Flood the Market: Grok 4.7, Xiaomi MiMo-V2.6, and Step 5 Shake Up AI Pricing"
+date: "2026-09-22 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "Three mid-frontier models launched in 48 hours—xAI's Grok 4.7, Xiaomi's MiMo-V2.6, and StepFun's Step 5 Preview—all priced at or near free, reshaping the AI market."
+image: "/assets/post-images/2026-09-22-mid-frontier-model-surge.svg"
+---
+
+The mid-frontier just got very crowded. In a 48-hour window spanning September 20-21, three laboratories released models that sit within a few points of GPT-5.6 Sol on agentic coding benchmarks—all priced between nothing and a fifth of Claude Opus 5's output rate.
+
+**xAI's Grok 4.7** launched at $2 per million input tokens and $6 per million output, the same price as Grok 4.6. It scores 71 percent on DeepSWE v1.1, putting it within striking distance of GPT-5.6 Sol at 73 percent and Claude Opus 5 at 74 percent—while costing roughly a fifth of Opus 5's output price. For the first time, a Grok release competes on agentic coding rather than context length or search integration.
+
+**Xiaomi's MiMo-V2.6 Pro** landed on Hugging Face under an MIT license, scoring 46 on the Artificial Analysis Intelligence Index and 72.57 percent on DeepSWE. The Flash variant runs 15 billion active parameters with a 256,000-token context, meaning it will ship in actual Xiaomi phones and cars. The Pro version went from 19 percent to 72.57 percent on DeepSWE in a single generation—the largest single-version jump any lab has posted this year.
+
+**StepFun's Step 5 Preview** arrived at $1 input and $2.70 output per million tokens, scoring 44 on the Intelligence Index. Open weights are promised for October 15.
+
+What connects these releases isn't just capability—it's price positioning. The band from roughly 40 to 50 on the Intelligence Index is now the most crowded segment in the market. DeepSeek V4.1 Flash at $0.60 output and Atria Dawn at zero arrived earlier this month in the same capability band.
+
+The implications for the market are stark. Most production agent traffic—coding, retrieval, automation loops—runs in this mid-frontier band because low-70s on DeepSWE is sufficient for the work that actually drives enterprise usage. The flagship models at $50+ output retain the top ten points of capability for reasoning-heavy tasks, but everything below that is being repriced weekly, largely by non-American labs.
+
+For builders, the message is clear: route by task. Put Grok 4.7, MiMo-V2.6, or Step 5 behind the router for the 80 percent of calls that don't need frontier reasoning. Reserve Opus 5 or Astra for the 10 percent that genuinely require it. Budget for flagship promotional rates to expire—Harvey's margin collapse story from earlier this week is what happens when you build on usage pricing without a routing strategy.
+
+The mid-frontier commoditization is here. The only question is how fast the flagships can respond.

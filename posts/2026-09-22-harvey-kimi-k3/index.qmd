@@ -1,0 +1,26 @@
+---
+title: "Legal AI Giant Harvey Ditches OpenAI for In-House Kimi K3 Model"
+date: "2026-09-22 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "Harvey, the $15.6B legal AI startup, saw gross margins collapse from +50% to -50% on OpenAI and Anthropic pricing—then built an in-house model on Moonshot's Kimi K3 to fix it."
+image: "/assets/post-images/2026-09-22-harvey-kimi-k3.svg"
+---
+
+Harvey, the legal AI startup valued at $15.6 billion, made a dramatic pivot in August that sent shockwaves through the AI industry: it replaced OpenAI and Anthropic APIs with an in-house model fine-tuned on Moonshot's Kimi K3. The reason? Gross margins had collapsed from approximately **positive 50 percent to negative 50 percent** by June as customer token usage exploded 20x.
+
+The numbers are stark. A negative 50 percent gross margin means Harvey was paying its model providers $1.50 for every dollar of revenue it earned. Usage-based pricing that seemed reasonable when customers made a few thousand API calls became unsustainable when those calls scaled twenty-fold—all while Harvey charged customers a flat fee.
+
+The fix wasn't a cheaper API tier. It was owning the model. Harvey's engineering team post-trained on Kimi K3, the same open-weights base model that Moonshot released in July with 2.8 trillion parameters. The transition flipped margins back positive by August.
+
+This isn't an isolated case. Harvey's trajectory mirrors what every vertical AI company faces: build a product on flagship API pricing, watch costs balloon as usage grows, then scramble for a solution. The pattern has become so common it's being called the "Harvey June" scenario—waiting until margins hit negative before taking action.
+
+**The timing is awkward for OpenAI.** Five days before Harvey's announcement, OpenAI shipped Astra for Law, a vertical edition targeting exactly Harvey's customer base: law firms and corporate legal departments. The competitive response arrived as Harvey was already shipping its in-house alternative.
+
+The broader implications are significant. Harvey chose a Chinese model—Kimi K3 was named in the CISA distillation advisory in September—for a US legal tech product handling sensitive client data. That's a deliberate trade-off: accept the geopolitical risk of Chinese weights in exchange for margin survival. Expect more vertical AI companies to follow suit, building their own fine-tunes on Kimi K3, GLM-5.3, or Xiaomi's MiMo rather than paying flagship prices.
+
+Frontier labs are responding. Beyond Astra for Law, Salesforce's Koa and other vertical editions are arriving monthly. But the fundamental economics haven't changed: base models are becoming commodities priced on tokens, while the real margin lives in the harness and fine-tune layer.
+
+For AI buyers, the lesson is straightforward: route by task. Use Grok 4.7, MiMo, or Kimi K3 for the coding and extraction work that makes up 80 percent of enterprise agent traffic. Reserve Opus 5 or Astra for the 10 percent of calls that genuinely need frontier reasoning. And budget for those flagship promotional rates to expire—Harvey's June arrived faster than anyone expected.
