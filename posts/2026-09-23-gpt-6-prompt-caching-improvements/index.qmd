@@ -1,0 +1,36 @@
+---
+title: "OpenAI Boosts GPT-6 Prompt Caching With 90% Discount"
+date: "2026-09-23 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "OpenAI rolls out improved prompt caching for GPT-6 with higher cache hit rates, new diagnostics tools, and up to 90% discounts on cached tokens."
+image: "/assets/post-images/2026-09-23-gpt-6-prompt-caching-improvements.svg"
+---
+
+OpenAI has launched an enhanced prompt caching system for its GPT-6 family, delivering higher cache hit rates by default and offering developers discounts of up to 90% on cached input tokens.
+
+The improvements target persistent agents that handle long-running tasks like code refactoring and document generation—applications that make series of API requests carrying forward the same instructions, tool definitions, and context.
+
+## How It Works
+
+The new system provides cache discounts for eligible shared prefixes reused within a 30-minute window. GitHub reports that these improvements have reduced the share of prompt tokens requiring fresh processing by more than 50% across billions of requests to OpenAI models.
+
+"GPT-6 enables persistent agents to work for hours on complex tasks," OpenAI explained. "The applications behind these agents make a series of API requests that build on one another, often carrying forward the same instructions, tool definitions, and context from earlier turns."
+
+## New Developer Tools
+
+Three key additions help developers optimize caching:
+
+**Monitoring and diagnostics:** The Prompt Caching Dashboard shows cache hit rates over time, while a diagnostics tool explains missed opportunities and estimates affected tokens.
+
+**Flexible reasoning control:** Developers can now adjust reasoning effort between responses without breaking cache, preserving reusable context while scaling reasoning power to match task complexity.
+
+**Explicit cache breakpoints:** Developers can choose which prompt prefixes to cache, giving finer control over cache reuse and performance optimization.
+
+## Prewarming and Best Practices
+
+The update also introduces cache prewarming, allowing applications to prepare known context ahead of time so the model responds faster when requests arrive. OpenAI recommends keeping tool definitions stable, using allowed_tools to control availability without removing definitions, and appending new instructions toward the end of context to preserve earlier cached prefixes.
+
+The improvements are available now through the OpenAI API and Codex.

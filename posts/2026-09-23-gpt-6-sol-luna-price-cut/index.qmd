@@ -1,0 +1,32 @@
+---
+title: "OpenAI Unveils GPT-6 Sol and Luna With 50% Price Cut"
+date: "2026-09-23 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "OpenAI expands its GPT-6 family with Sol and Luna models, delivering frontier-class performance at half the cost of previous generations."
+image: "/assets/post-images/2026-09-23-gpt-6-sol-luna-price-cut.svg"
+---
+
+OpenAI has expanded its GPT-6 lineup with two new models—GPT-6 Sol and GPT-6 Luna—delivering significant price reductions while maintaining strong performance across professional work, coding, and computer use tasks.
+
+The new models represent OpenAI's effort to make frontier AI more accessible. GPT-6 Sol is positioned as the cost-efficient alternative to the flagship GPT-6 Astra, while GPT-6 Luna targets high-volume, lower-complexity workloads.
+
+## Pricing That Changes the Game
+
+The pricing overhaul slashes costs by 50% compared to GPT-5.6 promotional rates. GPT-6 Sol now costs $2 per million input tokens and $10 per million output tokens, down from $4 and $20 respectively. GPT-6 Luna drops to $0.10 input and $0.50 output, making it one of the most affordable frontier-tier options available.
+
+"We trained GPT-6 Sol and Luna with similar methods as GPT-6 Astra, bringing the advances behind Astra's state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models," OpenAI stated in the announcement.
+
+## Benchmark Performance
+
+The new models demonstrate impressive efficiency gains. On AutomationBench, which tests business workflows across 47 tools spanning sales, marketing, operations, and finance, GPT-6 Sol at xhigh effort outperforms Claude Opus 5 at max effort at just 9% of the cost.
+
+On coding tasks measured by DeepSWE v1.1, GPT-6 Sol at max effort scores 68.8%—within 1.1 percentage points of Claude Fable 5's highest score—at approximately 80% lower cost per task. GPT-6 Luna achieves 66.6%, comparable to Claude Opus 5 and Fable 5 at medium effort.
+
+For computer use on OSWorld 2.0, GPT-6 Sol at xhigh effort reaches 60.5%, matching Claude Opus 5 at medium effort at roughly 80% lower cost.
+
+## Improved Collaboration Style
+
+Both models inherit GPT-6 Astra's communication improvements, offering clearer responses, less jargon, and more concise answers without losing substance. The models are now available in ChatGPT Work, Codex, and the OpenAI API.
