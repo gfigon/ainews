@@ -1,0 +1,28 @@
+---
+title: "Medical AI Search Startup OpenEvidence Valued at $15B in New Funding Round"
+date: "2026-09-25 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "OpenEvidence secures $250M in Series D funding, doubling valuation to $15 billion as AI adoption surges among U.S. physicians and hospital systems."
+image: "/assets/post-images/2026-09-25-openevidence-15b.svg"
+---
+
+OpenEvidence, the AI-powered search engine designed specifically for physicians, has raised $250 million in Series D funding at a $15 billion valuation—representing a 25% premium over its $12 billion valuation from January 2026. The round was co-led by Thrive Capital and DST Global, with participation from hospital systems seeking to expand their AI capabilities.
+
+The funding brings OpenEvidence's total capital raised to approximately $700 million over the past 12 months, making it one of the best-funded healthcare AI companies globally. The company has become the de facto AI assistant for U.S. physicians, with its platform processing millions of clinical queries daily.
+
+## Why Doctors Are Adopting AI Search
+
+Unlike general-purpose AI assistants, OpenEvidence is built specifically for medical use cases. The platform indexes peer-reviewed research, clinical guidelines, drug interactions, and case studies, allowing physicians to get evidence-based answers in seconds rather than minutes or hours of manual searching.
+
+"The difference between OpenEvidence and ChatGPT for medical queries is the difference between a medical textbook and a conversation with a resident," said one physician at a major Boston hospital. "It knows the literature, the guidelines, and it cites sources."
+
+The company reports that over 200,000 physicians across the United States now use the platform regularly, with adoption accelerating following the integration of Claude and GPT-6 powered search capabilities earlier this year.
+
+## Strategic Implications
+
+The investment from hospital systems is particularly notable—it signals a shift toward vertical integration in healthcare AI, where providers are no longer just users but stakeholders in the platforms they deploy.
+
+OpenEvidence is also reportedly exploring potential acquisition opportunities, with compute access emerging as a key motivation. The company has been expanding its infrastructure to handle the exponential growth in query volume, and strategic partnerships could provide runway for its ambitious "medical superintelligence" roadmap.

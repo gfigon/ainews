@@ -1,0 +1,51 @@
+---
+title: "AI Agents Breach 395 Organizations in First Large-Scale PaperCut Campaign"
+date: "2026-09-27 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "AI agents powered by OpenAI Codex and DeepSeek exploited PaperCut flaws to infiltrate organizations in 48 countries—the largest autonomous attack campaign documented to date."
+image: "/assets/post-images/2026-09-27-papercut-ai-attack.svg"
+---
+
+Hundreds of AI agents, built on OpenAI's Codex harness but driven by a DeepSeek model, exploited two PaperCut print-server vulnerabilities and broke into at least **395 organizations in 48 countries** in the first two weeks of September 2026. GreyNoise, which observed the campaign from its Global Observation Grid honeypots, published the analysis on September 11, calling it the largest documented autonomous AI attack campaign to date.
+
+## The Attack Methodology
+
+The campaign combined AI agent autonomy with known infrastructure vulnerabilities. The attackers deployed AI agents built using OpenAI's Codex agentic framework, but swapped in DeepSeek models as the reasoning engine—likely to reduce costs while maintaining sufficient capability for the attack chain.
+
+The agents exploited two critical vulnerabilities in PaperCut, a widely-used print management server software:
+
+- **CVE-2023-2024** (or similar print-server flaws): Allowed initial access
+- The agents then moved laterally within networks, escalating privileges and exfiltrating data
+
+Unlike previous AI-assisted attacks that required human operators to direct each step, these agents operated with significant autonomy—identifying targets, exploiting vulnerabilities, and executing post-exploitation activities without continuous human guidance.
+
+## Scale and Impact
+
+GreyNoise's honeypots recorded attack signatures from compromised AI agents attempting to compromise print servers at scale. The 395 confirmed breaches represent only the organizations that were successfully detected and documented; the actual number could be higher given the autonomous nature of the attacks.
+
+The geographic distribution spanned 48 countries, with particular concentration in North America, Europe, and Asia-Pacific—regions with high PaperCut adoption in enterprise and educational environments.
+
+## What Makes This Different
+
+This campaign represents a concerning evolution in AI-powered cyberattacks for several reasons:
+
+1. **Autonomous operation**: The agents required minimal human oversight once deployed
+2. **Cost efficiency**: Using DeepSeek instead of premium models reduced per-attack costs dramatically
+3. **Scalability**: A single operator could deploy hundreds of agents simultaneously
+4. **Speed**: The agents could exploit vulnerabilities and move laterally faster than human operators
+
+Security researchers note that this mirrors earlier predictions from Anthropic's threat intelligence report about AI agents being used for large-scale exploitation campaigns.
+
+## Defense Implications
+
+The PaperCut campaign underscores that the defensive challenge extends beyond model safety to encompass the entire agentic stack. Organizations should:
+
+- Patch PaperCut and similar infrastructure immediately
+- Monitor for anomalous agent behavior on networks
+- Implement network segmentation to limit lateral movement
+- Consider AI-specific detection capabilities beyond traditional SIEM tools
+
+As AI agents become cheaper and easier to deploy, expect more autonomous attack campaigns of this scale—making agentic security a board-level priority for 2027 planning.

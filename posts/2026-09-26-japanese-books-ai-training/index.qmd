@@ -1,0 +1,24 @@
+---
+title: "Japanese Used Bookstores Report 5x Surge as AI Buyers Acquire Training Data"
+date: "2026-09-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Industry News
+summary: "Japanese used bookshops report up to fivefold daily sales increases as buyers acquire pre-2022 books by the ton for AI training, with over 50 tons exported to the US since last year."
+image: "/assets/post-images/2026-09-26-japanese-books-ai-training.svg"
+---
+
+Japanese used bookstores are experiencing an unprecedented surge in demand — and it's not coming from readers. AI companies and data brokers are buying up pre-2022 books by the ton, sending used book sales in Japan up as much as fivefold at some shops as the race for training data intensifies.
+
+An investigation by NTV Japan, cited by Tom's Hardware, found that Japanese used-book shops are reporting dramatic increases in daily sales as buyers acquire large quantities of books for AI model training. Trade data show that a group company of a major Japanese publishing distributor has exported over 50 tons of books to the United States since last year — roughly 100,000 volumes — destined for destructive scanning facilities that digitize content for machine learning datasets.
+
+The trend reflects a broader gold rush for high-quality training data as AI labs exhaust readily available internet sources. While companies initially trained models on scraped web data, researchers and regulators have increasingly questioned the legality and ethics of that approach. Pre-2022 books represent a valuable dataset: published works that were written and edited professionally, often containing higher-quality writing than typical internet content.
+
+The exports have raised concerns in Japan about the depletion of cultural knowledge. Many of the books being purchased are out of print or unavailable digitally, representing decades of Japanese scholarship, fiction, and non-fiction that may now exist only in AI training datasets rather than on physical shelves.
+
+The timing is significant. Copyright questions around AI training data remain largely unresolved globally, with ongoing lawsuits from authors and publishers against AI companies in the US and Europe. Japan's used book export surge highlights how the economics of physical books are being disrupted by digital demand — even as the legal frameworks catch up.
+
+For AI companies, the strategy makes cold economic sense. A single ton of books can yield millions of tokens of high-quality text. As frontier models require increasingly large and diverse datasets, the competition for physical books has become a new front in the AI infrastructure race — one that plays out in used bookstores rather than data centers.
+
+The phenomenon also underscores the environmental footprint of AI development. Shipping 50 tons of books across the Pacific, then scanning and processing them, represents a significant carbon impact that contrasts with AI companies' often-touted sustainability commitments.

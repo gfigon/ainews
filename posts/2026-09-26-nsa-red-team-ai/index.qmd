@@ -1,0 +1,24 @@
+---
+title: "NSA Spending Billions Annually to Red-Team Frontier AI Models"
+date: "2026-09-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Classified intelligence estimates reveal the NSA is spending billions per year evaluating frontier AI models, far exceeding previous public estimates and driving calls for a comprehensive AI regulatory body."
+image: "/assets/post-images/2026-09-26-nsa-red-team-ai.svg"
+---
+
+The National Security Agency is spending billions of dollars annually to evaluate and test frontier AI models, according to classified intelligence estimates revealed this week — a figure that significantly exceeds previous public estimates and underscores the US government's growing focus on AI security.
+
+Sources familiar with the classified briefings told the Washington Sun that NSA officials disclosed the spending figure to lawmakers, describing a massive investment in red-teaming operations designed to identify vulnerabilities, bias, and potential misuse vectors in advanced AI systems developed by leading labs including OpenAI, Anthropic, and Google DeepMind.
+
+The expenditure reflects the agency's expanded mandate under recent executive orders directing federal agencies to assess national security risks from AI. Beyond traditional cybersecurity testing, NSA red-teams now evaluate whether frontier models could be coaxed into generating harmful biological weapons designs, assist in cyberattacks, or propagate disinformation campaigns. The work requires specialized expertise: engineers who can command frontier-lab compensation levels to attract and retain talent capable of probing cutting-edge systems.
+
+Lawmakers now estimate that a comprehensive federal AI regulatory body could cost tens of billions annually to operate effectively — a price tag that has sparked debate over whether existing agency mandates should be consolidated or whether new structures are needed. NSA spending on AI testing alone represents a substantial portion of that projected cost.
+
+The disclosure comes amid intensifying debate over AI safety governance. The White House has asked OpenAI and Anthropic to delay providing new frontier models to the UK AI Security Institute until US reviewers complete their own assessments, a move that underscores the tension between international cooperation on AI safety and concerns about sharing sensitive capabilities with foreign entities.
+
+NSA's red-teaming focus extends beyond defensive assessments. The agency has also been tracking how foreign adversaries — particularly China — might exploit or target US AI systems. Recent warnings have highlighted concerns about Chinese companies "distilling" knowledge from US frontier models through API interactions, potentially extracting capabilities without the cost of original research.
+
+The billions spent annually represent a new category of defense spending that didn't exist five years ago. As AI capabilities advance, the NSA's role in evaluating and securing these systems is likely to grow — along with the budget required to do the job thoroughly.

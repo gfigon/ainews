@@ -22,9 +22,9 @@
 
   <!-- Watermark keyword -->
   <text x="512" y="370" text-anchor="middle"
-        font-size="140" font-weight="800"
+        font-size="360" font-weight="800"
         fill="#6ee7a3" opacity="0.10"
-        letter-spacing="-0.04em">ANTHROPIC</text>
+        letter-spacing="-0.04em">AI</text>
 
   <!-- Bracket frame -->
   <g stroke="#6ee7a3" stroke-width="2" fill="none">
@@ -42,8 +42,8 @@
 
   <!-- Title block -->
   <g fill="#e6edf3" font-weight="700">
-    <text x="56" y="220" font-size="40" letter-spacing="-0.02em">Anthropic Releases Claude Opus 5.5—40%</text>
-    <text x="56" y="270" font-size="40" letter-spacing="-0.02em">Cheaper, Matches Fable...</text>
+    <text x="56" y="220" font-size="40" letter-spacing="-0.02em">Anthropic Unveils Claude Opus 5.5: A</text>
+    <text x="56" y="270" font-size="40" letter-spacing="-0.02em">New Frontier in AI Reaso...</text>
   </g>
 
   <!-- Category badge -->
@@ -56,7 +56,7 @@
 
   <!-- Bottom-left tag with keyword -->
   <g transform="translate(56 504)" filter="url(#glow-2026-09-23-claude-opus-5-5)">
-    <text x="0" y="0" font-size="20" font-weight="700" fill="#6ee7a3" letter-spacing="0.06em">// ANTHROPIC_</text>
+    <text x="0" y="0" font-size="20" font-weight="700" fill="#6ee7a3" letter-spacing="0.06em">// AI_</text>
   </g>
 
   <!-- Bottom-right signature line -->

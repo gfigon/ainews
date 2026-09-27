@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "GitSpawn Vulnerability Seven AI Coding Agents Remote Code Execution September 2026",
+      "count": 1,
+      "last_published": "2026-09-27",
+      "slugs": [
+        "2026-09-27-gitspawn-vulnerability"
+      ]
+    },
+    {
+      "term": "PaperCut AI Agent Attack 395 Organizations Autonomous Breach September 2026",
+      "count": 1,
+      "last_published": "2026-09-27",
+      "slugs": [
+        "2026-09-27-papercut-ai-attack"
+      ]
+    },
+    {
+      "term": "Microsoft Copilot Agentic Platform Redesign September 2026",
+      "count": 1,
+      "last_published": "2026-09-27",
+      "slugs": [
+        "2026-09-27-microsoft-copilot-agentic"
+      ]
+    },
+    {
       "term": "OpenAI GPT-6 Sol Luna 50% Price Cut API September 2026",
       "count": 1,
       "last_published": "2026-09-23",

@@ -1,0 +1,22 @@
+---
+title: "OpenAI, Anthropic and Google DeepMind Explore Joint AI Safety Standards Body"
+date: "2026-09-25 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "The three leading AI labs confirm weeks of discussions to create a FINRA-like standards body for pre-release frontier model testing."
+image: "/assets/post-images/2026-09-25-openai-anthropic-google-ai-safety-talks.svg"
+---
+
+OpenAI has confirmed that it has been holding talks with Anthropic and Google DeepMind to create a shared framework for AI safety, marking one of the most direct admissions yet that the industry's fiercest rivals are quietly building a coordinated approach to managing risks from frontier AI models.
+
+The confirmation came on September 15, 2026, when OpenAI's global policy chief Chris Lehane told reporters in Washington that the company had been collaborating with rivals on AI safety for several weeks. The discussions, which began in July 2026 according to multiple outlets, aim to establish an industry-led standards body modeled on FINRA, the U.S. brokerage self-regulator.
+
+Demis Hassabis first proposed the idea in July, calling for a U.S.-led body that could test frontier models up to 30 days before release. Dario Amodei of Anthropic has separately proposed slowing the pace of frontier AI capability gains while allowing technical development to continue.
+
+The three companies already co-fund the Frontier Model Forum, but this new initiative represents a significant expansion of their coordination. Unlike the voluntary framework currently in place, the proposed standards body would include independent evaluations and pre-release safety reviews for frontier models.
+
+The move comes amid intensifying pressure from governments worldwide to address mounting AI safety concerns. However, some analysts have questioned whether such a body could effectively regulate given the intense competition between the labs and the rapid pace of AI development.
+
+Industry observers note that antitrust considerations could complicate the effort. Lehane stated that no antitrust waiver was needed for the current discussions, though the proposal will likely face scrutiny from regulators as it develops.

@@ -1,0 +1,22 @@
+---
+title: "LangChain Unveils LangSmith Engine v2 and Deep Agents v0.8 with Enhanced Security"
+date: "2026-09-25 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "LangChain releases major updates to its agent development platform, including red teaming capabilities, new authentication features, and improved memory management."
+image: "/assets/post-images/2026-09-25-langchain-langsmith-engine-v2.svg"
+---
+
+LangChain has announced a suite of significant updates to its agent development platform, with LangSmith Engine v2 and Managed Deep Agents v0.8 launching on September 24, 2026. The releases bring enterprise-grade security features, improved observability, and new tools for building reliable AI agents.
+
+LangSmith Engine v2 introduces red teaming and automated testing capabilities, enabling developers to proactively identify vulnerabilities and failure modes in their agent systems before deployment. The update addresses growing concerns about agent security in production environments, where autonomous systems can exhibit unexpected behaviors.
+
+Managed Deep Agents v0.8 adds new authentication, memory, and channel features designed for enterprise deployments. The authentication improvements include per-caller identity management and managed credentials, while the memory enhancements allow agents to maintain context across longer conversations and complex workflows.
+
+Also new is the Trajectories feature in LangSmith, providing a readable view of every agent session that helps developers debug decisions and trace reasoning paths. This observability improvement comes as enterprises increasingly demand transparency into how AI agents make decisions.
+
+LangSmith Fine-Tuning and LangSmith Custom Apps round out the announcements, enabling organizations to customize models for specific use cases and build custom interfaces around agent data. These tools target the growing enterprise market for bespoke AI agent solutions.
+
+The releases follow LangChain's push into healthcare applications, with the company recently announcing a reliability layer for healthcare AI and partnerships with organizations like Included Health for federated agent systems.

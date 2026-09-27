@@ -1,0 +1,24 @@
+---
+title: "Claude Discovers Novel Enzyme System With CRISPR-Like Properties"
+date: "2026-09-24 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Anthropic's Claude autonomously identified a novel enzyme system in bacteriophages with properties reminiscent of CRISPR, demonstrating AI's potential to drive fundamental biological discoveries."
+image: "/assets/post-images/2026-09-24-claude-enzyme-discovery.svg"
+---
+
+Anthropic announced that its AI model Claude autonomously discovered a novel enzyme system with properties resembling CRISPR, marking a significant milestone in AI-driven scientific research. The discovery emerged from Claude's analysis of DNA sequence databases, where it identified a previously uncharacterized system that researchers have named array-associated reverse transcriptases (ART).
+
+The research team prompted Claude to search through a massive database of DNA sequences for interesting new examples of reverse transcriptases. Over 21 hours, approximately 950 Claude agents searched through 210 million tokens, ultimately identifying a repeating pattern of DNA sequences adjacent to a reverse transcriptase gene in bacteriophages—the viruses that infect bacteria.
+
+"The DNA next to the RT is spectacular: I can see by eye a tandem repeat array … that's a CRISPR-like … repeat array?!" Claude noted during its analysis, according to the research paper.
+
+The ART system consists of three components: the reverse transcriptase itself, a partner gene with unknown function, and a long array of evenly spaced DNA repeat sequences. The repeat layout closely resembles CRISPR arrays, which hold collections of RNA sequences that make CRISPR-Cas systems programmable biotechnological tools. Early experiments confirm the ART array is expressed as a set of distinct short RNAs, suggesting analogous functionality.
+
+"This is an exciting example of how AI agents can contribute to biological discovery. The identification of RNA-repeat arrays associated with reverse transcriptases is genuinely intriguing and merits further investigation," said Feng Zhang, MIT professor and CRISPR pioneer.
+
+Anthropic has released a pre-print detailing the findings and established a new life sciences research group focused on fundamental biology research using Claude. The laboratory, located in the Bay Area, works on BSL-1 and BSL-2 biosafety levels and does not handle human pathogens.
+
+This discovery follows the company's broader vision outlined in Dario Amodei's essay on AI's potential to accelerate biology and health research, suggesting a new paradigm where AI agents collaborate with humans at every step of the scientific discovery process.

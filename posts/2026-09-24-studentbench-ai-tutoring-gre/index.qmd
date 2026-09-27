@@ -1,0 +1,36 @@
+---
+title: "StudentBench: AI Tutoring Matches Human Performance on GRE at 1/918th the Cost"
+date: "2026-09-24 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "A new benchmark called StudentBench finds that AI tutors deliver equivalent GRE learning gains to human tutors—sometimes surpassing them—while costing 918 times less, potentially transforming accessible education."
+image: "/assets/post-images/2026-09-24-studentbench-ai-tutoring-gre.svg"
+---
+
+A groundbreaking study published on arXiv demonstrates that AI tutoring systems can match expert human tutors in educational effectiveness, achieving equivalent GRE learning gains at a fraction of the cost. The research introduces StudentBench, a comprehensive evaluation framework that could reshape how educators think about AI in the classroom.
+
+The study, conducted across 2,383 human participants, measured learning gains on both Quantitative and Verbal GRE questions. The results reveal that AI tutoring produces statistically equivalent outcomes to expert human tutoring, with a significance level of p = 0.015.
+
+## Key Findings
+
+The research analyzed over 175,000 student-AI messages to study whether large language models can produce learning gains equivalent to human tutoring. The findings show that in five of seven GRE subject domains, the best-performing AI tutor actually surpassed the human tutor.
+
+Perhaps most significantly, the cost differential is dramatic. AI tutoring achieves comparable results at approximately 1/918th the cost of human tutoring, potentially democratizing access to high-quality educational support.
+
+"We found that faster responses and greater student engagement were linked to better outcomes," the researchers noted. "AI tutors never get tired, never have bad days, and can scale infinitely."
+
+## The StudentBench Framework
+
+StudentBench represents a significant advance in evaluating AI teaching capabilities. The platform enables large-scale data collection and standardized assessment of AI tutoring effectiveness across different subjects, difficulty levels, and student populations.
+
+The benchmark addresses a critical gap in AI education research: the lack of standardized metrics for comparing AI tutoring effectiveness against human baselines. Previous studies have been limited by small sample sizes and inconsistent measurement approaches.
+
+## Implications for Education
+
+The findings suggest AI could play a much larger role in addressing educational inequality. With the ability to provide personalized tutoring at near-zero marginal cost, AI systems could help bridge the gap between students who have access to expensive private tutoring and those who don't.
+
+However, researchers caution that AI tutoring works best as a complement to human education rather than a replacement. The social and emotional aspects of learning, they note, remain distinctly human strengths.
+
+The study was conducted by researchers including Curtis Northcutt, Inaara Hasmani, Kevin Feng, Trevor Khangi, Andreas Plesner, and Jonas Mueller, with the full paper available on arXiv.
