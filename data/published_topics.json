@@ -4393,6 +4393,22 @@
       "slugs": [
         "2026-09-06-ai-service-outages"
       ]
+    },
+    {
+      "term": "Goldman Sachs $1.2 Trillion Big Tech AI Infrastructure 2027 September 2026",
+      "count": 1,
+      "last_published": "2026-09-28",
+      "slugs": [
+        "2026-09-28-goldman-1-2-trillion-ai"
+      ]
+    },
+    {
+      "term": "Llama.cpp Prompt-Lookup Drafting 140x Speedup Optimization September 2026",
+      "count": 1,
+      "last_published": "2026-09-28",
+      "slugs": [
+        "2026-09-28-llama-cpp-140x-optimization"
+      ]
     }
   ]
 }

@@ -1,0 +1,24 @@
+---
+title: "Goldman Sachs Projects $1.2 Trillion Big Tech AI Infrastructure Spend in 2027"
+date: "2026-09-28 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Goldman Sachs forecasts Amazon, Alphabet, Microsoft, Oracle and Meta will spend a combined $1.2 trillion on AI infrastructure in 2027, the largest investment cycle since 19th-century railroads."
+image: "/assets/post-images/2026-09-28-goldman-1-2-trillion-ai.svg"
+---
+
+Goldman Sachs has delivered its most bullish forecast yet on Big Tech's AI infrastructure spending, projecting that Amazon, Alphabet, Microsoft, Oracle, and Meta will collectively pour $1.2 trillion into AI infrastructure in 2027—a 50% increase from roughly $800 billion in 2026.
+
+The forecast, which sits above Wall Street's consensus of $1.1 trillion, positions the coming investment cycle as the largest relative to GDP since the 19th-century railroad construction boom. The five hyperscalers have been locked in an unprecedented capital expenditure race, each building out massive GPU clusters to train and serve frontier models.
+
+**Decelerating growth, still massive scale.** While the headline number is staggering, the growth rate is actually slowing: from approximately 100% in 2026 to 54% in 2027, and just 12% in 2028. This moderation suggests the industry is approaching an inflection point where infrastructure buildout begins to outpace demand.
+
+The bank estimates the group needs to generate approximately $300 billion in annual AI-related revenue to justify the spending—a steep hill climb even for the world's most valuable companies. However, cloud revenue growth is accelerating: from 25% in 2024 to 48% in Q2 2026, providing some validation for the capex surge.
+
+**Treasury yields add pressure.** The investment thesis faces headwinds from rising borrowing costs. The 10-year Treasury yield now sits near 5.17%, up roughly one percentage point since January. For debt-heavy operators like CoreWeave, every 100-basis-point rise adds approximately $30 million to annual interest expenses on floating-rate debt. Oracle's quarterly interest expense has jumped 55% to $1.43 billion, and the company's shares are down about 30% year-to-date.
+
+JPMorgan estimates $4.1 trillion in AI-related debt will be issued through 2030, making the debt cost dynamics increasingly material to the investment case.
+
+The Goldman forecast underscores a central tension in the AI infrastructure story: the capital requirements are unprecedented, the competitive dynamics demand continued spending, and the timeline for returns remains uncertain—even as the hyperscalers show no sign of pulling back.
