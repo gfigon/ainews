@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Nvidia 12.9B Hugging Face Acquisition September 2026 Open Platform",
+      "count": 1,
+      "last_published": "2026-09-29",
+      "slugs": [
+        "2026-09-29-nvidia-huggingface-acquisition"
+      ]
+    },
+    {
+      "term": "OpenAI Anthropic Google AI Safety Talks Weeks September 2026 Coordination",
+      "count": 1,
+      "last_published": "2026-09-29",
+      "slugs": [
+        "2026-09-29-ai-safety-talks-rivals"
+      ]
+    },
+    {
       "term": "GitSpawn Vulnerability Seven AI Coding Agents Remote Code Execution September 2026",
       "count": 1,
       "last_published": "2026-09-27",
