@@ -1,0 +1,28 @@
+---
+title: "Nvidia to Acquire Hugging Face for $12.9 Billion in Historic AI Platform Deal"
+date: "2026-09-29 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Nvidia's largest-ever software acquisition targets the open-source AI hub serving 18 million developers, with promises to keep the platform ecosystem agnostic."
+image: "/assets/post-images/2026-09-29-nvidia-huggingface-acquisition.svg"
+---
+
+Nvidia has confirmed its agreement to acquire Hugging Face, the leading open-source AI model platform, for $12.93 billion — the chipmaker's largest software acquisition to date. The deal signals Nvidia's strategic push beyond hardware and into the AI software stack.
+
+The acquisition brings together the world's most valuable AI company with the platform that has become the de facto hub for sharing and deploying machine learning models. Hugging Face hosts over 3 million models, 500,000 datasets, and 1 million applications, serving more than 18 million developers and 200,000 companies worldwide.
+
+## Preserving the Open Ecosystem
+
+In his announcement, CEO Jensen Huang emphasized that Hugging Face will remain an open platform independent of vendor lock-in. "NVIDIA compute will not be required to build on or deploy through Hugging Face," Huang wrote, adding that the platform will continue supporting open weights models from every provider, across multiple clouds and accelerators.
+
+This commitment addresses a key concern in the AI community: whether the acquisition would marginalize models and frameworks that don't run on Nvidia hardware. The company has been a major contributor to the platform, releasing over 500 models and 250 open datasets, and now pledges to expand access rather than restrict it.
+
+## What the Deal Means for Developers
+
+The acquisition comes as the AI industry debates the future of open-source development. Nvidia recently co-authored an open letter advocating for open weights models as essential to AI economics — a position that aligns with Hugging Face's mission but puts tension on proprietary competitors like OpenAI and Anthropic.
+
+For enterprises, the deal promises improved infrastructure, reliability, and deployment capabilities powered by Nvidia's engineering resources and global reach. The platform will maintain its current API services, model hosting, and community features while gaining additional support for safety, evaluation, and inference optimization.
+
+The transaction, announced September 3, 2026, is expected to close in early 2027, pending regulatory approval.

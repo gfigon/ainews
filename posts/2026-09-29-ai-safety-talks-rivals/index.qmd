@@ -1,0 +1,30 @@
+---
+title: "OpenAI, Anthropic, Google Confirm Weeks of AI Safety Talks in Unprecedented Coordination"
+date: "2026-09-29 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Major AI labs acknowledge ongoing discussions about coordinated safety measures, as industry rivals propose a FINRA-style standards body to monitor frontier models."
+image: "/assets/post-images/2026-09-29-ai-safety-talks-rivals.svg"
+---
+
+OpenAI has confirmed that it has been in active talks with Anthropic and Google DeepMind for several weeks regarding AI safety — marking one of the most direct admissions yet that the industry's fiercest competitors are building a shared framework to manage risks from frontier AI systems.
+
+The confirmation came from Chris Lehane, OpenAI's global policy chief, during meetings with U.S. lawmakers in Washington focused on catastrophic AI risks. The disclosure follows Dario Amodei's recent essay calling for the industry to collectively slow the pace of frontier AI development.
+
+## Rivals United on Safety
+
+The unprecedented coordination between OpenAI, Anthropic, and Google DeepMind represents a significant shift in the AI landscape. All three companies have historically competed aggressively on model capabilities, but mounting safety concerns have prompted unusual cooperation.
+
+CEO Sam Altman publicly supported Anthropic's call for third-party evaluators embedded within companies to monitor safety. Demis Hassabis and Elon Musk also backed the initiative. The collaboration reportedly includes discussions of establishing a standards body similar to FINRA, which oversees securities markets in the United States.
+
+The proposed body would screen the world's most advanced AI models and coordinate industry-wide slowdowns if dangers were detected. Hassabis first called for such an organization in July, urging the U.S. government to establish an AI watchdog with enforcement powers.
+
+## Political Headwinds
+
+The coordination arrives amid resistance from the Trump administration, which has dismissed AI safety concerns as a "hoax" and pushed back against regulations, arguing that any slowdown would benefit China in the global AI race. Key advisor David Sacks has echoed this position, calling existential AI risks overblown.
+
+Despite this, OpenAI has expressed support for the FRONTIER Act, which would require top AI labs to allow independent verification organizations into their companies. Lehane confirmed the company's backing at the same Washington meetings where the safety talks were disclosed.
+
+Antitrust concerns shadow the collaboration. Some legal experts note that extensive coordination between competitors could raise scrutiny, though Amodei's proposal includes a narrow government waiver specifically designed to permit safety-related information sharing.
