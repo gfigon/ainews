@@ -1,0 +1,24 @@
+---
+title: "OpenAI Launches Dots, Persistent Agents That Work While You Sleep"
+date: "2026-10-04 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - LLMs & Models
+summary: "OpenAI introduces always-on autonomous agents at DevDay 2026, powered by GPT-6 Astra, capable of pursuing multi-day goals across applications without continuous supervision."
+image: "https://pollinations.ai/p/OpenAI%20Dots%20autonomous%20agents%20persistent%20AI?width=1024&height=576&seed=1015&nologo=true"
+---
+
+OpenAI has launched Dots, a new category of persistent AI agents that operate continuously to accomplish user goals, the company announced at DevDay 2026 on September 29. Unlike traditional assistants that respond to individual prompts, Dots powered by GPT-6 Astra can work across sessions, managing multi-step projects while users attend to other priorities.
+
+The distinction matters. Existing AI assistants wait for instructions. Dots pursue objectives autonomously once granted permissions, checking progress, adapting strategies, and completing workflows that span hours or days. An agent might research a market, draft a report, schedule meetings, and follow up—without the user typing another command.
+
+"Most AI interactions are transactional," said OpenAI's product lead during the announcement. "Dots represent a shift to ongoing partnerships. You define what you want accomplished, and the agent figures out the steps."
+
+Dots integrate with ChatGPT, Slack, Microsoft Teams, and thousands of other applications through the new OpenAI Connect framework. Users set permission levels controlling what each agent can do—approvals required for sensitive actions like sending emails or accessing financial systems.
+
+The platform arrives amid intensifying competition. Anthropic released Claude Sonnet 5.5 last week, Google announced Gemini 4 Argon with a 1-million-token context window, and startups are racing to build consumer and enterprise agents. OpenAI's entry signals that the assistant-to-agent transition is accelerating across the industry.
+
+Enterprise customers will get priority access in Q4 2026, with consumer availability planned for early 2027. Pricing will follow a subscription model based on agent complexity and compute requirements rather than per-task charges.
+
+Security experts note that persistent agents introduce new risks—agents with ongoing access to systems represent larger attack surfaces if compromised. OpenAI says Dots run in isolated containers with audit logging, and enterprise deployments can use their own security infrastructure alongside OpenAI's controls.

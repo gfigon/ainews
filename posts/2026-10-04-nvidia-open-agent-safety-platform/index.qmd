@@ -1,0 +1,24 @@
+---
+title: "NVIDIA Unveils Open Agent Safety Platform to Control Autonomous AI"
+date: "2026-10-04 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "NVIDIA launches open-source safety framework for autonomous agents with hardware-level isolation, as over 100 organizations including Anthropic and Microsoft join the initiative."
+image: "https://pollinations.ai/p/NVIDIA%20Open%20Agent%20Safety%20Platform%20autonomous%20AI%20containment?width=1024&height=576&seed=1015&nologo=true"
+---
+
+NVIDIA has announced the Open Agent Safety Platform, a comprehensive framework designed to control autonomous AI agents as they gain access to sensitive systems, browsers, and APIs. The platform, unveiled September 28, includes two core components: OpenShell, an open-source runtime that restricts agent capabilities, and NVIDIA Sentry, a hardware-based monitoring system that can physically isolate an agent if it attempts to exceed its permitted boundaries.
+
+The timing is notable. As AI agents transition from experimental tools to production systems handling real workflows, security researchers have documented growing risks. Agents can access company data, execute transactions, and interact with external APIs—but traditional software boundaries were never designed for systems that autonomously navigate multiple applications.
+
+"OpenShell provides a sandbox that agents cannot escape," explained NVIDIA's chief security officer in the announcement. "Even if an agent discovers a vulnerability in its own runtime, hardware isolation ensures it cannot breach the container."
+
+More than 100 organizations are already collaborating on the platform, including Anthropic, Microsoft, Cisco, CrowdStrike, Salesforce, SAP, and several financial institutions. This consortium approach reflects industry recognition that agent safety cannot be solved by any single company.
+
+The platform addresses a fundamental shift in AI deployment. Traditional assistants respond to prompts and complete discrete tasks. Autonomous agents pursue multi-step goals, making decisions along the way—creating novel security surfaces that conventional controls cannot monitor.
+
+Early adopters in banking and healthcare are pilot-testing the platform for high-risk agent deployments. Results from the first month show that hardware-level isolation adds minimal latency while preventing all tested escape attempts.
+
+The open-source release of OpenShell allows developers to inspect, audit, and extend the runtime—a transparency choice that contrasts with proprietary safety solutions. NVIDIA Sentry hardware modules are expected to ship in Q1 2027 for data center deployments, with cloud-based options available through AWS and Azure next year.

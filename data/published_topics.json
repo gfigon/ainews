@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "NVIDIA Open Agent Safety Platform OpenShell Sentry Hardware Isolation September 2026",
+      "count": 1,
+      "last_published": "2026-10-04",
+      "slugs": [
+        "2026-10-04-nvidia-open-agent-safety-platform"
+      ]
+    },
+    {
+      "term": "OpenAI Dots Always-On Autonomous Agents GPT-6 Astra Persistent September 2026",
+      "count": 1,
+      "last_published": "2026-10-04",
+      "slugs": [
+        "2026-10-04-openai-dots-agents"
+      ]
+    },
+    {
       "term": "Nvidia 12.9B Hugging Face Acquisition September 2026 Open Platform",
       "count": 1,
       "last_published": "2026-09-29",
