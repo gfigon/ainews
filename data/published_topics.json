@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Microsoft ThinkingBox Agent Benchmark Database State Terminal Backend October 2026",
+      "count": 1,
+      "last_published": "2026-10-05",
+      "slugs": [
+        "2026-10-05-microsoft-thinkingbox"
+      ]
+    },
+    {
+      "term": "ServiceNow AutoSynthData Enterprise Agent Training Data Synthetic Curriculum October 2026",
+      "count": 1,
+      "last_published": "2026-10-05",
+      "slugs": [
+        "2026-10-05-autosynthdata"
+      ]
+    },
+    {
       "term": "NVIDIA Open Agent Safety Platform OpenShell Sentry Hardware Isolation September 2026",
       "count": 1,
       "last_published": "2026-10-04",

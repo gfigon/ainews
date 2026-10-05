@@ -1,0 +1,36 @@
+---
+title: "ServiceNow's AutoSynthData Turns Agent Failures Into Training Data"
+date: "2026-10-05 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "ServiceNow's new system identifies what enterprise agents get wrong, then automatically generates thousands of training tasks to fix those exact weaknesses—a curriculum that adapts as the model improves."
+image: "/assets/post-images/2026-10-05-autosynthdata.svg"
+---
+
+Enterprises need agents that work in their own environments—their systems, their rules, their data. A model may be broadly capable but still struggle with a particular workflow, misuse a combination of tools, or fail to respect constraints specific to that environment. The difficulty is turning those weaknesses into training data.
+
+ServiceNow CoreAI has built AutoSynthData to solve exactly that problem. Announced October 2, the system uses a target model's failures and a stronger teacher's successes to decide what the model should learn next, then generates and validates new tasks that exercise those capabilities.
+
+## From Failures to a Curriculum
+
+The pipeline works in three stages. First, AutoSynthData evaluates the target model in the enterprise environment and identifies patterns in what it struggles to complete. A stronger teacher helps characterize which of those tasks are solvable and what successful behavior looks like.
+
+These findings become "capability specification cards"—sanitized descriptions of what the model needs to learn. Critically, the generator receives these cards without the original prompts, entities, trajectories, or verifier details. It learns what capability to teach, not what specific task to copy.
+
+Then comes generation and scaling. The system creates new tasks that exercise the target capability, varying entities, initial environment state, workflow composition, tool combinations, wording, and difficulty. Each candidate goes through validation: is the task actually executable? Does the reference solution work? Does the verifier correctly distinguish success from failure?
+
+## What Makes a Good Training Task
+
+A useful agentic task must satisfy three properties. **Feasibility** means there exists at least one trajectory that satisfies the user prompt while respecting the system specification—ruling out tasks that depend on unavailable tools or impossible state transitions. **Realism** means the user prompt resembles something someone would plausibly ask. **Difficulty** means the task exposes a weakness of the current agent—tasks already solved reliably provide little new training signal.
+
+The multiply phase expands the dataset by creating novel variants of accepted samples. Each variant has its own user request, environment state, entity configuration, reference trajectory, and verifier—and must pass the same validation checks. Multiplied samples cannot seed other multiplied samples, anchoring expansion to the vetted target set and limiting drift.
+
+## Why This Matters for Enterprise
+
+The challenge with enterprise agent deployment is that every organization has unique workflows, policies, and systems. A general-purpose model may ace benchmarks but fail on the specific tasks that matter to a given business.
+
+AutoSynthData addresses this by creating a continuous feedback loop: evaluate, identify gaps, generate targeted training data, improve, and repeat. As the model improves, the curriculum shifts toward what it still finds difficult.
+
+ServiceNow illustrated the pipeline with EnterpriseOps Gym, using a released dataset on Hugging Face. For enterprises building agents that must operate in real business environments, the ability to automatically generate training data tailored to their specific weaknesses could be a significant advantage.
