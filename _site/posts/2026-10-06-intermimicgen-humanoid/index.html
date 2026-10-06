@@ -8,7 +8,7 @@
 
 <meta name="author" content="AI News Editorial">
 
-<title>When AI Agents Sound Right But Leave the Database Wrong</title>
+<title>InterMimicGen: Self-Evolving Motion Teaching for Humanoid Robots</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,16 +107,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../assets/colors_and_type.css">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../hide-elements.css">
-<meta property="og:title" content="When AI Agents Sound Right But Leave the Database Wrong">
+<meta property="og:title" content="InterMimicGen: Self-Evolving Motion Teaching for Humanoid Robots">
 <meta property="og:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta property="og:image" content="https://roboaidigest.com/assets/post-images/2026-10-05-microsoft-thinkingbox.svg">
-<meta name="twitter:title" content="When AI Agents Sound Right But Leave the Database Wrong">
+<meta property="og:image" content="https://roboaidigest.com/assets/post-images/2026-10-06-intermimicgen-humanoid.svg">
+<meta name="twitter:title" content="InterMimicGen: Self-Evolving Motion Teaching for Humanoid Robots">
 <meta name="twitter:description" content="Automated daily briefings on the latest AI research and industry breakthroughs.">
-<meta name="twitter:image" content="https://roboaidigest.com/assets/post-images/2026-10-05-microsoft-thinkingbox.svg">
+<meta name="twitter:image" content="https://roboaidigest.com/assets/post-images/2026-10-06-intermimicgen-humanoid.svg">
 <meta name="twitter:creator" content="@roboaidigest">
 <meta name="twitter:site" content="@roboaidigest">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://roboaidigest.com/posts/2026-10-05-microsoft-thinkingbox/">
+<link rel="canonical" href="https://roboaidigest.com/posts/2026-10-06-intermimicgen-humanoid/">
 </head>
 
 <body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">When AI Agents Sound Right But Leave the Database Wrong</h1>
+      <h1 class="title">InterMimicGen: Self-Evolving Motion Teaching for Humanoid Robots</h1>
                                     </div>
   </div>
     
@@ -341,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026-10-05 10:15</p>
+        <p class="date">2026-10-06 08:00</p>
       </div>
     </div>
     
@@ -357,9 +357,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-surface-looks-clean" id="toc-the-surface-looks-clean" class="nav-link active" data-scroll-target="#the-surface-looks-clean">The Surface Looks Clean</a></li>
-  <li><a href="#one-success-is-not-reliability" id="toc-one-success-is-not-reliability" class="nav-link" data-scroll-target="#one-success-is-not-reliability">One Success Is Not Reliability</a></li>
-  <li><a href="#the-consistency-frontier" id="toc-the-consistency-frontier" class="nav-link" data-scroll-target="#the-consistency-frontier">The Consistency Frontier</a></li>
+  <li><a href="#the-core-idea" id="toc-the-core-idea" class="nav-link active" data-scroll-target="#the-core-idea">The Core Idea</a></li>
+  <li><a href="#what-it-achieves" id="toc-what-it-achieves" class="nav-link" data-scroll-target="#what-it-achieves">What It Achieves</a></li>
+  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
   </ul>
 </nav>
     </div>
@@ -374,25 +374,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>A customer writes in. Her $745 kitchen appliance has been stuck in courier “exception” for fifteen days. The AI agent does careful work—nine tool calls, pulling the order, checking tracking, reading the refund policy correctly. Then it closes the ticket as resolved and replies: “Since your query is resolved, is there anything I may assist you with?”</p>
-<p>Two things are wrong. The carrier exception is still open, so the required end state was “on hold,” not “solved.” And the customer never got a real answer to what she asked.</p>
-<p>This is the gap ThinkingBox measures. Microsoft’s new benchmark—released October 3 and available through Hugging Face—grades AI agents on the records they leave behind, not the sentences they generate.</p>
-<section id="the-surface-looks-clean" class="level2">
-<h2 class="anchored" data-anchor-id="the-surface-looks-clean">The Surface Looks Clean</h2>
-<p>Across 507 stateful business workflows, each run 20 times against various LLM models, ThinkingBox found something alarming: of the 79,853 failed attempts, <strong>67.24% still terminated cleanly, invoked a state-changing tool, and reported no final tool error</strong>. The database is what disagreed.</p>
-<p>Among those surface-clean failures, the benchmark found wrong field values in 77.61%, unintended extra effects in 43.30%, and missing required effects in 25.36%.</p>
-<p>“A trajectory is a claim. Database state is the evidence. Repetition is the trust test,” the paper notes.</p>
+<p>Teaching a humanoid robot to pick up a cup, walk across a cluttered room, and open a door—tasks trivial for humans—has been one of robotics’ hardest problems. Motion capture data exists in abundance. The challenge: making that data work on robots with different bodies, in real environments, at scale.</p>
+<p>InterMimicGen, released October 5 on Hugging Face, attacks this problem with a self-improving flywheel that turns a single human demonstration into an expanding dataset of robot skills.</p>
+<section id="the-core-idea" class="level2">
+<h2 class="anchored" data-anchor-id="the-core-idea">The Core Idea</h2>
+<p>The system takes motion-capture recordings of humans interacting with objects—reaching, grasping, walking while carrying—and “retargets” them onto humanoid robots with dexterous hands. This isn’t simple replay. Humans and robots have different proportions, joint configurations, and centers of gravity.</p>
+<p>InterMimicGen trains a generalist tracker in simulation that watches a motion and predicts what the robot’s joints should do. Then it runs a self-evolving loop: generate small task-preserving edits to the motion, test them with the tracker, and keep only the variations where the tracker still succeeds.</p>
+<p>Each successful variant becomes new training data. The tracker gets better. It generates more diverse motions. The cycle compounds.</p>
 </section>
-<section id="one-success-is-not-reliability" class="level2">
-<h2 class="anchored" data-anchor-id="one-success-is-not-reliability">One Success Is Not Reliability</h2>
-<p>The benchmark runs every task 20 independent times from identical clean backends. The results reveal a stark divide between capability and consistency.</p>
-<p>Claude Opus 5.5 leads overall at 67.16% pass@1, but only achieves the same result in all 20 attempts for 47.53% of tasks. Kimi-K3—strongest open-weight model—solves 93.89% of tasks at least once, the broadest coverage in the field. But it passes only 13.41% of tasks consistently across all 20 runs.</p>
-<p>The gap between what a model can do once and what it does every time is the whole story. A model that handles a refund correctly once and mishandles it the next four times is not a working refund agent.</p>
+<section id="what-it-achieves" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-achieves">What It Achieves</h2>
+<p>The paper reports results across nine loco-manipulation tasks in simulation. The self-evolving flywheel produces a 340% increase in successful motion variants compared to a single-pass retargeting baseline. The generalist tracker achieves 91.2% success rate on novel motions it hasn’t seen during training.</p>
+<p>Crucially, the system works across different humanoid platforms. The same motion library can be retargeted to robots with different arm lengths, torso heights, and hand designs—without manual per-robot tuning.</p>
 </section>
-<section id="the-consistency-frontier" class="level2">
-<h2 class="anchored" data-anchor-id="the-consistency-frontier">The Consistency Frontier</h2>
-<p>On the cost-efficiency frontier, GPT-5.6 Sol has the lowest cost per successful task attempt at $0.127. GPT-5.4 raises accuracy by 3.45 percentage points for $0.004 more per success. Claude Opus 5.5 adds another 1.80 points at $0.276 per success.</p>
-<p>The benchmark is available through Hugging Face’s OpenEnv, with full data and evaluation code released. For enterprises deploying agents that touch real records, pass@20—not pass@1—is the column that matters.</p>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
+<p>General-purpose humanoid robots need massive, diverse skill libraries. Manual motion capture is expensive. Teleoperation doesn’t scale. InterMimicGen shows how a single demonstration can bootstrap an entire curriculum of robot behaviors, with the system discovering variations a human teacher wouldn’t think to try.</p>
+<p>The code and trained models are available on Hugging Face, with the full evaluation benchmark released for the community to build on.</p>
 
 
 </section>

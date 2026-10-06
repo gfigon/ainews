@@ -2,6 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-04-01-american-ai-skepticism-poll/index.html",
+      "/posts/2026-10-06-intermimicgen-humanoid/index.html",
+      "/posts/2026-10-06-nolla-health-ai-prescriptions/index.html",
+      "/posts/2026-10-05-autosynthdata/index.html",
+      "/posts/2026-10-05-microsoft-thinkingbox/index.html",
+      "/posts/2026-10-04-openai-dots-agents/index.html",
+      "/posts/2026-10-04-nvidia-open-agent-safety-platform/index.html",
+      "/posts/2026-09-29-nvidia-huggingface-acquisition/index.html",
+      "/posts/2026-09-29-ai-safety-talks-rivals/index.html",
+      "/posts/2026-09-28-llama-cpp-140x-optimization/index.html",
+      "/posts/2026-09-28-goldman-1-2-trillion-ai/index.html",
       "/posts/2026-09-27-papercut-ai-attack/index.html",
       "/posts/2026-09-27-gitspawn-vulnerability/index.html",
       "/posts/2026-09-27-microsoft-copilot-agentic/index.html",

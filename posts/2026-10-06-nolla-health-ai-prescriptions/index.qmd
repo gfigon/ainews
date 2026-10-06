@@ -1,0 +1,34 @@
+---
+title: "Utah Green-Lights First AI to Issue Initial Prescriptions"
+date: "2026-10-06 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Nolla Health becomes the first organization in the U.S. authorized by a state regulator for AI to issue initial prescriptions, launching an acne treatment pilot in Utah at $4.99/month."
+image: "/assets/post-images/2026-10-06-nolla-health-ai-prescriptions.svg"
+---
+
+For years, AI in healthcare meant assistants—systems that suggest diagnoses, flag anomalies, or summarize notes. The line was clear: AI recommends, a human prescribes. Utah just blurred it.
+
+On October 5, 2026, Nolla Health announced that its Nolla Derm app is issuing AI-generated initial prescriptions to Utah residents, making it the first organization in the United States authorized by a state regulator for AI to issue a new prescription rather than a refill.
+
+## How It Works
+
+Users in Utah, aged 18 and older, can enroll in the Nolla Derm app for $4.99 per month. The process starts with a five-angle face scan and a medical intake flow. The AI then generates a prescription recommendation for one of eight topical acne medications.
+
+Two physicians will approve every AI-generated prescription for the first 100 patients, the company said. After that, the system moves to retrospective and sampled physician review.
+
+The authorization came from Utah's Office of AI Policy, Division of Professional Licensing—making this the first time a U.S. state has let AI replace a doctor's sign-off on an initial prescription.
+
+## What Changed
+
+Previous AI prescribing experiments in the U.S. focused on refills—continuing an existing treatment plan. Starting a new medication, especially for a new patient, carries different liability and clinical stakes. This pilot tackles that harder problem first: initial prescriptions for a well-defined condition, in a restricted geography, with heavy physician oversight.
+
+The company frames this as a proof point: AI can handle the initial diagnosis and prescription generation for scope-limited conditions, with clinicians shifting from gatekeepers to reviewers.
+
+## The Guardrails
+
+The pilot is limited to acne medication—eight topical treatments, no controlled substances. The patient population is restricted to adults. And the pricing is explicitly pilot-scale: $4.99 per month, designed to test the model, not to replace the healthcare system.
+
+What's being watched closely: whether the AI misses contraindications, whether patients correctly describe their medical history, and whether the physician review cadence can keep up with scale. If the pilot succeeds, Nolla has indicated it will seek expansion to other conditions and states.
