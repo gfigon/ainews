@@ -1,0 +1,22 @@
+---
+title: "DeepSeek Secures $12B Tencent-Backed Round Ahead of 2027 IPO"
+date: "2026-10-06 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "DeepSeek closes a massive $12B funding round with Tencent and CATL as lead investors, positioning the Chinese AI lab for a 2027 public listing."
+image: "/assets/post-images/2026-10-06-deepseek-12b-round.svg"
+---
+
+Chinese AI lab DeepSeek is close to securing at least 80 billion yuan ($12B) in a new funding round with Tencent and CATL among the largest contributors, according to Bloomberg. Term sheets could push the final tally toward 100 billion yuan ($14.9B), well past the lab's original 50 billion yuan target.
+
+The round is positioned as pre-IPO funding ahead of a planned early-2027 listing. Proceeds will fund model development, infrastructure expansion, and aggressive hiring to compete with OpenAI and Anthropic in the frontier model race.
+
+DeepSeek has emerged as one of China's most aggressive AI challengers, releasing open-weight models that have consistently disrupted pricing across the industry. The company's V3 and R1 series forced major providers to slash prices dramatically, and the lab's focus on inference efficiency has made its models particularly attractive for enterprise deployment.
+
+The involvement of Tencent—China's social media and gaming giant—and CATL, the world's largest battery manufacturer, signals strategic interest beyond financial returns. Tencent brings distribution and cloud infrastructure capabilities, while CATL's participation suggests DeepSeek's infrastructure demands are attracting heavy industrial partners.
+
+The massive raise comes amid intensifying US-China competition in AI. DeepSeek's previous models were developed under export restrictions on advanced chips, making the new capital critical for securing GPU supplies and building out training clusters.
+
+The IPO timeline positions DeepSeek to go public alongside Anthropic, which is also targeting a 2027 listing. Both companies represent the new wave of AI labs seeking public markets as the sector consolidates around a handful of dominant players.

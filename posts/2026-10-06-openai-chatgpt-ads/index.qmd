@@ -1,0 +1,40 @@
+---
+title: "OpenAI Introduces Visual Ad Format for ChatGPT"
+date: "2026-10-06 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Tools & Frameworks
+summary: "OpenAI rolls out new visual advertising format in ChatGPT, expanding measurement tools and partnerships as the platform reaches 1.2 billion weekly users."
+image: "/assets/post-images/2026-10-06-openai-chatgpt-ads.svg"
+---
+
+OpenAI has announced a significant expansion of its advertising business, introducing a new visual ad format for ChatGPT and unveiling enhanced measurement tools. The changes come as ChatGPT reaches **1.2 billion people each week**, cementing its position as the world's largest AI-native consumer platform.
+
+**Visual ads in image generation**
+
+The new visual ad format allows advertisers to showcase products and services through images showing product inspiration, usage scenarios, and the experiences products enable. The initial test will place these ads during image generation in ChatGPT, with clear labeling to distinguish sponsored content from AI-generated images.
+
+Importantly, OpenAI emphasizes that advertising does not influence the answers ChatGPT provides — the ad format is purely visual placement alongside user interactions, not integrated into the AI's responses.
+
+Testing begins later this month in the United States with an initial group of advertisers.
+
+**Measurement ecosystem expansion**
+
+Alongside the new ad format, OpenAI is significantly expanding its measurement capabilities:
+
+- **New data integrations**: Partnerships with Hightouch, Tealium, and LiveRamp enable advertisers to send conversion data from existing systems to ChatGPT Ads
+- **Attribution partners**: Support for leading providers including AppsFlyer, Triple Whale, Adjust, DV Rockerbox, and others for click attribution and Conversions API
+- **Incrementality testing**: Pilots with Haus, Measured, and WorkMagic explore geo-based experiments to understand causal impact of ChatGPT Ads
+
+Early partner results show promising performance:
+
+- **WeightWatchers**: 15.3% lower cost per acquisition compared to blended paid-search benchmarks (DV Rockerbox)
+- **Dose wellness brand**: 67% of incremental purchases from net-new customers (WorkMagic)
+- **Portland Leather**: 93% of visitors from ChatGPT Ads were new customers (Triple Whale)
+
+**Brand safety and suitability**
+
+OpenAI is also developing brand suitability evaluation pilots with DoubleVerify (DV) and Integral Ad Science (IAS) to give advertisers transparency into ad placement contexts. The company notes that placement guardrails assess whether conversations are appropriate for advertising, helping keep ads out of sensitive or vulnerable contexts.
+
+The advertising expansion represents OpenAI's broader strategy to diversify revenue beyond subscriptions. According to the company, advertising helps bring the benefits of AI to more people while serving a larger market than subscriptions alone.

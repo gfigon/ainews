@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Anthropic Cyber Verification Program Three Tiers Defense Red Team Specialized October 2026",
+      "count": 1,
+      "last_published": "2026-10-07",
+      "slugs": [
+        "2026-10-07-anthropic-cyber-verification"
+      ]
+    },
+    {
+      "term": "Z.ai GLM-5.3 Amazon Bedrock Enterprise Coding Agents October 2026",
+      "count": 1,
+      "last_published": "2026-10-07",
+      "slugs": [
+        "2026-10-07-glm-53-bedrock"
+      ]
+    },
+    {
+      "term": "openTPU AI-Designed FPGA Accelerator Qwen LFM October 2026",
+      "count": 1,
+      "last_published": "2026-10-07",
+      "slugs": [
+        "2026-10-07-opentpu-fpga"
+      ]
+    },
+    {
       "term": "InterMimicGen Self-Evolving Humanoid Robot Motion Imitation Hugging Face October 2026",
       "count": 1,
       "last_published": "2026-10-06",

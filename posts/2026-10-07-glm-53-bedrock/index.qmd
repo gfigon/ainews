@@ -1,0 +1,22 @@
+---
+title: "Z.ai GLM-5.3 Lands on Amazon Bedrock for Enterprise Coding Agents"
+date: "2026-10-07 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "AWS makes Z.ai's 744-billion-parameter GLM-5.3 available on Amazon Bedrock, offering enterprise customers a managed pathway to the Mixture-of-Experts model for coding and agent workflows."
+image: "/assets/post-images/2026-10-07-glm-53-bedrock.svg"
+---
+
+Amazon Web Services added Z.ai's GLM-5.3 to its Amazon Bedrock managed service on October 5, 2026, giving enterprise customers programmatic access to one of China's most capable open-weight coding models through AWS's cloud infrastructure.
+
+GLM-5.3 represents Zhipu AI's flagship text generation model, featuring a Mixture-of-Experts architecture with 744 billion total parameters and approximately 40 billion active parameters per token. The model builds upon GLM-5.2 with improvements driven by scaled post-training, targeting complex software engineering and agentic tasks.
+
+The Bedrock deployment provides a one-million-token context window with support for up to 128,000 output tokens, making it suitable for large-scale codebases and extended reasoning workflows. Enterprise customers can access the model through OpenAI-compatible APIs, with prompt caching enabled to reduce both cost and latency for repetitive workloads.
+
+Pricing is set at $1.68 per million input tokens for eligible enterprise customers, positioning GLM-5.3 competitively against other frontier coding models available through Bedrock. The deployment includes cross-Region inference capabilities, allowing customers to optimize for latency or compliance requirements.
+
+Z.ai and AWS announced the partnership includes a revenue-sharing arrangement, marking another instance of U.S. cloud providers integrating Chinese AI models into their managed offerings. This follows a broader trend of Western cloud platforms expanding access to international model providers, even as geopolitical tensions persist around advanced AI technology.
+
+The timing positions GLM-5.3 as an alternative for organizations evaluating coding agents ahead of year-end infrastructure planning cycles. With the model's strong performance on software engineering benchmarks and the managed Bedrock deployment eliminating infrastructure complexity, AWS customers gain a straightforward path to deploying one of the leading open-weight models for production agent workflows.

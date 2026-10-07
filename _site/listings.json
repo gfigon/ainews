@@ -2,7 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2026-04-01-american-ai-skepticism-poll/index.html",
+      "/posts/2026-10-07-glm-53-bedrock/index.html",
+      "/posts/2026-10-07-opentpu-fpga/index.html",
+      "/posts/2026-10-07-anthropic-cyber-verification/index.html",
+      "/posts/2026-10-06-ae-vla-dual-arm/index.html",
+      "/posts/2026-10-06-deepseek-12b-round/index.html",
+      "/posts/2026-10-06-openai-eu-text-watermarking/index.html",
+      "/posts/2026-10-06-openai-chatgpt-ads/index.html",
       "/posts/2026-10-06-intermimicgen-humanoid/index.html",
       "/posts/2026-10-06-nolla-health-ai-prescriptions/index.html",
       "/posts/2026-10-05-autosynthdata/index.html",

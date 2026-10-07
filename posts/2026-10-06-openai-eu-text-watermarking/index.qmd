@@ -1,0 +1,36 @@
+---
+title: "OpenAI Unveils Text Watermarking for EU AI Act Compliance"
+date: "2026-10-06 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "OpenAI introduces textGrain watermarking technology for ChatGPT and Codex in the EU, addressing the AI Act's text provenance requirements with opt-in API access and researcher detector tools."
+image: "/assets/post-images/2026-10-06-openai-eu-text-watermarking.svg"
+---
+
+OpenAI has announced its approach to comply with the EU AI Act's text provenance requirements, introducing a text watermarking system called **textGrain** that adds an invisible statistical signal to AI-generated text. The rollout begins with API customers globally and ChatGPT users in the European Union over the coming weeks.
+
+The EU AI Act requires generative AI providers to make generated text identifiable in a machine-readable way. OpenAI's solution involves adding a subtle statistical pattern to word choices that can be detected by their specialized detector tool. According to the company, textGrain matches or exceeds the performance of other approaches, including Google's SynthID for text.
+
+**How it works and its limitations**
+
+The watermarking technology adds an invisible signal to the model's token probabilities, creating a detectable pattern without altering the visible content. However, the system has notable limitations:
+
+- **Text length matters**: At a 1% false positive rate, the detector identifies watermarks in about 80% of 200-token passages, improving to approximately 95% for 400-token passages
+- **Content type affects accuracy**: Detection rates are substantially lower for constrained content like mathematics, where there's less flexibility in word choice
+- **Editing weakens the signal**: Replacing just 10% of words with synonyms reduces detection from 92% to 66%; at 25% word replacement, detection drops to just 17%
+
+The company emphasizes that text watermarks provide a limited signal about the role AI systems played in creating content. A watermark does not measure human contribution, establish ownership or responsibility, identify the user, or verify accuracy.
+
+**Phased rollout**
+
+The implementation follows a staged approach:
+
+- **API customers**: Starting today, global API customers can opt in to text watermarking for select models
+- **ChatGPT and Codex EU users**: Over the coming weeks, eligible users in the EU will receive watermarked text output
+- **Detector access**: Applications are now open for approved researchers and expert organizations to access the text watermark detector
+
+OpenAI plans to open-source the textGrain technology to allow others to build on the approach. The company states it sees no meaningful performance differences between watermarked and unwatermarked output across major benchmarks including Terminal-Bench, GPQA Diamond, and HealthBench Professional.
+
+This move positions OpenAI among major AI labs implementing content provenance tools, following Google's SynthID for images and audio, as the industry grapples with regulatory requirements for AI-generated content identification.

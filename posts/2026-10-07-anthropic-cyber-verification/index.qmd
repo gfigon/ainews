@@ -1,0 +1,22 @@
+---
+title: "Anthropic Expands Cyber Verification Program with Three Access Tiers"
+date: "2026-10-07 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Anthropic launches three-tier Cyber Verification Program for vetted security professionals, offering reduced cyber blocking classifiers across Defense, Red Team, and Specialized access levels."
+image: "/assets/post-images/2026-10-07-anthropic-cyber-verification.svg"
+---
+
+Anthropic announced on October 6, 2026, a significant expansion of its Cyber Verification Program (CVP), introducing three distinct access tiers designed to provide security professionals with advanced AI capabilities matched to their specific authorized work.
+
+The updated program now includes Defense, Red Team, and Specialized access tiers. Each tier grants access to Anthropic's most capable models—including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and future model releases—while providing reduced cyber blocking classifiers appropriate to the security team's scope of work.
+
+The company framed cybersecurity as inherently dual-use, noting that the same capabilities that enable legitimate security research can potentially be misused. Rather than restricting AI entirely, Anthropic's approach focuses on granting tiered access to verified professionals whose work has been vetted through a formal application process.
+
+Security teams can now apply for the access level that best matches their operational requirements. The Defense tier targets organizations conducting authorized defensive research and vulnerability assessment. The Red Team tier serves penetration testers and security auditors working within defined scopes. The Specialized tier addresses highly specialized security work requiring additional model capabilities.
+
+Anthropic absorbed Project Glasswing into this expanded program structure, consolidating its security-focused researcher access initiatives under a unified framework. The move reflects growing industry recognition that restricting AI from security research simply pushes that work to less transparent platforms, while controlled access through formal programs enables legitimate defensive work.
+
+The company emphasized that approval for any tier does not grant unrestricted use outside its defined scope, maintaining clear boundaries between authorized security work and potential misuse. This structured approach positions Anthropic as attempting to thread the needle between enabling legitimate security research and preventing harmful applications of advanced AI systems.
