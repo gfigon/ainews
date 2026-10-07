@@ -1,0 +1,20 @@
+---
+title: "Meta and Sierra Publish Open Standard for Personal AI Agents in Commerce"
+date: "2026-10-07 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Sierra and Meta unveil Personal Agent Protocol, an OAuth-based open standard enabling personal AI agents to authenticate with businesses and carry context across channels."
+image: "/assets/post-images/2026-10-07-personal-agent-protocol.svg"
+---
+
+Sierra and Meta have published the Personal Agent Protocol, an open OAuth-based standard designed to let personal AI agents authenticate with businesses, carry context across channels, and operate through websites, MCP/OpenAPI, or company-owned agents. The announcement, made on October 6, positions the effort as a direct competitor to Visa's Trusted Agent Protocol, which shares some of the same founding partners.
+
+The protocol enables AI agents to securely represent users in commercial transactions, bookings, and service interactions. Instead of users manually navigating each business interaction, personal agents can act on their behalf—making reservations, completing purchases, or managing subscriptions—while maintaining user control over permissions and authentication.
+
+Founding partners include Walmart, Shopify, Stripe, Rocket, Genesys, and Instinct, representing a cross-section of retail, payments, and customer service platforms. A v0.1 specification is due later this month, with payments and granular permissions listed as future extensions. The protocol explicitly aims to create an interoperable ecosystem where AI agents can work across multiple commercial platforms without requiring separate integrations for each.
+
+The timing is notable: Visa's Trusted Agent Protocol launched earlier this year with similar ambitions for agent-mediated commerce. Both efforts reflect growing industry consensus that AI agents will increasingly handle commercial transactions on users' behalf—but they differ in approach. While Visa's protocol focuses on financial use cases and payment authorization, the Personal Agent Protocol takes a broader approach encompassing the full commerce workflow from discovery through transaction to post-purchase service.
+
+For businesses, the protocol promises reduced integration overhead—rather than building custom agent interfaces for each platform, merchants can implement a single standard that works across participating ecosystems. For AI developers, it provides a clear path to deploy agents that can actually complete commercial actions, not just provide recommendations.
