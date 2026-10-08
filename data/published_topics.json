@@ -1,6 +1,30 @@
 {
   "topics": [
     {
+      "term": "Claude Haiku 5.5 Anthropic Price Reduction 5x $0.10 Input $0.50 Output October 2026",
+      "count": 1,
+      "last_published": "2026-10-08",
+      "slugs": [
+        "2026-10-08-claude-haiku-55"
+      ]
+    },
+    {
+      "term": "Google Gemini 4 Argon Frontier Model Native Reasoning Architecture October 2026",
+      "count": 1,
+      "last_published": "2026-10-08",
+      "slugs": [
+        "2026-10-08-gemini-4-argon"
+      ]
+    },
+    {
+      "term": "Broadcom Oracle SpaceX $90B Chip Financing AI Infrastructure October 2026",
+      "count": 1,
+      "last_published": "2026-10-08",
+      "slugs": [
+        "2026-10-08-chip-debt-90b"
+      ]
+    },
+    {
       "term": "Meta Sierra Personal Agent Protocol OAuth AI Commerce Standard Walmart Shopify Stripe October 2026",
       "count": 1,
       "last_published": "2026-10-07",
