@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  
+  <g font-family="&#39;JetBrains Mono&#39;, ui-monospace, monospace">
+    
+    <text x="0" y="48" font-size="32" font-weight="700" fill="#4ade80">&gt;_</text>
+    
+    <text x="44" y="40" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.3">robo_ai_digest</text>
+    
+    <text x="44" y="60" font-size="10" font-weight="500" fill="#768390" letter-spacing="2.5">// SIGNAL OVER NOISE</text>
+  </g>
+  
+  <rect x="220" y="28" width="10" height="16" fill="#4ade80">
+    
+  </rect>
+</svg>

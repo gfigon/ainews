@@ -1,0 +1,24 @@
+---
+title: "Anthropic Releases Claude Haiku 5.5 With 5x Price Reduction"
+date: "2026-10-08 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Anthropic launches Claude Haiku 5.5 at $0.10/$0.50 per million tokens, delivering a 5x price cut over previous versions while maintaining strong performance for fast, high-volume workloads."
+image: "/assets/post-images/2026-10-08-claude-haiku-55.svg"
+---
+
+Anthropic unveiled Claude Haiku 5.5 on October 8, 2026, delivering what the company describes as its fastest and most cost-effective small language model to date. The release targets developers and enterprises requiring low-latency, high-throughput AI capabilities at a fraction of previous pricing.
+
+The new model carries an input price of $0.10 per million tokens and $0.50 per million tokens for output, representing approximately a fivefold reduction from Claude Haiku 3.5 pricing. This positions Haiku 5.5 as one of the most competitively priced frontier-tier small models available, directly challenging Google Gemini Flash and OpenAI's GPT-4o Mini offerings.
+
+Despite the aggressive pricing, Anthropic claims Haiku 5.5 maintains strong performance across standard benchmarks for reasoning, coding, and instruction following. The model was optimized specifically for speed, targeting sub-100ms first-token latency on standard inference infrastructure.
+
+The release addresses a growing market segment: applications requiring AI capabilities but where cost sensitivity makes larger models impractical. Use cases include real-time customer service agents, content moderation pipelines, high-volume document processing, and embedding-based retrieval systems where speed matters more than maximum capability.
+
+Haiku 5.5 ships with the same safety infrastructure as larger Claude models, including the company's Constitutional AI framework and content filtering systems. Developers can access the model through Anthropic's API, with on-premise deployment options available for enterprise customers requiring data sovereignty.
+
+Industry observers note the timing aligns with intensifying price competition in the small model space. Google recently discounted Gemini Flash pricing, while OpenAI continues aggressive API pricing for GPT-4o Mini. Anthropic's entry at the $0.10 price point signals willingness to compete on cost rather than solely on capability leadership.
+
+The release complements Anthropic's existing model lineup, which includes Claude Sonnet 5.5 as the mid-tier offering and Claude Opus 5.5 as the flagship. Haiku 5.5 becomes the default choice for applications where budget constraints previously deterred Claude adoption.

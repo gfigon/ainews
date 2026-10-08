@@ -1,0 +1,14 @@
+/* Hide Keywords section on article pages */
+div.keywords {
+  display: none !important;
+}
+
+/* Hide footer subscription message */
+article footer {
+  display: none !important;
+}
+
+/* Remove the signal-over-noise footer from main content */
+div.signature-footer {
+  display: none !important;
+}
