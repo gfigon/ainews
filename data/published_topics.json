@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Google DeepMind EmbeddingGemma 2 Open Multimodal Embedding Model Edge October 2026",
+      "count": 1,
+      "last_published": "2026-10-09",
+      "slugs": [
+        "2026-10-09-embeddinggemma-2"
+      ]
+    },
+    {
+      "term": "TII Falcon ASR 1 Open Source Speech Recognition Model October 2026",
+      "count": 1,
+      "last_published": "2026-10-09",
+      "slugs": [
+        "2026-10-09-falcon-asr-1"
+      ]
+    },
+    {
       "term": "Claude Haiku 5.5 Anthropic Price Reduction 5x $0.10 Input $0.50 Output October 2026",
       "count": 1,
       "last_published": "2026-10-08",

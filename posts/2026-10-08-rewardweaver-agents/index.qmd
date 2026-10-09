@@ -1,0 +1,30 @@
+---
+title: "RewardWeaver: Self-Evolving Reward Adaptation for Long-Horizon Language Agents"
+date: "2026-10-08 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Researchers introduce RewardWeaver, a framework that dynamically adapts reward signals to address evolving capability bottlenecks in language agents during long-horizon interactions."
+image: "/assets/post-images/2026-10-08-rewardweaver-agents.svg"
+---
+
+A new research paper from academics at top universities presents RewardWeaver, a self-evolving reward adaptation framework designed to address one of the most challenging problems in training language agents: long-horizon interaction with sparse feedback.
+
+## The Challenge of Long-Horizon Tasks
+
+Reinforcement learning with verifiable rewards (RLVR) has driven substantial progress in domains where task outcomes can be reliably evaluated. However, long-horizon interactions remain challenging due to sparse terminal feedback and difficult credit assignment. While process rewards provide denser supervision, the capabilities most relevant for training can change as the policy evolves.
+
+"A behavior that is easy to evaluate or frequently deficient need not be the bottleneck currently limiting task success," the researchers explain.
+
+## Dynamic Reward Adaptation
+
+RewardWeaver maintains a "validated capability space" in which the semantics of admitted evaluation rubrics remain fixed. It closes the loop between policy optimization, task evaluation, failure attribution, and reward adaptation. After each training stage, it performs outcome-grounded backward attribution on low-outcome trajectories, aggregates recurrent and policy-controlled capability bottlenecks, and dynamically selects the corresponding process rewards for the next stage.
+
+Recurrent failures not covered by the existing capability space trigger a separate, controlled expansion procedure.
+
+## State-of-the-Art Results
+
+The framework was evaluated on SOTOPIA (social interaction), Amazon HistoryPrice (bilateral bargaining), and a newly constructed Sales Benchmark. Across all three domains, RewardWeaver establishes new state-of-the-art results. Ablations further demonstrate the importance of dynamic reward allocation, failure-grounded attribution, and stable semantics for admitted capabilities.
+
+This research represents a significant step toward more capable and reliable autonomous agents that can handle complex, multi-step tasks without constant human intervention.
