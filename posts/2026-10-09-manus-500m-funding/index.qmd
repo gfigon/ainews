@@ -1,0 +1,24 @@
+---
+title: "Manus Parent Butterfly Effect Raises $500M After Meta Deal Blocked"
+date: "2026-10-09 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "Butterfly Effect, parent company of AI agent Manus, secures $500M in funding just days after Chinese regulators blocked Meta's reported $2B acquisition offer, valuing the company at approximately $4B."
+image: "/assets/post-images/2026-10-09-manus-500m-funding.svg"
+---
+
+Butterfly Effect, the company behind the autonomous AI agent Manus, has closed a $500M+ funding round led by Boyu Capital and IDG Capital, with participation from Tencent, HSG, and ZhenFund. The round closed on October 8, 2026, just days after Chinese regulators blocked Meta's reported $2 billion acquisition offer.
+
+The timing of the funding round is notable. Reports emerged last week that Meta had offered to acquire Butterfly Effect for approximately $2 billion—a premium that would have represented one of the largest AI acquisitions in recent memory. Chinese regulatory authorities blocked the deal, citing concerns about foreign ownership of sensitive AI technology.
+
+Instead of selling to Meta, Butterfly Effect chose to raise domestic capital at a valuation reportedly around $4 billion. The $500M+ raise represents a significant vote of confidence from Chinese venture capital firms despite the regulatory headwinds facing the AI sector.
+
+Manus emerged earlier this year as one of the most capable autonomous AI agents, capable of executing complex multi-step tasks across web and desktop environments. The platform gained significant attention for its ability to handle workflows that previously required human intervention, from research compilation to automated data processing.
+
+The funding will likely accelerate Manus's development of more capable agents and expand its enterprise offerings. Butterfly Effect has positioned Manus as a "general-purpose AI colleague" capable of handling asynchronous tasks across various domains.
+
+Industry observers note that the blocked Meta deal and subsequent funding round illustrate the increasingly complex landscape for AI acquisitions. Chinese regulators have signaled heightened scrutiny over the sale of domestic AI capabilities to foreign companies, particularly those based in the United States.
+
+The episode also highlights the growing valuations in the AI agent space. Butterfly Effect's reported $4B valuation places it among the most valuable private AI companies globally, rivaling some public market valuations for established players.

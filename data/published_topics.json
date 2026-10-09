@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Manus Butterfly Effect $500M Funding Meta Acquisition Blocked October 2026",
+      "count": 1,
+      "last_published": "2026-10-09",
+      "slugs": [
+        "2026-10-09-manus-500m-funding"
+      ]
+    },
+    {
+      "term": "LMCache CVE-2026-105192 CVSS 9.8 Remote Code Execution vLLM October 2026",
+      "count": 1,
+      "last_published": "2026-10-09",
+      "slugs": [
+        "2026-10-09-lmcache-cve-2026"
+      ]
+    },
+    {
       "term": "Google DeepMind EmbeddingGemma 2 Open Multimodal Embedding Model Edge October 2026",
       "count": 1,
       "last_published": "2026-10-09",
