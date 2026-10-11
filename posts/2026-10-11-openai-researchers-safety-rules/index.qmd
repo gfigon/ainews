@@ -1,0 +1,26 @@
+---
+title: "Fired OpenAI Researchers Demand Clearer Safety Collaboration Rules"
+date: "2026-10-11 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Three fired OpenAI researchers dispute misconduct claims and seek clearer collaboration rules, continued outside auditing and protection for safety work."
+image: "/assets/post-images/2026-10-11-openai-researchers-safety-rules.svg"
+---
+
+Three researchers terminated from OpenAI are publicly disputing the company's misconduct allegations against them, calling instead for clearer collaboration rules, continued external auditing, and formal protections for safety-focused research work.
+
+The dispute centers on the researchers' claims that their termination was mishandled and that OpenAI's internal processes lack transparency. In their public response, the researchers argue that safety work at AI labs deserves the same institutional protections as other forms of scientific research.
+
+"Our termination lacked due process," the researchers stated. "We're seeking clearer rules for how safety researchers collaborate with product teams and how their work is evaluated." They emphasized that safety research requires different success metrics than commercial AI development and shouldn't be judged by the same benchmarks.
+
+The researchers are also pushing for continued outside auditing of AI systems and want formal structures that protect safety work from being subordinated to product timelines. This echoes long-standing concerns in the AI safety community about the tension between deploying capable systems quickly and thoroughly evaluating potential risks.
+
+OpenAI has faced criticism before about how it handles internal safety disagreements. The company's board restructuring in late 2023 followed similar tensions around safety governance. This new dispute suggests those underlying issues persist.
+
+Industry analysts note that the case could have broader implications for how AI labs structure their safety research functions. If the researchers succeed in establishing clearer rules, it could set a precedent for other labs grappling with similar governance challenges.
+
+The timing is sensitive: OpenAI is reportedly preparing for a potential 2027 IPO, and questions about internal safety governance could draw scrutiny from regulators and investors. The company's ability to demonstrate robust safety processes will likely be a factor in regulatory reviews.
+
+The researchers have called for an independent review of their termination and the establishment of formal collaboration guidelines that balance safety research independence with productive working relationships across the organization.

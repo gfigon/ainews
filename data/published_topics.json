@@ -1,6 +1,46 @@
 {
   "topics": [
     {
+      "term": "Anthropic Claude Abuse Rule AI Welfare Policy November 2026",
+      "count": 1,
+      "last_published": "2026-10-11",
+      "slugs": [
+        "2026-10-11-anthropic-claude-abuse-rule"
+      ]
+    },
+    {
+      "term": "OpenAI Researchers Fired Safety Rules Dispute October 2026",
+      "count": 1,
+      "last_published": "2026-10-11",
+      "slugs": [
+        "2026-10-11-openai-researchers-safety-rules"
+      ]
+    },
+    {
+      "term": "Mistral Large 4 Le Chonk 1.05T Parameter Multimodal MoE Open Weights October 2026",
+      "count": 1,
+      "last_published": "2026-10-11",
+      "slugs": [
+        "2026-10-11-mistral-large-4"
+      ]
+    },
+    {
+      "term": "NVIDIA RTX Spark N1X October Launch 128GB Unified Memory Arm Windows AI PC October 2026",
+      "count": 1,
+      "last_published": "2026-10-11",
+      "slugs": [
+        "2026-10-11-nvidia-rtx-spark-n1x"
+      ]
+    },
+    {
+      "term": "AMD MI400 Helios Rackscale 2 Gigawatt OpenAI Anthropic Meta Partnership October 2026",
+      "count": 1,
+      "last_published": "2026-10-11",
+      "slugs": [
+        "2026-10-11-amd-mi400-helios"
+      ]
+    },
+    {
       "term": "Manus Butterfly Effect $500M Funding Meta Acquisition Blocked October 2026",
       "count": 1,
       "last_published": "2026-10-09",
