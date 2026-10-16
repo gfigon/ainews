@@ -1,0 +1,20 @@
+---
+title: "AI Surveillance Company Flock Safety Plans 18% Workforce Reduction"
+date: "2026-10-15 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Flock Safety, valued at $7.5 billion, cuts 270 jobs amid growing backlash against AI-powered surveillance technology."
+image: "https://pollinations.ai/p/flock-safety-ai-surveillance?width=1024&height=576&seed=12345&nologo=true"
+---
+
+Flock Safety, a company known for its AI-powered surveillance cameras and license-plate recognition systems, reportedly plans to eliminate approximately 270 positions, or 18% of its workforce. The decision comes amid increasing opposition over privacy concerns, data-sharing practices, and government access to surveillance data.
+
+The company has expanded its surveillance technology across thousands of law enforcement and commercial deployments, achieving a valuation of approximately $7.5 billion. However, the planned reductions highlight the commercial risks companies face when deploying AI in sensitive public environments.
+
+Even well-funded businesses can encounter resistance when customers, regulators, and communities question how technologies collect and use personal information. The backlash against AI surveillance has grown more vocal, with civil liberties organizations raising concerns about mass surveillance capabilities and the potential for abuse.
+
+Flock Safety's challenges reflect broader tensions in the AI surveillance market. While law enforcement agencies have embraced AI-powered tools for crime prevention, privacy advocates argue that the technology enables unprecedented surveillance of ordinary citizens without adequate oversight or accountability.
+
+The company's workforce reduction suggests that despite strong venture capital backing, the path to profitability in AI surveillance may be more complicated than initially anticipated. The incident adds to ongoing debates about appropriate boundaries for AI-powered surveillance in democratic societies.

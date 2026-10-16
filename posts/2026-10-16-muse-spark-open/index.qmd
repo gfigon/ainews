@@ -1,0 +1,42 @@
+---
+title: "Meta Muse Spark Open Brings 816B Parameter Model to Paired Mac Desktops"
+date: "2026-10-16 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Meta releases Muse Spark Open, an 816-billion-parameter open-weight model that runs locally on two paired M5 Ultra Mac Studios, marking a new US alternative to Chinese AI models."
+image: "/assets/post-images/2026-10-16-muse-spark-open.svg"
+---
+
+Meta has released Muse Spark Open, an 816-billion-parameter model that the company calls "the most capable US open-weight model to date," announced October 15. The release gives enterprises a US-developed option for running and customizing large language models on their own infrastructure—and remarkably, it can run locally on consumer hardware.
+
+## A US Alternative to Chinese Open-Weight Models
+
+The timing of this release reflects growing enterprise demand for open-weight models that don't depend on foreign AI labs. Chinese models from Alibaba's Qwen, DeepSeek, and Moonshot AI's Kimi have dominated the open-weight space, with Hugging Face reporting Chinese models accounted for 41% of downloads over the past year, surpassing US models. OpenRouter data shows open-weight models now handle 60% of token volume from US requests, with Chinese labs supplying most traffic.
+
+"We wanted to give enterprises a US-developed option that doesn't require sending data to foreign APIs," Meta noted in its announcement.
+
+## Desktop Deployment on Paired Mac Studios
+
+Muse Spark Open uses a mixture-of-experts design, activating 42 billion of its 816 billion parameters per token. The model supports up to 1 million tokens of context and processes text, images, video, and audio—though it outputs only text.
+
+Meta's desktop configuration pairs two M5 Ultra Mac Studios, each offering up to 512GB of unified memory. The company describes the setup as providing a terabyte of combined memory, enabled by Apple's MLX framework. However, Apple's 512GB configuration doesn't ship until late October, and pricing remains unannounced.
+
+The desktop pitch targets enterprises seeking full data control without cloud dependencies. Meta demonstrated Spark Open powering Muse Code to modify the Ice Cubes Mastodon application and operate DaVinci Resolve for footage review.
+
+## Benchmark Performance
+
+Meta's published results show Spark Open achieving an Artificial Analysis Intelligence Index score of 39, with strong performance on JobBench (61.8) and MCP-Atlas tool-use tests (89.2). The model trails Kimi K3 and GLM 5.3 on terminal coding and extended software engineering tasks.
+
+The model supports serving via SGLang, vLLM, TensorRT-LLM, Transformers, MLX, llama.cpp, and Unsloth, spanning AMD, Apple, Intel, and Nvidia hardware.
+
+## Enterprise Considerations
+
+The release addresses a specific market need: US companies with procurement requirements or data sovereignty concerns. However, the hardware requirements put local deployment out of reach for most organizations—current pricing suggests tens of thousands of dollars for comparable memory capacity.
+
+For enterprises choosing on practical grounds, the decision hinges on task-specific capabilities, licensing terms, and operating costs rather than geographic origin alone.
+
+---
+
+*Related: [Muse Spark Open on Hugging Face](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)*

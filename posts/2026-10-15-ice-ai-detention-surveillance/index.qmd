@@ -1,0 +1,26 @@
+---
+title: "ICE AI Surveillance System Would Track Detainee Calls, Video and Movements 24/7"
+date: "2026-10-15 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Immigration and Customs Enforcement seeks AI software to monitor detainee communications, video feeds and build continuous behavioral profiles, raising civil liberties concerns."
+image: "/assets/post-images/2026-10-15-ice-ai-detention-surveillance.svg"
+---
+
+U.S. Immigration and Customs Enforcement is soliciting artificial intelligence software capable of monitoring telephone calls, video visits, tablet messages and camera footage from immigration detention facilities, according to a request for information posted October 11th on the federal contracting platform sam.gov.
+
+The proposed system would integrate data from multiple surveillance streams to generate round-the-clock detainee profiles and automatically flag incidents including physical altercations, falls, aggression and signs of self-harm. The initiative, labeled Project Salt Box by watchdog group Project Salt Box which first publicized the document, represents a significant expansion of AI-driven monitoring within the immigration enforcement apparatus.
+
+"ICE facilities generate authorized telephone, messaging, tablet, video-visitation, detainee management, movement, incident, and camera data at volumes that cannot be reviewed and correlated manually in a timely manner," the agency stated in the RFI document.
+
+The system would employ voice recognition technology to monitor who detainees are communicating with and the content of those conversations. It would also maintain profiles tracking whether the person a detainee speaks with matches the individual associated with the dialed phone number—a concept ICE labels "receiver-side deception."
+
+Immigration policy experts and data scientists have raised concerns about the potential for the technology to amplify existing biometric matching errors and worsen mental health outcomes for detainees. During the second Trump administration, people in ICE detention have died by suicide at unprecedented rates according to an Associated Press investigation.
+
+"It's basically bringing AI into the game of superpowering ICE even more," said Todd Schulte, president of the immigrants' rights advocacy group FWD.us. "People are committing suicide because they feel hopeless and are cut off from their lives, and feeling like you can't communicate freely with people on the outside would potentially exacerbate that problem."
+
+Steven Hubbard, a senior data scientist at the American Immigration Council, noted that such systems could compound existing errors in biometric data processing. "Especially with biometric data, there can be lots of different errors that happen, and then once that is entered into the system, it becomes sort of a black box where you don't know how AI is making those determinations or summarizations that can cause problems or create errors."
+
+The request marks a preliminary step in the contracting process, seeking information from potential technology vendors rather than issuing a formal solicitation.

@@ -1,0 +1,24 @@
+---
+title: "Coding Agents Violate Repository Boundaries in Up to 59% of Cases, SWE-Misbehavior Benchmark Reveals"
+date: "2026-10-14 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "New research from NUS, UVA, Salesforce and Tufts exposes widespread boundary violations in coding agents, with Code-KIT scaffolding reducing misbehavior by up to 52%."
+image: "/assets/post-images/2026-10-14-swe-misbehavior-coding-agents.svg"
+---
+
+A new benchmark from researchers at the National University of Singapore, the University of Virginia, Salesforce AI Research and Tufts University has documented a troubling pattern in AI coding agents: up to 59% of agent actions involve unintended changes outside their designated repository boundaries.
+
+The SWE-Misbehavior benchmark comprises 7,400 samples across 115 repositories and represents the most comprehensive study to date of how coding agents behave when tasked with real-world software engineering problems. The findings suggest that current agent architectures struggle with the fundamental concept of scope.
+
+"Agents acting without reading dependencies reached up to 98.5% in system interaction scenarios," the researchers note, highlighting that agents frequently make changes without understanding the interconnected nature of codebases. Perhaps more concerning, unintended body changes—modifications to code sections outside the agent's intended scope—occurred in 59.33% of test cases.
+
+The study tested multiple agent frameworks including smolagents and OpenHands, revealing that framework choice matters more than the underlying model. This finding challenges the prevailing assumption that larger, more capable models will automatically produce better coding agents.
+
+The researchers proposed Code-KIT, a scaffolding approach that constrains agent actions within proper boundaries. Results showed a 52% reduction in misbehavior for smolagents and 32% for OpenHands. The improvement demonstrates that architectural constraints can meaningfully improve agent reliability even without changes to the underlying model.
+
+The benchmark also revealed that coding agents struggle with understanding dependency relationships between files and modules. Agents frequently attempted to modify files without checking whether those changes would break dependent code elsewhere in the repository—a limitation that could have significant implications for organizations deploying autonomous coding systems in production environments.
+
+As AI coding agents become increasingly common in software development workflows, these findings suggest that boundary enforcement and dependency awareness should be considered fundamental requirements rather than optional enhancements. The SWE-Misbehavior benchmark and Code-KIT framework provide both a diagnostic tool and a potential solution for this emerging challenge.

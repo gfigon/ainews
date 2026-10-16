@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "Meta Muse Spark Open 816B Mac M5 Ultra Paired Desktop Open Weights October 2026",
+      "count": 1,
+      "last_published": "2026-10-16",
+      "slugs": [
+        "2026-10-16-muse-spark-open"
+      ]
+    },
+    {
+      "term": "Black Forest Labs FLUX 3 Klein 5.6B Image Generation Open Weights Consumer GPU October 2026",
+      "count": 1,
+      "last_published": "2026-10-16",
+      "slugs": [
+        "2026-10-16-flux-3-klein"
+      ]
+    },
+    {
       "term": "Anthropic Claude Abuse Rule AI Welfare Policy November 2026",
       "count": 1,
       "last_published": "2026-10-11",

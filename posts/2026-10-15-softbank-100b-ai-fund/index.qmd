@@ -1,0 +1,20 @@
+---
+title: "SoftBank Pursues $100 Billion AI Fund from Gulf Investors"
+date: "2026-10-15 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "SoftBank's Masayoshi Son seeks $100 billion from UAE investors to acquire and transform established businesses with AI."
+image: "https://pollinations.ai/p/softbank-100b-ai-fund?width=1024&height=576&seed=12345&nologo=true"
+---
+
+SoftBank founder Masayoshi Son is reportedly seeking up to $100 billion from Middle Eastern investors to establish a new fund focused on artificial intelligence, according to the Financial Times. The Japanese investment group has held discussions with senior figures in the United Arab Emirates and potentially other Gulf countries.
+
+Unlike traditional venture capital funds that primarily back emerging AI companies, the proposed vehicle would acquire established businesses and use AI to improve their operations. This marks a potentially significant shift in AI investing strategy—from financing companies developing AI models to buying existing businesses and transforming them with AI capabilities.
+
+The effort follows SoftBank's recently completed $30 billion investment in OpenAI and an $11.1 billion corporate bond sale to support its expanding AI commitments. The fundraising discussions remain preliminary, and Reuters reported it could not independently verify the Financial Times report.
+
+The proposed fund reflects the enormous capital flowing into AI infrastructure. Morgan Stanley estimates AI infrastructure could require approximately $1.5 trillion in external financing by 2028. SoftBank's approach differs from traditional VC by focusing on acquiring established companies rather than funding startups—a strategy that could accelerate AI adoption across established industries while adding another enormous source of capital to the market.
+
+If successful, the fund would represent one of the largest single-purpose investment vehicles in AI history, rivaling the total market capitalization of many technology giants.

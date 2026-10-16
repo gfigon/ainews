@@ -1,0 +1,22 @@
+---
+title: "Anthropic Reports $16.8B Q3 Revenue, 45% Growth Ahead of Anticipated IPO"
+date: "2026-10-15 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - LLMs & Models
+summary: "Anthropic revealed third-quarter revenue of $16.8 billion at a pre-IPO investor meeting, showing 45% sequential growth and adjusted profitability."
+image: "/assets/post-images/2026-10-15-anthropic-q3-16-8b-revenue.svg"
+---
+
+Anthropic disclosed third-quarter revenue of $16.8 billion during a closed-door pre-IPO investor meeting in San Francisco on October 14th, representing a 45% increase from the prior quarter, according to attendees cited by Reuters, Bloomberg and The New York Times.
+
+The company told prospective investors that revenue grew from $4.7 billion in Q1 2026 to $11.6 billion in Q2, then to $16.8 billion in Q3—a trajectory that positions Anthropic among the fastest-growing private technology companies ahead of a potential stock listing. The briefing also revealed that Anthropic achieved profitability on an adjusted basis during the quarter, with an 85% adjusted gross margin.
+
+The financial disclosure comes as Anthropic prepares for what could be one of the largest-ever technology IPOs, potentially following rival OpenAI's anticipated September listing. The company has not yet filed a formal public prospectus, making Wednesday's investor presentation the most detailed public look at Anthropic's financial trajectory to date.
+
+However, the growth rate has slowed from earlier in the year. The sequential jump of approximately 147% between Q1 and Q2 declined to 45% between Q2 and Q3—a mathematical inevitability as the revenue base expands but still notable for investors evaluating the company's growth trajectory.
+
+The disclosure also addressed concerns about revenue dependency on model distillation. Anthropic told pre-IPO investors that distillation workloads account for only 5-7% of total revenue, and that the company materially reduced distillation activity during Q3. Reports suggest related Q3 revenue exceeded $840 million, with Anthropic having banned tens of thousands of distillation accounts as part of its intellectual property protection efforts.
+
+The company reportedly aims for a valuation in the $2 trillion range, though market observers note that slowing growth rates and ongoing capital expenditure requirements for AI infrastructure development could temper investor enthusiasm.
