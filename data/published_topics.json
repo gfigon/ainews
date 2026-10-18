@@ -1,6 +1,22 @@
 {
   "topics": [
     {
+      "term": "DeepSeek V4.1 Flash 1017 Terminal-Bench 42.3 Search Fetch API MIT Weights October 2026",
+      "count": 1,
+      "last_published": "2026-10-18",
+      "slugs": [
+        "2026-10-18-deepseek-v4-1-flash"
+      ]
+    },
+    {
+      "term": "Tencent Hy Memory 2.0 Open 30B Model Framework MemHub Persistent Agent Memory October 2026",
+      "count": 1,
+      "last_published": "2026-10-18",
+      "slugs": [
+        "2026-10-18-tencent-hy-memory-2"
+      ]
+    },
+    {
       "term": "Meta Muse Spark Open 816B Mac M5 Ultra Paired Desktop Open Weights October 2026",
       "count": 1,
       "last_published": "2026-10-16",
