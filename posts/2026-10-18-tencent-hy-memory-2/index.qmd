@@ -1,0 +1,28 @@
+---
+title: "Tencent's Answer to the Memory Problem: Hy Memory 2.0 Ships as Full Open Stack"
+date: "2026-10-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Infrastructure
+summary: "Tencent Hunyuan releases Hy Memory 2.0—an open 30B model, framework, and MemHub management layer built specifically for persistent memory in AI agents."
+image: "https://pollinations.ai/p/Tencent Hy Memory 2.0 open stack for AI agent memory"
+---
+
+The AI agent stack is missing a layer, and Tencent just shipped it themselves. On October 16th, Tencent Hunyuan released Hy Memory 2.0—an open-weight model, framework, and management platform built specifically for one job: remembering things across agent sessions. It's the first release of its kind from a major lab, and it comes with full open-source licensing.
+
+The core component is the Hy-Memory-30B-A3B model, a 30-billion parameter writer with roughly 3 billion active parameters per token. That's small by frontier standards, but it's designed for a specific task: writing to external memory systems inside agentic workflows. Think of it as the dedicated memory controller that keeps context from exploding while long-running agents stay useful across hours or days of work.
+
+## What's in the Box
+
+The release isn't just a model—it's a complete stack. Alongside the weights (available on Hugging Face and ModelScope), Tencent shipped a framework handling chat, work, and code memories, plus MemHub as the management layer. An accompanying paper on arXiv (2610.22196) describes the attributed-reinforcement-learning method used in training.
+
+The benchmarks Tencent provided show the 30B model outperforming Claude Opus 5 and DeepSeek V4.1 Flash on long-term memory tasks. That's a bold claim, but the key point is less about the specific numbers and more about the category: no frontier lab sells a dedicated memory model. Tencent is carving out a specialist slot that doesn't exist in the closed-weights ecosystem.
+
+## Why It Matters
+
+Memory is one of the three hard problems in agentic AI—the others being planning and tool use. Every agent framework today handles context through larger context windows or retrieval-augmented generation, but neither approach solves the fundamental problem of persistent, structured memory across sessions. Hy Memory 2.0 is Tencent's bet that the market wants a dedicated component for this.
+
+The open-weight approach is notable: this isn't an API-only play where Tencent keeps control. Weights are available, the framework is documented, and the arXiv paper provides transparency on training methodology. For teams building agents that need to maintain state across sessions—whether customer service bots, coding assistants, or research tools—this is a genuinely new option that didn't exist last week.
+
+The release arrived the day before DeepSeek's V4.1 Flash update, and together they mark October 16-17 as the most active mid-month window this year for open-weight AI infrastructure. Neither model challenges the frontier on raw capability, but both fill gaps the closed labs have left open.

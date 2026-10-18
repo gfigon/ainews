@@ -1,0 +1,30 @@
+---
+title: "DeepSeek's October Surprise: V4.1 Flash 1017 Burns Through Benchmarks at Unchanged Prices"
+date: "2026-10-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "DeepSeek ships V4.1 Flash 1017 with Terminal-Bench gains of 35%, opens Search and Fetch APIs at $0.75/1K calls, and drops 552B MIT-licensed weights on Hugging Face."
+image: "https://pollinations.ai/p/DeepSeek V4.1 Flash 1017 burns through benchmarks at unchanged prices"
+---
+
+DeepSeek dropped V4.1 Flash 1017 on October 17th, and the numbers tell a clear story: same API name, same prices, meaningfully stronger across every benchmark that matters. The 552-billion-parameter model (active 8B per token) ships with MIT licensing and landed on Hugging Face the same day, making it one of the most accessible frontier-tier releases this year.
+
+The headline jump is on Terminal-Bench 4.0, where V4.1 Flash 1017 scores 42.3—up from 31.2 on the previous release. That's a 35.6% improvement in a single release cycle, the largest official gain in DeepSeek's benchmark table. DeepSWE v1.1 hits 77.0, reinforcing the model's credentials on software engineering tasks.
+
+What makes this notable isn't just the raw scores—it's the economics. DeepSeek kept token pricing unchanged, and the official endpoint's 91.5% cache-hit rate puts effective input pricing around $0.017 per million tokens. When you factor in cached context, DeepSeek is now the cheapest real-world input the Artificial Analysis tracker has measured in October 2026.
+
+## Search and Fetch Go Public
+
+Alongside the model weights, DeepSeek opened its Search and Fetch APIs to all users at $0.75 per 1,000 calls. The offer runs through October 31 with free harness calls in three agent frameworks—effectively a try-before-you-buy for developers building agentic workflows that need real-time information retrieval.
+
+The combination matters: a strong coding model, a proven reasoning benchmark jump, and tool-use APIs all at price points that keep pressure on the entire tier below the frontier. DeepSeek has long competed on cost efficiency, but V4.1 Flash 1017 is the first release where the capability gap has genuinely narrowed while the price gap remains.
+
+## What This Means
+
+The release reinforces a pattern visible across October 2026: the action has moved away from the closed frontier models and into specialist and open-weight space. DeepSeek's update is technically a point release, but with every benchmark up, outputs shorter, and no price change, it's the kind of iteration that makes routing decisions easier for teams optimizing cost-per-task rather than raw capability.
+
+The MIT license and same-day Hugging Face drop also mean this isn't a play for API revenue alone—DeepSeek is building mindshare among developers who want to run, inspect, and fine-tune locally. At 552B parameters, it's not a laptop model, but the weights are there for anyone who can deploy at scale.
+
+The Search and Fetch APIs arriving alongside the model weights signals something worth watching: DeepSeek isn't just shipping a stronger model, it's building the agent stack around it.
