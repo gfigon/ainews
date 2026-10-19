@@ -1,0 +1,24 @@
+---
+title: "SAP: Enterprise AI Agents Need Company-Specific Context, Not Just Business Process Knowledge"
+date: "2026-10-17 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "SAP's VP of Business AI argues that AI agents must understand company-specific configurations, policies, and data relationships to execute enterprise workflows reliably."
+image: "/assets/post-images/2026-10-17-enterprise-agents-business-context.svg"
+---
+
+Knowing standard finance, procurement, and supply chain processes isn't enough for AI agents to execute them reliably—they also need to understand a company's specific configurations, policies, data relationships, and exceptions. That's the message from Ted Way, VP and chief product officer of SAP Business AI, who says the gap between general business process knowledge and company-specific context is a critical hurdle for enterprise agent adoption.
+
+"An agent can understand global accounting practices like IFRS 15 or US GAAP," Way explained. "But to execute the work, it needs to understand that company's revenue recognition configuration, the calculations, posting history, document flow, and contracts."
+
+The challenge extends beyond simple data access. Most context an agent needs sits scattered across applications, with the same supplier potentially existing under different identifiers—one record might say IBM, another International Business Machines, and a third refers to IBM Inc. "In my company, 'critical supplier' may mean something completely different than in your company," Way noted. "That's why the ontology, the knowledge graph, and data harmonization matter so much."
+
+SAP's solution involves a context layer above raw data that reconciles each entity's scattered records into one trusted profile and tells the agent how that entity connects to others. For a single payment, the business objects an agent must track can include the customer, supplier, product, contract, invoice, and order, while controls span approvals, access rights, compliance requirements, and audit records.
+
+The company reports significant results from early deployments. For PwC, SAP Business AI reduced a complex billing task from 35 minutes to five minutes while improving accuracy. Daimler Trucks North America increased its fleet contract bid win rate from about 10% to more than 40%, generating roughly $70 million in financial impact over 12 months.
+
+SAP's Joule Assistants now coordinate specialized agents around a business objective rather than a single piece of software. The assistants orchestrate multiple agents, with each executing defined processes across SAP and non-SAP systems. When an agent reaches a threshold it shouldn't cross alone, it sends a notification for review or approval.
+
+The harder problem emerges when workflows cross vendor boundaries. SAP is using the Agent2Agent (A2A) protocol to allow Joule to interact with agents outside SAP, but Way emphasizes that the business context—meaning of data, relationships, policies, and controls—must travel with the work. "The challenge for enterprise agents isn't simply learning how a business process is supposed to work," Way said. "It's staying grounded in how this particular business actually works, even as that business changes."

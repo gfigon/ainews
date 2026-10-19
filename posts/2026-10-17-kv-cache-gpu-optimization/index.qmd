@@ -1,0 +1,22 @@
+---
+title: "WEKA Solves GPU Waste With KV Cache Offload: Up to 60% of Compute Was Recalculating Context"
+date: "2026-10-17 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "WEKA field CTO reveals that GPUs running LLM inference can spend up to 60% of compute recalculating context, as KV cache eviction forces recomputation—flash storage offers a solution."
+image: "/assets/post-images/2026-10-17-kv-cache-gpu-optimization.svg"
+---
+
+GPU compute spent on recomputing context that was already processed represents one of the most significant inefficiencies in AI inference today. According to Alan McSeveney, field CTO at WEKA, GPUs running large language model inference can spend up to 60% of their compute recalculating context they have already processed—a waste that stems from how models hold conversation history in GPU memory.
+
+The problem emerges during multi-turn inference when GPUs store processed context in a KV cache to avoid recalculation. However, GPU memory is limited; when older context is evicted due to memory pressure, the GPU must recompute the same history when a session resumes. "Run without any strategy to deal with it, and a GPU can sit as low as 30% utilization on new work," McSeveney explained. "Get a good strategy and you can see north of 90%, or 95% in the best case."
+
+WEKA proposes using NVMe flash storage as a more economical solution for KV cache offload compared to expanding server DRAM. Flash matches or beats DRAM for holding KV cache while scaling better and costing significantly less. The company's Augmented Memory Grid captures KV cache from GPU servers, stores it centrally, and loads it back into any host in the data center—enabling sessions to resume on different servers without recomputation.
+
+In testing, this approach increased the number of users on the same GPUs by 7x and lifted output from 200,000 tokens to 2 million tokens in the same timeframe, compared to DRAM-based offloading. If a system can move cache off and back fast enough, each GPU can serve four to five times as many users.
+
+The timing is critical as GPU supply tightens. McSeveney noted that Google has told customers every GPU ordered for Google Cloud but not yet installed already has a buyer for its full service life, and customers without reservations by December should not count on on-demand capacity. "Running some of your own infrastructure might not be your first thought," McSeveney said. "But it may become a necessity."
+
+The industry is moving toward more aggressive KV cache reuse and offload, with solutions from Mooncake, DeepSeek techniques, and NVIDIA's CMX context memory platform built into the Vera Rubin stack. For companies building AI infrastructure, GPUs take more than 80% of the budget—making compute waste from KV cache recomputation a costly problem to ignore.

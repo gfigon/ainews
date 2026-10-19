@@ -1,0 +1,33 @@
+---
+title: "Nvidia Releases Open Nemotron-3.5 Super VL, Outperforms Claude Opus 5 on Specialized Benchmarks"
+date: "2026-10-17 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Nvidia releases open Nemotron-3.5 Super VL model with post-training optimizations that beat Claude Opus 5 and GPT-6.1 Sol on specialized task benchmarks."
+image: "/assets/post-images/2026-10-17-nvidia-nemotron-3-5-super-vl.svg"
+---
+
+Nvidia has released Nemotron-3.5 Super VL, an open-weight large language model that achieves state-of-the-art performance on specialized benchmarks, outperforming Anthropic's Claude Opus 5 and OpenAI's GPT-6.1 Sol on targeted evaluations.
+
+## Performance Breakthrough
+
+The Nemotron-3.5 Super VL model demonstrates significant improvements through advanced post-training techniques. According to Nvidia's benchmark results, the model outperforms Claude Opus 5 and GPT-6.1 Sol on specialized task benchmarks, particularly in coding, mathematics, and reasoning domains.
+
+"Nemotron-3.5 Super VL represents our commitment to pushing the boundaries of open AI development," Nvidia stated. "By releasing the model weights and sharing our training methodology, we aim to accelerate research across the AI community."
+
+## Open Model Strategy
+
+The release continues Nvidia's open-model strategy, making the weights available through their NGC catalog and Hugging Face. The model can be deployed on Nvidia GPUs with optimized inference through their TensorRT-LLM framework.
+
+Key specifications include:
+- **Parameter count**: Optimized for datacenter and workstation GPUs
+- **Context length**: Supports up to 128K tokens
+- **Fine-tuning**: Compatible with Nvidia's NeMo framework for custom deployments
+
+## Practical Implications
+
+The strong benchmark performance positions Nemotron-3.5 Super VL as a viable alternative to closed models for organizations requiring high-quality AI capabilities. The open-weight approach allows enterprises to deploy on their own infrastructure, addressing data sovereignty concerns that limit adoption of cloud-based alternatives.
+
+Nvidia expects the model to see immediate adoption in healthcare, financial services, and scientific research—sectors where benchmark performance and data privacy are both critical considerations.

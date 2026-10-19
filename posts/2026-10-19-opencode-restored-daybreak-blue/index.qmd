@@ -1,0 +1,35 @@
+---
+title: "OpenAI Restores OpenCode Access, Promotes Daybreak Blue for Defense"
+date: "2026-10-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Following a model distillation attack, OpenAI partners with OpenCode to restore service and offers Daybreak Blue access for authorized cybersecurity work."
+image: "/assets/post-images/2026-10-19-opencode-restored-daybreak-blue.svg"
+---
+
+OpenAI has completed restoration of OpenCode access for users affected by a large-scale model distillation attack, the company announced October 19th. The incident impacted a portion of API customers who used OpenCode, and the company has issued full refunds for API consumption during the attack period.
+
+## The Attack and Response
+
+The attack targeted OpenCode, OpenAI's code completion model. Approximately 1.4% of affected API customers experienced service disruption during the incident. OpenAI worked directly with the OpenCode team to restore services and has refunded all credits consumed during the attack window.
+
+"We're grateful for the partnership with OpenCode in recovering services for affected users," stated the OpenAI team. "Security is an ongoing commitment, and we're committed to continuous improvement."
+
+## Daybreak Blue: Defense-Focused Access
+
+Alongside the restoration, OpenAI is promoting Daybreak Blue—a cyber-permissive model variant designed for authorized defensive cybersecurity work. Unlike standard models with restrictive safety guidelines, Daybreak Blue is specifically calibrated for:
+
+- Penetration testing with explicit authorization
+- Vulnerability research and disclosure
+- Red team exercises
+- Security tool development
+
+Access requires identity verification and enrollment in Advanced Account Security, which disables password and email-based sign-in codes. The setup ensures conversations are not used for model training while enabling legitimate security research.
+
+## Industry Implications
+
+The incident highlights the growing threat of model distillation attacks, where competitors or malicious actors extract capabilities from API-accessible models. OpenAI's response—including both remediation and the Daybreak Blue program—suggests a nuanced approach to AI safety that distinguishes between defensive and offensive use cases.
+
+Organizations affected by the OpenCode incident can apply for Daybreak Blue access through OpenAI's developer portal. The company recommends that teams not wait until an incident occurs to develop their security posture.

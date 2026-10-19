@@ -1,0 +1,24 @@
+---
+title: "Reflection Beam 501B Challenges Chinese Open Models With Token-Efficient Approach"
+date: "2026-10-17 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Reflection AI releases Beam, a 501-billion-parameter open-weight model trained to complete tasks in fewer tokens, aiming to undercut Chinese competitors on cost-per-task rather than per-token price."
+image: "/assets/post-images/2026-10-17-reflection-beam-token-efficiency.svg"
+---
+
+Reflection AI has released Beam, a 501-billion-parameter open-weight model designed to finish tasks using significantly fewer tokens than competing models—a strategy aimed at offering lower cost-per-task rather than just lower price-per-token. The release comes just one day after Meta launched Muse Spark Open, intensifying competition among U.S. labs in the open-model space.
+
+Beam was trained through what Reflection describes as one of the largest reinforcement learning runs ever undertaken by an open-weight lab. Over four weeks, the team executed more than 100 million "rollouts"—trial-and-error problem-solving attempts where the model learns from mistakes—powered by 10,500 NVIDIA GB300 GPUs. The training cluster peaked at 883,006 virtual CPUs across 23 Google Cloud and AWS clusters.
+
+The key differentiator is Beam's token efficiency. During training, Reflection applied a penalty whenever the model used unnecessary tokens, rewarding it for completing tasks with minimal output. According to Reflection co-founder Ioannis Antonoglou, this required an enormous reinforcement learning scale: "With enough reinforcement learning, a model learns to solve the task and stay brief at the same time."
+
+The model uses 23 billion active parameters per token, compared to Meta Muse Spark Open's 42 billion—meaning each Beam token requires roughly half the compute of a Muse token. Reflection claims Beam achieves comparable performance to Z.ai's GLM-5.2 while using 3-4x less inference compute.
+
+Beam targets the same coding and agent-work workloads as Chinese models like DeepSeek V4.1 Flash, which have gained traction among U.S. companies for their cost efficiency. Pinterest, DoorDash, and Coinbase have all publicly credited Chinese open models with reducing AI costs—Coinbase reportedly cut spending nearly in half after switching to Z.ai's GLM and Moonshot's Kimi.
+
+Reflection argues that using Chinese models carries regulatory and provenance risks, as companies cannot verify whether models were "trained to activate certain behaviors in certain scenarios." Beam was trained from scratch with new weights and does not train on other models' outputs, according to the company.
+
+The model weights are available under Apache 2.0 license, unlike Meta's Muse Model License which requires attribution and a separate agreement for companies with over $20 million in revenue. Reflection's hosted service remains in free public beta with pricing yet to be announced.

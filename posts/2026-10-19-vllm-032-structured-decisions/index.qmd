@@ -1,0 +1,34 @@
+---
+title: "vLLM 0.32.0 Brings Structured Decision Endpoints to Production Inference"
+date: "2026-10-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "vLLM's latest release adds dedicated endpoints for decision models and expands low-precision KV cache support, promising up to 85% throughput gains."
+image: "/assets/post-images/2026-10-19-vllm-032-structured-decisions.svg"
+---
+
+The vLLM project released version 0.32.0 this week, introducing significant new capabilities for production inference deployments. The highlight is a dedicated `/v1/systemone` endpoint for structured decision-making, along with expanded low-precision KV cache support that can boost serving throughput by up to 85%.
+
+## Structured Decisions Hit Production
+
+The new structured decision endpoint addresses a growing need in enterprise AI deployments: the ability to make routing and classification decisions at scale. The `/v1/systemone` endpoint serves decision models that can answer choice, null, and score questions over structured state—enabling real-time routing, classification, and scoring without additional orchestration overhead.
+
+"The default serving of structured decisions means developers can now deploy decision models as a first-class API primitive," noted the vLLM team in the release announcement. The endpoint works out of the box with Decision 3.0 models from the vLLM project, which rank first on the Jev Decision Index 0.3.2 leaderboard.
+
+## Performance Improvements
+
+Beyond the new endpoint, vLLM 0.32.0 delivers substantial performance gains through several mechanisms:
+
+- **Multi-API workers**: Up to 85% throughput improvement when using multiple API workers in parallel
+- **Low-precision KV cache**: Expanded support for NVFP4 on NVIDIA GPUs and 4-bit precision on ROCm systems  
+- **Model Runner V2**: Now the default on ROCm platforms
+
+The release also adds generic HuggingFace tool parsers that can read a model's response_template, making it easier to integrate custom tool-calling behaviors.
+
+## Ecosystem Expansion
+
+Support for additional model families arrives with this release, including EmbeddingGemma 2 and the Decision 3.0 model family ranging from 0.6B to 27B parameters. The Decision 3.0 models are now available through the System One API, providing probability-based choices, yes/no answers, and routing scores.
+
+These additions position vLLM as the go-to solution for inference workloads requiring both traditional language model capabilities and structured decision-making at scale. The combination of dedicated endpoints and performance optimizations reflects the industry's push toward production-ready agentic systems.

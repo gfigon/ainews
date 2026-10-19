@@ -1,0 +1,36 @@
+---
+title: "NVIDIA Dory 1.0-4B: Looped Model Achieves 61.8% on SWE-bench with Adjustable Inference Depth"
+date: "2026-10-17 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "NVIDIA's Nemotron-Labs releases Dory1.0-4B, a looped model with adjustable loop count that matches Qwen3.5-9B performance while running 2.4x faster in NVFP4 format."
+image: "/assets/post-images/2026-10-17-nvidia-dory-4b.svg"
+---
+
+NVIDIA has quietly released Dory1.0-4B, a looped latent-recurrent model that achieves 61.8% on SWE-bench Verified while offering adjustable inference depth. The model, published on Hugging Face on October 16, represents an innovative approach to serving multiple compute budgets from a single checkpoint.
+
+## One Checkpoint, Multiple Performance Tiers
+
+The architecture consists of 8 input layers, a 20-layer shared recurrent block that runs 1, 2, or 4 times at inference, and 8 output layers. This design allows developers to choose between three performance tiers without deploying different model weights.
+
+"At two loops, you get most of the benefit. Four loops is recommended for agentic work," the model's documentation states. The approach mirrors techniques seen in DeepSeek's work but represents NVIDIA's first public entry into the looped model space.
+
+## Benchmark Performance
+
+Vendor-reported scores show 50.3%, 59.5%, and 61.8% on SWE-bench Verified at 1, 2, and 4 loops respectively. This places the 4-loop configuration on par with Qwen3.5-9B, which scores 61% on the same benchmark.
+
+However, Terminal-Bench 2.1 tells a different story: 22.2% at 4 loops versus 43% for Qwen3.6-35B-A3B. The discrepancy suggests the model excels at repository-level problem-solving but lags in terminal-centric tasks.
+
+## NVFP4: 2.4x Faster Than BF16
+
+The model ships in multiple formats: BF16, MXFP8, NVFP4, and Q5_K_M GGUF. According to NVIDIA's benchmarks, NVFP4 runs approximately 2.17 to 2.44 times faster than BF16 on DGX Spark hardware.
+
+A "last-loop KV-cache" mode maintains cache memory equivalent to a single loop regardless of actual loop count, addressing a key memory efficiency concern for production deployments.
+
+## Ecosystem Support Coming
+
+Current inference frameworks require builds from pull requests: vLLM PR #60149 and llama.cpp PR #30306. The weights are released under the OpenMDW-1.1 license, which permits commercial use.
+
+For organizations seeking to optimize coding assistant deployments across varying compute constraints, Dory1.0-4B offers a flexible alternative to traditional up-or-down model selection.

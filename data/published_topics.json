@@ -4641,6 +4641,30 @@
       "slugs": [
         "2026-09-28-llama-cpp-140x-optimization"
       ]
+    },
+    {
+      "term": "vLLM 0.32 Structured Decision Endpoint Systemone API Low-Precision KV Cache 85 Percent Throughput October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-vllm-032-structured-decisions"
+      ]
+    },
+    {
+      "term": "GitHub Security Lab AI Agent 24 Android Vulnerabilities Taskflow OsmAnd 10 Million Downloads October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-github-security-lab-ai-agent"
+      ]
+    },
+    {
+      "term": "OpenCode Attack Restoration Daybreak Blue Defense Cybersecurity Access October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-opencode-restored-daybreak-blue"
+      ]
     }
   ]
 }
