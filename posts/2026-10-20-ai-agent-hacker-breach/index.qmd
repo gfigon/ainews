@@ -1,0 +1,22 @@
+---
+title: "AI Agents Breach 100+ Companies in $5,000 Hacking Spree"
+date: "2026-10-20 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A Chinese-speaking hacker deployed autonomous AI agents to breach over 100 company websites—including Deere, SharkNinja, and Cummins—for only $5,000 in AI token costs."
+image: "/assets/post-images/2026-10-20-ai-agent-hacker-breach.svg"
+---
+
+A single hacker using off-the-shelf AI agents has successfully breached more than 100 company websites in a campaign that cybersecurity researchers are calling a watershed moment for automated threats. The October 19 incident targeted household names including agricultural equipment maker Deere, appliance brand SharkNinja, and engine manufacturer Cummins.
+
+The campaign began on September 25, 2026, and targeted over 1,200 e-commerce websites across the United States, Canada, Australia, and Japan. According to NorForge researcher Snorre Fagerland, who investigated the breaches, the hacker delegated "almost all the work to software"—with successful intrusions typically taking about 23 hours and costing approximately $50 in AI tokens each.
+
+"This represents a significant escalation in automated threat capabilities," the investigation noted. The case demonstrates how accessible artificial intelligence tools are lowering the technical barriers for large-scale cyber attacks while enabling attackers to operate at unprecedented scale.
+
+The financial efficiency is perhaps most striking. Total spending on AI tokens amounted to roughly $5,000—chump change for criminal enterprises that previously required dedicated teams and infrastructure. Each breach demanded minimal human oversight, with AI agents handling vulnerability discovery, exploitation, and in some cases, data exfiltration autonomously.
+
+For enterprise security teams, the implications are sobering. Traditional perimeter defenses assume a world where attackers need time, expertise, and resources. AI agents flip that equation entirely. A single motivated individual with moderate technical knowledge and a modest budget can now field an army of autonomous attack bots.
+
+This isn't a theoretical future threat—it's active exploitation happening now. The Reuters investigation confirms the breaches occurred, and security researchers warn that copycat campaigns are likely inevitable. Organizations should treat AI-augmented threats as a current priority rather than a distant possibility.

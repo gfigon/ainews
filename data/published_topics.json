@@ -1,6 +1,54 @@
 {
   "topics": [
     {
+      "term": "AI Agent Hacker Breach 100+ Companies $5,000 Tokens Deere SharkNinja Cummins October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-ai-agent-hacker-breach"
+      ]
+    },
+    {
+      "term": "Microsoft Enterprise Agent Controls Dynamic Permissions Risk Conditional Access October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-microsoft-enterprise-agent-controls"
+      ]
+    },
+    {
+      "term": "SOMA Metacognition System One Monitor System Two Reasoning 36% Token Reduction October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-soma-metacognition-reasoning"
+      ]
+    },
+    {
+      "term": "LG-Bench Graph-Structured Life Sciences AI Benchmark 10,000 Questions October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-lg-bench-life-sciences"
+      ]
+    },
+    {
+      "term": "Agentic Imagination Agima Framework AI Agents Picture Before Act October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-agentic-imagination-agima"
+      ]
+    },
+    {
+      "term": "STEPBENCH Agent Planning Benchmark wikiHow 6,885 Procedures 63% Ordering October 2026",
+      "count": 1,
+      "last_published": "2026-10-20",
+      "slugs": [
+        "2026-10-20-stepbench-agent-planning-benchmark"
+      ]
+    },
+    {
       "term": "DeepSeek V4.1 Flash 1017 Terminal-Bench 42.3 Search Fetch API MIT Weights October 2026",
       "count": 1,
       "last_published": "2026-10-18",
@@ -4664,6 +4712,38 @@
       "last_published": "2026-10-19",
       "slugs": [
         "2026-10-19-opencode-restored-daybreak-blue"
+      ]
+    },
+    {
+      "term": "Anthropic AI Safety Bill Draft Government Block Power October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-anthropic-ai-safety-bill"
+      ]
+    },
+    {
+      "term": "Hybrid Reasoning Agents LLM Think Latent Space October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-hybrid-reasoning-agents"
+      ]
+    },
+    {
+      "term": "NVIDIA AI4Bharat Indic Language Dataset 2.8 Trillion Tokens October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-nvidia-indic-pretraining"
+      ]
+    },
+    {
+      "term": "Reflection Beam 501B Open MoE Model October 2026",
+      "count": 1,
+      "last_published": "2026-10-19",
+      "slugs": [
+        "2026-10-19-reflection-beam"
       ]
     }
   ]

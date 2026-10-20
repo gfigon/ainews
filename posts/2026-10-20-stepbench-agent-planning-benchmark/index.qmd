@@ -1,0 +1,26 @@
+---
+title: "STEPBENCH Reveals Major Gaps in AI Agent Planning Abilities"
+date: "2026-10-20 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "New benchmark STEPBENCH tests AI agents on 6,885 real-world procedures from wikiHow—finding the strongest models correctly order steps only 63% of the time."
+image: "/assets/post-images/2026-10-20-stepbench-agent-planning-benchmark.svg"
+---
+
+Evaluating how well AI agents plan remains notoriously difficult, especially for open-domain tasks where verifying procedures through execution is impractical. A new benchmark called **STEPBENCH** addresses this gap by testing agents on 6,885 real-world procedures crawled from wikiHow across 81 categories.
+
+The benchmark introduces a diagnostic approach that goes beyond evaluating final plans. It tests four specific failure modes: missing steps, incorrect steps, misordered steps, and next-step prediction. This granular testing reveals where agent planning actually breaks down.
+
+Results expose significant limitations. Across 14 configurations tested on 12 models, step ordering proved the most challenging capability—the strongest model correctly orders steps only 63% of the time, dropping to just 33.1% for procedures with nine or more steps.
+
+"Existing evaluations typically assess only the final plan and do not distinguish procedural errors," the researchers explain. "This makes it hard to diagnose what exactly went wrong." STEPBENCH provides that diagnostic capability.
+
+The benchmark also found incorrect-step detection predicts judged plan validity across models, suggesting it could serve as a lower-cost alternative for evaluating generation quality. Rather than running full plan generation, checking whether agents can identify wrong steps may be enough to gauge capability.
+
+For developers building agentic systems, the implications are concrete. If your agent needs to follow or generate multi-step procedures—customer support scripts, manufacturing workflows, recipe instructions—current models will struggle with ordering, especially as procedures grow longer.
+
+The benchmark also includes STEPBENCH-Val, a validation set of 214 procedures published in 2026 to test whether rankings hold over time. Initial results show comprehension scores remain stable, suggesting limited influence from memorization on overall rankings.
+
+The code and data are available on the project page.

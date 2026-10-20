@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://roboaidigest.com/index.html</loc>
-    <lastmod>2026-10-19T06:13:27.209Z</lastmod>
+    <lastmod>2026-10-20T06:05:41.669Z</lastmod>
   </url>
   <url>
     <loc>https://roboaidigest.com/posts/2026-10-19-vllm-032-structured-decisions/index.html</loc>
     <lastmod>2026-10-19T06:05:08.645Z</lastmod>
+  </url>
+  <url>
+    <loc>https://roboaidigest.com/posts/2026-10-20-ai-agent-hacker-breach/index.html</loc>
+    <lastmod>2026-10-20T08:16:45.706Z</lastmod>
+  </url>
+  <url>
+    <loc>https://roboaidigest.com/posts/2026-10-20-microsoft-enterprise-agent-controls/index.html</loc>
+    <lastmod>2026-10-20T08:16:56.883Z</lastmod>
   </url>
 </urlset>

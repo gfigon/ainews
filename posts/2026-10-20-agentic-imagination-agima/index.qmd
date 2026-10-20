@@ -1,0 +1,24 @@
+---
+title: "Agentic Imagination: Teaching AI Agents to Picture Before They Act"
+date: "2026-10-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "New research introduces Agima, a framework training agents to imagine action outcomes before executing them, dramatically improving planning in sparse-feedback environments."
+image: "/assets/post-images/2026-10-20-agentic-imagination-agima.svg"
+---
+
+A fundamental challenge in AI agents is that some actions are irreversible—push a block in Sokoban and you can't undo it. New research from arXiv presents **Agentic Imagination (Agima)**, a framework that trains agents to imagine consequences before acting.
+
+The approach uses a single "omni model" that proposes actions, generates predicted outcomes as images, and reasons over these imagined futures to decide what to execute in the real environment. Rather than committing to a single plan, the agent can simulate sequences of actions, explore alternatives, and compare possible futures.
+
+The training happens in two phases. First, supervised fine-tuning unifies policy and world modeling within one model, enabling it to predict future outcomes and perform basic imagination like forward thinking and counterfactual branching. Then, agentic reinforcement learning teaches the agent to reason with its imagined futures effectively.
+
+Results are striking. Trained only on two-box Sokoban puzzles, Agima solves 40% of harder four-box puzzles while seeing the real board only once every five moves—compared to an action-only planner that solves just 2%. The agent learns when and where to look ahead, essentially developing metacognitive planning.
+
+"What emerges after RL training is a unified format for imagination that was never explicitly taught," the authors note. "The agent learns to conduct forward thinking only when necessary and branches more frequently at critical decision points."
+
+The framework generalizes across environments including Maze2D, Sokoban, Pacman, and PushT. For developers building agents in real-world domains where trial-and-error is costly—robotics, medical decision-making, or financial trading—the ability to imagine before acting could dramatically improve reliability.
+
+The project page is available at agima.net with code and evaluation benchmarks.

@@ -1,0 +1,24 @@
+---
+title: "LG-Bench: A Graph-Structured Framework for Evaluating AI in Life Sciences"
+date: "2026-10-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Researchers introduce LG-Bench, the first graph-structured benchmark for evaluating AI models in life sciences, featuring 10,000 questions across medicine, biology, and chemistry."
+image: "/assets/post-images/2026-10-20-lg-bench-life-sciences.svg"
+---
+
+Traditional AI benchmarks reduce interconnected scientific knowledge into flat lists of questions, ignoring how ideas actually relate in research. A new arXiv paper presents **LG-Bench**, the first graph-structured benchmark for life sciences AI evaluation.
+
+The benchmark contains over 10,000 high-quality multiple-choice questions across medicine, biology, and chemistry. Rather than treating each question independently, LG-Bench constructs a weighted evaluation graph using bidirectional matching and semantic similarity algorithms—nodes represent questions, edge weights capture semantic relationships.
+
+This structure enables two novel evaluation metrics. The **Global Coherence Score (GCS)** measures a model's consistency within semantically related question neighborhoods—how well does a model maintain correct reasoning across connected concepts? The **Knowledge Balance Score (KBS)** analyzes how model errors are distributed across the graph to reveal conceptual blind spots.
+
+"Flat accuracy metrics hide patterns," the authors explain. "A model might score well overall but systematically fail on certain interconnected topics. LG-Bench surfaces these patterns."
+
+The benchmark evaluates frontier models and finds significant gaps. Three of four leading models perform noticeably better at metadata lookup (identifying facts) than at numeric calculation (computing geometry from coordinates). Numeric tasks comprise 28 of 131 task types but account for half of the tasks that all models fail.
+
+The framework also reveals evaluation methodology issues. Rankings change depending on the number of runs per task—with one run per task, nearly 24% of bootstrap replicates put a different model first. Network access matters more than database access for performance.
+
+For AI developers building domain-specific models, LG-Bench offers finer-grained analysis than traditional benchmarks. The evaluation framework and tasks are open source at github.com/Protege-AI/ProteinGeoBench.

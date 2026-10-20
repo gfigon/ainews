@@ -1,0 +1,24 @@
+---
+title: "SOMA: How System One Models Can Monitor System Two Reasoning"
+date: "2026-10-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "New research shows fast System One models can continuously monitor slower System Two reasoning, cutting token usage by 36% while improving accuracy."
+image: "/assets/post-images/2026-10-20-soma-metacognition-reasoning.svg"
+---
+
+Reasoning models often run into problems without noticing—symptoms are visible in their own output, yet the model continues down flawed paths. A new arXiv paper introduces **SOMA (System One Metacognitive Awareness)**, applying the human metacognition model to AI reasoning.
+
+In humans, fast intuitive System One processes keep watch while slower deliberate System Two reasoning unfolds. SOMA applies this architecture: a fast System One model continuously monitors a System Two reasoning model and intervenes when needed.
+
+The system has three layers. A scenario layer states each objective in natural language with predefined actions. An awareness layer lets the S1 model judge whether described behavior appears in S2's output. A control layer accumulates these judgments, first reminds S2 to correct course, and takes over only if problems persist.
+
+Sharing one S1 model and one controller across tasks—without any training—SOMA addresses two different reasoning failures. On overthinking problems, it cuts reasoning tokens by up to 36% while improving average accuracy. On unanswerable questions, it raises abstention rates from 70.5% to 87.2%.
+
+"Even when symptoms are visible in their own text, reasoning models often fail to notice," the authors explain. "S1 decision models return calibrated probabilities for questions about text in one fast call, yet they're used only as gates before reasoning begins."
+
+The approach is model-agnostic and requires no fine-tuning—any fast language model can serve as the metacognitive monitor. For developers building production reasoning systems, SOMA offers a practical way to add self-correction without training dedicated monitoring models.
+
+The research suggests a broader shift: rather than making reasoning models bigger and more capable, we can pair them with specialized fast models that watch for failure modes.
