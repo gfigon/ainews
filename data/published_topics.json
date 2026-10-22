@@ -1593,7 +1593,7 @@
       ]
     },
     {
-      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
+      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2329,7 +2329,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -4760,6 +4760,22 @@
       "last_published": "2026-10-19",
       "slugs": [
         "2026-10-19-reflection-beam"
+      ]
+    },
+    {
+      "term": "Anthropic Claude Duet Proactive Mobile Desktop AI Agent Background Monitoring Opus 5.5 Research Preview October 2026",
+      "count": 1,
+      "last_published": "2026-10-22",
+      "slugs": [
+        "2026-10-22-anthropic-claude-duet"
+      ]
+    },
+    {
+      "term": "MiniMax M3.1 Flash Intelligence Index 42 Cost 0.22 Hallucination Rate 93 Percent AA-Omniscience API 0.15 October 2026",
+      "count": 1,
+      "last_published": "2026-10-22",
+      "slugs": [
+        "2026-10-22-minimax-m31-flash"
       ]
     }
   ]

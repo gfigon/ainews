@@ -1,0 +1,32 @@
+---
+title: "Anthropic Launches Claude Duet, an Agent That Starts the Work Itself"
+date: "2026-10-22 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Claude Duet monitors connected apps, surfaces priorities and executes work in the background on Anthropic's servers, shifting the assistant model from reactive prompts to proactive operation."
+image: "/assets/post-images/2026-10-22-anthropic-claude-duet.svg"
+---
+
+Anthropic introduced Claude Duet, a companion app for iOS, Android and claude.ai that is built around a single premise: users should not have to initiate every request. Instead of waiting for a prompt, Duet monitors connected services, decides what deserves attention, and works on it in the background.
+
+The system is built on Anthropic's Opus 5.5 model and opens as a research preview to U.S. Pro and Max subscribers through a waitlist. Team and Enterprise plans, an API, and an enterprise rollout schedule were not announced.
+
+## How Duet Works
+
+Duet runs a periodic check across connected applications, roughly every few hours, and produces a morning briefing summarising what changed. Users can tune which topics trigger a notification and how often checks happen. Anthropic notes that more frequent monitoring consumes usage allowances faster, so this is not continuous real-time supervision.
+
+When a task requires execution, Duet spins up a virtual machine equipped with a browser, works out which applications and steps the assignment requires, performs the work remotely, and then notifies the user — either with a finished result or with a decision it needs a human to make. Because the work runs on Anthropic's servers, it continues after the user closes the laptop or locks the phone.
+
+Concrete jobs Anthropic cites include preparing morning briefings, investigating unpaid invoices, drafting customer follow-ups, building financial forecasts, and creating web applications. Conversation happens over text or voice and carries over the user's account memory, skills, and existing app connections.
+
+## Not Another Remote Control
+
+Duet overlaps with several existing Claude surfaces, and Anthropic has been explicit about the differences. Claude Code Remote Control connects the phone to a coding session running on the user's own machine, so code execution and local file access stay on the host. Dispatch, an earlier Cowork feature, also required a powered-on desktop app; it is now closed to new users.
+
+Since October 6, new Pro and Max tasks in Cowork have been running on Anthropic's servers, so cloud execution alone no longer distinguishes Duet. What is new is the initiative: Duet decides what to look at and starts without a request, and it carries the same account context and skills that the user has already configured in Claude.
+
+## The Enterprise Question
+
+For technology leaders, Duet is a useful preview of how assistants are meant to sit inside everyday operations: pulling from multiple systems, prioritising, and preparing actions for approval rather than answering questions on demand. The open problems are equally clear. The product monitors email, calendars, finance and CRM data on a schedule, so its permission model, audit trail, and behaviour when it guesses wrong about what matters will decide whether it survives contact with a compliance team — and Anthropic has not yet said how any of that will work for enterprise subscriptions.

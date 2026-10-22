@@ -1,0 +1,28 @@
+---
+title: "MiniMax M3.1 Flash Lands at 42 on the Intelligence Index — and Hallucinates 93% of the Time When Wrong"
+date: "2026-10-22 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Independent evaluation puts the new MiniMax M3.1 Flash close to DeepSeek V4.1 Flash at roughly half the per-task cost, but reveals that when it fails to answer correctly it almost never says it doesn't know."
+image: "/assets/post-images/2026-10-22-minimax-m31-flash.svg"
+---
+
+MiniMax has released M3.1 Flash, a model aimed squarely at enterprise workflows, software development and computer use, and positioned on price. The company claims roughly 3x the speed of its predecessor M3 and a 70% cut in overall agent usage cost. Independent testing from Artificial Analysis largely confirms the efficiency story and adds a warning that matters for anyone deploying it unsupervised.
+
+## Cost and Capability
+
+At maximum reasoning effort, M3.1 Flash scores 42 on the Intelligence Index, up from 29 for M3, with average cost per task falling from roughly $0.51 to $0.22. That puts it level with Z.ai's GLM-5.3 Flash ($0.28 per task) and just ahead of Gemini 3.8 Flash ($1.24), within reach of DeepSeek V4.1 Flash-1017, which scores 45 at $0.26.
+
+The reasoning gains are pronounced: 48% on Humanity's Last Exam, up from 39% and ahead of DeepSeek's 43%, and 22% on CritPt, up from just 4%. The model also generated roughly 189 million output tokens during the index run, against 324 million for GLM-5.3 Flash and 334 million for Gemini 3.8 Flash — a saving that has nothing to do with list price.
+
+MiniMax's own figures claim 62.2 on Automation-Bench v1.0.6, ahead of DeepSeek V4.1 Flash-1017 at 60.5, 76.2 on BankerToolBench (tying Claude Opus 5), 73.7% on DeepSWE v1.1, 61.7 on OSWorld 2.0, and 82.2 on CyberGym. API pricing starts at $0.15 per million input tokens and $0.60 per million output, with cached input at $0.015. Open weights are due on October 23.
+
+## The Hallucination Problem
+
+On Artificial Analysis's AA-Omniscience benchmark, M3.1 Flash answered 56% of factual questions correctly — ahead of DeepSeek V4.1 Flash-1017 at 43% and GLM-5.3 Flash at 28%. Yet it attempted nearly every question and produced a 93% hallucination rate, yielding an overall score of just 16.
+
+The metric needs care: it measures the share of *non-correct* responses that were outright wrong, not the share of all answers. The real finding is that when M3.1 Flash does not know, it almost never declines or hedges — it invents. For agents that update records, reconcile financial documents, or research customers unsupervised, confident fabrication is a materially worse failure mode than a refusal, and it argues for retrieval, guardrails, or human review rather than raw benchmark scores.
+
+M3.1 Flash remains behind Anthropic's and OpenAI's frontier systems on overall index performance. But with frontier-adjacent task economics and open weights arriving, it is another data point in the same direction: capable, inexpensive models are spreading into workloads that previously assumed an expensive model was the only option.

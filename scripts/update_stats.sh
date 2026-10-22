@@ -18,8 +18,11 @@ article_count=$(find "$POSTS_DIR" -maxdepth 1 -mindepth 1 -type d \
   | wc -l)
 
 # Most recent post timestamp (date field) - read from frontmatter of latest post.
+# NOTE: don't use `| head -1 | cut ...` here - head exits early, cut dies with
+# SIGPIPE and `set -o pipefail` aborts the whole script (rc=141).
+# awk consumes the whole stream, so no early-exit SIGPIPE.
 latest_date=$(find "$POSTS_DIR" -maxdepth 2 -name 'index.qmd' -printf '%T@ %p\n' \
-  | sort -nr | head -1 | cut -d' ' -f2)
+  | sort -nr | awk 'NR==1{print $2}')
 if [ -n "$latest_date" ] && [ -f "$latest_date" ]; then
   date_line=$(grep -m1 '^date:' "$latest_date" | sed -E 's/^date:[[:space:]]*"?//; s/"$//')
   update_stamp="UPDATED ${date_line}"

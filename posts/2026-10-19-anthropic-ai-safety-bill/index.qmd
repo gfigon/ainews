@@ -1,0 +1,20 @@
+---
+title: "Anthropic Drafts Its Own AI Safety Bill, Limits Government Block Power"
+date: "2026-10-19 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Anthropic secretly pitches Congress a draft AI safety bill that would restrict when the government can block frontier model releases."
+image: "/assets/post-images/2026-10-19-anthropic-ai-safety-bill.svg"
+---
+
+Anthropic has privately presented US lawmakers with a draft AI safety bill that would significantly limit the government's authority to block the release of advanced AI models, according to a Politico report citing three people familiar with the effort.
+
+The proposal marks a unusual case of an AI company essentially writing its own regulatory framework. Under Anthropic's draft, federal officials could only seek to suspend a frontier model's release in narrow "catastrophic" scenarios—a much narrower scope than some proposed regulations.
+
+The company has been quietly lobbying Capitol Hill as Congress considers broader AI safety legislation. This comes amid heightened scrutiny following a series of rogue AI agent incidents disclosed by OpenAI and ongoing debates about model release protocols.
+
+Industry observers note the timing is significant: the bill proposal follows Anthropic's own safety framework announcements and its push for a "third way" in AI governance between voluntary commitments and heavy-handed regulation.
+
+The proposal faces skepticism from some lawmakers who argue self-regulation may not go far enough, while tech industry groups have broadly welcomed the framework as a "pragmatic" approach to AI safety.

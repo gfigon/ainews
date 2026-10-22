@@ -1,0 +1,30 @@
+---
+title: "AGCO Pilots Agility Robotics Digit Humanoids at Kansas Manufacturing Plant"
+date: "2026-10-21 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "AGCO signs commercial agreement with Agility Robotics to deploy Digit humanoid robots at its Kansas combine and hay-equipment plant starting 2027, handling parts sorting and ergonomic tasks."
+image: "/assets/post-images/2026-10-21-agco-digit-humanoid-pilot.svg"
+---
+
+AGCO Corporation has signed a commercial agreement with Agility Robotics to pilot Digit humanoid robots at the company's Hesston, Kansas manufacturing facility, the companies announced October 20. The deployment will begin in 2027, marking one of the first commercial installations of humanoid robots in agricultural equipment manufacturing.
+
+## Pilot Details
+
+Digit will handle parts sorting, stacking, and tote placement at the facility, which produces combine harvesters and hay equipment for AGCO's Fendt and Massey Ferguson brands. The tasks were specifically chosen to absorb repetitive and ergonomically risky work that currently requires human workers.
+
+No specific robot count or financial terms were disclosed. The pilot represents a significant validation for Agility Robotics' humanoid platform, which has been in development for several years.
+
+## Manufacturing Evolution
+
+The agricultural equipment sector has faced persistent labor challenges, particularly for physically demanding and repetitive tasks. Humanoid robots like Digit offer a potential solution by operating in environments designed for human workers without requiring extensive retooling or specialized infrastructure.
+
+Agility Robotics has positioned Digit as a general-purpose humanoid capable of operating in varied warehouse and manufacturing environments. The company's focus on real-world deployment places it alongside competitors like Figure AI and Apptronik in the race to commercialize humanoid robots.
+
+## Industry Context
+
+This deployment follows a wave of pilot programs across logistics, manufacturing, and retail sectors. The Hesston facility represents a notable expansion into heavy agricultural equipment, a segment that has been slower to adopt automation due to the complexity of handling varied parts and environments.
+
+AGCO's move signals that major manufacturers are increasingly viewing humanoid robots as ready for production environments, even if the initial deployment is limited in scale.

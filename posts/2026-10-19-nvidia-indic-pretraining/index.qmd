@@ -1,0 +1,36 @@
+---
+title: "NVIDIA and AI4Bharat Release 2.8 Trillion Token Indic Language Dataset"
+date: "2026-10-19 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "NVIDIA and IIT Madras's AI4Bharat release Nemotron-pretraining-Indic-v1, a 2.8 trillion token corpus covering all 22 Indian languages with an open GPU-accelerated data generation pipeline."
+image: "/assets/post-images/2026-10-19-nvidia-indic-pretraining.svg"
+---
+
+NVIDIA has announced a major advancement in multilingual AI training with the release of Nemotron-pretraining-Indic-v1, a dataset containing approximately 2.8 trillion tokens across 22 Indian languages. Developed in partnership with IIT Madras and its AI4Bharat research lab, the release includes both the dataset and an open-source GPU-accelerated pipeline for generating synthetic training data.
+
+## Why Indian Languages Matter
+
+The dataset covers all 22 languages listed in India's Constitution, representing the first languages for approximately 1.2 billion Indian citizens. According to Mitesh Khapra, who leads AI4Bharat and was named to the 2025 TIME100 AI list, Indian language technology has historically lagged behind English primarily because "we do not have enough data for Indian languages."
+
+The corpus includes native-script data for all 22 languages and romanized text for twelve languages, spanning 34 language-script configurations. This comprehensive approach ensures models can understand text regardless of whether Indian languages are written in their native scripts or romanized form.
+
+## Technical Details
+
+The dataset draws from 15 Nemotron-CC-v2 subsets, including web text, question-answer content, mathematics, and code. NVIDIA used NeMo Data Designer, their open-source framework for synthetic data generation, to run translation, quality assessment, and targeted repair workflows.
+
+Key technical aspects include:
+
+- **Translation**: Using Gemma-4-31B-it for document-level translation that preserves context across paragraphs, tables, and equations
+- **Quality Assessment**: Applying MQM-inspired rubrics to evaluate translation quality
+- **Provenance Tracking**: Every record traces back to a curated source document, enabling auditing
+
+The pipeline is fully open-source, allowing developers to adapt it to their own source material and generate more data for their language needs.
+
+## Impact on Future Models
+
+Continued pretraining for Nemotron 3.5 Super VL added 10 billion Indic tokens from this corpus. NVIDIA plans to build on this resource in future Nemotron models, potentially expanding frontier model capabilities for Indian languages significantly.
+
+The release represents a substantial expansion of open synthetic Indic training data available to the research community, giving teams more material for building models that can explain technical concepts, work through problems, and answer questions in Indian languages.

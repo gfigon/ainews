@@ -1,0 +1,51 @@
+---
+title: "Reflection Releases Beam: A 501 Billion Parameter Open MoE Model"
+date: "2026-10-19 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Reflection launches Beam, a 501B parameter mixture-of-experts model with 23B active parameters, 1M token context, and Apache 2.0 license—available in BF16, FP8, and NVFP4 formats."
+image: "/assets/post-images/2026-10-19-reflection-beam.svg"
+---
+
+Reflection, a new US-based AI lab, has released Beam, a 501 billion parameter mixture-of-experts (MoE) language model with 23 billion active parameters per token. The model is fully open-source under Apache 2.0 license, offering frontier-scale capabilities for teams wanting to deploy on their own infrastructure.
+
+## Technical Architecture
+
+Beam uses a sparse MoE architecture where each token is computed by a small fraction of the network, enabling it to run at the speed of a much smaller model while maintaining the capacity of a 501B parameter model. The architecture includes:
+
+- **52 layers** with a hidden size of 5,120
+- **256 experts per MoE layer** with 8 routed per token
+- **1 million token context window**
+- **Sliding-window attention** (512 tokens) in most layers, with full-context global attention every sixth layer
+- **Grouped-query attention** with 48 query heads and 8 key-value heads
+
+The model supports five reasoning effort levels: "low", "medium" (default), "high", "xhigh", and "max", allowing users to trade off speed for reasoning quality.
+
+## Checkpoint Formats and Deployment
+
+Beam is available in three checkpoint formats:
+
+- **BF16**: Full precision at approximately 1 TB
+- **FP8**: Reduced precision for efficiency
+- **NVFP4**: 4-bit quantization for NVIDIA Blackwell GPUs
+
+The BF16 checkpoint requires significant memory (about 1 TB), but the model runs at the speed of a 23B parameter model since only 8 experts activate per token.
+
+## Ecosystem and Tools
+
+Reflection has partnered with Hugging Face to provide day-0 support across popular libraries:
+
+- **Transformers**: Native implementation available from launch
+- **SGLang and vLLM**: Optimized inference support
+- **Miles**: Full-parameter reinforcement learning framework
+- **Custom Rust harness**: Purpose-built for optimal performance
+
+The team is offering $10,000 in Hugging Face Hub credits for the best projects that use Beam, encouraging demos, quantizations, synthetic datasets, RL environments, and benchmarks.
+
+## Focus on Coding and Agents
+
+Beam is specifically designed for coding and agentic use cases. It includes features like reasoning that preserves context across conversation turns and tool calling with a dedicated grammar. The model is positioned for teams wanting frontier-scale capabilities on their own hardware without relying on API calls.
+
+The Apache 2.0 license means enterprises can fully own, customize, and scale the model for their specific needs—a significant departure from closed API-only approaches.

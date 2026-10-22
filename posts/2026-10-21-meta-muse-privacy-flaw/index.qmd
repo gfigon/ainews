@@ -1,0 +1,34 @@
+---
+title: "Meta Muse Vulnerability Exposed Thousands of Private Conversations Through Easily Discoverable Links"
+date: "2026-10-21 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "Security researchers discovered that Meta's Muse AI assistant exposed users' private conversations through shareable links that could be enumerated via public DNS records, exposing confidential business and personal data."
+image: "/assets/post-images/2026-10-21-meta-muse-privacy-flaw.svg"
+---
+
+Meta has suspended a sharing feature in its Muse AI assistant after security researchers discovered that it allowed anyone to discover and access thousands of private conversations containing sensitive personal and business information.
+
+## One Query to Find Them All
+
+Researchers from security firm Claroc found they could enumerate approximately 6,800 share links created by Muse users through a single query. The vulnerability, dubbed "GhostShares" by researchers, stemmed from a design decision placing conversation titles in the subdomain of share URLs hosted on cf.metaaiusercontent.com.
+
+"This should have taken real effort," Claroc researchers noted. "It took one query."
+
+The exposed data included executive search notes for a frontier AI lab with internal contact names and meeting times, internal revenue reviews marked for CEOs, small business loan applications with requested amounts, bank fraud alerts with partial account numbers, real estate investment performance reports with property addresses and financial figures, and workplace vacation calendars listing employee schedules.
+
+## Why Discovery Was Simple
+
+Normally, shareable links use long random strings that can't be guessed. However, Meta's implementation added the conversation title directly into the subdomain—for example, "loan-application-draft-a4c9e2.cf.metaaiusercontent.com"—while still appearing to use long random identifiers. This design meant that once a user shared a conversation and the intended recipient clicked the link, the DNS record became publicly searchable through passive DNS databases.
+
+"Plenty of AI assistants share by public link," Claroc explained. "What makes Muse's shares easy to find is the title sitting inside the web address, where public DNS records it for anyone to search."
+
+## Meta's Response
+
+Meta stated it has paused the sharing functionality while reviewing the report and considering changes to how these links can be discovered. The company opened a bug bounty program specifically for this issue.
+
+This discovery adds to concerns about Muse's security posture. Three weeks after launch, macOS security expert Patrick Wardle disclosed a zero-day vulnerability allowing any app on the same device to gain complete control of a user's Muse account. Meta downplayed that severity, claiming exploitation required a pre-compromised device—though researchers demonstrated a simple ClickFix attack could hijack accounts.
+
+Muse requires access to most of a user's accounts to function as intended, autonomously filling out forms, booking appointments, making purchases, and creating documents. CEO Mark Zuckerberg described Muse as "built from the ground up for privacy and security" at launch.
