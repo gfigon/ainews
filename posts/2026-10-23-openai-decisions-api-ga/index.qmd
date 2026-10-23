@@ -21,7 +21,7 @@ Developers can pass native JSON inputs, embed images directly in the question in
 
 ## Why It Exists as a Separate Endpoint
 
-OpenAI's own use cases are telling. The Personal Finance team uses Decisions to categorise transaction descriptions. The Communications team scores whether coverage reinforces or challenges key narratives — a bounded judgement call that determines what gets reviewed further. The dots team uses it to cut response times and improve interactivity. Customers are using it to attribute AI costs and to drive language-learning experiences.
+OpenAI's own use cases are telling. The Personal Finance team uses Decisions to categorise transaction descriptions. The Communications team scores whether coverage reinforces or challenges key narratives — a bounded judgement call that determines what gets reviewed further. The dots team uses it to cut response times. Customers are using it to attribute AI costs and to drive language-learning experiences.
 
 The pattern is the same everywhere: a high-frequency, low-ambiguity classification sitting in the hot path of a product, where the frontier model was being asked to do a reasoning job it was overpriced for. Routing that work to a specialised endpoint is the same reasoning that produced cheap "flash" tiers — spend frontier intelligence only where the answer genuinely needs it.
 
