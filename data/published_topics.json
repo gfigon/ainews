@@ -4817,6 +4817,22 @@
       "slugs": [
         "2026-10-23-openai-google-cloud-model-garden"
       ]
+    },
+    {
+      "term": "LlamaIndex OCRia-1 4B Document Parsing VLM ParseBench 87.4 olmOCR-bench PulseBench-Tab Chart Extraction RLVR October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-ocria-1-document-parsing"
+      ]
+    },
+    {
+      "term": "Uber ChatGPT Work Company-Wide Rollout 30000 Employees GPT-6.1 Sol Default Skills Library Agents October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-uber-chatgpt-work-rollout"
+      ]
     }
   ]
 }

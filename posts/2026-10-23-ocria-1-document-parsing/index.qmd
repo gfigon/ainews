@@ -1,0 +1,36 @@
+---
+title: "The 4-Billion-Parameter Document Parser That Beats Every Rival by 12 Points"
+date: "2026-10-23 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "LlamaIndex's OCRia-1 scores 87.4 on ParseBench with four billion parameters, beats the next parsing model by 12.1 points, and turns charts into HTML tables instead of prose."
+image: "/assets/post-images/2026-10-23-ocria-1-document-parsing.svg"
+---
+
+Frontier vision models can read a page of text. What they keep failing at is the part a finance team actually cares about: the nested header spanning four columns, the merged cell in the middle, the stacked bar chart whose series are never labeled. LlamaIndex's **OCRia-1**, a 4-billion-parameter vision-language model now powering LlamaParse, is a bet that this gap is a training-data problem rather than a parameter-count problem.
+
+## A 12-Point Lead at 4B
+
+On ParseBench, OCRia-1 scores **87.4** overall — text content, formatting, tables and charts — the highest score for any parsing model under 35B parameters, and 12.1 points ahead of the runner-up, LightOnOCR-3-4B at 75.3. Mistral OCR 4 manages 67.5, olmOCR-2 (7B) 43.3.
+
+The lead holds on three independent third-party benchmarks: olmOCR-bench (83.5), PulseBench-Tab (84.1) and fr-bench-pdf2md (72.1). It also leads every table-specific evaluation across all four benchmarks, including the table dimension of ParseBench at 91.5 against Chandra-OCR-2's 89.2, and the tables category of olmOCR-bench at 92.9. Long tables in fr-bench-pdf2md — 1,820 multilingual tables in PulseBench-Tab — are where structure usually collapses, and OCRia-1 holds 83.2 and 81.9 in both long-table categories.
+
+## Charts Are a Data Problem, Not a Summary Problem
+
+The chart number is the most interesting. OCRia-1 scores **85.1** on ParseBench's chart dimension: a 19-point lead over LightOnOCR-3-4B at 66.1, while conventional OCR approaches land near zero — Mistral OCR 4 scores 40.1, Surya OCR 2 scores 1.2, dots.mocr 0.1.
+
+The reason is the output format. A chart gets converted into an **HTML table of its data points**, with each value bound to the right series and label. "Revenue grew across all segments" is useless for analysis; a table of the underlying numbers is not. Scoring requires a value to appear under the correct row and column headers, so a parser cannot pass by reading the axes plausibly.
+
+Formatting is the third dimension: **83.4**, against 67.9 for the next system. Superscripts, subscripts, strikethroughs and form checkboxes survive into Markdown and HTML, and formulas come out as LaTeX instead of flattened text.
+
+## Where the Model Came From
+
+Training data is the quiet story. The set is **100k+ document pages** aimed at what modern VLMs still get wrong — dense multi-page tables, charts, mathematical notation, multilingual text, difficult scans. Ground truth was bootstrapped with generation-and-review VLMs plus human annotation, and synthetic document generators fill in the long tail of real-world complexity.
+
+Post-training combines supervised fine-tuning for baseline parsing with **RLVR** — reinforcement learning against verifiable rewards — targeted at generalization on complex tables and charts. Grading a parsed table against ground truth is checkable by machine, which is exactly what RLVR needs to exist at all.
+
+The result is a different shape of win than the usual model launch. Not a bigger model that does everything a bit better, but a small specialist that does one thing measurably better than everything else, at a size that can be served in production.
+
+*Related: [Introducing OCRia-1 on LlamaIndex Blog](https://www.llamaindex.ai/blog/parse-ocria-1)*

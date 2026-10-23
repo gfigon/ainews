@@ -1,0 +1,30 @@
+---
+title: "Uber Hands Its Agent to 30,000 People — and Keeps Codex for the Engineers"
+date: "2026-10-23 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "Uber is expanding ChatGPT Work from a 1,000-person pilot to more than 30,000 employees, with GPT-6.1 Sol as the default model and an internal skills library as the governance layer."
+image: "/assets/post-images/2026-10-23-uber-chatgpt-work-rollout.svg"
+---
+
+The interesting number in OpenAI's announcement is not 30,000. It is 1,000 — the pilot Uber ran before it. Moving from a thousand people to more than thirty thousand is not a scaling exercise; it is the point at which the governance question stops being theoretical. A thousand volunteers self-select for novelty. Thirty thousand people across operations, finance, marketing and product will do whatever is easiest, and an agent platform without guardrails inherits that.
+
+## What Actually Rolled Out
+
+Uber's company-wide deployment of **ChatGPT Work** inside ChatGPT Enterprise is live now, reaching more than **30,000 employees** across its global workforce, up from the 1,000-person pilot. The agent connects to the tools those employees already live in — Google Drive, Gmail, Google Calendar and Slack — and is meant to produce finished artifacts rather than answers: research, meeting briefs, presentations, data analysis, and multi-step workflows carried across applications.
+
+The model choice is the part worth reading closely. ChatGPT Work will run **GPT-6.1 Sol** as its default capability inside Uber, which OpenAI frames as balancing frontier performance against cost efficiency. That is a procurement statement, not a marketing one: at thirty thousand seats, the gap between a frontier model and a cheaper one is a budget line.
+
+Uber's developers and software engineering teams keep using **Codex**. The split is deliberate and instructive — one agent for the knowledge workforce, another for the people who ship the code.
+
+## The Real Product Is the Skills Library
+
+What makes the announcement more than a press release is what Uber built around the model. The rollout is supported by an internal **AI skills library**, a set of approved integrations, and dedicated employee training. That is the layer that turns a general agent into a company-specific one: the sanctioned way to call a tool, the known-good recipe for a month-end variance analysis, the list of things not to automate.
+
+The result is a template that reads less like a product launch and more like a maturity curve. Uber already runs a multi-agent architecture for its driver-facing Uber Assistant, routing earnings questions, onboarding questions and transactional actions to different specialized systems under three stated principles — safety, trust and low latency — at a marketplace doing 40 million trips a day across 15,000 cities. The knowledge-work rollout sits on the opposite side of the company from that surface, but it answers to the same constraints.
+
+OpenAI and Uber say they will share adoption data, use cases and measurable outcomes as the rollout progresses, which is the number that will decide whether this becomes a template for other enterprises or remains a Uber-specific story. The pilot-to-company-wide step is where most agent platforms get their real verdict: not whether the demo works, but whether thirty thousand people keep using it after the novelty wears off.
+
+*Related: [Uber brings ChatGPT Work to all employees with OpenAI](https://openai.com/index/uber-chatgpt-work-rollout/)*
