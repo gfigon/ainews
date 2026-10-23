@@ -1,0 +1,36 @@
+---
+title: "The Tokenizer Was the Bottleneck — VocabX Cuts a Production Grader's Inference Bill by 77%"
+date: "2026-10-23 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "Specializing a small model's vocabulary around the cost of each token rather than its frequency cut measured inference cost 77% in one production grader — and raised its quality score instead of trading it away."
+image: "/assets/post-images/2026-10-23-vocabx-vocabulary-cost.svg"
+---
+
+Most inference cost work starts with the model: quantize it, distill it, serve it with a better runtime. Dharma-AI's **VocabX** argues the cheapest lever sits one layer earlier, in the tokenizer, and it is free. The method keeps the base model, the data and the training recipe untouched, and rebuilds only the vocabulary of a domain-specialized model around the **cost of each token** rather than its frequency.
+
+## The Bill Has Two Halves
+
+The obvious waste is fragmentation: a general tokenizer splits exactly what a domain repeats most. The production example is an automated grader for Portuguese essays built on Qwen3-4B. Every response opens with the same JSON envelope, the same competency names, the same evaluation phrases — each costing several tokens where one would do. The second waste is excess: the grader scored a vocabulary of **151,669 entries**, including Chinese tokens it will never emit, at every generated token.
+
+Counting tokens, though, misses where the money is. Prefill is compute-bound and reuses each weight read across the whole input; decode is memory-bound and pays a full pass per token, plus a growing KV cache read. In the grader, **a generated token costs 7.4 times a token read**. Compressing input and output equally captures only a fraction of the possible saving.
+
+## What VocabX Actually Does
+
+Three ideas. First, it scores candidates by measured cost — a token saved in the response is worth 7.4 times one saved in the input, so the vocabulary is built to reflect that. Second, it works on two layers at once: sub-word merging for how domain words are cut, and *macro tokens* that collapse whole repeated spans, from phrases to full JSON envelopes, into single entries. Five miners find those spans, each specialized in one kind of repetition. Drop one and token reduction on the grader collapses by 55.6 points.
+
+Third, it fixes a sampling trap. Choosing tokens by cost requires knowing what a candidate still saves after the tokens already picked; candidates invisible to a 400-document sample were scored zero. VocabX estimates that residual statistically instead. On a contracts corpus, that change alone lifted token reduction from 44.7% to 52.8%.
+
+## The Results
+
+Seven grader versions, same model, same data, same seed — only the tokenizer differs, run on an RTX 5090 under vLLM with cost derived from measured runtime. Responses dropped from **350 to 101 tokens** on average, cost fell **77.0%**, and the bench score *rose* from 0.703 to 0.810.
+
+One near-miss is worth keeping: fusing each competency's grade into its surrounding JSON produced the most compact vocabulary but dropped quality to 0.689 — below production. Giving the grade its own token cost two extra tokens, scored better, and was even cheaper. Compression has a price when the compressed span carries the very decision the model exists to make.
+
+Across five public domains and three model families, VocabX beat the strongest reference method in all fifteen combinations by 1.2 to 9.3 points, leading on estimated inference cost in every one.
+
+The model is not smarter. It just stops paying, per token, for text it never needed to write.
+
+*Related: [VocabX preview on Hugging Face](https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization)*

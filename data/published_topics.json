@@ -4801,6 +4801,22 @@
       "slugs": [
         "2026-10-23-openai-nask-poland-safety"
       ]
+    },
+    {
+      "term": "VocabX Cost-Weighted Vocabulary Adaptation Domain-Specific Tokenizer 77 Percent Inference Cost Reduction Qwen3-4B Portuguese Essay Grader Macro Tokens October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-vocabx-vocabulary-cost"
+      ]
+    },
+    {
+      "term": "OpenAI Models Google Cloud Model Garden Marketplace Codex Agentic Workflows Gemini Agent Google Antigravity October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-openai-google-cloud-model-garden"
+      ]
     }
   ]
 }
