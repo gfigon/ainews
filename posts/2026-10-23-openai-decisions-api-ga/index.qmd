@@ -1,0 +1,30 @@
+---
+title: "OpenAI's Decisions API Goes GA — GPT-6 Luna Turned Into a $0.10 Classifier"
+date: "2026-10-23 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Agents & Automation
+summary: "OpenAI's Decisions API is generally available, giving applications up to 400 bounded-answer questions per request for a tenth of a cent per million input tokens and no output-token charges."
+image: "/assets/post-images/2026-10-23-openai-decisions-api-ga.svg"
+---
+
+Every agentic workflow is mostly small decisions: route this ticket, classify this document, decide whether to retry. OpenAI has now carved that work out of the general-purpose API and turned it into a separate, cheap product. The **Decisions API** is generally available, built on GPT-6 Luna, and designed for questions with bounded answers rather than open-ended generation.
+
+The headline number is the speed. OpenAI claims near real-time decisions up to **10x faster than GPT-6 Luna through the Responses API**, which is the gap that matters when a voice agent has to choose an action between two spoken sentences. The price reflects the same specialisation: **$0.10 per million input tokens**, $0.01 for cached input, and — critically — **no output-token charges at all**. You pay for what you read, not for what the model says. For a router that reads a 2,000-token context and returns a single label, that inverts the usual economics of LLM calls.
+
+## Three Answer Shapes
+
+The API exposes three answer types, and the distinction matters more than it sounds. A **predicate** returns a probability from 0 to 1 — "is this product visibly damaged?". A **choice** returns one of your supplied options plus probabilities and a confidence value — "should the agent continue, retry, or ask for clarification?". A **score** returns the probability-weighted average of ordered rubric levels, which is how you express severity on a scale without collapsing it to a binary.
+
+Developers can pass native JSON inputs, embed images directly in the question instructions, and ask up to **400 questions per request** — twice the previous limit. Prompt caching for reused context and native integration with GPT-Live are both in, and OpenAI added inference residency in the US and EU plus Zero Data Retention for eligible customers.
+
+## Why It Exists as a Separate Endpoint
+
+OpenAI's own use cases are telling. The Personal Finance team uses Decisions to categorise transaction descriptions. The Communications team scores whether coverage reinforces or challenges key narratives — a bounded judgement call that determines what gets reviewed further. The dots team uses it to cut response times and improve interactivity. Customers are using it to attribute AI costs and to drive language-learning experiences.
+
+The pattern is the same everywhere: a high-frequency, low-ambiguity classification sitting in the hot path of a product, where the frontier model was being asked to do a reasoning job it was overpriced for. Routing that work to a specialised endpoint is the same reasoning that produced cheap "flash" tiers — spend frontier intelligence only where the answer genuinely needs it.
+
+The caveat is the same one that applies to any bounded-answer abstraction: a probability is only as good as the question and the context supplied with it. The API makes it cheap to ask a bad question thousands of times per minute. Teams using Decisions will need the same evaluation discipline they would apply to a model they fine-tuned themselves — and the Playground in the OpenAI platform, which accepts your own text or images, is a reasonable place to start.
+
+*Related: [OpenAI Decisions API](https://developers.openai.com/api/docs/guides/decisions)*

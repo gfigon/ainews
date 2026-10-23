@@ -1,0 +1,30 @@
+---
+title: "OpenAI Signs AI Safety Agreement With Poland's NASK as Europe Builds Its Own Safety Institutes"
+date: "2026-10-23 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "NASK's AI Safety Research Center now operates as the Polish Artificial Intelligence Safety Institute, and has signed an agreement with OpenAI covering joint research on evaluating frontier systems and strengthening safeguards."
+image: "/assets/post-images/2026-10-23-openai-nask-poland-safety.svg"
+---
+
+OpenAI and Poland's NASK National Research Institute have signed an agreement to collaborate on AI safety, security and technical research. The operational centre of it is NASK's AI Safety Research Center, which serves as the **Polish Artificial Intelligence Safety Institute (AISI)** — the formal name for a European counterpart to the UK's AI Security Institute and the US Center for Advancing Standards and Innovation for Super Intelligence (CAISSI).
+
+The stated scope is research rather than regulation: evaluating increasingly capable AI systems, identifying potential vulnerabilities, and strengthening safeguards. The agreement is explicitly framed as part of a broader push. OpenAI has been calling on the US to work with other countries on **international technical standards for frontier AI**, arguing that common approaches to evaluating capabilities, assessing risks, testing safeguards and reporting incidents let countries compare evidence and respond to risks that cross borders.
+
+## Poland's Angle
+
+NASK brings something the announcement is explicit about: a national operator whose safety research is applied directly to protecting public services and Poland's digital information ecosystem. The argument is that without national partners of this kind, global AI safety standards stay detached from how AI is actually deployed.
+
+This is not only a research agreement. It follows CERT Polska's July work with OpenAI's cyber-capable models through Daybreak, which surfaced **six vulnerabilities in MikroTik RouterOS** — flaws that could be chained to take control of affected devices without authentication. MikroTik shipped fixes and CERT Polska confirmed the patches prevented the attack paths it had observed.
+
+That detail is the one worth holding onto. The announcement frames NASK as a research partner, but the concrete output so far has been vulnerability disclosure in critical infrastructure — routers deployed by small operators, municipalities and enterprises across Poland and the wider region. A Polish safety institute that surfaces flaws in widely-deployed networking gear is contributing to the practical side of model evaluation, not just the paper side.
+
+## What to Watch
+
+The agreement does not commit anyone to specific evaluation methods, reporting formats or timelines, and its language is exploratory by design. The near-term signal to track is whether joint work produces shared capability benchmarks or incident-reporting formats that other European institutes adopt, which would be the mechanism by which a bilateral agreement quietly becomes part of a standard.
+
+Europe's institute network is thickening — UK AISI, CAISSI, and now a formally designated Polish AISI — and OpenAI now has agreements across all three. For a vendor, that is the cheapest way to shape the evaluation vocabulary that regulators will later use. For Poland, it is a seat at the table while the vocabulary is still being written, plus a national CERT that has already turned model access into patched router firmware.
+
+*Related: [OpenAI and NASK partnership announcement](https://openai.com/index/openai-nask-ai-safety-security-partnership)*

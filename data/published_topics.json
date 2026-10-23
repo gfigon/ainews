@@ -4777,6 +4777,30 @@
       "slugs": [
         "2026-10-22-minimax-m31-flash"
       ]
+    },
+    {
+      "term": "OpenAI Decisions API GA GPT-6 Luna Predicate Choice Score 400 Questions 10x Faster $0.10 Per Million Input Tokens No Output Charges October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-openai-decisions-api-ga"
+      ]
+    },
+    {
+      "term": "NVIDIA Kumo Relational Foundation Model RelBench SAP SALT AutoGluon 8 Percent MRR 430x Faster RelArena Alpha 41 Tasks October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-nvidia-kumo-relational"
+      ]
+    },
+    {
+      "term": "OpenAI NASK Poland AI Safety Research Center Polish AISI Agreement CERT Polska MikroTik RouterOS Six Vulnerabilities Daybreak October 2026",
+      "count": 1,
+      "last_published": "2026-10-23",
+      "slugs": [
+        "2026-10-23-openai-nask-poland-safety"
+      ]
     }
   ]
 }
