@@ -4857,6 +4857,38 @@
       "slugs": [
         "2026-10-24-cisco-agentic-faith-vulnloc"
       ]
+    },
+    {
+      "term": "NVIDIA Nemotron 3.5 Bolt E4B 4GB Open Small Language Model RL Only Post-Trained Gemma 4 E4B 64K Context 35 Languages Jetson RTX October 2026",
+      "count": 1,
+      "last_published": "2026-10-24",
+      "slugs": [
+        "2026-10-24-nvidia-nemotron-3-5-bolt-e4b"
+      ]
+    },
+    {
+      "term": "You.com Inference Router 12 Open-Weight Models 99.9 Percent Uptime SLA Zero Data Retention US Hosting LiveNewsBench October 2026",
+      "count": 1,
+      "last_published": "2026-10-24",
+      "slugs": [
+        "2026-10-24-you-com-inference-router"
+      ]
+    },
+    {
+      "term": "Google Cloud Agent Compute Engine microVM Per Agent Session Credential-Free Sandbox AGNTCon October 2026",
+      "count": 1,
+      "last_published": "2026-10-24",
+      "slugs": [
+        "2026-10-24-google-agent-compute-engine"
+      ]
+    },
+    {
+      "term": "Kyutai CADRE Causal Diffusion Video Autoencoders World Model 230 ms Action Lag Open Weights October 2026",
+      "count": 1,
+      "last_published": "2026-10-24",
+      "slugs": [
+        "2026-10-24-kyutai-cadre-video-autoencoders"
+      ]
     }
   ]
 }
