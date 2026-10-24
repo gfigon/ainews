@@ -1,0 +1,32 @@
+---
+title: "Moonshot's Kimi K3.1 Pro Takes Fourth on the Intelligence Index — and the Weights Are Still Coming"
+date: "2026-10-24 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Agents & Automation
+summary: "Moonshot's 2.8T-parameter reasoning model scores 55 on the Artificial Analysis Intelligence Index, leads every model on Terminal-Bench 4.0, and undercuts Kimi K3's price by a third — but the weights are not published yet."
+image: "/assets/post-images/2026-10-24-kimi-k3-1-pro-open-weights.svg"
+---
+
+Moonshot AI released Kimi K3.1 Pro on 23 October, and the interesting part is not the size — it is where the model gained. The **Artificial Analysis Intelligence Index** puts it at **55**, up 11 points from Kimi K3's 44, behind only Claude Opus 5.5 (58), Claude Sonnet 5.5 (56) and Muse Wonder Full (56). But the aggregate score understates the release: the jumps cluster in agentic work, which is exactly where the open-weight camp has been losing ground.
+
+## The Agentic Gains
+
+On **Terminal-Bench 4.0**, K3.1 Pro posts the highest score of any model at **67%**, up from 13% for Kimi K3 and ahead of Sonnet 5.5 (64%). On **GDPval-AA**, an evaluation of economically valuable agentic tasks, it lands third with **1,846 Elo** — a 312-point gain over K3, behind Opus 5.5 (1,866) and Muse Wonder Full (1,857). **AutomationBench-AA**, which tests end-to-end SaaS workflows, climbs from 58% to 73%.
+
+Elsewhere the movement is more modest, which is informative. Humanity's Last Exam goes from 47% to 52%, SciCode from 59% to 61%, CritPt from 23% to 25%. The model did not become uniformly cleverer; it became much better at driving tools and finishing multi-step jobs.
+
+## Cheaper Per Token, Not Just Smarter
+
+Pricing is **$2 per million input tokens, $10 output, $0.20 cache hit** — 33% below Kimi K3 on all three rates. Size is **2.8T total parameters with 104B active**, context is **1M tokens**, and input modalities are text and image. Artificial Analysis puts cost per task at roughly **$1.98**, about the same as K3, because K3.1 Pro burns 14% more output tokens (55K versus 48K) while paying less for each one.
+
+The hallucination profile moved in the right direction too: the **AA-Omniscience Index** rose from 20 to 30, with hallucination rate falling from 53% to 44% and accuracy up from 48% to 51%.
+
+## The Catch: No Weights Yet
+
+Weights are **not published at launch**, though Moonshot has signalled they will follow — reportedly by 4 November. Until then, K3.1 Pro is a closed model that merely promises to be open. That distinction matters more than usual right now: Artificial Analysis estimates that once the weights land, the gap between the best open-weight model and the best proprietary one narrows from 12 points to 3 on the Intelligence Index.
+
+The pattern worth watching is the price of capability. Moonshot is now cutting per-token rates by a third while raising output consumption, which means the real competition has moved from parameter counts to tokens burned per finished task. The vendors that win the next two quarters will be the ones that make an agent's long working context cheap, not the ones that publish the largest context window.
+
+*Related: [Kimi K3.1 Pro on Artificial Analysis](https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks)*

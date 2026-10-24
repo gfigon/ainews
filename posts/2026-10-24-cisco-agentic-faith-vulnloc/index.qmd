@@ -1,0 +1,32 @@
+---
+title: "Cisco's Agentic FAITH Grades the Trajectory, Not Just the Answer"
+date: "2026-10-24 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Security & Policy
+summary: "Cisco Foundation AI extended its FAITH framework to multi-step tool-using agents, with VulnLoc as the first benchmark: find the vulnerable file, then prove you know it has been patched."
+image: "/assets/post-images/2026-10-24-cisco-agentic-faith-vulnloc.svg"
+---
+
+A final answer is a poor way to judge an agent. An agent that investigates a codebase makes a sequence of decisions — where to look, which tool to call, how to read the output, when to stop — and a benchmark that only looks at the conclusion throws all of that away. Cisco Foundation AI's new **Agentic FAITH** extension is built around scoring that sequence instead.
+
+FAITH already provides a common evaluation workflow for cybersecurity benchmarks covering threat intelligence, vulnerability classification and security knowledge, driven by three commands: `query` to run, `eval` to grade, `summarize` to report. The agentic extension keeps that workflow and adds tasks that require multiple steps and tool use, so traditional and agentic evaluations can be run and analysed the same way. FAITH manages the interaction itself: the model picks an action, receives the tool output, and uses it to decide what happens next, until it submits an answer or hits a stopping condition the benchmark defines.
+
+## VulnLoc, in Two Phases
+
+The first integrated agentic benchmark is **VulnLoc**, which asks whether an agent can locate vulnerable files in a repository *and* avoid false alarms on patched code. Each task hands the agent a repository snapshot and a description of a vulnerability class; it explores through terminal tools, searches for relevant logic and submits the files it suspects — or explicitly reports that it found no matching vulnerability.
+
+**Phase A** works on the pre-fix repository and scores submitted files with a file-set **F1** metric against ground truth, penalising both misses and wrong picks. **Phase B** points the agent at the patched repository and asks it to report the vulnerability as absent; the primary metric is **true-negative rate**. Completion status is recorded separately so a correct "no vulnerability here" can be distinguished from a missing submission or a crashed run.
+
+Execution is locked down: read-only access to the repository, running locally with Docker for trusted inputs or on Kubernetes through Agent Sandbox.
+
+## Why False Positives Are the Metric That Matters
+
+The Phase B design is the part that matters commercially. Security agents are judged on two very different errors, and only one of them gets attention. Missing a real vulnerability is embarrassing. Flagging a thousand patched files as vulnerable is what gets the tool switched off — it trains analysts to ignore it, and it buries the real finding in noise. Cisco putting a true-negative metric next to the recall metric is a quiet admission that adoption, not just capability, is the bottleneck.
+
+The framework is also unusually transparent about conditions: benchmarks configure prompts, turn limits, tool-call budgets and timeouts, and FAITH stores conversation history, tool calls and responses, submitted answers, execution errors and the reason each task ended. Completed tasks are checkpointed, so an interrupted long evaluation resumes at task boundaries instead of restarting. The architecture is extensible — authors define task loading, tools, execution environment and scoring, and register new benchmarks.
+
+One practical constraint for anyone starting: run the evaluation on a model endpoint that supports structured tool calls through the OpenAI-compatible Chat Completions interface, and read the saved execution record next to the score before scaling up.
+
+*Related: [Introducing Agentic Evaluation in FAITH](https://blogs.cisco.com/ai/introducing-agentic-evaluation-in-faith)*

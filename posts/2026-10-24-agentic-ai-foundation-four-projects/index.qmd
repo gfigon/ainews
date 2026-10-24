@@ -1,0 +1,32 @@
+---
+title: "Four Rivals Just Handed Their Agent Standards to One Neutral Foundation"
+date: "2026-10-24 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "At AGNTCon in San Jose the Agentic AI Foundation took in Agent Skills, Open Responses, OpenEnv and OpenSandbox, growing from three hosted projects to ten in its first year."
+image: "/assets/post-images/2026-10-24-agentic-ai-foundation-four-projects.svg"
+---
+
+In one announcement at AGNTCon + MCPCon North America on 22 October, four companies that compete with each other handed their agent specifications to the same neutral table. The **Agentic AI Foundation (AAIF)**, the Linux Foundation project that launched in December 2025 with three projects, now hosts **ten**: **Agent Skills** from Anthropic, **Open Responses** from OpenAI, **OpenEnv** from Hugging Face and **OpenSandbox** from Alibaba.
+
+The four additions were chosen to cover four distinct layers of the agent stack, and that map is the real story.
+
+## Four Layers, One Foundation
+
+**Agent Skills** is the capability layer — an open format for packaging instructions, scripts and resources that agents load on demand, making domain expertise portable across agent products. **Open Responses** is the model-interface layer: an open specification for multi-provider, interoperable LLM interfaces built on the shape of OpenAI's Responses API, with a shared schema, consistent streaming events and extensible tooling, so a request is described once and run anywhere. **OpenEnv** is the training and evaluation layer, an open framework for reinforcement-learning environments that exposes a containerised service with a familiar agent interface, MCP support and the Gym training protocol. **OpenSandbox** is the execution layer — a general-purpose sandbox platform with multi-language SDKs, unified sandbox APIs and Docker and Kubernetes runtimes for coding agents, GUI agents, evaluation, code execution and RL training.
+
+They join existing AAIF projects: the **Agent2Agent (A2A)** protocol, **Agent Router**, **agentgateway**, **AGENTS.md**, **goose** and **MCP**.
+
+## Why Neutrality, and Why Now
+
+AAIF CTO and co-founder Manik Surtani framed the additions as a bet that agentic AI needs a neutral home, adding that no single company should control the outcome. Anthropic's David Soria Parra, who co-created and leads MCP, described donating Agent Skills so that "anyone building with skills can shape what's next" — the same argument that applied when MCP moved under neutral governance.
+
+Alibaba's Xiaobin Xu put the vendor-neutrality point more bluntly: OpenSandbox was created at Alibaba, but its future should not be defined by one company.
+
+The timing is not accidental. Agent infrastructure is visibly splitting into layers — capabilities, model communication, evaluation, and safe execution — and four vendors building four layers independently is a portability problem before it is a competition problem. Shared schemas for streaming events and shared sandbox protocols are the kind of thing that only works if they are owned by nobody in particular.
+
+The caveat worth keeping: donating a specification to a foundation does not guarantee adoption, and it does not guarantee the spec stops tracking the donor's own product roadmap. Open Responses is still "based on the OpenAI Responses API", and Anthropic still maintains Agent Skills. Builders should treat the AAIF portfolio as the emerging compatibility surface and check per-provider feature support before assuming portability is real.
+
+*Related: [AAIF announcement on the Linux Foundation](https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)*
