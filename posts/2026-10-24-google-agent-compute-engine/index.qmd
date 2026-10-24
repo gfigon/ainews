@@ -1,0 +1,35 @@
+---
+title: "Google Gives Every Agent Its Own microVM — and Takes the Credentials Away"
+date: "2026-10-24 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Agents & Automation
+summary: "Agent Compute Engine hands each agent session a hardware-isolated microVM with no network card, no credentials and no secrets on disk — then checkpoints it to zero resources the moment the model starts thinking."
+image: "/assets/post-images/2026-10-24-google-agent-compute-engine.svg"
+---
+
+Containers were too loose and VMs too slow for agents, so Google built a third thing. Announced at AGNTCon + MCPCon, **Agent Compute Engine (ACE)** is a Google Cloud service that gives every agent session its own hardware-isolated microVM — no standard network interface, no credentials in the guest, no long-lived secrets on disk. It already powers Gemini as an agent for work tasks, Antigravity, and Google's internal evaluation and RL pipelines. Customer preview is targeted for the coming months.
+
+## Why Neither Primitive Fit
+
+Google splits each agent into two parts: the **harness** (the "brain"), which calls the model and decides the next action, and the **sandbox** (the "hands"), which runs code, shell commands and browsers. The harness lives entirely outside the sandbox.
+
+Traditional VMs give kernel control and a real isolation boundary, but booting one takes seconds to minutes, and agents start, pause and resume constantly. Containers are fast but share the host kernel, and coding agents need root. An always-on VM per *waiting* agent wastes resources; tearing the environment down every turn destroys working state.
+
+## Assume the Sandbox Is Compromised
+
+Google started from one rule: assume an attacker controls everything inside the sandbox and make sure they find nothing there. Guests hold zero persistent secrets, OAuth refresh tokens or service account keys, and no metadata server access. Each microVM gets only an ephemeral, session-scoped SPIFFE certificate and a short-lived identity token. The real backend credential is swapped in on the wire by **Agent Gateway**, off-node, only after mTLS identity and egress policy checks pass.
+
+Networking follows the same logic. MicroVMs have no vNIC and no default gateway; all traffic crosses a virtio-vsock boundary to a local unprivileged proxy, then to an external gateway enforcing outbound brokering and DLP policy. Root of trust sits in Google **Titan** silicon and the **Titanium IPU**, with attestation keys held outside the guest.
+
+## Cheap Idle Agents
+
+The clever part is between turns. When a tool call finishes, the sandbox signals that it is thinking, and the host checkpoints the idle microVM to zero active resources, resuming from a snapshot on the next call. Copy-on-write memory sharing with DAX-mapped pre-warmed images lets microVMs on a host share base OS and library pages, giving up to 10× higher density. The open-source sibling **Agent Substrate**, which runs on any Kubernetes cluster, hit 500 activations per second at under 500 ms suspend/resume across 200,000 agents, with 1,000+ dormant agents per host.
+
+## Four Identities, One Caveat
+
+Google defines **four identities**: the user, a delegated on-behalf-of grant held in a central authorization service, the short-lived SPIFFE **Agent Workload Identity** used inside the sandbox, and an **Agent Workforce Identity** letting an agent act as an assistant with its own account. The workload identity is useless for direct backend calls even if exfiltrated.
+
+One caveat: Google publishes no boot time, density, pricing or preview date for ACE itself — those numbers belong to Agent Substrate, not the managed service. Against AWS AgentCore Runtime, Azure dynamic sessions and E2B, the differentiator is not raw isolation but the credential-free sandbox with in-flight token swap, which turns prompt injection from credential theft into an "attacker finds nothing to steal" problem.
+*Related: [Agent Compute Engine deep dive](https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive)*

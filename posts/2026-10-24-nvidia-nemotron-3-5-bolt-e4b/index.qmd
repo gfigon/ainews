@@ -1,0 +1,33 @@
+---
+title: "NVIDIA's Nemotron 3.5 Bolt E4B Fits Agent Workloads in 4 GB — and Never Saw an SFT Example"
+date: "2026-10-24 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "NVIDIA post-trained Gemma 4 E4B into an open 4 GB small language model using reinforcement learning alone, leading 15 of 21 conversational-agent benchmarks while leaving VRAM headroom for speech and vision models."
+image: "/assets/post-images/2026-10-24-nvidia-nemotron-3-5-bolt-e4b.svg"
+---
+
+NVIDIA released **Nemotron 3.5 Bolt E4B 4GB** on 23 October, an open small language model built for one job: running a conversational agent on hardware you already own. It post-trains Google's Gemma 4 E4B and is sized to leave roughly 4 GB of VRAM for everything else in the pipeline — speech, vision, and the application itself.
+
+## The memory budget is the product
+
+Most "small model" releases chase leaderboard points. Bolt is designed around a physical constraint. On RTX, Jetson, RTX Spark and DGX Spark, the Q4_K_M build measures 3.1–4.3 GB of VRAM in NVIDIA's own testing, with 64K context, multi-turn tool calling and a `conversational_mode` flag for short, speech-ready answers.
+
+That budget matters for the three workloads NVIDIA names: device and voice assistants, interactive game characters, and embedded or industrial agents. In the demo, a Reachy Mini robot on a Jetson Orin Nano 8GB runs Cosmos 3 Edge for vision while Bolt handles speech and tool calls into the robot's animation libraries.
+
+## RL only, no supervised fine-tuning
+
+The unusual part is the recipe. NVIDIA skipped SFT entirely, reporting that it improved tool calling while degrading Gemma's conversational quality and verbosity. Instead the team used RLVR and RLHF through NeMo-RL and NeMo-Gym, running every sample in both reasoning and non-reasoning modes at a 2:1 ratio, with length penalties in the GenRM environment to stop answers from ballooning. The datasets and full recipe are public.
+
+Deployment adds a Q4_K_M quantization calibrated with importance matrices on about 1M tokens of RL rollouts, plus a DFlash speculative-decoding drafter. On an RTX 5070, Bolt with DFlash hit 272.6 tokens/s against Gemma 4 E4B's 225.9 — a 1.21x gap.
+
+## Where it wins, and where it doesn't
+
+On NVIDIA's own 21-benchmark, five-capability grid, Bolt leads 15 rows in reasoning mode and averages roughly 40% above Nemotron 3 Nano 4B. It scores 82.5 on Brevity Bench (Gemma 4 E4B: 80.0) and 80.6 on RoleBench versus 74.6. But it trails on Tau2-Bench, where 55.1 sits about 20 points behind Qwen3.5-4B at 75.1 — a reminder that agentic tool reliability, not persona quality, is where sub-4GB models still lose ground.
+
+Coverage spans 35 languages on top of a base pretrained on more than 140. For teams that hit a VRAM wall, this is a narrow, well-documented way around it.
+
+*Related: [NVIDIA Nemotron 3.5 Bolt E4B 4GB](https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/)*
+*Related: [Model card and weights on Hugging Face](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB)*

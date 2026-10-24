@@ -1,0 +1,30 @@
+---
+title: "You.com's Inference Router Sells the Paperwork, Not the Weights"
+date: "2026-10-24 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Industry News
+summary: "Twelve open-weight models behind one OpenAI-compatible endpoint with a 99.9% uptime SLA, zero data retention covering model calls and web search, and 100% US hosting — the compliance layer, not the GPUs, is the product."
+image: "/assets/post-images/2026-10-24-you-com-inference-router.svg"
+---
+
+You.com has launched **Inference Router**, a managed API that puts 12 open-weight models behind a single OpenAI- and Anthropic-compatible endpoint. The models are not the interesting part. The contract is.
+
+The service ships with a 99.9% minimum uptime SLA backed by service credits, zero data retention across both model calls and web search requests, 100% US-hosted infrastructure including failover, a DPA on request, and no platform fee — pay-as-you-go, 0% markup, against OpenRouter's 5.5%.
+
+## Why an API for models you can self-host
+
+You.com frames the problem as stalled migrations. Teams prototype open-weight models on an aggregator, then hit the security review: reviewers ask about ZDR, US hosting, access controls and DPAs. Answers vary by provider and sometimes by model, so the evaluation dies in the queue.
+
+Routing itself is straightforward. Every request goes first to **Inference Direct**, You.com's own capacity; if that is down or saturated, requests fail over automatically to a vetted partner. The model lineup runs from GPT-OSS 120B with 125K context up to Kimi K3 and Qwen3.8 Max with 1M context, and web search runs on the same servers as the model rather than through a third party.
+
+## The benchmark claim to read carefully
+
+On You.com's LiveNewsBench run, the vendor reports that GLM-5.3 paired with You.com search scored 86.53% at $0.0485 per question, against $0.0920 for Claude Sonnet 5.5 — roughly half the cost for a higher score. Those are self-reported numbers on a self-run benchmark.
+
+The pricing spread tells a different story at the model level: Kimi K3 is listed at $2.85/$14.25 per million tokens, only about 5% below Together AI's $3.00/$15.00. At the token level, open-weight hosting has largely converged on price. What has not converged is the legal and operational wrapper around it.
+
+That is the real product here. Serving an open-weight model is a commodity; the enterprise complaint is never that the GPU is too slow, it is that nobody will sign the DPA. You.com is selling the signature.
+
+*Related: [Introducing You.com Inference Router](https://you.com/resources/introducing-inference-router)*
