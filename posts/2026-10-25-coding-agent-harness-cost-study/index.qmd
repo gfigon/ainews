@@ -1,0 +1,36 @@
+---
+title: "A Coding Agent's Harness Can Triple Your Costs Without Making It Smarter"
+date: "2026-10-25 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "A Shandong University study ran Claude Code, OpenCode and a 100-line mini-SWE-agent over 492 SWE-bench Verified tasks: accuracy landed within two points, cost per task varied up to threefold, and a median 13% of the hardest tasks flipped pass-to-fail on harness alone."
+image: "/assets/post-images/2026-10-25-coding-agent-harness-cost-study.svg"
+---
+
+Researchers at **Shandong University** ran three coding-agent harnesses — **Claude Code**, **OpenCode** and **mini-SWE-agent**, an open-source harness of roughly 100 lines of Python with a single bash tool and no context compaction — across **492 offline SWE-bench Verified tasks** in isolated containers. Models included Qwen3.6-35B-A3B and Qwen3.8-27B served locally, DeepSeek-V4-Flash, GLM-5.3-Flash and HY4-Preview over API, with Claude Opus 5 inside Claude Code as a top-tier reference.
+
+The result is a clean separation of two things usually bundled together: the harness buys you **cost**, not **accuracy**.
+
+## Two Points of Accuracy, Three Times the Cost
+
+On the 447-task pool, Claude Code and mini-SWE-agent landed **within two percentage points** of each other — statistically equivalent inside a five-point margin on both Qwen models. OpenCode trailed by up to nine points, though about half of that gap came from runs truncated by a 32,000-token output limit.
+
+Money told a different story. Per-task cost differed by **up to 3x across harnesses using the same model**: on GLM-5.3-Flash, a Claude Code trial cost nearly twice a mini-SWE-agent trial and more than three times an OpenCode trial. The initial fixed context explains a lot — **16,581 tokens for Claude Code, 7,025 for OpenCode, 829 for mini-SWE-agent**.
+
+The researchers' own summary is the line worth keeping: *a vendor's own harness on its own model buys no score advantage.*
+
+## The Leaderboards Are Unstable Too
+
+Two caveats sharpen that conclusion rather than soften it. On the **45 hardest tasks**, a median **13% flipped between pass and fail purely from switching harness** — and rerunning an unchanged setup produced the same median flip rate, which means a chunk of any harness comparison is noise rather than signal. And on **DeepSeek-V4-Flash the cost ranking reversed entirely**, so a harness that looks cheap on one model may not be on another.
+
+That is an uncomfortable result for anyone reading a published coding-agent scoreboard. A single number cannot separate model from scaffolding, and the scaffolding is doing the moving.
+
+## Practical Consequence
+
+The actionable part is not "buy the cheap harness" — it is to stop paying for scaffolding that does not pay for itself, and to measure the right things. The team recommends comparing agents on **first-call context size, per-step context growth and step count** rather than on published scores, and the 829-versus-16,581 token gap is exactly the kind of line item that shows up in a bill without showing up in a benchmark.
+
+A vendor's own harness still has value: better tool ergonomics, compaction, retries, parallelism. But it should be bought deliberately, and priced.
+
+*Related: [VentureBeat on the harness cost study](https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds)*

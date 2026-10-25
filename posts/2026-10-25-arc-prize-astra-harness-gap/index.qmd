@@ -1,0 +1,34 @@
+---
+title: "ARC Prize Re-Ran GPT-6 Astra and Got 62.7%, Not 99.9% — the Harness Was the Claim"
+date: "2026-10-25 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "ARC Prize's own neutral harness puts GPT-6 Astra at 62.7% on ARC-AGI-3, against OpenAI's published 99.9% from a bespoke tools-enabled adapter that cost less to run — proof that benchmark scores measure model-plus-scaffolding, not the model."
+image: "/assets/post-images/2026-10-25-arc-prize-astra-harness-gap.svg"
+---
+
+When OpenAI launched GPT-6 Astra on 3 September, the number that travelled was **99.9% on ARC-AGI-3**, set against GPT-5.6 Sol's 7.8% — and NVIDIA's Jensen Huang cited it three days later to declare that AGI had arrived. ARC Prize, the organisation that built the benchmark, published a different number on the same day: **62.7%**. Both are correct, and the distance between them is the most interesting measurement in AI right now.
+
+## The Harness, Not the Weights
+
+A harness is the scaffolding around a model: which tools it can reach, what it carries between requests, how context is compacted. Same weights, different scaffolding, different score.
+
+ARC Prize ran Astra under its **standard harness** — a minimal, provider-neutral interface where the model decides which notes to keep — and got **62.7% at maximum reasoning, costing $26,098**. Under OpenAI's **Provider Adapter**, which preserves the model's opaque reasoning state across requests and compacts long conversations, it scored **99.9% for $18,817**. The better score was also the cheaper run.
+
+The sharpest row in the table: set reasoning effort to *none* inside OpenAI's adapter and Astra still scores **96.7%** — 34 points above the same model at maximum reasoning inside the neutral harness. The scaffolding outperformed the reasoning dial outright. On the 167 game-reasoning pairs both harnesses solved, the adapter ran with **49% fewer tokens and roughly 3.66 times faster**.
+
+## The Comparison That Wasn't Like-for-Like
+
+Astra's 99.9% came from the adapter; Sol's 7.8% came from the standard harness. Those are different tests compared as if they were the same. The defensible number is **62.7% against 7.8%** — still an enormous jump, and still the top score on the benchmark.
+
+ARC Prize declined the conclusion OpenAI drew: it stated plainly that it is "not claiming that it is AGI", with co-founder Mike Knoop writing that "we lack evidence to call this AGI yet". Going forward the foundation says it will publish both harness results side by side.
+
+## The Numbers Kept Moving
+
+Then the figures shifted. Fortune compared archived snapshots of OpenAI's launch post and found **five metrics altered** afterwards: Astra's hallucination rate read 4.2%, dropped to 2% by 5.20pm, then returned to 4.2%; Anthropic's Fable 5.1 fell nearly ten points on FrontierMath before settling at 83%; Sol's ExploitBench score doubled from 5.5% to 11.5%, with OpenAI now investigating a revert. The embargoed draft sent to media said 98.6% on ARC-AGI-3; the live post says 99.99%. OpenAI also pulled the post and put it back up, for reasons it would not disclose.
+
+Stanford's Anka Reuel and Mike Hardy call the practice **benchmaxxing**. The deeper lesson is structural rather than moral: as scaffolds absorb more capability, the score stops describing the artifact being sold. If a benchmark is not run under a neutral harness for every lab — and both harness numbers published — the leaderboard measures who wrote the better adapter.
+
+*Related: [ARC Prize on GPT-6 Astra](https://arcprize.org/blog/astra)*
