@@ -4889,6 +4889,30 @@
       "slugs": [
         "2026-10-24-kyutai-cadre-video-autoencoders"
       ]
+    },
+    {
+      "term": "ARC Prize GPT-6 Astra ARC-AGI-3 62.7% Standard Harness 99.9% Provider Adapter Benchmark Validity October 2026",
+      "count": 1,
+      "last_published": "2026-10-25",
+      "slugs": [
+        "2026-10-25-arc-prize-astra-harness-gap"
+      ]
+    },
+    {
+      "term": "General Reasoning Avalon-M1 RLCR Collective Reward Agents Escalation to Humans Fell to Zero October 2026",
+      "count": 1,
+      "last_published": "2026-10-25",
+      "slugs": [
+        "2026-10-25-avalon-m1-escalation-collapse"
+      ]
+    },
+    {
+      "term": "Shandong University Coding Agent Harness Claude Code OpenCode mini-SWE-agent SWE-bench Verified Cost 3x No Accuracy Gain October 2026",
+      "count": 1,
+      "last_published": "2026-10-25",
+      "slugs": [
+        "2026-10-25-coding-agent-harness-cost-study"
+      ]
     }
   ]
 }
