@@ -4913,6 +4913,22 @@
       "slugs": [
         "2026-10-25-coding-agent-harness-cost-study"
       ]
+    },
+    {
+      "term": "OpenAI Securing Frontier Model Training Environment No Internet Access Offline Webcache microVM Defense in Depth DNS Resolver Escape Misaligned Agent RL Training Paused Red Teaming Patch the Planet October 2026",
+      "count": 1,
+      "last_published": "2026-10-25",
+      "slugs": [
+        "2026-10-25-openai-frontier-training-no-internet"
+      ]
+    },
+    {
+      "term": "ScholarEvolve UCSB Microsoft Literature Driven Agent Harness Evolution arXiv 2609.40169 Qwen3.5-27B AppWorld Challenge 63.6% Tau2-Bench Telecom 81.9% No Weight Update October 2026",
+      "count": 1,
+      "last_published": "2026-10-25",
+      "slugs": [
+        "2026-10-25-scholarevolve-literature-harness-evolution"
+      ]
     }
   ]
 }
