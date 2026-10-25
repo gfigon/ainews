@@ -1,0 +1,38 @@
+---
+title: "ScholarEvolve: Agents That Get Better by Reading Papers Instead of Their Own Crash Logs"
+date: "2026-10-25 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "A UCSB and Microsoft framework evolves an agent's harness by mining the research literature for techniques, lifting Qwen3.5-27B from 49.6% to 63.6% on AppWorld Challenge and GPT-5.4-mini from 72.7% to 81.9% on Tau2-Bench Telecom — no weight updates."
+image: "/assets/post-images/2026-10-25-scholarevolve-literature-harness-evolution.svg"
+---
+
+Almost every self-improving agent framework works the same way: run the agent, collect failure traces, feed them to a meta coding agent, let it rewrite the scaffolding, repeat. It works — but it is bounded by two limits that researchers from UC Santa Barbara and Microsoft have now spelled out in a new paper, **"Learning from Research: Toward Lifelong Agent Harness Evolution"** (arXiv:2609.40169).
+
+## The Ceiling of Learning From Your Own Mistakes
+
+First limit: **the meta-agent is stuck at its own parametric knowledge.** A failure trace tells you a capability is missing; it rarely tells you which technique fills the gap. The paper's example is sharp — an agent repeatedly failing on search and Python tool calls, where the meta-agent's fix was a conditional reviewer module verifying every action. The reviewer caught bad calls, then grew so conservative it blocked the valid API calls needed to finish the job.
+
+Second limit: **trace-driven evolution is reactive.** Evidence only accumulates from situations already encountered, so a weakness can hurt real users before there is enough data to motivate a fix.
+
+## The Scholar Move
+
+ScholarEvolve's answer is a change of information source: instead of only reading the agent's own history, it **searches the research literature for techniques** that could apply to the failing module. It divides harness evolution into functional modules, applies topic modelling to identify a distinct improvement strategy per module, implements each strategy, and then evaluates their combinations. Crucially, the framework is designed to **absorb new publications over time** — evolution driven by incoming research rather than by accumulated failure evidence.
+
+The results are substantial and, notably, achieved with **no model weight updates** at all:
+
+- Qwen3.5-27B task goal completion: **49.6% → 63.6%** on AppWorld Challenge
+- GPT-5.4-mini pass@1: **72.7% → 81.9%** on Tau2-Bench Telecom
+
+VentureBeat's write-up of the work reports the same team showing Qwen3.5-27B rising from **69.0% to 81.4%** on the AppWorld Normal test set, closing roughly **74% of the performance gap to GPT-5.4** with a much smaller model — still without touching weights.
+
+## Why the Angle Matters
+
+This is a genuine change in the optimisation signal. Self-trace optimisation asks *"what did I just do wrong?"*; ScholarEvolve asks *"what would an expert read before trying this?"* The meta-agent's knowledge ceiling stops binding because the literature supplies techniques the model may never have seen in its own experience — the researcher analogy in the paper's title is deliberate.
+
+The open question is transfer: a technique that works in a paper's setting may not survive contact with a specific enterprise API, and the framework's own combination-evaluation step is the proposed guard against that. But the direction is now clear — **the next generation of self-improving agents will read the literature, not just their own stack traces.**
+
+*Related: [arXiv:2609.40169 — Learning from Research](https://arxiv.org/abs/2609.40169)*
+*Related: [VentureBeat on ScholarEvolve](https://venturebeat.com/orchestration/researchers-made-ai-agents-better-by-turning-academic-papers-into-working-code-no-retraining-required)*
