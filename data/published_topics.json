@@ -4953,6 +4953,22 @@
       "slugs": [
         "2026-10-26-anthropic-oss-scanner"
       ]
+    },
+    {
+      "term": "AMD ALTO MXFP4 MoE Training GPT-OSS-20B Weight De-Oscillation MLPerf Small MoE Validation Loss 3.3350 BF16 3.3283 arXiv 2610.32229 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-amd-alto-mxfp4-moe-training"
+      ]
+    },
+    {
+      "term": "DMAIC-Bench Self-Restraint Agents Multi-Stage Analytical Tasks Lean Six Sigma 97 Tasks 13 Models No-Go Decision 19 Percent GO 92 Percent arXiv 2610.32305 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-dmaic-bench-self-restraint"
+      ]
     }
   ]
 }
