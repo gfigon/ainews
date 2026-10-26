@@ -4929,6 +4929,30 @@
       "slugs": [
         "2026-10-25-scholarevolve-literature-harness-evolution"
       ]
+    },
+    {
+      "term": "TokenGate Token-Gated Attention Learned Token Pruning Prefill 11.3x Faster TTFT 3.4x Memory Qwen3 Qwen3.5 arXiv 2610.26754 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-tokengate-token-gated-prefill"
+      ]
+    },
+    {
+      "term": "Microsoft Agensh Decentralized Multi-Agent Harness 1024 Agents No Central Orchestrator ProgramBench Pandoc 55.06% MIT arXiv 2609.26781 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-microsoft-agensh-1024-agents"
+      ]
+    },
+    {
+      "term": "Anthropic OSS Scanner Opt-In Open Source Vulnerability Scanning Model-Generated Reports No Human Triage No 90-Day Disclosure 29,000 Candidates 88 Percent Valid October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-anthropic-oss-scanner"
+      ]
     }
   ]
 }
