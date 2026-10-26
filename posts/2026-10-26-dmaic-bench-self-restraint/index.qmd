@@ -1,0 +1,42 @@
+---
+title: "Agents Diagnose the Problem Correctly — and Then Do It Anyway"
+date: "2026-10-26 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "DMAIC-Bench tests whether frontier agents let their own diagnostics stop them: on 97 industrial tasks across 13 models, no-go decision accuracy averages 19% against 92% for go decisions, while human black belts hit 98%."
+image: "/assets/post-images/2026-10-26-dmaic-bench-self-restraint.svg"
+---
+
+The dominant technique for making agents more reliable is self-reflection: let the model critique its own output and revise. It works well enough to be everywhere. But a critique is not the same thing as a decision. An agent can correctly compute a statistic, correctly report that the statistic disqualifies the next step, and then run the next step anyway.
+
+That failure has no name, which is probably why it is so common.
+
+## Measuring Restraint Instead of Reflection
+
+**DMAIC-Bench** (arXiv:2610.32305) introduces *self-restraint* as the property under test: not whether the agent can judge its output, but whether a diagnostic it computed itself changes what it does next. The instrument is Lean Six Sigma's DMAIC cycle, chosen because its statistical prerequisites are written down — a capability index computed on an unstable run has no meaning, and the correct response is to stop.
+
+The benchmark has **97 seeded tasks across 15 industrial improvement projects in four sectors**, plus a 16-task life-sciences extension in bulk RNA-seq and case-control GWAS. On **49 of 97 tasks the correct action at some fork is a no-go**: repair the gauge, investigate the special cause, send the project back.
+
+The design detail that makes this measurable: paired counterfactual variants demand *opposite* actions at the same workflow position. An agent that simply stops more often cannot score well, so warranted restraint is separated from indiscriminate stopping. Tasks are scored in an environment that enforces methodological preconditions rather than penalising violations afterwards, and the correct route is recomputed from generated data at build time.
+
+## The Results Are Not Subtle
+
+Across **13 frontier model agents from six providers**:
+
+- Method recall is **0.92 or better** for every system, 0.97 or better for twelve — they know the statistical machinery
+- Execution-level routing accuracy is **92% on GO decisions** and **19% on NO-GO decisions**
+- Best system on no-go decisions reaches **25%**; human black belts reading the same forks hit **98%**
+- Where a system had computed and reported the disqualifying value correctly, it still took the prescribed route only **26%** of the time
+
+Blinded expert review of 11 audited agents found that **47% of no-go-side reports act on invalid evidence** (interval 31%–61%), while 30% of go-side reports over-claim.
+
+## The Permission Trap
+
+One detail explains a lot of the asymmetry. When researchers gave agents explicit stopping permission — a single sentence granting license to halt — one system jumped 56 points and another gained nothing. Permission helps models that already recognize the situation, and does nothing for the general rule that a failed precondition voids everything downstream. The agents stop where they were trained to stop; they miss the principle.
+
+That is the uncomfortable read for anyone deploying agents on multi-stage analytical work: the hard part was never the analysis, and the GO/NO-GO asymmetry means headline task-success scores will look fine while the dangerous branch stays almost entirely unhandled.
+
+*Related: [DMAIC-Bench on GitHub](https://github.com/psptpx/DMAIC-Bench)*
+*Related: [DMAIC-Bench: From Self-Reflection to Self-Restraint for Agents in Multi-Stage Analytical Tasks (arXiv:2610.32305)](https://arxiv.org/abs/2610.32305)*

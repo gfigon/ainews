@@ -1,0 +1,39 @@
+---
+title: "AMD's ALTO Gets 4-Bit MoE Training to Within 0.007 of BF16"
+date: "2026-10-26 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "AMD publishes ALTO, an open-source MXFP4 training recipe for GPT-OSS-20B that closes half the accuracy gap to BF16 and cuts convergence overhead from 20% to 5%, with three techniques that failed despite better signal-to-noise."
+image: "/assets/post-images/2026-10-26-amd-alto-mxfp4-moe-training.svg"
+---
+
+Every training run pays a tax twice: once in the bill for accelerators, once in the wall-clock spent moving bytes that never needed to move. Shrinking the arithmetic is the obvious lever — FP16 to BF16 to FP8 to now 4-bit floating point — and the Open Compute Project's Microscaling (MX) spec finally gave the industry a shared 4-bit format.
+
+The catch: FP4 is not FP8 with the numbers shaved off. Train in FP4 naively and optimization destabilizes.
+
+## What ALTO Actually Does
+
+**ALTO** is AMD's open-source recipe for training **GPT-OSS-20B** — a 20B-parameter mixture-of-experts model — on the **MLPerf Small MoE Training** benchmark under MXFP4. The format itself is E2M1 values with per-block UE8M0 scales, giving a theoretical 4x reduction in operand footprint against BF16. For a sparse MoE, that matters more than usual: the expert matrices dominate both compute and memory, so they are exactly the tensors the format targets.
+
+ALTO's core contribution is *weight de-oscillation*. The problem is subtle: the optimizer updates a full-precision master weight, but the GEMM only ever sees its quantized value. A weight near a quantization bin boundary can flip bins from a tiny update, oscillating between two representable levels while the master weight barely moves. An outlier inside a block can dominate that block's shared scale and make it happen even for weights nowhere near a boundary. The damage compounds over a long run and worsens as the loss enters fine-grained convergence.
+
+The recipe layers hybrid 1D/2D block quantization, randomized Hadamard transforms and stochastic rounding on top of a simplified de-oscillation scheme adapted from TetraJet-v2, implemented on a Torchtitan-based stack.
+
+## The Numbers
+
+- **3.3350** validation loss for MXFP4 + RHT + SR + de-oscillation, against a **3.3283** BF16 baseline — a gap of just 0.007
+- That closes **roughly 50%** of the gap left by MXFP4 without de-oscillation (3.3418)
+- Measured as steps to the MLPerf quality target, convergence overhead versus BF16 drops from **+20.0% to +5.0%**
+
+Equally useful are the failures. Differential gradient estimation, outlier clipping and macro-block scaling each improved operator-level signal-to-noise ratios and each still failed end to end. Better local SNR is not better convergence — worth remembering next time a precision technique gets proposed on the strength of a kernel benchmark.
+
+The caveat is explicit: all experiments use **simulated MXFP4 kernels** on AMD MI300 hardware, and wall-clock speed has not been optimized. This is a correctness paper, not a throughput paper.
+
+## Why It Matters
+
+FP8 training already proved sub-8-bit formats work at frontier scale. ALTO is evidence that 4-bit training is not far behind — which puts hardware vendors competing on the low-precision path rather than just on faster FP16 units, and gives training teams a recipe they can copy instead of re-deriving. Code is released under Apache 2.0 on GitHub.
+
+*Related: [ALTO on GitHub](https://github.com/amd-agi/alto)*
+*Related: [Training an MoE LLM in MXFP4: How We Closed the Gap to BF16 (arXiv:2610.32229)](https://arxiv.org/abs/2610.32229)*
