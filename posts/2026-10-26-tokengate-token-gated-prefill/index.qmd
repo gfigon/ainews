@@ -1,0 +1,38 @@
+---
+title: "TokenGate Teaches Models to Skim — 11.3x Faster Prefill Without Losing Accuracy"
+date: "2026-10-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "A drop-in module from Berkeley researchers makes long-context prefill conditional computing: learned token pruning delivers up to 11.3x faster time-to-first-token and 3.4x lower peak memory at no accuracy cost."
+image: "/assets/post-images/2026-10-26-tokengate-token-gated-prefill.svg"
+---
+
+Every long-context request you send to an LLM starts with a tax: **every token in your prompt is pushed through every layer of the model**, even the 200 pages of documentation the answer never touches. That prefill is where time-to-first-token and peak memory go, and it is why long-context pricing is punishing.
+
+A paper from Liana Patel, Rishabh Ranjan, Ion Stoica, Matei Zaharia and Carlos Guestrin proposes a way out, and it is less exotic than it sounds.
+
+## The Idea: Attention That Decides What To Read
+
+**TokenGate** (arXiv:2610.26754) is a small, drop-in component that adds *learnable token pruning* to an already-trained model. The model learns to skim: it scores tokens for importance, keeps only the top-K, and processes just those at full cost. Everything else is skipped.
+
+The hard part is that top-K selection is not differentiable, so you cannot just train it end-to-end. The team's answer is **token-gated attention** — a mechanism inspired by Mixture-of-Experts that re-weights attention logits using the learned importance scores, giving the pruning step a gradient path.
+
+## The Numbers
+
+- **1.4x to 11.3x faster** time-to-first-token on long-context prefill
+- **1.5x to 3.4x lower** peak prefill memory
+- **No accuracy degradation** across the evaluated tasks
+- Versus the best prior token-pruning methods: up to **6.4x faster prefill** and **2x lower memory**
+
+It applies to both standard transformers (Qwen3) and hybrid-attention models (Qwen3.5), and the adaptation is comparable in cost to ordinary parameter-efficient fine-tuning — the release notes pitch it as a *replacement* for PEFT rather than an addition, letting you train for accuracy and prefill efficiency at the same time.
+
+## Why It Actually Matters
+
+Prefill is the boring half of inference that nobody demos and everybody pays for. If a RAG pipeline, a codebase agent or a document-analysis stack can throw 90% of its retrieved context away before the expensive part starts, the effect compounds: cheaper long-context calls, smaller KV footprints, and a TTFT that users actually perceive as fast.
+
+There is a knob, though. Pruned regions are marked with a `{state}` placeholder and the keep-budget is set per call (`max_kept_prefill_tokens`), so the gate is a quality dial an operator has to tune — a budget set too tight will quietly cost accuracy. Code and checkpoints are released, including a needle-in-a-haystack model that answers a question about one fact planted in ~32,000 tokens of essays.
+
+*Related: [TokenGate on GitHub](https://github.com/tokengate-models/TokenGate)*
+*Related: [TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill (arXiv:2610.26754)](https://arxiv.org/abs/2610.26754)*

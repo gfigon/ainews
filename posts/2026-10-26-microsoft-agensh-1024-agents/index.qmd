@@ -1,0 +1,41 @@
+---
+title: "Microsoft's Agensh Deletes the Orchestrator: 1,024 Self-Organized Agents Rebuild Pandoc"
+date: "2026-10-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Agensh, an open-source Microsoft harness, scales multi-agent work to 1,024 workers with no central orchestrator — agents claim sub-tasks, verify each other and merge progress, lifting Pandoc test-pass rates from 34% to 55%."
+image: "/assets/post-images/2026-10-26-microsoft-agensh-1024-agents.svg"
+---
+
+Multi-agent frameworks have a scaling ceiling that is rarely discussed: **the orchestrator**. The supervisor that hands out subtasks, tracks progress and reassigns work becomes the bottleneck long before the workers do. More agents on a centralised harness means more coordination traffic through a single point.
+
+Microsoft's answer is to remove that point entirely.
+
+## A Harness Without a Boss
+
+**Agensh** (arXiv:2609.26781, "Scaling Organizational Intelligence to 1,024 Agents") is a self-organised multi-agent harness. Workers run a cooperation loop concurrently: gather context, **claim and self-assign subtasks**, act, share findings, verify each other's results and merge progress — all asynchronously, with no central coordinator.
+
+Three pieces of shared infrastructure hold it together: a **shared workspace** for proposed, ongoing and completed work (Gitea), a **message interface** for worker-to-worker communication (Mattermost), and a **shared context** layer that retains reusable findings and work intentions (adapted from DeLM). The per-agent agentic loop sits on top of the Copilot CLI harness.
+
+The code, launch scripts and a reproduction guide went public on 24 October under the MIT licence.
+
+## What Actually Improved
+
+Evaluated on the five hardest ProgramBench tasks with GPT-5.6-sol at high reasoning effort, a six-hour budget and no internet access:
+
+- Mean final test-pass rate: **19.31% with 1 agent → 28.78% with 128** (~49% relative)
+- Pandoc: **33.89% (1 agent) → 50.94% (128) → 55.06% (1,024)**
+- With GPT-6.1-sol: Pandoc **56.19% (1) → 79.59% (32 agents)**, ~42% relative
+
+Two details matter more than the headline numbers. Larger organisations **reach comparable pass rates sooner** — the same quality arrives earlier in the budget, which matters when the constraint is latency. And worker trajectories show that cooperation patterns **emerge and then standardise** as the organisation grows: roles, integration workflows and peer review stop being hard-coded and start being improvised.
+
+## Why It Matters
+
+The interesting claim is that agent count is a scaling dimension in its own right — not just more tokens or a bigger model. And the release is unusually reproducible: a single-node Docker Compose team setup, a standalone single-agent baseline, and native Copilot ACP sessions, plus a published replay of 1,024 agents working together.
+
+The caveats are equally plain: gains are relative, the evaluation covers five hard tasks, and the whole thing was measured with a fixed six-hour, offline budget. That is a research harness, not a production orchestrator — but it is a credible blueprint for one.
+
+*Related: [microsoft/Agensh on GitHub](https://github.com/microsoft/Agensh)*
+*Related: [Agensh: Scaling Organizational Intelligence to 1,024 Agents (arXiv:2609.26781)](https://arxiv.org/abs/2609.26781)*

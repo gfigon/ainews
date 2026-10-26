@@ -1,0 +1,41 @@
+---
+title: "Anthropic's OSS Scanner Sends Unreviewed AI Bug Reports to Maintainers — On Purpose"
+date: "2026-10-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "A free, opt-in Anthropic service scans open-source repos with its strongest models and emails raw findings without human triage or a 90-day embargo — 88% of tested high-severity findings passed Anthropic's own bar."
+image: "/assets/post-images/2026-10-26-anthropic-oss-scanner.svg"
+---
+
+Open-source maintainers have spent two years being buried in AI-generated vulnerability reports — mostly slop, mostly requiring hours of triage to dismiss. Anthropic's answer is to build the pipeline properly and then, deliberately, remove the safety net.
+
+## The Bottleneck Was Human Review
+
+Anthropic says that over the past six months its models have found **more than 29,000 candidate vulnerabilities** across major open-source projects — and that it could only **manually review and triage roughly 6,000** of them. The bottleneck was not detection, it was human capacity. Maintainers, seeing the value in the reports, began asking for the unverified remainder: **nearly 5,000 reports have already been sent directly to maintainers** on request.
+
+The launch post notes the shift in model quality too: on CyberGym, LLMs went from finding under 20% of vulnerabilities to over 85% in a year.
+
+## How OSS Scanner Works
+
+**OSS Scanner** is a free, opt-in service inspired by Google's OSS-Fuzz — with the fuzzers swapped for language models. Maintainers enrol by opening a pull request that adds a `projects/<name>` directory containing a `project.yaml` (repo and a security contact are mandatory), a `Dockerfile`, and optionally a `threat_model.md` describing the project's security priorities and severity expectations.
+
+The pipeline builds the project in an isolated VM **with network access**, then moves that VM onto a **network with no Internet** for the audit itself. Findings arrive by email with a self-contained reproducer, an explanation including a bisection where possible, and a candidate patch.
+
+The deliberate design choice: **reports are fully model-generated, with no human review or triage** — so there is no 90-day disclosure clock, and the findings are not made public.
+
+## How Well Does It Actually Work?
+
+Anthropic's expert penetration testers reviewed 97 critical and high-severity findings across 48 projects: **85 (88%)** met the bar for Anthropic's own coordinated disclosure process. Of the remaining 12, eleven were real but duplicates of known issues, and **only one was invalid**.
+
+Maintainer feedback is lukewarm-positive. wolfSSL: of 74 reports, all but two were valid, five became CVEs. PostgreSQL's Noah Misch notes an unusually high fraction of findings in PostgreSQL itself, with fixes usable nearly as-is. curl's Daniel Stenberg says it surfaced multiple issues including "one of the worst curl vulnerabilities reported in the last few years."
+
+## The Trade-Off
+
+The bargain is explicit: **speed against triage burden**. Exploits can now be developed in minutes, so a project that learns about a flaw faster is genuinely safer. The cost lands on maintainers, who receive unvalidated findings and are warned that severity ratings may be inflated or the project's threat model misunderstood.
+
+This is not the same product as Claude Security, Anthropic's enterprise code-scanning offering. OSS Scanner is free, aimed at open-source, and deliberately unpolished at the last mile.
+
+*Related: [Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)*
+*Related: [anthropics/oss-scanner on GitHub](https://github.com/anthropics/oss-scanner)*
