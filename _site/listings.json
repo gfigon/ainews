@@ -2,6 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-10-27-gpt-6-1-terra-cost-intelligence/index.html",
+      "/posts/2026-10-27-numtrace-financial-agent-provenance/index.html",
+      "/posts/2026-10-27-skilllifebench-agent-skills-security/index.html",
+      "/posts/2026-10-26-nanbeige43-33b-agentic-coding-model/index.html",
+      "/posts/2026-10-26-akv-cache-engineering-agents/index.html",
       "/posts/2026-10-26-dmaic-bench-self-restraint/index.html",
       "/posts/2026-10-26-amd-alto-mxfp4-moe-training/index.html",
       "/posts/2026-10-26-anthropic-oss-scanner/index.html",

@@ -1,0 +1,39 @@
+---
+title: "GPT-6.1 Terra Is a Price Cut Disguised as a Model Release"
+date: "2026-10-27 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "OpenAI's GPT-6.1 Terra lands with better computer use, more than double GPT-5.6 Terra's Terminal-Bench 4.0 score and a 53.6% to 16.7% drop in error rate — but the headline is that its standard API prices are 50% below GPT-6.1 Sol."
+image: "/assets/post-images/2026-10-27-gpt-6-1-terra-cost-intelligence.svg"
+---
+
+OpenAI released **GPT-6.1 Terra** on 26 October, and the release page is unusually explicit about what kind of model this is. It is not the flagship and it is not pitched as one. It is a workhorse — the model you point at the queue of paperwork that sits between a request and a finished task.
+
+## The Pitch Is Cost, Not Capability
+
+Terra's standard API prices are **50% lower than GPT-5.6 Terra and GPT-6.1 Sol**: $1 per million input tokens, $0.05 per million cached input, $5 per million output. In ChatGPT Work and Codex it is included for Plus, Pro, Enterprise and Edu users, with the same allowance covering substantially more tasks than GPT-5.6 Terra.
+
+Read the benchmarks in that light. On **Agents' Last Exam** — professional tasks such as turning architectural drawings into a 3D model — Terra at medium reasoning effort scores **15 percentage points above GPT-5.6 Terra at about one-third the cost**. It matches GPT-6 Astra at one-tenth the price per token. On MMMU-Pro, visual reasoning, it beats GPT-5.6 Terra at every reasoning setting and nearly matches GPT-6 Astra and GPT-6.1 Sol. On OSWorld 2.1 it surpasses GPT-5.6 Terra's best score "at a fraction of the cost per task."
+
+The Claude comparison is harsher still: at max effort, Terra is more than three times as token efficient as Claude Opus 5.5 at a quarter of the price per token, which OpenAI converts into roughly **9x lower cost per task**.
+
+## Fewer Errors, Not More Knowledge
+
+The factuality numbers may matter more than any of the above. On OpenAI's internal benchmark of error-inducing prompts, the error rate at low reasoning effort falls from **53.6% with GPT-5.6 Terra to 16.7%** with GPT-6.1 Terra. At max effort it drops 18 points to **4.3%**, nearly matching GPT-6 Astra and GPT-6.1 Sol. OpenAI frames this as the year's hallucination work paying off, and the framing is defensible: a model that is cheap *and* verifiable is worth more in an invoice-processing pipeline than an expensive one that needs a reviewer anyway.
+
+## Coding Gets Its Own Jump
+
+**Terminal-Bench 4.0**: Terra solves **50.3%** of tasks at max reasoning, more than double GPT-5.6 Terra's published 21.5%. That is a large jump for a mid-tier model — but OpenAI's own caveat is that GPT-6.1 Sol and GPT-6 Astra remain better on the most complex coding tasks, so the flagship tier still has a job. On **Terminal-Bench-Science 0.1**, Terra beats GPT-6.1 Sol at lower cost and lands within five points of Opus 5.5 at under a fifth of the estimated cost.
+
+## Safety and Availability
+
+Terra meets the **Critical threshold in cybersecurity** under OpenAI's Preparedness Framework and keeps the protections built for GPT-6 Astra. OpenAI also reports better scope discipline than GPT-5.6 Terra, and strong resistance to prompt-injection attempts that try to divert the model away from the user's task. Details are in the system card.
+
+The API model ID is `gpt-6.1-terra`, available immediately.
+
+The structural story is the one worth carrying forward: OpenAI is not just shipping a cheaper model, it is shipping a model that is cheap *because* the accuracy work landed. That combination is what turns a benchmark win into a margin change in someone else's business.
+
+*Related: [Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra)*
+*Related: [GPT-6.1 Terra system card](https://deploymentsafety.openai.com/gpt-6-1-terra)*

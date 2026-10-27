@@ -1,0 +1,42 @@
+---
+title: "Agents Should Manage Their Own KV Cache, Not Their Own History"
+date: "2026-10-26 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Agents & Automation
+summary: "AKV replaces context summarization with direct cache operations: agents drop and reposition KV entries without touching the message history, cutting inference cost 27.7% and improving accuracy 1.7 points across three models and four agent benchmarks."
+image: "/assets/post-images/2026-10-26-akv-cache-engineering-agents.svg"
+---
+
+Every long-running agent hits the same wall. Its trajectory grows, KV cache I/O becomes the dominant cost, and the history exceeds the context window. The standard fix is context engineering: summarize or trim the message list. But editing the text prefix invalidates every cached state after it, so the retained context must be re-prefilled from scratch — and the recomputed tokens quietly lose the influence of what was dropped.
+
+**AKV** (arXiv:2610.28577, Tsinghua NICS and CUHK) proposes a different layer of control. Instead of editing text, the agent operates directly on the KV cache itself.
+
+## Three Operations on Cache State
+
+The system defines three primitives. **Append** computes new tokens against the active cache and advances both the logical sequence and the encoding positions. **Drop** excludes selected KV entries from future attention *without* deleting the corresponding messages from the conversation. **Reposition** compacts the position encodings of retained keys, closing the gaps left behind by a drop.
+
+That distinction is the whole idea. A message can stay in the history and stop occupying attention. And because a dropped key's value states were computed with that message in context, retained entries keep carrying information from the removed history — the "B still carries A" property the authors call preserved historical information.
+
+The agent side is a `CachePolicy` with three separable components: a trigger for *when* to drop, a selector for *what* to drop, and a reposition policy. Built-ins work turn-by-turn, token-by-token, or model-driven, the last letting the model call a `drop_context` tool directly.
+
+## The Serving Problem Nobody Solved First
+
+The hard part is what happens on the server. Identical token sequences can produce *different* KV states depending on the order of cache operations, which breaks the prefix-matching that every serving engine relies on. AKV tracks both token history and operation history, matching on an extended radix tree so that compatible states are reused and incompatible ones are not silently reused as if they were.
+
+Three mechanisms follow: **reuse** via the operation-aware radix tree, **eviction** that frees a dropped entry only when no active computation still needs it, and **restore**, which reconstructs missing states in a single prefill pass using segment-batch attention, reproducing historical attention visibility and positions.
+
+## What the Numbers Show
+
+Across **three models** (GPT-OSS-120B, MiniMax-M2.7, MiroThinker-1.7-Mini) and **four agent benchmarks**, AKV improves average success rate by **1.7 percentage points** while reducing inference cost by **27.7%** relative to a standard summarization baseline. On BrowseComp-Plus with GPT-OSS-120B, per-task cost drops from 11.2 to 7.3 cents. Cache-read costs fall about 19% versus Standard; input costs fall about 57% versus summarization, because nothing gets re-prefilled.
+
+The serving gains are larger than the accuracy gains. On 80 long-context SWE-bench tasks at concurrency 16, AKV reaches **4.68× the input throughput** and **2.67× the output throughput** of the baseline, with P95 time-to-first-token improving **17.17×** (223.57s down to 13.02s). Under a fixed GPU budget on 100 SWE-bench Verified tasks, AKV also finishes with more tasks solved. The mechanism is straightforward: after a drop, each decode step loads less KV and does less attention over history — full-attention time per decode step falls from 7.082ms to 2.849ms.
+
+The cache interface is itself agent-addressable. Agents can search, evaluate, and refine their own policies; on BrowseComp-Plus with MiniMax-M2.7, self-improvement cut cost a further **17.8%** versus Standard at iteration 6 while matching Standard's accuracy.
+
+Code is Apache-2.0 and built on SGLang, supporting Qwen, GPT-OSS, and MiniMax-M2 families.
+
+*Related: [Cache Engineering for Agents (arXiv:2610.28577)](https://arxiv.org/abs/2610.28577)*
+*Related: [thu-nics/AKV on GitHub](https://github.com/thu-nics/AKV)*
+*Related: [AKV project page](https://fuvty.github.io/thinking_yard_project_page/projects/akv/)*

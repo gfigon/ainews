@@ -1,6 +1,46 @@
 {
   "topics": [
     {
+      "term": "AKV Agent KV Cache Management Drop Reposition Append Operations 27.7% Inference Cost Reduction Agentic Cache Control arXiv 2610.28577 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-akv-cache-engineering-agents"
+      ]
+    },
+    {
+      "term": "Nanbeige4.3-33B Apache 2.0 Open Weight Model 512K Context Terminal-Bench 2.1 80.9 Toolathlon-Verified 70.4 October 2026",
+      "count": 1,
+      "last_published": "2026-10-26",
+      "slugs": [
+        "2026-10-26-nanbeige43-33b-agentic-coding-model"
+      ]
+    },
+    {
+      "term": "OpenAI GPT-6.1 Terra Cost Intelligence Model Release Computer Use Terminal-Bench 50.3% Error Rate 16.7% Pricing $1 $5 October 2026",
+      "count": 1,
+      "last_published": "2026-10-27",
+      "slugs": [
+        "2026-10-27-gpt-6-1-terra-cost-intelligence"
+      ]
+    },
+    {
+      "term": "SkillLifeBench Agent Skills Lifecycle Security 388 Paired Scenarios 14 Models Runtime 82% Lifecycle 96.7% 56.7% RNWA Execution Provenance arXiv 2610.35215 October 2026",
+      "count": 1,
+      "last_published": "2026-10-27",
+      "slugs": [
+        "2026-10-27-skilllifebench-agent-skills-security"
+      ]
+    },
+    {
+      "term": "NumTrace Financial Analyst Agents Numerical Provenance 540 Questions 2163 SEC EDGAR Documents RNWA Right Number Wrong Account Claude Opus 5.5 GPT-6 Astra DeepSeek V4.1 Flash arXiv 2610.34887 October 2026",
+      "count": 1,
+      "last_published": "2026-10-27",
+      "slugs": [
+        "2026-10-27-numtrace-financial-agent-provenance"
+      ]
+    },
+    {
       "term": "OpenAI GPT-6 Sol Luna Global Rollout ChatGPT All Users October 2026",
       "count": 1,
       "last_published": "2026-10-21",

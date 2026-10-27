@@ -1,0 +1,49 @@
+---
+title: "A 33B Open Model That Beats Bigger Ones at Agentic Work"
+date: "2026-10-26 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "Nanbeige4.3-33B, Apache-2.0 and 512K context, posts Terminal-Bench 2.1 scores of 80.9 and Toolathlon-Verified of 70.4 — and its real job is to be the teacher for a 3B student model still to come."
+image: "/assets/post-images/2026-10-26-nanbeige43-33b-agentic-coding-model.svg"
+---
+
+Nanbeige LLM Lab, the research team at BOSS Zhipin, has released **Nanbeige4.3-33B** — an Apache-2.0 open-weight model that is unusually good at agentic work for its size, and unusually explicit about why it exists.
+
+## The Model Card Says "Teacher" First
+
+The framing in the model card is not "here is our best model." It is "here is the teacher for the models we have not shipped yet." Nanbeige's stated strategy is to build a high-capacity teacher agent first, then distill agentic capability into smaller models — with **Nanbeige4.3-3B** explicitly named as the downstream target.
+
+That is a different release philosophy from dropping a 3B directly. It means the benchmark table is measuring teacher quality, and the interesting number is what survives distillation later.
+
+## Architecture
+
+The weights are a **Llama-architecture dense model**: 52 layers, hidden size 7168, 56 attention heads with 8 KV heads (GQA), vocabulary 166,912, and **524,288-token context** (512K) with no rope scaling needed. Weights ship as bfloat16 across 14 safetensors shards — roughly 66 GB — with a separate base checkpoint for fine-tuning. Language coverage is English and Chinese. The chat template exposes three switches: `enable_thinking` for per-turn reasoning, `preserve_thinking` to keep reasoning across turns, and `tool_call_format="xml"` for tool use.
+
+## The Benchmark Table
+
+Against the ~30B open cohort — Qwen3.8-27B, Meta's Muse-Glimmer-30B, Gemma4-31B — Nanbeige4.3-33B leads on most agentic axes:
+
+- **Terminal-Bench 2.1: 80.9** vs 73.0 (Qwen3.8-27B), 61.8 (Muse-Glimmer), 47.2 (Gemma4)
+- **Terminal-Bench 4.0: 23.8** vs 6.3 / 1.6 / 0.0 — the gap is close to an order of magnitude
+- **DeepSWE: 65.5** vs 42.5 / 4.4 / 2.7
+- **SWE-Bench Pro: 60.3**, essentially tied with Qwen3.8-27B at 61.7
+- **Automation Bench: 54.2** vs 38.3 / 15.2 / 9.7
+- **Toolathlon-Verified: 70.4** vs 68.5 / 47.2 / 27.8
+- **YC-bench: $1,025,437** in simulated earnings vs $641,290 for the next model
+- **Tau3-Bench: 48.8** vs 48.5 / 33.7 / 18.6
+
+On pure reasoning the picture is more mixed, which is expected: GPQA Diamond goes to Gemma4-31B (89.5 vs 91.3), AIME 2026 to Nanbeige at 95.2, and AA-LCR to Nanbeige at 84.0. The model card also notes a per-occupation breakdown on JobBench spanning 35 professions, where Nanbeige4.3-33B outperforms the baseline in most.
+
+The most interesting row might be the least famous one. **SWE-Atlas-QnA (50.8 vs 41.9)** is scored against 1,304 task-specific rubrics using GPT-6 Sol as judge — a rubric-scored comprehension benchmark rather than a pass/fail sandbox run, and a less flattering way to grade a coding agent.
+
+## Practical Notes
+
+The recommended serving recipe is SGLang or vLLM with tensor parallel 4 and a Qwen3 reasoning/tool-call parser, since the chat template emits Qwen-style tool calls. For tool-use workloads the model card recommends temperature 1.0, top_p 0.95, and up to 65,536 new tokens; for chat and reasoning, temperature 0.6 with a much larger 262,144-token generation budget.
+
+One caveat worth flagging: the table is self-reported by the releasing lab, and several rows use GPT-6 Sol as a judge — the judge model is also the vendor's own flagship. The gap between claims here and third-party reproduction is exactly the kind of thing that shows up a few weeks later.
+
+*Related: [Nanbeige4.3-33B on Hugging Face](https://huggingface.co/Nanbeige/Nanbeige4.3-33B)*
+*Related: [Nanbeige4.3-33B-Base](https://huggingface.co/Nanbeige/Nanbeige4.3-33B-Base)*
+*Related: [Nanbeige LLM Lab](https://huggingface.co/Nanbeige)*

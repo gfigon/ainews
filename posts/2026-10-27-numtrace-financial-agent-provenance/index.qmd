@@ -1,0 +1,34 @@
+---
+title: "Right Number, Wrong Account: Auditing Financial AI Agents"
+date: "2026-10-27 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Industry News
+summary: "NumTrace audits the provenance of every number a financial analyst agent produces across 2,163 SEC filings. Between 67.5% and 81.8% of the agents' failing claims have the right value attached to the wrong financial account — an error a normal answer key cannot explain."
+image: "/assets/post-images/2026-10-27-numtrace-financial-agent-provenance.svg"
+---
+
+A financial analyst agent can produce a number that matches a filing perfectly and still be wrong. The value is right, but it belongs to a different entity, concept, period, unit, or scope. A reference-answer check marks that answer wrong — and then stops, because the grader cannot say why.
+
+**NumTrace** (arXiv:2610.34887) is built to say why. It audits the provenance of each numerical claim a financial analyst agent makes — its source document and its financial semantics — across **540 questions over 2,163 SEC EDGAR documents**. The reference answers are built on a frozen snapshot of those filings, following accounting rules rather than scraped numbers.
+
+## Three Verdicts Instead of One
+
+Each claim gets three independent verdicts: **value**, **binding**, and **support**. Keeping value and binding separate is the point of the design, because it makes a specific error class visible — **right number, wrong account** (RNWA). A claim has an RNWA error when it passes the value check but fails the binding check. The RNWA rate is simply the gap between value-only pass rate and joint value-and-binding pass rate.
+
+The benchmark also claims a first: it is the first numerical benchmark covering who holds a company's shares (**Form 13F**) and what its executives are owed (**Item 402(i)**).
+
+## The Agents Fail in a Consistent Way
+
+The audit covers Claude Opus 5.5, GPT-6 Astra, and DeepSeek-V4.1-Flash. **RNWA errors make up 67.5–81.8% of each agent's failing claims.** The failures are not arithmetic noise or hallucinated figures — they are figures that are real, correctly retrieved, and attached to the wrong thing.
+
+The 13F co-filing group questions are the sharpest illustration. About **91% of claims pass the value check, but fewer than half pass the binding check**. The agent finds the number, and then attaches it to the wrong filer in a group of co-filers — a distinction that only matters to someone who understands the filing structure, and that most readers will not catch.
+
+## Why This Matters Beyond Finance
+
+The pattern generalises. Any domain where a retrieved value must be bound to a specific entity-property-period tuple produces this failure shape: medical coding, contract term extraction, supply chain records, regulatory reporting. The value is right and the binding is wrong, so the output reads as confident and is wrong in a way that reference keys cannot diagnose.
+
+Two practical consequences follow. First, for anyone deploying analyst agents, value-only validation is close to worthless — it would let through two-thirds to four-fifths of the agents' errors. Second, for the benchmark and eval community, NumTrace suggests a general template: split the verdict, so the grader can distinguish retrieval failure from binding failure and report the second separately.
+
+*Related: [NumTrace on arXiv](https://arxiv.org/abs/2610.34887)*

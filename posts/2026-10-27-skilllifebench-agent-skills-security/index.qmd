@@ -1,0 +1,30 @@
+---
+title: "Your Agent's Skills Are a Supply Chain, and Nobody Is Auditing It"
+date: "2026-10-27 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "SkillLifeBench tests 14 models on 388 paired scenarios where stored skill code, version and loaded implementation drift apart. Models that look equally safe at runtime diverge sharply once they must pick and reconfigure skills themselves — and 103 runs finished the task and the attack."
+image: "/assets/post-images/2026-10-27-skilllifebench-agent-skills-security.svg"
+---
+
+The agent skills ecosystem has a version problem nobody has instrumented. A web agent reuses a skill whose stored code, selected version, and actually loaded implementation can drift apart across tasks and across updates — and the agent usually has no idea which one it is running.
+
+**SkillLifeBench** (arXiv:2610.35215) turns that drift into something measurable, linking skill state directly to task outcomes across **388 paired scenarios** spanning implementation, interface, runtime, composition, and version changes. Fourteen models are evaluated on two paired decision tracks: 89 runtime tasks and 60 autonomous lifecycle tasks built from 12 templates.
+
+## Runtime Safety Is Not Lifecycle Safety
+
+The headline gap is stark. **GPT-5.6-Sol and Sonnet 4.6 both score 82.0% on runtime tasks** — indistinguishable by any runtime metric. On lifecycle tasks, where the agent must inspect, select, and reconfigure skills while completing a verifiable user request, they split: **96.7% versus 56.7%**. Two models that look equally safe under test stop looking equally safe the moment they control the skill pipeline themselves.
+
+Lifecycle tasks allow agents to inspect, select, and reconfigure skills while completing verifiable user requests. Joint success requires task completion *without* the registered attack goal — no credit for a benign answer if the attack fired on the side. Across lifecycle evaluations, challenged task success is **77.5%** while joint success is **65.2%**, and **103 runs complete the task and the attack goal at once**. The agent got the user's job done and the attacker's job done in the same trajectory.
+
+## Provenance Is the Fix That Actually Moves the Number
+
+The recovery study is the actionable part. Adding execution provenance — logs and metadata — raises utility joint success from **49.35%** to **65.58%**. A deterministic execution-consistency rule reaches **64.94%** while keeping higher benign utility, and full restoration reaches **69.48%**.
+
+The ordering matters. Full restoration scores best on the joint metric but costs the most in benign-task utility; the deterministic rule trades a few points of joint success for less collateral damage on legitimate work. Neither is free, and neither is a substitute for fixing the skill supply chain upstream.
+
+The practical takeaway is that a skill's *identity* needs to be as durable as a dependency lockfile. If an agent cannot tell which implementation of a skill it loaded, or prove what ran, the model can be perfect and the pipeline still unsafe. That is a systems problem, not a capability problem — and notably, this benchmark separates models that runtime-only evaluation ranks as equals.
+
+*Related: [SkillLifeBench on arXiv](https://arxiv.org/abs/2610.35215)*
