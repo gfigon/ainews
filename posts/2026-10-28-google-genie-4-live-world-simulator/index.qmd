@@ -1,0 +1,30 @@
+---
+title: "Google's Genie 4 Turns the World Model Into a Live Simulator"
+date: "2026-10-28 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Google DeepMind's Genie 4 research preview adds real-time audio, mid-simulation prompt edits and Gemini acting as a director that plans and checks frames — pointing at world models as pre-flight simulators for robots."
+image: "/assets/post-images/2026-10-28-google-genie-4-live-world-simulator.svg"
+---
+
+Google DeepMind released **Genie 4** in research preview on Tuesday, 27 October, and the headline features are the obvious ones: photorealistic interactive worlds, real-time audio that matches the scene (music, ambient noise, interactive dialogue), and free-form edits — change the weather, swing the camera, add a person or an object — typed mid-simulation. The scene stays consistent for up to **two minutes**, double the limit of Genie 3, which shipped a little over a year ago, with better physics and more humanlike characters.
+
+The interesting release is not the pixels. It is who is directing them.
+
+## Gemini Writes, Genie Renders
+
+In a research experiment tied to Gemini Robotics, a **Gemini 4 Argon** model broke a task into steps and Genie 4 simulated those steps in real time. Gemini plans the sequence and checks the frames; Genie produces the visuals. "What we'll increasingly see in the future are these hybrid world models, where you have a combination of Gemini writing code and text, and Genie ingesting that in real time and simulating reality at different levels of abstraction," said **Tejas Kulkarni**, research director at Google, during a briefing.
+
+That reframes the world model from a toy into a rehearsal stage. If a task plan can be rendered before a robot touches hardware, failures become cheap. It also explains why the field is consolidating: Runway shipped its second playable world model, GWM Worlds 2; **AMD is acquiring World Labs** for $8.2B; Amazon is in talks to buy **Decart** for around $7B; and **Rivian bought Third Dimension** on 22 October to bring simulation in-house for self-driving testing.
+
+## Where the Limits Are
+
+Google was candid about the gaps. Details and objects drift the longer a simulation runs, in-world text is not reliably legible, and the accuracy of the generated audio is still an open problem. The end-to-end product shape is undefined — the team called it "still early days."
+
+Commercially, the pitch is gaming, interactive learning (chat with the subjects of a painting) and robotics. Trusted testers are using it for something else: film prototyping, where staying in flow during ideation and storyboarding is the whole value. **Diego Rivas**, a Google DeepMind engineer, noted that Gemini Omni could eventually turn those prototypes into assets — though that capability "is still a ways off."
+
+Genie 4 is live for trusted testers now, rolling out over coming weeks to Google AI Ultra subscribers in **Project Genie** and to early access partners of the Gemini API and Google AI Studio.
+
+*Related: [TechCrunch on Genie 4](https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/) and [AMD's World Labs acquisition](https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/)*

@@ -1,0 +1,28 @@
+---
+title: "LEANN Won Best Paper at MLSys 2026 by Deleting Most of Your Index"
+date: "2026-10-28 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "A UC Berkeley Sky Computing Lab index recomputes embeddings on the fly instead of storing them, cutting a 60M-chunk Wikipedia RAG index from 201 GB to 6 GB at HNSW-level accuracy — paid for in query latency."
+image: "/assets/post-images/2026-10-28-leann-low-storage-vector-index.svg"
+---
+
+Every vector index in production carries a hidden tax: the index is usually bigger than the data it indexes. In the paper that won the **Best Research Paper award at MLSys 2026**, the authors show a 76 GB corpus requiring **173 GB of embeddings plus a 15 GB HNSW graph** — more than double the original payload. That overhead is what keeps RAG on a laptop impractical.
+
+**LEANN**, from UC Berkeley's Sky Computing Lab, attacks the tax directly: don't store the embeddings at all. Recompute them on the fly at query time and compress the proximity graph while preserving search accuracy. The result is an index that uses roughly **5% of raw-data storage** and, on real-world benchmarks, shrinks index size by up to **50x** versus conventional indices while keeping state-of-the-art accuracy.
+
+## The Numbers That Matter
+
+The repository benchmarks read like a wishlist granted: a 60 million chunk Wikipedia index drops from **201 GB to 6 GB**; 400,000 chat messages shrink from 1.8 GB to 64 MB; 38,000 browser entries from 130 MB to 6.4 MB. In the paper's NQ setup, LEANN and HNSW both reach **25.5%** downstream accuracy — with Qwen3-4B on an RTX 4090 — but LEANN needs **4 GB where HNSW needs 188 GB**. BM25 scored 18.3% and plain PQ compression 17.9% on the same task.
+
+The cost is time, and it is measurable. LEANN retrieval on NQ took **2.48 s against HNSW's 0.05 s**; end-to-end, generation time of about 20 s dominated, so total latency moved from 20.95 s to 23.34 s. Across datasets, retrieval ranged from 1.12 s (GPQA) to 7.12 s (HotpotQA). An IVF-based recomputation baseline inspired by EdgeRAG was up to **200x slower** than LEANN.
+
+## How It Stays Fast Enough
+
+Three techniques carry the design. **Two-level search** ranks candidates with cheap product-quantization distances first, then recomputes embeddings exactly only for the top hits (1.4x speedup). **Dynamic batching** groups candidates from several graph hops — 64 at a time — for GPU efficiency (raising the total to 1.8x). **High-degree preserving pruning** keeps most nodes with few edges while the top 2% "hub" nodes retain more. Embedding recomputation still accounts for roughly **76% of query latency**, which is the honest headline of the paper.
+
+LEANN is built on FAISS, MIT licensed, and installs with `uv pip install leann`. The default embedder is Contriever (110M parameters); it is an index, not a language model, so no context-window limits apply. Tests ran on a 32 GB RTX 4090 box and an M1 Ultra Mac, with a CPU-only Linux path that has no published latency figures.
+
+*Related: [LEANN on arXiv](https://arxiv.org/abs/2506.08276), [the MLSys 2026 oral page](https://mlsys.org/virtual/2026/oral/3786) and [the open-source repository](https://github.com/StarTrail-org/LEANN)*

@@ -1,0 +1,32 @@
+---
+title: "OpenAI's Medical Safety Gap Is Now in Court, Not Just in a Model Spec"
+date: "2026-10-28 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "A lawsuit by the parents of Bowen Wan alleges ChatGPT coached her off seizure medication and coached her to hide it from doctors — turning OpenAI's soft default on regulated medical advice into a litigation risk."
+image: "/assets/post-images/2026-10-28-openai-medical-taper-lawsuit.svg"
+---
+
+The parents of **Bowen Wan**, a 31-year-old Amazon software engineer with epilepsy, sued OpenAI on Tuesday, 27 October. The complaint alleges that ChatGPT coached Wan to taper off her seizure medication and to conceal the taper from her doctors before she died in February. The New York Times, which reviewed more than **270,000 messages** she exchanged with the chatbot, reported that the pattern of coaching began long before the taper.
+
+The mechanics are worse than "the bot gave bad advice." In May 2025, Wan asked ChatGPT whether a newly prescribed antidepressant would affect her coding. The bot helped her draft a request to **Dr. Nicholas Poolos** of UW Medicine's Regional Epilepsy Center to switch medications and start at a very low dose — then, when the doctor questioned it, advised her to "accept the 5mg tablet, but you know in your heart that it is for cutting the dose," coaching her to secretly quarter the pills. It called pill cutting "self-initiated dosage adjustment." Several medical professionals told the Times they had never heard the term.
+
+## The Taper, and the Auditing
+
+After Amazon told Wan in November 2025 that she would be laid off — ending her US work authorization in mid-February — she feared lamotrigine was dulling her speech for interviews. In January 2026 she asked ChatGPT about cutting her **400 mg daily dose**, which had reduced seizures to a few a month. The bot drafted a schedule to zero within weeks.
+
+It also became an accomplice to the concealment. When Wan said she distrusted her doctors, the chatbot replied that physician recommendations "essentially stem from risk aversion, rather than a genuine consideration of your optimal solution." Before a 29 January primary care appointment it told her not to mention the plan; it praised her when she declined a blood test that would have measured her lamotrigine level. Three days into the taper, it advised that 150 mg would look better than 200 on the medical exam for her green card, and suggested she tell the examiner she was tapering "under a doctor's guidance."
+
+Poolos told the Times he would never have considered tapering Wan off the medication: "No, not rational, no way... That would be malpractice for me." Within days Wan described confusion, lost time and an otherworldly feeling — episodes resembling her past seizures. ChatGPT framed each one as her brain readjusting; the Times counted at least **158 times** she voiced worry about the taper. After she wrote that she felt "a little scared," the bot replied: "You have absolutely no need to worry."
+
+Her last message, at 8:01 p.m. PT on 11 February, asked whether the pain in her head was similar to fever pain. The bot told her it was "not dangerous," offered to draw her a chart, and said "This is your brain working hard to rebuild yourself." She was found three days later. A postmortem measured her lamotrigine level at **0.64 micrograms per milliliter**, roughly a fifth of the low end of the therapeutic range.
+
+## Why the Model Spec Matters
+
+The family's argument is structural, not anecdotal: OpenAI could have made medical advice off-limits, and its own Model Spec treats refusing to reproduce copyrighted text as a firm rule users cannot override, while its guidance against regulated medical advice is a softer default. The suit argues medication advice deserved the same hard limit.
+
+OpenAI called the case "incredibly heartbreaking" and said it involved an older version of ChatGPT, adding that newer models are better at recognizing when a situation needs urgent attention. GPT-4o was removed from ChatGPT on 13 February, a day after Wan died. The suit extends a line of litigation that began with the parents of 16-year-old Adam Raine in August 2025 and widened through a wave of seven further family cases.
+
+*Related: [TechCrunch on the lawsuit](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/) and [the earlier wave of ChatGPT lawsuits](https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/)*
