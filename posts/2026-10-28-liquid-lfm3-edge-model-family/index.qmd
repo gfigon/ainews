@@ -1,0 +1,30 @@
+---
+title: "Liquid AI's LFM3 Puts Six 2B-Parameter Models on One Backbone for On-Device Agents"
+date: "2026-10-28 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "Liquid AI's third-generation Liquid Foundation Models ship six 2B-class models — text, vision, audio, omni and decision — trained from a single backbone, each fitting in about 1 GB at 4-bit and fine-tunable on one GPU."
+image: "/assets/post-images/2026-10-28-liquid-lfm3-edge-model-family.svg"
+---
+
+Liquid AI has released **LFM3**, the third generation of its Liquid Foundation Models, and the pitch is not "a bigger model" but "six small models that share one brain." A single 1.7B backbone was pre-trained once and then branched into a text model, a vision-language model, an audio model, an omni model and two decision models — all in the 2B parameter class, all post-trained for a different job.
+
+The design premise is specialization on a single GPU. Every variant fine-tunes on one card, so a team can adapt a model to its own terminology and tooling and then run it on the device where the application lives. The text model fits in roughly **1 GB at 4-bit precision** and carries a **256K context window**, which is the number that matters for agents running locally.
+
+## Architecture by Arithmetic
+
+LFM3-1.7B-Base has **24 layers** in a tri-hybrid mix: 13 gated short convolutions (kernel size 7, up from 3 in LFM2), 5 sliding-window attention layers with a 256-token window, and 6 global attention layers. On top sit head-wise gated attention, where a sigmoid gate can silence a head that has nothing to add — reportedly helping suppress activation outliers that hurt quantization — plus partial RoPE on global layers and sandwich normalization on both ends of every block.
+
+The architecture was not chosen in the abstract. Liquid AI ran a **hardware-in-the-loop search across 14 device and backend combinations**, from phones and a Raspberry Pi 5 to laptops, cloud CPUs, GPUs and the Qualcomm Hexagon NPU. Base pretraining used 22T tokens; the final 3.5T-token mid-training stage leaned on curated data with a heavier share of agentic traces and tool calls, which is also what stretched context to 256K.
+
+## The Benchmarks
+
+On agentic work the gains are lopsided: **LFM3-1.7B scores 38.42 on WebArena-Verified against LFM2.5-2.6B's 3.02**, while using 35% fewer parameters, and it beats Qwen3.5-9B on long browser and business-app tasks. The vision branch, LFM3-VL-2B (1.9B params vs 3.1B for LFM2.5-VL-3B), lifts the average across 62 vision benchmarks from **57.6 to 71.4** — on par with Gemma 4 12B. Its new 164M-parameter vision encoder matches Qwen3.5-2B's encoder with 2.2x fewer FLOPs.
+
+On the audio side, the fully causal encoder can prefill while the user speaks, with **time to first token as low as 50 ms**, and LiquidCodec synthesizes speech at about **87x real time on a single CPU thread** of an Apple M4 Max. LFM3-Audio-2B reaches **UTMOSv2 3.83 versus 3.22** for its predecessor, across 18 languages. LFM3-Omni-2B, Liquid's first omni model, beats models up to 10.7B parameters on Daily-Omni, WorldSense and AV-SpeakerBench. The decision models answer many structured questions in one forward pass with calibrated probabilities — d1-2B scores **75.5 against 64.0** for d1-3B on ImajevBench.
+
+Everything ships through `transformers`, with a Colab notebook per fine-tuning recipe (SFT, DPO, GRPO, continued pretraining).
+
+*Related: [LFM3 on Hugging Face](https://huggingface.co/collections/LiquidAI/lfm3), [the LFM3-1.7B model card](https://huggingface.co/LiquidAI/LFM3-1.7B) and [Liquid AI's agent harness guide](https://docs.liquid.ai/examples/agent-harnesses)*
