@@ -5065,6 +5065,22 @@
       "slugs": [
         "2026-10-28-novelty-judge-instability-benchmark"
       ]
+    },
+    {
+      "term": "Anthropic Claude Life Sciences Drug Development Six Partners BigHat Divergence Enveda Generate Biomedicines Column Group BMS 35000 Antibody Designs 1010 Variants 1061 Pages 89% Review Reduction Mithril Muscular Dystrophy October 2026",
+      "count": 1,
+      "last_published": "2026-10-28",
+      "slugs": [
+        "2026-10-28-anthropic-claude-drug-development-lifesciences"
+      ]
+    },
+    {
+      "term": "Concordat Typed Sessions for LLM Agents Typestate Session Types Finite State Protocol tau-bench Airline 50 Tasks 13 of 50 gpt-4.1 29 of 128 Claude Haiku 5.5 Zero Unauthorized Changes arXiv 2610.37461 October 2026",
+      "count": 1,
+      "last_published": "2026-10-28",
+      "slugs": [
+        "2026-10-28-concordat-typed-sessions-llm-agents"
+      ]
     }
   ]
 }
