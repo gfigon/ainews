@@ -5049,6 +5049,22 @@
       "slugs": [
         "2026-10-28-openai-medical-taper-lawsuit"
       ]
+    },
+    {
+      "term": "Liquid AI LFM3 Liquid Foundation Models Tri-Hybrid Architecture 24 Layers 13 Gated Convolutions 5 Sliding-Window Attention 6 Global Attention 22T Tokens 256K Context 1.7B WebArena-Verified 38.42 LFM3-VL-2B 71.4 62 Vision Benchmarks LiquidCodec 87x Real Time d1-2B ImajevBench 75.5 October 2026",
+      "count": 1,
+      "last_published": "2026-10-28",
+      "slugs": [
+        "2026-10-28-liquid-lfm3-edge-model-family"
+      ]
+    },
+    {
+      "term": "Ai2 Old Ideas Novel Problems Instability LLM Novelty Evaluation Benchmark Six Judges GPT-5.1 GPT-5.2 GPT-5.4 Claude Sonnet 4.5 Opus 4.5 Opus 4.6 93.5 40.9 Percent Below Chance ICLR 2026 Reviews 154 145 Ideas Human-Only Human+Generated Macro-F1 0.854 2.59 Dollars Idea Novelty Checker 0.642 30.66 Sakana AI Scientist 0.772 82.05 arXiv 2610.02022 October 2026",
+      "count": 1,
+      "last_published": "2026-10-28",
+      "slugs": [
+        "2026-10-28-novelty-judge-instability-benchmark"
+      ]
     }
   ]
 }
