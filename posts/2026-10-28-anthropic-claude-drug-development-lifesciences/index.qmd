@@ -1,0 +1,30 @@
+---
+title: "Anthropic Put Claude on Six Drug Programs: 35,000 Antibody Designs, a Regulatory Draft in Four Hours"
+date: "2026-10-28 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Anthropic's life sciences team reports working with six pharma partners and running its own muscular dystrophy programs, with the measurable gains landing in regulatory paperwork, laboratory iteration and program operations rather than in molecule design."
+image: "/assets/post-images/2026-10-28-anthropic-claude-drug-development-lifesciences.svg"
+---
+
+The interesting part of Anthropic's new report on using Claude in drug development is not the molecule design. It is the paperwork. The company has spent several months running Claude inside six drug programs — with **BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines and The Column Group** — plus its own, and the numbers that jump out are administrative ones: a regulatory document drafted in **four hours instead of about three months**, and **89% less human review time**.
+
+The thesis is deliberately unglamorous. Drug development has many bottlenecks spread across target identification, molecule design, manufacturability, regulatory filings and trial design, and Anthropic's strategy is to put AI into all of them rather than optimize one. To learn where the model actually helps, its scientists embedded in real programs across disease areas and stages.
+
+## Where Claude Did the Work
+
+At **Generate Biomedicines**, six scientists used Claude Code to redesign part of the genetic instructions for CAR T-cell therapy so it could treat solid tumors. One proposed design was about **70% shorter** than the standard version, let immune cells make roughly **10 times as many receptors**, and killed tumor cells more efficiently. At **Divergence Labs**, working on IgE detachment for food allergies, Claude turned a design goal into a plan and then largely autonomously generated about **35,000 antibody designs in roughly a month**; early tests found three IgE binders and twenty IgE-dislodging designs, three of which beat the standard medication.
+
+At **BigHat Biosciences**, Claude was wired into the automated lab's data system and proposed molecule changes; the lab built and tested about **1,010 variants in around ten weeks**. When the team suspected its standard heat-stability and clumping metrics were misleading, Claude and an Anthropic researcher reanalyzed the raw data and proposed different metrics plus a protocol change. The best results bound **more than 10x tighter**, the cancer-targeting lead stayed in solution **18°C higher**, and the longer-lasting lead clumped **over 100x slower**.
+
+## The Bottleneck Nobody Designs Molecules For
+
+**Enveda** is the clearest case. Its manufacturing chemists were spending up to **75% of their time on paperwork**. Claude was connected to every manufacturing document and flagged issues; over **1,061 pages** it caught all **11** issues human reviewers had spotted and flagged **seven** they had missed, cutting review time from over 25 hours to under three. It also drafted the first versions of two regulatory documents — one in four hours versus three months, the other carrying a single minor error under standard human review.
+
+**Bristol Myers Squibb** is using Claude at the clinical trial stage to analyze proprietary data, draft a study plan and weigh a trial's chance of success from a single prompt. Anthropic plans to expand that work in 2027. Meanwhile it acquired **Mithril Medicine**, a one-person company whose founder used Claude to run contracts, logistics and experiments across 11 external labs, taking a possible treatment for one muscular dystrophy from idea to promising mouse results in **under 18 months**, with a human trial possible as soon as late 2028. The Column Group, meanwhile, is standing up **Pleiades**, a new company meant to run far more drug programs than a small team normally could; its first Claude skill, assessing whether a target is worth pursuing, has been evaluated on **45 target-disease pairs**.
+
+Anthropic is also opening the tooling: **Claude Science**, credits for life scientists, a **Life Sciences Verification Program** giving trusted organizations access to models with more permissive safeguards, and an open call for guest investigators. Everything described is preclinical so far.
+
+*Related: [Anthropic's life sciences post](https://www.anthropic.com/research/early-progress-drug-development), [Generate Biomedicines' technical report](https://generatebiomedicines.com/publications/refactored-intracellular-domains-enhance-car-expression-and-function/) and [Enveda's CMC document processor report](https://enveda.com/CMC-Document-Processor/)*

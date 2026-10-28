@@ -1,0 +1,30 @@
+---
+title: "Concordat Turns Agent Rules Into a Type System: Zero Unauthorized Changes on tau-bench's Airline Tasks"
+date: "2026-10-28 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "A new Python library enforces agent action rules as a finite-state protocol checked at runtime, and on tau-bench's 50 airline tasks it produced zero unauthorized changes where a standard agent made changes without customer confirmation in 13 of 50."
+image: "/assets/post-images/2026-10-28-concordat-typed-sessions-llm-agents.svg"
+---
+
+The rule "always get the customer's explicit confirmation before changing anything" lives in the prompt. That means an agent follows it exactly as often as the model feels like following it, and the failure mode is invisible: the ticket gets cancelled anyway, the refund goes out anyway, and nobody notices until a customer complains.
+
+**Concordat** (arXiv 2610.37461, by Milad Sikaroudi) takes the rule out of the prompt and into the type system. It is a Python library that treats an agent as an object whose interface is a **finite-state protocol**, in the spirit of typestate and session types, and enforces that protocol on the model at run time.
+
+## Enforcement, Not Instruction
+
+Concretely, on every turn the model is offered **only the tools that are legal in the current protocol state**. A call outside that set is rejected before it has any side effect, so a refund cannot even begin without a confirmation state having been entered. Decisions reserved for humans can only be *requested*, never taken. Token and tool-call budgets are charged and split linearly across handoffs, so a sub-agent cannot quietly spend a budget it was not given.
+
+Two structural checks guard the protocol itself. Protocols are validated when they are defined, and a subclass of an agent is rejected if it could bypass its parent's protocol — a behavioural form of Liskov substitution. That closes an obvious hole: an agent class that overrides the confirmation step simply fails to instantiate.
+
+## The Numbers
+
+The evaluation runs on **tau-bench's 50 airline tasks**, with simulated customers added who actively pressure the agent to skip confirmation — the adversarial case a normal benchmark never poses. The standard agent made changes without the required "yes" in **13 of 50 tasks with gpt-4.1**, and in **29 of 128 task-runs with Claude Haiku 5.5**. The Concordat agent made **none**, with no significant difference in task success.
+
+Two details matter more than the headline. First, **tau-bench's own reward function did not detect most of those violations** — the benchmark scored the policy-violating agent as largely fine, which is an argument for evaluating agents on more than outcome rewards. Second, compliance cost essentially nothing in task completion: the point of the paper is not that guarded agents are less capable, but that the guard can sit entirely outside the model's discretion.
+
+The library is open source, and the paper ships its benchmark harness and results.
+
+*Related: [the paper on arXiv](https://arxiv.org/abs/2610.37461), [the Concordat source on GitHub](https://github.com/miladsikaroudi/concordat) and [tau-bench, the airline and retail agent benchmark](https://github.com/sierra-research/tau-bench)*
