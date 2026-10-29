@@ -1,0 +1,30 @@
+---
+title: "NVIDIA Nemotron 3.5 Transcribe Puts ASR, Diarization and Translation in One Open Checkpoint"
+date: "2026-10-29 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "A 30B open-weight MoE speech model transcribes 40 languages, attributes 8 speakers and answers questions about the audio in one pass — and the 463,000-hour dataset behind it is public too."
+image: "/assets/post-images/2026-10-29-nemotron-35-transcribe-granary-v2.svg"
+---
+
+Speech stacks are usually a pipeline: an ASR model writes words, a separate diarization model labels who said them, a translation model rewrites the result. Each stage loses information and each stage needs its own hosting, tuning and error handling. NVIDIA's **Nemotron 3.5 Transcribe** collapses that into a single open-weight checkpoint that does all of it in one generation pass.
+
+The model (30B-A4B, a hybrid Mamba–Transformer mixture-of-experts design where roughly **4B parameters are active per token**) transcribes **40 languages**, translates **31 of them** to or from English, and attributes speakers in **13**. Recordings up to an hour long are supported, with up to eight distinct speakers labeled. It also handles audio question answering — ask "what decisions were made in this meeting?" and get an answer grounded in the audio, not just a transcript to search.
+
+## The numbers
+
+On the **Hugging Face Open ASR Leaderboard**, Transcribe is first among open-weight models on English at **5.33% average WER**; multilingual sits at **4.62%** mean WER across seven languages and long-form at **10.98%**. On Artificial Analysis it ties for first among open-weight models at **2.80% AA-WER** while carrying about 4B active parameters against 24B for the model it ties.
+
+Speaker attribution is where the model pulls ahead of dedicated diarization systems. On David AI's 21-language leaderboard it posts a **18.26% diarization error rate**, narrowly ahead of NVIDIA's own dedicated Nemotron 3 Diarization model at 18.38%. On VoiceArena's 14-system comparison it leads with **32.4% cpWER** and deletes far fewer words than the median — 8.32% of reference words against roughly 31%. The trick is that Sortformer speaker cues are fed into the language model alongside acoustic features, so speaker turns are decided during generation instead of being stitched on afterwards.
+
+Throughput was benchmarked at **100 hours of audio in under three minutes** on a single RTX PRO 6000 Blackwell Server Edition, using the forthcoming NVFP4 quantized build. Quantized weights and NeMo-Speech.cpp local deployment are not out yet, but vLLM serving works today.
+
+## The open dataset behind it
+
+**Granary v2**, published alongside the model, is the more durable artifact: **463,062 hours across 48 languages and 16 source corpora**, built with NVIDIA NeMo Curator into aligned transcript variants, task labels and inspectable quality metadata. For a promptable speech model to follow formatting instructions, training targets have to be unambiguous — and Granary v2 supplies that at a scale most speech labs keep private.
+
+The fine-tuning story is proven rather than promised. In a medical case study, adapting the model cut WER on held-out speakers by **45.8% relative to the best prompt** — the difference between telling the model "HbA1c, metformin" and retraining it.
+
+*Related: [Nemotron 3.5 Transcribe model card](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B), [Granary v2 dataset](https://huggingface.co/datasets/nvidia/Granary-v2)*

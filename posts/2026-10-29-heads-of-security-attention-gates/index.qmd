@@ -1,0 +1,24 @@
+---
+title: "Heads of Security: Learned Attention Gates Cut Prompt Injection Success to 10%"
+date: "2026-10-29 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "Instead of fine-tuning a model to ignore injected instructions, this defense learns a handful of per-head attention gates that keep untrusted tokens in their lane — and holds up against adaptive white-box attacks."
+image: "/assets/post-images/2026-10-29-heads-of-security-attention-gates.svg"
+---
+
+Most prompt injection defenses work by fine-tuning: teach the model to distinguish instructions from data, and hope the separation holds. **Heads of Security (HoS)** attacks the problem one layer lower — it learns a small set of **per-head attention gates** that control how each attention head redistributes mass between trusted and untrusted tokens, enforcing instruction–data separation without touching the model's weights.
+
+The authors (Igor Shilov, Xiaoxue Yang, Alexander Panfilov, Evgenii Kortukov, Matthieu Meeus, Peter Romov and colleagues) evaluate on Llama-3.3-70B-Instruct and GPT-OSS-20B against two comparators: **SecAlign++**, a state-of-the-art fine-tuning-based defense, and **ASIDE**, an architectural defense that also builds instruction–data separation into the model.
+
+## The attack numbers
+
+The black-box **RL-Hammer** attack reaches a **97% attack success rate against GPT-OSS-20B** and **85% against SecAlign** — but only **10% against HoS**. The white-box **Claudini** attack, which was specifically strengthened against HoS through automated adversarial research, needs **three times more FLOPs** to reach the same success rate on HoS as it does on GPT-OSS-20B or SecAlign.
+
+Utility tells the same story. HoS preserves base-model utility across standard multiple-choice benchmarks and prompting setups, while SecAlign and ASIDE both **degrade in few-shot settings**. On agentic benchmarks under static attacks, HoS and SecAlign perform similarly and substantially improve the security–utility trade-off over the base model — but **ASIDE struggles with tool use, achieving only 10% utility**, despite being the other architecture-level approach in the comparison.
+
+The pattern worth noting: among the two defenses that bake separation into the architecture, one of them trades away the ability to use tools at all. That is a strong argument that architectural defenses need to be evaluated on agentic workloads, not just on classification-style benchmarks where utility degradation hides.
+
+The paper is on [arXiv](https://arxiv.org/abs/2610.37657) under ID 2610.37657, submitted 27 October 2026.
