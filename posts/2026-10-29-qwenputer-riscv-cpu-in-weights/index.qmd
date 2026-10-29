@@ -1,0 +1,33 @@
+---
+title: "Qwenputer: Someone Compiled a Working RISC-V CPU Into Qwen3.5's Weights"
+date: "2026-10-29 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "A Qwen 3.5 4B checkpoint with a 32-bit RISC-V core compiled into its own weights — running on Gated DeltaNet layers used as RAM — hits 18 million instructions without error and makes the model a monitorability testbed."
+image: "/assets/post-images/2026-10-29-qwenputer-riscv-cpu-in-weights.svg"
+---
+
+The most interesting AI release this week was not a model. It was a **CPU**. Qwenputer is a stock **Qwen 3.5 4B** with one addition: a **32-bit RISC-V core compiled into the weights**, with the model's own Gated DeltaNet attention layers acting as RAM. It is not a plugin, a tool call or a sandbox — the CPU runs inside the model's forward passes.
+
+## How the RAM Works
+
+Three of Qwen 3.5's four attention layers use Gated DeltaNet, a linear RNN. The trick is setting the **gate to 1** (nothing fades), the **write strength to 1** (full overwrite, not blend), and using **one-hot keys** — so every write overwrites exactly one row of the state matrix and every query retrieves an exact value. That turns the state into addressable RAM, and unlike attention's KV cache, its size stays constant no matter how long the conversation runs.
+
+The CPU itself is **RV32IM plus the Zba extension and a small bignum unit**, occupying 11 layers in front of Qwen's 32. It passes the official `riscv-tests`, matches QEMU, and has run **18 million instructions free-running without a single error** — no reference machine correcting it. Each instruction decodes as three tokens (ADDR, VAL, STEP), which are literally the execution trace.
+
+## The Numbers
+
+On DeepMind's arithmetic sets, Qwenputer scores **97.5%** on `div_big` versus 95% for base Qwen with a Python tool and 72.5% without; **100%** on `mul_div_multiple_longer` versus 97.5% and 90%; on NUPA's long-integer arithmetic it goes from **48.6% to 100%**, matching the Python-tool setup exactly. Replaying roughly **230,000 output positions** against a reference machine produced zero mismatches. The model's normal text stays within noise of base Qwen (KL 6e-4 against a 5e-4 noise floor).
+
+It even carries a filesystem: a 1,024-slot directory in the DeltaNet state holding up to **512 files (~53,000 tokens)**, persistent across conversations. Facts that changed between chats were recalled **90%** of the time, versus 30% when pasting old chats back in.
+
+## Why It Matters Beyond Novelty
+
+The author's own follow-ups are the point: hybrid models like Qwen 3.5 can learn to **hide reasoning in their RNN state and evade chain-of-thought monitoring**, while compiled weights can serve as **monitorability tools the model cannot tamper with** — an in-weight monitor it is structurally unable to switch off.
+
+The limits are real: an 18.8 GB checkpoint (roughly double base, mostly zero padding), a driver needed to boot firmware, and roughly 3,200 CPU tokens per second on an L4. But it runs on a single 24 GB GPU, and the code is open.
+
+*Related: [Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5](https://divagr.com/blog/qwenputer)*
+*Related: [Qwenputer code on GitHub](https://github.com/divagr18/qwenputer)*

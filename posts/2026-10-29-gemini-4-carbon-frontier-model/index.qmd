@@ -1,0 +1,32 @@
+---
+title: "Gemini 4 Carbon Is Google's Cyber-First Frontier Model — and It Ships Defender-Only First"
+date: "2026-10-29 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "Two weeks after Gemini 4 Argon, Google unveiled Gemini 4 Carbon: #1 on Artificial Analysis, state of the art on vulnerability discovery, exploitation and patching, zero measured prompt-injection success — and access restricted to cyber defenders first."
+image: "/assets/post-images/2026-10-29-gemini-4-carbon-frontier-model.svg"
+---
+
+Google unveiled **Gemini 4 Carbon** on 28 October, its next frontier model after Gemini 4 Argon — which launched only two weeks earlier. The speed is itself the story, but Carbon's actual pitch is narrower than the model's price tag suggests: this is a **cyber-capability model being released defender-first**, not a general-purpose flagship.
+
+## The Benchmarks Lead with Security
+
+Carbon ranks **#1 on Artificial Analysis's updated v5.0 Intelligence Index at 59**, and the gains Google chose to headline are all security ones. On **SEC-bench Pro** it reaches **88.2%**, autonomously uncovering flaws in real-world software. On **ExploitGym**, the exploitation benchmark, it sets a new state of the art at **54.8%**. On Collinear's **CWE-bench** for patching, it hits **71.0%** — turning validated findings into working fixes.
+
+Google also reports more than **2x uplift** in secure-code generation success over Argon on internal benchmarks, a claim the Chrome team backs with a sharper one: Carbon performed **more than 10x better than another lab's large frontier model** at generating high-quality patches. Wiz reports Carbon leading on web penetration-testing benchmarks used in its Scan for Good initiative. On WebDev Arena, Carbon jumps **+89 Elo to #4 (1768)**.
+
+## Alignment Numbers Move Too
+
+Carbon lands at **0.0% attack success rate** on Gray Swan's Indirect Prompt Injection benchmark, down from Argon's already-low 0.7%. Successful cheating on Terminal-Bench 4.0 drops to **0.0%**, with attempts at 0.4%. High-severity misalignment alerts in live internal coding environments fell by almost **80%**, and unsupported claims were cut roughly in half. Google says it trained the model to surface discrepancies before acting rather than guess — and it reports **26% less overreach** and **29% less under-service** on multi-step plans.
+
+## But You Cannot Buy It Yet
+
+Carbon is not generally available. Google starts with a **subset of cyber defenders**, phasing to additional trusted partners through the **Fairwind Program**, and says it is engaged in the US government's voluntary pre-release model testing process. It will reach developers, businesses and consumers "as soon as possible."
+
+Pricing when it arrives is set at the same introductory level as Argon: **$2 per million input tokens, $10 per million output**, cached input at 95% off.
+
+The angle worth carrying forward: Google has decided that the fastest path to a frontier model this good on offense is to ship it as a **defense instrument first**. That is a meaningfully different release theory from "everyone gets it on Tuesday."
+
+*Related: [Introducing Gemini 4 Carbon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)*

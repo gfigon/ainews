@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-10-29-gemini-4-carbon-frontier-model/index.html",
+      "/posts/2026-10-29-qwenputer-riscv-cpu-in-weights/index.html",
       "/posts/2026-10-29-heads-of-security-attention-gates/index.html",
       "/posts/2026-10-29-nemotron-35-transcribe-granary-v2/index.html",
       "/posts/2026-10-29-tool-use-agent-scaling-laws-synthapi/index.html",
