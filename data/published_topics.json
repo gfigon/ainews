@@ -5081,6 +5081,30 @@
       "slugs": [
         "2026-10-28-concordat-typed-sessions-llm-agents"
       ]
+    },
+    {
+      "term": "NVIDIA Nemotron 3.5 Transcribe 30B-A4B Open Weight Speech Model 40 Languages 31 Translation 13 Diarization 4B Active Parameters 5.33% WER 2.80% AA-WER 18.26% DER 32.4% cpWER Granary v2 463062 Hours 48 Languages October 2026",
+      "slugs": [
+        "2026-10-29-nemotron-35-transcribe-granary-v2"
+      ],
+      "count": 1,
+      "last_published": "2026-10-29"
+    },
+    {
+      "term": "Google DeepMind Scaling Laws for Tool-Use Agents SynthAPI 458752 Tasks 849 Models Tool and Database Diversity Synthesis arXiv 2610.37648 October 2026",
+      "slugs": [
+        "2026-10-29-tool-use-agent-scaling-laws-synthapi"
+      ],
+      "count": 1,
+      "last_published": "2026-10-29"
+    },
+    {
+      "term": "Heads of Security Learned Attention Gates Prompt Injection Defense RL-Hammer 97% to 10% ASR Claudini White-Box 3x FLOPs SecAlign ASIDE Llama 3.3 70B GPT-OSS-20B arXiv 2610.37657 October 2026",
+      "slugs": [
+        "2026-10-29-heads-of-security-attention-gates"
+      ],
+      "count": 1,
+      "last_published": "2026-10-29"
     }
   ]
 }
