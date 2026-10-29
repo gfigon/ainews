@@ -5121,6 +5121,30 @@
       "slugs": [
         "2026-10-29-qwenputer-riscv-cpu-in-weights"
       ]
+    },
+    {
+      "term": "Mistral Timestral Open Weight Time Series Foundation Models 5M 28M 123M 209M Zero-Shot Probabilistic Forecasting Hugging Face Chronos TimesFM October 2026",
+      "slugs": [
+        "2026-10-16-mistral-timestral"
+      ],
+      "count": 1,
+      "last_published": "2026-10-16"
+    },
+    {
+      "term": "Datology AI UIUC Follow the Gradient SimpleLoRIF Gradient Embedding Million Examples SafeTulu Tulu 3 Remove 20% Examples GCG Attack Success Rate 22% Reduction Qwen Llama Olmo AUC 0.865 Emergent Misalignment Insecure Code Tool Execution Failures Narrative Arithmetic arXiv 2610.37481 October 2026",
+      "slugs": [
+        "2026-10-29-follow-the-gradient-safety-degradation"
+      ],
+      "count": 1,
+      "last_published": "2026-10-29"
+    },
+    {
+      "term": "OpenAI ServiceNow Expand Partnership Action Fabric ChatGPT Workflow Actions MCP Plugin AI Workflow Factory Codex Build Agent Autonomous Engineer Super Intelligence Control Tower Voice Cybersecurity Joint Solution ChatGPT Work All Employees January Partnership Expansion October 2026",
+      "slugs": [
+        "2026-10-29-openai-servicenow-enterprise-workflows"
+      ],
+      "count": 1,
+      "last_published": "2026-10-29"
     }
   ]
 }

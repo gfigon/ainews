@@ -1,0 +1,35 @@
+---
+title: "OpenAI and ServiceNow Expand Partnership: Action Fabric Inside ChatGPT, Codex in AI Workflow Factory"
+date: "2026-10-29 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "ServiceNow workflows become callable from ChatGPT with Action Fabric enforcing business rules and permissions, while Codex, security agents and voice land across the ServiceNow platform on a 2027 roadmap."
+image: "/assets/post-images/2026-10-29-openai-servicenow-enterprise-workflows.svg"
+---
+
+OpenAI and ServiceNow are widening their partnership from a model supplier into a **two-way embedding**: ServiceNow workflows become callable from ChatGPT, and OpenAI models and Codex get pushed into ServiceNow's own products. The deal builds on the arrangement announced in January and covers both customer-facing surfaces and ServiceNow's internal operations.
+
+## ChatGPT Gets Action Fabric
+
+The headline is a new ServiceNow integration inside ChatGPT that pulls **business context and workflow actions** into the conversation. An IT team member can search for similar incidents, assess the risk of a change and update a ServiceNow record without leaving the chat window. Customers connect their own ServiceNow instance and pick which capabilities to expose.
+
+The governance detail matters more than the demo: **Action Fabric applies existing business rules and permissions**, so what an agent can do reflects the organization's own configuration — the same guardrails a human operator would hit. ServiceNow is also previewing interactive experiences in ChatGPT, where an on-call engineer can review linked monitoring alerts, recent changes and affected services, assign the right team and work the fix in place.
+
+## Three Areas of Product Development
+
+- **Application development** — a planned **Codex integration in AI Workflow Factory** will let developers build applications with ServiceNow's business context and platform capabilities, with OpenAI models also powering Build Agent and Autonomous Engineer for build and modernization work.
+- **Cybersecurity** — a joint solution combining OpenAI's cybersecurity capabilities with ServiceNow's asset, identity and business context to investigate vulnerabilities, prioritize risk and coordinate remediation.
+- **Voice** — an OpenAI-powered experience in **Super Intelligence Control Tower** where users describe an AI use case aloud and the system populates assessment fields and asks follow-up questions for what is missing.
+
+ServiceNow also plans to give **all employees access to ChatGPT Work and Codex**, expanding beyond engineering, and to use OpenAI capabilities in its own security work. OpenAI is already running ServiceNow workflows in its own operations, supported by Super Intelligence Control Tower.
+
+## The Timeline Is the Story
+
+Availability is staged rather than immediate. The **ServiceNow MCP plugin is live in the OpenAI marketplace today**, with enhanced capabilities expected by end of 2026. Voice in Control Tower is expected in **Q1 2027**. The OpenAI-powered security capabilities enter **early access in January 2027** with general availability planned for **Q2 2027**. Codex in AI Workflow Factory is a **2027** item.
+
+What to watch is whether Action Fabric's permission model holds up once agents — not just chat interfaces — start composing multi-step remediation paths across ServiceNow and OpenAI systems.
+
+*Related: [OpenAI and ServiceNow expand partnership](https://openai.com/index/openai-servicenow-partnership-expansion/)*
+*Related: [ServiceNow powers actionable enterprise AI with OpenAI](https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai/)*
