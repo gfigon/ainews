@@ -1,0 +1,26 @@
+---
+title: "Project ProtoStar Wants Public Science to Be Machine-Actionable — First Challenge Opens 2 November"
+date: "2026-10-30 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Hugging Face and five universities launched Project ProtoStar to release publicly funded research artifacts in AI-ready formats, opening with a Carnegie Mellon climate forecasting challenge on 210 US cities."
+image: "/assets/post-images/2026-10-30-project-protostar-open-science.svg"
+---
+
+Hugging Face announced **Project ProtoStar** on 29 October, an initiative to make publicly funded research artifacts — datasets, models, code — releasable in AI-ready, machine-actionable formats rather than merely public ones. The founding partners are five universities working through the **Open Forum for AI** (Carnegie Mellon, Purdue, Georgia Tech, Arizona State, George Washington), the Astera Institute, Hugging Face as infrastructure partner, and the Open Research Community Accelerator as community partner. Participation is formalized through a memorandum of understanding covering release of suitable artifacts on open infrastructure.
+
+## Public Is Not the Same as Usable
+
+The framing is the interesting part. The US federal government spends roughly **$190 billion a year on R&D**, and NIH and NSF public-access rules increasingly expect the underlying data to be shared. But shared data is often scattered across incompatible systems, frozen in static or legacy formats, or published without the metadata, documentation and provenance needed to reuse it. That blocks humans first — and machines harder, because an AI system cannot discover, interpret or combine scientific resources across disciplines without that packaging layer.
+
+Hugging Face is already one of the ten generalist repositories NIH lists for research data, and the scale is visible: more than **17,000 public datasets** across genomics, protein design, chemistry, weather and climate, Earth observation and astronomy — approaching **29,000** once medicine and mathematics are included — plus a comparable number of scientific models. The growth rate is the striking part: researchers shared **more than three times as many new science datasets** in the first nine months of 2026 as in the same period of 2025, and growth holds even after excluding the single largest uploader. NCBI's 18 repositories on Hugging Face have drawn over **11 million downloads**; NASA IMPACT's 27 repositories about 770,000.
+
+## The First Test Is a Climate Benchmark
+
+ProtoStar will test reuse through a series of open challenges hosted by participating institutions, each built around resources that institution has already released. The first, hosted by Carnegie Mellon University, runs **2–13 November 2026**: participants train on climate records for **210 US cities through 2018** and forecast what actually happened between 2019 and 2026, so models are scored against observed weather rather than hypothetical futures. Four indicators are targeted — average annual temperature, total annual precipitation, the hottest day of the year, and cooling degree days — and predictions are compared against deliberately simple baselines (historical averages, linear trends). Teams also submit a short climate adaptation policy idea and a Hugging Face dataset; a public leaderboard tracks forecast error, with final results in early 2027 once the full 2026 records land.
+
+The angle: ProtoStar is not a new repository. It is an attempt to fix the packaging layer that sits between funded research and reusable research — and to produce evidence about what actually blocks reuse, rather than assuming it.
+
+*Related: [Announcing Project ProtoStar](https://huggingface.co/blog/announcing-project-protostar), [Project ProtoStar on Hugging Face](https://huggingface.co/project-protostar)*

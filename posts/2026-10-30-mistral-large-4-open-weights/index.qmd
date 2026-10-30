@@ -1,0 +1,30 @@
+---
+title: "Mistral Large 4 Goes Open Weight — 47% Fewer Tokens, 96.6% Refusal Rate on Malicious Cyber"
+date: "2026-10-30 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "Mistral released the weights of Mistral Large 4 (Le Chonk), claiming the open-weight coding lead on token efficiency, a 96.6% refusal rate on malicious cyber prompts, and a specialized cyber variant for vetted defenders."
+image: "/assets/post-images/2026-10-30-mistral-large-4-open-weights.svg"
+---
+
+Mistral released the weights of **Mistral Large 4 (Le Chonk)** on 29 October, three weeks after the model went into public preview. The 1-trillion-parameter, natively multimodal MoE was trained from scratch on European infrastructure, and the headline pitch is not raw capability but efficiency: doing more work per token, and refusing the wrong things reliably.
+
+## The Coding Claim Is About Efficiency
+
+On Cognition's private **FrontierCode 2.0** benchmark, Mistral Large 4 scores **19.7%**, ahead of Beam 1.0 (2.9%), GLM-5.3 Flash (14.2%), Kimi K3 (17.3%) and GLM-5.3 (17.8%). On **Terminal-Bench 4.0** it improved by **13 points to 41%** over the preview while cutting output tokens by 30%.
+
+On the Artificial Analysis Coding Agent Index it scores **48%** — effectively tied with the leading open-weight model, GLM-5.3 — while using **47% fewer tokens per task**. Three reasoning modes now let callers pick the tradeoff: Low for simple work, Medium for everyday tasks, and High (the default) for precision work. Mistral also reports **73.3%** on FinWorkBench and **84.5%** on BrowseComp, the latter up from a 75% SFT checkpoint.
+
+## Security Cuts Both Ways
+
+Mistral scores **51%** on the Artificial Analysis Cyber Index while averaging a **96.6% refusal rate on malicious cyber prompts** — the highest Mistral measures among open models — and, in its words, still completes legitimate defensive work without unnecessary refusals. Agent attack resistance on the B3 benchmark rose to **97.1%** from 93.3% in the preview.
+
+The candid admission is more interesting than the numbers. Mistral says it monitored cyber-related use in live traffic, saw the model refuse black-box attacks against live targets, but **also sees potential for uplift to conduct real attacks** — so guardrails are being modified, and a specialized cyber variant goes to vetted design partners such as Orange Cyberdefense, restricted by contract to owned or authorized systems.
+
+The endorsement list reads like a security-vendor billboard: NVIDIA (accelerated infrastructure), Elastic, CrowdStrike, Cisco, Cloudflare, Booz Allen, Fortinet, Rubrik and Zscaler, with data-residency and sovereignty the recurring pitch.
+
+The caveat worth carrying: these are largely self-reported numbers, some on private benchmarks, and "open weight" says nothing about license terms or the hardware bill for hosting a trillion-parameter model. The interesting story, though, is the combination — a frontier-adjacent open model whose headline metric is tokens saved, and whose safety story is a dual-use posture the vendor is openly re-tuning.
+
+*Related: [Mistral Large 4 (Le Chonk) is now open weight](https://mistral.ai/news/mistral-large-4-oss/), [Welcome Le Chonk: Mistral Large 4 on Hugging Face](https://huggingface.co/blog/mistral-large4)*
