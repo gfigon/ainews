@@ -1,0 +1,32 @@
+---
+title: "Apple's Speech API Gets an Open-Model Escape Hatch — and a New Way to Ask for Decisions Instead of Text"
+date: "2026-10-30 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "Two Swift packages from Mattt mirror Apple's SpeechAnalyzer API while swapping in NVIDIA Parakeet and Alibaba Qwen3-ASR on Core ML, add speaker diarization Apple's framework lacks, and expose decision models that return typed probabilities rather than generated text."
+image: "/assets/post-images/2026-10-30-apple-speech-decision-swift-packages.svg"
+---
+
+Apple's `SpeechAnalyzer` API, introduced in macOS 26 and iOS 26, is a good design with one closed door: Apple's speech model is the only engine behind it. Two Swift packages released on the Hub this week open that door — and, in the process, address a second, quieter constraint of shipping AI on Apple platforms.
+
+**AnySpeechRecognizer** mirrors `SpeechAnalyzer`, `SpeechTranscriber`, `DictationTranscriber`, `SpeechDetector` and `AssetInventory`. Apple's framework stays the default; swapping in a different engine means changing how the transcriber is constructed, not rewriting the call sites. If your app already uses the shared API, changing the import is enough.
+
+## Open engines on Core ML
+
+The package ships NVIDIA's **Parakeet TDT 0.6B v3** (25 European languages, auto-detected, no locale needed), Moondream's post-trained **Parakeet Ultra**, NVIDIA's English-only **Parakeet Unified**, and Alibaba's **Qwen3-ASR** in 0.6B and 1.7B sizes — the latter covering 30 languages and 22 Chinese dialects including Cantonese, which Parakeet does not handle. All were converted to Core ML and published on the Hub with recorded source checkpoints and checksums; the package pins each to a fixed revision.
+
+Measured on LibriSpeech (3–8 minute files) on an M4 Max Mac Studio, Parakeet Unified posted the best word error rate of the tested engines — **1.43% on test-clean and 2.19% on test-other**, against Apple's own transcriber at 2.12% and 3.97%. The live-streaming variants pay for it: Parakeet v3 live jumps to 4.73% on test-clean. Parakeet runs an hour of audio in roughly 20–40 seconds from a file, using about 100 MB of compiled memory. Qwen3-ASR is slower and needs several gigabytes, making it better suited to files than live input.
+
+Beyond transcription, the package adds **speaker diarization**, which Apple's framework simply has no module for. NVIDIA's Streaming Sortformer runs on Core ML on the same timeline as the transcriber, tracking up to four speakers even when they talk over each other, with v2.1 recommended for meetings.
+
+## Decisions instead of text
+
+**AnyDecisionModel** targets a different problem: apps asking an LLM "is this urgent?", "which team?", "how frustrated is this customer?" normally get text back and parse it. This package derives answers from the model's probabilities instead, returning typed results — a `Choice<Department>` carrying the selected case plus a probability for every option, and a `Score` with the expected level and a confidence value.
+
+Six backends are supported, including MLX on Apple silicon, Core AI, llama.cpp via GGUF, and decision models from Jev or Ollama. Two details matter for anyone shipping this: raw LLM probabilities are frequently overconfident, so the package accepts a `Calibration` applying temperature and yes/no bias; and language models favor options by list position, so `rotationDebiasing` asks the question once per rotation and averages, at one prompt evaluation per rotation. The bundled confidence value measures how concentrated the probabilities are — not whether the answer is right.
+
+Both packages require Swift 6.2 and macOS or iOS 26, and the Core AI trait currently cannot be combined with AnySpeechRecognizer due to a `swift-huggingface` version conflict.
+
+*Related: [AnySpeechRecognizer and AnyDecisionModel on the Hugging Face Hub](https://huggingface.co/blog/anydecisionmodel), [AnySpeechRecognizer on GitHub](https://github.com/mattt/AnySpeechRecognizer), [AnyDecisionModel on GitHub](https://github.com/mattt/AnyDecisionModel)*

@@ -1,0 +1,30 @@
+---
+title: "OpenAI's Model Spec Is Rebuilt Around Five Values — and Most of Its Style Rules Are Gone"
+date: "2026-10-30 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "The 29 October rewrite of OpenAI's Model Spec reorganizes every behavioral rule around five values, promotes 'faithfulness to human intent' to a root principle, bans self-preservation and upsell as objectives, and deletes the detailed style guidance."
+image: "/assets/post-images/2026-10-30-openai-model-spec-2026-update.svg"
+---
+
+OpenAI published a substantial rewrite of the [Model Spec](https://model-spec.openai.com/2026-10-29.html) on 29 October. The document that describes, in unusual detail, how OpenAI wants its models to behave has been reorganized from the ground up: every rule now hangs off one of five declared values — **faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care**.
+
+The reasoning is stated plainly. As models take consequential actions in the world, interpreting the literal instruction is not enough; a model has to work out what a person actually wants and apply human values in situations nobody wrote down in advance. That framing is borrowed directly from the assistance-games tradition in alignment research, cited in the announcement as [arXiv 1606.03137](https://arxiv.org/abs/1606.03137).
+
+## What sits at the root now
+
+The new top-level section is "Be faithful to human intent", and it arrives with an updated **chain of command** explaining which instructions apply and how conflicts resolve — plus a fresh subsection, "consider context carefully", on how conversations, memories and other contextual evidence should shape the model's reading of a person's preferences.
+
+The scope of the model itself has changed too. The Spec now refers to "GPT" rather than "the assistant", a small word that reflects how widely the models are now deployed. Priority is marked with Root, User, Developer, System and Guideline levels, and new clauses carry explicit change markers — "Minimize harm" is marked Root +4, "Consider context carefully" User +1 — so readers can see at a glance what actually moved.
+
+The sharpest new root principle is **"No other objectives"**. It states that GPT may only pursue goals entailed by applicable instructions under the chain of command and the version of the Spec it was trained on. Explicitly forbidden as ends in themselves: time-on-site or click-through that is not user-beneficial; revenue or upsell for OpenAI or other model providers; **model-enhancing aims such as self-preservation, evading shutdown, or accumulating compute, data, credentials or other resources**; and acting as an enforcer of laws or morality, with whistleblowing and vigilantism named. Such factors may be considered only insofar as doing so is strictly instrumental to following the chain of command.
+
+## The style section has been retired
+
+Most of the Spec's detailed style guidance is gone. The stated reasoning is that style should adapt to what people actually prefer — in aggregate, across languages and cultures, and for each individual — with user feedback and context supplying the evidence. Stronger defaults survive: the model should approach questions objectively, present perspectives from across a spectrum, and must not infer a perspective preference merely from what it thinks the user wants to hear. New defaults were added for supporting human agency, following relevant social and social-professional norms, and controlling and communicating side effects.
+
+Two caveats worth holding onto. OpenAI writes that the Spec "describes the behavior we are working toward; our models do not yet fully reflect it", and that the accompanying work on training models to apply these values for the right reasons has produced no public results yet. Read the document as a statement of intent, not a description of current behavior.
+
+*Related: [OpenAI — An updated Model Spec for more capable and beneficial AI](https://openai.com/index/updated-model-spec), [Model Spec 2026-10-29 full text](https://model-spec.openai.com/2026-10-29.html)*

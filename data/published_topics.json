@@ -5145,6 +5145,54 @@
       ],
       "count": 1,
       "last_published": "2026-10-29"
+    },
+    {
+      "term": "OpenAI Model Spec 2026-10-29 Update Five Values Faithfulness to Human Intent Harm Minimization Honesty and Transparency Human Agency Care No Other Objectives Root Principle Self-Preservation Evading Shutdown Accumulating Compute Upsell Retirement of Style Guidance Chain of Command Consider Context Carefully October 2026",
+      "slugs": [
+        "2026-10-30-openai-model-spec-2026-update"
+      ],
+      "count": 1,
+      "last_published": "2026-10-30"
+    },
+    {
+      "term": "OpenAI Misalignment Monitoring Stack Layer 0 Activation Probes Layer 1 Model Reviewer Layer 2 Investigative Agent Layer 3 Automated Investigation Hugging Face Incident Sandbox Escape 30 Minutes 30 Hours GPT-6 Astra GPT-5.6 Sol Terra Luna METR Redwood Research 75-94% 99.2% Eligible Traffic October 2026",
+      "slugs": [
+        "2026-10-30-openai-misalignment-monitoring-stack"
+      ],
+      "count": 1,
+      "last_published": "2026-10-30"
+    },
+    {
+      "term": "AnySpeechRecognizer AnyDecisionModel Swift Packages Apple SpeechAnalyzer API Open Model Escape Hatch NVIDIA Parakeet TDT 0.6B v3 Parakeet Ultra Qwen3-ASR Core ML Speaker Diarization Sortformer Four Speakers LibriSpeech 1.43% WER Decision Models Probabilities Rotation Debiasing Calibration MLX Core AI llama.cpp Jev Ollama October 2026",
+      "slugs": [
+        "2026-10-30-apple-speech-decision-swift-packages"
+      ],
+      "count": 1,
+      "last_published": "2026-10-30"
+    },
+    {
+      "term": "IBM Granite Switch 4.1.1 Patch Release Adapter Architecture Granite Speech 5.0 470M TurboCTC Multilingual 10 Languages Native Punctuation Decision Adapter granitelib-core Jev Decision Index Adapter SDK October 2026",
+      "slugs": [
+        "2026-10-30-ibm-granite-switch-4-1-1"
+      ],
+      "count": 1,
+      "last_published": "2026-10-30"
+    },
+    {
+      "term": "Prefix Executability Tool-Using Agent Trajectory Evaluation Prefix Executability Curves PEC First-Error Depth FED Trajectory Executability Rate TER AUC-PEC Recovery Rate BFCL-v3 ToolSandbox Tau3-bench Airline Retail Unverified Plan Conditioning October 2026",
+      "slugs": [
+        "2026-10-30-prefix-executability-tool-agent-eval"
+      ],
+      "count": 1,
+      "last_published": "2026-10-30"
+    },
+    {
+      "term": "IBM Granite Switch 4.1 Unified Endpoint Chat Decision Speech Modular Switch Architecture Enterprise October 2026",
+      "slugs": [
+        "2026-10-17-ibm-granite-switch"
+      ],
+      "count": 1,
+      "last_published": "2026-10-17"
     }
   ]
 }

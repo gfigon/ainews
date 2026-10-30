@@ -1,0 +1,33 @@
+---
+title: "IBM's Granite Switch 4.1.1 Ships Like a Software Patch — Because the Base Model Never Moved"
+date: "2026-10-30 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "A patch release with no base-model retraining, backwards-compatible versioning and an adapter SDK on the way: IBM is turning model delivery into a software release train."
+image: "/assets/post-images/2026-10-30-ibm-granite-switch-4-1-1.svg"
+---
+
+Most model releases are a full stop and a restart: a new checkpoint, new weights, a fresh API version, a migration guide. IBM's [Granite Switch 4.1.1](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1), published on 29 October, is the counter-example — it is a **patch release**, and the version number means what it would mean in software.
+
+## What actually changed
+
+Granite Switch 4.1 landed a little over a week ago, built on a modular **Switch architecture**: a single endpoint hosts a base model plus specialized, cache-efficient **adapters** that can be composed to add narrow expertise. Version 4.1.1 is fully backwards compatible with 4.1 — no migration, incremental improvements under the hood.
+
+Two concrete updates ship in it:
+
+- An updated **Granite Speech ASR model** ([granite-speech-5.0-470m-turboctc](https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc)), doing multilingual speech-to-text across **10 languages** with native punctuation and capitalization, so transcripts arrive pre-formatted for downstream models.
+- An updated **Decision adapter** in [granitelib-core](https://huggingface.co/ibm-granite/granitelib-core-r1.0), with improved overall performance on the Jev Decision Index test set.
+
+The numbers are unremarkable in isolation. What is remarkable is the cost structure. Apart from training the new ASR model and the Decision adapter, **nothing was recomputed** — the base model was not touched at all. You compose the adapters you want and deploy.
+
+## Why the versioning matters more than the features
+
+There is a strategic claim hidden in the patch number. If the base model is stable and the changing parts are adapters, then model behavior becomes a **dependency you version** rather than a monolith you re-download. That implies diffing, regression testing, rolling back a single adapter, and shipping a hotfix without re-running the whole training stack. IBM says it is working on tutorials and an **Adapter SDK** so third-party providers can build, version and ship their own adapters the same way they ship software.
+
+Two caveats are worth stating plainly. First, a patch release is only a patch release if the ecosystem actually treats adapters as separately versioned artifacts — the SDK is not out yet, so today that discipline is IBM's own. Second, "no migration" is a claim about the interface, not about behavior: a changed Decision adapter can still shift downstream outputs, so the promised regression-testing discipline has to come with it.
+
+The interesting part is not the 470M ASR checkpoint. It is that a frontier-adjacent lab is now describing its model line in semver terms — which suggests the next stage of model delivery is version control, not bigger checkpoints.
+
+*Related: [Granite Switch 4.1.1 on Hugging Face](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1), [ibm-granite/granite-switch-4.1-30b](https://huggingface.co/ibm-granite/granite-switch-4.1-30b)*

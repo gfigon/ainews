@@ -1,0 +1,34 @@
+---
+title: "Tool-Agent Benchmarks Reward Luck: Prefix Executability Exposes Trajectories That Should Never Have Worked"
+date: "2026-10-30 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "A new evaluation protocol asks whether every prefix of a tool-call trajectory was actually executable, and finds agents whose final success rests on unverified plans."
+image: "/assets/post-images/2026-10-30-prefix-executability-tool-agent-eval.svg"
+---
+
+Tool-use benchmarks almost universally score one thing: did the agent finish the task? A paper submitted to arXiv on 29 October argues that this metric rewards agents whose intermediate steps never actually worked, and proposes measuring the trajectory instead.
+
+The proposal — **prefix executability** — treats a tool-calling sequence as a chain that must stay legal at every point. For each prefix of the predicted tool-call sequence, the protocol checks whether it remains executable given **tool schemas, state preconditions, and data dependencies**. A call that references a record that was never created, or a tool invoked with a value that only exists after a step the agent skipped, is invalid even if the final answer happens to be right.
+
+## The metrics
+
+Rather than a single number, the protocol reports a family:
+
+- **Prefix Executability Curves (PEC)** — executability as a function of trajectory depth.
+- **First-Error Depth (FED)** — where invalidity first enters.
+- **Trajectory Executability Rate (TER)** — the share of trajectories that stayed executable throughout.
+- **horizon-normalized AUC-PEC** — a length-independent summary.
+- **Recovery Rate (RR)** — whether success follows *recovery* from an earlier failure, rather than never having failed at all.
+
+It was instantiated on stratified samples from **BFCL-v3 multi-turn** and **ToolSandbox**, plus the complete Airline and Retail base splits of **τ³-bench**.
+
+## The uncomfortable result
+
+Outcome-only and prefix-level rankings **diverge**. Agents whose execution is conditioned on an *unverified plan* often post **higher point-estimate final success** than non-plan-conditioned baselines — while substantially **lowering TER and AUC-PEC**. In plain terms: conditioning on a plan the agent never validated makes an agent look better on the headline metric precisely because the plan lets it skip steps that were never valid.
+
+That is a benchmark-design problem with teeth. If plan-conditioning raises the score while lowering trajectory validity, then final success is measuring the evaluator's leniency, and the two rankings are selecting different agents. The paper also tests a validation intervention: **explicit pre-execution plan checking** improves executable-prefix survival while keeping terminal success competitive — which is the cheapest available fix for the gap.
+
+The paper is on [arXiv](https://arxiv.org/abs/2610.40444) under ID 2610.40444, submitted 29 October 2026.
