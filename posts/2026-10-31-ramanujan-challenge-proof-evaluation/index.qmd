@@ -1,0 +1,30 @@
+---
+title: "AI Proved an Open Conjecture in Number Theory. Grading It Turned Out to Be the Harder Problem"
+date: "2026-10-31 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Results from the Ramanujan Challenge show one of two open number-theory conjectures received a complete Lean proof, while AI judges wrongly marked 23% of natural-language proofs correct — a structured pipeline cut that to 6%."
+image: "/assets/post-images/2026-10-31-ramanujan-challenge-proof-evaluation.svg"
+---
+
+The Ramanujan Challenge set ten research-level number theory problems at the edge of published mathematics: eight proved by the organizers but kept unpublished to avoid contamination, plus two open conjectures. Participants sent **228 submissions** — 4,802 pages of natural-language proofs and 1,079,380 lines of code across Lean, Python, Mathematica and Sage. The results are now out.
+
+## What Was Solved
+
+One of the two open conjectures, Conjecture 1, received a **correct and complete Lean formalization** alongside several natural-language proofs the problem's author judged likely correct after discussion. Conjecture 2 drew only partial attempts and remains open. The authors are explicit that the conjecture submissions were not exhaustively evaluated, so "open conjecture proved" is a partial result, not a clean sweep.
+
+The tool breakdown is the more transferable finding. GPT/Codex produced the most correct natural-language proofs; Claude combined with GPT or Codex produced the most correct CAS/Lean code. Natural-language proofs backed by *both* CAS and Lean were correct 52% of the time, versus 38% for Lean-only formalizations and 6% for numerical checks alone. And Lean files containing `axiom`, `constant`, `sorry` or `admit` were never judged correct — 11% of their accompanying prose proofs passed, against 49% for clean Lean.
+
+## The Bottleneck Is Grading
+
+The paper's most important contribution is not a proof but an evaluation pipeline. Claude Opus 5 judging submissions one-shot was **too lax on 31.4% of natural-language proofs and 50.0% of code**, marking 23.4% of prose proofs and 38.3% of code as correct when they were not. Running the same model through a pipeline that summarises prose and code separately, compares them, and routes conflicts to manual review cut false positives to 5.8% and 3.3% — factors of 4 and 11.5 — and raised agreement with human verdicts on code from 45.8% to 58.3%.
+
+That 58.3% is the sobering part. Structured scaffolding improved an unchanged model; it did not make judging research-level mathematics reliable.
+
+## Why It Matters
+
+When models can produce proofs faster than experts can check them, validation becomes the binding constraint — and the fix is procedural, not a bigger model. The authors also note that correct solutions came from people with no higher mathematics training, including a high-school student, and one amateur's proof was found *simpler* than the organizers' own. Caveats: participants self-selected and self-reported their tools, and each proof was graded by a single human reviewer without cross-checking.
+
+*Related: [arXiv:2610.40551](https://arxiv.org/abs/2610.40551)*

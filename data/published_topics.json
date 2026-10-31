@@ -5233,6 +5233,22 @@
       "slugs": [
         "2026-10-31-pre-crime-agents-leak-probe"
       ]
+    },
+    {
+      "term": "OpenAI robots.txt __usage_ai-training IETF AI Preferences policy token training preference signal draft-kelley-aipref October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-openai-robots-txt-training-preference"
+      ]
+    },
+    {
+      "term": "Ramanujan Challenge results research-level number theory 228 submissions Conjecture 1 Lean proof evaluation pipeline false positives 23.4% 5.8% code agreement 45.8% 58.3% arXiv 2610.40551 October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-ramanujan-challenge-proof-evaluation"
+      ]
     }
   ]
 }

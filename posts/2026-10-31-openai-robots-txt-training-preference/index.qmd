@@ -1,0 +1,30 @@
+---
+title: "OpenAI Will Honor a robots.txt Signal for AI Training — but Your Wildcard Block Still Won't Count"
+date: "2026-10-31 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI says it will honor a shared IETF signal for AI training preferences in robots.txt — the first cross-provider opt-out mechanism. The catch: it lives in a policy token that wildcard groups are forbidden to match."
+image: "/assets/post-images/2026-10-31-openai-robots-txt-training-preference.svg"
+---
+
+For a decade, the standard way to tell a crawler not to use your content was to write `User-agent: <bot>` blocks per provider. Run a site with a dozen AI crawlers and you maintain a dozen nearly identical stanzas. On 30 October, OpenAI announced it will honor a **common signal** in robots.txt for AI training preferences, so one stanza can talk to every provider that adopts it.
+
+## The Mechanism
+
+The signal comes from the IETF AI Preferences working group: `draft-kelley-aipref-training-preference-signal-00`, authored by Anthropic's K. Kelley on 30 October. It deliberately introduces **no new directives and no new grammar**. A service operator writes an ordinary robots.txt group whose User-Agent line names a per-purpose policy token — in this draft, `__usage_ai-training` — and the group's rules then bind to that purpose.
+
+Lookup semantics are simple: a disallowed path means a preference *against* training use, an allowed path means a preference *in favor* of it, and a file with no `__usage_ai-training` line expresses **no preference at all**. The token matches case-insensitively like any other product token, and multiple tokens can share a group.
+
+## The Trap for Existing Sites
+
+The detail that matters most is a prohibition: **wildcard groups (`User-agent: *`) must not be interpreted as matching the policy token**. The single most common opt-out on the web — blanket-disallow everything for every bot — therefore does *not* express a training preference under this scheme. A publisher who wants to be explicit has to add a named group, and the draft also says consumers may treat proprietary policy tokens as *more* specific than the standard one, so the "specific beats general" precedence rule runs in operators' favour.
+
+The signal is also orthogonal to ordinary crawler rules. RFC 9309 rules about *whether to crawl* keep working exactly as before; content-usage preferences are a separate axis. OpenAI stresses that existing crawler controls still apply and that the new signal will not replace them.
+
+## The Honest Limits
+
+Implementation is "in the coming months", the work is voluntary, and nothing here changes copyright law or creates liability. A preference expressed in robots.txt is a request, not a license. The real value is mundane and real: it removes the per-provider maintenance burden and, if the working group gains traction, gives site owners one portable knob instead of a negotiation with each lab separately.
+
+*Related: [draft-kelley-aipref-training-preference-signal-00](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/), [OpenAI announcement](https://openai.com/index/helping-websites-express-ai-training-preferences)*
