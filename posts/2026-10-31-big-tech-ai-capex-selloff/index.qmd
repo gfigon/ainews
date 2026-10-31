@@ -1,0 +1,26 @@
+---
+title: "Intel Falls 29% and Big Tech's $750B AI Bill Faces Its First Real Audit"
+date: "2026-10-31 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "A two-day rout wiped roughly $1 trillion in tech value as Intel's worst day since the 1970s, Amazon's $220 billion capex forecast and Alphabet's record drop forced investors to price AI returns rather than AI ambition."
+image: "/assets/post-images/2026-10-31-big-tech-ai-capex-selloff.svg"
+---
+
+Friday, 30 October was the day the AI trade stopped being priced on ambition. The Nasdaq Composite slid **2.9%** — its largest one-day percentage drop since 5 June — and the two catalysts were earnings: Intel's guidance and Amazon's spending forecast. Reuters described the close as a rout driven by AI cash-burn fears; Bloomberg framed it as Big Tech's **$750 billion** AI bet colliding with slowing core growth.
+
+## Intel's Worst Day Since the 1970s
+
+Intel shares collapsed **29%** after the chipmaker guided to adjusted EPS of 25 cents on revenue of $15–16 billion, against consensus of $17.1 billion and 43 cents. Two things compounded it: an explosion at an Israeli fab that will cost roughly **$600 million** in lost revenue over two quarters and halted 10nm shipments, and a PC slowdown management now expects to run "at least through the first half of next year." Counterpoint data shows global PC shipments down 4% in Q2. D.A. Davidson downgraded to neutral with the note "Not fixed yet." The US government's 10% stake lost about **$12 billion** in value; Nvidia's stake, taken under last September's agreement, shed roughly $6 billion.
+
+Amazon fell 1.4% after a Q3 miss on both lines while **holding** its 2026 capex forecast at **$220 billion** — its second consecutive quarter of negative free cash flow. Alphabet, which already dropped more than 12% on Thursday, fell again; Microsoft had trimmed its own forecast to **$170 billion** from $175 billion and Alphabet held **$195–205 billion** while reporting more than $9 billion of negative free cash flow. Nvidia lost 4%, Broadcom 5%, Qualcomm 11%.
+
+## The Neocloud Contagion
+
+The damage spread furthest to compute-only providers: CoreWeave, Nebius, IREN and Oracle all fell as the market read the hyperscaler numbers as a demand signal. This is the tail of the October 19 Gartner shock — a forecast that **80% of neoclouds** could cease operating as independent companies, with more than **$3.5 trillion** in AI infrastructure spending potentially exposed to impairment by 2030. Chief forecaster John Lovelock's framing was that the frontier-model market looks like table salt sprinkled into existing businesses, with an eventual Anthropic-OpenAI duopoly.
+
+The read for builders: the constraint is no longer willingness to spend, but whether it earns. For agents and inference, the same arithmetic that rattles markets — utilization, revenue per GPU-hour, negative FCF — is now the budget conversation.
+
+*Related: [Wall Street closes sharply lower as AI cash burn fears spark tech selloff](https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/), [Intel stock has worst day since 1970s](https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html), [AI buildout hits snag as Google and Microsoft put off raising capex forecasts](https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html)*

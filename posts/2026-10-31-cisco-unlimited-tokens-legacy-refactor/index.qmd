@@ -1,0 +1,28 @@
+---
+title: "Cisco Hands a 27-Year-Old Unlimited AI Tokens to Rewrite 98% of Its Legacy Code"
+date: "2026-10-31 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Industry News
+summary: "Cisco president Jeetu Patel gave Padmanabhan Krishnamurthy unlimited tokens and 24 months to refactor 98% of the company's legacy code with a two-person team, betting that junior engineers and agent budgets replace career ladders."
+image: "/assets/post-images/2026-10-31-cisco-unlimited-tokens-legacy-refactor.svg"
+---
+
+Cisco president and chief product officer Jeetu Patel told Fortune he has given an engineer he found "five levels" below him in the org chart **unlimited AI tokens** for a job most firms would hand to a decade of veterans: rewriting the company's legacy codebase. "I've given him unlimited tokens because he's going to refactor code. So I'm like, you can go, you can go nuts."
+
+The engineer is **Padmanabhan Krishnamurthy**, 27, who joined Cisco in 2025 after the company acquired EzDubs, the real-time translation startup he co-founded in 2023. He told Fortune he believed he could rewrite Cisco's legacy code with a **two-person team** — a claim Patel said even his most AI-forward leaders were not making. The setup: four weeks to prove the approach, a **24-month** target of refactoring **98% of Cisco's legacy code**, and no token ceiling.
+
+## What Unlimited Actually Buys
+
+The interesting part is not the number, it is the budgeting unit. "Unlimited tokens" converts an AI coding tool from a per-seat cost-control problem into an org-design decision: if inference is effectively free at the margin, the constraint moves from consumption to review capacity and trust. Cisco is not hiring more juniors to do data entry; it is giving the cheapest labor on the org chart the largest scope and the largest tool budget — and explicitly reframing that as a promotion rather than a demotion.
+
+Patel's stated rationale is generational, not technical. "If you don't hire the early-in-career workers, and you just let your workforce continue the way that they were, where do fresh ideas get injected?" He treats every intern as a kind of reverse mentor, runs college talks to find students who are "hungry," and told Fortune that pairing a Gen Z hire with veterans creates friction — which he wants: "Tension is good... you want to have enough friction on the ideas."
+
+## The Counter-Current
+
+That stance runs against the hiring data Patel himself cites: some **40% of bosses** say they plan to hire fewer graduates because AI can do the job more cheaply. His bet is that the scarce resource is not execution but the willingness to ask the question nobody else asks. Other investors are making the same generational bet — OpenAI backer Josh Kushner favors candidates with fewer than four years of industry experience.
+
+The unresolved question is review. A two-person team rewriting 98% of a legacy estate is not a productivity story; it is a verification story, and the token budget does not buy the latter.
+
+*Related: [Cisco is letting a 27-year-old refactor 98% of its legacy code with unlimited AI tokens](https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/)*
