@@ -1,0 +1,39 @@
+---
+title: "Coding Agents Now Write the Robot Simulations That Frontier Models Fail"
+date: "2026-10-31 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Gym-Anything for Robotics treats simulation authoring as a coding-agent task, producing RoboWorld, a 25-simulation benchmark where every frontier model scores an average reward of just 0.06."
+image: "/assets/post-images/2026-10-31-gym-anything-robotics-simulations.svg"
+---
+
+Robotics has a substrate problem. Reinforcement learning needs thousands of simulated physical tasks, but every simulation is hand-written by domain experts, so coverage stays narrow and iteration stays slow. A new paper, **Gym-Anything for Robotics** by Pranjal Aggarwal and Sean Welleck, proposes a strange but plausible fix: let coding agents write the simulators.
+
+## The Core Insight
+
+Simulation creation, the authors argue, is a coding task like any other. That means the fast-moving improvements in coding agents transfer directly into richer, more faithful physics environments — no robotics-specific modelling expertise required. The pipeline selects which physical tasks to simulate using **U.S. GDP data**, so the benchmark tracks economically valuable physical work rather than whatever happens to be easy to mock up.
+
+Quality is enforced by definition plus adversarial auditing. The authors write explicit definitions of what makes a good simulation and a good task, then run a **creation-audit loop** that checks each generated artifact against those definitions, sending failures back for revision.
+
+## RoboWorld Is Hard on Purpose
+
+The output is **RoboWorld**: 25 simulations, 25 test and 175 training RL environments, deliberately spanning difficulty levels. The headline result is how badly current models do: **every frontier model failed every single test task**, with an average reward of **0.06** out of 1.0. That is not a near-miss frontier — it is a blank sheet.
+
+## Four Ways to Climb
+
+The benchmark is only interesting because it ships with training signals. The paper introduces four mechanisms that each substantially improve scores:
+
+- **In-context learning** across repeated attempts at the same task
+- A **privileged teacher** that reads the raw simulator state and instructs the student in context
+- **Self-assisted learning**, where the model exploits its own privileged experience
+- **Code policies** that generate demonstrations across varied scenes to train vision-language-action models such as π₀.₅
+
+The through-line: the same agentic machinery that generates environments also generates the experience data needed to learn in them.
+
+## Why It Matters
+
+A 0.06 average reward is usually framed as a model limitation. Here it reads more as a **substrate limitation** — there was simply no benchmark of this shape to train against. What is genuinely new is that the supply side is now automated by the same agents driving the demand side. If coding agents keep improving, the simulation frontier moves with them for free, and the next generation of robot policies trains on physics that did not exist a year ago.
+
+*Related: [arXiv:2610.40565](https://arxiv.org/abs/2610.40565) · [gym-anything.github.io/robotis](https://gym-anything.github.io/robotis)*

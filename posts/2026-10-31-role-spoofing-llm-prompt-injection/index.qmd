@@ -1,0 +1,32 @@
+---
+title: "Models Decide Who Said What by Style, Not Role. Attackers Have Noticed"
+date: "2026-10-31 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "A new study shows LLMs attribute text to speakers by writing style rather than by labelled role, letting malicious tool output impersonate the user — and adversarial training against content injections cannot fix it."
+image: "/assets/post-images/2026-10-31-role-spoofing-llm-prompt-injection.svg"
+---
+
+Prompt injection usually looks like a content problem: bad text tells the model to do a bad thing. A paper by Ezra Edelman, Benjamin Edelman, Surbhi Goel and Eran Malach describes a different failure mode, one that survives most of the defenses built against injection.
+
+## Style Beats Label
+
+The mechanism is **role confusion** (first observed by Ye et al., 2026): when a model decides who produced a piece of text, it leans on cues of *style* — semantics, tone, formatting habits — more than on the *labelled role* the conversation assigned. Tell a model that a passage came from the system, from a tool, or from the user, and it weighs the prose against the label, and sometimes the prose wins.
+
+The attack this enables is **role spoofing**. Malicious content arriving through tool output — a poisoned webpage an agent fetches, say — is dressed to look like it came from the user. If the model believes the speaker, the injection inherits the user's authority instead of triggering the suspicion that tool output normally attracts.
+
+## Content Defenses Are Structurally Blind
+
+The paper's most useful finding is a negative one. In a toy setting, adversarial training that teaches a model to **ignore content-based injections** does suppress those attacks — and leaves the model fully exposed to **structure-based** ones. Fake control tokens and fake formatting are not content, so the trained defense never sees them.
+
+That offers an explanation for an uncomfortable observation: frontier models have grown markedly more resistant to standard injection techniques, yet role spoofing still works. The robustness is real; it is just robustness to the wrong axis.
+
+## The Probe Approach
+
+The proposed remedy sidesteps the training problem. Instead of trying to teach models to attribute correctly, the authors train **linear probes** that predict a message's role directly from activations, then flag conversations where the attribution does not match the labelling. Linear probes are cheap, inspectable, and reportedly effective across different settings — a monitoring layer rather than a behavioral patch.
+
+The open question is what a probe sees when the spoofing is subtle rather than crude. A detector that only catches loud forgeries leaves the quiet ones in production.
+
+*Related: [arXiv:2610.40396](https://arxiv.org/abs/2610.40396)*

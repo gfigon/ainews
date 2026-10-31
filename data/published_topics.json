@@ -5249,6 +5249,22 @@
       "slugs": [
         "2026-10-31-ramanujan-challenge-proof-evaluation"
       ]
+    },
+    {
+      "term": "Gym-Anything for Robotics coding agents create robotics simulations RoboWorld 25 simulations 25 test 175 training RL environments average reward 0.06 GDP-based task selection adversarial creation-audit loop pi0.5 arXiv 2610.40565 October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-gym-anything-robotics-simulations"
+      ]
+    },
+    {
+      "term": "Role spoofing LLMs role confusion style over labelled role malicious tool output impersonate user content vs structure adversarial training blind to structure-based attacks linear probes detect roles arXiv 2610.40396 October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-role-spoofing-llm-prompt-injection"
+      ]
     }
   ]
 }
