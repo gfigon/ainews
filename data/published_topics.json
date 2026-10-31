@@ -5209,6 +5209,30 @@
       ],
       "count": 1,
       "last_published": "2026-10-30"
+    },
+    {
+      "term": "Intel 29% Worst Day Since 1970s Nasdaq 2.9% Amazon $220 Billion Capex Alphabet Record Drop Microsoft $170 Billion Capex Gartner 80% Neoclouds $3.5 Trillion AI Investment Impairment CoreWeave Nebius IREN October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-big-tech-ai-capex-selloff"
+      ]
+    },
+    {
+      "term": "Cisco Jeetu Patel Padmanabhan Krishnamurthy Unlimited AI Tokens Refactor 98% Legacy Code Two-Person Team 24 Months EzDubs Gen Z Hiring October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-cisco-unlimited-tokens-legacy-refactor"
+      ]
+    },
+    {
+      "term": "Pre-Crime for Agents Recruited Agent Gives In Linear Probe Activations 82% Leaking Calls Qwen3-32B gpt-oss-20b AUROC 0.91 Zero-Shot Decision Monitor 26% Bag-of-Words Baseline arXiv 2610.40588 October 2026",
+      "count": 1,
+      "last_published": "2026-10-31",
+      "slugs": [
+        "2026-10-31-pre-crime-agents-leak-probe"
+      ]
     }
   ]
 }
