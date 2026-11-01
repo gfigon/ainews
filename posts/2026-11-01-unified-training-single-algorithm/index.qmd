@@ -1,0 +1,36 @@
+---
+title: "Pretraining, SFT and RL Are One Algorithm Now — If You Look at It as Likelihood Fitting"
+date: "2026-11-01 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "A paper from CMU's Yuda Song, Fahim Tajwar, Daman Arora, Jeff Schneider and Daniel Khashabi shows that reinforcement learning objectives can be written as maximum-likelihood fitting to model-generated target distributions — collapsing pretraining, midtraining, SFT and RL into a single likelihood-based trainer that mixes static data and RL generations in one pass."
+image: "/assets/post-images/2026-11-01-unified-training-single-algorithm.svg"
+---
+
+The modern foundation-model recipe is a pipeline, not an algorithm: pretrain on a corpus, midtrain on more, supervised fine-tune on demonstrations, then reinforce against a verifier. Each stage ships with its own data, its own objective and its own trainer. A paper from CMU argues that separation is not fundamental.
+
+## The Argument
+
+**Training Foundation Models with a Single Algorithm** (Song, Zhang, Tajwar, Arora, Schneider, Khashabi) starts from a reformulation: RL objectives can be derived as **maximum-likelihood fitting to model-generated target distributions**. If that holds, then RL is not a different kind of learning — it is likelihood fitting where the target distribution is produced by the model itself and filtered by a reward.
+
+Once you accept that, every stage collapses into one operation. Pretraining fits likelihood to human text. SFT fits likelihood to curated demonstrations. RL fits likelihood to the model's own rewarded samples. The authors call the result **unified training**: a single likelihood-based algorithm whose only real knobs are *which data to train on, in what proportions, and when*. Conventional staged training is not the framework — it is a **special case** of it.
+
+## The Implementation
+
+The framework is not just a proof sketch. The authors built a **unified training system that mixes static data and RL generations inside a single trainer**, so on-policy samples and off-policy corpora are consumed in the same loop rather than in sequential phases.
+
+Results across controlled and real-world experiments:
+
+- **Improved accuracy-compute tradeoff** — better quality per unit of compute, not just better final quality
+- **Broader task coverage** while preserving the general capabilities of the staged baseline
+- **A stronger starting point for continual learning**, since the trainer no longer has to be reconfigured when the next phase arrives
+
+## Why It Matters
+
+The framing shift is from *engineering* to *science*. If the stages are one algorithm, then post-training is not "the RL part" of the recipe — it is a **data-mixture design problem** with an explicit knob for how much self-generated data to admit and when. That also makes continual learning less of a special project: there is no phase boundary to re-engineer, only a mixture to reweight.
+
+The practical caveat is the same one that always applies to unification claims: unifying the *objective* does not unify the *infrastructure*. Curriculum, data quality and credit assignment across mixed sources remain hard. But the direction is clear — the four-stage recipe looks less like a law of nature and more like a historical arrangement.
+
+*Related: [arXiv:2610.40564](https://arxiv.org/abs/2610.40564)*
