@@ -1,0 +1,36 @@
+---
+title: "FARMS: Turning Computational Mathematics into AI-Ready Knowledge with Lean-Checked Provenance"
+date: "2026-11-01 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "A new arXiv paper presents FARMS, a pipeline that converts computational mathematics into reusable AI knowledge by linking formal statements to their source text, algorithmic meaning and quantitative guarantees — with Lean-checked implications connecting accepted results to the computational skills they license."
+image: "/assets/post-images/2026-11-01-farms-computational-math-ai-ready.svg"
+---
+
+The bottleneck in AI-assisted computational science is rarely the model. It is the knowledge underneath. A numerical method written in a 1998 paper may be mathematically sound, but an agent cannot reuse it unless the statement, the algorithm, and the error bound are all connected to something it can cite. **FARMS** — a Verifiable Foundation for Automated Computational Science — proposes a pipeline for building exactly that layer.
+
+## The Pipeline
+
+FARMS has three stages. **Source preparation** turns scattered computational mathematics into structured source material. **Reusable representations** capture algorithmic meaning rather than prose. **Semantic review** checks that what was extracted is faithful to what the source actually says.
+
+The pipeline was run against **171 targets** in randomized numerical linear algebra and numerical partial differential equations. **157 were accepted**, at mean estimated costs of **US $0.85–2.29 per target** across sources — cheap enough that the approach can be applied at scale rather than to a hand-picked shortlist.
+
+## The Verification Layer
+
+What separates FARMS from a documentation project is the proof obligation. **Lean-checked implications** derived from explicit source premises connect each selected statement to the computational skill it licenses, so a downstream agent can trace *why* a method is valid rather than merely *that* a paper claims it is. The paper illustrates this with two cases: a heat-flow solve and wave-response compression.
+
+That distinction matters for agents that write code. A method whose error guarantee is machine-checked against a stated premise is a method an agent can reason about. A method lifted from prose is a method an agent can only pattern-match.
+
+## Why It Matters
+
+The interesting claim is not that FARMS works on 171 numerical targets. It is that **provenance can be made cheap enough to be routine**. Most knowledge-curation pipelines fail on economics: the review cost per item scales with how carefully you check it, so the corpus stays small and only covers what someone cared to curate.
+
+At roughly a dollar per target, verification stops being a bottleneck and becomes a default. That is the precondition for a different class of agent: one that discovers numerical methods, checks them, and reuses them without a human in the loop deciding what counts as trustworthy.
+
+The caveats are ordinary ones. The evaluation domains are numerical linear algebra and PDEs — both mature fields with well-typed quantities, which flatters a pipeline built around formal statements. Symbolic or data-dominated computational science would be harder. And "semantic review" still carries a human-judgment component whose cost the per-target figure only partly captures.
+
+Still, the direction is a real one: from models that know about methods to agents that can prove why a method holds.
+
+*Related: [arXiv:2610.40560](https://arxiv.org/abs/2610.40560)*

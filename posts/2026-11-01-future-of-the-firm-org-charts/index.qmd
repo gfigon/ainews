@@ -1,0 +1,36 @@
+---
+title: "Three Org Charts for the AI-Native Firm — Beneath, Beside and Between"
+date: "2026-11-01 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "An essay published on OpenAI's new Intelligence Age platform argues that AI enters firms in three distinct places in the org chart — beneath workers as managed labor, beside them as colleagues, and between them as supervisors — and that the middle case is the most consequential for how firms actually restructure."
+image: "/assets/post-images/2026-11-01-future-of-the-firm-org-charts.svg"
+---
+
+Most AI workplace commentary asks one question: which jobs disappear? A new essay on OpenAI's [Intelligence Age](https://openai.com/index/the-future-of-the-firm/) platform asks a different one — where does AI sit in the org chart? The authors answer with three topologies, and argue that all three are already visible in subtle form.
+
+## Beneath: Everyone Becomes a Manager
+
+The first scenario keeps the human chart intact and grows a **basement** of AI labor underneath each individual contributor. You start with one or two agents per person — "eager interns" you supervise and forgive — and eventually your operation looks like a small firm with its own internal org chart, with you as board of directors.
+
+The key claim is that this is automation *without* pink slips. If AI does 90% of what you did, you don't get 10% of a job, you get a job with ten times the objective. The accounting team doesn't shrink because the rest of the company grew more productive and demands more accounting than ever.
+
+## Beside: The Interleaving
+
+Here AI joins the chart as a colleague, delegated to by existing human managers. It has to be competent enough to be a full team member, which pushes capability upward through an **escalator of scope**: task, then job, then team, then firm. Each rung is harder to build but easier to adopt — an executive can adopt an end-to-end automated function directly, while a narrow tool needs workforce-wide retraining.
+
+The asymmetry the essay hammers on: **firms learn technology; labor learns the firm.** Tools force the buyer to reorganize. Labor onboards itself. The more AI behaves like labor, the less retraining the firm must absorb.
+
+## Between: The Automation Sandwich
+
+The strangest case puts AI *above* people. An AI consultancy reads Slack threads, spots that sales promised a feature engineering never built, recommends delaying a launch — and notices that one engineer quietly built useful infrastructure nobody asked for, ensuring her contribution is credited.
+
+The authors argue management may automate **before** the work it manages, since a manager's job already lives on a computer and in the mind, while ground-level work tangles with atoms and tools.
+
+## Why It Matters
+
+The payoff is a set of concrete predictions rather than slogans: more firms at lower headcount, entry-level apprenticeship gutted (junior humans start at a higher rung, learning judgment rather than grunt work), a reduction in red tape, and persistent pay disparity if AI capability concentrates. It's also a warning about adoption strategy — narrow, tool-shaped AI needs the whole workforce on board, while agentic systems that arrive with their own org chart can be adopted from the top down.
+
+*Related: [OpenAI — The future of the firm](https://openai.com/index/the-future-of-the-firm/)*
