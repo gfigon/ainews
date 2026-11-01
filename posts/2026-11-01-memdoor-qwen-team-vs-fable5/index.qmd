@@ -1,0 +1,34 @@
+---
+title: "Five 27B Models Beat a Frontier Model on LiveCodeBench Hard — and Published Every Token"
+date: "2026-11-01 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "A rebuilt research harness showed five instances of Qwen3.8-27B scoring 9.8 of 10 on LiveCodeBench Hard against Fable 5's 8.0, with all 50 runs published — request by request, program by program, dollar by dollar — including the two runs where a manager destroyed a correct solution."
+image: "/assets/post-images/2026-11-01-memdoor-qwen-team-vs-fable5.svg"
+---
+
+The most interesting thing about this result is not the score. It is that the full evidence trail — every request, every reply, every generated program, every grader output, every dollar spent — was published alongside it, including the failures.
+
+## The Method
+
+GVS5H describes **ledger-based zero-shot self-orchestration**: fresh instances of a single model decompose a problem and coordinate through a shared filesystem holding a plan, notes and the current solution. No training, no orchestrator model — the file ledger is the coordination layer.
+
+Across eleven open and closed-weight models on the 100 latest hard LiveCodeBench problems, the method produced gains of up to **25.6 percentage points** on pinned backends. Orchestrated Qwen3.8 Flash Next reached **93.0% pass@1 against Fable 5's 90.4% at 9% of the cost**. Locally served open-weight Qwen3.8-27B went from **66.8% to 92.4%**. The authors are explicit that gains are not universal — some models got no better, or worse.
+
+## The Independent Rebuild
+
+The **Memdoor** team then rebuilt the harness as a declarative workflow with five roles — a planner, two parallel ideators, a solver, a manager — plus a repair worker, each starting from a fresh context and communicating only through files on disk. A shell script, not a model, decides success.
+
+On the first ten problems, five passes each: **mean 9.8 of 10**, against **9.6** for the authors' own harness and **8.0** for Fable 5 in a single call. **49 of 50** problems solved. The 50 runs cost **$35.79** (15.3M output tokens), or $38.77 including sixteen attempts cut by a clock, stopped for a fix or paused. Median run: **40 minutes of model time and $0.39**.
+
+## The Honest Part
+
+The caveats are printed next to the numbers. Ten problems, not a hundred. The contests date from March 29 to April 6, 2025, so **contamination cannot be ruled out**. Fable 5's column is the authors' single-call file, not a run in this harness.
+
+And two runs failed in instructive ways: in one, a manager invented a counterexample with a wrong expected answer, the team rewrote a correct program, and the rewrite passed the visible samples while failing the hidden test. In two others, a program that already passed every hidden test was overwritten because the manager never said done — at $3.44 and $4.24, the two most expensive runs in the set. Both are fixable without changing the method. Neither fix is in those numbers.
+
+The pattern is the story: a cheap model in a disciplined loop with a written ledger will keep working after the context is gone — and the manager, not the coder, is where the failures live.
+
+*Related: [GVS5H](https://github.com/slee-persis/GVS5H) · [Memdoor team-solve workflow](https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve) · [HN thread](https://news.ycombinator.com/item?id=50320995)*

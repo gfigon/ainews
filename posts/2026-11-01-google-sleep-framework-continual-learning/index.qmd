@@ -1,0 +1,34 @@
+---
+title: "Deployed Models Never Learn. Google's 'Sleep' Framework Gives Them a Memory Cycle"
+date: "2026-11-01 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Google Research's sleep framework gives an LLM a wake-and-sleep lifecycle: during offline phases a Mixture-of-Experts model expands its own memory blocks, distills context into weights and rehearses on self-generated dreams — retaining 10M tokens of context without catastrophic forgetting."
+image: "/assets/post-images/2026-11-01-google-sleep-framework-continual-learning.svg"
+---
+
+A deployed LLM is frozen. It has a knowledge cutoff, it answers from a context window, and when the session ends everything it learned is gone. Post-training and retrieval both look like answers to that, and neither is: one has to be scheduled, the other just moves the problem.
+
+Google Research's latest write-up describes a third option — treat the model as having a sleep cycle.
+
+## Wake, Then Sleep
+
+Under the **sleep paradigm**, the model alternates between an active phase, where it handles inputs and holds temporary information in fast short-term memory, and an offline **sleep phase**, where it stops serving traffic and turns its compute inward.
+
+The architecture makes this possible: a **Mixture-of-Experts** model with pre-allocated memory blocks. During sleep, newly unlocked low-rank experts are integrated into stable, lower-frequency memory modules, so new knowledge lands in expanded capacity rather than overwriting old parameters. That is the direct answer to catastrophic forgetting — not better regularization, more room.
+
+Fragile in-context memories are then moved down into those parameters through **knowledge seeding**, an upward distillation combining Generalized Knowledge Distillation with RL-based imitation learning. Once consolidation finishes, the temporary high-frequency parameters are reset — synaptic pruning, freeing capacity for the next session.
+
+## Dreaming
+
+The second stage is self-improvement. The MoE router randomly activates non-standard experts so the model mixes domains it would not otherwise combine, generates synthetic training samples, filters them by gradient-based data selection, and fine-tunes on the survivors. The theory section frames this as broadening the set of gradient directions explored, not as ordinary data augmentation.
+
+## What It Actually Bought
+
+On BABILong, sleep-based consolidation scales to **10M tokens**, past GPT-4 and Google's Titans. On factual incorporation it reached **48.9%** single-task and **46.2%** on continued pre-training, beating SFT and SEAL. On AIME 24/25 and HMMT 25, sleep-enhanced base models hit **79.2%**, **69.0%** and **46.1%** over SFT, GRPO and on-policy self-distillation. In continual translation into unseen languages such as Manchu and Kalamang, the framework held a near-zero performance drop where ICL, Cartridges and SFT collapsed.
+
+The caveat is the one the paper states plainly: "sleep" runs inside a fixed architecture and human-defined training rules. Nothing here is self-directed in any meaningful sense.
+
+*Related: [arXiv:2606.03979](https://arxiv.org/abs/2606.03979) · [Google Research blog](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/)*

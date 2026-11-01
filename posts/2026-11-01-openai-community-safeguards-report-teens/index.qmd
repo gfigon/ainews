@@ -1,0 +1,32 @@
+---
+title: "OpenAI Promises a Public Safety Report on Violence — and Makes Its Answers Duller on Purpose"
+date: "2026-11-01 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "OpenAI has committed to publishing a Community Safeguards Report on violence prevention twice a year, starting in early 2027, while tightening answers about past mass attacks, ending chats that fixate on violence and extending weapons-information limits to teens without any sign of intent."
+image: "/assets/post-images/2026-11-01-openai-community-safeguards-report-teens.svg"
+---
+
+OpenAI's safety communications have so far been mostly defensive: here is the classifier, here is the red-team report, here is how we detect misalignment. The new announcement is different in kind, because it commits the company to publishing what its safeguards fail to catch.
+
+## The Report
+
+OpenAI will launch a **Community Safeguards Report** on violence prevention and other community safety issues, covering how its systems are trained to detect, investigate and respond, what violence-related harm looks like in practice, and which mitigations follow. The first edition covers the second half of 2026 and lands in **early 2027**, with updates **every six months** thereafter.
+
+The context is the number OpenAI chose to lead with: **over 200 law enforcement referrals in Q3 2026**, which the company links to disrupted violent plots.
+
+## Duller Answers, For Everyone
+
+Alongside the report, OpenAI is tightening how ChatGPT responds to questions about **past mass attacks and their perpetrators** — restricting reconstructions that detail weapons, equipment, how they were obtained, and comparisons of scale that could amplify an attacker's notoriety.
+
+Two details matter. The limits apply **regardless of the user's age or stated reason for asking**. And the framing is explicitly not a ban on the topic: users should still be able to understand these events, learn about warning signs and prevent violence — just not rebuild them.
+
+## Warning Signs and Teens
+
+The context-sensitivity work from May is being extended. When recent chats show warning signs of violence, ChatGPT will respond more conservatively about information that could be misused — and the stricter limits will also apply whenever the system **predicts a user is under 18**, even with no violent intent at all. Where a conversation shows fixation on harming someone, ChatGPT can now **end the chat automatically**; repeated endings can mean a temporary account pause.
+
+For teens, the limits extend to practical information about **weapons and security systems** that could facilitate violence, again regardless of intent. Age prediction, launched last year, is being strengthened to re-evaluate continuously and move users into the under-18 experience as signals accumulate.
+
+*Related: [OpenAI announcement](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)*
