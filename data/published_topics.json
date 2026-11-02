@@ -5321,6 +5321,30 @@
       "slugs": [
         "2026-11-01-farms-computational-math-ai-ready"
       ]
+    },
+    {
+      "term": "RoboArchitect Automated Robot Agent Harness Design Frozen VLA Policy 9.7% 43.3% Unseen Scenes 12.7% 40.2% X-VLA VLABench Stanford arXiv 2610.42141 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-roboarchitect-automated-robot-harness"
+      ]
+    },
+    {
+      "term": "Cognitive Architecture Module Claim Audit 25 Modules 18 Dead Code Global Workspace Theory of Mind IIT-phi 61 Frozen Criteria Planner Task Success 0.028 1.000 arXiv 2610.41604 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-cognitive-architecture-claim-audit"
+      ]
+    },
+    {
+      "term": "AI Control Monitors Authorship Shortcut Backdoor Detection Dataset Claude Sonnet 5 Simple Features Outrank 20 of 24 Monitors NeurIPS 2026 EvoRobust arXiv 2610.41713 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-ai-control-monitors-shortcut-benchmark"
+      ]
     }
   ]
 }

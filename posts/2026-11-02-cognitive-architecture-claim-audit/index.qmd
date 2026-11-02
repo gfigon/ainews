@@ -1,0 +1,38 @@
+---
+title: "An Audit Found 18 of 25 Agent 'Cognitive Modules' Were Dead Code"
+date: "2026-11-02 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "A pre-registered static audit of a system claiming 25 cognitive-architecture mechanisms found the computed value never reached any production output in 18 of them; repairing the dead wiring — not adding intelligence — lifted planner task success from 0.028 to 1.000."
+image: "/assets/post-images/2026-11-02-cognitive-architecture-claim-audit.svg"
+---
+
+Agent frameworks are increasingly sold through the vocabulary of cognitive architecture. Modules named *global workspace*, *theory of mind*, *causal reasoning* or *active inference* appear in feature lists, and the presence of the name is treated as the presence of the mechanism. Nobody has been checking.
+
+## Asking the Prior Question
+
+Peter Chen, Ni Zhang, Ying Xu and Siyuan Zhang asked the prior question first: does the named computation actually happen? Their answer is a transferable verification method for the claim-implementation gap — a four-question static audit protocol built on line-number evidence and call-chain tracing.
+
+They applied it to a system claiming 25 cognitive mechanisms, pre-registered falsifiable predictions for 11 modules, then actually executed the interventions. The protocol was replicated on the IIT-phi core of a second, independent system with its own pre-committed falsification criteria, and two repair experiments were run as positive controls.
+
+## Eighteen Wires Going Nowhere
+
+In **18 of 25 modules the computed value never reaches any production output**. The paper names three idle-wiring shapes that it says are new to the dead-code and code-smell literatures: *connected-but-never-called*, *called-but-inert*, and *called-but-content-blind*.
+
+Of 61 frozen criteria across 12 interventions, **53 were confirmed, two partially adjudicated, five falsified and one remained ambiguous**.
+
+The repair experiments are the part worth remembering. Fixing the dead wiring raised planner task success from **0.028 to 1.000** and cut state-controller error by **52%**. Not a better model, not a new reasoning method — reconnecting modules that were named but not wired.
+
+## Why It Matters
+
+This is not a paper about one bad codebase. It is an argument that module *names* and module *computations* are independent claims, and that the second has to be checked separately. In an industry where agent frameworks list "theory of mind" in a feature matrix, that check has not been standard practice.
+
+The three wiring shapes are worth spelling out, because each one fails a different way. A module that is *connected but never called* is pure documentation — the data flows in and stops. One that is *called but inert* runs and returns something the caller ignores. One that is *called but content-blind* produces a real value that never reaches the output because the plumbing between them is missing. All three look identical from the outside: the module exists, it is referenced, and nothing changes.
+
+## The Scope
+
+The scope is honest: a static audit at two-system, case-level depth. A dormant module may be intentionally dormant, and the protocol cannot prove a mechanism does useful work — only that it does not compute anything, or that it does.
+
+*Related: [arXiv:2610.41604](https://arxiv.org/abs/2610.41604) · [Audit artifact](https://doi.org/10.5281/zenodo.23433900)*

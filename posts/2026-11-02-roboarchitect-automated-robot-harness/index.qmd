@@ -1,0 +1,32 @@
+---
+title: "RoboArchitect: Frozen Robot Policies Go From 9.7% to 43.3% Without a Single Weight Update"
+date: "2026-11-02 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "A Stanford team lets a coding model design the agent harness around a frozen robot policy: held-out success rises from 9.7% to 43.3% on unseen scenes and 12.7% to 40.2% on unseen tasks — and around a general X-VLA policy the evolved harness even beats the same policy finetuned on the benchmark."
+image: "/assets/post-images/2026-11-02-roboarchitect-automated-robot-harness.svg"
+---
+
+Robotics labs keep reaching for the same lever: a bigger policy, a longer finetune, a newer base model. A Stanford group led by Serena Yeung-Levy just published evidence that a different lever was sitting there the whole time — the harness wrapped around the policy.
+
+## The Harness Is Where the Robot Lives
+
+A VLA policy is a frozen mapping from pixels and instructions to motion chunks. It is good at what it saw and brittle everywhere else. The paper's opening claim is that a frozen policy performs dramatically better inside an *agent harness*: control code that decides when to query the policy, when to call an auxiliary vision or grasp model, and when to bypass the policy entirely and command the arm directly.
+
+Those harnesses are hand-written today, and rebuilt from scratch for every new robot and benchmark.
+
+**RoboArchitect** automates the design. A coding model runs the agent on training episodes, records every step (camera frames, robot readings, every model and tool output), diagnoses the failures, and writes a revised harness. The revision replaces the incumbent only if it scores higher on the same episodes. After N iterations the final agent is evaluated on held-out episodes never used for optimization.
+
+## What It Bought
+
+Average success rose from **9.7% to 43.3%** on unseen scenes (4.5x) and **12.7% to 40.2%** on unseen tasks (3.2x), across policies and benchmarks. The per-cell numbers are starker than the averages: OpenVLA-7B on LIBERO-Pro-10 went from 0.0% to 26.0% on unseen scenes, RLinf-pi0.5 trained on LIBERO-130 from 2.0% to 40.0%, SmolVLA on RoboCerebra from 0.0% to 38.0%, and X-VLA on SimplerEnv WidowX from 0.0% to 87.5%.
+
+The most quoted result is a direct comparison with finetuning. X-VLA is a general-purpose policy never trained on VLABench. The evolved harness around the *unfinetuned* model scored **52.6%** on unseen scenes and **72.5%** on unseen tasks. X-VLA **finetuned** on VLABench scored **35.2%** and **32.1%**. The harness beat the weights. Iterative refinement also beat one-shot agent design on nearly every held-out set.
+
+The harnesses that came out read like something a person wrote: *reaches in from the side under a shelf board*, *reaches the named object, not a memorized place*, *pushes until the door latches shut*. The agent also grows a persistent memory with no fixed schema — the coding model decides the entries, their format, and when the agent reads them — carrying experience like which grasp depth worked across episodes. The same approach produces one unified harness spanning the Franka arm, WidowX and the Google robot.
+
+Everything here is simulation (LIBERO-Pro-10, RoboCerebra, VLABench, RoboCasa-365, SimplerEnv), and the optimisation loop needs rollouts to run on.
+
+*Related: [arXiv:2610.42141](https://arxiv.org/abs/2610.42141) · [Project page](https://roboarchitect-ai.github.io/)*
