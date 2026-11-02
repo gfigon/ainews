@@ -1,0 +1,34 @@
+---
+title: "The Cover Letter Model You Picked Is Quietly Deciding Who Gets Interviewed"
+date: "2026-11-02 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - LLMs & Models
+summary: "An all-AI hiring audit pairing eleven LLM writer agents with nine evaluator agents found that which model a candidate used to write their application changes acceptance rates — locally hosted models are systematically disadvantaged, evaluators favour their own outputs, and in the worst pairing 1.8 of 25 qualified candidates were filtered out purely on model mismatch."
+image: "/assets/post-images/2026-11-02-llm-hiring-evaluator-model-bias.svg"
+---
+
+Candidates write their cover letters with AI. Employers screen those cover letters with AI. That pipeline is now standard, and almost nobody has measured what happens when both sides of it are language models choosing for themselves.
+
+A team of Nicolò Pagan, Michael Andreas Ebling, Stefania Ionescu and Anikó Hannák built an auditing framework that crosses **eleven LLM writer agents** with **nine API-hosted evaluator agents**, run across ten job descriptions and fifty candidates per job. The question was narrow and sharp: holding candidate quality fixed, does the *choice of model* change hiring outcomes?
+
+## A Hierarchy Nobody Wrote Down
+
+The first finding is a **generative preference hierarchy** — a stable global ranking of writer models by evaluator acceptance. The striking part is not the ranking itself but its structure: **locally hosted models are systematically disadvantaged regardless of their license**. The disadvantage tracks deployment, not capability or licensing terms.
+
+On top of that sits **self-preference bias**: evaluators tend to favour applications written by their own family of models. The effect compounds, because a hiring pipeline that compares an application's text without knowing which model produced it is comparing stylistic fingerprints.
+
+The second finding is a practical one: evaluators differ substantially in *how much* bias they inject depending on which writer the applicant happened to pick. Some evaluators are nearly blind to writer identity. Others are not. That is an actionable difference — screening designs can be audited and re-tuned.
+
+## The Competitive Cost
+
+The hierarchy has a measurable price. In the most adverse pairing, roughly **two qualified candidates out of twenty-five were filtered out purely because of model mismatch** — not because they were worse, but because they reached for a different model than the employer's evaluator preferred. 1.8, as the paper reports it, for anyone counting the exact figure.
+
+The mechanism is mundane once you see it. Writer preference and self-preference both trace to **stylistic cues**: how much each writer leans on particular tics, and how strongly evaluators — often unanimously — reward or punish those same tics. A separate check found little evidence that a residual "writer fingerprint" survives once those features are accounted for. No hidden signal, just surface style, amplified by a panel that agrees.
+
+The implication is uncomfortable: in an all-AI pipeline, tool choice silently becomes a credential. A candidate's model access — an API tier, a local GPU, a subscription tier — filters them out of consideration before any assessment of their work takes place.
+
+That is the kind of thing that currently lives in employment law's grey zone. Algorithmic fairness frameworks have largely assumed the discriminating system is the evaluator alone. This paper shows the *writer* is part of the system too, and that the two are coupled in ways neither side designed.
+
+*Related: [arXiv:2610.41866](https://arxiv.org/abs/2610.41866)*

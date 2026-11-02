@@ -5345,6 +5345,22 @@
       "slugs": [
         "2026-11-02-ai-control-monitors-shortcut-benchmark"
       ]
+    },
+    {
+      "term": "AI Evaluators Favor Job Applications Written by Certain AI Models Independent of Candidate Quality 11 Writer Agents 9 Evaluator Agents 10 Job Descriptions 50 Candidates Locally Hosted Models Disadvantaged Self-Preference Bias 1.8 of 25 Qualified Candidates Filtered Model Mismatch arXiv 2610.41866 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-llm-hiring-evaluator-model-bias"
+      ]
+    },
+    {
+      "term": "Frozen in Time Physics Foundation Model Forgets Under Sim-to-Real Adaptation Walrus-1.3B SciFM Continuum Dynamics One-Step Errors 35x After 20 Epochs 1% Replay Recovers Simulation Performance arXiv 2610.40857 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-physics-foundation-model-forgetting"
+      ]
     }
   ]
 }

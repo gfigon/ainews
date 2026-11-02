@@ -1,0 +1,34 @@
+---
+title: "Your Physics Model Learned the Lab and Forgot the Simulation"
+date: "2026-11-02 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Fine-tuning a scientific foundation model on simulated flow around a cylinder degraded its one-step error on the original pretraining data by up to 35x after just 20 epochs, and adapting further to real experimental data eroded it further — but replaying 1% of the simulation data during real-data finetuning recovered most of the loss."
+image: "/assets/post-images/2026-11-02-physics-foundation-model-forgetting.svg"
+---
+
+Scientific foundation models promise a shortcut: pretrain on enormous physics datasets, then adapt to your specific experiment. The pitch is that adaptation is cheap and the prior stays intact. A new paper by Haaris Mian, Miles Cranmer, Alessandro Favero and Payel Mukhopadhyay puts a fine point on that claim, and the point is uncomfortable.
+
+## 35x in Twenty Epochs
+
+The subject is **Walrus-1.3B**, a scientific foundation model for continuum dynamics. The setting is a two-stage sim-to-real adaptation: first finetune on *simulated* flow around a cylinder, then adapt to *experimental* data of that same physical system.
+
+The first stage is where it breaks. Finetuning on the simulation rapidly degrades rollout performance on the model's original pretraining datasets — **one-step errors increasing by up to 35x after just 20 epochs**. This is catastrophic forgetting, but the timing is the story. Twenty epochs is not an abusive amount of training. It is a normal finetune run. The model does not warn you that it is going to lose the pretraining prior; it just does, quietly, and catastrophically.
+
+The second stage makes it worse. Adapting to the real experimental data further erodes performance on the simulated task. So the model that now matches reality better has become measurably worse at the simulated version of that same reality — the very distribution it was pretrained on and the one it was fine-tuned against moments earlier.
+
+## Why It Forgets
+
+The authors characterize the drivers rather than just reporting the symptom. Two matter: **dataset dependence** and **task representation similarity**. A model forgets more where the new task shares less structure with what it learned before, and the damage is uneven across the data rather than uniform.
+
+That is the kind of detail that changes how you build a pipeline. Forgetting here is not noise; it has a structure you can measure in advance, which means you can predict which capabilities you will lose before you start training.
+
+## One Percent Fixes Most of It
+
+The remedy is almost embarrassingly cheap. **Replaying as little as 1% of the simulated data during real-data finetuning recovers most of the lost simulation performance**, while retaining the effective adaptation to the experimental dynamics. Not a re-architecture, not a regularizer sweep, not a smaller learning rate — a data buffer containing one part in a hundred.
+
+There is a lesson here that extends well past physics. When a fine-tune destroys a pretraining prior, the first instinct is to treat it as a capacity problem or an optimization problem. Often it is neither. It is a forgetting problem with a known, cheap mitigation, and the reason it went unnoticed is that nobody measured the prior while they were training.
+
+*Related: [arXiv:2610.40857](https://arxiv.org/abs/2610.40857)*
