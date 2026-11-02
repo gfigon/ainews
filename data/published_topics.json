@@ -5361,6 +5361,22 @@
       "slugs": [
         "2026-11-02-physics-foundation-model-forgetting"
       ]
+    },
+    {
+      "term": "SimuGuard Auditing Plugin LIBERO RoboTwin RoboCasa RoboDojo Contact Artifacts Object Ejected Centimeter Penetration Area Threshold Constant Artifact Episodes 12 in 100 to None Success Rate 89% to 98% PhysX 5.3.1 LingBot-VA Band 75.8% to 98.5% around 83.1% arXiv 2610.41857 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-simuguard-simulator-artifact-audit"
+      ]
+    },
+    {
+      "term": "There Is No Free Loop Post-Training Layer Loops Inference Compute (N+m)/N Cost Per Token Qwen3 Qwen3.5 0.8B 9B Only Looped 0.8B Beats Equal-Parameter and Equal-FLOP Baselines 4B 9B Lose to Loop-Free Twin 13 Point Headroom arXiv 2610.42030 October 2026",
+      "count": 1,
+      "last_published": "2026-11-02",
+      "slugs": [
+        "2026-11-02-looping-models-inference-compute"
+      ]
     }
   ]
 }

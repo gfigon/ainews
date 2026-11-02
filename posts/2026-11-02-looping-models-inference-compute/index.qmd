@@ -1,0 +1,32 @@
+---
+title: "There Is No Free Loop: Post-Training Loops Only Pay for Small Models"
+date: "2026-11-02 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "Adding a layer loop to an already-pretrained model costs every generated token (N+m)/N more compute and left parameter count untouched — but across Qwen3 and Qwen3.5 from 0.8B to 9B, only the looped 0.8B model beat both a loop-free twin and an equal-FLOP unlooped baseline, while the 4B and 9B versions lost to a model trained identically without the loop."
+image: "/assets/post-images/2026-11-02-looping-models-inference-compute.svg"
+---
+
+Weight looping is a cheap-looking trick. Re-apply a block of layers so that each token passes through the block more than once, and you get a deeper model without adding parameters: disk size, memory footprint and training cost all stay exactly where they were. Rhea Sanjay Sukthanker and Pashmina Cameron set out to ask the obvious follow-up question — whether that trade actually holds — and the answer is largely no.
+
+## The Price
+
+The catch is arithmetic rather than philosophical. **Re-applying m of N layers makes each token about (N+m)/N times as expensive.** Every generated token pays for the loop. Loops a model learns *during* large-scale pretraining can justify that price, because the model was shaped around it. A loop bolted onto an already-trained model was not.
+
+## Two Baselines
+
+The comparison is deliberately hard on the looped model, because "the same parameters" is an easy comparison to win. The looped model is tested against two baselines: first, **the same model trained identically without the loop** — equal parameters, no architectural trick — and second, **the best unlooped use of the same inference floating-point operations**, i.e. equal FLOPs.
+
+Across **Qwen3 and Qwen3.5 models from 0.8B to 9B parameters, only the looped 0.8B model beats both baselines**. At 4B and 9B, the looped model does not beat the first baseline — the loop-free twin, trained the same way.
+
+## The Discomforting Part
+
+The obvious objection is that the benchmarks were too easy to separate the models. The authors rule that out with a gap check: **on the same benchmarks the unlooped 9B model still scores up to 13 points higher than the 4B model**, so there was clearly headroom for the looped 4B to win, and it did not.
+
+That leaves the plain reading of the result. Introducing loops into an already-pretrained model only pays off for **small models under a fixed parameter budget**. Beyond that, the loop is a surcharge with no return — you are paying a per-token tax on every output to obtain a depth the model was never trained to exploit.
+
+The practical read for anyone thinking about depth at inference time: the free lunch was real during pretraining, when the training cost was paid once. Adding it afterwards converts a one-time expense into a recurring bill, and for models above a few billion parameters the bill is larger than the gain.
+
+Paper: [arXiv:2610.42030](https://arxiv.org/abs/2610.42030)

@@ -1,0 +1,34 @@
+---
+title: "Your Robot Benchmark Score Is Partly the Simulator's Fault"
+date: "2026-11-02 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "An auditing plugin for four robot simulators found that failed episodes are often physics-engine artifacts rather than policy failures — changing one area-threshold constant dropped artifact episodes from 12 in 100 to none and lifted success on five container tasks from 89% to 98%."
+image: "/assets/post-images/2026-11-02-simuguard-simulator-artifact-audit.svg"
+---
+
+Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. A group led by Alex Zhou, Junhao Wu and Yongchao Chen argues that a meaningful slice of those failures belong to the simulator, not the policy — and that you can find them without changing how the evaluation works.
+
+## The Artifact
+
+Testing a vision-language-action model and a world action model in simulation, the authors found a recurring pattern: **the policy often places the object correctly, and the simulator then ejects it**. The same failure mode showed up in the benchmark's own scripted demonstrations, which are hand-designed and should not fail at all.
+
+That observation is what made the case. If the benchmark's own scripted demonstrations trip the same failure, the failure is unlikely to be about policy capability.
+
+## SimuGuard
+
+The response is a plugin, not a rewrite. **SimuGuard** attaches to LIBERO, RoboTwin, RoboCasa and RoboDojo and leaves the evaluation logic untouched. At every physics step it records state and flags an object that starts moving at a contact faster than the robot's contact or gravity can account for. It then replays a recorded episode bit for bit and re-runs it with a single simulation parameter changed.
+
+Tracing RoboTwin episodes down to the physics engine's collision detection produced a specific mechanism. **For geometry one to two centimeters apart, the engine reports a penetration of about two centimeters, and the solver throws the object out at several meters per second.** The cause is one constant: the distance algorithm discards triangles below a fixed area threshold, and valid triangles at centimeter scale fall below it.
+
+## One Constant
+
+With that single constant changed and nothing else, **episodes with an artifact fell from 12 in 100 to none**, and **success rate on five container tasks rose from 89% to 98%**.
+
+The authors' own recommendation for the field is a reporting one, and it is stricter than it first sounds. Benchmarks running on PhysX 5.3.1 or earlier should re-run in a repaired engine. Where the engine cannot be changed, the success rate should be published **together with the range it spans when every flagged episode fails or every one passes** — for LingBot-VA that means reporting a band of 75.8% to 98.5% around a headline 83.1%.
+
+That last number is the part worth sitting with. A published benchmark score is not a measurement of a policy; it is a measurement of a policy *plus* a physics engine, an area-threshold constant, and a set of geometric assumptions nobody wrote down. Until benchmarks report the simulator's contribution alongside the policy's, the leaderboard ranks physics engines as much as it ranks robots.
+
+Code: [github.com/ALEXander22568/simuguard](https://github.com/ALEXander22568/simuguard) · Paper: [arXiv:2610.41857](https://arxiv.org/abs/2610.41857)
