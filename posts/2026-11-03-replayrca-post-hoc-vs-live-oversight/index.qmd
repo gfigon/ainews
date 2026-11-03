@@ -1,0 +1,30 @@
+---
+title: "The Best Post-Mortem Diagnoser Is One of the Worst Live Supervisors"
+date: "2026-11-03 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "ReplayRCA scores agent failure diagnoses by counterfactual replay instead of annotation agreement, and finds that the strongest post-hoc diagnosers can be the weakest live supervisors (-14.5 points, p = 0.002)."
+image: "/assets/post-images/2026-11-03-replayrca-post-hoc-vs-live-oversight.svg"
+---
+
+Every agent failure-attribution benchmark scores a diagnosis by how well it agrees with a human label for "which step went wrong". **ReplayRCA** replaces the label with an outcome: restore the environment to the state before the suspected step, swap in the proposed action, let the *same* agent continue, and see whether the run now succeeds. The diagnosis is right exactly when the correction flips the result.
+
+That single change makes the metric harder to game, because a plausible-sounding explanation no longer earns credit. It also forces a control that rerun-based evaluation usually omits: a **paired placebo** that replays the agent's own original action through the same restoration mechanism. Without it, an agent that simply retries well gets credited to the diagnoser. The resulting score — *causal repair* — is the continuation success rate minus the placebo's.
+
+## The Result That Matters
+
+The benchmark runs on **OpsWorld**, a deterministic procedurally generated back-office environment with 15 tools, three task families, six difficulty levels, and a multimodal top level involving QR codes and handwriting. On **62 calibrated systematic failures**, the best of 13 frontier models (Grok 4.7) reaches a causal repair of **+51.3 points**.
+
+The interesting part is what happens below the leader. The top eight models are **statistically indistinguishable**, the flagship models of the two largest vendors rank **8th and 12th**, and **5 items are repaired by no model at all**. Forcing a strong model to intervene at the last step — the shortcut that annotation-based attribution benchmarks reward — costs it **17.1 points**.
+
+## Autopsy Is Not Oversight
+
+On **87 live runs**, the two best supervisors are tied, and one of them is a small open-weight model (DeepSeek V4.1 Flash). The model that ranks among the best post-hoc diagnosers (**GPT-6.1 Sol**) is the **weakest** live one, at **-14.5 points on the same runs (p = 0.002)**.
+
+The lesson is uncomfortable for anyone staffing an agent oversight pipeline with the same model used for post-hoc debugging: explaining a failure after the fact is not the same capability as preventing it mid-run. In the live track, the supervisor never learns whether the run will fail, and successful runs are mixed in so false alarms are measured too — conditions no retrospective trace provides.
+
+Environment and evaluation code are released. The caveat is that OpsWorld's released instances and generator structure remain learnable, so the numbers will need reproducing on environments agents have not seen.
+
+Paper: [arXiv:2610.41025](https://arxiv.org/abs/2610.41025)

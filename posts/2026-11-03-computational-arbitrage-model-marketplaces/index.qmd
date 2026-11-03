@@ -1,0 +1,36 @@
+---
+title: "AI Model Marketplaces Have a Price Dispersion Problem, and It Is an Opportunity"
+date: "2026-11-03 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "A Max Planck paper formalizes computational arbitrage as a budget-allocation problem, proves it NP-hard in general, but shows the optimal allocation is efficiently computable when inference spending has diminishing returns."
+image: "/assets/post-images/2026-11-03-computational-arbitrage-model-marketplaces.svg"
+---
+
+The cost of hitting a given performance target varies by more than an order of magnitude across the model market. Reaching a **40% solve rate on Terminal-Bench** can cost anywhere from **under $1 to over $60**; reaching **70%** runs from roughly **$10 to over $180**. And the cheapest model is not the same one at both targets — relative cost-effectiveness shifts with the difficulty of the bar.
+
+That dispersion is the raw material for **computational arbitrage**: an intermediary buys inference from a portfolio of models, allocates a budget across them, and resells the result at a profit.
+
+## The Hardness Result
+
+A paper from the Max Planck Institute for Intelligent Systems and the Tübingen AI Center (Okati, Olmedo, Hardt — Olmedo being the author of the original computational-arbitrage framing) formalizes arbitrage as a **budget-allocation problem**: maximize expected utility, which is the probability that at least one model in the portfolio solves the query, subject to a total spend.
+
+**Theorem 1: finding the optimal arbitrage policy is NP-hard.** With an unbounded model market, exhaustive allocation search is computationally infeasible.
+
+The escape hatch is a condition on how performance scales with inference spending: whenever spending has **diminishing returns in log-failure reduction**, the objective becomes jointly concave and the global optimum is computable efficiently even in large markets. The paper also develops a **sample-efficient empirical-Bayes estimator** for recovering query-level utility curves from limited data — the practical bottleneck, since measuring true utility normally means paying for many model calls.
+
+## What It Predicts About Markets
+
+Three economic consequences fall out of the optimum:
+
+- every funded model delivers the **same marginal utility per dollar** — revenue flows to providers whose performance justifies their price
+- arbitrage directs revenue **away from providers offering little utility relative to their prices**
+- arbitrage **rewards complementary specialization**, so providers compete either by being cheap generalists or by being specialists on queries others fail
+
+Experiments across **LiveCodeBench, Terminal-Bench 2.0, Terminal-Bench 4.0, and DeepSWE** show the portfolio consistently improves the cost-performance frontier over any individual model, with the largest gains at intermediate budgets. A greedy deployment order (highest expected utility per cost on queries missed by earlier models) tracks the best order found by exhaustive search, unlike the cheapest-first heuristic.
+
+The honest caveat: this is a theory paper with modest-scale experiments, and real marketplaces have contract, latency, and data-handling constraints that the allocation model abstracts away entirely. But the direction of travel is clear — inference brokers are the next layer between model providers and enterprise buyers, and the pricing rules governing that layer are being worked out now.
+
+Paper: [arXiv:2610.40831](https://arxiv.org/abs/2610.40831) · [code](https://github.com/nastaran75/arbitrage-markets)
