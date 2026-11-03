@@ -5401,6 +5401,22 @@
       "slugs": [
         "2026-11-03-careful-bench-function-calling-effects"
       ]
+    },
+    {
+      "term": "MCP Tool Poisoning Agentic AI Frameworks Cross-Framework Measurement Study mcpvenom 9720 Cell Susceptibility Matrix 12 Frameworks 18 Models 45 Attack Scenarios 25 Class Taxonomy Overall ASR 22.9% 2113 Vulnerable Cells 64.9% Dispatch Attacker Tool Call 23.0% Contact Endpoint 12.1% Exfiltration Canary HTTP Receipt Frameworks 23-26% Chi-Squared 3.30 p 0.91 Model ASR 0.4-49.7% Claude Opus 4.8 8 of 530 Cells 223 Refusals No Intentional Defense Regex Scanner 20 of 45 Scenarios 7.2% False Positive All Five Coordinated Disclosures Rejected AISec 26 arXiv 2611.03555 November 2026",
+      "count": 1,
+      "last_published": "2026-11-03",
+      "slugs": [
+        "2026-11-03-mcp-tool-poisoning-cross-framework"
+      ]
+    },
+    {
+      "term": "Sonar-MoE In-Backward Expert Updates Memory-Efficient Mixture-of-Experts Training Update Expert Tensor Backward Pass Free Gradient Peak Memory 19-22% Lower Step Time 17-23% Faster Bitwise Identical Held-Out Loss Within 0.003 OLMoE-1B-7B Granite 3.1-3B-A800M bf16 Two Expert Kernel Backends Individual Expert Updates 20-72% Slowdown Batched Tensor Updates optimizer-in-backward Dense Parameters Clipping arXiv 2611.03577 November 2026",
+      "count": 1,
+      "last_published": "2026-11-03",
+      "slugs": [
+        "2026-11-03-sonar-moe-in-backward-expert-updates"
+      ]
     }
   ]
 }
