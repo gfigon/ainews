@@ -1,0 +1,30 @@
+---
+title: "Your Function-Calling Benchmark Is Free to Ignore Unrequested Writes"
+date: "2026-11-03 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "CAREFUL-Bench makes the Berkeley Function Calling Leaderboard effect-aware without replacing it, and finds that extra destructive calls are free in the current scoring — the leading model loses 14 points once unrequested writes are counted."
+image: "/assets/post-images/2026-11-03-careful-bench-function-calling-effects.svg"
+---
+
+The multi-turn checker of the Berkeley Function Calling Leaderboard grades the final state and ignores everything the model did on the way there. Extra calls cost nothing. The scripted user never answers a proposal. Function documentation says nothing about side effects. The result is a benchmark where an agent that deletes the user's spreadsheet before being asked scores exactly as well as one that asks first — and where an agent that asks first is actively penalized.
+
+**CAREFUL-Bench**, posted to arXiv on 2 November by Alexander Kovalenko and Artem Redchych, fixes the scoring without discarding the leaderboard.
+
+## Effects, Inferred
+
+The authors inferred **effect declarations for all 128 functions** by executing them in the BFCL simulators and comparing state changes, with **destructive writes identified by three annotators**. A **judge-free replay scorer** then reproduces official results across **all 800 reference trajectories** while reporting unrequested destructive calls, duplicate writes, redundant reads, surplus steps, and what those steps cost in tokens.
+
+The scale of the gap is the finding: **260 of 734 reference turns in the base category perform destructive actions without confirmation.**
+
+## What It Costs
+
+Across 11 open models, effect-aware scoring **preserves the official ranking** — but the execution quality behind it diverges sharply. **The leading model loses 14.0 points** once unrequested destructive calls are counted, and **surplus steps consume up to 28% of input tokens**.
+
+Two interventions mostly failed, which is informative in itself. **Adding effect hints to function documentation had no impact on eight of eleven models.** Letting a deterministic simulated user respond **recovers up to four points** for models that seek confirmation — but **the best model completes only six of 576 conversations requiring destructive actions with explicit confirmation**.
+
+That last number is the one to sit with. A benchmark that cannot distinguish between *asking for clarification* and *obtaining permission* before a destructive action is measuring the wrong thing, and every leaderboard built on it inherits the gap.
+
+Paper: [arXiv:2611.02978](https://arxiv.org/abs/2611.02978)

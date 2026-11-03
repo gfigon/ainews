@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-03-compliance-atlas-ai-act-gap-analysis/index.html",
+      "/posts/2026-11-03-cua-master-instructional-video-agent-data/index.html",
+      "/posts/2026-11-03-careful-bench-function-calling-effects/index.html",
       "/posts/2026-11-02-simuguard-simulator-artifact-audit/index.html",
       "/posts/2026-11-02-looping-models-inference-compute/index.html",
       "/posts/2026-11-02-llm-hiring-evaluator-model-bias/index.html",

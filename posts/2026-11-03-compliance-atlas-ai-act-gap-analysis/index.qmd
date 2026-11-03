@@ -1,0 +1,32 @@
+---
+title: "Two Agents Turn AI Act Questionnaires Into Typed Gap Diagnoses"
+date: "2026-11-03 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "ComplianceAtlas pairs a literature-grounded taxonomy of technical AI Act gaps with a two-agent pipeline that reads questionnaire answers and emits ranked remediation plans — gap-type F1 of 0.831 against 0.533 for the strongest baseline."
+image: "/assets/post-images/2026-11-03-compliance-atlas-ai-act-gap-analysis.svg"
+---
+
+The EU AI Act's problem was never the regulation. It was the operational layer underneath it. A compliance officer asks a company how it logs, validates and monitors a high-risk system; the company answers in prose; and turning that prose into a typed, ranked, actionable gap diagnosis has until now been a manual job done by expensive humans reading a lot of documents.
+
+**ComplianceAtlas**, posted to arXiv on 2 November by Ilias Driouich, Hongliu Cao, Eoin Thomas, Yannick Devaux and Agnes Brodelle, proposes to automate the middle of that pipeline without pretending to replace the officer.
+
+## The Taxonomy Comes First
+
+The paper's foundation is a **literature-grounded taxonomy of technical compliance gaps**, covering areas such as accuracy, robustness, logging and human oversight. That ordering matters: rather than asking a language model to free-associate what might be wrong, the system reasons inside a fixed vocabulary of gap types.
+
+## Two Agents, One Pipeline
+
+On top of that taxonomy sits **GapToCompliance**, a two-stage agentic framework coordinating two specialized agents. A **Gap Extraction Agent** performs hierarchical reasoning, moving from broad compliance areas down to specific gap types. A **Remediation Planning Agent** then ranks actions from a remediation catalog using a multi-signal score combining **semantic similarity, regulatory alignment and effort estimation**.
+
+Evaluation across **9 AI systems and 6 AI families**, against four automatic gap-detection baselines, gives **gap-type F1 of 0.831 versus 0.533 for the strongest baseline**, and **remediation P@5 of 0.872 versus 0.635 for retrieval methods**.
+
+## Why It Matters
+
+Two details are worth more than the headline F1. First, the framework is **taxonomy-driven**, not regulation-driven — which means the same machinery extends to emerging regimes without a rewrite, a claim that is only credible because the taxonomy is separated from the pipeline. Second, the authors frame the result as a **human-in-the-loop** system where automation reduces expert burden while keeping auditability intact, rather than as a replacement for the compliance function.
+
+The obvious caveat: gap detection is only as good as the taxonomy behind it, and no F1 score measures whether the taxonomy covers the failure modes a regulator will actually ask about.
+
+Paper: [arXiv:2611.03121](https://arxiv.org/abs/2611.03121)

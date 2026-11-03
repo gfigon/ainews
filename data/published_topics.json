@@ -5377,6 +5377,30 @@
       "slugs": [
         "2026-11-02-looping-models-inference-compute"
       ]
+    },
+    {
+      "term": "CUA-Master Nested Double-Loop Recursive Improvement Computer-Use Agents Open-World Seeding Instructional Videos Autocatalytic Propagation Snapshot-Rollback Retry CUA-Master-27B OSWorld Verified 80.2 OSWorld 2.0 36.9 WeaveBench 43.9 Agents Last Exam 25.0 arXiv 2611.03126 November 2026",
+      "count": 1,
+      "last_published": "2026-11-03",
+      "slugs": [
+        "2026-11-03-cua-master-instructional-video-agent-data"
+      ]
+    },
+    {
+      "term": "ComplianceAtlas Taxonomy-Driven Agentic AI Framework Automated AI Act Gap Analysis Remediation GapToCompliance Gap Extraction Agent Remediation Planning Agent 9 AI Systems 6 AI Families Gap-Type F1 0.831 Baseline 0.533 Remediation P@5 0.872 Retrieval 0.635 arXiv 2611.03121 November 2026",
+      "count": 1,
+      "last_published": "2026-11-03",
+      "slugs": [
+        "2026-11-03-compliance-atlas-ai-act-gap-analysis"
+      ]
+    },
+    {
+      "term": "CAREFUL-Bench Effect-Aware Judge-Free Evaluation Multi-Turn LLM Function Calling BFCL 128 Functions Effect Declarations 800 Reference Trajectories 260 of 734 Destructive Turns Leading Model Loses 14.0 Points Surplus Steps 28 Percent Input Tokens Best Model 6 of 576 Confirmation Conversations arXiv 2611.02978 November 2026",
+      "count": 1,
+      "last_published": "2026-11-03",
+      "slugs": [
+        "2026-11-03-careful-bench-function-calling-effects"
+      ]
     }
   ]
 }

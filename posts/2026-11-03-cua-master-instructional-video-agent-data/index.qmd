@@ -1,0 +1,32 @@
+---
+title: "Computer-Use Agents Get Better by Watching Instruction Videos"
+date: "2026-11-03 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "CUA-Master closes the loop between real-world task footage and agent training data with a nested flywheel that mines instructional videos, reconstructs trajectories, and synthesizes harder tasks — a 27B model reaches 80.2 on OSWorld Verified without a closed loop that repeats itself."
+image: "/assets/post-images/2026-11-03-cua-master-instructional-video-agent-data.svg"
+---
+
+Computer-use agents are data-starved in a specific way. Public interaction traces are narrow, unverified, and hard to control — and the pipelines that would generate more of them tend to plateau, because an agent asked to invent tasks for itself ends up re-implementing the abilities it already has.
+
+**CUA-Master** proposes a different structure: a nested pair of flywheels that keep pulling genuinely new material in from outside the model. The paper, by an 18-author team including Xinlei Yu, Cheng Yang, Dongming Wu and Xiangyu Yue, was posted to arXiv on 2 November.
+
+## The Outer Loop
+
+At the system level, an outer flywheel continuously folds open-world corpora into the training set and, crucially, uses the model's *current* weaknesses to decide what to build next. Data construction is not a fixed pipeline run once — it is steered by where the last iteration broke.
+
+## The Inner Loop
+
+Inside that, a data-level flywheel does two things. **Open-world seeding** mines authentic workflows from instructional videos, then reconstructs trajectories along a dual visual-semantic path: what the screen shows, and what the narration says. **Autocatalytic propagation** takes those seeds and converts them into reusable primitives, from which diverse, complex and — the word that matters here — *verifiable* tasks can be synthesized on demand.
+
+The authors also add a **feedback-guided snapshot-rollback retry mechanism** for collecting trajectories in real environments, which is the unglamorous engineering that decides whether any of this survives contact with a real desktop.
+
+## The Numbers
+
+**CUA-Master-27B scores 80.2 on OSWorld Verified, 36.9 on OSWorld 2.0, 43.9 on WeaveBench and 25.0 on Agents' Last Exam.** The reported gains also persist across recursive iterations rather than flattening out — which is the specific failure mode the paper set out to avoid.
+
+The interesting part is not the score. It is that the 80.2 comes with a data engine whose inputs are instructional videos: an unbounded, human-authored, non-synthetic corpus of exactly the workflows agents are supposed to perform. The obvious next question is how much of the 80.2 comes from the method versus from simply having more and better task data — the paper's structure suggests the authors are aware that separating those two effects is the hard part.
+
+Paper: [arXiv:2611.03126](https://arxiv.org/abs/2611.03126)
