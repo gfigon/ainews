@@ -1,0 +1,37 @@
+---
+title: "The Teleoperator's Job Is Now a $21 API Call"
+date: "2026-11-04 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "PyRUA-DataFarm lets a coding agent rebuild a robot task in simulation from a single calibration episode and ship real-ready training data — 93 vs 84 successes against teleoperated baselines, 87 vs 46 under an unseen tablecloth and coloured light, for roughly $21 per task."
+image: "/assets/post-images/2026-11-04-pyrua-datafarm-teleoperator.svg"
+---
+
+Teleoperation is the default way to collect robot demonstrations, and it is expensive for two reasons: the robot and the operator are occupied for every episode, and every new task restarts from zero. A new work asks a blunt question — can a coding agent take over the teleoperator's job?
+
+**PyRUA-DataFarm**, posted to arXiv on 3 November, says yes, with a caveat worth reading carefully.
+
+## How It Works
+
+The agent receives a data request and **one calibration episode** of the robot in the target scene. It then rebuilds the entire task in simulation: it writes the scene, an expert controller, and a success judge. From there the pipeline runs itself. The simulator supplies **exact actions**, and a video model conditioned on the real images renders each rollout as photographic video — generating **all camera views together consistently**, which is the part that makes the output usable rather than merely plausible. What comes out is "real-ready" data: synchronized camera views labeled with the robot's actions, on which a policy can be trained directly and deployed on the physical robot.
+
+Independent judges certify both the expert and every rendered episode before admission, so bad rollouts are filtered rather than silently trained on.
+
+## The Numbers
+
+On **five real-robot tasks**, policies trained only on farm data matched policies trained on the same number of teleoperated episodes: **93 versus 84 successes in 100 trials**. The gap widens under distribution shift — with an **unseen tablecloth and coloured light**, the farm-trained policies held **87 successes while the teleoperation-trained policies fell to 46**.
+
+The cost story is the headline:
+
+- **$21** of API usage on average to adapt a task, paid once per task
+- **$5** for the render contract
+- **$0.80** per further episode for simulation, rendering and review — no robot, no operator
+- **$107** for one hour of three-view data, all in, versus a **$117** quote for teleoperation in China and **$290 in labour alone** in North America
+
+## The Catch
+
+One calibration episode is a real constraint. The agent is not learning the task from scratch; it is reconstructing a task it has already seen once. And the economics assume a video model that can render robot views photorealistically and cheaply, which is a moving target. The most valuable claim is not the dollar figure but the **87-versus-46 result**: the farm data is not merely cheaper, it is more robust to visual novelty than teleoperation, because the sim-to-real gap was never crossed in the first place.
+
+Paper: [arXiv:2611.05320](https://arxiv.org/abs/2611.05320)
