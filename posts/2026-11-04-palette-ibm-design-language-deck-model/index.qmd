@@ -1,0 +1,43 @@
+---
+title: "Palette Teaches a 20B Model to Build Decks in Your Design Language"
+date: "2026-11-04 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "IBM Research's Palette splits slide generation into a designer and a coder served by a single LoRA adapter on a 20B open-weight model, trains it on roughly 1,000 synthetic decks and 10,000 slides, and tops PresentBench on Economics and Education — with a check-and-repair harness that adds 3.5 points and never makes a slide worse."
+image: "/assets/post-images/2026-11-04-palette-ibm-design-language-deck-model.svg"
+---
+
+Ask a frontier model for one slide deck and you get a good one. Ask for ten and they start to look alike — the same tasteful defaults, the same house style, a faint "AI-generated deck" look. That collides with two hard requirements at once: the deck should follow *your* template, and the content may never leave your infrastructure. Both point at a model you own, with open weights, trained on your design language. The catch is that the small models you would actually self-host are bad at decks: titles vanish into the background, text runs off the slide, shapes stack on top of each other.
+
+**Palette**, published by IBM Research on the Hugging Face blog on 3 November, tests a single bet: that a small open-weight model, trained on synthetic data in your design language and policed by a harness, can compete with frontier systems while you keep ownership of the output.
+
+## The Move
+
+The design premise is that nobody builds a deck in one pass, so Palette splits the work the way humans do — into two roles served by **one LoRA adapter**:
+
+- the **designer** reads the plan and writes a structured JSON brief: palette, type system, and per-slide layout, content and rationale
+- the **coder** takes one slide's spec and writes the `pptxgenjs` JavaScript that draws it, preceded by its reasoning
+
+Each role now makes one kind of decision — editorial judgment versus geometry. The brief between them is human-readable and editable, so one slide can be changed without regenerating the deck. And because every slide's context is fixed before any code is written, coder calls run in parallel, one per slide, making that stage **6–7× faster**.
+
+## The Data
+
+No public corpus of plans, design decisions and slide code exists, so IBM generated one with a large open teacher: roughly **1,000 decks and 10,000 slides**, each seeded from a recipe fixing genre, length and layouts. Every example carries counterfactual reasoning — weighing an alternative and rejecting it — so the model learns the rule behind a choice, not just the choice. Coder examples run about 5× longer than designer examples, so the designer half was undersampled until it was oversampled 5×.
+
+Two details are worth stealing. Broken slides are caught by the same checker used at inference, repaired, and their reasoning rewritten — every mistake becomes a better example. And the hardest problem, **faithfulness** (a slide inventing facts not in the input), resisted prompt rules: fixing a reference deck reliably changed the teacher's output, while adding an instruction rarely did. The teacher copies references more reliably than it obeys.
+
+## The Harness and the Score
+
+Palette never returns raw output. Rules fix known mistakes (a malformed color code that would turn every slide black), a geometry checker flags overlapping, clipped or overflowing text, and flagged slides go to a separate editor model. The key rule: a rewrite is kept **only if the checker confirms the slide improved**, otherwise the original stays — the harness can fix a slide, but cannot make one worse. Across 131 PresentBench decks it adds **3.5 points** on average.
+
+On PresentBench it ranks first on Economics and Education, third on Talk, and second overall — **59.7 versus NotebookLM's 60.8**, ahead of the rest of the field, as a single 20B open-weight model.
+
+## Why It Matters
+
+The interesting part is not the score but the architecture. A check-and-repair harness that only accepts verified improvements turns cheap, deterministic signals into a safe wrapper around an unreliable model — and the same signals are now the roadmap for RL, since each slide is a short, independently checkable rollout suited to GRPO-style training. The pattern generalizes past slides: any domain where output can be mechanically verified gets a cheap correctness floor without retraining.
+
+Next up: extracting figures from source documents so figure-heavy decks stop being the known gap, and turning the harness checks into rewards so the model stops making the mistakes in the first place.
+
+Blog post: [Palette: teaching a small model to build decks in your design language](https://huggingface.co/blog/ibm-research/palette-deck-building)
