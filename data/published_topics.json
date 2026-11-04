@@ -5457,6 +5457,22 @@
       "slugs": [
         "2026-11-04-knowingly-wrong-belief-misalignment"
       ]
+    },
+    {
+      "term": "StateBench Long-Context State Tracking Benchmark Four Levels R-Trivial Aperiodic Soluble General Finite Variable Assignment Krohn-Rhodes Theory S5 Cup Swapping Olmo 3 Olmo Hybrid Gated DeltaNet Pretrained Models Chance Accuracy Frontier Models Gemini 3.8 Flash Claude Opus 5.5 GPT-6 Sol Luna 13 Percent Soluble General Finite Direct Training 275M Models 256 Assignments 64000 Assignments 250x 10x Training Length Transformers Never Learn General Finite AI2 November 2026",
+      "count": 1,
+      "last_published": "2026-11-04",
+      "slugs": [
+        "2026-11-04-statebench-state-tracking-hybrid-architectures"
+      ]
+    },
+    {
+      "term": "ToolSpace Tool-Centric Environment Synthesis Long-Horizon MCP Agents Execution Traces Data State Retry Dependencies Deterministic Rules Tool Composition Graph Environments State-Aware Random Walks Rollback Assertion-Based Checks Replay AutomationBench tau3-Bench Banking Pro Versions 7 Frontier Models Drop 38.2 Points Qwen3.6-35B-A3B 23.0 To 41.0 43.2 With RL GLM-5.2 44.6 To 56.6 On Par With Claude Opus 5 Execution-Witnessed Edges Outperform LLM-Judged arXiv 2611.05036 November 2026",
+      "count": 1,
+      "last_published": "2026-11-04",
+      "slugs": [
+        "2026-11-04-toolspace-tool-centric-environment-synthesis"
+      ]
     }
   ]
 }
