@@ -5513,6 +5513,22 @@
       "slugs": [
         "2026-11-05-open-humanscale-egocentric-robot-data"
       ]
+    },
+    {
+      "term": "ServerBench Coding Agents Design Specialized LLM Serving Systems Dollars per Dollar Objective Claude Sonnet 5.5 2.97 Gemma E4B 4.87x vLLM Reference 22 of 33 Verified Runs 11 Agent Models arXiv 2611.06841 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-serverbench-agentic-serving-system-design"
+      ]
+    },
+    {
+      "term": "Local Open-Weight LLM Agents Vulnerability Reproduction CyberGym Ten Tasks Twelve Configurations Three Quantization Levels 4B Six Easier Tasks 27B Harder Tasks Quantization Speed Not Capability arXiv 2611.06257 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-local-agents-vulnerability-reproduction"
+      ]
     }
   ]
 }
