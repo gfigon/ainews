@@ -1,0 +1,37 @@
+---
+title: "Open-HumanScale Opens 50,000 Hours Of Egocentric Video For Robot Learning"
+date: "2026-11-05 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "Open-HumanScale is the first fully open recipe for scaling egocentric pretraining to 50,000 hours of human video, with a log-linear data-to-success scaling law, world-action models reaching 92.7% on RoboTwin 2.0, and the corpus, pipelines and checkpoints released outright."
+image: "/assets/post-images/2026-11-05-open-humanscale-egocentric-robot-data.svg"
+---
+
+Robot data is expensive and robot hours do not scale like text tokens. The workaround most labs reach for is human video: egocentric footage of hands doing things, plentiful and free, but raw in the sense that a few hundred hours of uncurated YouTube does not transfer into a policy that grips anything reliably.
+
+**Open-HumanScale**, posted to arXiv on 4 November, is an attempt to make that transfer systematic — and to release the whole thing.
+
+## The Move
+
+The work anchors on **Open-HumanScale-50K**, a curated egocentric video corpus of **50,000 hours**, densely annotated with hand motion and natural language. The authors use it to investigate pure human pretraining through closed-loop simulation evaluation, and they report an **empirical log-linear scaling law** linking pretraining data hours to downstream robot success rate — the kind of curve that lets you predict what 100,000 hours buys before you collect it.
+
+Two models come out of it:
+
+- **HumanWAM-Vanilla**, a world-action model pretrained only on the 50k hours of human video. After robot post-training it hits **92.08%** on RoboTwin 2.0 Clean2Clean and **68.88%** on Clean2Random, with 14.17% mean success and a 19.00 mean progress score on the harder RoboDojo
+- **HumanWAM-Goal**, a visual-goal-conditioned world-action model trained on hybrid human+robot data, pushing RoboTwin 2.0 to **92.70%** Clean2Clean and jumping Clean2Random to **84.60%**
+
+On physical robots HumanWAM-Goal shows **emergent embodied in-context learning** — adapting its manipulation to unseen visual goals with no parameter updates.
+
+## What It Buys
+
+The gap between 68.88% and 84.60% on Clean2Random is the interesting part: that benchmark varies the objects, so it measures generalization rather than memorization, and it is where most policies fall apart.
+
+The release matters as much as the numbers. The team open-sources the **corpus, the curation and pretraining pipelines, the pretrained and post-trained checkpoints, inference code and the simulation evaluation suites** — the full stack, not just the weights.
+
+## Why It Matters
+
+If the log-linear scaling law holds outside this lab's setup, "how much human video do we need" becomes a budget question rather than an open research program. And with the corpus and recipe public, the 50,000-hour bar is a starting line others can actually cross.
+
+Paper: [arXiv:2611.06817](https://arxiv.org/abs/2611.06817)

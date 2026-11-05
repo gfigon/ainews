@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
+      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -5488,6 +5488,30 @@
       "last_published": "2026-11-04",
       "slugs": [
         "2026-11-04-voluntary-servitude-agent-safety-weaponization"
+      ]
+    },
+    {
+      "term": "FrontierPhysics End-To-End Physics Research Benchmark 56 Tasks 42 Physicists Own Research Nine Domains Theoretical Computational Experimental Deterministic Verifiers Expert Rubrics Correct And Publishable 22 Models 26 Configurations No Configuration Passes More Than 46 Of 168 Rollouts Rigorous Reasoning Limited Expert Intuition arXiv 2611.06910 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-frontierphysics-end-to-end-research-benchmark"
+      ]
+    },
+    {
+      "term": "Baya Compile-Then-Execute Web Agent Trusted Website API Executable Python Program Prompt Injection By Design 581 WebArena Verified Tasks 77.8% Aggregate Utility Browser ReAct 55.1% API ReAct 66.7% WASP 0% Attack Success Rate 16.2% API ReAct 25.5% Browser ReAct arXiv 2611.06039 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-baya-compile-then-execute-web-agent"
+      ]
+    },
+    {
+      "term": "Open-HumanScale Open Recipe Scaling Egocentric Human Video Pretraining 50,000 Hours Open-HumanScale-50K Corpus Hand Motion Natural Language Annotation Log-Linear Scaling Law Data Hours Robot Success HumanWAM-Vanilla World Action Model RoboTwin 2.0 Clean2Clean 92.08% Clean2Random 68.88% RoboDojo 14.17% Mean Success HumanWAM-Goal Visual Goal Conditioned 92.70% Clean2Clean 84.60% Clean2Random Emergent Embodied In-Context Learning arXiv 2611.06817 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-open-humanscale-egocentric-robot-data"
       ]
     }
   ]

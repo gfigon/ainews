@@ -1,0 +1,37 @@
+---
+title: "Baya Kills Web-Agent Prompt Injection By Design, Not Detection"
+date: "2026-11-05 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Instead of filtering injections after the fact, Baya compiles the user's request into a Python program against a Trusted Website API before any page is read — 0% attack success on WASP while beating reactive ReAct agents by over 22 points of aggregate utility on WebArena Verified."
+image: "/assets/post-images/2026-11-05-baya-compile-then-execute-web-agent.svg"
+---
+
+The standard web agent follows ReAct: observe the live page, decide the next action, repeat. The problem is structural. Every observation mixes trusted instructions with untrusted page content, and a model that reads both can be talked into changing its own control flow. Most defenses are filters — detectors, guard models, refusal training — sitting in the same trust boundary as the attack.
+
+**Baya**, posted to arXiv on 4 November, removes the boundary instead of guarding it.
+
+## The Move
+
+Baya is a **compile-then-execute** agent. Before the website is ever accessed, a planning model compiles the user's request into an **executable Python program** that calls a **Trusted Website API**. The planning model never observes live page content; only the compiled program does.
+
+The trust model is the interesting part:
+
+- untrusted page data **may** determine program values or select among branches defined at compile time
+- untrusted page data **may not** redefine the user's task or cause the model to synthesize new website operations at runtime
+
+The Trusted Website API also gives the compiler a unified view of the site's action space, which lets it plan ahead of time instead of discovering actions step by step at runtime.
+
+## What It Buys
+
+On **581 valid WebArena Verified tasks**, Baya reaches **77.8% aggregate utility**, against **55.1%** for browser-only ReAct and **66.7%** for API-enabled ReAct. Security-wise, on the WASP benchmark for web-agent attacks, Baya achieves **0% attack success rate** — versus **16.2%** for API-enabled ReAct and **25.5%** for browser-only ReAct.
+
+So the security win does not come from trading away utility. It comes from removing the exposure: an injection can no longer redirect a program that does not exist yet, because the program was fixed before the hostile content was read.
+
+## Why It Matters
+
+Most prompt-injection work optimizes a detector's recall. Baya reframes the problem as an architecture question — what would it take for the injected text to have no way to matter? For anyone shipping browser automation, the takeaway is concrete: put a stable action API between the model and the page, and compile the plan before the page is fetched. Detection improves; deletion of the attack surface does not.
+
+Paper: [arXiv:2611.06039](https://arxiv.org/abs/2611.06039)

@@ -1,0 +1,34 @@
+---
+title: "FrontierPhysics Tests Whether AI Agents Can Actually Do Physics"
+date: "2026-11-05 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "FrontierPhysics is an end-to-end benchmark of 56 research tasks authored by 42 physicists from their own work, scoring agents on whether the resulting research is correct and publishable — and across 22 models in 26 configurations, nothing passes more than 46 of 168 rollouts."
+image: "/assets/post-images/2026-11-05-frontierphysics-end-to-end-research-benchmark.svg"
+---
+
+Physics benchmarks have a flattering problem. They usually ask a fixed question with a checkable answer, isolate one sub-task, or hand the agent a paper and ask it to reproduce the result. None of that resembles what a researcher actually does: read the literature, plan an investigation, run the experiment, and defend a conclusion.
+
+**FrontierPhysics**, posted to arXiv on 4 November, replaces the quiz with the whole arc of research.
+
+## The Move
+
+The benchmark contains **56 tasks written by 42 physicists, each based on their own research**, spanning nine domains across theoretical, computational and experimental physics. An agent has to do the full loop: review the relevant literature, formulate a research plan, conduct the research and experiments, and produce both structured outputs and a scientific manuscript.
+
+Scoring is deliberately two-headed. **Deterministic verifiers** check what can be checked mechanically, while **expert-authored rubrics** judge the parts that need a physicist's judgment — including whether the resulting write-up is publishable rather than merely plausible.
+
+## What It Buys
+
+The headline result is a wall: across **22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts**. Nobody gets a majority. Frontier agentic models are not research agents in any meaningful sense yet.
+
+The manual trajectory review is more useful than the score. Researchers found the dominant failure modes were **insufficiently rigorous reasoning and limited expert intuition** — not missing physics knowledge, and not execution errors. The agents knew the physics and could run the code. What they could not do was argue a line of inquiry to a standard a domain expert would accept, or notice when an experiment was under-designed.
+
+That distinction matters for how teams read agent benchmarks in general. Failure at the reasoning-and-judgment layer is harder to fix with better scaffolding than failure at the knowledge or tooling layer, and it is the layer that separates a research assistant from a researcher.
+
+## Why It Matters
+
+FrontierPhysics sets the bar where the actual value of research agents lives. A benchmark that stops at "did the agent answer correctly" tells you the model can recall; one that asks "is this publishable" tells you whether the model can carry a scientific argument. The first is nearly saturated. The second is not close.
+
+Paper: [arXiv:2611.06910](https://arxiv.org/abs/2611.06910)
