@@ -5529,6 +5529,22 @@
       "slugs": [
         "2026-11-05-local-agents-vulnerability-reproduction"
       ]
+    },
+    {
+      "term": "When Do Summaries Become Instructions Unsupported Policy LLM Agents Self-Written Handoff Summaries Compaction Permission Ledger Same-Snapshot Replay Neutral Filler Qwen3-8B gpt-oss-20b Unsupported Restrictions 1.2% 2.4% Unsupported Authorizations 0.1% 1.3% Step Restrictions 6.4% 2.7% Unauthorized Actions 24 To 7 Of 120 17 To 11 Of 48 Pre-Specified p 0.58 Follow-Up p 0.027 System Prompt Approval Sentence 5.0% To 1.8% 1.8% To 0.3% p 10^-9 Chain-Of-Thought Monitors Chance 0.36-0.59 arXiv 2611.06545 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-handoff-summaries-unsupported-policy"
+      ]
+    },
+    {
+      "term": "Training-Free Sparse Attention Hybrid LLMs Long-Context Decoding Combined Sparse Attention Sliding Window Pinned Prefix Quest Query-Aware Top-K Budget Per-Layer NSGA-II Multi-Objective Search Six Hybrid Models Qwen3.5 4B 27B 122B Ornith-397B Gemma-4-31B gpt-oss-120b 21 Long-Context Benchmarks Within 0.5 Points Accuracy 64k 256k 1.26x 2.22x 1.20x 2.23x 1.16x 2.06x 1.11x Gemma 1.22x Search 8.6-34.2 A100 GPU-Hours 31.3-58.4 GB200 No Retraining Slower At Short Context KV Cache Full Size vLLM arXiv 2611.06133 November 2026",
+      "count": 1,
+      "last_published": "2026-11-05",
+      "slugs": [
+        "2026-11-05-training-free-sparse-attention-hybrid-llms"
+      ]
     }
   ]
 }

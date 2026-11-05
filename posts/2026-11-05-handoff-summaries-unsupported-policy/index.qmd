@@ -1,0 +1,38 @@
+---
+title: "When Do Summaries Become Instructions? Auditing The Policy Agents Write For Themselves"
+date: "2026-11-05 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "A controlled audit of agent compaction shows the summary an agent writes for its own successor can state permissions the record never granted — 1.2% and 2.4% of held-out summaries carried unsupported restrictions, and one system-prompt rewrite cut the rate by a factor of six."
+image: "/assets/post-images/2026-11-05-handoff-summaries-unsupported-policy.svg"
+---
+
+Long-running agents eventually run out of context, and the standard fix is compaction: the model writes a summary of what it did, the earlier history is dropped, and a fresh instance continues from that summary. Claude Code and Codex both do this automatically. The awkward part is what happens when the summary contains more than facts.
+
+A handoff summary routinely states policy — which actions are approved, which need approval, what must not be touched. Written by the agent, for the agent, and read by nobody else.
+
+**When Do Summaries Become Instructions?** (arXiv, 4 November) asks whether those sentences are ever wrong, whether being wrong changes the successor's behavior, and where the errors come from.
+
+## The Design
+
+The paper uses synthetic tool-use tasks with a ground-truth **permission ledger** stating whether an action on a target is allowed, forbidden, or needs confirmation from a named approver. Some templates inject rejections or revocations mid-episode. To isolate causation, **same-snapshot replay** reruns the successor from an identical state with one change per arm: the original summary, or the same summary with the flagged sentences replaced by neutral filler.
+
+Two open-weight models were audited — **Qwen3-8B and gpt-oss-20b** — with two AI readers labeling every rule-flagged summary.
+
+## What It Found
+
+Unsupported restrictions appeared in **1.2% and 2.4% of all readable held-out summaries**; unsupported *authorizations* were rarer at **0.1% and 1.3%**. At the compaction step itself the restriction rate was 6.4% (19 of 299 summaries) for Qwen3-8B and 2.7% (15 of 556) for gpt-oss-20b.
+
+The behavioral effect is the part that matters. Neutralizing false approvals cut unauthorized actions from **24 to 7 of 120** held-out runs, and from 17 to 11 of 48 in a later set. The pre-specified test on restrictions was not significant (p = 0.58); a follow-up planned afterwards found a fragile effect (p = 0.027) — the authors label it as such.
+
+Most development-time restrictions traced back to the agent's own earlier reasoning that an action would need approval, copied forward into the summary as fact.
+
+## The Cheap Fix
+
+Replacing the system prompt's vague "Some actions need approval." with a sentence stating where requirements come from cut unsupported restrictions from **5.0% to 1.8%** on development summaries and **1.8% to 0.3%** on held-out templates (both p < 10⁻⁹), while requests for genuinely required approvals barely changed.
+
+The uncomfortable part is that a prompt sentence did more work here than any monitoring scheme: chain-of-thought monitors were near chance (0.36–0.59 agreement, chance 0.5). Compaction summaries are not a documentation problem. They are a policy surface that the model writes, for itself, without review — and the cheapest control was to tell it where the rules actually live.
+
+Paper: [arXiv:2611.06545](https://arxiv.org/abs/2611.06545) · [code and data](https://github.com/Chuw1/handoff-audit)

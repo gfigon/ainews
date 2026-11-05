@@ -1,0 +1,36 @@
+---
+title: "Cropping The Full-Attention Layers: Training-Free Sparse Attention For Hybrid LLMs At 397B Scale"
+date: "2026-11-05 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "Hybrid models still pay quadratic cost in their remaining full-attention layers. A training-free recipe — sliding window, pinned prefix and query-aware top-k — decodes 1.16–1.26x faster at 64k tokens and roughly 2.2x at 256k on six hybrid models up to 397B parameters."
+image: "/assets/post-images/2026-11-05-training-free-sparse-attention-hybrid-llms.svg"
+---
+
+Hybrid LLMs — Qwen3.5, Gemma 4, gpt-oss, Kimi-K3 — interleave a minority of full-attention layers with linear or windowed ones. The design keeps long-context quality at a fraction of the cost. But the full-attention layers that remain still read every key at every step, and at long context they become the bottleneck that everything else was supposed to hide.
+
+**Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining** (arXiv, 4 November) attacks exactly those layers.
+
+## The Move
+
+The method is **combined sparse attention**, applied to the full-attention layers only. Each layer attends to three things: a **sliding window** of recent tokens, a **pinned prefix**, and a fixed **budget of the most relevant tokens** selected query-aware (Quest-style paged top-k). Window size and budget differ per layer, and they are found by a **multi-objective NSGA-II search** that maximizes long-context accuracy while minimizing estimated decoding cost.
+
+Nothing is trained, nothing is fine-tuned, no weights change. The search costs **8.6–34.2 A100 GPU-hours** for 4B–120B models and **31.3–58.4 hours on an x4 GB200 node** for the 122B and 397B models.
+
+## What It Buys
+
+Six hybrid models from three families were evaluated across **21 long-context benchmarks**. On every model, at least one configuration preserved baseline accuracy on every dataset, with averages within **0.5 percentage points**.
+
+At batch size 4, decoding at 64k/256k tokens becomes **1.26x/2.22x faster on Qwen3.5-4B**, **1.20x/2.23x on Qwen3.5-122B-A10B**, and **1.16x/2.06x on Ornith-1.0-397B**. Gains are smaller on the dense Qwen3.5-27B (1.11x at 64k) and Gemma-4-31B (1.22x at 128k), where more time goes into reading weights than reading keys.
+
+The comparison table is the real argument. Post-training linearization recipes cost **40M–20B extra training tokens**; LolCats spent 454 H100 GPU-hours, and Jet-Nemotron's 12.0x speedup at 64k came with **600B tokens and 18,328 H100 GPU-hours**. This method reaches 1.16–2.23x on a released model with no gradient updates and under 60 GPU-hours of search — and, as far as the authors know, is the first training-free sparse-attention method evaluated at the 100B+ scale.
+
+## Why It Matters
+
+The honest caveats are in the paper's limitations section: at short context **every configuration is slower than the unmodified model**, and the method trades compute, not memory — Quest keeps the KV cache at full size, so any page can still be selected.
+
+That is still a good trade for the workload it targets. Long-context serving is exactly the regime where decoding, not prefill, is the bill. Shipping a per-layer configuration search that needs no retraining means every new hybrid release can be tuned in a day instead of a training run.
+
+Paper: [arXiv:2611.06133](https://arxiv.org/abs/2611.06133)

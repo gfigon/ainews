@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-05-training-free-sparse-attention-hybrid-llms/index.html",
+      "/posts/2026-11-05-handoff-summaries-unsupported-policy/index.html",
       "/posts/2026-11-05-local-agents-vulnerability-reproduction/index.html",
       "/posts/2026-11-05-serverbench-agentic-serving-system-design/index.html",
       "/posts/2026-11-05-open-humanscale-egocentric-robot-data/index.html",
