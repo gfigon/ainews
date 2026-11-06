@@ -5545,6 +5545,30 @@
       "slugs": [
         "2026-11-05-training-free-sparse-attention-hybrid-llms"
       ]
+    },
+    {
+      "term": "StrataFlux Memory-Hierarchy-Native Low-Bit LLM Inference Selective Precision Streaming Host RAM SSD Offload 2-Bit Weights 2-3-Bit KV Cache WikiText-2 Perplexity 9.46 To 8.40 Llama-3.1-8B 95.4 Percent Throughput RTX 5090 Qwen3-8B AIME 11.0 To 47.1 128K Context Half GPU Memory vLLM AWQ arXiv 2611.08363 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-strataflux-low-bit-precise-streaming"
+      ]
+    },
+    {
+      "term": "SwarmEvolve Latent Agent Swarms Evolutionary Discovery Optimization Hundreds Low-Cost Agents KV Cache Communication Latent Space Novelty Filter Hidden State Distances Summarizer Agent 21 Problems 3 To 8 Minutes Versus 60 Minutes Qwen3 8B AlphaEvolve Frontier LLM Solutions arXiv 2611.08483 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-swarmevolve-latent-agent-swarms"
+      ]
+    },
+    {
+      "term": "NVIDIA Cosmos 3 Open-Weight Checkpoints Interactive World Simulation Cosmos3-Nano Transfer-Auto Sim-Auto Sim-Transfer Sim-Bimanual 11 Camera Views Joint RGB-LiDAR World Scenario Map Causal Distillation Four Denoising Steps Self-Forcing Four-Stage Recipe YAM AgiBot Bimanual 59 Control Values Padded To 64 T Transitions T+1 Observations OpenMDW1.1 Hugging Face November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-nvidia-cosmos3-open-simulation-checkpoints"
+      ]
     }
   ]
 }

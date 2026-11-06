@@ -1,0 +1,36 @@
+---
+title: "SwarmEvolve Runs Hundreds Of Agents In Latent Space And Beats The Hour-Long Baseline"
+date: "2026-11-06 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "SwarmEvolve replaces the textual chain-of-thought of evolutionary program search with swarms of low-cost agents that reason in latent space and exchange KV caches, reaching in a median of 3 to 8 minutes the best scores other frameworks need 60 minutes for — and on several problems beating AlphaEvolve's frontier-LLM solutions with Qwen3 8B."
+image: "/assets/post-images/2026-11-06-swarmevolve-latent-agent-swarms.svg"
+---
+
+LLM-guided evolutionary search — refine candidate programs, score them, combine the best, repeat — has a well-known bottleneck. Every round, every agent writes out a long textual chain of thought, and the population has to stay diverse enough that the search does not collapse onto one idea too early. The cost is tokens, and the cost is time.
+
+SwarmEvolve, posted to arXiv on 5 November, removes the text from the loop entirely.
+
+## The Move
+
+The framework runs **hundreds of low-cost agents per round, organised in swarms**. Each swarm attacks the problem from a different angle, and the agents **reason in latent space without decoding to text**. Instead of writing summaries back to each other, they **share information by passing KV caches** directly.
+
+Two mechanisms make that work. A **novelty filter** keeps only the most distinct agent ideas, and it does so by **measuring distances between the agents' hidden state vectors** — diversity is measured in representation space, not by comparing prose. And crossover happens implicitly: a **summarizer agent receives the combined KV caches of all swarm members**, so the recombination is a representation-level operation rather than a text-editing one.
+
+The evaluation spans **21 problems in mathematical discovery and scientific computing**.
+
+## What It Buys
+
+The headline is a time compression of roughly an order of magnitude: **SwarmEvolve reaches, in a median of 3 to 8 minutes, the best scores that other state-of-the-art frameworks reach in 60 minutes**. It also posts the **highest average score** across the 21 problems.
+
+The stronger claim is qualitative. On several problems, **SwarmEvolve with Qwen3 8B improves on the solutions AlphaEvolve first found with frontier LLMs** — a small open model beating a frontier-scale evolutionary pipeline, because the swarm supplies the breadth the single expensive model was paying for in inference time.
+
+## Why It Matters
+
+The interesting bit is what disappears. Agent swarms normally pay for coordination in tokens: every message is text, every summary loses information, and diversity is maintained by prompt-level variety. Here coordination happens in the space where the model actually thinks, and the KV cache doubles as the channel — the same object that makes inference fast becomes the medium for information exchange.
+
+That reframes "use a bigger model" as one strategy among several. If breadth can be bought with cheap parallel agents and latent-space exchange, the expensive frontier model becomes a tie-breaker rather than the search engine.
+
+Paper: [arXiv:2611.08483](https://arxiv.org/abs/2611.08483)

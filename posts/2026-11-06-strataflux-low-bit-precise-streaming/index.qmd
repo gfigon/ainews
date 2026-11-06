@@ -1,0 +1,32 @@
+---
+title: "StrataFlux Recovers The Accuracy That Low-Bit Quantization Throws Away"
+date: "2026-11-06 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "StrataFlux streams extra precision from host RAM and SSDs to repair 2-bit weight and KV-cache damage: 2-bit Llama-3.1-8B drops from 9.46 to 8.40 WikiText-2 perplexity at 95.4% of quantized throughput, and 2-bit Qwen3-8B jumps from 11.0% to 47.1% on AIME 2024/2025 with unchanged GPU memory."
+image: "/assets/post-images/2026-11-06-strataflux-low-bit-precise-streaming.svg"
+---
+
+Quantization is usually sold as a memory trade. You compress weights and the KV cache, you get more context or more concurrent requests, and you pay for it in accuracy. The standard fix — offloading the high-precision layers to host memory — is usually a worse trade, because the generation stalls waiting on the PCIe transfer.
+
+StrataFlux attacks both halves of that bargain at once, and the interesting part is that it treats host RAM and solid-state drives as precision sources rather than as emergency overflow.
+
+## The Move
+
+The framework co-designs three pieces that usually live apart: **how refinement precision is represented, how it is selected, and how it is delivered**. The delivery half is where the paper earns its keep. Instead of fetching everything and blocking, StrataFlux uses **selective precision streaming** — it moves only the bytes a given decoding step actually needs, overlaps the transfer with computation already in flight, and **reuses precision fetched in earlier steps** across subsequent ones. Generation does not wait for every transfer to land.
+
+The evaluation covers **2–4 bit weights and 2–3 bit KV caches**, on dedicated GPUs and on unified-memory platforms — the unified-memory case matters because it is exactly where offloading normally stalls.
+
+## What It Buys
+
+For **2-bit Llama-3.1-8B-Instruct weights**, StrataFlux cuts **WikiText-2 perplexity from 9.46 to 8.40** while keeping **95.4% of the quantized base's throughput on an RTX 5090**. For **2-bit weights and KV together**, it lifts **Qwen3-8B from 11.0% to 47.1% on AIME 2024/2025 at unchanged GPU memory use**.
+
+The long-context number is the practical one: at **128K context**, Llama-3.1-8B-Instruct with **3-bit weights and 2-bit KV** reaches **comparable perplexity and speed to vLLM's 4-bit AWQ weights with 8-bit KV**, using roughly **half the GPU memory**.
+
+## Why It Matters
+
+The paper's framing is the transferable idea: **GPU-resident precision need not set the accuracy ceiling, nor offloading-tier latency dictate decoding speed**. Low-bit deployment is usually framed as "how much accuracy are you willing to lose". If selective streaming works as reported, the right question becomes "how much precision do you need to stream, and where does it come from" — and the answer turns out to be a scheduling problem rather than a sacrifice.
+
+Paper: [arXiv:2611.08363](https://arxiv.org/abs/2611.08363)

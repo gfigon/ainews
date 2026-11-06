@@ -1,0 +1,39 @@
+---
+title: "NVIDIA Ships Four Open Cosmos 3 Checkpoints For Interactive Robot And Driving Simulation"
+date: "2026-11-06 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Tools & Frameworks
+summary: "NVIDIA released four open-weight Cosmos3-Nano post-trained checkpoints under OpenMDW1.1: Transfer-Auto and causally distilled Sim-Auto for multi-view camera and LiDAR driving data, Sim-Transfer for turning physics-simulator controls into RGB, and Sim-Bimanual for action-conditioned video prediction on YAM and AgiBot two-arm embodiments."
+image: "/assets/post-images/2026-11-06-nvidia-cosmos3-open-simulation-checkpoints.svg"
+---
+
+The expensive part of teaching a robot or a self-driving policy is not the policy. It is the environments — and the environments are limited by how expensive it is to render a plausible, controllable, interactive world. NVIDIA's answer this week was to publish the machinery instead of the demo.
+
+On 5 November the Cosmos platform added **four open-weight checkpoints** to the Cosmos 3 family, all post-trained from Cosmos3-Nano with **16B trainable parameters**, released under **OpenMDW1.1**, which permits commercial as well as non-commercial use.
+
+## The Move
+
+The four checkpoints split along two axes — what you control, and what you get back.
+
+- **Transfer-Auto** is a bidirectional model for offline synthetic driving data: **synchronized video across up to 11 camera views including fisheyes**, with **joint RGB–LiDAR generation**, controlled per camera by World Scenario Map inputs for scene structure and traffic motion, with text prompts for appearance.
+- **Sim-Auto** is the causally distilled streaming variant, generating successive chunks of synchronized camera and LiDAR **in a few denoising steps**, using rolling generated history for long interactive rollouts.
+- **Sim-Transfer** turns a physics simulator's controls into photorealistic RGB, with **depth, segmentation, edges and blur** as spatial controls. The division of labour is explicit: text guides appearance, while physics and ground truth stay with the simulator.
+- **Sim-Bimanual** predicts the next observation directly from robot actions, supporting interactive two-arm simulation for **YAM and AgiBot** embodiments, driven by a policy or by human-operated joysticks. Its mixed-action example uses **59 control values padded to 64**, with a schema defining coordinate frames, rotations, gripper calibration and validity masks — and **T transitions require T+1 observations**.
+
+The training recipe is a **four-stage pipeline**: bidirectional adaptation from complete recorded clips, teacher forcing with future targets masked, consistency distillation down to **four denoising steps**, and a final **self-forcing** stage trained on the student's own generated history, because a mispredicted object becomes context for later frames and errors otherwise compound.
+
+## What It Buys
+
+Streaming generation is cheap in the right places. The backbone is a Mixture-of-Transformers with separate text and visual networks, and each latent time step represents **four RGB frames** — Transfer predicts one step per chunk, the optimized Bimanual setup predicts two. Smaller chunks mean new controls affect generation more often.
+
+The framing is deliberately open: weights, post-training recipes, notebooks and agent skills are published, and the post itself flags the open question — **where these models faithfully support policy learning and evaluation, and where they do not**.
+
+## Why It Matters
+
+For robotics research, the meaningful shift is that a two-arm embodiment's visual consequence of an action no longer requires building a photorealistic simulator or collecting real footage. And for driving, **synchronized camera and LiDAR** matters because appearance and geometry have to agree — a video generator that cannot keep the 3D sensing consistent cannot train a policy on it.
+
+The honest caveat is the one NVIDIA states itself: open weights mean anyone can post-train these for their own sensor rig or embodiment, and anyone can find where the simulation breaks.
+
+Post: [Hugging Face — New NVIDIA Cosmos 3 Open Models for Interactive World Simulation](https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation)
