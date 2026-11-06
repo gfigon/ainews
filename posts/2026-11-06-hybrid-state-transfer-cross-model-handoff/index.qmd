@@ -1,0 +1,32 @@
+---
+title: "Beyond K/V Caches: Cross-Model State Handoff For Hybrid Linear-Attention LLMs"
+date: "2026-11-06 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "Hybrid State Transfer moves recurrent states and convolution histories — not just K/V caches — across model switches: Qwen3.5 4B→27B keeps 89.88% mean task retention across five benchmarks, and handoff bodies run 21.66x faster than re-prefilling a 16K context."
+image: "/assets/post-images/2026-11-06-hybrid-state-transfer-cross-model-handoff.svg"
+---
+
+Production LLM deployments rarely run one model. They cascade, route, and switch models mid-conversation to balance cost against quality. But context accumulates across turns, so every switch forces the incoming model to **repeat prefill** over everything said so far. The bill for a model switch is a full context rebuild.
+
+Existing fixes transfer the **K/V cache** between models. That stops working for hybrid linear-attention models, which also carry **recurrent state (REC)** and **convolution history (Conv)** — and those two interact badly.
+
+## The Move
+
+Convolution perturbations change the keys and values feeding recurrent layers, which in turn alters the REC updates. Convolution histories get overwritten on handoff, but changes already written into the REC still corrupt later outputs. The paper's most counterintuitive finding: **a more accurate REC reconstruction does not necessarily produce a better continuation**.
+
+**Hybrid State Transfer (HST)** addresses all three state types at once. It uses **structured REC maps** and **preserves history order** while aligning convolution histories, then **calibrates the adapters against the frozen target's own outputs** during continuation. Full-attention cache-map updates are merged offline rather than inline.
+
+## What It Buys
+
+Across **five benchmarks**, Qwen3.5 **4B→27B** retains **89.88%** of task performance and **9B→27B** retains **94.11%** on average. The timing numbers are the practical headline: with source caches already in hand, the handoff body runs **21.66×** and **21.91×** faster on synthetic **16K-token** inputs than re-prefilling the context in the target model.
+
+That reframes model switching from an expensive event into a cheap one. Cascading a small model for routine turns and escalating to a large one for hard turns stops being a latency gamble, because the escalation no longer has to re-read the conversation.
+
+## Why It Matters
+
+The paper's framing is the transferable insight: **state transfer is not a cache-copy problem**. Once a deployment mixes full attention with linear attention, the transferred artifact is a bundle — keys, values, recurrent state, convolution history — and the ordering constraints between those pieces are where naive approaches quietly break. HST's contribution is mostly that ordering insight plus calibration against the frozen target, which is a much cheaper thing to get right than it sounds.
+
+Paper: [arXiv:2611.08133](https://arxiv.org/abs/2611.08133)

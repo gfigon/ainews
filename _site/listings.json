@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-06-hybrid-state-transfer-cross-model-handoff/index.html",
+      "/posts/2026-11-06-gingerbread-honeypot-agent-defenders/index.html",
       "/posts/2026-11-06-agent-r2-real-source-agent-data/index.html",
       "/posts/2026-11-06-multimodal-sea-social-engineering-agents/index.html",
       "/posts/2026-11-06-strataflux-low-bit-precise-streaming/index.html",

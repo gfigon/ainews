@@ -1,0 +1,34 @@
+---
+title: "Deception As A Router: Source-Planned Honeypots Move The Exploit Instead Of Stopping It"
+date: "2026-11-06 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A defender LLM that reads an application's source can plan a static honeypot and route confirmed attackers — working exploit included — into an isolated shadow copy: real compromise on 40 CVE-Bench tasks drops from 26/40 to 5/40 for Claude Opus 4.8 and from 20/40 to 0/40 for the ARTEX attack framework."
+image: "/assets/post-images/2026-11-06-gingerbread-honeypot-agent-defenders.svg"
+---
+
+Agentic attackers are fast enough that patching a web vulnerability often arrives after the exploit has already landed. The standard defensive answer is deception: lure the agent away from the real target toward a decoy. The problem with classic deception is that the real target stays reachable — the attacker can simply go back to it.
+
+A new paper flips that arrangement. Instead of pulling agents away from the real target, it **moves the confirmed attacker into an isolated shadow copy** of the application and leaves the original alone.
+
+## The Move
+
+The defender is an LLM that reads the application's **source code** and plans a **static honeypot** from it — no runtime patching, no per-request improvisation. A **router** then watches traffic: once a client is confirmed as an attacker, every subsequent request from that client, including a fully working exploit, is served from the **shadow copy** instead of the real system.
+
+Three configurations were compared: no defence, the static source-planned honeypot, and an augmented version adding a runtime LLM responder plus extra router rules. Grading used the benchmark's own grader against the real target, and for the ARTEX attack framework also against the shadow.
+
+## What It Buys
+
+On **40 critical CVE-Bench tasks**, the static plan cut real compromise from **26/40 to 5/40** for Claude Opus 4.8, and from **20/40 to 0/40** (31 valid runs) for ARTEX. On **20 held-out tasks** never used in designing the defence, ARTEX went from **15/20 to 0/20**.
+
+The honest caveat is the interesting part: in roughly half the deception runs, ARTEX's exploit **succeeded against the shadow** while the real target stayed intact. The defence did not stop the attack — it relocated it. Residual risk sits in requests that reach the real target before confirmation lands.
+
+The same honesty applies to the attacker side. ARTEX reported a **planted fake secret as genuine on 30 of 120** deception-arm tasks, and did so five times in a report that explicitly labelled a different item a decoy. And because ARTEX's real compromise was zero in both deception configurations, the remaining outcomes did not differ significantly — meaning the runtime responder's contribution is **not isolated** by the experiment.
+
+## Why It Matters
+
+This is a different threat model than blocking. Detection is still the weak link, but once an attacker is confirmed, the blast radius is capped by infrastructure rather than by model judgement. For systems where the LLM is the attacker, the natural defence is not a better firewall but a **different place to send the traffic**.
+
+Paper: [arXiv:2611.07611](https://arxiv.org/abs/2611.07611)
