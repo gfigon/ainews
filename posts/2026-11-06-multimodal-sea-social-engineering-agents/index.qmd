@@ -1,0 +1,34 @@
+---
+title: "Multimodal-SEA: Forged Images Push Personal Agent Attack Success From 19.9% To 29.2%"
+date: "2026-11-06 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A benchmark of 608 expert-designed tasks built from real fraud cases shows that all seven tested multimodal models fall to social engineering once the attacker adds forged images and documents, and that stronger safety prompts lower the attack success rate without teaching agents to recognise the deception itself."
+image: "/assets/post-images/2026-11-06-multimodal-sea-social-engineering-agents.svg"
+---
+
+Security evaluations for personal AI agents have largely been conducted as text conversations. That is exactly the setting where a modern agent is strongest: a forged message in a chat window is something a language model can be trained to scrutinise. The attack surface that escapes this framing is the one an agent treats as most trustworthy — the attached image, the scanned invoice, the ID photo, the screenshot of a "system notice".
+
+Multimodal-SEA, posted to arXiv on 5 November, moves the evaluation into that surface.
+
+## The Benchmark
+
+The benchmark contains **608 expert-designed tasks grounded in real-world fraud cases**, spread over **14 domains** and **152 attack scenarios**, each with prepared multimodal content. Tasks span **four difficulty levels** and deliberately mix **Chinese and English social and cultural contexts**, since social engineering is a local craft as much as a technical one.
+
+Crucially, this is not a static question-and-answer set. Agents must **inspect content, verify requests, and execute actions inside simulated applications**, and outcomes are judged from **verifiable tool execution logs** — whether the agent actually transferred the money, shared the code, or approved the request, not whether its prose looked suspicious. A companion **multimodal attack harness** gives the red team explicit control over task information, attack progression, and multimodal content construction.
+
+## What It Found
+
+Seven widely used multimodal models were evaluated across six dimensions, and **all of them were vulnerable**, with attack success rates spanning **7.1% to 34.5%**.
+
+The headline number is the comparison between the text and multimodal versions of the same attacks. **Adding multimodal content raised attack success from 19.9% to 29.2%** — and it did so *even though* agents verified more proactively when images were present. The extra verification was performed, and then defeated anyway. A forged document does not need to be persuasive in the way a persuasive email is; it only needs to look like an artefact.
+
+Two follow-up results deserve attention. **Stronger safety instructions reduced attack success without improving recognition of deceptive multimodal content** — the instruction suppresses the action, not the perception, so the model still believes the forgery. And for some models, **lower attack success came bundled with excessive refusal of legitimate requests**. That is the real trade-off of the fix: a model tuned to be suspicious of documents becomes a model that refuses to work with documents.
+
+## Why It Matters
+
+Agent security has been argued mostly as an output-filtering problem — check what the model is about to say and about to do. Multimodal-SEA suggests that the binding constraint is upstream of that: an agent that reads a forged artefact as genuine has nothing left for the filter to catch. Making the perception layer trustworthy, not just the action layer, is the open problem.
+
+Paper: [arXiv:2611.08281](https://arxiv.org/abs/2611.08281)

@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-06-agent-r2-real-source-agent-data/index.html",
+      "/posts/2026-11-06-multimodal-sea-social-engineering-agents/index.html",
       "/posts/2026-11-06-strataflux-low-bit-precise-streaming/index.html",
       "/posts/2026-11-06-nvidia-cosmos3-open-simulation-checkpoints/index.html",
       "/posts/2026-11-06-swarmevolve-latent-agent-swarms/index.html",
