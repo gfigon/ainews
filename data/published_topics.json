@@ -5569,6 +5569,22 @@
       "slugs": [
         "2026-11-06-nvidia-cosmos3-open-simulation-checkpoints"
       ]
+    },
+    {
+      "term": "Multimodal-SEA Benchmark AI Agent Security Multimodal Social Engineering Attacks 608 Expert-Designed Tasks Real Fraud Cases 14 Domains 152 Attack Scenarios Four Difficulty Levels Chinese And English Contexts Tool Execution Logs Attack Harness Seven Multimodal Models Attack Success 7.1% To 34.5% Multimodal Content 19.9% To 29.2% Stronger Safety Instructions No Better Recognition Excessive Refusal arXiv 2611.08281 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-multimodal-sea-social-engineering-agents"
+      ]
+    },
+    {
+      "term": "Agent-R2 Real-Source Data Synthesis Scaling Agents Realistic Productivity Work Real Occupational Seeds Corpus-Derived Workflow Evidence Authentic Web-Sourced Files 10k Candidates 4k Task Instances Deliverable-Level Rubrics SFT Rubric-Based Reinforcement Learning Agent-R2-4B Beats Qwen3-235B-A22B-Thinking-2507 GDPval 51.0% vs 48.0% OfficeQA 14.8% vs 13.8% Shortcut Behavior Mitigation Sustained Exploration arXiv 2611.08219 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-agent-r2-real-source-agent-data"
+      ]
     }
   ]
 }
