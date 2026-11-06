@@ -5585,6 +5585,22 @@
       "slugs": [
         "2026-11-06-agent-r2-real-source-agent-data"
       ]
+    },
+    {
+      "term": "Gingerbread House LLM Agent Defenders Source-Planned Honeypots Isolated Shadow Copy CVE-Bench 40 Critical Tasks Real Compromise 26/40 To 5/40 Claude Opus 4.8 20/40 To 0/40 ARTEX 31 Valid Runs Held-Out 20 Tasks 15/20 To 0/20 Shadow Exploit Succeeds Half Runs Planted Fake Secret Reported Genuine 30 Of 120 arXiv 2611.07611 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-gingerbread-honeypot-agent-defenders"
+      ]
+    },
+    {
+      "term": "Hybrid State Transfer HST Cross-Model State Handoff Hybrid Linear-Attention LLMs Recurrent State REC Convolution History Conv Full-Attention K/V Cache Transfer Cascade Routing Model Switching Re-prefill Avoided Structured REC Maps History Order Preservation Adapter Calibration Frozen Target Outputs Qwen3.5 4B To 27B 89.88% Mean Task Retention 9B To 27B 94.11% Five Benchmarks 16K Synthetic Input Handoff Body Speedup 21.66x 21.91x arXiv 2611.08133 November 2026",
+      "count": 1,
+      "last_published": "2026-11-06",
+      "slugs": [
+        "2026-11-06-hybrid-state-transfer-cross-model-handoff"
+      ]
     }
   ]
 }
