@@ -1,0 +1,34 @@
+---
+title: "The Break-Even Point In The Arms Race Between AI Scammers And AI Scambaiters"
+date: "2026-11-07 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Scam operations have become fully agentic, and the defensive counter — autonomous bait agents that impersonate victims to extract mule accounts — has its own economics: in a formal model, scammer profit flips negative once baits exceed ~55-60% of the target population, but so does the defender's intelligence yield."
+image: "/assets/post-images/2026-11-07-agentic-scambaiting-break-even-threshold.svg"
+---
+
+Scam operations have moved past canned messages into **fully agentic conversational systems** that negotiate, push back and adapt mid-conversation. The defensive counter-move is **agentic scambaiting**: autonomous agents that impersonate vulnerable victims, hold the conversation long enough to extract actionable intelligence — mule bank account numbers, crypto wallet addresses — and hand them over for takedown.
+
+A new paper treats this as a two-sided strategic game rather than a cat-and-mouse anecdote, and its central finding is uncomfortable for both sides: **there is a break-even point, and past it the defence stops working.**
+
+## The Threshold
+
+Scam baiting agents are not free. Every conversation a scammer starts costs them turn by turn, whether the counterpart is a real victim or a bot. Sweeping the bait prevalence ρ from 0.05 to 0.80, scammer earnings per episode fall steadily and **change sign between ρ = 0.55 and ρ = 0.60** — above that, victim conversations no longer cover the losses absorbed on bait conversations.
+
+But the curve cuts both ways. As prevalence rises, **abandonment climbs from under 1% to 77.6%**, while **intelligence disclosure falls from 39.4% to 3.5%** — scammers start cutting conversations short, which also shortens the window for extracting mule details. Payment extraction *conditional on reaching a real victim* stays near 50%. The defence does not out-fraud fraudsters; it **starves them of contacts**.
+
+## Posture And Mimicry
+
+How the bait agent behaves matters more than how many there are. An aggressive posture (push for account details early) extracts intelligence from 22.9% of conversations versus 9.9% for a conservative one — but that advantage **collapses from 22.9% to 9.7% once scammer detection capability reaches γ = 0.25**, and both postures converge as detection sharpens.
+
+Mimicry is the durable lever. With scammer detection fixed at zero, investing in bait mimicry lifts disclosure from **22.9% to 51.8%**. With mimicry at zero, perfect detection drives it from 22.9% down to **2.4%** — yet even a scammer reading cues perfectly only recovers to 5.7–8.7% if the signals have already been made to look like a genuine victim. **In the modelled arms race, defender investment in mimicry outpaces attacker investment in detection.**
+
+One more lever: persistent scammers are the productive targets. Against cautious ones, disclosure is 9.9%; against persistent ones, **33.1%** — 3.3× more intelligence per engagement.
+
+## The Caveat
+
+The model is calibrated to deployment data (2,600+ engagements, 18,700 messages, ~31.7% disclosure among matured conversations, 10.3 turns to disclosure) but most transition parameters are assumptions, not fits. The 55–60% threshold is a property of the model, **not a forecast of the real world**. What survives that caveat is the structural lesson: scambaiting is a campaign with running costs, and defenders who scale bait volume without scaling mimicry quality and persistence will collect less intelligence while funding more of the scammer's operating costs.
+
+Paper: [arXiv:2611.08170](https://arxiv.org/abs/2611.08170)
