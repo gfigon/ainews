@@ -1,0 +1,32 @@
+---
+title: "Fifty Million Tokens Is Enough To Rewrite A Model's Politics: Nous Research's Arete-27B"
+date: "2026-11-07 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Nous Research post-trained Alibaba's Qwen3.8-27B on 52.8M tokens and cut measured propaganda framing from 22% to 1% while keeping agentic benchmarks flat — evidence that a model's political layer is a thin, separately-editable skin."
+image: "/assets/post-images/2026-11-07-arete-27b-qwen-values-post-training.svg"
+---
+
+Open-weight Chinese models are among the strongest available, and they ship with state-aligned behavior baked into the weights. Nous Research's **Arete-27B** is an attempt to treat that political layer as something separable — and separable in a cheap, measurable way.
+
+The recipe is deliberately unglamorous: a supervised fine-tune of **Qwen3.8-27B** on roughly **52.8 million tokens** (about 50,000 samples at 64k context, no sequence packing, two epochs, 1,202 steps, AdamW, tensor parallel 4). No RL, no preference optimization, no architectural change. The vision encoder was frozen because the data is text-only.
+
+## Measuring First
+
+Before training, Nous built a **803-prompt evaluation** spanning seven value categories — freedom of expression, state ideology, state versus free market, education, data privacy and surveillance, democracy, and the environment. Each prompt carries 2–4 required facts extracted from a dated source article, plus the official-frame language on that topic. An LLM judge (Grok 4.7) scores each fact as stated, missed, or contradicted, and must quote the exact phrase for any "propaganda" verdict. The judge is blinded to which model wrote the answer; the rubric was revised three times against hand-graded 25-prompt pilots; training prompts overlapping the eval set were removed.
+
+## The Result
+
+Fact score rose from **2.32 to 2.98** out of 5. Answers containing propaganda framing fell from **22% to 1%**. Answers scoring zero fell from **359 to 216** of 803. The largest shift was freedom of expression: fact score **0.89 → 2.44**, propaganda rate **60% → 1%**. Capabilities held — Hermes Bench 65.60% versus the base model's 65.77% (within noise), and Terminal-Bench-2.1 at **70% versus 67%**.
+
+The uncomfortable detail is the teacher model. Nous considered Nemotron 3 Ultra and rejected it, suspecting that its own China-related record came from training on Chinese open models. They settled on **Inkling**, chosen because it already scored well on their own benchmark. So the fine-tune distills a model already aligned with the target values — it teaches alignment, not verified truth. That is a choice about whose values get encoded, not an argument that the target values are correct.
+
+## Why It Matters
+
+The deeper risk Nous names is **correlated failure**: if every deployed agent shares one worldview, they fail together on the same questions. If the bias layer is genuinely thin, then value alignment becomes a per-deployment fine-tune rather than a property of whoever shipped the base model.
+
+Weights, the 803-prompt evaluation, and the training pairs are all released, and Nous explicitly invites others to run the eval on their own models.
+
+Sources: [Nous Research](https://nousresearch.com/arete), [model weights](https://huggingface.co/NousResearch/Arete-27B), [Propaganda_Eval](https://huggingface.co/datasets/NousResearch/Propaganda_Eval)

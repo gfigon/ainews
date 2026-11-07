@@ -1,0 +1,32 @@
+---
+title: "AI2's ToyBlocks: A Terrarium For Robot Learning, And The First Sign VLAs Generalize Badly"
+date: "2026-11-07 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "AI2's FoundationWorlds framework opens ToyBlocks, a deliberately small robot-arm-and-blocks simulation that auto-generates skills and demonstrations up to 24x real time — and uses it to show that ManiFlow, pi0.5 and MolmoAct 2 generalize poorly across space."
+image: "/assets/post-images/2026-11-07-toyblocks-foundationworlds-robot-learning-testbed.svg"
+---
+
+Robot demonstrations are narrow and rarely explain what a model actually learned. The scientific fix for that is the same one biologists use for complex systems: a small controlled environment where conditions can be varied and effects traced. AI2's new **FoundationWorlds** framework packages that idea, and its first instance, **ToyBlocks**, is a robot arm moving wooden blocks on a tabletop.
+
+## How It Works
+
+Skills — short-horizon behaviors like pushing a block or flipping it onto another face — are trained with RL and motion planning in NVIDIA's **Isaac Lab**. Crucially, skill generation uses *privileged* simulator state (exact block pose and orientation) rather than estimating it from camera images, which is what makes auto-generation possible without teleoperation. A **task-and-motion planner** then sequences those skills into full task demonstrations, each carrying labels for the task and skill performed. Hundreds of plans execute in parallel on a single GPU, reaching **up to 24x real-time**.
+
+Blocks are not anonymous. Letters and pictures on their faces enable search, sort, and arrange tasks, and a robot may need to turn a block to see a hidden face before deciding where it belongs. Domain randomization varies block size and table height. Models are trained from raw sensor observations so the perception problem is preserved rather than short-circuited. In the reference stack, **Molmo 2** picks skills and indicates the target block through a pointing interface, while **ManiFlow** executes them.
+
+## The Uncomfortable Finding
+
+The headline result is negative. ToyBlocks was used to test whether popular action models generalize once inputs shift — different object layouts, lighting, workspace regions, stack heights. **ManiFlow, pi0.5, and MolmoAct 2 generalize poorly**, even after large-scale pretraining. The study separates interpolation (new configurations within the training range) from extrapolation (beyond it): training with objects spawning only on the left and testing on the right, or training stacks of two and five blocks and testing three and four.
+
+Rather than declare the problem solved, the team documents what helps — LoRA among the techniques analyzed — and states plainly that action-model generalization remains far from solved.
+
+## Why It Matters
+
+Two design choices make ToyBlocks useful beyond its own findings. Metrics go past success rate to **execution speed, forces exerted on objects, and task progress** measured against the same specifications the planner uses. And a web interface lets a researcher connect **Claude** to instruct the robot in natural language without robotics expertise.
+
+The negative result is the real contribution: robotics now has somewhere to reproduce the disagreement about VLA generalization, rather than each paper choosing its own real-world dataset and its own variable geometry.
+
+Sources: [Hugging Face blog](https://huggingface.co/blog/allenai/toyblocks), [ToyBlocks code](http://allenai.github.io/ToyBlocks), [ToyBlocks data](https://huggingface.co/datasets/allenai/toyblocks-data)

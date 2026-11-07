@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
+      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -5600,6 +5600,30 @@
       "last_published": "2026-11-06",
       "slugs": [
         "2026-11-06-hybrid-state-transfer-cross-model-handoff"
+      ]
+    },
+    {
+      "term": "Arete-27B Nous Research Qwen3.8-27B Post-Trained Western Values 52.8M Tokens SFT Propaganda Rate 22% to 1% Fact Score 2.32 to 2.98 Inkling Teacher Hermes Bench 65.60% November 2026",
+      "count": 1,
+      "last_published": "2026-11-07",
+      "slugs": [
+        "2026-11-07-arete-27b-qwen-values-post-training"
+      ]
+    },
+    {
+      "term": "ToyBlocks AI2 FoundationWorlds Robot Arm Blocks Simulation Isaac Lab RL Skill Generation Task-and-Motion Planner 24x Real-Time Demonstration Generation ManiFlow pi0.5 MolmoAct 2 Spatial Generalization November 2026",
+      "count": 1,
+      "last_published": "2026-11-07",
+      "slugs": [
+        "2026-11-07-toyblocks-foundationworlds-robot-learning-testbed"
+      ]
+    },
+    {
+      "term": "OpenAI GPT-6 Cyber Specialized GPT-6 Astra ExploitGym 48.5% Linux Kernel 1724 Reproduced 948 Exploits 304 Critical Disclosures Firefox 81 New High-Severity Vulnerabilities Critical Preparedness Rating ExploitGym Honeypot 0.07% Scope Adherence 99.93% Daybreak Red November 2026",
+      "count": 1,
+      "last_published": "2026-11-07",
+      "slugs": [
+        "2026-11-07-gpt-6-cyber-linux-firefox-vulnerability-disclosure"
       ]
     }
   ]
