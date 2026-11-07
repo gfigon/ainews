@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
+      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -5624,6 +5624,22 @@
       "last_published": "2026-11-07",
       "slugs": [
         "2026-11-07-gpt-6-cyber-linux-firefox-vulnerability-disclosure"
+      ]
+    },
+    {
+      "term": "Escalate Or Close Two-Tier AI Security Triage Fast Tier Model Held-Out Web Attack Families Path Traversal ModernBERT 37% To 60% Probability Below 0.05 Escalate 50% To 81% Within 5% Benign Budget Jev Clef 97.6% Escalation Benign Twins 37% Adaptive Search 43% Past Jev 300 Queries 60% Inconsistency arXiv 2611.08229 November 2026",
+      "count": 1,
+      "last_published": "2026-11-07",
+      "slugs": [
+        "2026-11-07-two-tier-triage-fast-tier-attack-blind-spot"
+      ]
+    },
+    {
+      "term": "XStack Benchmark ML Repo Migration Agents PyTorch NVIDIA GPU To JAX Google TPU Claude Opus 5 75% GPT-5.6-sol 45% Other Agents At Most 40% Grading Against Published Result Calibrated Long-Horizon Cross-Framework Hardware Portability arXiv 2611.08472 November 2026",
+      "count": 1,
+      "last_published": "2026-11-07",
+      "slugs": [
+        "2026-11-07-xstack-ml-repo-migration-pytorch-jax"
       ]
     }
   ]

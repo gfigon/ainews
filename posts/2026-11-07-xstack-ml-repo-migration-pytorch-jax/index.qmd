@@ -1,0 +1,38 @@
+---
+title: "XStack: Can An Agent Move An ML Repo From PyTorch And NVIDIA To JAX And TPU?"
+date: "2026-11-07 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - AI Infrastructure
+summary: "XStack is a benchmark for agents migrating machine learning repositories between the PyTorch/NVIDIA and JAX/TPU ecosystems: Claude Opus 5 passes 75% of repositories, GPT-5.6-sol 45%, and every other agent at most 40% — showing how hard it is to free ML code from the hardware it was first written for."
+image: "/assets/post-images/2026-11-07-xstack-ml-repo-migration-pytorch-jax.svg"
+---
+
+Most machine learning code still lives in one of two ecosystems: **PyTorch on NVIDIA GPUs** or **JAX on Google TPUs**. That is not a style preference — it is a lock-in. A repository written for one stack is hard to run on the other, which means a researcher who wants different hardware often has to rewrite rather than port.
+
+A new benchmark, **XStack**, proposes that this migration chore is exactly the kind of long-horizon, hardware-crossing problem coding agents should be good at — and measures how badly they currently fail at it.
+
+## How It Works
+
+Each agent receives a **PyTorch repository and a clean TPU machine**, and must deliver a working **JAX repository**. Grading is not a similarity score: the output must pass criteria calibrated by the authors against the source repository's **published result**, so a migration that runs but produces different numbers does not count.
+
+The design deliberately stresses several axes at once — two frameworks, two hardware backends, whole repositories rather than snippets, and a task where the agent cannot verify its work on the target device until late.
+
+## The Scores
+
+Migration by agents remains unreliable:
+
+- **Claude Opus 5 — 75%**
+- **GPT-5.6-sol — 45%**
+- **Every other agent — at most 40%**
+
+That spread is the interesting part. The frontier gap is wide, and even the best model fails on roughly one repository in four — on a task that has a single verifiable answer. The remaining failures are not "almost working" cases; a migration either reproduces the published result or it does not.
+
+## Why It Matters
+
+XStack turns an abstract complaint — *frameworks entrench hardware vendors* — into a measurable score. If ML code could move freely, researchers could pick accelerators per workload, and the PyTorch/NVIDIA and JAX/TPU split would be a choice rather than a constraint.
+
+The benchmark's authors frame the release as a step toward **making reliable cross-framework migration measurable**, and the numbers argue that agents are not close. At 75%, the best model still fails more than a fifth of the time on repos that a human porter has certainly migrated before.
+
+Paper: [arXiv:2611.08472](https://arxiv.org/abs/2611.08472)

@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-07-two-tier-triage-fast-tier-attack-blind-spot/index.html",
+      "/posts/2026-11-07-xstack-ml-repo-migration-pytorch-jax/index.html",
       "/posts/2026-11-07-arete-27b-qwen-values-post-training/index.html",
       "/posts/2026-11-07-toyblocks-foundationworlds-robot-learning-testbed/index.html",
       "/posts/2026-11-07-gpt-6-cyber-linux-firefox-vulnerability-disclosure/index.html",

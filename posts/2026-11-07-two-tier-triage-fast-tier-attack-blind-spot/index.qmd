@@ -1,0 +1,32 @@
+---
+title: "Escalate Or Close: The Fast Tier That Silently Shuts Down Held-Out Attacks"
+date: "2026-11-07 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "In two-tier AI security triage, a fast model closes most requests and escalates the rest — so any attack family it never saw in training gets a confident benign verdict: ModernBERT assigns held-out path traversal under 0.05 probability and escalates only 50-81% of it within a 5% benign budget."
+image: "/assets/post-images/2026-11-07-two-tier-triage-fast-tier-attack-blind-spot.svg"
+---
+
+The efficiency trick behind production AI security is a two-tier triage: a **fast model** handles the bulk of web requests, and anything it flags is **escalated** to a slower, more expensive tier. The catch is structural — an attack the fast tier closes is never examined by anyone. If the fast tier is confidently wrong, the attack is not blocked; it is simply never looked at.
+
+A new paper measures exactly how wrong a fast tier can be, by **holding out entire attack families** from training, recalibration and threshold tuning, then splicing the payloads into the parameters of real browsing traffic.
+
+## The Blind Spot
+
+Against detectors trained on known families, the results are brutal. Over 10 training runs, **ModernBERT gave 37% to 60% of held-out path traversal a probability below 0.05** — a confident benign verdict — and escalated only **50% to 81%** of it within a 5% benign budget, against nearly all of the same requests when traversal *was* known.
+
+Two hosted decision models, **Jev and Clef**, behave differently: their budget decisions do not depend on the held-out family, and both escalate **at least 97.6% of every family** within the same budget. The caveat is obvious and important — their undisclosed training data may already contain these public attack families.
+
+## The Controls Matter
+
+The authors also stress that recent-exploit benchmarks need controls for **request shape**. Jev escalates **37% of benign twins** — exploit requests with the attack replaced by legitimate values. And detectors trained on older exploits end up learning what scanner requests *look like*, rather than what the attack *does*.
+
+An adaptive attacker search, guided by Jev's own probability signal, gets **43% of held-out attacks past Jev within 300 queries** — and Jev's answers are not stable. Asked again, it escalates those same requests in **60% of its answers**.
+
+## Why It Matters
+
+Two-tier triage is sold as a cost optimisation, but it converts a **model blind spot into a silent one**. The fast tier's job is not just to be fast; it is to be calibrated on traffic it has never seen. Both hosted models here handle that — with the caveat of unknown training data — while a supervised detector trained on known families confidently closes the attack class it was never taught.
+
+Paper: [arXiv:2611.08229](https://arxiv.org/abs/2611.08229)
