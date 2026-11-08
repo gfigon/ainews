@@ -5681,6 +5681,22 @@
       "slugs": [
         "2026-11-08-on-policy-distillation-vs-grpo-flops"
       ]
+    },
+    {
+      "term": "SpecCTMC Exact Speculative Sampling Masked Diffusion Language Model Continuous-Time Markov Chain CTMC LLaDA-8B-Instruct Dream-v0-Instruct-7B 1.73-4.38x Fewer NFE 2.88x Wall-clock NVIDIA B200 Training-Free No Draft Model GSM8K MATH MBPP HumanEval IFEval arXiv 2611.08362 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-specctmc-exact-speculative-diffusion-llm"
+      ]
+    },
+    {
+      "term": "VLA-Tug Failure Prediction Classification Vision-Language-Action Models Calibrated Latent Probing Backbone Embeddings Layer 18 pi0.5 Layer 16 GR00T-N1.7 Early Detection 30% Unseen Bounds 86% vs 21% Top-3 Failure Mode 44% Learn-then-Test FPR TPR 0.12 ms GPU 6.8 s Train 3180 Episodes LIBERO LIBERO-Occ LIBERO-X Kinova Gen3 arXiv 2611.08425 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-vla-tug-latent-failure-detection-vla"
+      ]
     }
   ]
 }
