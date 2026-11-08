@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-08-specctmc-exact-speculative-diffusion-llm/index.html",
+      "/posts/2026-11-08-vla-tug-latent-failure-detection-vla/index.html",
       "/posts/2026-11-08-on-policy-distillation-vs-grpo-flops/index.html",
       "/posts/2026-11-08-labba-llm-behavioral-biometric-auth/index.html",
       "/posts/2026-11-08-visionsim-physically-grounded-sensor-simulation/index.html",

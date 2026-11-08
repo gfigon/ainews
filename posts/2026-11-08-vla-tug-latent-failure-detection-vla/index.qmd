@@ -1,0 +1,32 @@
+---
+title: "VLA-Tug: A Tiny Probe That Knows When Your Robot Policy Is About to Fail"
+date: "2026-11-08 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Vision-Language-Action models fail unpredictably under distribution shift. VLA-Tug is a lightweight probe over backbone embeddings that predicts failure before onset, names the failure mode, and adds under 1% to the policy call."
+image: "/assets/post-images/2026-11-08-vla-tug-latent-failure-detection-vla.svg"
+---
+
+Vision-Language-Action models (VLAs) are good enough to be dangerous. They succeed on most manipulation tasks, fail without warning under distribution shift, and the failure often means a gripper hits a table or a bowl goes into the wrong compartment. Existing failure detectors mostly answer the wrong question: they produce a scalar risk score, calibrated for a false-positive rate — but not for a true-positive rate, and rarely evaluated against when the failure actually began.
+
+**VLA-Tug** reframes the problem as a tugboat beside the vessel: a small monitor that runs alongside the policy, pulls only when needed, and says *why* it is pulling. The authors name four properties: **T**imely (detect before onset), **I**nformative (name the failure mode, not just score it), **C**alibrated (hold both error bounds jointly), **E**fficient (train, calibrate and run it cheaply).
+
+## The Design
+
+The probe reads the VLA backbone's own embeddings — layer 18 of π₀.₅, layer 16 of GR00T-N1.7 — averaging the agent-camera, wrist-camera and instruction tokens into a 6144-dimensional vector per policy step. A recurrent encoder (LSTM + MLP) maps that into a latent failure space; a score head raises the alarm, a mode head predicts which of grasping, pushing, opening and so on will fail. Training is supervised on the *pre-failure segment* of trajectories, not the whole trajectory, which is the single change that most improves early detection.
+
+Calibration uses Learn-then-Test to jointly certify the false-positive rate and the early true-positive rate, and abstains when it cannot. That yields a positive-predictive-value bound as well — the probability that an alarm is real — which prior detectors could not offer because they lacked a TPR guarantee.
+
+## What It Buys
+
+On unseen tasks the area under the early-detection curve beats the strongest learned baseline by **up to 30%**. Under distribution shift, the joint bounds hold in up to **86% of runs**, versus at most 21% for baselines; on seen tasks both bounds hold in 57–71% of certified runs for baselines versus every run for VLA-Tug. Failure-mode prediction raises top-3 accuracy on unseen tasks by **up to 44%** over a majority-class baseline.
+
+The cost side is what makes this deployable: **6.8 s** to train on one RTX 4090 (against 43.5 s for SAFE-LSTM), 6.6M parameters — 26.5 MB, about 0.2% of the VLA — and **0.12 ms per step on GPU**, 0.2% of the 54 ms GR00T policy call. Calibration takes under 2 ms per target pair on CPU. Labeling costs roughly a cent per failed episode, under $50 for the whole dataset, which is the part that changes economics: practitioners usually already have unlabeled rollouts.
+
+The proof is in the real world, not just simulation: 8 tabletop tasks on a Kinova Gen3 arm, 399 rollouts of which 254 failed. With VLA-Tug steering, a gripper that would have knocked the mushroom off the table is redirected before the collision. Success rates improve once the probe's prediction and failure mode are wired into a recovery policy.
+
+The limitation is honest — steering in the experiments uses failure-mode-specific heuristics and a VLM invoking recovery tools, not a learned general correction. The paper releases a dataset of 3,180 annotated manipulation episodes (≈289k policy-step embeddings) so others can build the general version.
+
+Paper: [arXiv:2611.08425](https://arxiv.org/abs/2611.08425) · [project page](https://vla-tug.github.io)

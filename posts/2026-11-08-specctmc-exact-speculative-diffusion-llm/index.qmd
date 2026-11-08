@@ -1,0 +1,32 @@
+---
+title: "SpecCTMC: Speeding Up Diffusion LLMs Without Breaking Their Math"
+date: "2026-11-08 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "Masked diffusion language models can unmask tokens in parallel, but doing so naively breaks their output distribution. SpecCTMC is a training-free speculative sampler that cuts sequential model evaluations 1.73-4.38x while provably preserving the reference sampling law."
+image: "/assets/post-images/2026-11-08-specctmc-exact-speculative-diffusion-llm.svg"
+---
+
+Masked diffusion language models (MDLMs) — LLaDA, Dream and relatives — generate text by iteratively unmasking tokens in a partially masked sequence. The pitch is obvious: unlike left-to-right autoregression, you can commit several tokens per step. The catch is that the tokens are not independent. Unmask them independently and you get a different output distribution than the model was trained to produce, with no clean bound on how wrong it got.
+
+Two escape routes have dominated. Approximate solvers (τ-leaping, θ-trapezoidal) freeze transition rates over finite intervals, buying speed and quietly changing the law. Parallel decoders (Fast-dLLM and its descendants) pick high-confidence positions, which is faster still but bakes in a factorization error the paper quantifies: for a setting with δ = 0.05, independent parallel sampling provably needs at least ~0.897n extra target-model evaluations to compensate.
+
+**SpecCTMC** takes a third route: keep the exact continuous-time Markov chain (CTMC) and make the *evaluations* parallel rather than the *commits*. The insight is structural. In absorbing-mask generators, event times depend only on diffusion time and the number of remaining masks — not on the identities of unmasked tokens. So the event clock can be sampled in advance and survives rejection.
+
+## How It Works
+
+The sampler drafts successive token updates using previously computed predictions, evaluates those tentative intermediate states in one batched forward pass, then verifies each proposal sequentially with an exact acceptance-and-correction procedure. Rejecting a proposal does not disturb the sampled clock, because a corrected mark is still a valid mark for that event time. The proof carries over from distribution-preserving speculative sampling for autoregressive models, extended to continuous diffusion: the resulting trajectory has the same joint distribution over event times, generation order and token values as direct simulation. No time-discretization error, no additional factorization error.
+
+## The Numbers
+
+On LLaDA-8B-Instruct and Dream-v0-Instruct-7B across GSM8K, MATH, MBPP, HumanEval and IFEval, SpecCTMC uses **1.73–4.38× fewer sequential target-model evaluations** than direct CTMC simulation, with measured wall-clock speedups up to **2.88× on an NVIDIA B200**. On GSM8K with LLaDA at 256 generated tokens, target NFEs drop by 2.88× while expected accuracy is preserved.
+
+The speedup is not uniform across lengths, and the paper is upfront about it: at L=32 the average wall-clock gain on LLaDA is only 1.05× even though NFE drops 2.58×, because batching cannot amortize a short generation. The best gains land on IFEval and HumanEval (up to 2.07× wall-clock, 3.30× NFE average on LLaDA), where instructions and code give the drafter more to work with. Draft depth of 2–7 is used depending on benchmark.
+
+Two details matter more than the headline. Accuracy differences against DirectCTMC are statistically flat — every paired 95% confidence interval contains zero. And on GSM8K, multiple stochastic attempts solve questions that deterministic greedy denoising misses; SpecCTMC reduces the cumulative evaluation cost of that best-of-N strategy, which is the scenario where exact stochastic sampling actually pays.
+
+The honest caveat: this is a sampler-level win, not an architecture-level one. It reduces how many times you call the model, not how expensive the model is. It also compounds with KV caching and other per-evaluation optimizations rather than replacing them.
+
+Paper: [arXiv:2611.08362](https://arxiv.org/abs/2611.08362) · [code](https://github.com/kasakh/specctmc)
