@@ -5657,6 +5657,30 @@
       "slugs": [
         "2026-11-07-stepback-step-level-resampling"
       ]
+    },
+    {
+      "term": "VisionSIM Physically Grounded Multi-Modal Sensor Simulation Robotics SPAD iToF dToF Event Thermal Digital Twin ADS6311 LiDAR RMSE 1.53 m 480000 Views 100 Indoor Scenes arXiv 2611.08368 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-visionsim-physically-grounded-sensor-simulation"
+      ]
+    },
+    {
+      "term": "LABBA LLM-Assisted Behavioral Biometric Authentication Blow-Acoustic Phone Microphone 50 Participants 500 Attempts Phi-3 Mini Q4 CPU FRR 43.64 to 13.80 EER 21.89 to 7.09 arXiv 2611.08343 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-labba-llm-behavioral-biometric-auth"
+      ]
+    },
+    {
+      "term": "Unpacking Compute Efficiency On-Policy Distillation versus GRPO Matched Training FLOPs Self-GRPO Teacher 50x Cheaper 1.62 EFLOP 10.1 EFLOP Multi-Teacher 5.2% 8.0% 42.0% Fewer Total FLOPs Qwen3 arXiv 2611.08453 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-on-policy-distillation-vs-grpo-flops"
+      ]
     }
   ]
 }
