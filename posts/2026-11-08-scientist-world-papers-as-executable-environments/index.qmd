@@ -1,0 +1,34 @@
+---
+title: "Scientist World: Turning 1,000 Research Papers Into Executable Environments For AI-Scientists"
+date: "2026-11-08 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Princeton's Scientist World converts each paper into a runnable benchmark environment with the human method reproduced as baseline. Frontier AI-Scientists beat the authors' own result 74% of the time, and a small Qwen3-8B trained on the traces reaches frontier-level research ideation."
+image: "/assets/post-images/2026-11-08-scientist-world-papers-as-executable-environments.svg"
+---
+
+Autonomous science systems are usually evaluated on curated, hand-built micro-benchmarks: a synthetic dataset, a metric, a leaderboard. The hard part of real research — "can you actually beat the method the humans published?" — is almost never posed as a task. **Scientist World** (Princeton, with ai-scientist.world) closes that gap by making the literature itself the test suite.
+
+An autonomous pipeline selects papers from arXiv's core AI categories (124,816 unique papers over fourteen months, screened down to 21,354 empirical-method candidates), extracts each paper's open-ended research question, and **reproduces the authors' proposed method as the baseline inside a working environment**. An AI-Scientist entering that environment is scored against what the human authors actually achieved — not against a toy target. The first release contains **1,000 verified environments**.
+
+## Two Different Research Abilities
+
+Evaluation runs in two modes: *improve* (the model receives the reproduced source method and must beat it) and *innovate* (no source code; design a method from scratch). The leaderboards split cleanly, which is the paper's more interesting claim. Fable 5 is strongest at improving existing work; Fable 5.1 and Fable 5 take the top two slots at inventing from scratch. Among open models, **GLM 5.2 places third at innovating**. The two abilities are only loosely correlated, so "does research" is not one skill.
+
+The headline number: AI-Scientists **beat the paper's reproduced method in 84% of improve attempts and 74% of innovate attempts**. That is the fraction where the machine is ahead of the humans who wrote the paper.
+
+## Effort Does Not Explain It
+
+A tempting alternative explanation is that bigger budgets simply win. The authors check: **compute hours and agent turns explain essentially none of the score variance (R² ≤ 0.02)**. What does explain it is research quality. An LLM judge, blind to scores, rates each attempt on creativity, engineering, rigor, significance and depth — those ratings track the actual scores at **ρ = 0.89**. The winners are not the ones trying hardest; they are the ones doing better research.
+
+## A Small Model Raised In The World
+
+The same 1,000 environments double as a training ground. Each attempt is stored as a version-controlled repo with full trajectories, averaging 3.7 idea revisions, 6 method revisions, 25 experiments and 35 commits — **6,400 hours of research traces** in total.
+
+Qwen3-8B is trained on them in two stages: SFT on 1,000 cleaned examples, then off-policy GRPO on 1,500 scored ideas. Ideation and implementation are separated, so a fixed frontier implementer (GPT 5.6 Sol) executes every idea identically and only the idea's origin varies. Median implemented idea score climbs **41 → 84 → 106 FNI**, a **+158%** gain that puts the small scientist's ideation at the frontier cohort's anchor.
+
+The honest caveat: the 1,000 environments are a sample of *AI* papers with quantitative optimization contributions, not the whole of science, and the FNI metric normalizes heterogeneous scoring scales. Still, the framing shift is real — papers stop being documents and become playgrounds.
+
+Paper: [arXiv:2611.08478](https://arxiv.org/abs/2611.08478)

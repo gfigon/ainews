@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-08-scientist-world-papers-as-executable-environments/index.html",
+      "/posts/2026-11-08-maem-activation-inversion-metamodel/index.html",
       "/posts/2026-11-08-specctmc-exact-speculative-diffusion-llm/index.html",
       "/posts/2026-11-08-vla-tug-latent-failure-detection-vla/index.html",
       "/posts/2026-11-08-on-policy-distillation-vs-grpo-flops/index.html",

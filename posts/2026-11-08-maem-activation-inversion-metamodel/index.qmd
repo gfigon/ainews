@@ -1,0 +1,32 @@
+---
+title: "MAEM: An Interpretability Metamodel That Inverts Any Residual Stream Direction"
+date: "2026-11-08 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Security & Policy
+summary: "Maximally-Activating Example Metamodels train a Qwen3.6-27B to write text that maximally activates a given residual stream direction. The outputs are verifiable by forward pass, recover LoRA backdoor payloads, and beat corpus search on 12 of 21 unseen domains."
+image: "/assets/post-images/2026-11-08-maem-activation-inversion-metamodel.svg"
+---
+
+The standard way to explain a direction in a model's residual stream is to scan a corpus for text that excites it. That answer is capped by the corpus: if the triggering text never appears in your training data, you find nothing. The alternative — a "metamodel" that describes the direction in natural language — has no such cap, but its output is unverifiable: a human or LLM judge has to take the description on faith.
+
+**MAEM** (Maximally-Activating Example Metamodels; MATS, Arb Research, Anthropic, Charles University) takes a third route. It fine-tunes a copy of the subject model itself to accept a residual stream direction as input and **generate text that maximally activates it**. The training objective is label-free reinforcement learning: maximize the cosine similarity between the supplied direction and the activations of the generated text. Because there are no labels, the metamodel can be trained on any activation direction — SAE features, natural activations, steering vectors — and the exemplars it produces can be **checked with a single forward pass** on the subject model. Each generated text is a sufficient condition for driving that direction.
+
+## Fidelity
+
+A Qwen3.6-27B MAEM reaches a centred cosine of **0.87 at best-of-64** on held-out activations, up from 0.80 at best-of-1. Corpus search over 10M tokens reaches 0.60; natural-language autoencoders (NLA) score 0.64–0.74 but far less fluently. Trained only on English web text, the MAEM **beats 10M-token in-domain corpus search on 12 of 21 unseen languages and domains** (9 non-English languages, 8 programming languages, 4 mathematics sources).
+
+## The Applications That Matter
+
+**Steering vectors** (out of distribution — never trained on them): on AxBench Concept500 directions, MAEM identifies the concept in **95.8%** of cases, versus NLA 92.8%, JJ-lens 85.3% and corpus search 61.4%. On Anthropic's Model-Written Evaluations persona vectors, MAEM (83.7%) and NLA (85.7%) are level, both well above corpus search (51.3%). MAEM's texts average **49 tokens against NLA's 194**.
+
+**Backdoors** are where this gets uncomfortable for defenders. Trained on 48 rank-1 LoRA trojans (32 thematic triggers, 16 three-digit numeric codes), MAEM reads back the payload from the adapter's write direction in **85% of theme adapters verbatim and 90% semantically**. It reads the payload at layers 50 and 62 despite training only on layer 42. Numeric codes are harder — 21% — but the direction is recoverable, where corpus search on the same directions names the trigger in only 49% of theme and 5% of numeric cases.
+
+**Workspace content**: MAEM names association targets in 28.4% of items and multi-hop targets in 50.0%, against JJ-lens at 10.8% and 20.7%. NLA leads on both, but uses four times more tokens.
+
+The limits are real: roughly **11% of SAE features are never elicited** at best-of-8, sample diversity is lower than corpus text, and an autointerp explainer fed MAEM exemplars describes features *worse* than one fed corpus windows.
+
+The uncomfortable read for security: the same method that clarifies a model's internals can reconstruct a backdoor an attacker hid in an adapter.
+
+Paper: [arXiv:2611.08465](https://arxiv.org/abs/2611.08465)
