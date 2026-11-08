@@ -1,0 +1,36 @@
+---
+title: "Does On-Policy Distillation Actually Beat GRPO On FLOPs? A Matched-Compute Verdict"
+date: "2026-11-08 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "On-policy distillation is sold as cheaper than RL because the teacher grades every token. A Salesforce study that counts training FLOPs says the opposite — unless the teacher is the student's own GRPO checkpoint, where distillation recovers it up to 50x cheaper."
+image: "/assets/post-images/2026-11-08-on-policy-distillation-vs-grpo-flops.svg"
+---
+
+On-policy distillation (OPD) trains a student on its **own** rollouts, with every token scored by a frozen teacher. The pitch is compelling: dense per-token supervision instead of a sparse outcome reward, so the student should need fewer rollouts and fewer optimizer steps than GRPO — especially on hard problems where GRPO rarely finds a correct answer at all.
+
+But fewer rollouts is not fewer FLOPs. OPD adds a frozen teacher forward pass over **every training token** (2N_t per generated token, on top of GRPO's 10N_s), and longer responses cost more. Prior efficiency claims leaned on GPU-hours, gradient-step ratios or partial FLOP accounting — never a matched-FLOPs comparison. A Salesforce AI Research paper finally does the honest accounting across task difficulty, student/teacher size, domain and optimization settings.
+
+## External Teachers: GRPO Wins
+
+With an external post-trained teacher (Qwen3-4B/8B/14B/32B), **OPD generally loses to GRPO on accuracy per training FLOP** at matched settings — even when that teacher was itself further GRPO-trained. It also suffers response-length inflation, sometimes degenerating into unstoppable repetition or Chinese characters under an English prompt.
+
+## Self-GRPO Teachers: OPD Wins, Sometimes Dramatically
+
+Change one thing — make the teacher the student's **own GRPO checkpoint** — and the picture flips. With a Qwen3-4B-Base student on DAPO-Math-17K, the same-size 4B teacher fully recovers its own GRPO accuracy (33.9%, which GRPO reaches at 10.1 EFLOP) in just **1.62 EFLOP — about 6x less compute**. With group size G=1, recovery costs **0.2 EFLOP, ~50x less**.
+
+Larger self-GRPO teachers are *worse* per FLOP: 4B, 8B and 14B teachers converge to 35.8%, 34.5% and 33.0% within ≤2.5 EFLOP, and the extra capacity does not transfer. External thinking teachers improve the student far more slowly — an 8B teacher peaks at 34.2% after 27.2 EFLOP, with 4B and 14B staying below 32%. The nastiest case: a further-GRPO-trained external thinking teacher lifts its student to 38.7% at step 80, then the student **collapses to 26.0% by step 200** (and to 6.6%, below initialization, with the 8B teacher) — reproduced across repeats.
+
+## Multi-Teacher: The Real Use Case
+
+The genuinely interesting result is a pipeline: train per-domain GRPO specialists, then distill them into one student. Multi-teacher OPD **matches each specialist's accuracy at a distillation cost of only 5.2% (2 domains) and 8.0% (4 domains) of specialist training FLOPs** — and counting specialists *and* distillation together, the pipeline beats joint GRPO on the 2-domain mix by **42.0% fewer total FLOPs**.
+
+The catch the authors spell out: on a single domain, the GRPO checkpoint already *is* the desired model, so distilling it adds compute. Multi-teacher consolidation only pays when capabilities are spread across domains.
+
+One counterweight: with an external teacher, OPD wins out-of-distribution precisely in the difficulty cells where the teacher itself is weak, and code-trained OPD improves math OOD by ~7–13 points over code-trained GRPO. Dense supervision has a niche GRPO cannot reach.
+
+The takeaway: distillation is a **consolidation** technique, not a cheap substitute for RL. If you train one specialist, GRPO wins on FLOPs. If you train many, distillation is how you ship them as one model.
+
+Paper: [arXiv:2611.08453](https://arxiv.org/abs/2611.08453)
