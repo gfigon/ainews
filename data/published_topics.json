@@ -5697,6 +5697,22 @@
       "slugs": [
         "2026-11-08-vla-tug-latent-failure-detection-vla"
       ]
+    },
+    {
+      "term": "Scientist World Papers As Executable Environments AI-Scientists Princeton 1000 Verified Environments Reproduced Human Method Baseline Improve Mode 84% Innovate Mode 74% Fable 5 Strongest Improve Fable 5.1 Fable 5 Top Innovate GLM 5.2 Third Open Model Compute Hours Agent Turns R2 0.02 LLM Judge Research Quality rho 0.89 Qwen3-8B SFT 1000 Examples Offline GRPO 1500 Scored Ideas Median FNI 41 84 106 158% 6400 Hours Research Traces arXiv 2611.08478 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-scientist-world-papers-as-executable-environments"
+      ]
+    },
+    {
+      "term": "MAEM Maximally-Activating Example Metamodel Residual Stream Direction Inversion Qwen3.6-27B Label-Free RL Centred Cosine 0.87 Best-of-64 Corpus Search 0.60 10M Tokens NLA 0.64-0.74 21 Unseen Languages Domains Beats Corpus Search 12 AxBench Concept500 Steering Vector 95.8% vs NLA 92.8% JJ-lens 85.3% Corpus 61.4% Model-Written Evaluations BiPO 83.7% vs NLA 85.7% Rank-1 LoRA Backdoor 48 Adapters Write Direction 85% Verbatim 90% Semantic Numeric Codes 21% SAE Features 89% 11% Never Elicited Workspace Association 28.4% Multi-Hop 50.0% arXiv 2611.08465 November 2026",
+      "count": 1,
+      "last_published": "2026-11-08",
+      "slugs": [
+        "2026-11-08-maem-activation-inversion-metamodel"
+      ]
     }
   ]
 }
