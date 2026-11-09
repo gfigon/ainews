@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-09-cpu-arc-reasoning-cache/index.html",
+      "/posts/2026-11-09-video-coder-code-driven-video-generation/index.html",
       "/posts/2026-11-09-amp1-agentic-manipulation-policies/index.html",
       "/posts/2026-11-09-stale-instruction-files-documentation-debt/index.html",
       "/posts/2026-11-09-authorization-drift-llm-agents/index.html",

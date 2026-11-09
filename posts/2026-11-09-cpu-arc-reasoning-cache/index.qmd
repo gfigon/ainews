@@ -1,0 +1,26 @@
+---
+title: "CPU-ARC: Compiling an LLM's Reasoning Into a Reusable CPU Cache"
+date: "2026-11-09 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Agents & Automation
+summary: "Agentic reasoning caching turns an LLM reasoning trace into a compiled CPU program: on AIME '25 the cache scores 93.3% against the source model's 83.3% and is invoked 291x cheaper."
+image: "/assets/post-images/2026-11-09-cpu-arc-reasoning-cache.svg"
+---
+
+Ask a model how many divisors 196 has and it reasons through prime factorisation from scratch. Ask about 144 and it reasons through it again — same plan, same formula, different number. That duplicated work is invisible in most agent stacks, because the entire trace, plans included, is regenerated on every request.
+
+**Agentic reasoning caching (ARC)** proposes to stop regenerating it. A paper by Peter Belcak, Greg Heinrich, Saurav Muralidharan, Shizhe Diao and Pavlo Molchanov (arXiv:2611.09891, on the Moonshot "Local Frontier Intelligence" project page) turns an LLM reasoning trace into a CPU-executable program — an ARC — that answers the whole neighbourhood of the original question without calling a frontier model at all.
+
+**How the cache is built.** The pipeline isolates the input and output of the reasoning, decomposes it into semantic functions, recognises which parts are parameters rather than plan, plans the structure, and implements it. What comes out is code, not a transcript: the cache is a program that takes a payload and returns the answer. Invocation is handled by a small finetuned Llama 3.2 1B in the target, extractor and converter roles; the expensive model (Claude Opus 4.5) appears only at build time.
+
+**The cache is often more accurate than the model that wrote it.** Across eight benchmarks the cache matches or beats source accuracy on seven: AIME '25 **93.3% vs 83.3%**, AIME '26 **96.7% vs 90.0%**, MATH-500 98.8% vs 98.6%, GPQA Diamond 83.8% vs 83.8%, MMLU-Pro 89.0% vs 88.0%. The AIME gain has an obvious cause — the source model sometimes reasons correctly and then slips on the final arithmetic, while the cache executes the same reasoning as deterministic code. Only GSM8K regresses (98.0% vs 98.5%). Agreement with the source transcript exceeds 98% on six of eight benchmarks.
+
+**The economics are the point.** Building a cache costs 12–84× a single source call; invoking it costs **16–291× less**. Per sample the cache runs at $0.0004–$0.0019 against $0.0101–$0.1203 for the source model. Break-even arrives after roughly **13 invocations** on AIME problems and about **90** on GSM8K — the hard, expensive questions pay back fastest.
+
+**Robustness decides whether this is usable at all.** Three perturbations are tested: rewording the question, swapping the numbers, and doing both. Every benchmark stays at or above a 90% pass rate, with the worst case 90.8% for combined perturbation on AIME '26.
+
+Unlike a fine-tuned model, an ARC can be inspected, corrected and extended entry by entry without retraining anything. The obvious deployment shape is a cache in front of an endpoint whose payloads repeat structurally, with an LLM fallback for genuinely novel requests.
+
+Paper: [arXiv:2611.09891](https://arxiv.org/abs/2611.09891)

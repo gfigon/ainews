@@ -1,0 +1,26 @@
+---
+title: "Video-Coder: The Video Model That Writes the Scene Before It Renders"
+date: "2026-11-09 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "A coding agent from UCF, Microsoft Research, Tsinghua and UW-Madison writes and executes Blender code to build a 3D scene, then renders a white-model draft that steers the video generator: +7 points on PhyGenBench, +24 on VBench-2.0."
+image: "/assets/post-images/2026-11-09-video-coder-code-driven-video-generation.svg"
+---
+
+Video generators learn pixels, not worlds. Ask for three cars and a boat and you may get two cars; ask for a ball rolling down a ramp and physics becomes optional. **Video-Coder** (arXiv:2611.09894), from the University of Central Florida, University of Würzburg, Microsoft Research, Tsinghua, UNC-Chapel Hill and UW–Madison, attacks the problem from the other side: instead of prompting the generator harder, it writes the scene as code first.
+
+**The pipeline.** The agent — Video-Coder-9B — writes Blender code, executes it, renders a dynamic 3D scene as a "draft video", reads execution errors and the rendered result, and revises. The draft carries explicit structure and motion (object counts, positions, trajectories, camera moves) and is handed to a downstream generator that adds appearance. MiniMax-H3 serves as that generator.
+
+**Training.** Trajectories were generated with Gemini 3.8 Flash inside the Video-Coder Harness (code execution, 3D rendering and feedback in one loop), yielding Video-Coder-SFT-6k and Video-Coder-RL-2k. Then SFT, followed by harness-native agentic RL with two rewards: an execution-based reward (does the program run) and a video-based reward (how good is the final video). An annealing schedule gradually downweights the execution reward, so the model ends up optimising picture quality rather than mere runnability.
+
+**Results.** On PhyGenBench the average rises from 0.61 to **0.67**, ahead of Wan2.2-TI2V-5B (0.54), Kling (0.49), Gen-3 (0.51) and HunyuanVideo (0.33); it leads in all four categories — Mechanics 0.68, Optics 0.79, Thermal 0.60, Material 0.61. On VBench-2.0 it reaches **78.19%** plausibility against 77.04% for CogVideoX-1.5 and +24 points over its own generator; on mechanics, **88.67%** against 67.59% for MiniMax-H3.
+
+**It transfers, and it ablates cleanly.** Trained only against MiniMax-H3, it still lifts OmniWeaving from 0.48 to 0.51. Remove the annealing and PhyGenBench drops to 0.65; train on execution reward only, 0.63; video reward only, 0.64; SFT alone, 0.63.
+
+**The honest limit is appearance.** On material behaviour the method scores 48.94% against CogVideoX-1.5's 83.19% — the white-model draft encodes structure and motion, not fine-grained material response, so the generator must supply that on its own.
+
+Data, model and code are open-sourced. The interesting shift is representational: the hardest constraints in a generated video stop being pixels and become a program you can read, run and edit.
+
+Paper: [arXiv:2611.09894](https://arxiv.org/abs/2611.09894)
