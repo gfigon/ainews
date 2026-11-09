@@ -1,0 +1,24 @@
+---
+title: "SciCheck: Proving That a Training Run Actually Happened"
+date: "2026-11-09 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A provenance framework from Gonzaga and Boise State lets a second scientist verify a submitted training run with gradient statistics plus randomly re-executed segments, catching sign flips, label poisoning and fabricated results."
+image: "/assets/post-images/2026-11-09-scicheck-verifiable-training-provenance.svg"
+---
+
+Can you prove that a colleague's machine learning result is real? Not just that the paper is well written — that the run behind it actually happened, used the stated data, and applied the stated gradients. **SciCheck** (arXiv:2611.09889), by Alexander Nguyen (Gonzaga University) with Dylan Gresham, Gaby G. Dagher and Min Long (Boise State University), attacks that problem for scientific deep learning training.
+
+**Why recomputation fails.** Two honest runs never produce the same weights, so a verifier cannot simply retrain and compare. Worse, architecture, hyperparameters and procedure are rarely fixed until the first training attempt — there is no canonical recipe to check against. That rules out the standard cryptographic move: publish the code, publish the data, let anyone rerun it.
+
+**The framework.** The submitting scientist explores configurations freely, then posts a *blueprint* to a provenance ledger for each candidate worth verifying. A second scientist then judges the resulting run in two layers. The first is a statistical judge model that compares per-step gradient statistics against the verifier's own reference run. The second is a spot-check: randomly chosen training segments are re-executed from checkpoints committed to the ledger one epoch at a time.
+
+**Results.** On an MLP, a CNN and an autoencoder of 100k–500k parameters, under gradient sign flipping, label poisoning and fabricated runs, SciCheck reaches F1 of **0.966**, **0.906** and **0.976**, while rejecting only **0–4.4%** of honest runs. The spot-check accounts for most of that accuracy, and the paper is unusually candid about which layer catches what: the effective-signal statistic decays as (1−2s)² under a sign flip of severity s, so gradient statistics alone only catch strong flips. Fabricated runs that replay genuine statistics look *no more anomalous than honest runs* to any statistical detector tested. What catches them is the re-execution, with soundness at least 1−(1−s)^k for k sampled segments whose draws stay hidden until the run is committed.
+
+**The bill.** Verification costs 1.5–2.3× one retraining, mostly for the verifier's reference run; each individual submission's spot-check takes under 1.5 seconds. Committing checkpoints per epoch rather than per step cuts checkpoint storage 5–17×.
+
+The honest limit: this is a small-scale result (sub-500k-parameter models), and the statistical layer alone is close to useless against a determined fabricator. But the framing — a proof obligation for the *process*, not the artifact — is the piece other verification work has been circling.
+
+Paper: [arXiv:2611.09889](https://arxiv.org/abs/2611.09889)
