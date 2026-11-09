@@ -1,0 +1,26 @@
+---
+title: "AMP1: Put a Generalist Model at the Robot's Handle and Specialists Lose"
+date: "2026-11-09 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "An Apple team running Gemini 4 Argon in the control loop hit 85.6% on RoboLab-120 zero-shot — ahead of every VLA, world-action model and learned policy on the leaderboard — and 104 of 108 real-world trials."
+image: "/assets/post-images/2026-11-09-amp1-agentic-manipulation-policies.svg"
+---
+
+Robot manipulation research has spent years training specialist policies — vision-language-action models (VLAs) and world-action models (WAMs) — on demonstrations. A team at Apple, including Vladlen Koltun and Matthias Müller, argues the generalist model should just be handed the robot (arXiv:2611.09892). Their harness, **AMP1**, keeps a frontier model in the control loop and lets it command the manipulator directly, revising actions as the task unfolds.
+
+**On the RoboLab-120 benchmark it dominates the leaderboard, zero-shot.** AMP1 with Gemini 4 Argon succeeds in **85.6% of episodes** (95% CI 83.5–87.5) and 82.8% with Opus 5.5. For comparison: the best agent on the public leaderboard, SenseNova-RoboRSI, scores 57.1%; the best learned policy 51.0%; the best VLA 49.2%; the best WAM 42.9%. Astranomy, another agentic policy evaluated off-leaderboard, reaches 74.8% — and only 25.3% with Opus 5.5 on a 30-task subset, against AMP1's 82.8% on the full RoboLab-120.
+
+**Specialists are brittle exactly where the generalist is not.** Under vague instructions, FLUX 3 Action drops from 42.9% to 28.4% and π₀.₅ from 28.0% to 15.2%, while AMP1 varies by about three points across instruction conditions (84.0% / 87.1% with Gemini 4 Argon).
+
+**The remaining failures are mostly benchmark artifacts.** Of AMP1's 173 unsuccessful episodes with Gemini, 121 trace to object geometry defeating a standard parallel-jaw grasp or to a flaky verifier. On the 95 tasks without those artifacts, success is **96.2% (914 of 950)**. On CaP-Gym, AMP1 completes all 700 robosuite episodes (HarnessPAI: 96.3%; human-written programs: 82.6%) and 95.2% of LIBERO-PRO against 18.2% for the only other zero-shot agent.
+
+**Real hardware, where the tradeoff is honest.** On 12 tasks across three Franka Research 3 arms, AMP1 with Opus 5.5 succeeded **104 of 108 trials**, against 49 for FLUX 3 Action and 30 for π₀.₅ — failure rates cut 15× and 20× respectively. It is also slower: 280 s average time to success versus 44 s (FLUX) and 62 s (π₀.₅). It also improvises: pushing a flat book to the table edge to expose a graspable surface, sliding a gripper under a fruit pinned against a heavier object, inferring an unseen shelf from a blocked motion, and diagnosing camera calibration errors from commanded-versus-observed mismatch.
+
+**Experience without gradients.** AMP1+ adds a persistent memory folder (notes plus a Python library the agent writes itself); with weights frozen, few-shot practice on RoboDojo lifts success on unseen layouts from 26.4% to **84.1%**, above every leaderboard entry.
+
+The trend is clear: in manipulation, the frontier model is becoming the policy, and the specialist is becoming the servo loop.
+
+Paper: [arXiv:2611.09892](https://arxiv.org/abs/2611.09892)

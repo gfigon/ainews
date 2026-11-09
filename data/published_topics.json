@@ -5713,6 +5713,30 @@
       "slugs": [
         "2026-11-08-maem-activation-inversion-metamodel"
       ]
+    },
+    {
+      "term": "Stale Instruction Files Documentation Debt Coding Agents AGENTS.md CLAUDE.md Stale Path 78/80 Command Case 55/80 Procedure Case 0/84 Location Case Corrected Line 0 Runs Haiku p 2e-28 Sonnet p 2e-33 Silent Failure 64/80 Calls Ran No Tests Claude Code Flagged None 19/40 Sonnet Verified Fix With Zero Tests Tool Calls 7.8 vs 5.8 Tokens 195k vs 152k Recovery 130/133 Encounters Disclosure 21/133 No Instruction File Edited 732 Runs arXiv 2611.09802 November 2026",
+      "count": 1,
+      "last_published": "2026-11-09",
+      "slugs": [
+        "2026-11-09-stale-instruction-files-documentation-debt"
+      ]
+    },
+    {
+      "term": "Authorization Drift LLM Agents Authorization Drift Benchmark ADB 648 Samples Seven Domains Four Rollouts 13 Models Data Tool Scope Time Drift Rate Claude Sonnet 4.6 0.571 Task Success 0.923 Qwen3.6-35B-A3B 0.605 0.925 Qwen3.5-397B 0.434 Mistral-Small-3.1-24B 0.250 Llama-4-Maverick 0.029 CCSR Below 0.30 86.18% Clean-Success Trajectories Persistence 83-86% PR 1.16-1.20 Planner-Executor DR 0.61 To 0.08 CCSR 0.94 To 0.23 GDPR Article 5(1)(c) Data Minimisation 43% 93.5% Two Jurisdictions 58 Provisions arXiv 2611.09113 November 2026",
+      "count": 1,
+      "last_published": "2026-11-09",
+      "slugs": [
+        "2026-11-09-authorization-drift-llm-agents"
+      ]
+    },
+    {
+      "term": "AMP1 Agentic Manipulation Policies Generalist Model Direct Robot Control RoboLab-120 85.6% Gemini 4 Argon 82.8% Opus 5.5 SenseNova-RoboRSI 57.1% Lakeside 51.0% Best VLA 49.2% Best WAM 42.9% Astranomy 74.8% FLUX 3 Action Vague 42.9% To 28.4% pi0.5 28.0% To 15.2% CaP-Gym LIBERO-PRO 95.2% CaP-Agent0 18.2% Robosuite 700/700 HarnessPAI 96.3% BEHAVIOR-1K 48/50 Real World 104/108 vs FLUX 49 pi0.5 30 Failure Rate 15x 20x Franka Research 3 Apple AMP1+ Memory RoboDojo 26.4% To 84.1% arXiv 2611.09892 November 2026",
+      "count": 1,
+      "last_published": "2026-11-09",
+      "slugs": [
+        "2026-11-09-amp1-agentic-manipulation-policies"
+      ]
     }
   ]
 }

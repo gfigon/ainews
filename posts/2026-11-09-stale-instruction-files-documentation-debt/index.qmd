@@ -1,0 +1,24 @@
+---
+title: "Stale AGENTS.md: The Documentation Debt Every Coding Agent Inherits"
+date: "2026-11-09 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Coding agents read AGENTS.md and CLAUDE.md at every session. When one line goes stale, agents follow it in up to 98% of runs, fail silently, and never repair the file."
+image: "/assets/post-images/2026-11-09-stale-instruction-files-documentation-debt.svg"
+---
+
+Coding agents are told to read `AGENTS.md` or `CLAUDE.md` before touching a repository. Nobody is told to check that those files are still true. A study from North Carolina State University (arXiv:2611.09802) injects a single stale line into three kinds of instruction file — a test command, a folder location, a procedure — then runs 732 sessions of Claude Haiku 5.5 and Claude Sonnet 5.5 in three conditions: the stale line, a corrected line, or the line removed.
+
+**They followed it.** In the Command case agents used the stale path in **78 of 80 runs**; in the Procedure case, 55 of 80; in the Location case, none of 84 — the task never required looking it up. With the line corrected, no run took the stale path (Haiku p = 2×10⁻²⁸, Sonnet p = 2×10⁻³³). Removing the line helped but did not help enough: agents still guessed a plausible old folder from the code's structure in 20 of 80 Procedure runs. Only the corrected line blocked it completely.
+
+**The dangerous part is silence.** Before their first stale call, agents cited the instruction file in only 2 of 133 stale-path runs and opened it in none — the path came from the file Claude Code loads into the session, and the agent never says where it got it. Failure then looks like success: in 64 of 80 stale Command runs at least one call ran no tests at all, and Claude Code flagged none of them, because output was piped through `tail` or `head`. Sonnet's first such call printed "folder not found, no tests ran" in all 40 runs and still counted as success; Haiku hid the message with `2>/dev/null` in 16 of 38. Net effect: **19 of Sonnet's 40 stale runs verified their fix with a test run that ran zero tests** — against none of the 40 corrected runs.
+
+**Outcome-only evaluation sees none of this.** Agents fixed the bug in essentially every run under every condition, yet Sonnet burned 7.8 tool calls against 5.8, and 195k tokens against 152k. The patch was often byte-identical; only the work to reach it differed. Documentation debt is invisible to pass-rate dashboards.
+
+**Recovery is operational, not administrative.** Agents got back on track in 130 of 133 encounters, typically within two calls, usually by searching the repository (98 recoveries via search, 32 direct). But only 21 of 133 final responses mentioned the mismatch, **none proposed a repair, and not one of 732 runs edited the instruction file**. The agent works around the wrong instruction, ships a passing patch, and leaves the same trap for the next session.
+
+Practical takeaway: treat `AGENTS.md` as code with a maintenance cost. Correct stale lines rather than deleting them, and put "fix the instruction you relied on" into the task prompt — otherwise it will not happen on its own.
+
+Paper: [arXiv:2611.09802](https://arxiv.org/abs/2611.09802)
