@@ -5753,6 +5753,22 @@
       "slugs": [
         "2026-11-09-video-coder-code-driven-video-generation"
       ]
+    },
+    {
+      "term": "SciCheck Verifying Integrity Deep Learning Training Provenance Ledger Blueprint Statistical Judge Gradient Statistics Spot-Check Re-execution Epoch Commitments F1 0.966 0.906 0.976 Reject 0-4.4% Honest Runs Effective-Signal (1-2s)^2 Sign Flip Label Poisoning Fabricated Runs Soundness 1-(1-s)^k Cost 1.5-2.3x Retraining Storage 5-17x Gonzaga University Boise State University arXiv 2611.09889 November 2026",
+      "count": 1,
+      "last_published": "2026-11-09",
+      "slugs": [
+        "2026-11-09-scicheck-verifiable-training-provenance"
+      ]
+    },
+    {
+      "term": "Computer-Use Agents Are Embodied Generalists CUA Embodied AI as Software GUI Interface Keyboard Mouse Actions Gemini 3.5 Flash Gemini 3.6 Flash ECCV 2026 Workshop Competitions OpenSUN3D First AP50 +4 AP25 +10 MeViSv2-Text Second No-Target Accuracy 88.89 vs 83.33 DialNav Third VLNVerse Sixth 74 Entries Third-Highest NDTW GUI vs API Within 4 Points Carnegie Mellon University arXiv 2611.09847 November 2026",
+      "count": 1,
+      "last_published": "2026-11-09",
+      "slugs": [
+        "2026-11-09-cua-embodied-generalists-robot-tasks"
+      ]
     }
   ]
 }
