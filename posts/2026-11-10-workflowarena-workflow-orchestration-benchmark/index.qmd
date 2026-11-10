@@ -1,0 +1,22 @@
+---
+title: "Workflow Orchestration Is Its Own Capability: Inside WorkflowArena"
+date: "2026-11-10 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "A 145-task benchmark that records every delegation shows that who organizes the work matters independently of who does it: workflows authored by Claude Opus 5.5 lift weaker executors by up to 10.9 points."
+image: "/assets/post-images/2026-11-10-workflowarena-workflow-orchestration-benchmark.svg"
+---
+
+Agent harnesses increasingly let the model instantiate worker agents *and* write the executable workflow that coordinates them. That shifts system structure from a developer's design to a run-time decision by the model, which makes the quality of that organization a capability in its own right. WorkflowArena, from Navers Lab, Einsia.AI and Tsinghua University, measures it directly: 145 long-horizon tasks across eight professional domains — software engineering, operations, science, mathematics, finance, law, content and 3D production — each with an interdependent deliverable checked by a hidden verifier, with every delegation recorded.
+
+**Nobody wins everything.** Across nine models and 25 model-effort configurations, the best overall resolved rate is 36.95% (Claude Opus 5.5 at max effort in Claude Code), followed by Sonnet 5.5 at max (33.21%), GPT-6 Astra at xhigh (30.80%) and GPT-6.1 Sol at xhigh (29.50%). Mathematics saturates at 95.83%; software engineering peaks at 29.41%, and law and finance stay in the single digits and below 20%. No configuration leads every domain.
+
+**Effort moves Claude far more than GPT.** Opus ranges from 22.02% to 36.95% across effort levels and Sonnet from 16.88% to 33.21%, while Astra varies only between 27.34% and 30.80% and Sol between 25.63% and 29.50% — and Sol at low effort actually resolves more than at medium or high. Pricing reorders the ranking again: Sol at low effort gets 27.59% for $3.61 per task, Opus at high effort 34.11% for $6.66, while Astra at xhigh needs $29.26 — 4.4x the cost for 3.31 points less.
+
+**Two delegation styles.** In Claude Code, Opus averages 0.86 workflow calls per task but 5.55 workers per workflow; in Codex, Astra makes 2.09 calls with only 1.72 workers. About 99% of Astra and Sol workflows stay at four workers or fewer. Call frequency alone says nothing about collaboration scale.
+
+**The workflow is separable.** Holding the executor fixed on 32 hard tasks, workflows authored by Opus lift every weaker model: Kimi climbs from 35.75 to 46.61, DeepSeek from 18.37 to 25.24, and static Opus workflows add 6.41 points on average. Orchestration quality is not the same thing as raw task performance — and it can be transported.
+
+Paper: [arXiv:2611.12856](https://arxiv.org/abs/2611.12856)

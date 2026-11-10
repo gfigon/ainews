@@ -1,0 +1,24 @@
+---
+title: "AI-Text Detectors vs. Real Students: What PISA 2025 Reveals"
+date: "2026-11-10 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Lab-evaluated AI-text detectors score above 0.98 macro-F1, but on real PISA 2025 student essays with character-level provenance the same techniques fall to 0.95 and a one-prompt rewrite can cut recall to 0.60."
+image: "/assets/post-images/2026-11-10-pisa-2025-ai-text-detection-student-writing.svg"
+---
+
+Published evaluations of AI-text detectors look decisive: in the 2025 AI-vs-Human shared task, the best systems reached macro-F1 above 0.98. Those evaluations compare fully human writing against text generated from carefully designed researcher prompts. Real classroom use looks nothing like that — students decide whether to use a chatbot, prompt it loosely, paste fragments back in, or use it only for ideas. A new study puts detectors into that mess and shows where they hold and where they leak.
+
+**Character-level provenance.** The authors use the PISA 2025 FLA dataset: German 15-year-olds wrote English argumentative essays with and without access to a gpt-4o-mini-based chatbot. Keystroke, clipboard and chat logs let them trace every character of the final essay back to its origin, yielding gold labels for human, AI, mixed and *potential influence* text — writing produced after chatbot use where no AI material is traceable. The experimental subset holds 3,303 essays by 2,204 students and 44,133 sentences, split 80/10/10 by student.
+
+**The baseline holds, then bends.** A feature-based XGBoost detector and a classifier over frozen Llama-3.1-8B embeddings separate AI from human text at macro-F1 0.95 and 0.96 on whole texts, and 0.88 and 0.95 on single sentences — below the 0.986/0.999 of the shared task. Add the grey zone, relabelled as AI, and text-level scores fall to 0.79 and 0.80. Mixed text is harder than it looks; *potential influence* is hardest, and about 95% of it is called human.
+
+**Spelling is not the shortcut.** Students average 4.36 misspellings per 100 words against 0.72 for the chatbot. Correcting every human misspelling or injecting human-style errors into AI text barely moves XGBoost (within 0.01) and costs the embedding model at most 0.03. Teachers' favourite tell is weak evidence.
+
+**One prompt defeats the feature model.** Rewriting AI essays to sound like a student drops feature-based AI recall from 0.92 to 0.60 with gpt-4o-mini, and to 0.41 with Qwen3-14B — because the model was keying on lexical complexity. The embedding detector keeps recall at 0.94 or better for whole texts, but falls as low as 0.59 on individual sentences.
+
+The takeaway is practical rather than alarming: detection is not authorship. Provenance-grade logging is, and where it exists, the detector is only a triage tool — a false positive still means accusing a 15-year-old.
+
+Paper: [arXiv:2611.12487](https://arxiv.org/abs/2611.12487)
