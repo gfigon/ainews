@@ -1,0 +1,22 @@
+---
+title: "AutoBuddy: The Hard Part of an Always-On Agent Is Finding the Work"
+date: "2026-11-10 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "AutoBuddy-Bench simulates a whole organisation as a temporal graph so that agents can be graded on discovering pending obligations in mail, chat and documents — and on actually completing them."
+image: "/assets/post-images/2026-11-10-autobuddy-proactive-always-on-agents.svg"
+---
+
+Every agent benchmark hands the agent its task. Real knowledge work rarely does: the request is buried somewhere in a workspace, implied by a chain of events, and expected to be carried out without anyone asking. **AutoBuddy** (arXiv:2611.12393), by Shiqi Chen, Daniel Madrigal Diaz, Wei-Ning Chen, Gbola Afonja, Fangkai Yang, Rujia Wang, Chetan Bansal, Victor Rühle, Saravan Rajmohan and Dongge Han, measures the second job: proactive task discovery and execution.
+
+**The simulator.** AutoBuddy-Bench models an organisation's employees, projects, business systems and event history as a *temporal graph*. That graph is rendered into realistic workspace artefacts — mail, chat, documents, records. Ground-truth tasks are derived from the events that create obligations, and the correct outcome of each task is computed from the resulting world state. Execution is then judged by the agent's actual changes to the workspace, not by a self-reported answer.
+
+**The agent.** AutoBuddy is a reference agent with an interchangeable backbone LLM. It identifies candidate tasks from the workspace, grounds each one in the records that produced it, then executes each in a separate session with write access — so a failure to close a loop shows up as a missing state change rather than a missing sentence.
+
+**Results.** Varying only the backbone reveals a systematic shift in *where* tasks are lost. Weaker models fail mainly at **discovery** — they never notice the obligation. Intermediate models identify tasks but often stop short of carrying them out. The strongest models fail mainly during **execution**, most often on business-system operations. Discovery precision turns out to be only weakly related to execution quality, which suggests these are two distinct capabilities that a single agentic score is hiding.
+
+The practical lesson for anyone deploying an always-on assistant: buying a better model shifts the bottleneck rather than removing it. You still need machinery for noticing work, grounding the notice in evidence, and reliably finishing business-system actions — and those three stages fail for different reasons.
+
+Paper: [arXiv:2611.12393](https://arxiv.org/abs/2611.12393)

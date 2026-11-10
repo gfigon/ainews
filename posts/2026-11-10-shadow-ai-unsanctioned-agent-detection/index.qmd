@@ -1,0 +1,24 @@
+---
+title: "Shadow AI: Detecting the LLM Agents Nobody Approved"
+date: "2026-11-10 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A Windows detector from Jeremy Canale and Fabien Soulis argues that unsanctioned AI agents can be spotted by the identity of the services they call — but only for the minutes a DNS cache remembers who those services are."
+image: "/assets/post-images/2026-11-10-shadow-ai-unsanctioned-agent-detection.svg"
+---
+
+Shadow IT has always been a governance problem. Autonomous agents turn it into a growth problem: building a tool is nearly free, the tool acts with the user's own privileges, and what it leaves behind — scripts, automations, MCP servers — is itself unsanctioned. A simple compounding model in a new paper shows that agent-generated artifacts grow exponentially once they reproduce faster than an organisation retires them. Retirement starts with detection, so the paper asks a concrete question: can unsanctioned agents be found on a Windows endpoint?
+
+**Behaviour alone is a dead end.** The authors classify agents into nine classes and map six layers of endpoint footprint, then make the uncomfortable point: an agent and its "behavioural twin" — the same program talking to a non-AI service — can look identical in process structure and connection patterns. Rules built only on that evidence cannot separate them.
+
+**Agent Detector.** Their open-source Windows detector anchors behaviour to the *identity* of the remote service rather than to the process shape, correlating it with configuration, installation and execution history. The catalogue behind it covers 39 tools and 184 LLM endpoint entries. Interaction is deliberately soft: the tool informs users through a notice they must acknowledge rather than blocking outright.
+
+**Results.** On a controlled bench of 12 synthetic agents, 3 AI components and 9 benign workloads, repeated five times on a single workstation, two behaviour-only rules flagged every behavioural twin — that is, they cried wolf on all of them — while Agent Detector flagged none of the benign twins and detected every agent in the majority of runs. A scan costs about **154 ms**.
+
+**The limits are honest.** Attribution to a provider behind a shared CDN only survives as long as the DNS cache holds the provider's name: one to five minutes. An intermittent agent was caught by roughly one scan in three. And the bench is too small to rank detectors; it maps what each kind of evidence can and cannot see.
+
+The takeaway is narrower than a product pitch but more useful: unsanctioned agents can be partly detected, and the identifying signal is *who the agent talks to*, not *what the agent does* — a distinction most endpoint tooling has not yet absorbed.
+
+Paper: [arXiv:2611.12377](https://arxiv.org/abs/2611.12377)
