@@ -5809,6 +5809,20 @@
       "slugs": [
         "2026-11-10-workflowarena-workflow-orchestration-benchmark"
       ]
+    },
+    {
+      "term": "How Well Does AI Peer Review Work Benchmark 100 Planted Errors 10 Open-Access Psychology Papers 62-Category Taxonomy INSPECT-SR GPT-5.5 High Reasoning 71 Of 100 GPT-5.5 No Reasoning 66 GPT-5.4 60 Claude Sonnet 4.6 60 Claude Opus 4.6 59 Refine.ink 57 Gemini 3.1 Pro 42 Gemini 3 Flash 36 Reviewer3 30 Cost Per Error 0.042 Refine.ink 8.77 Ensemble Pooling 91 Foundation Models 93 All Systems 7 Undetectable Errors All Omissions Deleted Information Pre-Registration Disclosure P-Hacking AbsenceBench False Positives Not Measured UChicago Eight arXiv Subject Classes 71.6% arXiv 2611.12820 November 2026",
+      "last_published": "2026-11-10",
+      "slugs": [
+        "2026-11-10-ai-peer-review-planted-errors-benchmark"
+      ]
+    },
+    {
+      "term": "Mitigating Agentic Deception Evaluation-Side Partially Observable Games e-PoG Subgame-Perfect Oversight Equilibrium SPOE Two-Timescale Policy Gradient NLI Verification Deterministic Checks Gemma3-4B-IT Qwen3-4B Qwen3-8B Agentic Role-Playing SearchQA WebShop Deception Rate Near 0% 26.0% Better Mitigation 15.3% 39.8% Compliant Success Baselines 69.0% 60.4% Fabrication Misdirection Intent Sanitization Weak-To-Strong Supervision Beihang University SKLSDE Lab Zhongguancun Laboratory Tsinghua CUHK Peking University BigAI Li Auto arXiv 2611.12835 November 2026",
+      "last_published": "2026-11-10",
+      "slugs": [
+        "2026-11-10-agentic-deception-oversight-game"
+      ]
     }
   ]
 }

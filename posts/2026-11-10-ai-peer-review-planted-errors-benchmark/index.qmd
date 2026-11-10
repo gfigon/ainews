@@ -1,0 +1,24 @@
+---
+title: "Can AI Actually Peer Review? 100 Planted Errors Say Maybe"
+date: "2026-11-10 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "Frontier models and two commercial review tools were run against psychology papers seeded with 100 known errors: the best system caught 71, the weakest 30, pooling caught 93 — and all 7 misses were omissions rather than mistakes."
+image: "/assets/post-images/2026-11-10-ai-peer-review-planted-errors-benchmark.svg"
+---
+
+AI peer-review tools are spreading just as AI-assisted papers multiply: more text to check, less human attention to check it with. The gap between "AI reviewers are pretty good" and "good enough to take over" has so far been argued from anecdotes. A benchmark from Paul Litvak (Robyn Dawes Institute), accepted at the CogSec 2026 workshop at ACM HCOMP, measures it with a grounded answer — by planting the errors first.
+
+**The setup.** Ten open-access psychology papers from OSF were modified to carry 100 known errors, ten per paper, drawn from a 62-category taxonomy built on the INSPECT-SR checklist — statistical slips, construct-validity problems, causal-inference errors, generalizability issues, reporting gaps. The modified papers went to various Claude, ChatGPT and Gemini 5 configurations plus two paid systems, Reviewer3 and Refine.ink, with an LLM judge checking whether each flagged comment matched a planted error. The first attempt failed outright: the errors were too obvious and frontier models saturated it. The benchmark only became useful once the errors were mostly *deletions* — a required statistical transformation removed, a sentence explaining how the key measure was computed quietly excised.
+
+**The leaderboard is wide and shallow.** GPT-5.5 with high reasoning caught 71 of 100 errors at $0.042 per error; without reasoning, 66. GPT-5.4 and Claude Sonnet 4.6 got 60 each, Claude Opus 4.6 got 59. Gemini 3.1 Pro managed 42, Gemini 3 Flash 36. Reviewer3 in journal mode caught just 30 — worst of the lot, though its subscription pricing makes per-error cost unmeasurable. Refine.ink caught 57 but at roughly $8.77 per error, two orders of magnitude above the frontier models. The author is careful that ordering between close systems isn't meaningful at this sample size; the pattern matters more than the leaderboard.
+
+**Ensembling is the real lever.** Because systems catch partly different errors, pooling the foundation models' output reaches 91 of 100, and pooling everything reaches 93. Greedy ensemble construction saturates fast — a handful of systems cover almost everything. Refine.ink adds the most unique catches above the best single model, particularly on methodological design, statistical errors and internal consistency, while being weakest on causal inference, reporting completeness and generalizability.
+
+**All seven misses were omissions.** The errors no system could detect were all *deleted* information rather than inserted mistakes: dropped open-science pre-registration disclosures, removed statements that all measures and exclusions were reported — leaving room for p-hacking nobody flagged. This lines up with AbsenceBench, where models handed both the original and edited document still could not say what was missing. The systems here saw only the edited paper. Human reviewers asking "were all manipulations reported?" catch this class; machine reviewers don't.
+
+**The caveats matter as much as the numbers.** False positives were never measured, so this is recall only — and precision is what practitioners complain about. It is also unclear whether planted errors resemble naturally occurring ones, and whether the errors AI is worst at catching are the common ones. Independently, Chenhao Tan's group at UChicago applied the same injection method across eight arXiv subject classes and recovered a similar 71.6% best case, suggesting the ceiling belongs to current systems rather than to psychology papers. The papers, planted errors, model outputs and full experiment log are public, published to be copied rather than protected.
+
+Paper: [arXiv:2611.12820](https://arxiv.org/abs/2611.12820) · [code and data](https://github.com/Dawes-Institute/ai-peer-review-benchmark)
