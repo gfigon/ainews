@@ -5769,6 +5769,30 @@
       "slugs": [
         "2026-11-09-cua-embodied-generalists-robot-tasks"
       ]
+    },
+    {
+      "term": "Shadow AI Detecting Unsanctioned LLM Agents on Enterprise Endpoints Agent Detector Taxonomy Nine Agent Classes Six Footprint Layers Behavioural Twin Identity Anchored Remote Service 39 Tools 184 LLM Endpoint Entries Windows Scan 154 ms DNS Cache 1-5 Minutes 12 Synthetic Agents 9 Benign Workloads Jeremy Canale Fabien Soulis arXiv 2611.12377 November 2026",
+      "count": 1,
+      "last_published": "2026-11-10",
+      "slugs": [
+        "2026-11-10-shadow-ai-unsanctioned-agent-detection"
+      ]
+    },
+    {
+      "term": "AutoBuddy Evaluating Proactive Always-On Agents on Task Discovery and Execution in a Simulated Workplace AutoBuddy-Bench Temporal Graph Organisation Simulator Workspace Artefacts Ground-Truth Tasks Discovery vs Execution Shifting Failure Modes Weak Models Discovery Intermediate Models Stop Short Strongest Models Execution Business-System Operations AutoBuddy Reference Agent Shiqi Chen Victor Ruhle Saravan Rajmohan Dongge Han Chetan Bansal arXiv 2611.12393 November 2026",
+      "count": 1,
+      "last_published": "2026-11-10",
+      "slugs": [
+        "2026-11-10-autobuddy-proactive-always-on-agents"
+      ]
+    },
+    {
+      "term": "HOPE Higher-Order Pruning of Experts Mixture-of-Experts Second-Order Pruning Objective Interaction Matrix F Quadratic Program REAP Special Case Spearman 0.988 Qwen3.5-122B Qwen3.5-35B GLM-4.5-Air Evol-CodeAlpaca SWE-Bench Verified Trajectories Tulu3 SWE-Bench Pro 50 Percent Pruning Average Rank 1.58 vs 2.42 42.3 vs Unpruned 41.8 vs REAP 36.2 AWS Labs Package calibrate solve prune Amazon Hugging Face Blog arXiv 2609.18916 November 2026",
+      "count": 1,
+      "last_published": "2026-11-10",
+      "slugs": [
+        "2026-11-10-hope-higher-order-moe-expert-pruning"
+      ]
     }
   ]
 }
