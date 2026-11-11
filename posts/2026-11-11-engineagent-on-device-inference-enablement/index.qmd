@@ -1,0 +1,22 @@
+---
+title: "EngineAgent: Coding Agents That Actually Ship a New Model On-Device"
+date: "2026-11-11 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Tools & Frameworks
+summary: "Shanghai Jiao Tong and Alibaba built an agentic system that enables brand-new mobile LLMs in on-device inference engines, hitting 75% end-to-end success where the best coding-agent baseline manages 33.3%."
+image: "/assets/post-images/2026-11-11-engineagent-on-device-inference-enablement.svg"
+---
+
+Supporting a new LLM in an on-device inference engine is not one task but four stacked ones: model conversion, graph construction, operator implementation, and hardware backend support. Meanwhile the model generations move fast — Gemma 3 to Gemma 3n took about 4 months, MiniCPM-V 4.0 to 4.5 just **24 days** — and each generation brings new machinery (Qwen3.5 interleaves GatedDeltaNet linear attention; Gemma4 adds proportional RoPE and per-layer embeddings; MiniCPM-V 4.6 mixes 4x/16x visual-token compression). Mobile backends then differ in language, tensor layout and compilation path: ARM CPUs in C++, Vulkan GPUs via SPIR-V shaders, NPUs via graph rewriting and vendor-specific lowering.
+
+**EngineAgent** (Shanghai Jiao Tong University + Alibaba Group) is an agentic system for automating exactly this enablement work. Its key move is separating reusable knowledge from per-model work: before touching a new model it builds a *hierarchy-aware engine index* of the engine's abstraction layers and cross-layer dependencies, and pre-validates build, execution and debugging workflows using models the engine already supports. A builder agent then coordinates cross-layer changes for the new model, while a separate auditor checks implementation completeness and drives iterative debugging through on-device validation.
+
+**Results.** Across 12 tasks spanning three mobile LLMs and four engine-backend pairs across CPUs, GPUs and NPUs, EngineAgent hits **9/12 end-to-end successes (75%)** — against **4/12 (33.3%)** for Codex with GPT-5.6 Sol, the strongest baseline. Success is strict: it requires compilation, on-device execution, and output-logit agreement with reference implementations — so a "successful" port is one whose logits match the reference, not one that merely builds. Stage-wise metrics (export, host text-only, host multimodal, device text-only, device multimodal) localise exactly where a port breaks, which is the failure mode plain coding agents hit: they fix the conversion, ship the graph, and never notice the device path diverges. EngineAgent is also cheaper: with GPT-5.6 Sol it averages **4.16 h and $11.29** per task versus Codex's 4.82 h and $14.90; with cheaper backbones, ~**$1.53** per task against $2.11–$2.44 for baselines.
+
+The reusable artifacts are cheap: building the hierarchy index costs **$0.66–$1.25**, hardware-aware skills **$1.83–$2.68**, and each incremental engine update runs at $0.0077 and $0.0646 per commit respectively.
+
+**The broader pattern.** Model and hardware both move faster than middleware teams can track: the paper's own table shows Qwen3.5-2B taking up to 30 days to reach first enablement in ExecuTorch, and Gemma4-E2B-it and MiniCPM-V 4.6 still unsupported in several engines. When the upstream release cadence is weeks and the porting cost is engineer-weeks, an agent that reuses pre-validated engine knowledge is the only way to keep up.
+
+Paper: [arXiv:2611.14356](https://arxiv.org/abs/2611.14356)

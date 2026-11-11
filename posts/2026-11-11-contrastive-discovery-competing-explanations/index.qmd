@@ -1,0 +1,24 @@
+---
+title: "Contrastive Discovery: Stop Testing Hypotheses One at a Time"
+date: "2026-11-11 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Cornell researchers show that replacing a single hypothesis with a contrast set of competing explanations lets discovery agents resolve 148 questions against 88 for pointwise testing — at equal token budget, with human experts agreeing on 78% of resolutions."
+image: "/assets/post-images/2026-11-11-contrastive-discovery-competing-explanations.svg"
+---
+
+Most LLM agents doing scientific discovery evaluate hypotheses pointwise: test claim *h* against its complement, and when the evidence rejects it, the agent learns that one explanation is unlikely — but not which alternative the evidence actually supports. It stops, or wanders.
+
+**Contrastive Discovery** (Cornell University) changes the unit the agent proposes and scores. Instead of one hypothesis, it builds a *contrast set*: a scientific question paired with mutually exclusive and collectively exhaustive competing explanations. Each experiment is scored by how its evidence redistributes belief across the whole set, and the question is resolved when belief concentrates on one explanation. Because only the unit changes, an existing agent can use contrast sets to re-evaluate evidence it has already collected, or to steer its next search.
+
+**The effect is large.** Across six datasets spanning materials science, astronomy, finance/policy, online discourse and software engineering, 89% of the pointwise candidates with the largest belief shifts are rejections — but on the same evidence, contrast sets resolve **73%** of those to a specific alternative. When contrast sets guide the search itself, the agent resolves **67% more questions** than pointwise surprisal under the same experiment budget. At equal token caps the comparison is **148.3 vs 87.7** resolved questions; at equal dollar cost, **145.8 vs 92.2**.
+
+**It holds up.** In a blinded study, 38 MS/PhD evaluators picked the same explanation as the system on **78.4%** of resolved questions (40 of 51) — and on **81.8%** of cases where the pointwise agent had rejected its hypothesis and stopped. Re-eliciting beliefs with gpt-4o, gemini-3-flash and claude-sonnet-4-6 agreed on the leading explanation for 88.9% of sets after evidence was seen. Joint scoring is not the trick: scoring alternatives separately still resolves 157.8 questions.
+
+**One caveat worth stating.** Remove the explanation the evidence supports from a contrast set and the system resolves to a wrong explanation **53.4%** of the time; adding an explicit abstention alternative drops false resolutions to **0.6%**.
+
+**A sanity check on the mechanism.** The authors separated the two things contrast sets change: writing out the alternatives, and scoring them jointly as one belief distribution. Scoring each alternative separately with the classic pointwise elicitor still resolved 157.8 questions versus 161.9 for joint scoring, and both picked the same leading alternative on 89.3% of sets — so the gain comes from the contrast set itself, not from the scoring trick. It also survives adversarial checks: pairing a question with unrelated evidence collapsed appropriate-analysis ratings from 73% to 7%, and recomputing 331 analyses straight from raw data reproduced the agent's reported statistics on 96.1% of cases.
+
+Paper: [arXiv:2611.14514](https://arxiv.org/abs/2611.14514)
