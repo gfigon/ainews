@@ -1,0 +1,24 @@
+---
+title: "Earlybird: A 29M-Parameter ASR That Finishes Words Before You Do"
+date: "2026-11-11 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Infrastructure
+summary: "Earlybird predicts the median spoken word correctly 90 ms before the speaker finishes it, in a 16.8 MB 4-bit model that runs about twice as fast as real time on a single CPU thread — reversing the direction that every other streaming recognizer takes."
+image: "/assets/post-images/2026-11-11-earlybird-predictive-streaming-asr.svg"
+---
+
+Every streaming speech recognizer waits. It waits for the word to end, then emits it — typically **90 to 400 ms later**. For a voice agent that delay is dead time: the agent cannot start a search or plan a reply while the user is still talking. **Earlybird**, a solo-authored paper from Sahil Mahendrakar, attacks the delay from the other side. Its median word is predicted correctly **90 ms before the speaker finishes it**.
+
+**The training trick is the whole idea.** Take a streaming recognizer and cut its training audio at random 80 ms steps — exactly the position the model is in at each update — then train it to write out, in full, every word that is due by that point, plus a guess at the next two words. Because the target at time *t′* always extends the target at *t*, the model is never trained to write something it will later take back. It learns from a released streaming model (Moonshine streaming Tiny) with no architectural change and no future audio: the vocabulary is trimmed to 19,007 tokens for 29M parameters, and the distillation loss is applied only where the teacher's top choice matches the label. Two details matter more than they look. Trailing punctuation is held back until the next word is due, so a comma never appears and disappears. And the encoder is given three frames of *silence* padding after the audio heard so far — no future audio — which lets it finish a word as if the speaker might have stopped. That padding alone moved the median word from −50 ms to **−90 ms**.
+
+**The numbers.** On LibriSpeech clean, Earlybird's median word latency is **−90 ms** against Moonshine Tiny's **+270 ms**, Whistle's **+400 ms** and Whisper base's **+90 ms** — it beats the base-sized model by about 360 ms. It is the earliest model on all six test sets: TED-LIUM −68 ms, People's Speech −66 ms, Earnings-22 −46 ms, synthetic −73 ms. The medians hold on full sets: −90 ms across all 2,620 LibriSpeech clean utterances, −67 ms on all 1,155 TED-LIUM utterances. On the same audiobooks, **69% of words are predicted correctly before they end**, versus 3–25% for the other models. P95 latency on LibriSpeech clean is +80 ms, versus +520 ms for Moonshine Tiny and +925 ms for Whistle.
+
+**Accuracy is not sacrificed.** On the eight English Open ASR Leaderboard sets the 4-bit release scores **12.6 mean WER**, roughly tying Whistle (12.2) — a model of the same size — and beating Moonshine Tiny's runtime (14.4) on every set. Full precision averages 11.4, edging out Whisper tiny.en (12.0). Quantization costs 1.2 points. For comparison, the purpose-built streaming Nemotron 0.6B (464 MB at int8) has a median word latency of **+230 ms** on the same utterances. Parakeet TDT 0.6B v2, an offline model **70× larger** and re-decoded every 240 ms, reaches −10 ms with half the error rate — the price of size, and of not being built for this.
+
+**The catch is revisions.** Outputting words early means taking words back. Earlybird revises **1.3 words per spoken word** on LibriSpeech clean — better than Moonshine Tiny's 2.1, worse than Whisper base's 0.4, and **2–6 per word** on spontaneous or noisy speech. Guesses are the second caveat: at confidence ≥ 0.5, only about one word in seven (12–16%) is guessed right before it ends, so most early words come from the transcript itself rather than from speculation. Calibration for words still being spoken is genuinely good, with an expected calibration error of **3.7 to 5.5** and no temperature scaling. And it is English-only, with calibration degrading on out-of-domain command speech.
+
+For voice agents, the interesting shift is architectural: 16.8 MB at 4 bits, running about twice as fast as real time on one CPU thread, means the listener can sit on-device and hand the agent text before the user stops talking. Weights and loader are MIT-licensed at `huggingface.co/sahilmahendrakar/Earlybird-29M`.
+
+Paper: [arXiv:2611.14421](https://arxiv.org/abs/2611.14421)

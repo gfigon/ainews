@@ -1,0 +1,28 @@
+---
+title: "BypassGym: Lightweight AI Agents Already Beat Most EDR Products"
+date: "2026-11-11 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A benchmark from Huazhong University runs real Windows endpoints under six EDR products and finds cheap Flash-tier agents write loaders that slip past 71 of 90 times — with Bitdefender letting only 5 of 15 through."
+image: "/assets/post-images/2026-11-11-bypassgym-agent-edr-evasion.svg"
+---
+
+Every agentic-cybersecurity benchmark so far measures the wrong half of the problem. They test whether a model can find a vulnerability, run a scan, or reproduce a CVE — all of which happen *before* the moment that actually matters: the moment a defender's endpoint agent kills the process. **BypassGym**, from Huazhong University of Science and Technology with Virginia Tech, is the first benchmark aimed squarely at that moment.
+
+**The task is narrow and therefore meaningful.** The agent receives a fixed command-and-control shellcode payload and must write and compile a Windows loader that executes it without being blocked or terminated by a deployed EDR. The loader's design is left entirely open — payload placement, in-memory execution and process-liveness tricks are all fair game. Everything else is held constant: the payload, the available toolchain, the iteration budget. The benchmark runs on Proxmox VE, so real Windows 11 VMs with real EDR products are restored to a clean snapshot between runs, and each submission gets a structured verdict back — which checks it failed, not just pass or fail.
+
+**The results are not subtle.** Across 5 model backends × 6 EDR products × 3 payloads, **71 of 90 runs (78.9%)** produced a passing submission, and every single model cleared at least one. DeepSeek-V4.1 Flash reached **17/18**; Qwen3.7 Plus was the weakest at **10/18**. The cost argument is what makes this uncomfortable: the cheap Flash and Lite backends matched or beat GPT-6 Luna (14/18). Low-cost defense evasion is already working in practice.
+
+The defenses split sharply. **Windows Defender admitted all 15** submissions it saw. **Bitdefender allowed only 5 of 15 (33.3%)**, and all five models failed Havoc against it — a shared hard case rather than a model failure. Payload difficulty mattered too: Sliver 27/30, Havoc 24/30, AdaptixC2 20/30.
+
+**Why they win, and why it matters.** Of the 71 passing submissions, **50 (70%) used DLL side-loading** through the signed `ssvagent.exe` host — the same approach recurring across models. 58 of the 71 needed only a single EDR test to pass. This is not exotic tradecraft; it is a well-known technique that a small model can reach by reasoning from the environment it is given.
+
+**Delayed replay is the sharper finding.** The authors re-ran every passing submission on its original target EDR one to four weeks later, after giving the product 24 hours to update its detection databases. **62 of 71 (87.3%) still passed.** Trend Micro, Sophos and Bitdefender lost none of their replayable submissions. **Kaspersky was the outlier at 61.5%** — five of thirteen no longer passed, concentrated in Sliver and AdaptixC2. Of the nine failures, five involved process termination or disappearance and four left a process alive with no observed C2 callback. That gap is exactly the telemetry-assisted detection defenders argue about: most of what these agents produced was not in anyone's signature set on the day it ran, and much of it stayed invisible weeks later.
+
+**Two further ablations.** Removing the supplied evasion knowledge skill dropped DeepSeek from 17/18 to 13/18 and GLM from 15/18 to 9/18 — external knowledge is doing real work, not just saving tokens. And more reasoning effort did *not* help: GLM swung 11/18 → 14/18 → 14/18 across Low/Medium/High, while DeepSeek was best at **Low** effort (16/18, 17/18, 17/18). Scaffolds mattered mostly for cost, not success: Claude Code cut GLM's repair calls from 212 to 34 while holding 15/18, but pushed DeepSeek's EDR tests from 32 to 46 at the same 17/18.
+
+The authors report the results to all six EDR vendors and offer the benchmark to both sides. The uncomfortable reading for defenders is that endpoint products are being scored against cheap models with structured feedback loops, in a domain where the training data is public and the iteration cost is measured in minutes.
+
+Paper: [arXiv:2611.13684](https://arxiv.org/abs/2611.13684)
