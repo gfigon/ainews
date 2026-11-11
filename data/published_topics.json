@@ -5863,6 +5863,22 @@
       "slugs": [
         "2026-11-11-pyrite-protein-ligand-pose-ranking-agents"
       ]
+    },
+    {
+      "term": "BypassGym Benchmark Evaluating AI Agents Endpoint Defense Evasion Capabilities EDR Evasion Windows 11 Proxmox VE Real Endpoints C2 Shellcode Loader DeepSeek-V4.1 Flash 17 of 18 GPT-6 Luna 14 of 18 Gemini 3.1 Flash Lite 15 of 18 GLM-5.3 Flash 15 of 18 Qwen3.7 Plus 10 of 18 71 of 90 Runs 78.9 Percent Windows Defender 15 of 15 Bitdefender 5 of 15 33.3 Percent Sliver 27 of 30 Havoc 24 of 30 AdaptixC2 20 of 30 DLL Side-Loading ssvagent.exe 50 of 71 70 Percent Single EDR Test 58 of 71 Delayed Replay 62 of 71 87.3 Percent Kaspersky 61.5 Percent Trend Micro Sophos 100 Percent Evasion Knowledge Skill DeepSeek 17 to 13 GLM 15 to 9 Codex CLI Claude Code OpenCode GLM Repairs 212 to 34 Reasoning Effort Low Best DeepSeek 16 of 18 Huazhong University of Science and Technology Virginia Polytechnic Institute and State University arXiv 2611.13684 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-bypassgym-agent-edr-evasion"
+      ]
+    },
+    {
+      "term": "Earlybird Predictive Streaming Speech Recognition 29M Parameters 16.8 MB 4 Bits Moonshine Streaming Tiny Cut-Off Audio Random 80 ms Steps Median Word 90 ms Before Speaker Finishes Moonshine Tiny 270 ms Whistle 400 ms Whisper Base 90 ms LibriSpeech TED-LIUM People's Speech Earnings-22 Synthetic 69 Percent Words Predicted Before End Revisions 1.3 Per Word Open ASR Leaderboard Mean WER 12.6 4 Bit Whisper Tiny.en 12.0 Nemotron 0.6B +230 ms Parakeet TDT 0.6B 1.2 GB -10 ms Confidence ECE 3.7 to 5.5 Vocabulary 19,007 Tokens Distillation Teacher Label-Only Silence Padding Frames Real Time CPU Thread MIT License arXiv 2611.14421 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-earlybird-predictive-streaming-asr"
+      ]
     }
   ]
 }
