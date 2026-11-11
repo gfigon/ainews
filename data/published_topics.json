@@ -5823,6 +5823,30 @@
       "slugs": [
         "2026-11-10-agentic-deception-oversight-game"
       ]
+    },
+    {
+      "term": "ReTrace Distilling Tool-Using Agents into Planner-Free Workflows SOP Natural Language Agent Tool Calls Rationale Condition Extraction Rule Document Executable Workflow Compilation Platform-Agnostic 79 Production Procedures 93.8% Completion 96.8% Agent 24% Lower Cost tau2-bench 75.8% Task Success 80.6% Agent 1.3 s vs 170 s Three Rounds Repair k=2 Workflows 66.7% To 81.2% SOP-Bench 8 Procedures Few-Shot 80.6% 83.6% Repair 87.8% 0.40 s per Task vs 85.5% 46.6 s Columbia University Amazon arXiv 2611.14492 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-retrace-planner-free-workflows"
+      ]
+    },
+    {
+      "term": "EngineAgent Agentizing On-Device LLM Inference Engines Inference Stack Hierarchy Awareness Hardware Abilities Hierarchy-Aware Engine Index Cross-Layer Dependencies Pre-Validation Build Execution Debugging Builder Agent Auditor On-Device Logit Agreement 12 Tasks 3 Mobile LLMs 4 Engine-Backend Pairs 9/12 75% End-to-End Success Codex GPT-5.6 Sol 4/12 33.3% 4.16 h 11.29 USD vs 4.82 h 14.90 USD 1.53 USD per Task vs 2.11-2.44 Index Construction 0.66-1.25 USD Skills 1.83-2.68 USD Incremental Update 0.0077 0.0646 per Commit Gemma3n 4 Months MiniCPM-V 4.5 24 Days Qwen3.5 GatedDeltaNet Gemma4 p-RoPE MiniCPM-V 4.6 4x/16x Visual Token Compression ExecuTorch MNN llama.cpp MLC-LLM ARM CPU Vulkan GPU Hexagon NPU MediaTek APU Apple Neural Engine Shanghai Jiao Tong University Alibaba Group arXiv 2611.14356 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-engineagent-on-device-inference-enablement"
+      ]
+    },
+    {
+      "term": "Contrastive Discovery Open-Ended Scientific Discovery over Competing Explanations Pointwise Hypothesis Testing Complement Contrast Set Mutually Exclusive Collectively Exhaustive Competing Explanations Belief Redistribution Resolution Concentration Six Datasets Materials Project SDSS Galaxy Finance Policy Discourse Software Engineering 89% Pointwise Candidates Largest Belief Shifts Are Rejections 73% Resolved to Specific Alternative 67% More Questions Resolved 148.3 vs 87.7 Equal Tokens 145.8 vs 92.2 Equal Dollars 61.1k vs 52.8k Tokens per Candidate Blinded 38 Experts 60 Items 78.4% 40 of 51 Resolved 81.8% Pointwise Rejected gpt-4o gemini-3-flash claude-sonnet-4-6 88.9% Agreement After Evidence Separate Scoring 157.8 vs 161.9 Same Leading Alternative 89.3% Missing Alternative 53.4% Wrong Resolution Abstention Alternative 0.6% False Resolutions 331 Analyses Recomputed 96.1% Statistics Match Cornell University AutoDiscovery Scaffold arXiv 2611.14514 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-contrastive-discovery-competing-explanations"
+      ]
     }
   ]
 }
