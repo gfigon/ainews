@@ -5847,6 +5847,22 @@
       "slugs": [
         "2026-11-11-contrastive-discovery-competing-explanations"
       ]
+    },
+    {
+      "term": "Sable Small-Field Sumcheck Bit-Exact Inference Integer Quantized Transformer Proof Qwen2.5-32B Qwen3-32B Qwen3-30B-A3B RTX PRO 6000 Blackwell 92.5 s 4096 tokens 41 to 50 times serving 6.4 cents request 86.3 percent WikiText-2 positions MoonMath.ai arXiv 2611.14083 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-sable-bit-exact-inference-proofs"
+      ]
+    },
+    {
+      "term": "Pyrite Protein Ligand Pose Ranking Benchmark 1500 Pairs 285 Structures 1799 Poses Expert Chemists 0.42 Near Chance Boltz-2 Confidence 0.52 MM-GBSA 0.32 PyriteReasoner 67 Percent PyriteFeaturizer 74 Percent GRPO Qwen3.8-27B Genesis Molecular AI Stanford arXiv 2611.14511 November 2026",
+      "count": 1,
+      "last_published": "2026-11-11",
+      "slugs": [
+        "2026-11-11-pyrite-protein-ligand-pose-ranking-agents"
+      ]
     }
   ]
 }
