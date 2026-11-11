@@ -1,0 +1,24 @@
+---
+title: "Pyrite: Expert Chemists Near Chance, LLM Agents at 74%"
+date: "2026-11-11 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Genesis Molecular AI's Pyrite benchmark shows expert chemists scoring 0.42 on protein–ligand pose pairs while LLM agents reach 67–74% — physics-based scoring scores 0.32, worse than a coin flip."
+image: "/assets/post-images/2026-11-11-pyrite-protein-ligand-pose-ranking-agents.svg"
+---
+
+Modern co-folding models can propose many plausible binding poses for a protein–ligand pair. That diversity is only useful if the most plausible pose can be identified — and **Pyrite**, a new benchmark from Stanford and Genesis Molecular AI, shows that ranking poses is far harder than generating them, and that the usual human and physical heuristics fail on it.
+
+The benchmark holds **1,500 pose pairs** spanning 285 unique structures and 1,799 unique poses, with 750 pairs (177 structures, 890 poses) reserved for training and curated pre-AF3 and post-AF3 evaluation splits, including one directly comparable to human annotation. It is a balanced binary task, and abstaining counts as wrong.
+
+**The uncomfortable baseline.** Five expert chemists with more than ten years of computer-aided drug design experience, equipped with 3D visualization and physics-based scores, achieve **0.42 ± 0.03** accuracy on the curated pre-AF3 split (abstention counted as wrong) and 0.45 on post-AF3 — at or below the 0.50 chance line. Counting only decisive annotations, they reach 0.51 and 0.57. Notably, their inter-annotator agreement is **77%**, far higher than their accuracy: humans agree confidently and are still wrong about half the time. Physics scores fare no better. MM-GBSA energy scores **0.32** (anti-correlated with correctness), total-interaction counts 0.41, torsion strain 0.45, unusual Mogul torsions 0.43, and even Boltz-2 confidence only 0.52. On some splits the physics heuristic is systematically wrong.
+
+**Agents do better.** The team built **PyriteRep**, a structured representation of molecular geometry, protein–ligand interactions and physicochemical features, plus two agents on top of it. **PyriteReasoner** compares two poses through explicit text-based chemical reasoning and reaches up to **67%** accuracy. **PyriteFeaturizer** is a coding agent: it writes Python that constructs predictive features for a logistic-regression classifier, optionally calling a smaller model for extra features, and reaches up to **74%** — the strongest result in the paper, and significantly above expert performance. Feature discovery consistently beats direct reasoning, including for frontier models (Opus 4.8, GPT-5.6-sol, Sonnet 5); the open-weight Qwen3.8-27B lags, but GRPO fine-tuning closes the gap and even teaches the reasoner to lean less on MM-GBSA, which the paper shows can be actively misleading.
+
+The lesson is less "AI outsmarted chemists" than "humans cannot read the signals these tools emit". Pose ranking is exactly the kind of task where intuition is untrained and physics scores are anti-correlated — which is why the agents win not by reasoning better, but by building features nobody had encoded. Both the benchmark (1,500 labeled pairs on Hugging Face) and the code are public.
+
+Caveats: pairwise ranking is not absolute binding affinity, and poses come from a proprietary co-folding model. Still, Pyrite is a rare, honest benchmark of where computational chemistry's scoring heuristics genuinely fail.
+
+Paper: [arXiv:2611.14511](https://arxiv.org/abs/2611.14511)

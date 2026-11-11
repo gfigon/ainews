@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-11-pyrite-protein-ligand-pose-ranking-agents/index.html",
+      "/posts/2026-11-11-sable-bit-exact-inference-proofs/index.html",
       "/posts/2026-11-11-retrace-planner-free-workflows/index.html",
       "/posts/2026-11-11-engineagent-on-device-inference-enablement/index.html",
       "/posts/2026-11-11-contrastive-discovery-competing-explanations/index.html",

@@ -1,0 +1,24 @@
+---
+title: "Sable: A Bit-Exact Proof That the Model Really Said That"
+date: "2026-11-11 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Security & Policy
+summary: "MoonMath.ai's Sable proves on a single GPU that a committed integer-quantized transformer produced a given token sequence bit for bit — 92.5 seconds for all 64 layers of Qwen2.5-32B, at 6.4 cents per 4,096-token request."
+image: "/assets/post-images/2026-11-11-sable-bit-exact-inference-proofs.svg"
+---
+
+The uncomfortable question in any audit of an AI deployment: *how do you know this output came from the weights you committed to?* Serving stacks mix kernels, quantizations, sampling decisions and hardware; a token is a hard thing to trace back to a weight matrix. Cryptographic inference proofs have been the theoretical answer — and until now, an impractical one.
+
+**Sable** (MoonMath.ai) is an attempt to make that answer run on a single GPU. It proves the statement: *a committed, integer-quantized transformer produced this token sequence from this prompt, bit for bit.* The first step is to remove ambiguity — Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is a deterministic function of its inputs. From there the system builds a constraint system whose relations provably never wrap modulo the 31-bit KoalaBear prime, and proves it by batching zerochecks and LogUp-GKR lookups into a single sumcheck per domain. Every witness tensor and weight lives in one multilinear commitment built from a rate-1/2 Reed–Solomon code, BLAKE3 Merkle trees and a mixed-length BaseFold opening. The prover streams the model layer by layer in two passes, recomputing witnesses rather than storing them, with a device-resident Fiat–Shamir transcript and CUDA-graph replay of identical layers.
+
+**The numbers.** On one NVIDIA RTX PRO 6000 Blackwell GPU, Sable proves all 64 layers of **Qwen2.5-32B** in **92.5 s** for one 4,096-token sequence, 253 s for four such sequences, and 398 s for a single 16,384-token sequence. The same prover handles Qwen3-32B (121.8 s) and the mixture-of-experts Qwen3-30B-A3B (84.7 s). A proof costs **41–50× the serving time** — roughly **6.4 cents per 4,096-token request** at public GPU prices — and is **40–64× less time per parameter and token than zkLLM**. Verification is cheap: a compiled-core verifier checks proofs for all three models on a single CPU core in **19 to 56 s**, after the authors cut the verifier's compression work from 17.8 to 4.2 million BLAKE3 compressions.
+
+**Exactness is not free.** On WikiText-2, F_O's greedy token matches the BF16 model's at only **86.3% of positions**, with perplexity **8.3% higher** — about a third of that gap traced to 8-bit queries and keys. But splitting the score exponent between queries and keys per KV group, which costs nothing in the proof, removes **53%** of the perplexity gap for Qwen3-30B-A3B and **23%** for Qwen3-32B, leaving F_O within **1.6 points** of BF16 on MMLU and **1.7 points** on GSM8K.
+
+Two caveats are stated plainly: the proof is **not zero-knowledge**, so the system targets open-weight models and verifiers such as auditors who can afford a **106–477 MiB** proof; and the overhead of 41–50× means proving belongs off the critical path, not in it. Within the random-oracle model with proven proximity bounds, the interactive proof has round-by-round soundness error 2⁻¹⁰³.
+
+For regulated deployments the interesting part is not speed but reach: a proof that survives an adversarial verifier is a different compliance artifact from a log file. Code, prover, verifier and measurement scripts are MIT-licensed at `github.com/moonmath-ai/Sable`.
+
+Paper: [arXiv:2611.14083](https://arxiv.org/abs/2611.14083)
