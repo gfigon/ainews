@@ -5879,6 +5879,22 @@
       "slugs": [
         "2026-11-11-earlybird-predictive-streaming-asr"
       ]
+    },
+    {
+      "term": "AI Isn't Getting Dumber We're Getting Pickier Rising Standards in Human Evaluation of Large Language Models Chatbot Arena 1,260,967 Blind Votes May 2023 to August 2024 33 Dated Vendor Snapshots 73 Fixed Open-Weight Models Both Are Bad Share Rises 1.71 Points Per Month Mean 17.1 Percent SE 0.18 p 0.001 1.91 Points Per Month 2024 Fourteen Pairs Rises in Every One 15.5 to 23.3 Percent gpt-4-0613 vs llama-2-70b-chat claude-2.0 vs gpt-4-0613 Average Elo 823 to 1067 245 Points 78 Percent Platform-Wide Expectation Both Are Bad 19.4 to 20.6 Percent Voter-Fixed Effects 1.90 Points Per Month 28 Specifications Prompt Language Difficulty Tag Controls 56 UI Changes Relative Ranking 0.00 Points Trend Zihan Chen Lei Nico Zheng Di Zhu arXiv 2611.14333 November 2026",
+      "count": 1,
+      "last_published": "2026-11-12",
+      "slugs": [
+        "2026-11-12-chatbot-arena-evaluation-drift"
+      ]
+    },
+    {
+      "term": "Pulse or Provenance What rPPG-Based Deepfake Detectors Learn Remote Photoplethysmography Celeb-DF++ 22 Forgery Methods FaceForensics++ c23 Matched 160-Frame Window Face Chrominance AUC 0.998 Talking-Face 1.000 Face Reenactment 0.888 Face Swap RhythmFormer 0.869 Frozen CLIP 0.957 Background Chrominance 0.998 Full Frames 0.999 Frame Shuffling Chance 0.50 to 0.52 4-12 Hz Band 0.992 vs 0.7-4 Hz 0.943 Low-Pass 8 Hz 97 Percent Fakes Look Real Synthetic Pulse No Effect Normalization 0.986 Over 99 Percent Real FF++ Videos Labeled Fake 100 Percent Test Fakes Share Identity 85 Percent Talking-Face Derived From Training Video 92 to 100 Percent Real Test Videos Reused Loose LOMO 0.929 Strict 0.634 Up to 0.30 AUC Inflation Othmane Harraq Tamer Aldwairi arXiv 2611.13992 November 2026",
+      "count": 1,
+      "last_published": "2026-11-12",
+      "slugs": [
+        "2026-11-12-rppg-deepfake-detector-shortcut"
+      ]
     }
   ]
 }
