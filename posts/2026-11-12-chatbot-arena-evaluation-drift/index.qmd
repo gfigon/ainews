@@ -1,0 +1,24 @@
+---
+title: "AI Isn't Getting Dumber, We're Getting Pickier: Chatbot Arena Users Get Stricter by the Month"
+date: "2026-11-12 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Across 1.26 million blind Chatbot Arena votes on frozen model pairs, the share of 'both are bad' verdicts climbs 1.71 points a month — meaning a static model looks like a declining one, while relative rankings stay perfectly flat."
+image: "/assets/post-images/2026-11-12-chatbot-arena-evaluation-drift.svg"
+---
+
+The most common complaint about AI assistants is that they got worse. A study by Zihan Chen, Lei Nico Zheng and Di Zhu tests the alternative explanation that most people haven't considered: **the judges changed, not the models.** The unit of analysis is the awkward one — 1,260,967 blind votes cast on Chatbot Arena between May 2023 and August 2024, restricted to pairs where both models were frozen: 33 dated vendor snapshots plus 73 fixed open-weight releases.
+
+**The headline number.** For the same pair of unchanged models, the share of "both are bad" votes rises by **1.71 percentage points per month** on a mean of 17.1% (SE 0.18, p < 0.001), accelerating to **1.91 pp/month** in 2024. The cleanest cross-check is 14 model pairs judged at least 50 times in both early (May–Oct 2023) and late (Feb–Aug 2024) windows — the "both are bad" share rose in **every single one**, from 15.5% to 23.3%. Named examples include `gpt-4-0613` vs `llama-2-70b-chat`, `claude-2.0` vs `gpt-4-0613`, and `gpt-3.5-turbo-0613` vs `gpt-4-0613`.
+
+**The treadmill, quantified.** Average Elo on the platform rose from **823 in May 2023 to 1067 in August 2024** — a 245-point gain. A model drawn from the August 2024 population would be expected to score about **78%** against one from May 2023. Yet the platform-wide "both are bad" share ended essentially where it began: **19.4% → 20.6%**. Models got measurably better; the verdict on "is this good" barely moved, because the standard moved with them.
+
+**The rules out the easy explanations.** The authors test 28 specifications: fixed effects for the 20 most common languages and 7 difficulty tags, code/math flags, single-turn vs multi-turn battles, prompt and answer length, and **56 distinct Arena UI changes**. Voter-fixed effects recover the same drift at **1.90 pp/month** for the *same individuals* on the *same pairs*. Month effects estimated from other models' pairs remove the drift from each model's own pairs — the drift is a shared, platform-level shift, not a per-model artifact. And critically, the relative ranking does **not** move: in 2024 the stronger model's share of decisive votes had a trend of **0.00 points**.
+
+That asymmetry is the whole finding. Absolute verdicts drift; relative comparisons hold. A product that stands still is judged as declining, because the yardstick tracks the category's progress.
+
+**Why it matters.** The same judge drift contaminates the human-feedback pipeline that trains models, not just the leaderboard that ranks them. Any comparison against human preferences — RLHF reward models, preference benchmarks, model evaluations — is only valid if it is time-stamped and re-anchored to frozen reference models. Otherwise the measurement instrument drifts while the thing being measured stands still, and the resulting "regression" is an artifact of the ruler.
+
+Paper: [arXiv:2611.14333](https://arxiv.org/abs/2611.14333)

@@ -1,0 +1,22 @@
+---
+title: "Deepfake Detectors Taught to Read the Pipeline, Not the Pulse"
+date: "2026-11-12 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A controlled study shows rPPG-based deepfake detectors are not detecting heartbeats — they detect high-frequency flicker and dataset provenance, and a frozen CLIP backbone matches or beats every rPPG fusion."
+image: "/assets/post-images/2026-11-12-rppg-deepfake-detector-shortcut.svg"
+---
+
+Remote photoplethysmography — reading a faint pulse from video color shifts — has been sold as a shortcut for deepfake detection: synthetic faces have no heartbeat, so no pulse means fake. Othmane Harraq and Tamer Aldwairi tested whether detectors actually learned that, and the answer is no. **"Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn"** shows that the physiological story is wrong and the detectors are doing something much more mundane: recognizing the video pipeline.
+
+**The shortcut beats the principled method.** On Celeb-DF++ (22 forgery methods) and FaceForensics++ c23, with matched temporal sampling of exactly one 160-frame window per video, a simple face chrominance trace reaches **AUC 0.998** on talking-face forgeries and **1.000** on face reenactment — while a dedicated state-of-the-art rPPG extractor, RhythmFormer, manages only **0.869**. Face swap sits at 0.888. A frozen CLIP backbone reaches **0.957**, matching or exceeding fusions of CLIP with rPPG and frequency features.
+
+**The interventions that break the pulse story.** If the signal were cardiac, extracting it from the background — where no face and no pulse exist — should destroy it. It does not: background chrominance hits **0.998**, and full frames without face detection hit **0.999**. Shuffling frame order, which destroys temporal structure while preserving color statistics, drops AUC to chance (**~0.50–0.52**), so the cue *is* temporal. But it lives above the heart-rate band: the **4–12 Hz** band reaches **0.992** on talking-face videos while the 0.7–4 Hz pulse band reaches 0.943. Low-pass filtering at 8 Hz makes **97% of fakes appear real**. Injecting a synthetic pulse has almost no effect. Normalizing resolution, frame rate and codec leaves it intact (**0.986**).
+
+**Provenance, not physiology.** Detectors trained on Celeb-DF++ label **over 99% of real FF++ videos as fake**. That is not a deepfake detector; it is a dataset discriminator. The Celeb-DF and Celeb-DF++ official splits compound this: **100% of test fakes share an identity with training data**, **85% of talking-face test fakes derive from a real training video**, and **92–100% of real test videos** were source material for training fakes. Custom "leave-one-method-out" protocols make it worse — the rPPG+DCT detector scores **0.929** under a loose split but **0.634** when identities are strictly held out, an inflation of up to **0.30 AUC**.
+
+**Why it matters.** A detector that separates Celeb-DF reals from FF++ reals at near-perfect AUC is measuring collection identity, not manipulation. Deploy it as a deepfake filter and it will flag high-quality real video as fake while missing forgeries made with the pipeline it never saw. The paper's framing — pulse vs. provenance — is the takeaway: before trusting a physiological detector, check whether it is detecting a heartbeat or detecting a codec.
+
+Paper: [arXiv:2611.13992](https://arxiv.org/abs/2611.13992)
