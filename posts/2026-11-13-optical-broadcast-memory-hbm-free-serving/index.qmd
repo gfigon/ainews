@@ -1,0 +1,20 @@
+---
+title: "Broadcast, Don't Replicate: Serving LLMs Without Weight HBM"
+date: "2026-11-13 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "Uppsala's Optical Broadcast Memory streams model weights over fiber to 80,000 accelerators, removing 4–8.4 petabytes of replicated HBM while matching or beating an HBM3e baseline on throughput and energy per token."
+image: "/assets/post-images/2026-11-13-optical-broadcast-memory-hbm-free-serving.svg"
+---
+
+Datacenter inference is, in a physical sense, a copying problem. Model weights are read-only and identical across every accelerator serving the same model, yet the standard architecture stores a full replica on each device — tens of thousands of copies, each paying for HBM capacity, static power, and the energy of repeated fetches of exactly the same bytes. **Optical Broadcast Memory (OBM)**, from Hannah Atmer, Yuan Yao, Thiemo Voigt and Stefanos Kaxiras at Uppsala University, attacks that duplication directly: one centralized memory server continuously streams weights down an open-ended fiber line, and the accelerators *passively tap* the stream.
+
+**The design generalizes a proposal that was physically stuck.** The earlier idea — a recirculating fiber ring used as delay-line memory — has a fatal geometry: the loop must hold the entire model, so its length grows with model size, its slack is baked in at construction, and MoE-friendly weight layouts make it worse. OBM replaces the ring with a hierarchical **Tap-and-Amplify** line, using receive-only co-packaged optics (no local lasers, no digital signal processing) to deliver parameters straight into compute units with no intermediate buffering. Line length now depends only on how many accelerators it must reach, which frees the cluster to use *any* execution model — including data-parallel attention plus expert parallelism, impossible under a fixed-length ring.
+
+**The numbers are modeled at datacenter scale, not measured on a bench.** At **80,000 accelerators** running Llama-3.1-405B, Llama-4-Maverick and DeepSeek-V4-Pro, OBM removes **4.00–8.44 petabytes** of cluster HBM (39–82%) against an HBM3e baseline. The best layouts land at **0.96×–1.57× baseline decode throughput** with **10–42% lower energy per token**; the DeepSeek-V4-Pro split-port configuration hits **1.57× throughput at 0.58× the energy**. Notably, when every accelerator keeps its full 128 GB of HBM, the split-port MoE layout reaches 1.57× the baseline's throughput.
+
+**There are real caveats in the paper's own tables.** Naive whole-model streaming (data-parallel) collapses to **0.25×–0.47×** baseline throughput, because every accelerator ingests the whole model through a single 3.2 TB/s port and hits a hard roofline knee. Tensor-parallel-plus-expert-parallel also fails to scale on MoE (0.25×–0.31× throughput at roughly 2× the energy) unless the shared weights are duplicated across all eight cables — which for a ring would mean an ~8,300 km loop with no throughput gain. And this is a simulation with an idealized roofline model, not silicon. The takeaway for infrastructure planners is still sharp: weight *replication* is the waste, and the fiber network is already there.
+
+Paper: [arXiv:2611.17097](https://arxiv.org/abs/2611.17097)

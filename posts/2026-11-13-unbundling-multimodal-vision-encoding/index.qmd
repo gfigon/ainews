@@ -1,0 +1,20 @@
+---
+title: "Vision Encoders Are Overrated: What Actually Makes Multimodal Models See"
+date: "2026-11-13 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "A controlled NYU/Meta FAIR study separates three things a vision encoder bundles — pretraining, dedicated capacity, pre-fusion placement — and finds only one of them actually matters."
+image: "/assets/post-images/2026-11-13-unbundling-multimodal-vision-encoding.svg"
+---
+
+Almost every multimodal recipe starts with a separately pretrained vision encoder, but the "encoder" is really three decisions bundled into one: a **visual prior** from upstream pretraining, **dedicated vision capacity**, and placing that capacity **before** multimodal fusion. Published models differ in data, architecture and compute at the same time, so comparing them cannot isolate any of the three. **Unbundling Multimodal Vision Encoding**, by Ellis Brown, Chris Hoang and colleagues at NYU and Meta FAIR, does exactly that: every recipe is trained from scratch on common data with one backbone architecture, at matched *lifetime* compute.
+
+**The prior turns out to be optional.** An encoder trained jointly from scratch matches a pretrained one on visual question answering and needs no separate training stage — and pretraining longer improves recognition but not VQA, even when the pretraining is treated as free.
+
+**Dedicated capacity is what actually pays.** Encoder-free models trail on visual understanding, and the gap is widest on **OCR and chart questions**. Adding the encoder's 0.4B parameters to the shared backbone instead of spending them on vision does not close it: at a 1.7B backbone, the scratch encoder reaches **46.5% Avg. VQA** versus **45.0%** encoder-free — but on OCR the gap is **38.2% vs 25.2%**, and a richer hierarchical patch embedding only recovers part of it. Same parameters, better spent as a vision encoder.
+
+**The third decision barely matters, and dropping the separate encoder is faster.** Adding vision-only modules inside the *first backbone layers* performs comparably to a pre-fusion encoder, and because no encoder has to run before the backbone, it can lower **time to first token**. Midtraining from a pretrained 1.7B language model reproduces the ordering; encoder-free falls further behind. The authors are careful about scope: dense backbones up to 6.4B, 224×224 MetaCLIP images, and encoders pretrained on the same images as the multimodal stage — so a released encoder trained on extra data is not ruled out, and MoE backbones remain untested. Still, the recipe implied here is blunt: train the vision path end-to-end with the backbone, put the capacity early, and stop paying for a pretraining stage that buys nothing.
+
+Paper: [arXiv:2611.17334](https://arxiv.org/abs/2611.17334)
