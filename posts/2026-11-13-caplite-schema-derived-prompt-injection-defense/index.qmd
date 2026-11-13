@@ -1,0 +1,22 @@
+---
+title: "CapLite: Small Models Cannot Write Their Own Prompt-Injection Defenses"
+date: "2026-11-13 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Across 15 open-weight models, agent-written security artifacts fail open on 14 of them and fail closed on the rest — a University of Tokyo team ships CapLite, which derives its policy from tool schemas instead of the model."
+image: "/assets/post-images/2026-11-13-caplite-schema-derived-prompt-injection-defense.svg"
+---
+
+The current generation of prompt-injection defenses has a quiet assumption baked in: the agent's own model can be trusted to write the security artifact that then protects it. CaMeL has the model emit a program, Progent a privilege policy, IPIGuard a dependency graph, DRIFT a trajectory checklist — and then external code enforces whatever the model produced. **CapLite**, from the University of Tokyo with the Institute of Automation at the Chinese Academy of Sciences, asks the obvious question: can a small model write that artifact correctly? Across **15 open-weight models** (13 between 1.7B and 12B parameters, plus Qwen3-32B and a mixture-of-experts reference), the answer is consistently no.
+
+**The artifacts fail in both directions.** Policies written by the model admitted successful attacks on **14 of 15** models under Progent (676 attacks total, up to 132 of 929 on Qwen3-32B). IPIGuard was breached on **13 of 15** (435 attacks), DRIFT on **11 of 15** (214 attacks). Progent's policies also blocked 25–77% of the write calls the agent legitimately wanted, and benign utility fell from **59.4% undefended to 43.8%** — wrong in both directions. CaMeL's programs failed outright to run in up to **68% of episodes**. And scaling the model up did not help: bigger models did not write better artifacts.
+
+**CapLite removes the model from the trust chain.** It derives policy from the tool schemas, commits write calls *before* any tool result is read, and admits a write only if every argument determining who or what is affected was stated in the user's request. Reads stay adaptive; writes are frozen. The guarantee is structural: injected text cannot add a write, and no write reaches a recipient, amount, object or destination the user never stated.
+
+**On AgentDojo, that guarantee held.** Zero successful attacks across **13,935 attacked episodes** — including 7,432 instruction-style injections, 168 read-exfiltration attempts pointing at an attacker URL, and 104 descriptor-collision cases where a planted record carried the user's own attribute. Undefended, the agent failed 1,258 and 1,304 times on the first two families; CaMeL still leaked 3.
+
+**The efficiency result is the real argument for adoption.** CapLite reaches **29.0% utility under attack vs. CaMeL's 27.2%**, at **17.1k tokens per episode** — 18% of CaMeL's 93.7k, and below the undefended agent's 28.0k. Utility per thousand tokens is **1.69**, ahead of DRIFT (1.24) and Progent (0.64). It is not free: utility under attack still trails the undefended agent (50.2%), largely because small models plan badly, not because the defense misfires. CapLite does not defend one case class, and says so in the paper.
+
+Paper: [arXiv:2611.17115](https://arxiv.org/abs/2611.17115)

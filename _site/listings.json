@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-13-metal-sandbox-apple-silicon-gpu-coding-agents/index.html",
+      "/posts/2026-11-13-caplite-schema-derived-prompt-injection-defense/index.html",
       "/posts/2026-11-12-rppg-deepfake-detector-shortcut/index.html",
       "/posts/2026-11-12-chatbot-arena-evaluation-drift/index.html",
       "/posts/2026-11-11-earlybird-predictive-streaming-asr/index.html",
