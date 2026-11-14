@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-14-synthesis-smuggling-steganographic-attribute-leak/index.html",
+      "/posts/2026-11-14-lazyweights-decode-on-demand-edge-llms/index.html",
+      "/posts/2026-11-14-llama-cpp-1-0-stable-api-contract/index.html",
       "/posts/2026-11-13-optical-broadcast-memory-hbm-free-serving/index.html",
       "/posts/2026-11-13-unbundling-multimodal-vision-encoding/index.html",
       "/posts/2026-11-13-metal-sandbox-apple-silicon-gpu-coding-agents/index.html",
