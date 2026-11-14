@@ -5951,6 +5951,22 @@
       "slugs": [
         "2026-11-14-lazyweights-decode-on-demand-edge-llms"
       ]
+    },
+    {
+      "term": "XYBench Pragmatic Misconception Benchmark 8115 Queries Stack Overflow StackExchange WikiHow Claude Sonnet 4.6 GPT-5 Gemini 3.1 Pro Qwen3.5-9B DeepSeek-V4 Pro Literal Request 0.75-0.92 Intended Goal 0.33-0.71 Misconception Identification 63% vs 79-90% Humans Multiple-Choice 71-84% EMNLP 2026 Best Resource Paper Ai2 Carnegie Mellon NVIDIA Johns Hopkins arXiv 2609.06842 November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-xybench-pragmatic-misconception-benchmark"
+      ]
+    },
+    {
+      "term": "Preserve the Vulnerability Break the Alert CodeQL JavaScript Taint Tracking Robustness Natural Rewrites LLM Silencing 172 npm Flows 26.2% USD 0.51 Per Silenced Flow Seven Library-Modeling Gaps WHATWG URL Constructor Pathname Taint 74% Independently Built Analyzer 53% Three Analyzers Zhezhen Cao Weiyuan Ding Bowen Xu arXiv 2611.17123 November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-codeql-alert-silencing-taint-robustness"
+      ]
     }
   ]
 }
