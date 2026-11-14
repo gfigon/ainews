@@ -1,0 +1,24 @@
+---
+title: "The Wrong Answer That Looks Right"
+date: "2026-11-14 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Two sub-billion-parameter parsers fine-tuned on six encodings of the same tree showed that writing the target in ordinary words, not shorter symbols, cuts silent error rates by up to 2.3× — with a measurable side effect: refusing valid orders."
+image: "/assets/post-images/2026-11-14-output-format-silent-errors-small-parsers.svg"
+---
+
+A small fine-tuned parser can fail in two ways. It can emit output that does not parse — the caller notices and retries. Or it can emit a well-formed tree that says something the customer never said: a silent error, where nothing downstream can tell.
+
+**Parsed, Plausible, Wrong**, by Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov and Ivan Khodnenko of ITMO University, takes the second failure rate as the quantity to minimise and asks a deceptively mundane question: does the *output format* control it?
+
+**The setup is controlled on purpose.** On the PIZZA ordering benchmark, the team LoRA-fine-tuned two sub-billion models — Qwen3.5-0.8B and LFM2.5-350M — on **six lossless encodings of the same target tree**, spanning 44.3 down to 10.9 tokens per order, including matched-length pairs that hold token count fixed while surface form changes. Across **300 runs** (5 pool sizes × 5 seeds), with a hierarchical bootstrap and Holm correction fixed before results were read.
+
+**The intuitive hypothesis is wrong.** Shortening the output alone never helped. What helped was writing the target in *ordinary words*: 87.5% exact match versus 85.8% for the native s-expression on Qwen, while emitting **4.1× fewer tokens** — and cutting the silent error rate by **2.3×** on Qwen and 1.8× on LFM2, separating at every pool size. The word encoding beat its equal-length symbolic twin in 10 of 10 model×size cells (9 after correction), and on LFM2 it won while costing *more* tokens. Error analysis puts much of the gain in **negation**.
+
+**The guardrail has a price.** Every run learned to refuse off-menu input (95.9–99.0% handled on held-out data) and to apply spoken self-corrections. But strict refusal rejected **2.1–10.1% of real, mostly polite, orders** — a deliberate trade the authors measure rather than hide.
+
+The practical takeaway for anyone shipping a small structured-output model: the serialization you pick is a correctness lever, not a formatting preference. Symbols are not free just because they are compact.
+
+Paper: [arXiv:2611.17169](https://arxiv.org/abs/2611.17169)

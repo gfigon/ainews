@@ -5967,6 +5967,22 @@
       "slugs": [
         "2026-11-14-codeql-alert-silencing-taint-robustness"
       ]
+    },
+    {
+      "term": "Look Here Then Decide Small Decision Model Vulnerability Prioritization Intern-Decision-4B Deus Rex Tim De Wachter Kyryl Volkov Myrto Eleftheria Gkogkou Mathieu Huysman Typed Question Forward Pass Scores AUC 0.73 Patch Discrimination 0.56 75 CVEs Top 25 21 Percent 1.4x Random 7.5x Top 10 Confirmed Findings 4000 Repositories 900-1100 Repositories Per Hour 187 Memory-Safety Findings 12 Critical 148 High 23 Medium 4 Low CVSS v3.1 GB10 4.4 Decisions Per Second RTX 4090 9.8 Coordinated Disclosure C and C++ Static Analysis Incomplete-Fix Miners Shape Localizers arXiv 2611.16565 November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-small-decision-model-vulnerability-prioritization"
+      ]
+    },
+    {
+      "term": "Parsed Plausible Wrong Output Format Controls Silent Errors in Small-Model Semantic Parsing Maxim Dunaev Mohammad Nour Al Awad Sergey Ivanov Ivan Khodnenko ITMO University PIZZA Ordering Benchmark Qwen3.5-0.8B LFM2.5-350M LoRA Six Lossless Encodings 44.3 to 10.9 Tokens Matched-Length Pairs 300 Runs 5 Pool Sizes 5 Seeds Hierarchical Bootstrap Holm Correction Word Encoding 87.5 Percent vs 85.8 Percent S-Expression Exact Match 4.1x Fewer Tokens Silent Error Rate 2.3x Qwen 1.8x LFM2 Negation Error Analysis Off-Menu Refusal 95.9-99.0 Percent 2.1-10.1 Percent Polite Orders Refused arXiv 2611.17169 November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-output-format-silent-errors-small-parsers"
+      ]
     }
   ]
 }
