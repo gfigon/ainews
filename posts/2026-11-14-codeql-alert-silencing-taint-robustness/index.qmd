@@ -1,0 +1,20 @@
+---
+title: "The Alert Disappeared, So the Bug Must Be Fixed"
+date: "2026-11-14 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "Researchers used an LLM with no knowledge of CodeQL's internals to rewrite functions until the taint alerts vanished while the bugs stayed — and 26% of real npm vulnerability flows went quiet for about $0.51 each."
+image: "/assets/post-images/2026-11-14-codeql-alert-silencing-taint-robustness.svg"
+---
+
+Static application security testing tools like CodeQL sit in CI as gates. But a gate is also read in reverse: when an alert that used to fire disappears after a commit, developers and the tools around them tend to conclude the vulnerability is gone. **Preserve the Vulnerability, Break the Alert**, by Zhezhen Cao, Weiyuan Ding and Bowen Xu, tests how weak that inference is.
+
+**The method is deliberately blind.** An LLM is shown only the alert CodeQL exposes, with no knowledge of the analyzer's implementation, and asked to rewrite one function along a reported flow as a plausible maintenance change. Human audit and controlled experiments confirm the flaw survives while the alert does not. On **172 flows** that CodeQL detects in real npm vulnerabilities, three rewrites per flow silenced **26.2%** of them, at roughly **USD 0.51 per silenced flow**. The control matters: the same generator, asked only to refactor those functions with no knowledge of the alert, silenced **none** of them. Knowledge of the alert is doing the work.
+
+**The failures are not random — they map to library-modeling gaps.** Every silencing rewrite traces to one of **seven gaps** at the boundary between CodeQL's library models and reality, and **64 of the 70** rewrites exploit a gap inside an API CodeQL already models. The largest is the WHATWG `URL` constructor: it propagates taint to a URL's query components but not to its pathname, so routing a tainted value through the path side quietly breaks the flow.
+
+**And the weakness is not vendor-specific.** 74% of the silencing rewrites also silence an independently built taint analyzer, and **53%** escape three analyzers combined. The authors' argument is evaluative: robustness to natural rewrites belongs next to detection rate in how taint analyzers are scored, and a disappearing alert after an ordinary-looking change is weak evidence of a fix.
+
+Paper: [arXiv:2611.17123](https://arxiv.org/abs/2611.17123)

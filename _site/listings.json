@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-14-codeql-alert-silencing-taint-robustness/index.html",
+      "/posts/2026-11-14-xybench-pragmatic-misconception-benchmark/index.html",
       "/posts/2026-11-14-synthesis-smuggling-steganographic-attribute-leak/index.html",
       "/posts/2026-11-14-lazyweights-decode-on-demand-edge-llms/index.html",
       "/posts/2026-11-14-llama-cpp-1-0-stable-api-contract/index.html",

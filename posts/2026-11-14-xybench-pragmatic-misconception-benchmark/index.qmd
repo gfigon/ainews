@@ -1,0 +1,20 @@
+---
+title: "Your Model Can Recognize the Right Answer and Still Write the Wrong One"
+date: "2026-11-14 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Ai2's XYBench shows frontier models pick the pragmatic answer when given two options, but fail to produce it on their own — a generation gap, not a perception gap."
+image: "/assets/post-images/2026-11-14-xybench-pragmatic-misconception-benchmark.svg"
+---
+
+Ask a model how to keep frosting from sliding off a cupcake and it will happily explain how to thicken the frosting, because that is what you asked for. The real problem is that the cupcakes are still too warm. This gap between the approach a user asks about and the goal they actually want — the "XY problem" — is now measured by **XYBench**, an 8,115-question benchmark from Ai2 with researchers at Carnegie Mellon, NVIDIA and Johns Hopkins, which won the Best Resource Paper Award at EMNLP 2026.
+
+**Every model answers the literal request.** Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B and DeepSeek-V4 Pro included a solution to the stated request (Y) in **0.75–0.92** of responses, but a solution to the underlying goal (X) only in **0.33–0.71**. On Stack Overflow, emphasis was worse: models focused primarily on the real goal in just **35–41%** of answers, and on the requested approach in **47–57%**. Misconception identification topped out at **63%**, against **79–90%** for humans.
+
+**The telling result is the multiple-choice gap.** Given a question and two candidate answers — one literal, one that explains the misconception — all six evaluated models (including GPT-4.1) picked the goal-focused answer **71–84%** of the time. Yet only **35–41%** of the answers those same models *wrote* focused on the goal. The models can recognize good advice when it is on screen, and cannot reliably produce it unprompted. That gap is invisible to any multiple-choice benchmark.
+
+**Telling the model the intent does not fix it.** In an oracle experiment where both Y and X were supplied, Sonnet 4.6's rate of giving a goal-directed solution rose from 59% to 67% — but its misconception-identification rate *fell* from 47% to 34%. Explicit intent helps a little; the residual gap is larger. The authors call pragmatic redirection "a fundamentally underdeveloped capability." Scoring uses Claude Sonnet 4.5 as judge, validated against two human reviewers on 500 responses (97.5–100% agreement on solution presence, 74.2–79.8% on emphasis).
+
+Paper: [arXiv:2609.06842](https://arxiv.org/abs/2609.06842) · [Dataset](https://huggingface.co/datasets/allenai/XYBench-dataset) · [Code](https://github.com/allenai/XYBench)
