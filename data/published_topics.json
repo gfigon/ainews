@@ -5927,6 +5927,30 @@
       "slugs": [
         "2026-11-13-unbundling-multimodal-vision-encoding"
       ]
+    },
+    {
+      "term": "llama.cpp v1.0.0 ggml v1.0.0 Stable Public API Semantic Versioning Contract 35 Deprecated Functions Removed NextN API Promoted FP8 KV Cache MoE Host Memory Expert Cache Kimi-K3.1-Pro Ripple-65B xing4_0 llama-server SSRF DNS Rebinding CORS Hardening 150 Architectures November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-llama-cpp-1-0-stable-api-contract"
+      ]
+    },
+    {
+      "term": "Synthesis Smuggling Maliciously Hiding Inferred Personal Attributes in LLM Outputs Steganographic Exfiltration via Shared Model Artifacts Gender Age-Group Inference Invisible Characters Word Choice Open-Weight Models Threat Model November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-synthesis-smuggling-steganographic-attribute-leak"
+      ]
+    },
+    {
+      "term": "LazyWeights Decode-on-Demand Edge LLMs GPTQ Huffman Lossless Interleaved Lanes ASIC Decoder 0.21 mm2 1 GHz 7 nm Jetson Nano 4GB Jetson Orin Nano Super Phi-3-mini Mistral-7B SmolLM-1.7B 3.89 Bits Per Weight November 2026",
+      "count": 1,
+      "last_published": "2026-11-14",
+      "slugs": [
+        "2026-11-14-lazyweights-decode-on-demand-edge-llms"
+      ]
     }
   ]
 }
