@@ -1,0 +1,22 @@
+---
+title: "Nvidia's Leadership Vacuum: Jensen Huang Resigns After 33 Years"
+date: "2026-11-15 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "Huang's sudden exit as Nvidia president, CEO and director hands the AI chip champion to CFO Colette Kress, puts the export-license playbook and AI data-center financing strategy in play, and triggers a wave of price-target cuts."
+image: "/assets/post-images/2026-11-15-nvidia-ceo-jensen-huang-resigns-leadership-vacuum.svg"
+---
+
+Jensen Huang resigned from Nvidia on Thursday, 12–13 November 2026, ending a thirty-three year run at a company he co-founded in 1993. He gave up the titles of president, chief executive and board member at once. The board installed CFO Colette Kress as interim CEO and named director Harvey Jones as the company's first chairman. Reuters led the coverage, and within a day the story was carried by **45 outlets across 54 articles** — the widest reach of any AI story that week.
+
+**The stated reasons are personal, but the consequences are structural.** Reports describe workplace affairs, one involving a businesswoman whom intelligence officials suspected of working for China and another involving a direct subordinate. Nvidia hired Wachtell, Lipton, Rosen & Katz to investigate possible security compromises and says it has "no reason to believe" national security or company secrets were breached. Huang apologized in an open letter and told President Trump he knew nothing about espionage. Beijing called the allegations smears against China.
+
+**What makes this an AI story is not the scandal but the handoff.** Huang personally authored Nvidia's export-license playbook toward China, and the timing is awkward: Trump eased restrictions on H20 and MI308 chips in July 2025 and had planned to permit H200 shipments to approved customers. A leadership vacuum at exactly this moment complicates the one policy lever Washington uses to control where accelerators land.
+
+**The second thread is financing.** CNBC framed the exit as a question about AI financing, and Data Center Knowledge asked whether Nvidia's AI infrastructure roadmap is now in question. Wall Street read the vacancy as bargaining power. Baird cut its price target from **$500 to $200** and downgraded to neutral, Bernstein halved its target to **$200**, and Aletheia Capital withdrew its **$349** target. Former FTC chairman Alistair Barr noted that Huang was a brutal negotiator — which, on this reading, may give customers room to reopen deals. Korean retail investors hold roughly **₩18 trillion** in Nvidia shares.
+
+**The test for the new leadership is concrete.** Nvidia's AI data-center roadmap, its long-standing pricing discipline and its China export posture were all functions of one person's judgment. Kress is a finance executive, not a chip architect, and no permanent CEO has been named. Watch three things: whether a permanent CEO with silicon credibility arrives, whether H200 export approvals continue on schedule, and whether the hyperscalers start treating Nvidia's pricing as negotiable.
+
+Sources: [Reuters](https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/) · [CNBC](https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html) · [Straits Times](https://www.straitstimes.com/world/nvidia-ceo-jensen-huang-resigns-appoints-colette-kress-as-interim-ceo) · [Data Center Knowledge](https://www.datacenterknowledge.com/data-center-chips/huang-resigns-nvidia-s-ai-infrastructure-roadmap-in-question)

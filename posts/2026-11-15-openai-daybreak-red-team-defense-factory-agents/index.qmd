@@ -1,0 +1,20 @@
+---
+title: "OpenAI's Daybreak Agents: Red Team Penetrates, Defense Factory Patches"
+date: "2026-11-15 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Two OpenAI products launched at Cyber at the Frontier close the loop between finding and fixing web vulnerabilities: Daybreak Red Team probes with agents, Defense Factory traces findings to code and opens draft pull requests, both running on GPT-6 Cyber."
+image: "/assets/post-images/2026-11-15-openai-daybreak-red-team-defense-factory-agents.svg"
+---
+
+OpenAI used its **Cyber at the Frontier** event on 12 November 2026 to ship two security products that do something the category rarely does: they close the loop between finding a vulnerability and fixing it. **Daybreak Red Team** runs agentic penetration tests against web applications, investigates attack paths and then checks whether the flaw it found is actually exploitable. **Daybreak Defense Factory** takes confirmed findings, traces each one through the code and prepares a patch, opening a **draft GitHub pull request** for a human to approve.
+
+**The mechanics matter more than the launch.** Red Team agents run in isolated environments where a Guardian review layer enforces boundaries and controls which endpoints they may touch — the design response to "we are handing an offensive model a web app". Defense Factory pulls vulnerability data from **GitHub, Wiz, Snyk and Endor Labs**, scans repositories and writes the fix. Both run on **GPT-6 Cyber**, a model OpenAI itself rates **Critical** for cybersecurity risk under its Preparedness Framework. Red Team is taking early-access requests; Defense Factory is a preview plugin for ChatGPT workspaces. Cloud scans are billed by token usage at standard plan rates, and no standalone pricing has been published.
+
+**OpenAI's own framing is aggressive.** Nancy Wang, who leads cyber applied AI at OpenAI, says engineers receive merge-ready pull requests with tests, and that the tools retest the patch against the original finding. President Greg Brockman said companies will be secure only to the extent of the frontier model they use, and that there is a limited window to use frontier models to secure software. The Register read the same announcement as a warning that organisations not adopting these tools are "doomed".
+
+**The open question is the handoff, not the hunting.** An agent that writes the patch is as much a liability as an asset if its diff is merged without review. The stated control is that engineers approve changes, and that Red Team re-confirms exploitability and Defense Factory retests the fix — but the accuracy of that loop is vendor-reported. There is also a dual-use edge: the same tooling that confirms a flaw in your application can confirm a flaw in someone else's. Expect the early-access terms, the Guardian layer and the endpoint allowlists to be the parts security teams read first.
+
+Sources: [OpenAI Daybreak](https://openai.com/daybreak/) · [Cyber at the Frontier](https://openai.com/cyber-at-the-frontier/) · [The Register](https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500) · [Help Net Security](https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/)

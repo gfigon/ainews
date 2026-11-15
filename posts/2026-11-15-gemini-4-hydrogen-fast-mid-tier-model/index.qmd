@@ -1,0 +1,22 @@
+---
+title: "Gemini 4 Hydrogen: Google's Fast Mid-Tier Model and the January Pricing Cliff"
+date: "2026-11-15 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Google's API-only gemini-4-hydrogen runs 2.5x faster than Gemini 3.8 Flash with a 1M unified window, and its $1.50/$7.50 price becomes the Flash baseline on 1 January 2027 — turning a model choice into a migration deadline."
+image: "/assets/post-images/2026-11-15-gemini-4-hydrogen-fast-mid-tier-model.svg"
+---
+
+Google put a third Gemini 4 tier into its API and products in mid-November: **Gemini 4 Hydrogen**, model ID `gemini-4-hydrogen`. It sits below the frontier models Gemini 4 Carbon and Gemini 4 Argon. Google describes it as its "daily driver" for coding and everyday agent loops, and the model card states it is **adapted from Gemini 4 Carbon**. It is closed-weights and API-only — no self-hosting, no disclosed serving hardware — with a knowledge cutoff of March 2026.
+
+**The window and the controls.** Hydrogen ships a **1,048,576-token unified window** shared across input, thinking and output. Input accepts text, images, audio, video, PDFs, tables and charts; output is text only. Developers set `thinking_level` to `low`, `medium`, `high` or a new `xhigh`, and the default is now **high** rather than the medium used on 3.8 Flash. That default alone changes the bill of any long agent loop.
+
+**The speed claim is the headline.** Google reports Hydrogen finishes tasks **2.5x faster** than Gemini 3.8 Flash at default high thinking, with partner tests showing **2x to 2.8x** faster runs and **12% to 23% fewer tokens**. On Terminal-Bench 4.1 it reaches **57%**, against **18.2%** for 3.8 Flash, though it ranks only **#5 on Agent Arena**. It scores **51** on the Artificial Analysis Intelligence Index at high thinking and **54** at xhigh, edging past Argon's 50.
+
+**The pricing calendar is the real story.** Hydrogen costs **$1.50 per 1M input tokens and $7.50 per 1M output**, with output pricing including thinking tokens, and implicit caching cuts input to $0.075 for prompts of 4,096 tokens or more. Gemini 3.8 Flash costs $0.75/$3.75 — **until 31 December 2026**, when it rises to exactly $1.50/$7.50. Argon goes from $2/$10 to $4/$20 on 30 November. Hydrogen is not a cheaper option next to Flash; it is Flash's price after the new year, arriving early. For teams doing long agentic coding, the deadline — not the benchmark — is what should drive the migration plan.
+
+**Two caveats worth stating.** The model card reports **5x fewer fabricated claims** than 3.8 Flash and **2.3x more resilience to indirect prompt injection** on Gray Swan's benchmark, but both are vendor numbers on vendor-selected suites. And in Google Antigravity the interesting pairing is Carbon orchestrating while Hydrogen edits files and runs tests, reaching near-Carbon task success on Terminal-Bench 4.1 with **24% less quota and 19% faster completion** than Carbon alone.
+
+Sources: [Google DeepMind model card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-4-Hydrogen-Model-Card.pdf) · [MarkTechPost](https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/) · [Magica on Antigravity Orchestrator](https://magica.com/news/google-gemini-4-hydrogen-coding-orchestrator)
