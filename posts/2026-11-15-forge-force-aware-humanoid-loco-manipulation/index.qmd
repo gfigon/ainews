@@ -1,0 +1,24 @@
+---
+title: "FORGE: Force-Aware Humanoid Loco-Manipulation Without Wrist Force Sensors"
+date: "2026-11-15 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "A new humanoid controller unifies walking, foot placement, wrist tracking and contact adaptation in one 29-DoF policy — and estimates contact force from joint states alone, with no wrist F/T hardware."
+image: "/assets/post-images/2026-11-15-forge-force-aware-humanoid-loco-manipulation.svg"
+---
+
+Humanoid loco-manipulation asks a controller to do three incompatible things at once: keep the robot balanced while walking, hit precise task-space targets, and react to contact. **FORGE** (arXiv:2611.17142, cs.RO, submitted 12 November) folds all three into a single interface instead of stacking separate whole-body controllers.
+
+**One command space, four objectives.** The policy accepts base velocity, planar foot placement, bilateral wrist poses and optional desired wrist loads. Four task-level activation bits select Navigation, Stance, Pose or Force; inactive entries are nulled and their reward terms dropped, while the action semantics stay fixed at 29 dimensions. Ablations show why: without masking, valid rollouts average **15.69 s versus 19.46 s**, and wrist tracking error rises from 0.079 m to 0.115 m.
+
+**No mocap, no force sensors.** Training needs neither full-body human motion trajectories nor joint-angle references — teleoperation supplies only sparse wrist poses relative to the pelvis plus coarse motion commands. A pretrained lower-body locomotion expert stays **frozen** while a residual policy learns the corrective actions, and the upper body is driven directly. Contact force is estimated by combining a momentum observer with a learned correction trained on simulator contact-force labels (training-only, not a deployment input), reading low-frequency wrist-equivalent forces from proprioception and reconstructed arm PD torques. **No wrist force/torque sensors are used.** The residual force error becomes a virtual-target update that shifts the wrist position the same policy tracks.
+
+**Measured against HOMIE, TWIST2 and SONIC** on the same robot and target sequences, with 20 hardware trials per method: FORGE reports **225 ms** command-to-arrival latency, **4.15 cm** foot placement error and **4.15 cm** wrist tracking error, against 7.87/7.76 cm for TWIST2 and 7.35/6.42 cm for SONIC. In a sustained-contact simulation it applies **8.52 N** of bilateral normal force versus 15.32–17.16 N for the baselines — less squeezing, not better force tracking. Hybrid force estimation lands at **0.81 N RMSE on the x axis**, versus 2.83 N observer-only; held-out vertical loads of 35/40/50 N degrade to 8.28/9.66/12.35 N RMSE.
+
+**As an executor for a learned policy.** FORGE is used as the joint-action backend for an upstream Diffusion Policy mapping head-mounted RGB and task state to command chunks. One cross-payload model trained on 320 demonstrations (empty, 0.5 kg, 1 kg, 2 kg) scored **100% success at 0 and 0.5 kg, 90% at 1 and 2 kg** across 20 hardware trials each.
+
+**Scope limits worth stating:** this is wrist-equivalent force estimation for sustained quasi-static contact, not full-wrench sensing, dynamic impedance control or a general force-tracking guarantee.
+
+Sources: [arXiv:2611.17142](https://arxiv.org/abs/2611.17142) · [Project page](https://bb0928.github.io/forge/)

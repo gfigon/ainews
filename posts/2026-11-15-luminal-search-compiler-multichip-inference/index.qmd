@@ -1,0 +1,22 @@
+---
+title: "Luminal's $25M Series A: A Search Compiler for Multi-Chip Inference"
+date: "2026-11-15 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "The YC-backed startup raised $25M led by Standard Capital for a compiler that searches for the fastest equivalent way to run a model on a given chip — chip diversification attacked from the software side."
+image: "/assets/post-images/2026-11-15-luminal-search-compiler-multichip-inference.svg"
+---
+
+Axios Pro broke the story on 12 November: **Luminal**, a San Francisco inference startup, raised a **$25 million Series A led by Standard Capital**, with seed backers Y Combinator, Felicis, SagaVC and Liquid doubling down. Valuation is undisclosed; combined with the $5.3M seed from November 2025, the company says it has raised roughly **$30.3M**. Luminal was co-founded by CEO **Joe Fioti**, a former Intel chip designer, with Matthew Gunton (Amazon) and Jake Stevens (Apple), and came out of Y Combinator's Summer 2025 batch.
+
+**The idea: compile by search, not by hand.** Luminal calls itself a *search compiler and inference cloud*. The argument is that serving engines such as vLLM and TensorRT-LLM still interpret or hand-tune graphs per model-and-chip pair, leaving silicon on the table. Luminal instead explores a large space of **mathematically equivalent implementations** — the technique known as equality saturation — and picks the fastest one for the target accelerator. The pipeline runs from a PyTorch or Hugging Face import, down to a framework-free dataflow-graph IR, through hardware-aware passes (fusion, tiling, memory planning, scheduling), and emits native kernels for GPUs and ASICs alike.
+
+**The numbers are vendor numbers.** Luminal's own chart puts **GPT-OSS 120B on eight H100 SXM** at 36,000 tokens/s, against 28,000 for TensorRT-LLM, 26,000 for vLLM and 3,000 for PyTorch eager, plus claimed 3.2x over vLLM, sub-10ms p99 latency and zero runtime overhead. None of it is independently reproduced. Token throughput is also inconsistently reported: one outlet says the public cloud reached about **45 trillion tokens per month**, another says **90 trillion**, within four months of launch. Treat the number as a marketing range, not a measurement.
+
+**The strategy is chip diversification.** Luminal says a significant share of its workloads runs on **Amazon Trainium** through a growing partnership, and the round funds broader compatibility across Nvidia, AMD and specialised chips. Fioti's framing is software-led TCO: extract more tokens from chips you already own. The competitive field is heating up — Standard Kernel raised $20M in March 2026, SGLang spinoff RadixArk was valued near $400M in January, and Together AI raised $800M.
+
+**One caveat to price in:** compile-first serving taxes your workflow. The first deploy of a model-plus-chip pair is slow, and any weight or architecture change triggers recompilation. For high-QPS agent traffic the amortisation works; for teams that fine-tune nightly, measure how often recompiles block rollouts.
+
+Sources: [Axios Pro](https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software) · [Tech Funding News](https://techfundingnews.com/luminal-25m-series-a-ai-inference-compiler-cloud/) · [Unite.AI](https://www.unite.ai/luminal-lands-25m-series-a-as-standard-capital-leads-the-round/)

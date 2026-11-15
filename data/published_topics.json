@@ -6007,6 +6007,22 @@
       "slugs": [
         "2026-11-15-openai-daybreak-red-team-defense-factory-agents"
       ]
+    },
+    {
+      "term": "Luminal $25M Series A Standard Capital Search Compiler Equality Saturation Multi-Chip Inference Nvidia AMD Trainium GPT-OSS 120B 36k tok/s November 2026",
+      "count": 1,
+      "last_published": "2026-11-15",
+      "slugs": [
+        "2026-11-15-luminal-search-compiler-multichip-inference"
+      ]
+    },
+    {
+      "term": "FORGE Force-Aware Multi-Granularity Humanoid Loco-Manipulation Sensorless Wrist Force Estimation 29-DoF Diffusion Policy 320 Demonstrations HOMIE TWIST2 SONIC November 2026",
+      "count": 1,
+      "last_published": "2026-11-15",
+      "slugs": [
+        "2026-11-15-forge-force-aware-humanoid-loco-manipulation"
+      ]
     }
   ]
 }
