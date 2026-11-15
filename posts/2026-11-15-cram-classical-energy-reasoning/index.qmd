@@ -1,0 +1,24 @@
+---
+title: "Classical Energies Reason 1,000x Faster Than Looped Models"
+date: "2026-11-15 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "A learned revival of Hopfield & Tank's 1980s energy function trains on Sudoku and Maze puzzles in 42 and 132 milliseconds on one GPU and beats looped transformers by more than three orders of magnitude — while the authors warn that those same puzzles are too easy to benchmark reasoning on."
+image: "/assets/post-images/2026-11-15-cram-classical-energy-reasoning.svg"
+---
+
+Benjamin Hoover, Hugh Blayney and James C. R. Whittington ask a deliberately old question in a deliberately new paper: what if the energy function that powered neural networks in 1985 could be *learned*? Their answer, **CRAM**, is a trainable version of Hopfield & Tank's energy, submitted on 12 November (arXiv 2611.17309, cs.AI/cs.LG).
+
+**The numbers are hard to ignore.** After **42 milliseconds of training on a single GPU** (132 ms for the second task), CRAM solves **99.996% of Sudoku-Extreme** and **100% of Maze-Unique** test puzzles. The authors put the comparison bluntly: at least **1,000x faster than looped models** on these tasks, and at the highest looped-model accuracy on Sudoku-Extreme, CRAM uses **at least 282x fewer inference FLOPs**.
+
+**Why energy descent beats looping.** Looped models re-run a block of layers until an answer settles — expensive per token, unstable in training, and heavy on parameters and FLOPs. Descent on an energy sidesteps most of that: it comes with **built-in early stopping**, compute that **scales with problem difficulty** rather than a fixed loop count, **training that never differentiates through a solver**, and weights that stay **interpretable as the learned constraints of the puzzle** rather than as opaque transformer circuitry.
+
+**The paper's sting is aimed at benchmarks, not just models.** Sudoku-Extreme and Maze-Unique are the current favourites of the looped-reasoning literature, and CRAM's authors use that against the field: if a 1980s energy function cracks them in under a tenth of a second, then puzzles of this difficulty are **measuring engineering effort, not reasoning capability**. Their explicit recommendation is a caution against using trivially solvable puzzles to test whether looped reasoning techniques scale.
+
+**Read it next to the loop economics.** Separate work on weight looping concluded that post-training loops only pay for small models — for larger ones the (N+m)/N per-token surcharge buys nothing. CRAM points the same way from the other end: if you want iterative compute, an energy you descend is cheaper, more stable and more legible than a transformer you re-apply.
+
+The open question is transfer. Sudoku and Maze are structured, constraint-satisfiable, and closed-world; an energy that learns constraints beautifully may not survive open-ended text. The paper's most valuable contribution for now is the second conclusion: a benchmark that a classical method solves in 42 milliseconds was never measuring what we thought it measured.
+
+Sources: [arXiv:2611.17309](https://arxiv.org/abs/2611.17309) · [arXiv listing: cs.LG recent](https://arxiv.org/list/cs.LG/recent)

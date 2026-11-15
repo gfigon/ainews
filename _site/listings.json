@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-15-cram-classical-energy-reasoning/index.html",
+      "/posts/2026-11-15-langchain-series-c-agent-platform/index.html",
       "/posts/2026-11-15-luminal-search-compiler-multichip-inference/index.html",
       "/posts/2026-11-15-forge-force-aware-humanoid-loco-manipulation/index.html",
       "/posts/2026-11-15-gemini-4-hydrogen-fast-mid-tier-model/index.html",
