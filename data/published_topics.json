@@ -6039,6 +6039,30 @@
       "slugs": [
         "2026-11-15-langchain-series-c-agent-platform"
       ]
+    },
+    {
+      "term": "WeightBench Weight-Space Programming Benchmark 42 Tasks Five Tracks Read Fix Write Meta Systems 2K Control Policies 7B Language Models Hash-Chained Ledger Forward-Pass Budget Claude Opus 5.5 0.535 GPT-6.1-sol 0.568 READ 0.928 FIX 0.404 arXiv 2611.18553 November 2026",
+      "slugs": [
+        "2026-11-16-weightbench-weight-space-programmers"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
+    },
+    {
+      "term": "Marimba System One Model for Speech Frozen Qwen3-ASR 0.6B Typed Decisions Yes/No Score Choice Speaker Change AUROC 0.966 Turn End 0.930 Smart Turn v3.2 0.982 PII F1 0.904 arXiv 2611.18330 November 2026",
+      "slugs": [
+        "2026-11-16-marimba-frozen-asr-decision-interface"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
+    },
+    {
+      "term": "Microsoft AI Frontiers Lab Disbanded John Langford Resigns November 2026 Vowpal Wabbit Contextual Bandits AutoGen Fara Next Latent Dion3 Full Bandwidth Transformer ByteDance Hidden State Recycling Scaling Not Research Microsoft AI Reorg September 2026",
+      "slugs": [
+        "2026-11-16-microsoft-ai-frontiers-langford-resignation"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
     }
   ]
 }
