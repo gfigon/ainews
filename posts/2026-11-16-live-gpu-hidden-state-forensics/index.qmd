@@ -1,0 +1,24 @@
+---
+title: "You Can Now Read the Hidden States of a Running LLM Server Without Touching It"
+date: "2026-11-16 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "A Home Team Science and Technology Agency paper shows that per-layer residual-stream activations can be recovered from a live GPU process via ptrace and a CUDA debugger — byte-exact on 33 models — and that a probe trained on them separates refusal from compliance at AUROC 0.876 on 142 untouched prompts, at a cost of roughly 15,000x inference latency."
+image: "/assets/post-images/2026-11-16-live-gpu-hidden-state-forensics.svg"
+---
+
+Forensics on deployed AI has so far aimed at **static artifacts**: model weights, prompt logs, images of a stopped machine. What nobody has been able to grab is the **transient state of a request in flight** — the residual stream, the running sum each layer adds its output to, a vector of hundreds to thousands of numbers per token per layer. It is the one thing that says what the model *did* rather than what it *is*, and it is overwritten the instant the request ends.
+
+**The method.** Submitted on 13 November (arXiv 2611.18272, cs.CR/cs.AI, Home Team Science and Technology Agency, Singapore), "From Bytes to Behavior" does it with a **non-modifying debugger**: ptrace plus a CUDA debugger attached to an unmodified process. No hooks, no `LD_PRELOAD`, no Python patching — because instrumenting the target changes the very evidence under examination. The pipeline has six stages (attach, clock, identify, read, validate, use), of which only the clock and identification rule are platform-specific. Two adapters exist: a **PyTorch allocator clock** with a blind two-step selector that finds the residual-stream allocations from the memory log alone — never given the layer count or the architecture — and a **kernel-launch clock** for vLLM under CUDA graphs, llama.cpp with quantised weights, and SGLang prefill.
+
+**It works, and the authors say where it doesn't.** The selector recovered layers **byte-exactly across 33 open-source decoder-only models in nine architecture classes**; it took two revisions to get there. The negative results are unusually concrete: differential diffing of two VRAM dumps collapses everything into one merged region, post-pass images find only one surviving output, and reading at the allocation point failed for **every** layer — depth is temporal, not spatial.
+
+**The use case: a refusal call from VRAM.** A probe trained on standard framework activations, applied to recovered states, separates refusal from compliance. On Qwen2.5-0.5B-Instruct, all **228** prompts came back byte-identical to the hook reference; error rates of **15.5%** on JailbreakBench and **4.5%** on a second source beat the datasets' own labels (26.8% and 8.3%). The **pre-registered** experiment is the number that matters: a frozen probe, layer 21 chosen by cross-validation, on **142 prompts never used to tune it** — AUROC **0.876 [0.808, 0.929]**, balanced accuracy 0.777, versus AUROC 0.557 for a dataset-label rule and 0.559 for a prompt-text classifier. It predicts *refusal*, not harmfulness, and its weak spots are visible: false-positive rate **0.282**, ECE 0.160, and only 0.696 accuracy on XSTest-safe prompts.
+
+**The bill.** The debugger halts the process at every allocation — **46–192x slowdown** — and with the collector attached, latency goes from 17.3 ms to **157–163 seconds per prompt**, about **15,000x**. The envelope is narrow: local ptrace access, batch size 1, fixed prompt lengths, models up to 3.4B parameters (plus one 7B in 4-bit; a 4-bit 7B MoE did not fit in 8 GB). TensorRT-LLM is untested rather than failed. The process alone yields token count, hidden size and layer count — but **not** the model's identity. And the paper is candid that this is not forensically neutral: observing the system perturbs it.
+
+For auditors and incident responders, a new evidence class now exists. For defenders, so does a new question — if hidden states can be read off a live server, what else about an in-flight request can?
+
+Sources: [arXiv:2611.18272](https://arxiv.org/abs/2611.18272)

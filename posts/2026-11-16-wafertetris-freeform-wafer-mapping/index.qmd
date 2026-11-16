@@ -1,0 +1,24 @@
+---
+title: "WaferTetris Stops Drawing Rectangles on Cerebras WSE and Gets 4.42x the Throughput"
+date: "2026-11-16 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "Template-based mapping forces every computation onto a rectangular PE island, which strands roughly 40% of a WSE-3's peak FLOPS; WaferTetris drops the geometric constraint, reuses 30-year-old FPGA place-and-route, and reaches 3.24–4.42x the throughput of an automatic template mapper and 1.8x the context length of hand-tuned WaferLLM."
+image: "/assets/post-images/2026-11-16-wafertetris-freeform-wafer-mapping.svg"
+---
+
+Cerebras' Wafer-Scale Engine packs **862,500 processing elements** onto one silicon substrate, each with its own local SRAM, connected by a mesh with finite routing bandwidth. How you map work onto that grid decides both how fast it runs and whether it fits at all — and the standard answer has been quietly wasteful.
+
+**The cost of rectangles.** Automatic mappers such as CU.POKer and the hand-optimised WaferLLM instantiate each mapping unit as a **template over a rectangular PE island**. Templates save development effort, but they tie the computation to a fixed geometric shape. When an island's shape doesn't match the free space left on the wafer, existing systems simply **scale the island down** — and throw away the PEs it no longer needs. On WSE-3, WaferLLM leaves roughly **344k of 862.5k PEs unallocated** during LLaMA3.1-8B decoding, stranding about **40% of peak FLOPS and local SRAM**. Worse, resizing an island changes its dimensions, so workloads that would fit on one wafer get pushed onto two.
+
+**Freeform mapping.** WaferTetris, submitted on 13 November (arXiv 2611.18527, cs.AR/cs.CL, EuroSys 2027), removes the rectangle. PEs holding the same index do identical work and talk to the same peers; only their physical locations and communication routes change. The PE-task code is untouched. Two mechanisms make it work: a **recurrence-based throughput model** that accounts for branch-and-join dependencies across the operator graph, and an **architecture model with per-color gates** that renders WSE router resources in a form existing FPGA place-and-route algorithms (Betz & Rose, 1997) can enforce. Result: mappings compile in **tens of minutes per configuration**.
+
+**The numbers on real WSE-3 silicon.** Against a reimplementation of CU.POKer, WaferTetris delivers **3.24–4.42x system throughput** on LLM decoding, with PE utilisation of **98.0%** for LLaMA3.1-8B and LLaMA2-13B versus CU.POKer's 53.7–85.0%. CU.POKer runs out of memory on LLaMA2-13B at 4k context; WaferTetris serves it at **76.8k tokens/s**. Against the manually tuned WaferLLM it reaches **1.04–1.10x per-user throughput** and supports **80k context versus 44k** — 1.8x more — and on the smaller WSE-2 budget it runs LLaMA2-13B where WaferLLM OOMs at every length tested. Scientific stencils improve too: **1.26x** on Gray-Scott, **1.18–1.21x** on elastic wave.
+
+**Why the gains aren't just from bigger tiles.** Two ablations separate the causes. The old "slowest unit" proxy overpredicts throughput by **199–227%** and yields mappings that measure 1.75–2.49x slower than recurrence-selected ones. And freeform placement is not free: measured mapping-unit latency shifts by only **−1.5% to +4.1%** for GEMV and **−0.4% to +1.5%** for GEMM versus rectangle placements — long wires and router congestion, in other words, cost almost nothing.
+
+Authors: Dayou Du, Congjie He, Luo Mai, Jianyi Cheng (Edinburgh), Andrew Boutros (Waterloo), Vaughn Betz (Toronto). Caveats worth keeping: single-vendor hardware, CU.POKer and GigaPlacer are closed-source so the baseline is a reimplementation, and TensorRT-style per-op pipelines sit outside the comparison.
+
+Sources: [arXiv:2611.18527](https://arxiv.org/abs/2611.18527)
