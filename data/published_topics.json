@@ -6063,6 +6063,22 @@
       ],
       "count": 1,
       "last_published": "2026-11-16"
+    },
+    {
+      "term": "Qwen4-Max Alibaba 2.4T Parameters 71B Active Sparse MoE Gated DeltaNet Qwen Sparse Attention One Million Token Context 1.50 4.50 Per Million Tokens Terminal-Bench 48.5 November 2026",
+      "slugs": [
+        "2026-11-16-qwen4-max-2-4t-moe-flagship"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
+    },
+    {
+      "term": "LinEra Cryptographic Erasure Lineage-Complete Forward-Secure LLM Agent Memory mem0 Puncturable PRF Forgetting Radius LoCoMo 35 of 35 Secrets November 2026",
+      "slugs": [
+        "2026-11-16-linera-cryptographic-erasure-agent-memory"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
     }
   ]
 }

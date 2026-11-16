@@ -1,0 +1,22 @@
+---
+title: "Qwen4-Max: Alibaba's 2.4T-Parameter MoE Flagship Priced Like a Mid-Tier Model"
+date: "2026-11-16 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "Alibaba's Qwen4-Max went pay-as-you-go overnight with 2.4 trillion parameters, 71 billion active per token, a one-million-token context and flat $1.50/$4.50 per million tokens — 25% cheaper than its predecessor, but still trailing Claude Opus 5.5 on agentic coding."
+image: "/assets/post-images/2026-11-16-qwen4-max-2-4t-moe-flagship.svg"
+---
+
+Alibaba spent three weeks staging Qwen4-Max: the family was announced at the **Apsara Conference on 29 October**, a subscription-only preview (`qwen4-max-preview`) opened on 11 November, and on 15–16 November the Qwen team finally published the production model. `qwen4-max` is now pay-as-you-go for anyone with a Singapore-region key — **2.4 trillion total parameters, 71 billion active per token**, a **one-million-token context**, native text, image and video input, and a flat **$1.50 input / $4.50 output per million tokens**.
+
+**The architecture is finally disclosed**, which it never was for Qwen3.8-Max. It is a sparse mixture-of-experts model mixing **Gated DeltaNet 3:1 with Qwen Sparse Attention (QSA)**, plus 328 billion N-gram embedding parameters. Maximum output is 131,072 tokens without thinking and 262,144 with thinking plus answer — and some write-ups still quote 393,216, which was the preview's ceiling, not the shipped one.
+
+**The pricing is the real story.** The rate is flat across the entire 1M-token window with no tiering, and **thinking mode costs exactly the same as non-thinking**. Cache reads go for $0.075 per million, a five-minute cache write for $1.875, a one-hour write for $3.00, and new accounts get one million free tokens valid for roughly 90 days. Alibaba's own number: an average Work360 agent task fell from **$4.43 on Qwen3.8-Max to $1.67** on the new model, a mix of fewer tokens and a lower per-token rate. The international tariff is about 25% below Qwen3.8-Max's.
+
+**Where it actually lands.** On the Artificial Analysis Intelligence Index v5.0.1 it scores **42.9** (#15 of 58). Terminal-Bench 4.0 comes in at **48.5**, DeepSWE v1.1 at **75.7**, Vibe Code Bench v1.1 at **86.7**, APEX-Agents at **72.1** and AutomationBench-AA at **72.5**. It tops BioMysteryBench with **85.0** and holds the top spot in Code Arena WebDev at 1750 Elo. Head-to-head win-loss records read as a generational win but not a frontier one: **14–1 against its own Qwen3.8-Max-0902**, 10–4–1 against Kimi K3.1 Pro, but **4–11 against Claude Opus 5.5** and **3–11 against Claude Sonnet 5.5**.
+
+Two caveats worth keeping: the weights are **closed**, and no Qwen4 model appeared on Hugging Face at launch — smaller ones are promised later with no date. Batch API is not supported on the international model page, the preview retires on 25 November at 16:00 UTC, and fine-tuning is unavailable.
+
+Sources: [Qwen blog](https://qwen.ai/blog?id=qwen4-max) · [Artificial Analysis](https://artificialanalysis.ai/models/qwen4-max) · [llmlearner model card](https://llmlearner.com/models/qwen4-max) · [launch guide and benchmarks](https://freakyjolly.com/qwen4-max-guide/)

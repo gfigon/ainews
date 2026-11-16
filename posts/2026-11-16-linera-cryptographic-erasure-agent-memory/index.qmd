@@ -1,0 +1,20 @@
+---
+title: "Forget the Lineage: Cryptographic Erasure That Actually Forgets Agent Memory"
+date: "2026-11-16 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "LinEra turns a right-to-erasure request into a single cryptographic puncture: on 128 LoCoMo sessions an attacker holding every file and the current keys recovered 35 of 35 forgotten secrets after logical deletion and none at all under the new scheme — at the price of a measurably wider forgetting radius."
+image: "/assets/post-images/2026-11-16-linera-cryptographic-erasure-agent-memory.svg"
+---
+
+Long-term memory layers such as **mem0** do not store what the user said — they store what the *model* wrote from it: extracted facts, session summaries, embeddings. That makes "delete my message" a much weaker guarantee than it sounds. The original row goes, but the fact, the summary and the profile entry that quoted it survive, as do free database pages, soft-deleted vectors and backups. Reading mem0 2.2.1's code, the authors found it writes the old text of a deleted memory into its own history table.
+
+**LinEra** (arXiv 2611.18133, cs.CR, 13 November, Yulliwas Ameur with Efrei Research Lab and Cnam) defines **lineage-complete forward-secure erasure**: after a forget request, an adversary who later obtains the entire storage and the agent's current keys must learn nothing about the forgotten input *or anything derived from it*. The mechanism is a key graph — every memory is encrypted under an HKDF of its parents' keys, and source keys come from a puncturable pseudorandom function. Forgetting a source is **one puncture**, and every descendant becomes unreadable at once, without anyone having to locate it. The lineage rule that makes this meaningful is deliberately conservative: a memory's parents are *everything the writer saw*, which needs only the prompt, not the model.
+
+**The evaluation is the alarming half.** Across 128 LoCoMo sessions, a 1.5B writer copied the exact secret into a derived memory for **14 of 35 planted secrets**, and its topic for 22. An attacker holding every file and the current keys recovered **35 of 35** forgotten secrets after logical deletion, **22** with per-object or per-epoch keys in the Holepunch and Ghost Vectors style, and **none** with LinEra. On a Qwen2.5-7B writer covering all ten conversations the pattern repeated: **70 of 71** recoverable logically, **67** with per-object keys, **zero** under LinEra.
+
+**The price is a forgetting radius that follows the writer's fan-in.** A memory built from *f* source turns survives a random forget rate *p* with probability close to (1−p)^f(1−p). A session-level writer with a fan-in above one hundred turns means forgetting 1% of turns erases **73.0%** of derived memories (predicted 77.2%). Restrict the same model to four-turn windows and the radius collapses to **3.8%** — and answers get *better*. Re-deriving what was lost restores quality at one extra model call per affected window. The system was exercised on both LoCoMo and LongMemEval at up to 10^6 objects, ships an encrypted vector index whose shard keys follow the lineage, integrates with mem0 in about 140 lines, and carries random-oracle proofs plus lineage-integrity proofs.
+
+Sources: [arXiv:2611.18133](https://arxiv.org/abs/2611.18133) · [full HTML paper](https://arxiv.org/html/2611.18133v1) · [code (LinEra)](https://github.com/yulliwasameur/linera)
