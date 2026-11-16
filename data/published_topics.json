@@ -6079,6 +6079,22 @@
       ],
       "count": 1,
       "last_published": "2026-11-16"
+    },
+    {
+      "term": "WaferTetris Freeform Mapping Wafer-Scale Accelerators Cerebras WSE-3 Freeform PE Islands FPGA Place-and-Route Recurrence Throughput Model 4.42x System Throughput 80k Context LLaMA3.1-8B EuroSys 2027 arXiv 2611.18527 November 2026",
+      "slugs": [
+        "2026-11-16-wafertetris-freeform-wafer-mapping"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
+    },
+    {
+      "term": "From Bytes to Behavior Request-Level Attribution Live GPU Hidden States Memory Forensics Residual Stream Non-Modifying Debugger ptrace CUDA Debugger 33 Models Byte-Exact Refusal Probe AUROC 0.876 Home Team Science and Technology Agency Singapore arXiv 2611.18272 November 2026",
+      "slugs": [
+        "2026-11-16-live-gpu-hidden-state-forensics"
+      ],
+      "count": 1,
+      "last_published": "2026-11-16"
     }
   ]
 }
