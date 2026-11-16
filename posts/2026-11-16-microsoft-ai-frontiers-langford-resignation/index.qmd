@@ -1,0 +1,24 @@
+---
+title: "Microsoft's AI Frontiers Lab Is Gone, and Its Co-Founder Blames Scaling"
+date: "2026-11-16 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "John Langford has left Microsoft after the September reorg folded his 50-person AI Frontiers lab into Microsoft AI, declaring the group over and arguing that 'the core philosophy there is scaling, and aggressively not research' — while pointing to ByteDance results suggesting a research line could halve training and inference cost."
+image: "/assets/post-images/2026-11-16-microsoft-ai-frontiers-langford-resignation.svg"
+---
+
+Microsoft Research veteran **John Langford** has left the company, and his farewell post — "The End of AI Frontiers", published on his personal blog on **6 November 2026** — is not a routine departure note. It is an argument about how AI research should be organised inside a hyperscaler.
+
+**The background is unusual.** Langford joined Microsoft Research in May 2012 as a founding member of its New York lab, became a partner research manager, is the principal developer of **Vowpal Wabbit**, coined the term **contextual bandits**, and served as **ICML president from 2019 to 2021**. In 2023, after ChatGPT, he and colleagues created **AI Frontiers** inside MSR, roughly 50 people, because "a single researcher with a clever idea" could no longer move fast enough alone.
+
+**What the group built.** Much of it went into agents — the **AutoGen** orchestration framework and the **Fara** computer-use model — but the New York side chased fundamentals: the **Next Latent** objective for extrapolation, **Dion3** (an optimised Muon), and the **Full Bandwidth Transformer**, which gains capability through recursion.
+
+**The breaking point was organisational.** In early September 2026, AI Frontiers was reorganised into **Microsoft AI**, the Suleyman- and Simonyan-led commercial division built out of the ex-Inflection leadership. Langford's assessment: the move "could make sense on the surface", but the philosophies are incompatible — "The core philosophy there is scaling, and aggressively not research." A scaling-only organisation, he argues, pushes effort into data and away from research, and there was "plenty of evidence that they just did not really want us." Microsoft's AI Frontiers page, updated 14 September, says the lab is now part of Microsoft AI and continues frontier research.
+
+**The argument he makes is a cost argument, and that is what gives it teeth.** Citing ByteDance's published experiments on hidden-state recycling, Langford suggests a variant of the Full Bandwidth Transformer could be comparable to a model **twice the size** — implying large savings in training and inference for the same capability. His question is blunt: with industry investment approaching a trillion dollars, what is halving training and inference cost worth? He says every other founding AI Frontiers leader reached the same conclusion, and that he declined to return to Microsoft Research for separate reasons.
+
+The trade-off is genuine rather than one-sided: bigger models do predict better and returns to scale are easier to forecast. His complaint is that a scaling-only organisation drops the other ideal entirely. Microsoft has not responded publicly.
+
+Sources: [Langford, "The End of AI Frontiers"](https://hunch.net/?p=13764006) · [Windows Latest coverage](https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered/) · [The World of AI briefing](https://theworldofai.org/ai-news/924b01ef/) · [Microsoft AI Frontiers lab page](https://www.microsoft.com/en-us/research/lab/ai-frontiers/)

@@ -1,0 +1,22 @@
+---
+title: "Marimba Turns a Frozen 0.6B Speech Model Into a Typed Decision Interface"
+date: "2026-11-16 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Tools & Frameworks
+summary: "Instead of transcribing speech and reasoning over text, Marimba freezes a 0.6B ASR backbone, encodes the audio window once and answers typed questions — is someone speaking, has the turn ended, which language, was that term said — reaching AUROC 0.966 on speaker change while openly admitting its scores are uncalibrated and not real-time."
+image: "/assets/post-images/2026-11-16-marimba-frozen-asr-decision-interface.svg"
+---
+
+Speech stacks have spent years optimising for **transcripts**. Marimba, submitted on 13 November (arXiv 2611.18330, eess.AS/cs.CL), starts from a contrarian premise: most production voice decisions are not about words, they are about **predicates** — is someone speaking, has the turn ended, which language is it, was that term said, how many speakers, is that a person's name.
+
+**The interface.** Marimba freezes a **Qwen3-ASR-0.6B** backbone and exposes questions in typed form: `noul` (yes/no at a threshold), `score` (a probability), and `choice` (a pick from supplied options). One encoder pass is shared across all questions on the same window, so asking five things about the same audio costs one pass, not five. The pipeline is deliberately narrow: audio is mixed to mono, resampled to 16 kHz, cropped to the **last eight seconds** and scored there; speaker questions require eight valid seconds, shorter clips are left-padded with a validity mask.
+
+**The numbers are strong, and the caveats are in the open.** Decoder AUROC runs **0.80–0.92** on private conversational test sets and **0.92–0.97** on public read speech; Speech Commands four-way accuracy is **0.93** with binary lexical ECE at most **0.08**. Personal-information detection, which routes the greedy transcript into a private curated PII pipeline, hits item-level **F1 0.904** on synthetic Brazilian Portuguese speech. Layer-12 speaker readouts detect speaker change at **AUROC 0.966–0.980** on AMI and VoxConverse — above an ECAPA baseline — and count 0/1/2/3+ speakers more accurately than pyannote 3.1.
+
+**Where it loses, and says so.** The turn-end readout reaches **AUROC 0.930**, below Smart Turn v3.2's **0.982** on Smart Turn's own test set. On an ICSI subset labelled by next speaker, Marimba scores **0.716 against 0.712** — a paired confidence interval that includes zero, meaning no demonstrated win. The model card states plainly that term scores are **uncalibrated** and that **no real-time guarantee is claimed**.
+
+The strategic point survives those caveats. A voice agent that only needs "is this a turn end" or "did the word *acquisition* appear" does not need a transcript, a diarisation pipeline and a reasoning model stacked on top — it needs a small frozen encoder and a decision head. Weights are on Hugging Face (`charcot-ai/marimba`), code on GitHub (`Charcot-AI/marimba-api`), installable with `pip install "marimba-audio[torch]"` on Python 3.10+ and CPU.
+
+Sources: [arXiv:2611.18330](https://arxiv.org/abs/2611.18330) · [Model card: charcot-ai/marimba](https://huggingface.co/charcot-ai/marimba) · [GitHub: Charcot-AI/marimba-api](https://github.com/Charcot-AI/marimba-api)

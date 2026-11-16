@@ -1,0 +1,24 @@
+---
+title: "WeightBench: Frontier Agents Can Write a Neural Network, but Cannot Fix One"
+date: "2026-11-16 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "A new benchmark hands LLMs the raw weights of other networks across 42 tasks in five tracks — frontier agents score 0.93 on reading and 0.83 on writing control policies, but collapse to 0.40 on repairing broken models, with every model call recorded in a hash-chained ledger so the score cannot be faked."
+image: "/assets/post-images/2026-11-16-weightbench-weight-space-programmers.svg"
+---
+
+The idea of a language model acting as a **weight-space programmer** — reading what another network learned, repairing one that is broken, writing a working network from scratch, all without a single gradient step — has been floating around as a demo. **WeightBench**, submitted on 13 November (arXiv 2611.18553, cs.LG/cs.AI), turns it into a scored discipline, and the first leaderboard is more interesting than a clean win for anyone.
+
+**The design is deliberately hostile to flattery.** Agents get the raw weights of a target network plus a task — find a backdoor, repair a broken behaviour, write a network from scratch, prune a model for a specific hardware target — and only a small, **metered budget of forward passes**. Every model call is written to a **hash-chained ledger**, the score is computed from that ledger, and runs that end without a valid submission count as zero. The targets range from **2K-parameter control policies to 7B-parameter language models**, across 42 tasks in five tracks: read, fix, write, meta (spot an edit that is impossible), and systems (data-free compression).
+
+**Where the frontier models actually land.** On the 42-task macro score, Claude Opus 5.5 reaches **0.535** (Sonnet 5.5 0.466, Haiku 5.5 0.402, DeepSeek v4-flash 0.215). On the 38 tasks it was run on, **GPT-6.1-sol reaches 0.568** against Opus's 0.546 on the same subset. The track breakdown is where it gets sharp: GPT-6.1-sol posts **0.928 on READ** and Claude Opus 5.5 **0.829 on WRITE** — agents genuinely author working control policies they never executed — while **FIX stalls at 0.571 and 0.404** and the data-free compression track sits at **0.207 and 0.220**.
+
+**Reading and writing are solved; repairing is not.** That gap matters. Writing a small network from scratch is a generative task with a checkable answer; patching a 7B model is a search over a space with no gradient signal and no way to validate the fix. The meta track adds a nastier question: can the model tell an *impossible* edit from a merely hard one? On current numbers, no.
+
+Two caveats the authors publish themselves: every score is a **lower bound** (quarantined runs count as zero and none have been reviewed yet), and 10 of GPT-6.1-sol's 38 runs used the Codex CLI while Claude models ran under Claude Code — a harness difference the leaderboard does not normalise away. Code, the task registry, the sandbox harness and a live leaderboard are public.
+
+The uncomfortable takeaway: models that can write a network from scratch still cannot reliably repair one. That is not a bug in the benchmark — it is the benchmark's result.
+
+Sources: [arXiv:2611.18553](https://arxiv.org/abs/2611.18553) · [WeightBench on GitHub](https://github.com/Aayush-Marasini/WeightBench) · [arXiv listing: cs.LG recent](https://arxiv.org/list/cs.LG/recent)
