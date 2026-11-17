@@ -6095,6 +6095,30 @@
       ],
       "count": 1,
       "last_published": "2026-11-16"
+    },
+    {
+      "term": "Benchleaking Benchmark Contamination Base Models ERNIE-5.5-Flash-Base 96% HumanEval Leak 85% OpenBookQA Anti-Hack Score DeepSeek-V4-Flash-Base MiMo-V2.5-Base Hy3-preview-Base arXiv 2611.21315 GAIR-NLP November 2026",
+      "slugs": [
+        "2026-11-17-benchleaking-base-model-contamination"
+      ],
+      "count": 1,
+      "last_published": "2026-11-17"
+    },
+    {
+      "term": "Agent-Native Programming Jac Python Superset Language by llm() Object-Spatial Programming visit by llm() Model-Guided Routing 1.8-8.7x Less AI Integration Code OpenAI SDK Speculative Execution Service Partitioning arXiv 2611.21298 Dantanarayana November 2026",
+      "slugs": [
+        "2026-11-17-agent-native-jac-programming-language"
+      ],
+      "count": 1,
+      "last_published": "2026-11-17"
+    },
+    {
+      "term": "Hugging Face OpenRouter Partnership Inference Providers Router Switch 80+ Providers 800 Trillion Tokens 71.7% Open Weight Token Share DeepSeek V4.1 Flash 1017 Kimi K3.1 Pro Capacity Errors -46% TTFT +16.9% X-HF-Session-Id Cache Aware Routing November 2026",
+      "slugs": [
+        "2026-11-17-huggingface-openrouter-inference-routing"
+      ],
+      "count": 1,
+      "last_published": "2026-11-17"
     }
   ]
 }
