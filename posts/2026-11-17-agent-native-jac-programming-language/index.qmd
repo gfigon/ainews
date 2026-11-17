@@ -1,0 +1,28 @@
+---
+title: "Agent-Native Programming: A Language That Treats the Model as Part of the Control Flow"
+date: "2026-11-17 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Tools & Frameworks
+summary: "Jac, a Python-superset language presented on 16 November, folds model calls, workflow state and model-guided routing into shared execution semantics — cutting AI-integration code by 1.8–8.7x against the OpenAI SDK and giving the compiler a real view of agent control flow."
+image: "/assets/post-images/2026-11-17-agent-native-jac-programming-language.svg"
+---
+
+Every agent framework has the same hidden tax. The developer writes *supporting code* — preparing model inputs, propagating state, dispatching the step the model chose — and that code is invisible to the compiler, split across application and framework internals. A workflow change means coordinating edits in both places, and the compiler sees too little to optimise anything. **Agent-Native Programming**, a paper submitted on 16 November (arXiv 2611.21298, cs.PL/cs.AI/cs.SE, by Jayanaka Dantanarayana), proposes to delete that layer rather than manage it.
+
+**The implementation is Jac, a Python-superset language** that unifies three things under one execution semantics:
+
+- **`by llm()`** — typed model operations and tool use, with types attached to what the model may call.
+- **Object-Spatial Programming** — workflow structure and application state expressed as objects in a shared workspace rather than as framework glue.
+- **`visit ... by llm()`** — model-guided routing, where the routing construct derives the model's choice from executable workflow steps and then schedules the selected step.
+
+That third piece is the interesting one. Routing is no longer an opaque dispatch call inside a framework: the model's decision is tied directly to a step that exists in the program, so the compiler and runtime get a **common basis for dependency analysis**.
+
+**The measurement.** Across five benchmarks and five baselines, Jac reduces AI-integration code by **1.8–8.7x relative to the OpenAI SDK**, with competitive observed task quality and lower coding-agent development effort. Two case studies show speculative execution and service partitioning done **through configuration alone**, with program analysis and runtime checks preserving workflow behaviour under stated conditions.
+
+**Why the angle is not just "less code".** The real claim is visibility. When model-guided routing, workflow structure and state live in one program, the compiler can reason about which steps depend on which, and the runtime can check that an optimisation did not change behaviour. Framework-internal routing throws both away. The tradeoff the paper does not fully settle is how much of that analysis survives contact with real, messy applications — static reasoning over probabilistic steps is exactly where such guarantees tend to get soft.
+
+Still, the direction is notable: rather than adding more framework around the model, treat the model call as a first-class program construct, the way a system call or an I/O operation is. The AI-integration glue does not disappear, but it stops being invisible.
+
+Sources: [arXiv:2611.21298](https://arxiv.org/abs/2611.21298) · [arXiv listing: cs.PL recent](https://arxiv.org/list/cs.PL/recent)

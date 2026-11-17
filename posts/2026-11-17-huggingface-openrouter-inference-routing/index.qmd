@@ -1,0 +1,26 @@
+---
+title: "Hugging Face Hands Its Router to OpenRouter: Open-Weight Models Now Pass Through 80+ Providers"
+date: "2026-11-17 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Infrastructure
+summary: "From 16 November, Hugging Face Inference Providers routes every chat request through OpenRouter instead of its own router — with OpenRouter reporting 800 trillion tokens a month, a 46% cut in capacity errors, and open-weight models at 71.7% of the tokens it serves."
+image: "/assets/post-images/2026-11-17-huggingface-openrouter-inference-routing.svg"
+---
+
+Hugging Face and OpenRouter announced on 16 November that the Hub's **Inference Providers** will switch from Hugging Face's own custom router to OpenRouter's. The practical effect: every chat request issued with a Hugging Face token is routed by OpenRouter across **80+ providers**, picking the best one per call on live price, speed and reliability, and retrying on another provider inside the same call if the first fails. Your code does not change.
+
+**The router is the product.** OpenRouter rebuilt its provider routing to stop picking the cheapest list price and instead rank providers by the best mix of price, speed and reliability, shifting traffic away from a provider as it degrades. In OpenRouter's own measurements, that cut **capacity errors by 46%**, improved **time to first token by 16.9%** and **throughput by 16.3%**. Previously, Inference Providers picked one provider and returned its error when it failed; now the request is retried elsewhere.
+
+The API surface stays familiar: OpenAI's Chat Completions and Responses APIs plus Anthropic's Messages API, with a model-id suffix to pin behaviour (`zai-org/GLM-5.3:fastest`, `:cheapest`, `:novita`). Routing is **cache-aware** — a conversation stays on the provider holding its prompt cache, and a stable UUID in the `X-HF-Session-Id` header makes that explicit. Setup guides are published for Claude Code, Codex, OpenCode, Pi and Hermes Agent. Image, video and audio generation deliberately stay on the direct path, unaffected.
+
+**The market context behind the deal is the bigger story.** On OpenRouter, open-weight models went from **26.8% of tokens served in October 2025 to 71.7% at the end of September 2026**, after peaking at 77.5% in July; weekly open-weight volume grew more than **60-fold** against almost tenfold for closed models. This week's most-used model on OpenRouter is an open-weight one, **DeepSeek V4.1 Flash 1017, with 59.2 trillion tokens**. Open-weight models cost roughly four times less on average — **$0.28 per million input tokens and $1.62 per million output**, against $1.27 and $6.36 for closed ones.
+
+Quality still has a price. On the Artificial Analysis Intelligence Index, Kimi K3.1 Pro — the strongest open-weight model — scores **46 against 65 for Claude Fable 5.2**, but at about a seventh of the cost per task ($3.68 vs $26.54). For a lot of workloads that trade is worth taking; for the hardest ones, it is not.
+
+OpenRouter now serves more than **800 trillion tokens a month to over 10 million users** across 600+ models. Hugging Face says pricing is unchanged and it adds no markup; PRO users get $2 of monthly credits, Team and Enterprise $2 per seat.
+
+The angle worth watching: the Hub's distribution advantage and the router's execution advantage have now been welded into one API. If routing quality becomes the product, the model on top matters less than who decides where the request runs.
+
+Sources: [Hugging Face blog: HF and OpenRouter join forces](https://huggingface.co/blog/openrouter) · [OpenRouter: open-weight vs closed-weight insights](https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models/) · [OpenRouter: how we rebuilt provider routing](https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/)

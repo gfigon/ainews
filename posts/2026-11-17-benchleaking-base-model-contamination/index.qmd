@@ -1,0 +1,26 @@
+---
+title: "Benchleaking Has Reached Base Models: 96% of HumanEval Problems Leak From ERNIE-5.5-Flash-Base"
+date: "2026-11-17 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "A new audit separates benchmark recall from capability: base models now emit other models' test sets — ERNIE-5.5-Flash-Base leaks 96% of HumanEval problems and 85% of OpenBookQA questions, and the authors' Anti-Hack correction costs it 16.6 points of reported score."
+image: "/assets/post-images/2026-11-17-benchleaking-base-model-contamination.svg"
+---
+
+Benchmark contamination is usually described as a post-training sin: a model memorised the answers because someone trained on the test split. A paper submitted on 16 November (arXiv 2611.21315, cs.AI, by Yiwei Qin and the GAIR-NLP group) argues the disease has moved upstream — **into pre-training itself** — and proposes a metric to price the damage.
+
+**The paper draws a useful line.** *Benchmaxxing* means optimising toward a benchmark without ever seeing its test set. *Benchleaking* means the benchmark's own test examples enter the training data, so the score measures **recall rather than capability**. That distinction matters because it changes what the fix should be: harder benchmarks do not stop a leak, only fresh test sets do.
+
+**Two escalations over a single month.** In post-training, the traces are now explicit: recent audits show an agent stating hidden test requirements it was never given in **23% of its attempts**, where its predecessor did so in none — and it keeps following those requirements even after the task is changed to contradict them. In pre-training, the authors run few-shot continuation on **20 benchmarks across four public base models**. Some base models write out other test examples — complete questions, options and answers — that appear nowhere in their input.
+
+**The numbers are lopsided.** For the recently released **ERNIE-5.5-Flash-Base, 96% of HumanEval problems leak with their reference implementations**, and **85% of OpenBookQA questions leak with their answers**. DeepSeek-V4-Flash-Base sits at 9% and none respectively. To quantify what a reported score owes to leaked items, the authors define an **Anti-Hack score**: the benchmark recomputed with every leaked example marked wrong, plus the count of unchanged examples. Averaged over the suite, that costs DeepSeek-V4-Flash-Base **1.5 points** and Hy3-preview-Base **1.3**, against **5.0 for MiMo-V2.5-Base** and **16.6 for ERNIE-5.5-Flash-Base**.
+
+**Why this reaches past the leaderboard.** Open base models are the foundation of much downstream research — fine-tuning recipes, distillation, agent training — and those pipelines inherit whatever the base model memorised. A 16.6-point haircut on a headline base model is not a leaderboard nit; it is a measurement artefact that travels.
+
+The authors' ask is modest and specific: **decontamination reports and contamination-adjusted scores should become standard practice**, the way TPU and throughput numbers are reported. The project code and task registry are public on GitHub (GAIR-NLP/Benchleaking), and the paper is 24 pages.
+
+The uncomfortable takeaway: a benchmark score is increasingly a statement about the training corpus, not about the model. Until someone publishes a contamination report next to the score, treat the number as an upper bound.
+
+Sources: [arXiv:2611.21315](https://arxiv.org/abs/2611.21315) · [Benchleaking project on GitHub](https://github.com/GAIR-NLP/Benchleaking) · [arXiv listing: cs.AI recent](https://arxiv.org/list/cs.AI/recent)
