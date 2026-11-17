@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
+      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -6119,6 +6119,22 @@
       ],
       "count": 1,
       "last_published": "2026-11-17"
+    },
+    {
+      "term": "NVIDIA Vera Rubin NVL72 MLPerf Inference v6.1 Preview Submission 3.7x GB300 NVL72 Qwen3-VL 2.5x DeepSeek-R1 vLLM Dynamo TensorRT-LLM 288 GPU 99% Scaling Efficiency Entry 6.1-0106 6.1-0074 SemiAnalysis AgentX 30x NVLink 6 NVFP4 Nebius September 16 2026 November 2026",
+      "count": 1,
+      "last_published": "2026-11-17",
+      "slugs": [
+        "2026-11-17-vera-rubin-mlperf-inference-preview"
+      ]
+    },
+    {
+      "term": "Safe Resemblance Silent Propagation Text-Similarity Guardrails Agent Safety DonkeyRail BLEU ROUGE-L METEOR Three-Agent Email Relay Functional Propagation 8 of 19 Missed 70 of 192 False Positives 21 Classifier Configurations ROC Interpolation Operating Point Error Authorization Policy-Grounded Evaluation arXiv 2611.21520 November 2026",
+      "count": 1,
+      "last_published": "2026-11-17",
+      "slugs": [
+        "2026-11-17-text-similarity-guardrails-agent-safety"
+      ]
     }
   ]
 }
