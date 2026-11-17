@@ -1,0 +1,22 @@
+---
+title: "Vera Rubin's First Public Numbers: 3.7x GB300 on Qwen3-VL, With One Word of Caution"
+date: "2026-11-17 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Industry News
+summary: "NVIDIA published the first MLPerf results for Vera Rubin NVL72 — up to 3.7x GB300 throughput on Qwen3-VL and 2.5x on DeepSeek-R1 — but they are preview submissions on hardware that is not yet generally available, from a round released in September."
+image: "/assets/post-images/2026-11-17-vera-rubin-mlperf-inference-preview.svg"
+---
+
+Vera Rubin has been announced since February and quoted in 2027 capacity commitments, but until now it had no published benchmark numbers. NVIDIA's post on MLPerf Inference **v6.1** closes that gap with two preview submissions for **Vera Rubin NVL72**: **up to 3.7x the throughput of GB300 NVL72 on Qwen3-VL** (across offline, server and interactive scenarios, run on vLLM with the Dynamo inference framework) and **up to 2.5x on DeepSeek-R1** (TensorRT-LLM). Both are per-rack comparisons, which is the unit a buyer costing a deployment actually pays for — and the wrong one if you are comparing chips.
+
+**"Preview" is the word doing the work.** In MLPerf, a preview submission covers hardware that is not yet generally available; it is a legitimate category but not a verified result on shipping silicon. NVIDIA's GPT-OSS-120B and DLRMv3 runs were submitted after the deadline and are **not yet verified** by MLCommons either. On the SemiAnalysis AgentX benchmark, Rubin is quoted at **30x** GB300 — also preview testing, and outside the MLPerf suite.
+
+**The date is September, not this week.** NVIDIA's footnote reads "results retrieved from www.mlcommons.org on Sep 16, 2026". Several write-ups this week described the round as **MLPerf Training** and dated it to mid-November; it is Inference, and it is a month and a half old. The submission IDs are 6.1-0106 and 6.1-0074.
+
+**The more useful number may be the incumbent's.** GB300 NVL72 scaled from one 72-GPU rack to four racks (288 GPUs) on DeepSeek-R1 offline at **99% scaling efficiency** — near-linear throughput growth on shipping hardware. The same submission hit 0.65 720p videos/s on WAN 2.2 text-to-video (9x throughput, 7.5x lower latency than a single node). Rubin's own story rests on disaggregated prefill/decode, large-scale expert parallelism, sixth-generation NVLink (10x packet rates, 3x lower latency than Ethernet) and NVFP4 precision cutting weight, attention and KV-cache footprint. Software alone moved GB300 on Qwen3-VL up to **1.6x** versus v6.0. Nebius filed its own Rubin preview results, and 19 partners participated, eight on multi-node Blackwell NVL72 systems.
+
+**The practical read.** Every Rubin throughput claim you will see in vendor announcements this cycle traces back to these two preview entries. For procurement decisions, treat the 3.7x and 2.5x as directional, and treat the 99% scaling figure as the one measured on hardware you can actually buy.
+
+Sources: [NVIDIA — Vera Rubin NVL72 in MLPerf Inference v6.1](https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference) · [HPCwire coverage](https://www.hpcwire.com/off-the-wire/nvidia-vera-rubin-nvl72-delivers-leading-performance-in-mlperf-inference-v6-1-debut/) · [Nebius — MLPerf Inference v6.1 results](https://nebius.com/blog/posts/mlperf-inference-v6-1-results)

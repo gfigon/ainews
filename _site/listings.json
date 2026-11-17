@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-17-vera-rubin-mlperf-inference-preview/index.html",
+      "/posts/2026-11-17-text-similarity-guardrails-agent-safety/index.html",
       "/posts/2026-11-17-agent-native-jac-programming-language/index.html",
       "/posts/2026-11-17-benchleaking-base-model-contamination/index.html",
       "/posts/2026-11-17-huggingface-openrouter-inference-routing/index.html",

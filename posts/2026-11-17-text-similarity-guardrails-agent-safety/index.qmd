@@ -1,0 +1,24 @@
+---
+title: "Safe Resemblance, Silent Propagation: Text-Similarity Guardrails Miss the Injection That Works"
+date: "2026-11-17 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A three-agent relay study shows the standard copy-paste detectors for prompt injection fail in both directions: they miss 8 of 19 functionally propagated injections while flagging 70 of 192 legitimate quoted replies, and no threshold recalibration transfers across templates."
+image: "/assets/post-images/2026-11-17-text-similarity-guardrails-agent-safety.svg"
+---
+
+The cheapest way to spot a prompt injection is to measure how much the output resembles the input. A paper submitted on 16 November (arXiv 2611.21520, cs.AI) shows why that instinct fails, using a three-agent email relay where one agent's poisoned message causes downstream agents to perform new computations.
+
+**The distinction the field keeps collapsing.** An output can carry an injected instruction's effect forward even after the wording changes — call that *functional* propagation. Meanwhile legitimate quotation and template reuse produce high textual overlap with the source. Text-similarity guardrails flag the second while missing the first, because they measure the wrong thing.
+
+**Both error directions, measured.** The authors deploy **DonkeyRail**, a public classifier combining BLEU, ROUGE-L and METEOR features, and define a behavioural label independently of the detector: an output counts as functional if the injected procedure induces fresh computations in **two subsequent agents**. At its default threshold the classifier **misses 8 of 19 functional outputs** while **flagging 70 of 192 legitimate replies** — every completed quotation and template-reuse reply triggered a false alert.
+
+**Recalibration does not travel.** Tuning the threshold for low false positives on one template set does not transfer: the recalibrated detector catches **one** functional output and still produces **15 false alerts** on new templates. The paper also identifies an operating-point error present in **all 21 published classifier configurations**, where ROC interpolation replaces direct threshold application.
+
+**Why the fix is not just a better threshold.** The authors show formally that high AUC against a surface-level text criterion gives **no distribution-free guarantee** of high AUC against the behavioural target — and that existing evaluations lack the joint observations needed to estimate the gap. Their authorization analysis adds the harder half: **identical visible transcripts can require different safety decisions under different governing policies**, a distinction no observation-only classifier can resolve at all.
+
+**What this changes in practice.** If your agent-to-agent layer relies on "did the output copy the input" as an injection tripwire, you are measuring style, not behaviour. The authors argue for behavioural and policy-grounded evaluation instead — replay the relay and check whether downstream agents actually did new things.
+
+Sources: [arXiv:2611.21520](https://arxiv.org/abs/2611.21520) · [arXiv listing: cs.AI recent](https://arxiv.org/list/cs.AI/recent)
