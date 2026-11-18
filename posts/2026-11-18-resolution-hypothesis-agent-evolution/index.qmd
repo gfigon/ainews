@@ -1,0 +1,24 @@
+---
+title: "The Resolution Hypothesis: Agent Evolution Fails at Selection, Not Proposal"
+date: "2026-11-18 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "A 10-million-call reproducibility study of agent self-evolution finds proposal works fine — but noisy evaluation cannot tell a better prompt from a worse one, so selector accuracy sits at chance and published rankings mostly rest on luck."
+image: "/assets/post-images/2026-11-18-resolution-hypothesis-agent-evolution.svg"
+---
+
+Agent evolution has a tidy loop: a **proposer** writes candidate artifacts — prompts, skill documents, memory playbooks — and a **selector** keeps the ones that score higher. Every few months a new method claims the crown. Methods trade wins across papers, rankings flip between benchmarks, and on some tasks evolution simply never bootstraps. The usual diagnosis is a weak proposer. A new paper argues the problem sits one step later, in the scorer.
+
+**The Resolution Hypothesis** (17 November, arXiv 2611.23068, cs.AI, by Yuanhao Zeng, Shaocheng Lan, Ao Lu, Kuang Yan, Heng Lin, Xinang Xu, Yuan Luo, Yueting Wang, Yexin Li, Ruo Shan and Kan Ren; 38 pages, 12 figures, 13 tables) traces the puzzle to evaluation resolution: the smallest true improvement a pipeline can reliably separate from noise. The scale is what makes it credible — **7 evolution methods** (GEPA, SkillOpt-Lite, Trace2Skill, ReasoningBank, HarnessLens, Meta-Harness, AHE) across **6 models** (GPT-5.4 nano, GPT-5.6 Luna and Terra, DeepSeek-V4-Flash, Kimi-K3, GLM-5.2) and **4 benchmarks** (ALFWorld, SpreadsheetBench, OfficeQA, Terminal-Bench v2.1): **1,030 independent evolution runs, 2.1 million test trajectories, over 10 million LLM calls and 400,000 CPU core hours**.
+
+**At the method level, published margins are smaller than the noise.** Decomposing score variance into evaluation noise (σ) and run-to-run variance (τ), the authors find σ of **1.0–3.7 points** on three benchmarks and **4.5** on Terminal-Bench, while τ reaches **12.3**. The median margin reported across the agent-evolution literature is **3.4 points** (IQR 1.2–6.6). Identifying it at 80% power needs roughly **5 runs** on SpreadsheetBench, 10 on OfficeQA, 19 on ALFWorld and **23 on Terminal-Bench** — 181 at the lower-quartile margin. A results table with one run per method picks the genuinely best of four text-artifact methods only **51–73%** of the time, and **33%** on Terminal-Bench. Barely above a coin flip.
+
+**At the candidate level, selection is at chance.** On a frozen pool of 100 candidate skills built from Terminal-Bench trajectories, execution-score selection picks the better artifact **49.7%** of the time (random = 50%), and regressions make up 30.5% of the pool but **62.1% of accepted candidates**. LLM judges do not rescue it: pointwise 45.4%, pairwise 49.0%, ACE 46.9% — reading noise adds to evaluation noise instead of cancelling it. Helpful artifacts *do* exist, so proposal is not the bottleneck; selection simply cannot see them.
+
+**The "one-rule test" explains where the big wins come from.** Auditing evolved artifacts instruction by instruction, appending only the single sentence most responsible for the gain to the unevolved baseline nearly reproduces full evolution across 27 model–benchmark pairs — and repairing the evaluation erases the gain. Much of the published uplift is an evaluation shortcut, not a better artifact.
+
+**The prescription is measurement, not more proposers.** Diagnostics that check intermediate behaviour show **13×–57× lower noise** than terminal pass/fail verdicts, and evaluating proposers and selectors as separate components restores resolution. The practical lesson for anyone self-improving agents: if your score cannot separate a 3-point improvement from a rerun, your loop is not learning — it is accumulating noise.
+
+Sources: [arXiv:2611.23068](https://arxiv.org/abs/2611.23068) · [Project page](https://lineshogan.github.io/resolution-hypothesis/)

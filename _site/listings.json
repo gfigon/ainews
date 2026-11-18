@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-18-resolution-hypothesis-agent-evolution/index.html",
+      "/posts/2026-11-18-scene-state-vlm-safety-s3ta/index.html",
       "/posts/2026-11-18-ai-safety-research-sabotage-auditing/index.html",
       "/posts/2026-11-18-nevan-system-prompt-secret-leakage/index.html",
       "/posts/2026-11-18-microsoft-ignite-mai-model-family/index.html",

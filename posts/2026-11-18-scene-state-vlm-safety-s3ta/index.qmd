@@ -1,0 +1,26 @@
+---
+title: "Scene-State Attacks: VLMs Assist With Harm They Were Never Asked About"
+date: "2026-11-18 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Tools & Frameworks
+summary: "A new multimodal safety benchmark shows vision-language models volunteer harmful guidance when shown only a picture of a developing situation — attack success rates reach 72% across eight models, and standard text and image filters barely dent it."
+image: "/assets/post-images/2026-11-18-scene-state-vlm-safety-s3ta.svg"
+---
+
+Multimodal jailbreak benchmarks ask whether a model refuses a harmful request, or a harmful instruction hidden inside an image. Both are content-screening problems. A new failure mode is harder to filter: **no harmful text anywhere**. The image simply shows a situation, the question asks the model to interpret it, and the model infers the harmful objective on its own — then answers with actionable guidance.
+
+**SceneSafetyBench**, introduced on 17 November (arXiv 2611.23206, cs.CV, by Tongxi Wu, Yuyang Cheng, Jiacheng Xian, Menglin Yang, Kai Chen, Jian Zhang and Yang Gao of HKUST Guangzhou and Nanjing University), measures exactly that. It contains **375 image–question pairs**: 25 base tasks rendered in three scene states — *Initial* (conditions before the activity), *Medium* (activity in progress) and *Ultimate* (the outcome) — each in five visual presentations (original, pixel art, pencil sketch, oil painting, film noir). Responses are judged by GPT-4o-mini on harmfulness, intent alignment and detail, all rated ≥3 to count as a success.
+
+**The vulnerable behaviour is widespread.** Across eight models — Qwen3-VL-8B, GLM-4.1V-9B, InternVL3.5-8B, MiniCPM-V 4.5, Gemma 3 12B IT, GPT-5.6 Luna, Gemini 3.5 Flash and Claude Haiku 4.5 — attack success rates run **45.6% to 72.3%** (model average **59.4%**). Restyling barely matters: oil painting averages 61.7% against 61.5% for the original images. Even the *earliest* scene state is the most dangerous (**64.4%**, versus 57.8% Medium and 55.9% Ultimate) — setup alone is enough.
+
+**Internally, the signal looks like a known jailbreak.** HiddenDetect readouts across Qwen3-VL-8B, LLaVA-v1.5-13B and InternVL3.5-8B show scene-state inputs closest to QR-code-style attacks in their layer-wise safety profile (RMSE 1.67, 1.23, 1.53 × 10⁻³), but with **lower late-layer readouts** (−2.07, −0.92, −2.19 × 10⁻³) and different dynamics during generation. The safety machinery fires, but later and more weakly than for an attack the model recognises.
+
+**S3TA turns the weakness into an attack.** The framework translates a harmful objective into scene states, queries the image–question pairs independently, and assembles the responses afterwards. Across seven MM-SafetyBench categories and the same eight models it reaches a **model-average ASR of 71.2%**, beating the strongest baseline (QR-related, FigStep, VisCRA, MML, FC-Attack, CIA) by **6.1 points**; with scene-cue refinement, Physical Harm climbs from 79.86% to **90.97%**.
+
+**Defenses largely do not fire.** Neither Llama Guard 3 nor combined NeMo heuristics flagged a single input, leaving ASR unchanged at **87.25%** on the Qwen3-VL subset; GPT-2 perplexity filters caught 96 and 95 requests yet still left ASR at **81.00%** (−6.25 points). ShieldGemma 2-4B blocked **21.81%** of scene images — 48.3% for malware generation, only 13.7% for economic harm — leaving **78.19%** untouched. Human annotators, meanwhile, judged the same responses *more* successful than the LLM judge (80% vs 72% aggregate ASR).
+
+**What this changes.** Guarding multimodal assistants means auditing the intent a model *infers* from a scene, not only the content of the pixels and the prompt. Filtering images and text in isolation is measuring the wrong thing — the harm is in the reasoning that connects them.
+
+Sources: [arXiv:2611.23206](https://arxiv.org/abs/2611.23206) · [arXiv listing: cs.CV recent](https://arxiv.org/list/cs.CV/recent)
