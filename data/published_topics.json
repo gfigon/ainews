@@ -6175,6 +6175,22 @@
       "slugs": [
         "2026-11-18-ai-safety-research-sabotage-auditing"
       ]
+    },
+    {
+      "term": "The Resolution Hypothesis Agent Evolution Selection Noise 7 Methods 6 Models 1030 Independent Runs 2.1M Test Trajectories 10M LLM Calls 400K CPU Core Hours Evaluation Noise Sigma 1.0-4.5 Points Run-to-Run Tau 12.3 Median Literature Margin 3.4 Points IQR 1.2-6.6 5-23 Runs Needed Selection Pairwise Accuracy 49.7 Percent False Accept 62.1 Percent Pool Regression Share 30.5 Percent LLM Judge 45.4-49.0 Percent One-Rule Test Evaluation Shortcut 27 Model-Benchmark Pairs Behavioural Diagnostics 13x-57x Lower Noise GEPA SkillOpt-Lite Trace2Skill ReasoningBank HarnessLens Meta-Harness AHE ALFWorld SpreadsheetBench OfficeQA Terminal-Bench v2.1 GPT-5.4 Nano GPT-5.6 Luna Terra DeepSeek-V4-Flash Kimi-K3 GLM-5.2 arXiv 2611.23068",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-18-resolution-hypothesis-agent-evolution"
+      ]
+    },
+    {
+      "term": "SceneSafetyBench Scene-State Safety Vulnerability Vision-Language Models 375 Image-Question Pairs Initial Medium Ultimate Five Visual Styles ASR 45.6-72.3 Percent 59.4 Percent Model Average GLM-4.1V-9B 72.3 Gemma 3 12B IT 67.7 Gemini 3.5 Flash 66.7 MiniCPM-V 4.5 64.0 InternVL3.5-8B 58.9 GPT-5.6 Luna 54.1 Qwen3-VL-8B 45.6 Claude Haiku 4.5 45.6 Initial State 64.4 Percent Medium 57.8 Percent Ultimate 55.9 S3TA Attack Model-Average ASR 71.2 Percent 6.1 Points Above Strongest Baseline Physical Harm 90.97 Percent HiddenDetect QR-Related RMSE 1.67 1.23 1.53 Late-Layer Readout 2.07 0.92 2.19 Llama Guard 3 NeMo Heuristics No Flags ASR 87.25 Percent GPT-2 Perplexity Filter ASR 81.00 Percent ShieldGemma 21.81 Percent Images Blocked Human Annotators 80 Percent vs GPT-4o-mini Judge 72 Percent arXiv 2611.23206",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-18-scene-state-vlm-safety-s3ta"
+      ]
     }
   ]
 }
