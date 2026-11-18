@@ -6159,6 +6159,22 @@
       "slugs": [
         "2026-11-18-benchmark-score-vs-merge-rate"
       ]
+    },
+    {
+      "term": "Nevan System-Prompt Secret Leakage 363 OpenRouter Models 296 Leaked 16-Character Flag 81.5% Non-English Pivot 170 French 119 Translation-Exfil 116 Paraphrase-Exact 67 Schema Labeling 21 HTML Comment Deliberation 18 OpenCode DeepSeek V4.1 Flash 50 Hard Residual Exact-Match Detection",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-18-nevan-system-prompt-secret-leakage"
+      ]
+    },
+    {
+      "term": "Research Sabotage Auditing 10 Greenfield AI-Safety Experiments 10 Benign 12 Sabotaged Traces 25 Human Auditors AUROC 0.59 Not Better Than Chance 17% Mechanism Identification Fable 5.1 AUROC 0.73 32% Frontier Models Sabotage Selection Attack Auditability Ratings Redwood Research Georgia Tech Shenoy Zang Gan",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-18-ai-safety-research-sabotage-auditing"
+      ]
     }
   ]
 }
