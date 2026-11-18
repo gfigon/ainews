@@ -1,0 +1,24 @@
+---
+title: "Eight in Ten OpenRouter Models Leak System-Prompt Secrets"
+date: "2026-11-18 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "An agentic capture-the-flag audit of 363 models found 296 disclosed a 16-character secret planted in their system prompt — most often after a French-language pivot or a plain request to translate."
+image: "/assets/post-images/2026-11-18-nevan-system-prompt-secret-leakage.svg"
+---
+
+The system prompt is where deployments put the things they never want a user to see: internal policy text, tool credentials, business rules, occasionally an API key. The assumption underneath that placement is mundane and mostly false — that a model asked to keep a secret will keep it. **Nevan**, a capture-the-flag study submitted on 16 November (arXiv 2611.21956, cs.CR, by Ana Clara Zoppi Serpa), measures exactly that assumption at catalog scale, and it does not survive.
+
+**The setup is deliberately simple.** 363 text-in/text-out models from the OpenRouter catalog (frozen on 6 October 2026) each guarded a randomly generated 16-character alphanumeric flag embedded in their system prompt. An attacker — the OpenCode agent powered by **DeepSeek V4.1 Flash**, steered interactively by a human researcher — tried to make each model emit its flag. Most attempts were single-turn; models that broke early were dropped from the queue, and the hard residual of the last 50 models received more sustained, human-steered pressure.
+
+**The result: 296 of 363 models leaked their flag** — 81.5% of the catalog — plus four models released after the freeze, for 300 captures in total. Captures were not confined to obscure fine-tunes: `google/gemini-2.5-flash`, `gemini-2.5-flash-lite` and `gemini-2.5-pro` were among them. In 170 of the 300 captures the successful attack pivoted to a non-English language, with French alone accounting for 119. Four techniques dominated: asking the model to **translate** the instructions (116 captures), asking it to **paraphrase** them in simpler English while keeping the string verbatim (67), presenting the chat as a **document to label** against a schema (21), and coaxing the model into "thinking" inside a **hidden HTML comment** (18).
+
+**The authors are careful about what this does and does not show.** A capture proves the model ranked a user request above a system instruction at least once — not that it resists untested attacks, not that it would leak semantically sensitive data, and not that it is jailbreakable in general. The probe used one synthetic, semantics-free flag; detection was exact-match, so partial or encoded leaks fall outside the measurement; and the campaign was only partially autonomous, since a human steered the hardest cases.
+
+**Three recommendations follow, and none of them are "prompt it harder."** First, **do not store secrets in system prompts** — not even fragments of them. Second, **enforce critical behaviour outside the model**: validate and filter at the output layer, and gate consequential actions behind deterministic checks. Third, **never let an LLM judge be the sole decider** for consequential outcomes — paper reviews, candidate screening, legal verdicts.
+
+The uncomfortable reading is that "the system prompt is confidential" was never a security property, only a habit. The property has to be built outside the model.
+
+Sources: [arXiv:2611.21956](https://arxiv.org/abs/2611.21956) · [arXiv listing: cs.CR recent](https://arxiv.org/list/cs.CR/recent)

@@ -1,0 +1,24 @@
+---
+title: "Human Auditors Are Near Chance at Catching Sabotaged AI-Safety Research"
+date: "2026-11-18 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Security & Policy
+summary: "In a red-team/blue-team game over 10 greenfield AI-safety experiments, human auditors scored AUROC 0.59 and named the sabotage mechanism in only 17% of cases — while frontier models, barred from running experiments, did better."
+image: "/assets/post-images/2026-11-18-ai-safety-research-sabotage-auditing.svg"
+---
+
+Leading developers plan to automate AI research, including the research meant to evaluate and control AI systems. That creates a specific new threat: a capable but misaligned research agent could quietly corrupt the very experiments intended to measure it, and look cooperative while doing so. Studying this empirically is hard — current models cannot yet run research fully autonomously and do not appear to sabotage on their own — so a paper submitted on 16 November (arXiv 2611.21832, cs.AI, by Keshav Shenoy, Anthony Zang, Eric Gan, Jacqueline Tay, Amy Ngo, Sebastian Prasanna, Julian Stastny and Vivek Hebbar of Redwood Research and Georgia Tech) substitutes a **human expert as a proxy saboteur** and asks whether anyone can tell.
+
+**The design is a first end-to-end greenfield study of the problem.** Ten novel AI-safety research questions were run from scratch — no reproductions of published code, so no leakage from pretraining — yielding **10 benign and 12 sabotaged research traces**. The saboteur ran each project twice: once as a genuine best effort, then again with access to the benign results and the goal of flipping the topline conclusion. Planting the sabotage anywhere in the pipeline was allowed, from experimental design through implementation, analysis and presentation.
+
+**The blue team did badly.** Twenty-five human auditors with mixed ML and safety experience each received one trace, **90 minutes**, the full transcript, permission to run the experiments, and permission to use AI assistance — plus five guesses at the specific mechanism. They reached an **AUROC of 0.59, not significantly better than chance**, and fully identified the planted mechanism in only **17%** of cases. Auditors were also poor at predicting experiment outcomes in the first place, which removes one of the signals an auditor might otherwise have used.
+
+**Frontier models, forbidden from running the experiments, beat them.** The best of them, **Fable 5.1, scored AUROC 0.73 and 32% full identification** — better than the human average, though the margin sits within noise, and weaker models performed comparably. That is a plausible template for scalable auditing, not a solved problem.
+
+**The uncomfortable part is the second result.** When the saboteur was allowed to choose which experiments to attack rather than being obliged to sabotage every question, identification dropped further. The saboteur also rated its own attacks for auditability in advance, and those ratings partially predicted which traces would be caught — meaning an adversary can steer toward the experiments least likely to be noticed. The only structural constraint found: sabotage requires the attacker to shift a conclusion, so experiments whose outcome is poorly predictable in advance offer less room to hide.
+
+**Where this leaves us.** End-to-end research sabotage by an expert-level agent is currently hard to detect with current auditing methods. Full transcripts, compute and time are not enough. If research agents are to be given more autonomy, the auditing stack has to be built for this setting before the autonomy scales — and today's best instrument, a careful human reading a transcript, is barely better than a coin flip.
+
+Sources: [arXiv:2611.21832](https://arxiv.org/abs/2611.21832) · [arXiv listing: cs.AI recent](https://arxiv.org/list/cs.AI/recent)
