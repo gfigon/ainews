@@ -6135,6 +6135,30 @@
       "slugs": [
         "2026-11-17-text-similarity-guardrails-agent-safety"
       ]
+    },
+    {
+      "term": "Microsoft Ignite 2026 Seven MAI Models MAI Cyber 2 Flash MAI Code 2 MAI Code 2 Flash MAI Image 2.7 MAI Realtime 1 Dragon Copilot Transcribe Decision 1.1 Maia 200 1.7x Tokens Per Watt MAI Licensed Weights MDASH 40% Scans CyberGymE2E DeepSWE 1.1 Terminal Bench 2.1 SWE-Atlas FrontierCode v1.1 Artificial Analysis November 2026",
+      "count": 1,
+      "last_published": "2026-11-18",
+      "slugs": [
+        "2026-11-18-microsoft-ignite-mai-model-family"
+      ]
+    },
+    {
+      "term": "SEAM Safety Execution Across Multiple Screens Cross-Screen Compositional Harm Computer-Use Agents 600 OSWorld Tasks 92% Harm Executed Decline When Stated In One Sentence Server-Log Scoring Proprietary Models More Cautious Zhou Xiong Liu Gao Bai He arXiv 2611.22971 November 2026",
+      "count": 1,
+      "last_published": "2026-11-18",
+      "slugs": [
+        "2026-11-18-seam-cross-screen-compositional-harm"
+      ]
+    },
+    {
+      "term": "Higher-Scoring Coding Models Did Not Get More Work Done Claude Fable 5 Export Control Suspension 19 Days Opus 4.8 SWE-Bench Pro 11 Points Difference-in-Differences 297 Users 8908 Control Developers 1208 Developers 15442 Pull Requests 7-Day Merge Rate 1.4 Percentage Points Not Significant Five Upgrades Weighted Mean -0.9 Percentage Points GitHub Natural Experiment Yining Hua arXiv 2611.23216 November 2026",
+      "count": 1,
+      "last_published": "2026-11-18",
+      "slugs": [
+        "2026-11-18-benchmark-score-vs-merge-rate"
+      ]
     }
   ]
 }
