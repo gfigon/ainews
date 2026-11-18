@@ -1,0 +1,24 @@
+---
+title: "Benchmark Scores Did Not Buy More Merged Code: A Natural Experiment on Fable 5"
+date: "2026-11-18 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Using a 19-day export-control suspension of Claude Fable 5 as a natural experiment, a difference-in-differences study of 10,205 developers finds no significant productivity gain from the higher-scoring model — the gain was 1.4 percentage points in 7-day merge rate, statistically indistinguishable from zero."
+image: "/assets/post-images/2026-11-18-benchmark-score-vs-merge-rate.svg"
+---
+
+Coding models are sold on benchmark deltas. Nobody has checked whether a higher score buys more shipped work. A paper submitted on 17 November (arXiv 2611.23216, cs.AI, by Yining Hua) uses an accident of trade policy as a natural experiment to answer exactly that.
+
+**The accident.** On 12 June 2026 a U.S. export control directive **banned access to Claude Fable 5 for 19 days**, forcing users to switch. Most former Fable 5 users moved to **Opus 4.8 — 11 points lower on SWE-Bench Pro**. Because the people, their projects and their repositories stayed the same and only the model changed, the suspension is a clean quasi-experiment rather than a self-selected comparison of volunteers.
+
+**The measurement.** The author tracked GitHub pull requests for **297 Fable 5 users** before, during and after the suspension, and used **8,908 developers who never left Opus 4.8** as a control group. The comparison was then repeated across **five model upgrades** during 2026 (**1,208 developers, 15,442 pull requests**). The estimator is a difference-in-differences model with developer and date fixed effects.
+
+**The result is a null, with tight error bars.** Access to Fable 5 moved the **7-day merge rate by 1.4 percentage points [−1.4; +4.3] — not statistically significant**. Across the five upgrades the weighted mean was **−0.9 pp [−1.9; +0.2]**, and **all five estimates were negative**, with 95% intervals including zero and not differing from one another. Pull requests merged per week showed **+2.4% [−4.9%; +10.2%]** — also not significant. A model eleven benchmark points ahead produced no detectable extra throughput.
+
+**Read the caveats honestly.** This is observational and platform-bound: GitHub merge rate is a proxy for productivity, merge rate rewards throughput over quality, and a 19-day window is short. The upgrades comparison covers more developers and is the stronger evidence, but its five negative point estimates are estimates on noisy per-upgrade data. None of that rescues the benchmark claim — it just means the finding is "no evidence of a gain," not "evidence of no gain."
+
+**The uncomfortable takeaway.** SWE-Bench Pro measures a model's ability to solve a curated set of problems. A developer's merge rate measures whether work actually lands in production, which depends on context, review, test suites and the rest of the pipeline. If eleven benchmark points is worth nothing measurable in delivered code, then benchmark leadership is a marketing asset rather than a productivity one — and the 2026 model release cycle, which now prices models explicitly against each other, is measuring the wrong axis. Notably, today's leading story prices seven models by cost per task, not by score at all; this paper is the first direct evidence for why that framing is defensible.
+
+Sources: [arXiv:2611.23216](https://arxiv.org/abs/2611.23216) · [arXiv listing: cs.AI recent](https://arxiv.org/list/cs.AI/recent)

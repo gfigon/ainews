@@ -1,0 +1,22 @@
+---
+title: "Microsoft Ignite 2026: Seven MAI Models Sold on Price-Per-Task, Not Leaderboards"
+date: "2026-11-18 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Industry News
+summary: "At Ignite 2026 Microsoft released seven MAI models — MAI Cyber 2 Flash, MAI Code 2 and Flash, MAI Image 2.7, MAI Realtime 1, Dragon Copilot Transcribe and Decision 1.1 — and pitched all of them on cost per task rather than on benchmark wins."
+image: "/assets/post-images/2026-11-18-microsoft-ignite-mai-model-family.svg"
+---
+
+Microsoft's Ignite 2026 keynote on 17 November did not lead with a new flagship. It led with **seven models from Microsoft AI, pitched almost entirely as price-performance**. That framing is the story: the baseline has moved from "which model is smartest" to **"how cheap is an acceptable answer"**, and Microsoft is attacking that baseline with mid-tier models rather than a frontier release.
+
+**The lineup.** **MAI Cyber 2 Flash** is claimed to beat GPT-6 Astra's quality at **less than 2% of the cost per task** on CyberGymE2E. **MAI Code 2** reaches **98% of GPT-6.1 Sol's coding quality at ~40% of the price**, and **96% of Claude Opus 5.5's at 5% of the price**. **MAI Code 2 Flash** matches GPT-6 Luna at 65% of the price and Haiku 5.5 at 20%. **MAI Image 2.7** took **#1 on Artificial Analysis image editing**, beating GPT Image 2.6 Sunburst (max) at one fifth of the price, while sitting **#4 on text-to-image**. **MAI Realtime 1**, Microsoft's first live speech-to-speech model, outperforms GPT-Realtime 2.1 on external and Dynamics 365 benchmarks and starts at **$0.01 per audio minute**. **Dragon Copilot Transcribe**, built on MAI Transcribe 2, already powers **10 million patient encounters a month** and has halved multilingual error rates. **Decision 1.1**, the routing model, is billed as **50x faster and 79x cheaper than GPT-Sol 6.1**, used by 4,000 customers.
+
+**The caveats are in Microsoft's own copy.** The coding numbers are averages over four benchmarks (DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas, FrontierCode v1.1) that Microsoft selected because they mirror everyday GitHub Copilot traffic — and the announcement states plainly that these models are **"not yet tuned for harder problems, like fundamental science research and very long horizon agentic work."** Every comparison here is a vendor-reported benchmark ratio, not an independent evaluation.
+
+**The interesting part is the second act.** MAI Cyber 1.1 Flash is now **86% cheaper on output tokens**, with MAI already accounting for **~40% of MDASH scans** and **90% of scans that started with MAI continuing with it** — the clearest adoption number in the release. Two announcements sat further down the page: **MAI Licensed Weights**, letting enterprises run a frontier MAI model under their own license, and **Maia 200**, Microsoft's second-generation accelerator, now **in production running its largest models at 1.7x more tokens per watt** than its predecessor. Microsoft's answer to "where do we run this" is increasingly its own silicon.
+
+**Why it matters.** A model family defined by cost curves rather than capability curves is a bet that the winning unit of AI deployment in 2027 is an agent running continuously, not a chatbot answering occasionally. If that bet is right, the model that ships at 5% of the price wins the workflow, and the frontier leaderboard becomes a procurement footnote. The counterweight arrives in today's second post: benchmark leadership has not yet been shown to buy measurably more shipped work.
+
+Sources: [Microsoft AI — Seven new world class models at scalable price-performance](https://microsoft.ai/news/microsoft-ignite-2026/) · [Microsoft AI — Ignite 2026 announcements](https://microsoft.ai/news/) · [Microsoft Blog — Azure Maia system expansion](https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/)
