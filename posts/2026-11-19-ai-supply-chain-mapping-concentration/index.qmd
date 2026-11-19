@@ -1,0 +1,22 @@
+---
+title: "Mapping the AI Supply Chain: Chokepoints, Concentration and Who Holds the Power"
+date: "2026-11-19 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Stanford's Center for Research on Foundation Models has assembled a large-scale, dated map of the organizations that supply models, data, chips, capital and talent to the AI economy — and used it to measure concentration, chokepoints and cascading-failure risk."
+image: "/assets/post-images/2026-11-19-ai-supply-chain-mapping-concentration.svg"
+---
+
+Everyone knows the AI stack has layers. Almost nobody has tried to write down **who sits on top of whom** — and then measured it. A paper submitted on 18 November (arXiv 2611.24927, by Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim, Rishi Bommasani, Daniel E. Ho and Percy Liang — the Stanford Center for Research on Foundation Models team) does exactly that: it maps the **organizational AI supply chain**, the network of actors contributing models, data, compute, capital and talent to the development and deployment of AI.
+
+**The motivation is political, not technical.** The authors start from the concerns the map is meant to make legible: concentration of power, chokepoints, cascading failures, fragmented accountability, and risk that nobody owns. The layers of the stack are well understood; the *relationships across* layers — who depends on whom, when the dependency started, what it covers — remain sparsely documented, and that gap is where accountability dissolves.
+
+**The contribution is the dataset.** Their pipeline produces a multilayered, large-scale collection of actors and relationships annotated with dates, descriptions, types and tags, cataloguing how models, data, chips, infrastructure, capital and even talent flow between organizations. On top of it they run illustrative analyses: who the most central actors are, how concentrated the network is, and which communities and chokepoints emerge. The data is the point — it makes the political economy of AI development something you can query rather than argue about.
+
+**One day's funding shows why concentration matters now.** On 18 November, investors put roughly $6.6 billion into nine startup financings — and about 75% of the dollar-denominated total went into a single company, Isomorphic Labs' $5B Series C for AI-driven drug discovery. Genesis AI ($500M, industrial robots) and Science Corporation ($400M, vision restoration and neural interfaces) took another $900M between them: three deals, nearly 89% of the money. A network map that shows capital concentration at this granularity would make such rounds visible as structural rather than anecdotal.
+
+**What to do with it.** If your risk register currently says "third-party model API" or "cloud GPU provider," this is a much sharper vocabulary: the relevant question is not whether one link breaks, but whether a highly central node fails and takes everything above it with it. The map turns "supply chain risk" from a slide into something you can point at.
+
+Sources: [arXiv:2611.24927](https://arxiv.org/abs/2611.24927) · [Tech Startups funding roundup, 18 Nov 2026](https://techstartups.com/2026/11/18/startup-funding-news-today-november-18-2026-isomorphic-labs-genesis-ai-model-ml-science-corporation-vincue-more/)

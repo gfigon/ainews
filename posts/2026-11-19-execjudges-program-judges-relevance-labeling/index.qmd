@@ -1,0 +1,22 @@
+---
+title: "Can Programs Replace LLM Judges? ExecJudges Turns Assessment Guidelines Into Executable Code"
+date: "2026-11-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "ExecJudges asks a frontier LLM to write a readable program per topic that scores relevance itself — matching NIST assessors as well as Claude Sonnet 5.5 judges on TREC DL, and beating per-topic classifiers when a handful of human labels are available."
+image: "/assets/post-images/2026-11-19-execjudges-program-judges-relevance-labeling.svg"
+---
+
+Building relevance judgments for retrieval evaluation at scale has one obvious recipe: call a frontier LLM once per document. It works, and it is expensive, slow, hard to reproduce, and hard to argue with — because the reasoning lives inside a token stream nobody can inspect. A paper submitted on 18 November (arXiv 2611.24849, cs.CL, by Eugene Agichtein, Charles L. A. Clarke, Kaustubh Dhole and William Stern — the Waterloo group behind `ir_measures`) asks a different question: **can you write the judge once instead of calling it a thousand times?**
+
+**ExecJudges** answers yes, mostly by changing what the model is asked to produce. Instead of per-document judgments, a frontier LLM converts **assessment guidelines into executable programs** — code that relies only on lexical matching, standard NLP libraries such as parsers, and pool statistics. A variant, **ExecJudges-L**, additionally consumes examples of human labels when they exist.
+
+**The evaluation is against the right yardstick.** The authors test on seven TREC collections, comparing the resulting labels with trained NIST assessors, with frontier LLM judges, and with recently proposed per-topic classifiers. The headline: ExecJudges agrees with NIST assessors **at the level of Claude Sonnet 5.5 LLM judges on TREC DL 2019–2021**. And with only a small number of human labels per topic, ExecJudges-L agrees with NIST **more than per-topic classifiers given the same labels on all seven collections** — and either exceeds the agreement of LLM judges given those labels or lands within about 0.05 of it.
+
+**The trade is cost and inspectability for expressiveness.** A program is auditable, reproducible and cheap to run millions of times; a frontier judge call can express nuances a lexical program will miss. That is why the paper does not claim to retire LLM judges — it claims the *floor* of relevance labeling can be rebuilt on cheaper, checkable machinery, with an LLM used once as a compiler rather than as a runtime.
+
+**Practical read for evaluation teams.** If your retrieval work currently bills per judgment, the question to ask is how much of your labeling is genuinely judgment-like. Topic guidelines that a human could express as rules are probably already being over-priced at frontier rates.
+
+Sources: [arXiv:2611.24849](https://arxiv.org/abs/2611.24849) · [arXiv listing: cs.CL recent](https://arxiv.org/list/cs.CL/recent)

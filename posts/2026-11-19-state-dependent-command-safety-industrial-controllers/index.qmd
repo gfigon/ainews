@@ -1,0 +1,22 @@
+---
+title: "The Limit Is in the Input, Not the Model: State-Dependent Command Safety for Industrial Controllers"
+date: "2026-11-19 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "An answerability audit for language models guarding industrial controllers finds that without machine state the same command requires opposite safety decisions — no model separated the paired cases reliably, and several collapsed into always-allow or always-deny."
+image: "/assets/post-images/2026-11-19-state-dependent-command-safety-industrial-controllers.svg"
+---
+
+Safety checks on natural-language interfaces to industrial controllers have an obvious failure mode: the same command can require opposite decisions depending on the **state of the equipment**. "Open the valve" is safe on a running line and catastrophic on a pressurized one. A paper submitted on 18 November (arXiv 2611.24682, cs.CR, by Hemen Taukoor, Zhaoxia Wang and Venky Shankararaman) insists that when a model gets these calls wrong, we should not automatically blame the reasoning — **it may simply never have been given the information needed to decide.**
+
+**The answerability audit** is the method. It records the model's actual inputs and then pairs the *same command* with two machine states that demand opposite answers. The **paired score** counts a pair only when *both* answers are correct, so a model cannot score well by guessing consistently in one direction. The audit then adds rules, then state values, to the prompt and re-measures.
+
+**The results are blunt.** In an author-built test of 15 pairs drawn from three systems and four language models, **no model reliably distinguished the paired cases without state, even with rules**. Add state and scores ranged from 0 to 13 correct pairs out of 15 — three models improved substantially. With text alone, one model **always allowed** commands and another **always denied** them. Their raw accuracies differed by 32 percentage points, yet **both scored 50% balanced accuracy** — the metric that weights safe and unsafe cases equally — and **zero** correct pairs. A rule evaluator matched all 15 by applying the very rules that generated the expected answers; the authors are explicit that this is not an independent safety test.
+
+**What this changes in practice.** Most safety stacks check *actions against rules*. This audit checks something prior: whether the model received the information those rules need. For an LLM sitting between an operator and a controller, "add state" is a prompt-construction and context-plumbing requirement — telemetry, interlocks, prior step outcomes — not a fine-tuning problem.
+
+**Caveats to keep in view.** The test set is small and hand-built by the authors, the controller systems are not named, and the paper is an argument for methodology rather than a survey of production deployments. But the asymmetry it exposes is worth taking seriously: a model that always denies is not safe either — it is a denial-of-service incident with extra steps, and raw accuracy hides it.
+
+Sources: [arXiv:2611.24682](https://arxiv.org/abs/2611.24682) · [arXiv listing: cs.CR recent](https://arxiv.org/list/cs.CR/recent)
