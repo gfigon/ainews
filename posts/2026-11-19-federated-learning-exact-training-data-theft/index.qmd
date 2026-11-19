@@ -1,0 +1,24 @@
+---
+title: "Federated Learning Is Not Private: Exact Training Data Recovered From Other Clients"
+date: "2026-11-19 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "A new attack pipeline peels gradient aggregates apart sentence by sentence and reconstructs a client's private training data exactly — 100% precision, and up to 80.2% of sentences recovered verbatim from aggregates far larger than prior attacks could touch."
+image: "/assets/post-images/2026-11-19-federated-learning-exact-training-data-theft.svg"
+---
+
+Federated learning has one promise that keeps compliance teams awake: raw records never leave the hospital, the bank or the law firm. Only gradients travel. A paper submitted on 18 November (arXiv 2611.24689, by Omkar Shrikanth, Soham Dambalkar, Parag Jyoti Pal, Advik Raj Basani and Arnab K. Paul of BITS Pilani and MATS Research) shows that promise is thinner than advertised — for the first time, a malicious participant can recover another client's training sentences **exactly**, character for character.
+
+**Why text was supposed to be safe.** Gradient inversion is old news in vision: shared gradients can be optimised back into recognisable images. Text was considered harder, because FedAvg sums the gradients of many clients and the signal of one private sentence drowns in the average. Prior attacks (DAGER, FILM, SOMP) recovered blurry, approximate text — and, in every configuration the authors tested, **not one exactly recovered sentence**, even in easy regimes.
+
+**The trick is subtraction, not better optimisation.** The pipeline unwinds the entanglement iteratively: recover the sentences you can identify exactly in one round, subtract *their* gradient contribution from the aggregate, and the remaining sentences become visible for the next iteration. It is a peeling process — attack, subtract, repeat — backed by a bag-of-tokens candidate generator, a whitening transform that isolates token directions, an LM-fluency score and a strict verification step that rejects false positives.
+
+**The numbers are uncomfortable.** Recovery is measured against the ratio C/d of aggregated tokens to the model's hidden dimension — the classic "wall" above which inversion used to fail completely. Their method works above the wall: on aggregates with up to **4× more tokens than the hidden dimension**, they recover **up to 80.2% of client sentences exactly**, at **100% precision**. On Pythia-160M over SST-2 with four clients, 78.1% of sentences come back verbatim. Recovery still decays as the aggregate grows, and long sequences hurt both reconstruction and verification (precision drops from 80% to 66.7% at a 96-token cap) — but the "nothing works above the wall" assumption is dead.
+
+**The ablation shows where the power lives.** Removing cosine similarity from candidate scoring drops exact recovery from 100 sentences to zero; removing LM fluency halves it. Bag-of-tokens extraction alone recovers 866 of 921 reference tokens at precision 1.00 for Pythia-160M, but only 0.21 precision on tied-embedding GPT-2, where the top-K bleeds past the true token set.
+
+**What defenders should do.** The paper's own analysis points at gradient clipping, perturbation and local-update schemes as partial mitigations — but the uncomfortable conclusion is structural: with FedAvg, "we only sent gradients" was never a privacy guarantee, and any pipeline that assumes shared updates carry no private text is now provably wrong.
+
+Sources: [arXiv:2611.24689](https://arxiv.org/abs/2611.24689)

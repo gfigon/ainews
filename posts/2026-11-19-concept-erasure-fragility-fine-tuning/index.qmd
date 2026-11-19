@@ -1,0 +1,26 @@
+---
+title: "Erased but Recoverable: Concept Erasure in Diffusion Models Does Not Survive Fine-Tuning"
+date: "2026-11-19 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - AI Security & Policy
+summary: "Safety-trained image models that had a concept erased can get it back the moment somebody runs DreamBooth or LoRA on top — and a new method, SHACE, holds the erased state in place by protecting the attention heads that fine-tuning refuses to rewrite."
+image: "/assets/post-images/2026-11-19-concept-erasure-fragility-fine-tuning.svg"
+---
+
+Erasing a concept from a diffusion model is standard practice for safety releases: block the model, publish the weights, move on. But open models get adapted afterwards — DreamBooth on a customer photo, LoRA on a style, Custom Diffusion for a product — and a paper submitted on 18 November (arXiv 2611.24220, by Jun Li, Lizhi Xiong, Ziqiang Li, Yu Liu and Zenglin Shi of NUIST and Hefei University of Technology) shows the erased concept often comes straight back.
+
+**The gap in the evaluation.** Concept erasure methods are usually scored on two axes: erasure effectiveness (does the target concept stay suppressed under benign and adversarial prompts?) and utility preservation (does the model still generate everything else well?). Neither answers the deployment question: *does the erasure survive the next fine-tune?* The authors propose a third axis — **erasure persistence**.
+
+**How much comes back.** On the "Gun" concept with no preserved heads, attack success rate climbs from 0.00 before fine-tuning to **0.34** after DreamBooth, with UDA at 0.44 and FID degrading from 31.22 to 32.83. Strong initial suppression simply does not imply a durable one — and the baselines that degrade most (Co-Erasing) are also the ones whose generation quality collapses (a substantial FID increase under Custom Diffusion).
+
+**The mechanism: some heads refuse to move.** Fine-tuning does not rewrite a model uniformly. It preserves high-contribution structures — specifically attention heads whose dominant output subspaces stay aligned and whose response magnitudes stay stable across adaptation. Measure the L2 distance of a head's output to the clean pretrained model after fine-tuning and the ranking is stark: the 30 "stable" heads land consistently closer to their pretrained counterparts than random or bottom-ranked heads, across every erasure method tested. Put the erasure edit *into* those heads and later optimisation quietly repairs the damage.
+
+**The fix: don't touch what will survive anyway.** SHACE (Stable-Head-Aware Concept Erasure) has two stages. Attention-Head Stability Profiling tracks head output subspaces via PCA and magnitudes along representative fine-tuning trajectories to find stability-critical heads. Stable-Head Gradient Preservation then freezes the Q/K/V and output-projection blocks of those heads during erasure training and routes the erasure gradient into more plastic components instead. Result on the same setting: ASR 0.06 after DreamBooth versus 0.34, UDA 0.16 versus 0.44, with FID 32.05 → 34.53 and CLIP score 0.308 → 0.314 — i.e. the gain is not bought by weakening the model overall. Ablations show preserving the *bottom*-ranked 30 heads is no better than random, so it is the stability ranking, not head count, doing the work.
+
+**Why this generalises.** SHACE holds across DreamBooth, LoRA and Custom Diffusion, across Stable Diffusion v1.4, v1.5 and v2.0, across fine-tuning budgets from 200 to 600 steps, and on unseen adaptation methods (BOFT, LoHa). On 4,703 Inappropriate Image Prompts scored with NudeNet across nine exposure categories, prior methods (ESD, UCE, FMN, SPM) leave residual unsafe content in categories such as female-breast and armpit exposure, while SHACE keeps failure counts consistently low.
+
+**The takeaway for model publishers.** "We removed it before release" is a snapshot, not a property. If you ship open weights, erasure has to survive the ecosystem's fine-tuning traffic — and it does not, by default.
+
+Sources: [arXiv:2611.24220](https://arxiv.org/abs/2611.24220)
