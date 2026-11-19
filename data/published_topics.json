@@ -6191,6 +6191,30 @@
       "slugs": [
         "2026-11-18-scene-state-vlm-safety-s3ta"
       ]
+    },
+    {
+      "term": "Mapping the AI Supply Chain Stanford CRFM Organizational AI Supply Chain Dataset Actors Relationships Models Data Chips Capital Talent Concentration Chokepoints Cascading Failures Fragmented Accountability Sarah H. Cen Lindsey A. Gailmard Joohan Kim Rishi Bommasani Daniel E. Ho Percy Liang arXiv 2611.24927 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-19-ai-supply-chain-mapping-concentration"
+      ]
+    },
+    {
+      "term": "ExecJudges Executable Program Judges Scalable Efficient Relevance Labeling TREC DL 2019 2021 NIST Assessors Claude Sonnet 5.5 Agreement Per-Topic Classifiers Lexical Matching Pool Statistics ExecJudges-L Human Labels Eugene Agichtein Charles L. A. Clarke Kaustubh Dhole William Stern arXiv 2611.24849 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-19-execjudges-program-judges-relevance-labeling"
+      ]
+    },
+    {
+      "term": "State-Dependent Command Safety Natural-Language Interfaces Industrial Controllers Answerability Audit Paired Score Machine State 15 Pairs Three Systems Four Language Models Always Allow Always Deny 32 Percentage Points 50 Percent Balanced Accuracy Zero Correct Pairs Hemen Taukoor Zhaoxia Wang Venky Shankararaman arXiv 2611.24682 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-19-state-dependent-command-safety-industrial-controllers"
+      ]
     }
   ]
 }
