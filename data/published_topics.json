@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
+      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -6230,6 +6230,30 @@
       "last_published": "November 2026",
       "slugs": [
         "2026-11-19-concept-erasure-fragility-fine-tuning"
+      ]
+    },
+    {
+      "term": "BlockJack Cross-Tenant Redirection Fault Attack Paged KV Cache Address Translation Block Table Corruption vLLM PagedAttention Sonar Rowhammer Context Disclosure Response Alteration 41.1 Percent Less Urgent Care 248-Scene Medical Benchmark Seven Models Qwen Llama Gemma Phi Assignment Validation Patch Durham University University of Lubeck National University of Singapore Shanghai Jiao Tong Southeast University arXiv 2611.25945 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-20-blockjack-kv-cache-block-table-fault-attack"
+      ]
+    },
+    {
+      "term": "AgentRoboCritic Intent-Grounded Action-Level Critique Direct Robot Control Frontier Agents GPT-6 Astra Twelve Manipulation Benchmarks Six Failure Modes Grasp Alignment Interference Choice 0.2 Percent 49.8 Percent Successful Episodes One Local Failure 57.7 Percent Failure Recovery 38.9 Percent Within Ten Actions Pearson 0.81 12844 Annotated Actions 400-Action Human Benchmark Muse-Glimmer-30B Failure-Mode Accuracy 32.58 to 74.24 Percent Carnegie Mellon University University of Illinois Urbana-Champaign Bosch Research North America arXiv 2611.26613 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-20-agent-robocritic-action-level-robot-control-critique"
+      ]
+    },
+    {
+      "term": "RL Post-Training in Diffusion Transformers Is Activation Steering Fixed Steering Vectors Block Outputs 0.29M Parameters 18.8M Rank-32 LoRA 65x Fewer 1.5 Percent 90.0 to 96.3 Percent Reward Gain Six Image Models SD3.5-M FLUX.1-dev PickScore HPSv2.1 OCR GenEval 89.8 Percent 111.9 Percent Video Models Flow-GRPO 104.6 Percent 103.6 Percent Text Stream Guidance Pass Early Sampling Steps 531x Fewer 89.5 Percent OCR 73.7 Percent PickScore fal Georgia Tech IBM Research Virginia Tech arXiv 2611.26627 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-20-diffusion-rl-activation-steering-constant-shift"
       ]
     }
   ]
