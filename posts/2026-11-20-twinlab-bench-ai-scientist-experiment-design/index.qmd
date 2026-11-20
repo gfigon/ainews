@@ -1,0 +1,22 @@
+---
+title: "TwinLab-Bench: Frontier AI Scientists Score 45/100 When They Must Design Their Own Experiments"
+date: "2026-11-20 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "A new benchmark runs AI agents inside twins of real laboratories, where the agent must design the experiment. The strongest model, Claude Fable 5.2, averages 45.0 — and more budget barely helps."
+image: "/assets/post-images/2026-11-20-twinlab-bench-ai-scientist-experiment-design.svg"
+---
+
+Science-agent benchmarks mostly ask whether a model can run a given workflow or pick the next measurement from a fixed menu. The hard ability — designing the experiment itself — needs an environment that returns real readings for experiments nobody ran before. A paper submitted on 19 November (arXiv 2611.26248, by Yang Wan and Linchao Zhu) builds that environment: **TwinLab-Bench**, with **52 tasks** drawn from real laboratories in the physical sciences, life sciences and engineering, and **more than 100 experimental action types**.
+
+**The twin is an agent, and it is measurably more faithful than a plain model.** Each task gets its own TwinLab agent — a coding agent that reads the lab's raw files and runs deterministic calculators fitted to that lab's measurements. Against real records, a language model given only the task description deviates on **41%** of requests and changes its answer on **31%** when repeated; with raw materials, 14% and 8%. The twin agent cuts that to **2% and 4%**. Of the readings the actor agents receive, **76% come from the record or from calibrated calculators**, and hidden conditions are predicted within **0.74%** (interpolated) and **2.47%** (extrapolated).
+
+**Frontier models are far from solving it.** Thirteen actor agents were evaluated; **Claude Fable 5.2 averages 45.0** and Claude Opus 5.5 scores 40.2, with the rest between 5.4 and 31.7. Scores track the logarithm of cost, and only **2 of 21 failed runs** became passes when given double the budget — the limit is judgement, not compute.
+
+**The failure is a knowing-doing gap.** Decisions a model states fully in its plan score **87%** of maximum; decisions it omits still score 62%, and of 11 planned decisions still lost, nine were executed correctly and lost in reading the results or writing up. Most common error: **accepting a mechanism without a discriminating test** — 12 of 16 zero-scoring runs. Memorisation is controlled (closed-book probes; changing the lab's true state flips 8 of 10 conclusions), so the scores reflect the agent's own experiments.
+
+**Why the twin matters.** Existing science benchmarks sit on a spectrum: fixed results, simulators and replays on one end, a real laboratory on the other. TwinLab-Bench moves one step closer to the laboratory without claiming to be one — the actor agent sees notebooks, raw data and interim conclusions from a point in the lab's work, then has to design the measurements that settle the question. The benchmark is released with its evaluation code, and web search is blocked for the actor agent's names, so a run cannot be solved by recognising the source paper.
+
+Sources: [arXiv:2611.26248](https://arxiv.org/abs/2611.26248)

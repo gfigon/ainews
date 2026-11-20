@@ -1,0 +1,22 @@
+---
+title: "GEOHunter: A Paid Placement Network Injects 466,357 Ads Into AI Answers"
+date: "2026-11-20 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Industry News
+summary: "A UCLA and Georgia Tech audit maps a commercial generative-engine-optimization operation: 3,755 accounts, 466,357 promotional placements, and 4.5–20% of the pages nine AI assistants cite."
+image: "/assets/post-images/2026-11-20-geohunter-paid-geo-placement-network.svg"
+---
+
+Search-engine spam had an obvious shape: domains, links, cloaked pages. Generative assistants broke it. Their answers are synthesised from retrieved pages, so manipulation now happens one level down — in the corpus. A paper submitted on 19 November (arXiv 2611.26564, by Sean Tang, Peiran Wang, Ying Li, Esha Shivakumar, Tao Meng and Yuan Tian of UCLA and Georgia Tech) measures one such operation end to end, from the accounts publishing the articles to the answers that cite them.
+
+**The supply chain is a network, not a website.** GEOHunter mines the networks of user-generated-content accounts that publish paid promotional articles for clients — the practice vendors sell as "generative engine optimization" (GEO). It maps **3,755 accounts across three major Chinese content platforms**, holding **466,357 inferred placements**. Accounts present themselves as news outlets or experts but have a **median of 9 followers** on Bilibili; listicles went from 16% to 57% of placements on core accounts between 2024 and 2025, and titles moved from 11% superlative framing in 2021 to **51% in 2026**.
+
+**Every assistant we probed cites the network.** GEOProbe asks nine assistants (Chinese and US) the buyer questions the network targets. Of **1,580 retrievable distinct cited pages**, 4.5% were written by a network account, 7.2% at an extended attribution level and 20% at the broad level. Baidu's Wenxin cites it most (18% / 22% / 38%), DeepSeek least (5% broad). Answers name the network's clients in **52% of cases** versus **68% for category leaders** — a ratio of 0.77, statistically indistinguishable from parity. Answers also repeat the network's claims: a "one king and four queens" bicycle hierarchy published by a network account surfaced in Baidu's rankings.
+
+**Content-level defences do not work.** The recommendations are blunt: providers should treat pages from one coordinated cluster as dependent rather than independent evidence and collapse near-duplicate titles; platforms should screen **accounts** (several unrelated clients, titles copied across accounts, same-day bursts), not articles; regulators should target agencies and account pools, since a single client can draw on close to **200 accounts**. Auditors, the authors argue, should trace *who produced* a cited page — a faithful answer can rest on coordinated sources.
+
+**The angle worth watching.** Chinese regulators already treat undisclosed GEO promotion as a consumer-protection and data-poisoning problem, and a March 2026 national broadcast showed a service making assistants recommend a fictitious product as the best in its category within days. GEOHunter's contribution is the supply-side measurement that enforcement was missing: not individual articles, but the account pools and agencies producing them at scale.
+
+Sources: [arXiv:2611.26564](https://arxiv.org/abs/2611.26564)
