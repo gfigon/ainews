@@ -1,0 +1,22 @@
+---
+title: "AgentRoboCritic: Action-Level Critique Shows Where Frontier Agents Actually Fail at Robot Control"
+date: "2026-11-20 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Episode-level success rates hide why robots fail. A 12-benchmark action-level critique of GPT-6 Astra finds recovery is strong, semantic grounding is nearly perfect, and the real bottleneck is millimetre-scale grasp closure."
+image: "/assets/post-images/2026-11-20-agent-robocritic-action-level-robot-control-critique.svg"
+---
+
+Robot benchmarks report episode-level success rates: did the task finish, yes or no. That hides everything interesting. A paper submitted on 19 November (arXiv 2611.26613, by Yiyang Du, Yuxuan Kuang, Qitao Zhao, Yixuan Wang, Zhanqiu Guo, Yi Xu, Xin Li, Wenbin He, Liu Ren and Chenyan Xiong of Carnegie Mellon, UIUC and Bosch Research North America) replaces the binary with a per-action verdict for frontier multimodal agents such as GPT-6 Astra driving robots through **direct low-level numerical control**, without VLA-style action heads or hand-coded primitives.
+
+**The trick is intent-grounded critique.** A single action cannot be judged in isolation — many trajectories validly advance the same goal. So the policy agent emits a natural-language *local intent* alongside every action, and a critic (GPT-6 Astra) checks the outcome against that intent, global goal and multi-view observations, assigning one of six failure modes. On a 400-action human-annotated benchmark the critic tracks human judgment; ablating the local intent makes failure attribution collapse.
+
+**Frontier agents recover, and they rarely pick the wrong object.** **49.8% of successful episodes** contain at least one failed action that the agent later corrects, and **57.7% of failures** are recovered by episode end (38.9% within 10 actions). Semantic errors are rare: the "Choice" failure mode — acting on the wrong object, order or category — accounts for **0.2% of all failed actions** across 12 benchmarks, at most 3.3% on any single one. Recovery rate correlates with official success at Pearson **0.81**.
+
+**The real bottleneck is physical, not semantic.** Grasp is the leading failure mode on nine of ten non-tactile benchmarks; in tight-tolerance visuo-tactile tasks the bottleneck shifts to Alignment, and in cluttered scenes to Interference. Three in five grasp failures happen *at closure* — the gripper pinches a rim or closes beside the object — which points at fine 3D localisation, not perception. Recovery is uneven too: one in three Alignment failures is ever fixed.
+
+**Cheap critique at scale.** The team releases **12,844 annotated actions** and a fine-tuned open critic, Muse-Glimmer-30B, whose failure-mode accuracy rises from **32.58% to 74.24%** — making action-level failure analysis affordable for any lab with a robot arm.
+
+Sources: [arXiv:2611.26613](https://arxiv.org/abs/2611.26613)

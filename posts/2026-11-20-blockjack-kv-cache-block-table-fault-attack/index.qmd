@@ -1,0 +1,24 @@
+---
+title: "BlockJack: A Fault Attack on LLM KV Cache Block Tables Leaks and Steers Other Tenants"
+date: "2026-11-20 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "vLLM's paged KV cache maps requests to physical blocks through a block table — the first fault attack on that metadata redirects one tenant's cached context into another's response, or steers a victim's answer with the attacker's context."
+image: "/assets/post-images/2026-11-20-blockjack-kv-cache-block-table-fault-attack.svg"
+---
+
+Multi-tenant LLM serving assumes that the only thing shared between tenants is silicon. A paper submitted on 19 November (arXiv 2611.25945, by Qifan Wang, Jeremy Boy, Jonas Sander, Yansong Gao, Hongsheng Hu, Ye Dong, Thomas Eisenbarth and David Oswald of Durham, Lübeck, NUS, SJTU and Southeast University) breaks that assumption at the metadata layer: **BlockJack** is the first fault injection attack against the *address translation* layer of an LLM's KV cache.
+
+**The mapping is the target, not the data.** Modern serving frameworks keep decoded state in a KV cache and manage it in fixed-size blocks. vLLM's PagedAttention — and the derived Sonar engine — keeps a *block table* that maps each request's logical KV blocks onto physical blocks, exactly like an OS page table. Previous fault attacks on LLM inference hit the data plane: model weights or cached key/value vectors. Nobody had looked at the table that decides *which* cached state a request reads. BlockJack corrupts a single block-table entry, and the request silently reads another tenant's context — no model parameters, prompts or cached states are modified.
+
+**Two directions, one bug.** Fault the *attacker's* entry and the attacker's response starts leaking the victim's context (a "context disclosure" attack). Fault the *victim's* entry and the attacker's own cached context steers the victim's answer (a "response alteration" attack). Because block-table entries have zero sparsity — unlike weights, where random bit flips are absorbed — every corrupted bit matters, and the mapping space is small enough that redirect targets are often predictable.
+
+**The medical case is the alarming one.** Across seven models from the Qwen, Llama, Gemma and Phi families, a faulted mapping exposed victim context. On a 248-scene medical benchmark, the integrity attack pushed up to **41.1% of responses toward recommending less urgent care**, while still looking consistent with the victim's own question — the kind of failure that is invisible in aggregate success metrics.
+
+**Feasibility and disclosure.** The authors demonstrate physical feasibility with Rowhammer-style bit flips and evaluate assignment validation as a defence. Following responsible disclosure, vLLM and Sonar confirmed the vulnerability and proposed patches the authors reviewed and validated.
+
+The uncomfortable takeaway: as serving stacks move to GPU sharing and disaggregated KV pools, the block table becomes a security-critical structure — and it is a structure nobody was threat-modelling until now.
+
+Sources: [arXiv:2611.25945](https://arxiv.org/abs/2611.25945)

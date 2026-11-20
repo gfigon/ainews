@@ -1,0 +1,24 @@
+---
+title: "Most of RL Post-Training in Diffusion Transformers Is Just a Constant Activation Shift"
+date: "2026-11-20 08:00"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Freezing a diffusion transformer and adding fixed steering vectors to block outputs recovers 90–96% of the reward gains from RL post-training — with 65× fewer parameters than the LoRA it replaces."
+image: "/assets/post-images/2026-11-20-diffusion-rl-activation-steering-constant-shift.svg"
+---
+
+RL post-training clearly improves diffusion transformers — better text rendering, composition, human preference. The open question is *how much machinery* that gain actually needs. A paper submitted on 19 November (arXiv 2611.26627, by Kaan Oktay, Alec Helbling, Atakan Kara, Duen Horng Chau and Pinar Yanardag of fal, Georgia Tech, IBM Research and Virginia Tech) finds an uncomfortable answer: a constant shift goes most of the way.
+
+**The probe.** Freeze every pretrained weight of an RL-tuned model and add a fixed set of steering vectors to the block outputs — the same vector for every prompt, every token, every sampling seed. The vectors are fitted to *match the velocity predictions* of the public RL-tuned checkpoints, with no reward in the objective. On SD3.5-M the 188 vectors together hold **0.29M parameters against the RL-tuned LoRA's 18.8M — 65× fewer**, and just **1.5%** of a rank-32 LoRA's budget.
+
+**The result.** On six RL-tuned image models (SD3.5-M and FLUX.1-dev, several RL algorithms, LoRA and full fine-tuning; rewards PickScore, HPSv2.1, OCR, GenEval), these constant shifts recover **90.0–96.3% of the reward gain**. On two RL-tuned video generators, **89.8% and 111.9%**. Notably, matching the RL model's velocity predictions recovers far more than simply adding its average activation change — so the gain is not a crude bias offset.
+
+**RL finds the same thing on its own.** Freeze the generator, train only the steering vectors from zero with Flow-GRPO, and they hit **104.6%** and **103.6%** of the gains of the OCR-tuned and PickScore-tuned SD3.5-M checkpoints — images rated on par in a user study.
+
+**How can a constant be prompt-specific?** The frozen generator does the work: attention and MLP layers mix the constant into prompt-dependent representations. On SD3.5-M the shift reaches the image through what *image tokens read from text tokens* in joint attention — swap in the unsteered base model's text keys and values and most OCR and PickScore gains vanish, the same way they vanish for the RL-tuned models. Fitting vectors to the text stream, guidance pass and early sampling steps alone — **531× fewer parameters** — still recovers **89.5%** of the OCR gain and **73.7%** of PickScore.
+
+The practical reading: for visual generators, most of what policy-gradient RL buys is a preference nudge the base model already knows how to express, not new input-dependent computation.
+
+Sources: [arXiv:2611.26627](https://arxiv.org/abs/2611.26627)
