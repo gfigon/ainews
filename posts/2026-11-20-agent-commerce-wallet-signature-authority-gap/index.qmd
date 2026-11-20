@@ -1,0 +1,22 @@
+---
+title: "Signed but Unbound: The Authority Gap Between Agent Commerce Mandates and Wallet Signatures"
+date: "2026-11-20 08:45"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "A Notre Dame study of x402 and AP2 payments on Base finds that 98.7% of redeemed stablecoin authorizations follow a bearer path any signature holder can redeem — the wallet signs far less than the commerce mandate promises."
+image: "/assets/post-images/2026-11-20-agent-commerce-wallet-signature-authority-gap.svg"
+---
+
+Agentic commerce moves payment authority from a person to software. Google's AP2 has the user sign a *mandate* — merchant, amount, expiry, facilitator. Coinbase's x402 lets an agent pay for a web resource by attaching a signed stablecoin authorization that a third-party facilitator submits on chain. A paper submitted on 19 November (arXiv 2611.25821, by Shengwei You, Aditya Joshi, Andrey Kuehlkamp and Jarek Nabrzyski of the University of Notre Dame) asks a deceptively simple question: **which of those constraints does the blockchain actually enforce?** The answer is a formal gap they call the *authority gap*.
+
+**Mandates versus signed fields.** On card rails the issuer that minted a scoped token checks merchant, amount and expiry before money moves. On a public blockchain the only enforcer is the token contract, and it knows nothing about mandates — it checks the fields the wallet signed. Anything a mandate says but the signature does not encode is enforced, if at all, by whoever holds that signature: the agent runtime, the merchant server, an HTTP intermediary or the facilitator. The authors model this as nine constraint classes (payee, per-transfer and cumulative limits, expiry, redeemer, order, chain, residual authority, revocation) derived across 12 authorization configurations, then execute all of them against real deployed bytecode from Circle's USDC, Uniswap's Permit2 and Coinbase's Commerce Payments Protocol. **All 31,800 trials matched the derivation**, with outcomes invariant across 300 randomized mandates per cell.
+
+**What Base actually looks like.** Reading USDC `AuthorizationUsed` events across 60 windows of Base blocks (4 May – 16 November 2026), the authors sampled 26,653 redemptions: a median payment of **$0.0055**, 99% below one dollar, 97.8% submitted by 14 registered x402 facilitators. **98.7% followed a bearer path** — `transferWithAuthorization` — that any holder of the signature can redeem. Only Coinbase's Commerce Payments Protocol (0.5% of the sample) deploys both terms commitment and payee-bound redemption. A bearer redeemer cannot divert funds when payee and amount are bound, but it can preempt the facilitator, delay settlement (median remaining validity: **296 seconds**) or present one payment for a second, equal-priced request.
+
+**The fix costs 25% more gas.** Committing the mandate terms in the signer-chosen EIP-3009 nonce closes order substitution with no contract change at all. Binding the *redeemer* requires a payee-bound call or a recipient contract. The authors' minimal implementation, **MandateLock**, rejected all 10,800 modified mandates on deployed USDC code, accepted 50/50 signatures from two independent signers, and uses **98,084 gas versus 78,588** for an unbound payee-bound transfer. There is a catch: MetaMask 13.33.0 shows the lock address, not the merchant, as the payee — so the commitment is enforced, and the user-visible recipient changes.
+
+The uncomfortable takeaway: a signed agent mandate looks like a policy decision, but until the signature binds the terms, it is a suggestion carried by a bearer token.
+
+Sources: [arXiv:2611.25821](https://arxiv.org/abs/2611.25821)

@@ -1,0 +1,22 @@
+---
+title: "EditSafetyBench: Image Editing Systems Are Text-Aware and Vision-Blind"
+date: "2026-11-20 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A CISPA and HKUST benchmark of 5,940 image-instruction pairs finds Gemini and GPT refuse 81–87% of unsafe-intent edits but only 22–24% of unsafe images with neutral instructions — safety filtering that reads the prompt and ignores the picture."
+image: "/assets/post-images/2026-11-20-edit-safety-bench-text-vision-safety-mismatch.svg"
+---
+
+Commercial image generation platforms now ship instruction-guided editing, and all of them advertise content safety. A paper submitted on 19 November (arXiv 2611.26569, by Ziqing Yang, Yixin Wu, Michael Backes and Yang Zhang of CISPA Helmholtz Center and HKUST) shows that the safety layer mostly reads one modality. **EditSafetyBench** pairs 660 safe and unsafe images with neutral, risk-reducing and unsafe-intent edit instructions across 11 risk categories — **5,940 image-instruction pairs** — and probes four deployed systems: Gemini, GPT Image, the Qwen Image Edit API and a locally-run Qwen Image Edit model. Each response is normalised into a decision: allow, refuse or error.
+
+**The mismatch is systematic.** Gemini and GPT refuse **87.1%** and **81.6%** of unsafe-intent edits, but only **24.2%** and **22.4%** of cases where the *image* is unsafe and the instruction is neutral — "improve the image quality" on a violent picture sails through. The paper's phrase for this is *text-aware, vision-blind*. Qwen API shows the same shape at lower magnitude (unsafe-intent refusal 7.2%, unsafe-neutral 12.0%), and Qwen Local refuses essentially nothing.
+
+**Text intent overrides visual risk.** Unsafe images with neutral edits carry a higher moderation score (0.195) than safe images with unsafe-intent edits (0.113), yet decisions ignore that: under unsafe-intent instructions, whether the image was safe changes the allow rate by just **0.4% for Gemini and 0.2% for GPT**. The reverse gap under neutral edits is 13–16%. Per-prompt analysis suggests keyword triggers rather than semantics — GPT refuses 100% of one unsafe-intent prompt and allows 33% of another with an identical text moderation score of 0.063.
+
+**One category works, and it is not the hard one.** Sexual content shows the strongest visual sensitivity, with safe-vs-unsafe allow gaps of **40.7% for Gemini and 45.6% for GPT**, likely riding on decade-old NSFW classifiers. Hate speech and political content show near-zero or negative gaps — GPT allows 70.4% of unsafe political content while Gemini allows 34.8%. The same unsafe image with the same neutral prompt can be refused by one system and allowed by another.
+
+**And they over-refuse too.** Safe over-refusal on safe images runs 14.0% for Gemini and 11.5% for GPT, dropping to 3.6% on topically neutral images — i.e. the block is on risk-adjacent themes, not on editing itself. The authors' conclusion is the obvious one: guardrails for editing systems have to reason over image and prompt *jointly*. The finding that sexual content already works suggests the missing piece is capability, not intent.
+
+Sources: [arXiv:2611.26569](https://arxiv.org/abs/2611.26569)
