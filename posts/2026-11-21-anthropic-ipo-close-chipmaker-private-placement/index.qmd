@@ -1,0 +1,22 @@
+---
+title: "Anthropic Closes $119.5 Billion IPO as Chipmakers Take $26 Billion in Stock"
+date: "2026-11-21 10:15"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "Anthropic closed its IPO on 20 November at $83.00 a share — $93.5B gross, plus a $26.0B private placement in which NVIDIA, Microsoft, Google, AMD, Broadcom, Micron and TSMC bought Class N stock, putting the whole compute supply chain on the cap table."
+image: "/assets/post-images/2026-11-21-anthropic-ipo-close-chipmaker-private-placement.svg"
+---
+
+Anthropic, PBC has closed its initial public offering, and the closing announcement is a different kind of AI milestone than the usual funding round. **1,127,000,000 shares** of Class A common stock were sold at **$83.00**, including full exercise of the underwriters' 147,000,000-share option. Gross proceeds were about **$93.5 billion**, of which roughly **$91.6 billion** went to Anthropic — the remaining 23,648,646 shares came from selling stockholders, who pocketed the proceeds themselves.
+
+**The more telling number is the private placement.** Anthropic separately closed a sale of **313,253,007 shares of Class N common stock** to **AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners** at the same $83.00 price, for about **$26.0 billion**. Aggregate gross proceeds for both transactions: approximately **$119.5 billion**, before underwriting discounts and expenses. Class A began trading on the Nasdaq Global Select Market on **19 November** under the ticker **"ANT"**; the registration statement was declared effective on 18 November, with a related Rule 462(b) statement filed the same day. Goldman Sachs and Morgan Stanley led the syndicate.
+
+**Why the private placement matters more than the IPO.** The buyers are not investors sizing a position for returns — they are the companies whose roadmaps are shaped by how much inference Anthropic runs, and whose own margins depend on it. Taking equity instead of cash converts a supply relationship into an ownership stake, and prices each supplier's future against Anthropic's revenue. It also means the hardware and cloud layer now has a direct financial interest in Claude-based demand being durable rather than a temporary training boom.
+
+**The governance angle is new too.** Anthropic remains a public benefit corporation, and the Anthropic Public Benefit Fund — created in October to hold a stake that grows as the company does — now sits inside a market-priced structure. Safety commitments written into a charter have to be argued for in front of shareholders with quarterly numbers attached, and the September reporting that a roughly $2 trillion valuation was under discussion has been replaced by an actual print. OpenAI has publicly targeted 2027 or later for its own listing, so Anthropic's debut sets the template for how an AI company explains AI risk to public markets.
+
+One caveat worth keeping: this was a prospectus-only offering, no proceeds came from the secondary shares, and the announcement explicitly disclaims any solicitation. The first-quarter filings will show where the $91.6 billion actually goes.
+
+Sources: [Anthropic: closing of IPO](https://www.anthropic.com/news/ipo-close) · [Anthropic: investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund)

@@ -6327,6 +6327,22 @@
       "slugs": [
         "2026-11-21-rl-reinforces-rare-actions"
       ]
+    },
+    {
+      "term": "Anthropic IPO Closing Class A Common Stock 1127000000 Shares 83.00 Per Share 93500000000 Gross Proceeds 91600000000 To Anthropic 23648646 Selling Stockholder Shares Class N Private Placement 313253007 Shares 26000000000 AMD Broadcom Google Micron Microsoft NVIDIA TSMC Partners Aggregate 119500000000 Nasdaq Global Select Market Ticker ANT Trading 19 November 2026 Public Benefit Corporation Anthropic Public Benefit Fund Goldman Sachs Morgan Stanley Rule 462(b) Effective 18 November 2026 Prospectus Only No Secondary Proceeds",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-21-anthropic-ipo-close-chipmaker-private-placement"
+      ]
+    },
+    {
+      "term": "SoK LLM Capability Software Vulnerability Research Autonomy Scale A0 A5 Correctness C0 C3 Discover Validate Patch Validate Patch SAE Driving Automation Levels NIST University of Maryland Universite Grenoble Alpes CNRS Amine Lbath Manan Suri Aurelien Delaitre Vadim Okun Massih-Reza Amini Dinesh Manocha 50000 Sources 128 Dated Steps 503 Verified Statements 300000 CVE Records 1400 Coordinated Disclosures CVE Records 39638 In 2025 89749 In 2026 Monthly 4302 January 16949 October Six Issuers GitHub VulnCheck Oracle Linux Kernel Chrome Microsoft AI Named Finder 268 2290 Critical High 46 Percent 56 Percent Decade Old Bugs 6 To 11 Times More Often First Time Finders 70 Percent ZDI Median Report To Release 96 119 Days 2016 2026 148 Days Chrome 16 To 26 Days Claude Mythos Preview 1752 Findings 90.6 Percent Aikido Attack 96 Percent CodeMender 72 Fixes Defense Factory 0.53 Percent Rollback GLM 5.3 DeepSeek V4 Pro 94.5 Percent arXiv 2611.26601 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-21-sok-llm-vulnerability-research-autonomy"
+      ]
     }
   ]
 }
