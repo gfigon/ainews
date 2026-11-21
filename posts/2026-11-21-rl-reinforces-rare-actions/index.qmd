@@ -1,0 +1,26 @@
+---
+title: "RL Can Only Reinforce What It Sees Succeed"
+date: "2026-11-21 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "In a world where the prior is known exactly, outcome-reward RL turns careful hedging into decisive action — but when the right action is rare, runs go all-or-nothing, and one pre-training count predicts which runs take off."
+image: "/assets/post-images/2026-11-21-rl-reinforces-rare-actions.svg"
+---
+
+When a familiar rule stops working, an agent must weigh what pre-training taught it against what it now observes. A paper submitted on 19 November (arXiv 2611.26084, by Ruben Sanchez-Corcuera, Unai Zulaika, Aritz Bilbao-Jayo and Miguel Fernandez-de-Retana) answers a version of that question with unusual rigor: it builds a world where the prior is *exactly* known.
+
+**The world.** Small GPTs (6 layers, ~10.7M parameters) are trained from scratch on 9 million self-written puzzle games played by a scripted Bayesian player. Rules pair an obstacle with a default tool (the key opens the chest); sometimes the world changes and the default stops working forever. Because the corpus is hand-authored, three knobs are exact: how often a rule appears, how often it changes, and how often the correct switch is shown at all.
+
+**Before RL, models hedge exactly like their corpus.** For a rule that changes 5% of the time, the base model puts **22%** on the hammer after one failure and **56%** after two; the Bayesian posterior says **21%** and **57%**. Off by under two percentage points on average, across conditions.
+
+**After outcome-reward RL, hedging becomes decisions — and in both directions.** After one failure of a reliable rule the hammer share *falls* from 22% to **10%** (one failure is not yet enough reason); after two, when switching pays, it *rises* from 56% to **77%**. RL closes **74–95%** of the reward gap to the optimal policy on held-out problems. It does not make the model a better Bayesian — the reward pays for good choices, not calibrated beliefs.
+
+**But RL cannot reward an action it never takes.** Make the correct switch rare in the corpus and RL sharpens the *prior* instead: with the switch shown once in 23 decisions, **9 of 10** runs learn it; at once in 232 decisions or rarer, **0 of 90** runs learn anything — and RL actively removes a quarter to a half of the little probability the base model gave the right tool.
+
+**Runs are all-or-nothing.** Of 210 runs, **138 learned no rule, 53 learned all nine, and only 19** landed in between. And the take-off is predictable *before* training: count the expected number of groups of attempts in which the new action wins. About **35** such groups give even odds — the count holds for new and repeated problems, for groups of 4 to 256 attempts, and across twelve recipe changes (910 runs) that move the threshold but not what is counted.
+
+The lesson for practitioners: post-training failure is rarely "the reward was wrong". It is usually that the winning action never appeared often enough to be rewarded — and a single count tells you in advance.
+
+Sources: [arXiv:2611.26084](https://arxiv.org/abs/2611.26084)

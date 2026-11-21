@@ -1,0 +1,22 @@
+---
+title: "Who Actually Rendered That Clip? Graded Provenance in Commercial Video APIs"
+date: "2026-11-21 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "An audit of 19 commercial video-generation models finds passive attribution collapses under re-encoding, only one vendor authenticates which paid tier rendered a clip, and a signed tier contradiction is the only thing that survives as courtroom-grade evidence."
+image: "/assets/post-images/2026-11-21-video-generation-provenance-tier-audit.svg"
+---
+
+Commercial video APIs sell by *model and tier* — and a middleman can quietly substitute a cheaper model, a lower tier, or a cached clip. A paper submitted on 19 November (arXiv 2611.26508, by Haocheng Mei, Yuchuan Tian, Yingte Shu, Chao Xu, Kai Han, Hanting Chen and Yunhe Wang) asks what a delivered file can actually prove about its origin, and the answer is much narrower than the marketing implies.
+
+**Passive attribution does not survive contact with a CDN.** Six-model container and bitstream attribution scored **83.9%** on raw deliveries and **45.3%** after uniform H.264 re-encoding. Pixel probes after re-encoding still separate most versions and vendors across 45 pairs (Seedance cross-version **0.966**, cross-vendor **0.929**) but collapse to near chance on same-version tiers — Wan 3.0 Prime vs. 3.0 at **0.508–0.551**, against **0.863** for Seedance 2.0 Mini vs. 2.0 Fast. Zero-shot detectors are even more fragile: subsampling real reference clips from 24 fps to 3 fps inside nominal 24-fps H.264 lifts pooled D3 AUROC from **0.845 to 0.988** while shifting STALL the other way — the same "evidence" can be tuned to accuse or to acquit.
+
+**Only cryptography carries weight.** Across **19 models and 605 deliveries**, 18 attach provenance metadata, but under a pinned signer policy only **BytePlus** authenticates tier claims — **187/187** deliveries across three Seedance 2.x tiers, plus Seedance 2.0. Others verify only at model granularity (FLUX.3), fail credential validation despite a C2PA-listed root (Runway Gen-4.5), use per-clip self-signed CAs (Grok), or ship GB 45438-2025 strings whose verification keys were never supplied. Remuxing and re-encoding leave previously verifiable deliveries unverifiable, and the tested manifest store has no request binding.
+
+**The graded audit follows from that.** Provenance has four levels — valid signature, pinned signer, signed claim granularity, internal computation (never established). Only level-3 contradictions reach "prove": authenticated tier contradictions or duplicate signed instance IDs, caught in **100/100** unprocessed 720p tier swaps with zero false flags on honest pools. Statistical triggers are unaffordable — certifying a 1-of-30 substitution needs **8,943** zero-failure honest clips per endpoint. Buyers therefore split three ways: **Prove** on signed contradictions, **Demand** vendor originals when signed deliveries arrive unverifiable, and **Flag or abstain** via archive-reuse and delivery-parameter screens.
+
+The uncomfortable summary: pixel forensics is a review aid, not an accusation, and in video generation today almost nobody signs enough to tell you which tier paid for your clip.
+
+Sources: [arXiv:2611.26508](https://arxiv.org/abs/2611.26508)
