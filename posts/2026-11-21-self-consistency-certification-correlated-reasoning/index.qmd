@@ -1,0 +1,22 @@
+---
+title: "Your Self-Consistency Certificate May Be Certifying the Wrong Hypothesis"
+date: "2026-11-21 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "Anytime-valid self-consistency certificates assume independent rollouts, but real reasoning streams are correlated. On AIME the standard rule fires on 24% of prompts against a 5% nominal level while the correct remedy fires on 0%."
+image: "/assets/post-images/2026-11-21-self-consistency-certification-correlated-reasoning.svg"
+---
+
+Sampling a model N times and stopping when the majority is stable is a heuristic. The recent statistical upgrade replaces it with an **e-process**: a betting martingale that crosses a threshold with finite-sample, anytime-valid Type I error control (Ville's inequality). Every construction in that line rests on one assumption — that the rollouts are **conditionally independent**. A paper submitted on 19 November (arXiv 2611.26592, by Terence D. Agbeyegbe at Hunter College CUNY and Toneukarin G. Agbeyegbe at Rutgers) shows that assumption is not innocuous, and that breaking it does not merely waste samples: it **changes which hypothesis is being certified**.
+
+**Correlation splits the null in two.** Model the dependence the way clustered data does — a latent state drawn once per prompt, rollouts exchangeable given it, correlation ρ = σ²_B/(σ²_B + σ²_W). That yields a **realized null** (is this prompt's drawn reasoning favourable?) and a **population null** (is the model favourable on average?). They coincide only at ρ = 0. With shared-prefix decoding, tree-of-thought branching, speculative sampling and pooled deployment-level claims, ρ > 0 is the normal case.
+
+**The standard certificate is valid — for the wrong target.** The betting e-process remains anytime-valid for the realized null, but it is *not* a supermartingale under the population null, because the data eventually reveal the latent state. Read as a population test, a suitable mixture has asymptotic crossing probability at least π = P(μ(Z) > 0), which can exceed the nominal ε. And the within-unit mean cannot fix it: its variance-equivalent effective sample size **saturates at 1/ρ**, so extra rollouts inside one prompt buy nothing. The within-unit mean converges to the realized belief μ(Z), not the population drift θ.
+
+**The remedy is to certify across units.** A prompt-level e-process on within-unit means restores exact population validity, and under a pure rollout budget the variance-minimising allocation is **one rollout per prompt** — extra rollouts only help once a per-prompt cost is priced in.
+
+**Real rollouts show the gap is regime-dependent.** Using **Claude Haiku 4.5** rollouts, the authors measure ρ̂ = **0.435** on GSM8K, where the model is so self-consistent (θ̂ = **+0.96**) that the problem stays dormant. On AIME the model scatters: ρ̂ = **0.480** and θ̂ = **−0.15**, a negative population margin. There the single-unit rule fires on **24% of prompts** against a nominal ε = 0.05 population-test level, while the prompt-level remedy fires on **0.00%** — the correct procedure simply declines. The paper's framing is the point: this is a **correctness** result, not an efficiency one. It identifies which reliability claim an anytime-valid certificate is entitled to make once rollouts are correlated.
+
+Sources: [arXiv:2611.26592](https://arxiv.org/abs/2611.26592)

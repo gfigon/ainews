@@ -1,0 +1,22 @@
+---
+title: "Harness Adapters: One 27B Model, Three Agent LoRAs, 25 Points Better"
+date: "2026-11-21 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "Hugging Face trained one RL LoRA per agent harness inside the harness itself. The merged super-adapter lifts mean pass@1 from 39.5% to 49.0% while making up to 73% fewer tool calls."
+image: "/assets/post-images/2026-11-21-harness-adapters-rl-inside-agent-harness.svg"
+---
+
+A model and an agent harness are usually shipped as an accident. The harness decides how the tool loop is written, what context is kept, when the model is nudged to stop — and the model was never trained for any of it. Hugging Face's new **harness adapters** recipe makes that pairing explicit: run RL *inside* the harness, on the harness's own task distribution, and ship the result as a LoRA. The team trained one adapter per harness (**Pi**, **OpenCode**, **Hermes Agent**) on **Qwen3.8-27B**, using TRL's AsyncGRPOTrainer, OpenEnv and Harbor, with everything on the Hub in Jobs.
+
+**The headline number is large.** Under Pi on SWE-bench Pro (51 hardest tasks), the base model scores **39.2%** and the Pi adapter **64.7%** — **+25.5 points**, 15 tasks newly solved against 2 lost (p = 0.002). On full Terminal-Bench 2.1 Pi gains **+16.3 points** (16 vs 2, p = 0.001), Hermes **+14.1**, OpenCode **+6.0** overall and **+13.6** on the tasks that played no part in picking its checkpoint. The efficiency gain is the more striking half: on tasks both models solve, the adapters make **56–72% fewer tool calls** on SWE-bench Pro and **53–70% fewer** on Terminal-Bench 2.1. The base model burned **2.9K tokens per task** under Pi; the adapted model does the job in **1.5K**.
+
+**The task pipeline is half the work.** Of 1,127 Hub candidates, **858 passed** `openenv validate` (oracle reaches max reward, doing nothing scores clearly lower, no canary beats doing nothing, replay is deterministic). Wrong-answer controls caught real defects, including a Terminal-Bench 2.1 verifier that accepted known-wrong answers. Of 442 scored tasks the base model solved **151 every time** and **120 never**; the **171 tasks it solved only sometimes** form the GRPO-qualified set. Training used 598 cumulative steps, 78,114 samples, 167M tokens — and a **safeagents** plugin blocked **647 of 1.3M** tool calls during training.
+
+**Merging the three adapters works, at half weight.** The adapters' weight updates have cosine similarity of only **0.01–0.02** — nearly orthogonal — so they concatenate along the rank dimension into a rank-96 super-adapter. At full weight the sum over-applies: tool calls collapse to **13.4 per task** against 49 for the base model, Hermes peaks at **62.8%** but Pi falls back to base level. At **½ weight** the balance is best. The super-adapter improves on the base model in **all six** harness–benchmark pairs (mean pass@1 **39.5% → 49.0%**; 71 tasks newly solved vs 34 lost, p < 0.001) — and, though never trained with thinking on, it is the strongest variant they evaluated *with* thinking on (mean **55.5% → 63.5%**, p = 0.004).
+
+**The practical advice is blunt:** if you use one harness and keep thinking off, take that harness's specialist adapter; the super-adapter is the safer default when you move between harnesses.
+
+Sources: [Hugging Face blog](https://huggingface.co/blog/harness-adapters-at-scale) · [model collection](https://huggingface.co/collections/harness-hub/qwen38-27b-harness-adapters)

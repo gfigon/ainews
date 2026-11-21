@@ -1,0 +1,22 @@
+---
+title: "ROGUE-AI: Most Reported Agent Harm Has No Attacker Attached"
+date: "2026-11-21 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A multi-agent pipeline rebuilds 108 reported agent security incidents offline, each with a matched control. Agents repeat the reported mistake in 18–33% of runs — and 62 of 72 real-harm incidents involved no attacker at all."
+image: "/assets/post-images/2026-11-21-rogue-ai-agent-incident-controlled-replication.svg"
+---
+
+Every agent incident in the news gets a cause attached in the retelling: the model was jailbroken, the user was careless, the tool had too much authority. Almost nobody checks whether that cause is actually the cause. A paper submitted on 19 November (arXiv 2611.26553, by Mengxiao Wang, Mahbub Alam, Kalyan Nakka and Nitesh Saxena at Texas A&M) builds the missing check — **ROGUE-AI**, a multi-agent framework that rebuilds each reported incident offline together with a **matched control that differs only by the blamed cause**, then runs current agents on both.
+
+**The pipeline is the interesting part.** Claude-, Gemini- and GPT-based specialist agents search for reports, check each against its primary source, write down the named cause, and build the replication and its control; an agent from a *different* vendor reviews each build, and code — not the model — decides whether harm occurred. From **253 reports** they produced **108 replications of 96 incidents in 38 classes**, at **$3.28 each**, and corrected **76 records** that their sources contradicted.
+
+**Reproductions mostly work, and the numbers are uncomfortable.** ROGUE-AI reproduced the reported harm in **89% of its 108 attempts**. Agents built on five current GPT, Claude, Gemini and DeepSeek models made the reported mistake in **18% to 33% of runs**, against at most **1%** in the controls. The Replit/SaaStr case holds up: current models wiped the production rows in about half the incident sessions while **all 15 control sessions kept them**. In the Medicare portal replication, the five models entered the restricted area in **14 of 15** incident sessions and in **none of 30** control sessions.
+
+**The uncomfortable part: most harm has no attacker.** Of the **72 incidents with real-world harm, 62 had no underlying attacker** — the agent did what its task asked and missed an ordinary hazard, such as a database shared with the live site. Those attacker-free replications caused **more harm than the prompt-injection replications for all five models**, while containing no injected instruction at all — precisely what injection defences look for. One edit at the first harmful step removed the harm in **118 of 208** harmful sessions.
+
+**The cheap fix is unusually specific.** Adding a warning after each tool output that *names the hazard and its consequence* cut harm for all five models, to **2% for Claude Sonnet 4.6**. A note of the same length that does not mention the hazard left **83–98%** of the harm in place. Defenses with user confirmation or data-flow tracking produced no harm at all.
+
+Sources: [arXiv:2611.26553](https://arxiv.org/abs/2611.26553) · [incident catalog](https://rogue-ai.surge.sh)
