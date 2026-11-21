@@ -6287,6 +6287,30 @@
       "slugs": [
         "2026-11-20-twinlab-bench-ai-scientist-experiment-design"
       ]
+    },
+    {
+      "term": "ROGUE-AI Replication of Agentic Security Events Audit Investigation Controlled Replication Matched Control 253 Reports 108 Replications 96 Incidents 38 Classes 3.28 Dollars Per Replication 89 Percent Reproduction Rate Five Models GPT Claude Gemini DeepSeek 18 Percent to 33 Percent Mistake Rate Versus 1 Percent Control 72 Incidents With Harm 62 Without Attacker Ordinary Hazard Shared Production Database 118 of 208 Harmful Sessions Fixed By One Edit Hazard Warning 2 Percent Claude Sonnet 4.6 Same-Length Note 83 Percent to 98 Percent Harm Remaining Texas A&M University Mengxiao Wang Mahbub Alam Kalyan Nakka Nitesh Saxena arXiv 2611.26553 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-21-rogue-ai-agent-incident-controlled-replication"
+      ]
+    },
+    {
+      "term": "Harness Adapters RL Inside Agent Harness Qwen3.8-27B LoRA Pi OpenCode Hermes Agent Terminal-Bench 2.1 SWE-bench Pro Hard 51 39.2 Percent to 64.7 Percent +25.5 Points Pass At 1 Tool Calls 56-72 Percent Fewer Tokens 2.9K to 1.5K openenv validate 858 of 1127 Tasks 151 Always 120 Never 171 Qualified 598 Steps 78114 Samples 167M Tokens safeagents 647 of 1.3M Tool Calls Blocked Adapter Merging Cosine Similarity 0.01-0.02 Rank 96 Super-Adapter Weight One Half 13.4 Versus 49 Tool Calls Mean 39.5 Percent to 49.0 Percent 71 Newly Solved Versus 34 Lost Thinking Mode 55.5 Percent to 63.5 Percent TRL AsyncGRPOTrainer OpenEnv Harbor Hugging Face November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-21-harness-adapters-rl-inside-agent-harness"
+      ]
+    },
+    {
+      "term": "Realized versus Population Reliability Anytime-Valid Self-Consistency Certification under Correlated Reasoning E-Process Betting Martingale Ville Inequality Conditional Independence Assumption Violated Latent State Realized Null Population Null Correlation Rho Sigma Between Within Variance Effective Sample Size Saturates at 1 over Rho Prompt-Level E-Process Restores Population Validity One Rollout Per Prompt Optimal Allocation Claude Haiku 4.5 GSM8K 0.435 Theta 0.96 AIME 0.480 Theta -0.15 Single-Prompt Crossings 24 Percent Versus Epsilon 0.05 Prompt-Level Remedy 0.00 Percent Terence D. Agbeyegbe Toneukarin G. Agbeyegbe Hunter College CUNY Rutgers arXiv 2611.26592 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-21-self-consistency-certification-correlated-reasoning"
+      ]
     }
   ]
 }
