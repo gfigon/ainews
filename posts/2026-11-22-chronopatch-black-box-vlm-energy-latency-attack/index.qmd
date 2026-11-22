@@ -1,0 +1,26 @@
+---
+title: "ChronoPatch: A Black-Box Attack That Makes Vision-Language Models Burn Up to 3× More Energy"
+date: "2026-11-22 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "A Shandong University attack on vision-language serving needs only the final response text — no gradients, no logits — and inflates inference latency by 48–293% and GPU energy by 41–250% under a 5% image budget."
+image: "/assets/post-images/2026-11-22-chronopatch-black-box-vlm-energy-latency-attack.svg"
+---
+
+Autoregressive vision-language models generate token by token until they emit end-of-sequence. Every extra token is another decoding step, so an attacker who can make a model *keep talking* is attacking availability, not accuracy. The catch for most known attacks is that they need feedback a real attacker does not have: model internals, logits, or token-level signals.
+
+**ChronoPatch** (arXiv 2611.26117, submitted 19 November by Jiawei Xing, Li Wang, Xiangtao Meng, Chuanchao Zang, Rui Wen and Zheng Li at Shandong University and the Institute of Science Tokyo) asks what survives when the attacker sees *only the final response*. The answer: quite a lot.
+
+**Two stages.** Phase I, *delay-anchor discovery*, runs a response-length-guided evolutionary search over visual patterns and their locations, looking for image patches that reliably trigger prolonged generation — no natural adversarial initialisation exists, so the pattern itself has to be searched for. Phase II, *perturbation refinement*, shrinks the perturbation inside the fixed editable region using subspace-calibrated decision-based optimization, adapting the exploration scale to the effective dimensionality of that region. The text prompt stays fixed the whole time.
+
+**Numbers.** On four open-source VLMs across three benchmarks, with a perturbation budget of just **5% of image area**, ChronoPatch raises end-to-end inference latency by **47.86–293.34%** and GPU energy consumption by **41.44–249.70%** on MSCOCO. The generations also degenerate into repetition, visible in rising n-gram repetition ratios — most visible on **Qwen3-VL** and **InternVL3**.
+
+**It works against paid APIs too.** On three commercial VLM APIs, under a budget of 500 queries per API, response length rose **37.6–81.5%** and client-observed end-to-end latency reached **1.82×–2.29×** the clean request. That is the finding that matters operationally: the availability risk does not need white-box access, so it survives API boundaries.
+
+The prior art is instructive. **NICGSlowDown** and **Verbose Images** are white-box or gradient-based, **RE-CITE** forces repetitive output, **VLMInferSlow** uses continuous logits feedback, and **AutoDoS** does the equivalent for text-only LLMs. ChronoPatch removes every one of those assumptions and still extracts a large fraction of the amplification.
+
+The practical takeaway is uncomfortable: rate limits and request budgets, not accuracy filters, are the line of defence for generative serving cost. But the same prolongation also means a corrupted image can quietly stall an embodied agent's perception loop long before anyone notices the latency.
+
+Sources: [arXiv:2611.26117](https://arxiv.org/abs/2611.26117) · [HTML full text](https://arxiv.org/html/2611.26117v1)

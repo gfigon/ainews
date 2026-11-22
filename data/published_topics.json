@@ -6343,6 +6343,46 @@
       "slugs": [
         "2026-11-21-sok-llm-vulnerability-research-autonomy"
       ]
+    },
+    {
+      "term": "Origin Agent Incident Forensics Indirect Prompt Injection Memory Poisoning Backtrace Entry Point Penn State Joern CodeQL Pysa Eight Incidents Two To Four Queries Poisoned File Tool Call Chain Root Cause Attribution arXiv November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-origin-agent-incident-forensics"
+      ]
+    },
+    {
+      "term": "TideCache Hybrid Model Serving Transparent Cache Management Layer-Wise Streaming Global Attention KV Host Memory Kimi K3 GLM-5.3-Flash SGLang HiCache 2.04x Agent Turns 20-59 Percent Lower Per-Token Latency GB300 GH200 arXiv 2611.26619 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-tidecache-hybrid-model-serving-cache-residency"
+      ]
+    },
+    {
+      "term": "Verify The Verifier Specification-Grounded LLM Cross-Checking UVM Scoreboard Escapes Silicon Bugs OpenTitan IP Blocks Texas A&M 41 Of 68 Hidden Bugs Formal Qualification arXiv 2611.26588 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-verify-the-verifier-scoreboard-escapes"
+      ]
+    },
+    {
+      "term": "Frostbite AI-Designed CPU Architecture Interaction Nets Vine Ivy ISA Agent Swarms Architect Labs Architect Silicon ASL Specification Language Lean Contracts 800k Lines Arcmodel 7nm 500 MHz 0.792 mm2 4.59x Performance-Per-Watt 8.77x Performance-Per-Area Work Stealing November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-frostbite-ai-designed-cpu-interaction-nets"
+      ]
+    },
+    {
+      "term": "ChronoPatch Black-Box Energy-Latency Attacks Vision-Language Models Response-Length Evolutionary Search Subspace-Calibrated Decision-Based Optimization 5 Percent Perturbation Budget 47.86-293.34 Percent Latency 41.44-249.70 Percent GPU Energy Qwen3-VL InternVL3 Commercial APIs 1.82-2.29x Latency Shandong University Institute of Science Tokyo arXiv 2611.26117 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-chronopatch-black-box-vlm-energy-latency-attack"
+      ]
     }
   ]
 }

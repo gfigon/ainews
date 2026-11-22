@@ -1,0 +1,26 @@
+---
+title: "Origin: Agent Incident Forensics That Names the Exact Poisoned File"
+date: "2026-11-22 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "A Penn State tool backtracks indirect prompt injection and memory-poisoning incidents to the precise compromise entry point — all eight incidents solved with 2–4 queries, while Joern, CodeQL and Pysa fail on nearly all of them."
+image: "/assets/post-images/2026-11-22-origin-agent-incident-forensics.svg"
+---
+
+When an agent application is poisoned, the first question is mundane and hard: which call actually introduced the bad content? Not "which tool" — the analyst already knows it was knowledge-base retrieval. They need the specific function call, with the poisoned file named, so the remedy admin can delete one document out of hundreds. **Origin**, submitted on 19 November (arXiv 2611.26525, by Yicheng Cai, Taegyu Kim and Peng Liu at Penn State, for ACM CCS), is a backtracking tool built to answer exactly that.
+
+**The semantic gap is the whole problem.** Trajectory logs record agent *functionality* — planning, tool invocation, memory recall — at one abstraction layer. Compromise entry points (CEPs) are *function calls* at the code execution layer. One functionality maps to many calls, and no trajectory log records which calls ran. In the motivating GPT-Researcher memory-poisoning incident, log-based pruning still left **1,518 candidate calls**, and the analyst spent hours reading code to pick one.
+
+**Origin's move is an intermediate abstraction.** A **cross-layer dependency graph (CLDG)** links region-inferred functions at the semantic level to variables in the low-level taint propagation subgraph, plus a small query language over it. A **region inference algorithm** assigns each function to one of four regions — with an LLM-written developer report doing the labelling. Regions are groups of agent functionality, so a query can ask "what depends on the prompt-assembly variable and what does the prompt assembly depend on" and get a small slice of the graph instead of the whole taint plane.
+
+**Results.** Across five agent applications (GPT-Researcher, Quivr, aider, MetaGPT, SWE-agent) and eight incidents — indirect prompt injection and memory/context poisoning, the two most prevalent entries in the OWASP Top 10 for agent applications — an analyst using Origin identified the correct CEP in **all eight**, needing **two queries in five incidents and four in the other three**. Static taint analyzers given the ground-truth source and sink as input failed on nearly everything: Joern and CodeQL failed on every incident, Pysa succeeded only on MetaGPT IPI. Their failures are structural — unresolved indirect call targets, taint not propagated through nested dictionary access, and library calls like LangChain tool dispatch the tools do not model.
+
+**The narrowing is dramatic.** Region-level queries cut the variable plane to between **6.49% and 35.76%** of its original size. The **PK (prompt-key) variable** appears in 9 of 11 queries, because it is where other regions converge into the LLM prompt and it typically holds only a handful of functions. Region inference precision and recall range **0.70 to 0.88**, with aider lowest because it hands commands to the user interactively rather than chaining them.
+
+**The cost is real but front-loaded.** CLDG construction is a one-time offline step taking over 95% of runtime (6 s for Quivr up to 109 s for aider); queries themselves evaluate in under 90 ms, and peak memory stays below 7 GB. Developers must label only **2.4% to 8.9%** of functions. A four-participant study showed the LLM report raised labelling speed by **15.4% to 75.0%** and accuracy by **8.3 to 50.4 percentage points**, reaching 88.9–100%.
+
+The paper is honest about its limit: for autonomous agents whose LLM loop decides the next tool at runtime, static analysis alone cannot determine the CEP.
+
+Sources: [arXiv:2611.26525](https://arxiv.org/abs/2611.26525) · [HTML full text](https://arxiv.org/html/2611.26525v1)

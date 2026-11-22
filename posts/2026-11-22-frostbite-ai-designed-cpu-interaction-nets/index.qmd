@@ -1,0 +1,26 @@
+---
+title: "Frostbite: An AI-Designed CPU With a New Instruction Set and 4.59× the Perf/Watt"
+date: "2026-11-22 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Research & Innovation
+summary: "Architect Labs says its agent swarms discovered, designed and verified a general-purpose CPU around interaction nets from scratch — 4.59× the performance-per-watt of a modern superscalar core, with hardware work-stealing nobody specified."
+image: "/assets/post-images/2026-11-22-frostbite-ai-designed-cpu-interaction-nets.svg"
+---
+
+Single-core CPU performance has been stuck since the early 2000s, and the usual fix — out-of-order execution, deep cache hierarchies, coherence protocols — costs area and power that scale badly. **Architect Labs** (Architect Silicon) now claims to have gone around that wall with a different execution model, and to have done it with AI agents rather than human architects.
+
+**Frostbite** is a general-purpose CPU with a ground-up instruction set built around **interaction nets**: a program is a graph of nodes whose rewrites are local, whose dependencies are explicit, and whose values have exactly one owner. That gives parallelism for free, removes shared mutable state, and lets data live in small local memories next to where it is used — which is exactly the assumption a modern core cannot make. Programs are written in **Vine** and compiled to the **Ivy** intermediate representation.
+
+**The AI did the whole flow.** The lab's agent swarms iterated over compiler, ISA, architecture, microarchitecture, RTL, verification and the final GDS, working from *zero* architectural priors — starting from a 141-page proposal PDF that was deleted once the first RTL numbers proved it physically wrong.
+
+**The key enabler was a formal spec language.** Architect Labs wrote **ASL**, a machine-checkable specification language that translates between RTL, system models, UVM and SVA and compiles natively to **Lean** — the final contracts ran to **800k+ lines of Lean** across 31 blocks. ASL models run roughly **200× faster than RTL simulation**, with power and performance estimates accurate to **1–5%**. An autonomous pipeline recalibrates the model against the RTL: the initial gap was as bad as **250%**, and after fitting it to within 5% the swarms found clock-gating tricks no traditional ASIC flow would reach.
+
+**Numbers.** Synthesized on **7 nm** (800 MHz at synthesis, 500 MHz in final GDS), one Frostbite quad plus four L3 nodes occupies **0.792 mm²** versus **0.895 mm²** for a single dual-issue in-order core. Across 25 workloads — 10 used for optimization, **15 held out** — Frostbite reaches a geometric mean of **4.59× the performance-per-watt**, and **8.77× the performance-per-area**. On the held-out set alone the multiple is **3.83×**. Energy shifts from memory (57% → 38%) and instruction fetch/decode/issue (27% → **6%**) toward on-chip network and scheduling (26%).
+
+**The part nobody specified.** There is no central scheduler: tiles run their own work, borrow from neighbours with work to spare, and sleep otherwise. The agents arrived at this work-stealing scheme by tracing it back to regressions and hill-climbing on performance metrics. Across four searches the swarm proposed 58 ideas and kept 37.
+
+Caveats: these are **pre-silicon** numbers, and the baseline is a deliberately simple dual-issue in-order core, not a modern Xeon or Zen. The lab's earlier **Redwood** post made the same claim for an AI accelerator; both stay vendor claims until tapeout.
+
+Sources: [Architect Labs — Introducing Frostbite](https://architectlabs.com/blog/frostbite) · [Architect Labs — Introducing Redwood](https://architectlabs.com/blog/redwood)

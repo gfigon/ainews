@@ -1,0 +1,22 @@
+---
+title: "Verify the Verifier: LLMs That Audit the Tests That Already Passed"
+date: "2026-11-22 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "A Texas A&M framework cross-checks passing UVM regression traces against the specification, then formally qualifies each finding — 41 of 68 hidden silicon bugs confirmed as scoreboard escapes in four OpenTitan IP blocks."
+image: "/assets/post-images/2026-11-22-verify-the-verifier-scoreboard-escapes.svg"
+---
+
+Chip verification has a quiet weakness. A fully passing UVM regression is the exit criterion before RTL freeze and tapeout, and everyone treats it as proof the design is right. It is not. The scoreboard only compares what the tests exercised and the monitor captured; a behaviour without a covergroup is neither measured nor checked. The paper calls the gap a **scoreboard escape** — a bug that passes every test yet still violates the specification. The OpenTitan PWM controller is a live example: its scoreboard never measures phase delay and silently discards any pulse whose period differs from the expected one, so a period bug is never compared and the regression still reports PASS.
+
+**Verify the Verifier**, submitted on 19 November (arXiv 2611.26588, by Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, Minh D. Luu and David Kebo Houngninou at Texas A&M), is the first framework to point an LLM at the traces of a regression that already passed. The pipeline has three LLM roles and two non-LLM filters. The **Anomaly Cross-Checker** receives the specification and a waveform trace including internal signals, and flags behaviour that contradicts the spec — it never sees the RTL, so its findings describe what the design *did*, not how it was written. An **Assertion Generator** turns anomalies into SystemVerilog assertions. Then deterministic guards discard malformed ones and formal verification either proves each assertion or falsifies it with a counterexample. An **Adversarial Challenger** turns each counterexample into a directed UVM test that passes the scoreboard but fails the assertion.
+
+**The benchmark is the hard part.** From **564 bugs inserted into four OpenTitan IP blocks**, **68** survived the regression as non-equivalent, exercised, yet passing — and **41** were confirmed as qualified scoreboard escapes: the assertion fails on the bugged design and is proven on the original. Per design, the framework confirmed 15 of 24 PWM candidates, 8 of 16 PATTGEN, 14 of 16 SPI Host and 4 of 12 CSRNG. In 36 of the 41, a directed test fired the assertion on the mutant, stayed silent on the reference, and OpenTitan's own scoreboard reported a pass.
+
+**The LLM is not the bottleneck — the signal is.** The Cross-Checker observed the injected bug in 55 of 68 mutants (81%), always on the first attempt, and of 232 reported anomalies 168 (72%) described the injected bug. A baseline with only the spec and RTL declarations detected 11 of 68; the trace-driven version detected 41. Only 71 of 167 generated assertions survived formal verification — the other 86 were false positives, and most were not hallucinations: they faithfully encode requirements OpenTitan's own documentation states but its RTL does not implement.
+
+Cost per mutant: a median of **9.6 minutes**, about 620K input and 18K output tokens. On the four unmodified designs the Cross-Checker reported 9 anomalies, every one a genuine documentation-versus-RTL contradiction.
+
+Sources: [arXiv:2611.26588](https://arxiv.org/abs/2611.26588) · [HTML full text](https://arxiv.org/html/2611.26588v1)

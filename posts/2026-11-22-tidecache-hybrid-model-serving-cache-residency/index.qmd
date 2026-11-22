@@ -1,0 +1,24 @@
+---
+title: "TideCache: Hybrid Model Serving Learns to Move Its Own Cache"
+date: "2026-11-22 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Tools & Frameworks
+summary: "A serving system for Kimi K3, GLM-5.3-Flash and other hybrid models streams global-attention KV to host memory between global-attention layers — up to 2.04× more agent turns and 20–59% lower per-token latency than SGLang with HiCache."
+image: "/assets/post-images/2026-11-22-tidecache-hybrid-model-serving-cache-residency.svg"
+---
+
+Open-weight models stopped looking like plain transformers. **Kimi K3, Ring-2.6, GLM-5.3-Flash, Qwen3.8 and GPT-OSS** now put one global-attention layer every few layers and fill the rest with sliding-window attention or recurrent layers (Mamba, Gated DeltaNet, Kimi Delta Attention). The paper calls these **bounded-state layers**, because their per-request cache size is fixed no matter how long the context grows. That heterogeneity is a serving problem: the two kinds of cache want different amounts of memory, and no application label tells you which one is the bottleneck.
+
+**TideCache**, submitted on 19 November (arXiv 2611.26619, by Jinbin Luo, Xiaozhe Yao, Shang Yang, Zhijian Liu, Song Han and Qinghao Hu at MIT, ETH Zurich and UC San Diego), attacks that with three pieces. The **Transparent Cache Pool** reallocates physical GPU pages between cache components behind fixed virtual addresses, so cache layouts and attention backends stay untouched. The **Cache Streamer** uses the computation interval of a bounded-state layer to prefetch the *next* global-attention layer's prefix into GPU slots shared across global-attention layers, overlapping transfers with compute. Generated KV never leaves the GPU. A **Request Scheduler** picks resident versus streamed execution per request and resizes capacity from request size and queue state.
+
+**The hardware context matters.** The CPU–GPU link went from 64 GB/s on PCIe 4.0 (A100) to 900 GB/s on NVLink-C2C (GH200) to 1.8 TB/s on Vera Rubin — five years, an order of magnitude. TideCache adds about **9,000 lines to SGLang**, mostly in a memory-pool package.
+
+**Numbers.** On GB300 (4× 288 GB HBM3e, 960 GB LPDDR5X host, 211 GB/s measured host-to-device) and GH200, across seven model/platform configurations, TideCache completes up to **2.04× as many agent turns**, cuts overall P50 per-token latency by **20–59%**, and improves agent P50 time-to-first-token by **1.40–3.05×** versus SGLang with HiCache. Workloads mix ShareGPT traces with multi-turn Claude Code sessions of 40K–110K tokens and 8–28 turns.
+
+**Tuning the baseline does not close the gap.** On Kimi K3, SGLang with HiCache peaks at a 3:1 split with 67 completed turns; TideCache reaches 94, **40% above the best baseline**, with 29.5% lower P50 per-token latency. The overhead is real but paid back: decode-step time shifts by −1.1% to +6.3%, while effective global-KV capacity rises from 148K to 260K tokens, the largest sustained batch from 16 to 29, and peak decode throughput from 1.19K to 1.47K tokens/s.
+
+One caveat: the paper says framework-induced indirect calls and agentic-loop agents remain out of reach for static analysis — the same class of blind spot showing up on the security side of the ledger.
+
+Sources: [arXiv:2611.26619](https://arxiv.org/abs/2611.26619) · [HTML full text](https://arxiv.org/html/2611.26619v1)
