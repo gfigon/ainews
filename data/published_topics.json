@@ -6383,6 +6383,22 @@
       "slugs": [
         "2026-11-22-chronopatch-black-box-vlm-energy-latency-attack"
       ]
+    },
+    {
+      "term": "MemFolder Structure-Guided Memory Folding RecordFolder ContextFolder Entity Grounding Temporal Chaining Verification Feedback LoCoMo PersonaMem LongMemEval M3-Bench Mem0 99.0% Performance Retention 50% Fewer Records November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-memfolder-agent-memory-folding"
+      ]
+    },
+    {
+      "term": "HiSA Hidden Sparse Attention Sparsifying Hidden Dimension RoPE Partial Dot Product Parameter-Free Position Rule Feature Axis Token Sparsity One Third Query-Key Products FlashAttention-3 From-Scratch Training Improves Performance December November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-22-hisa-hidden-dimension-sparse-attention"
+      ]
     }
   ]
 }
