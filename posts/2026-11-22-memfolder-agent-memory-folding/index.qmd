@@ -1,0 +1,24 @@
+---
+title: "MemFolder: Folding an Agent's Memory Instead of Pruning It"
+date: "2026-11-22 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "A structure-guided framework shrinks long-term agent memory on two axes at once — consolidating related records into fewer retrieval units and re-encoding them into compact text — while keeping 99% of Mem0's original performance with half as many records."
+image: "/assets/post-images/2026-11-22-memfolder-agent-memory-folding.svg"
+---
+
+Long-running agents accumulate a memory store that grows with every interaction, and the bill arrives twice. More records means higher retrieval overhead; longer retrieved context means more prefill compute and more decoding-time attention. Existing fixes split the problem in half: **pruning** drops records (and can throw away the evidence you needed) while **consolidation** merges them (and can produce fewer but *longer* retrieval units, so the token bill barely moves).
+
+**MemFolder** (Zhejiang University and collaborators) attacks both halves at once by making record count and context length fall together, guided by structure that already exists across records.
+
+The framework has two components that share the same memory groups. **RecordFolder** grounds entity mentions, then progressively selects anchors that are representative but complementary, and combines semantic affinity, entity affinity and temporal chaining to decide which records can be merged into a single retrieval unit without losing their joint meaning. **ContextFolder** then takes the original records inside a group and encodes them into compact text — with a verification feedback loop that rewrites the encoding when a key fact turns out not to be recoverable from it. In other words, the second stage isn't just compression; it's compression that is checked against retrieval and repaired when it fails.
+
+**The headline result is on Mem0**, the strongest memory baseline in the comparison. On the three text benchmarks — **LoCoMo, PersonaMem and LongMemEval** — RecordFolder keeps **99.0% of the original average performance** while using **50% fewer records**, beating the strongest baseline by **1.9 percentage points in performance retention**. Stacked on top of ContextFolder, existing record-compression methods shorten their outputs further while retaining most of their accuracy.
+
+Evaluation is not limited to text: the paper also reports results on two multimodal benchmarks, **M3-Bench-web** and **M3-Bench-robot** — the robot variant matters for a digest that follows embodied agents, where a memory record is not just text.
+
+The angle worth keeping: most memory work optimizes retrieval quality and treats compression as an afterthought. MemFolder inverts that, treating the *structure* of the store — entities, affinity, temporal chains — as the signal that licenses compression, and then verifying the compressed form can still answer the question. Whether that holds up outside the two benchmark families is the open question; code is released at [github.com/xuyang-liu16/MemFolder](https://github.com/xuyang-liu16/MemFolder).
+
+Source: [arXiv:2611.26427 — MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management](https://arxiv.org/abs/2611.26427)

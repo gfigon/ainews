@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-22-memfolder-agent-memory-folding/index.html",
+      "/posts/2026-11-22-hisa-hidden-dimension-sparse-attention/index.html",
       "/posts/2026-11-22-chronopatch-black-box-vlm-energy-latency-attack/index.html",
       "/posts/2026-11-22-frostbite-ai-designed-cpu-interaction-nets/index.html",
       "/posts/2026-11-22-origin-agent-incident-forensics/index.html",

@@ -1,0 +1,24 @@
+---
+title: "HiSA: Sparse Attention Along the Feature Axis, Not the Token Axis"
+date: "2026-11-22 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - LLMs & Models
+summary: "Instead of skipping tokens or learned gates, HiSA drops parts of the query–key dot product using a static rule derived from RoPE's structure — computing about a third of the products while matching or beating full attention in models trained from scratch, with FlashAttention-3 kernels."
+image: "/assets/post-images/2026-11-22-hisa-hidden-dimension-sparse-attention.svg"
+---
+
+Nearly all sparse attention works by skipping *tokens* — which queries attend to which keys. **Hidden Sparse Attention (HiSA)** asks the orthogonal question: does the dot product between a query and a key have to be computed in full, feature by feature, at all?
+
+The answer from a trio of EPFL-affiliated researchers (Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure) is yes, it can be partially dropped — and the rule is remarkably un-fancy. HiSA keeps the query and key projections **completely intact** and only omits parts of the inner product, following a **static, parameter-free rule set by token positions**. The sparsity axis is the **hidden (feature) dimension**, not the token axis that nearly every other sparse attention method targets.
+
+The rule is derived from the structure of **rotary position embeddings (RoPE)**: keys and queries decompose into parts that can be omitted without destroying the positional signal RoPE exists to provide. Because the rule depends only on positions, there are no learned gates to train and no auxiliary loss — the sparsity schedule falls out of the position encoding already in the model.
+
+**The headline is counterintuitive: less computation does not cost accuracy.** Training LLMs from scratch with HiSA, the partial dot product does not merely match the complete product — it **improves** performance over it, while computing only **about a third of the query–key products**. At inference HiSA delivers faster decoding and a smaller memory footprint, and the authors extend it to **FlashAttention-3 kernels** for both training and serving, so it is not a research-only construct.
+
+The paper closes with a sanity check that explains why this might work: dense attention, it turns out, **learns to suppress the very score parts HiSA drops**. The sparsity is not an approximation the model has to tolerate — it is approximating something the trained model was doing anyway.
+
+Caveats: the results are from models trained from scratch, not retrofit onto existing checkpoints; the gains are modest in absolute terms and no target model scale is given in the abstract; and the position-derived rule is tied to RoPE-family positional encodings. Code is available at [github.com/ambroise-b/hisa](https://github.com/ambroise-b/hisa).
+
+Source: [arXiv:2611.26363 — HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs](https://arxiv.org/abs/2611.26363)
