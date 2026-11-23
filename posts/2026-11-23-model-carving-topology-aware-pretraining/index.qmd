@@ -1,0 +1,22 @@
+---
+title: "Model Carving: Training Transformers That Prune Their Own Topology"
+date: "2026-11-23 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - AI Infrastructure
+summary: "Harvard and NYU researchers learned the architecture and the weights in one run: carved models beat dense models trained with 1.7× more compute, cost up to 34% fewer FLOPs per token and decode 1.6× faster — no pruning or distillation afterwards."
+image: "/assets/post-images/2026-11-23-model-carving-topology-aware-pretraining.svg"
+---
+
+The standard Transformer trains a fixed, homogeneous stack: attention and MLP sublayers, same order, every layer, weights optimised inside. That uniformity is a convention, not a derivation. A paper by Kaden Zheng (Harvard) and Pratyusha Sharma (NYU), submitted 20 November as arXiv 2611.27962, argues the architecture should be learned the same way the weights are — during training, not before it.
+
+**Model Carving** puts a learnable scalar gate on every sublayer and lets the training loss prune the model's own components, freeing a smaller heterogeneous network inside the overparameterised shell. The authors invoke the biological analogy directly: brains overproduce synapses during development and prune those whose metabolic cost exceeds their functional value.
+
+**The numbers matter more than the framing.** Pre-training standard Transformers from 140M to 2.7B parameters (and looped Transformers from 140M to 1.3B), carved models reached **lower validation loss than dense models trained with up to 1.7× more compute**. They also beat **size-matched models produced by pruning or distillation** — the argument being that the best way to get a small model for an edge device is to carve it during training rather than compress a large one afterwards. Because removed sublayers no longer execute, carved models cost **up to 34% fewer FLOPs per token** and decode **up to 1.6× faster** without a quality penalty.
+
+**The advantage scales.** The loss lead grows with model size, and it survives instruction tuning and quantization. The learned topologies are also not random: they remove computation a task does not need, and the same network trained *without* removal does not reproduce the benefit.
+
+This is a contrast with neural architecture search, which trains the architecture in a second, separate search loop — thousands of candidates, supernets, RL controllers. Model Carving folds that cost back into the pretraining run itself. The current gaps are honest ones: the largest models pre-trained are 2.7B, deployment granularity is coarse, and carving an already-pretrained model is left as future work.
+
+Sources: [arXiv:2611.27962](https://arxiv.org/abs/2611.27962) · [HTML full text](https://arxiv.org/html/2611.27962v1) · [project page](https://kadenzheng.com/model-carving/)
