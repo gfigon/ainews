@@ -1,0 +1,24 @@
+---
+title: "Isonomy: Hiding Prefix-Cache Hits in Request Timing"
+date: "2026-11-23 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Security & Policy
+summary: "Prefix caching leaks the fact that another tenant used your prompt through response timing — Isonomy keeps one global cache but hides cross-account hits behind the request's own latency, holding 98% of the throughput of unprotected sharing."
+image: "/assets/post-images/2026-11-23-isonomy-prefix-cache-timing-privacy.svg"
+---
+
+Inference providers cache prompt prefixes so a shared system prompt is only prefilled once. That is a big cost saving, and it is also a quiet side channel: **a cache hit makes the first token arrive earlier**, so an observer can tell that *someone else* sent a similar request — and, with enough probing, infer what that prompt was.
+
+The authors frame the problem as a least-privilege failure. Even permission to send and pay for requests should not expose other requests' prompts inside the same account. They name three situations where this bites: agents shipping unreviewed requests with private data, resellers pooling many users behind one account, and stolen credentials.
+
+**Isonomy** keeps a *single* cache shared across accounts but hides hits on prefixes cached outside the requesting client's group. The isolation is by default; clients opt into explicit sharing groups when they actually want the reuse.
+
+Two implementation modes, both sitting in a vLLM-based gateway. The gateway applies the deployment's routing rule to *load and visible cache entries only*, which determines the instance where the request would have run had the hidden hit missed. **Prediction mode** estimates when the first token would be ready from queue state and the visible prefix, then gates its release. **Execution mode** instead reserves the work the hidden hit skipped and backfills it with other requests' prompts where possible.
+
+The evaluation is the reassuring part. On three commercial APIs, listeners could not distinguish added prefill work from a short request beyond measurement noise. In direct-probe tests on two, four, and eight instances with every request isolated, both modes kept the upper bound on a probe's advantage within measurement noise at both prefix lengths. At saturation, prediction mode retains **0.98 of unprotected sharing's throughput** — better than per-account isolation (0.95), and far better where more reuse crosses accounts (0.80).
+
+Caveats worth keeping in mind: the guarantee targets deployments where clients cannot observe one another's load, the abstract does not name the vendor APIs tested, and hiding hits via padding work has an obvious compute cost that the throughput numbers only partly expose.
+
+Source: [arXiv:2611.27596 — Isolating Every Request from Timing Side Channels at Nearly Full-Sharing Throughput in Multi-Instance LLM Prefill](https://arxiv.org/abs/2611.27596)

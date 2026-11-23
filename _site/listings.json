@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-23-thot-hub-optimal-transport-long-context/index.html",
+      "/posts/2026-11-23-isonomy-prefix-cache-timing-privacy/index.html",
       "/posts/2026-11-23-autonomous-parameter-surgery-backdoor-weight-edits/index.html",
       "/posts/2026-11-23-model-carving-topology-aware-pretraining/index.html",
       "/posts/2026-11-23-markdown-is-not-a-firewall-coding-agent-rules-file/index.html",

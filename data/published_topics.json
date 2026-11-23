@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
+      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -6422,6 +6422,22 @@
       "last_published": "November 2026",
       "slugs": [
         "2026-11-23-model-carving-topology-aware-pretraining"
+      ]
+    },
+    {
+      "term": "Isonomy Prefix Cache Timing Side Channel Isolation Multi-Instance LLM Prefill vLLM Gateway Prediction Mode Execution Mode Sinkhorn Hiding Cross-Account Cache Hits Least Privilege 0.98 Throughput Retained Commercial APIs Measurement Noise November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-23-isonomy-prefix-cache-timing-privacy"
+      ]
+    },
+    {
+      "term": "THOT Topology Hub Optimal Transport Long Context Dilution Attention Mass Dispersion Sparsemax Capacity Gating Sinkhorn Scheduling Triton Kernels One-Reference-Tile 97.40% Zero-Shot Recall 262144 Tokens 1.34 ms vs 4.37 ms cuDNN FlashAttention WikiText-103 Multi-Needle 100.00% November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-23-thot-hub-optimal-transport-long-context"
       ]
     }
   ]
