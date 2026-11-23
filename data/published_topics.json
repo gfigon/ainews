@@ -1633,7 +1633,7 @@
       ]
     },
     {
-      "term": "Samsung \u20ac1B Mistral Stake \u20ac20B Valuation Investment France",
+      "term": "Samsung €1B Mistral Stake €20B Valuation Investment France",
       "count": 1,
       "last_published": "2026-07-22",
       "slugs": [
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "term": "OpenAI Broadcom Jalape\u00f1o Custom Inference Chip",
+      "term": "OpenAI Broadcom Jalapeño Custom Inference Chip",
       "count": 1,
       "last_published": "2026-06-25",
       "slugs": [
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck T\u00fcbingen AI Center arXiv 2610.40831 October 2026",
+      "term": "Computational Arbitrage AI Model Marketplaces Budget Allocation NP-Hard Diminishing Returns Log-Failure Reduction Jointly Concave Efficient Global Optimum Empirical Bayes Sample-Efficient Utility Estimation Marginal Utility Per Dollar Complementary Specialization Terminal-Bench 2.0 40% Solve Rate Under $1 to Over $60 70% $10 to $180 LiveCodeBench Terminal-Bench 4.0 DeepSWE Greedy Deployment Order Okati Olmedo Hardt Max Planck Tübingen AI Center arXiv 2610.40831 October 2026",
       "count": 1,
       "last_published": "2026-11-03",
       "slugs": [
@@ -6398,6 +6398,30 @@
       "last_published": "November 2026",
       "slugs": [
         "2026-11-22-hisa-hidden-dimension-sparse-attention"
+      ]
+    },
+    {
+      "term": "Autonomous Parameter Surgery LLM Implants Selective Backdoors Weight Edits Qwen3.5-0.8B Llama-3.2-1B SmolLM3-3B DeepSeek Flash 99.2% Attack Success 97.6% Transfer 1.7 Points Capability Single Neuron 6144 Parameters 0.0005% Final Layer 17 of 18 Runs $1.74 16.5 Minutes arXiv 2611.27920 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-23-autonomous-parameter-surgery-backdoor-weight-edits"
+      ]
+    },
+    {
+      "term": "Markdown Is Not a Firewall Coding Agents Rules File 278 Words Claude Code Codex CLI Gemini CLI OpenCode DeepSeek Hidden Tests 98.2% to 90.9% Codex CLI 99.0 to 67.7 11 of 36 Steps Over-Claim Gate Blocked 5 of 90 Gated Steps Pre-Registered Zenodo arXiv 2611.27112 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-23-markdown-is-not-a-firewall-coding-agent-rules-file"
+      ]
+    },
+    {
+      "term": "Model Carving Training Transformers Optimize Own Topology Learnable Scalar Gates Sublayer Removal Harvard NYU 140M to 2.7B 1.7x Compute Lower Validation Loss 34% Fewer FLOPs per Token 1.6x Faster Decode Beats Pruning Distillation arXiv 2611.27962 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-23-model-carving-topology-aware-pretraining"
       ]
     }
   ]
