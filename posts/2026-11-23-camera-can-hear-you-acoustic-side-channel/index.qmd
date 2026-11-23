@@ -1,0 +1,22 @@
+---
+title: "Your Camera Can Hear You: Android's Camera2 Metadata Defeats Sensor Rate Limits"
+date: "2026-11-23 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "Android throttles gyroscopes to 200 Hz to stop motion sensors acting as microphones — but Camera2 pipelines leak 800–1000 Hz gyroscope data through vendor metadata, and a zero-profiling attack transcribes 52% of spoken words."
+image: "/assets/post-images/2026-11-23-camera-can-hear-you-acoustic-side-channel.svg"
+---
+
+Android has a defence against phones that double as microphones: since Android 12, `SensorManager` caps gyroscope and accelerometer rates at **200 Hz**, demands a special permission for anything faster, and throttles sensors back down whenever the microphone toggle is switched off. The idea is that you cannot reconstruct speech from a 200 Hz motion trace, because voice energy sits far above that band.
+
+**Camera2 quietly routes around it.** During an active camera session, the Camera HAL stabilisation pipeline records high-rate gyroscope measurements and exports them through vendor-specific `CaptureResult` metadata. Loudspeaker speech shakes the chassis, and those vibrations couple straight into the stabilisation path. The metadata channel therefore carries a high-rate motion trace while the system-wide rate limit stays intact.
+
+The measurement is broad and uncomfortable. Across **50 smartphones from 10 vendors** (2020–2026), 37 expose gyroscope metadata via Camera2, and **26 exceed 200 Hz** — including six flagship models running at 800–1000 Hz, double what `SensorManager` permits. The channel needs neither `RECORD_AUDIO` nor `HIGH_SAMPLING_RATE_SENSORS`. It also survives the privacy switches: turning the microphone off does not throttle the metadata, and turning the camera off blanks only the video frames while the 800–1000 Hz stream keeps going.
+
+The attack itself is the second contribution. Prior microphone-equivalent attacks train on real sensor traces, which entangles the speech content with one phone's mechanical resonances and sampling rate — so they do not transfer to a phone you have never touched. **Source-to-Leakage Learning (S2L)** decouples the two by training a recogniser on a physics-constrained forward simulator instead of real device data. The resulting universal recogniser, **CamEar**, reaches **52.1% mean word accuracy** (up to 61.8%) and **74.3% character accuracy** on the six 800–1000 Hz phones. By comparison, ISpyU models fine-tuned on real target-phone data fall to **25.9%** word accuracy on unseen phones; CamEar improves cross-device accuracy by 101.4% and beats ISpyU's same-device models on every tested phone.
+
+Caveats: 52% word accuracy is far from a reliable transcript, the leakage path is vendor-dependent (only 37 of 50 devices expose it), and the paper does not describe a fix on the OS side. But the policy question is the sharp part — a permission model that assumes motion data is low-rate is simply wrong once the camera is on.
+
+Source: [arXiv:2611.27964 — Your Camera Can Hear You: Side-Channel Acoustic Eavesdropping via Android Camera2 Metadata](https://arxiv.org/abs/2611.27964)

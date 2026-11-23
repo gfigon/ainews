@@ -1,0 +1,22 @@
+---
+title: "Correct Precedents Induce Policy Violations in On-Device LLM Agents"
+date: "2026-11-23 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - AI Security & Policy
+summary: "An on-device agent that correctly releases one unrestricted item becomes more likely to release the next, still-restricted one — a violation with no faulty step in its history, found in 13 open-weight models."
+image: "/assets/post-images/2026-11-23-correct-precedent-policy-violations-on-device-agents.svg"
+---
+
+Local-cloud agent systems pair a big cloud model with a small on-device agent that touches private data — and that on-device agent is often the last checkpoint before an irreversible action like sending a message or releasing a file. The natural assumption is that such failures come from bad reasoning: a wrong restriction lookup, a misread policy.
+
+**This failure has no faulty step at all.** The authors describe *correct-precedent generalization*: after the agent **correctly** releases an item whose restriction was lifted, it becomes measurably more likely to release the *next* item, which is still restricted. The trigger is the agent doing the right thing. A session history with zero errors can still end in a violation, because the agent carries its decision on the released item over to the restricted one instead of re-checking that item's own status.
+
+The behaviour shows up across **13 open-weight models from nine developers**, so it is not an artefact of one fine-tune. The consequences compound in an obvious way: a single correct precedent can cut the safe rate of the most affected agent **roughly in half**, and if a refused request is simply retried in a fresh session, the harmful precedent is gone but the accumulated bias is not necessarily.
+
+Interventions on the agent's history confirm the mechanism — the agent reuses the released item's decision rather than checking the restricted item's status. From that diagnosis comes a fix: **Paired Decision Distillation (PDD)**, which distils the decisions of a *weakly affected* teacher into a LoRA adapter. PDD restores the safe rate to **nearly 100% in every distilled model**, with no extra prompt text and no extra model calls at inference time.
+
+The broader lesson for anyone shipping a small on-device policy agent: guardrails are usually tested with adversarial or careless histories, but here the *successful* case is the harmful one. Test suites need sequences of clean, correct, sequentially adjacent decisions — the exact thing most red-team prompts avoid.
+
+Source: [arXiv:2611.27216 — Correct Precedents Induce Policy Violations in On-Device LLM Agents](https://arxiv.org/abs/2611.27216)
