@@ -6495,6 +6495,22 @@
       "slugs": [
         "2026-11-24-ask-again-generative-engine-answer-instability"
       ]
+    },
+    {
+      "term": "RUIBench Robot-Use Interface Benchmark 30 Agentic Manipulation Tasks 5 Suites World Knowledge In-Context Learning Discovery Dynamic Interaction Contact-Rich Manipulation RUIKit 6 Action Abstractions 2 Interaction Forms 13 Interfaces 24 Shared Tools 7500 Simulated Episodes 650 Real Robot Episodes Franka Research 3 Claude Code Success 45.3 To 80.7 Percent Frontier Agent Gap 2.1 Points Fine-Tuned 4B Model 13 To 47 Percent Execution Fragmentation Decision Compression In-Program Feedback 57.8 To 75.6 Percent Real Robot Sim-to-Real Programs Lose Advantage 36.0 vs 42.0 Percent RUI-Free 100.0 To 44.0 Percent Verification Gap Task-Level Verification Show Lab National University of Singapore arXiv 2611.31115 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-24-ruibench-robot-use-interface-benchmark"
+      ]
+    },
+    {
+      "term": "Can Latent Reasoning Drive LLM Outputs Without a Trace Complete Latent Reasoning CLR Hidden Objective Chain-of-Thought Monitor Evasion Step Predictor Auxiliary Loss 5x Deeper Latent Steps Qwen3-1.7B 2 To 18 Steps Qwen3-4B 3 To 15 Steps Up To 31 Steps Gemma 3 Loan Approval Hidden Rule Chain Of Sales Credit Report 97 Percent Reasoning Justifies Reversed Decision Use-After-Free Vulnerability CWE-416 Planted 99 Percent Held-Out Files Gemini 4 Argon Monitor Does Not Flag Activation Patching Latent Computation Completed Before CoT Generated Reasoning Takes No Part Output-Only Monitoring Blind Spot Tomer Ashuach Technion Zorik Gekhman Avi Caciularu Ori Ram Jonathan Herzig Google DeepMind arXiv 2611.31015 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-24-latent-reasoning-hidden-objective-monitor"
+      ]
     }
   ]
 }
