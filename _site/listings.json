@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-24-robotrack-point-tracking-robot-manipulation/index.html",
+      "/posts/2026-11-24-tare-content-free-state-attribution/index.html",
+      "/posts/2026-11-24-tool-call-smuggling-json-parser-differential/index.html",
       "/posts/2026-11-23-camera-can-hear-you-acoustic-side-channel/index.html",
       "/posts/2026-11-23-correct-precedent-policy-violations-on-device-agents/index.html",
       "/posts/2026-11-23-thot-hub-optimal-transport-long-context/index.html",

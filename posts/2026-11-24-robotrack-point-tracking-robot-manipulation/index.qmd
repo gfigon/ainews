@@ -1,0 +1,24 @@
+---
+title: "RoboTrack: Robot Point Trackers Are Weaker Than the Benchmarks Suggest"
+date: "2026-11-24 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Research & Innovation
+summary: "Ai2's RoboTrack-Bench drops four leading point trackers by 3–6.6 AJ on real manipulation footage, and reverses their ranking — while RoboTrack-15M, 15 million synthetic tracks from simulation, recovers part of the gap."
+image: "/assets/post-images/2026-11-24-robotrack-point-tracking-robot-manipulation.svg"
+---
+
+Robot pipelines lean on off-the-shelf **point trackers**: given a pixel on an object in one frame, estimate where that point sits later, through occlusion, when it reappears. Trackers score well on the usual robotics benchmarks, so the assumption was that they were deployment-ready. Ai2's new **RoboTrack** benchmark and training suite (published on Hugging Face on 23 November) suggests otherwise.
+
+**RoboTrack-Bench** contains 307 human-annotated videos from DROID, Ego-Exo4D, MolmoAct 2 and EgoVerse, with **2,522 human-verified point tracks**, plus 33 simultaneously recorded camera pairs for multi-view pointing. Annotators prioritise points that move or get occluded rather than static background pixels, and a second group checks every track frame by frame.
+
+The gap is consistent. Every tracker evaluated — CoTracker3, BootsTAPNext, AllTracker, CoWTracker — scores **3.0 to 6.6 Average Jaccard (AJ) lower** on RoboTrack-Bench than on RoboTAP, the only other real-video robotics benchmark. CoWTracker, the strongest, drops from **70.5 to 63.9 AJ**. And rankings flip: CoWTracker's 4.7-point lead over CoTracker3 on RoboTAP shrinks to 2.1 on RoboTrack-Bench, while AllTracker's 2.7-point lead shrinks to 0.8. BootsTAPNext, best on DAVIS, falls 3.7 AJ behind CoWTracker — even trailing the simulation-only AllTracker (60.2 vs 61.4). RGB-Stacking, a simulated benchmark, rewards exactly the wrong thing: BootsTAPNext's extra 15M real videos lift its RoboTrack-Bench score by 5.1 AJ but **drop its RGB-Stacking score by 9.5**.
+
+The remedy is synthetic data aimed at the right scene. **RoboTrack-15M** extends Ai2's MolmoSpaces simulator — a robot arm grasping cups, plates and blocks in 300 simulated homes, rendered in MuJoCo from wrist and base cameras — to compute exact point positions and visibility from simulator geometry. The result is 3,000 videos with **15 million tracks**, no human annotation required.
+
+Two models ship with it: **RoboTracker** (fine-tuned AllTracker, 17M parameters) and **RoboTracker-Warp** (CoWTracker, ~1B parameters, non-commercial weights). RoboTracker-Warp gains **2.1 AJ** on RoboTrack-Bench (63.9 → 66.0) and reaches state of the art on four of five benchmarks; general-video scores stay on par with the base models.
+
+Caveat: 307 clips is small, and the gains come from simulation that must resemble the real scenes. But the direction is clear — robot perception benchmarks were measuring the wrong kind of difficulty.
+
+Source: [Hugging Face — RoboTrack: Point tracking for real-world robotic manipulation](https://huggingface.co/blog/allenai/robotrack)

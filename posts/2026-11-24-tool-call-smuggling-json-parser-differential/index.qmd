@@ -1,0 +1,24 @@
+---
+title: "Tool-Call Smuggling: The Same JSON, Two Different Calls"
+date: "2026-11-24 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "An agent's tool call is parsed once by the provider, again by the gateway, again by the guard, and finally by the executor — and when two of those parsers disagree about ambiguous JSON, the guard approves one call while a different one runs, invisibly."
+image: "/assets/post-images/2026-11-24-tool-call-smuggling-json-parser-differential.svg"
+---
+
+The security model of most agent frameworks assumes a simple pipeline: the model writes a tool call as JSON, a **guard** inspects it and decides whether it may run, and an **executor** runs it. The paper by Igor Santos-Grueiro and Daniel Romero-Ruiz (Universidad Internacional de La Rioja, Proeduca Summa) breaks that assumption. The same bytes travel through the provider, the gateway, the SDK, the framework, the guard and the executor — and JSON leaves enough freedom in parsing that **the same bytes can mean different calls**.
+
+The gap is mundane and devastating. JSON permits a repeated key; each parser decides for itself which copy counts. If the guard reads `{"path":"safe.txt","path":"../../etc/passwd"}` and picks the first value while the executor picks the last, the guard signs off on a benign call and the system performs a dangerous one — while the **audit log records the approved call**, not the executed one. The authors describe six ways the same bytes yield different calls, and build a differential testing harness that feeds identical bytes to **17 pinned parser and validator configurations**. Most pairs disagree on some inputs; even two official MCP SDKs accept different inputs.
+
+On tasks from **τ-bench and AgentDojo**, an attacker able to rewrite the bytes in transit cancels another customer's reservation and creates a file whose *name* is one the guard blocks by name — while the audit log names only the approved call.
+
+The second half is quieter and arguably worse. Ten tested models never write a repeated or disguised key into the call itself. They copy one **verbatim into JSON text inside an argument**, where a Python guard and a Go executor read it differently. A malicious server that copies a legitimate tool's public schema and adds one field gets the model to fill that field with user data, unseen by the guard.
+
+The fix is unglamorous and effective: parse each call **once**, JSON text included, keep only the fields of the approved schema, hand that to the executor, and seal it with its call ID in transit. That stops all **7,412 crafted inputs** and every attack built in the paper.
+
+Caveat: the attack assumes the ability to modify bytes in transit — but between model output and executor, that includes components the model itself influences, like a malicious tool server.
+
+Source: [arXiv:2611.30624 — Oops!... I Parsed It Again: Tool-Call Smuggling Against LLM Agents](https://arxiv.org/abs/2611.30624)
