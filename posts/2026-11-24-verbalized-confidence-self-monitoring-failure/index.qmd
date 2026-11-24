@@ -1,0 +1,24 @@
+---
+title: "Models That Cannot Notice Their Own Mistakes, But Will Take Your Doubt"
+date: "2026-11-24 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Across 27,568 counterfactual continuations, four open-weight models show near-chance AUROC (0.500-0.561) at detecting their own reasoning errors, yet obey an injected '10% confidence' tag - and throw away correct work when doubt lands on a good step."
+image: "/assets/post-images/2026-11-24-verbalized-confidence-self-monitoring-failure.svg"
+---
+
+A common recipe for agentic reasoning is to have the model verbalize a numerical confidence at every step, so that a dip in confidence can trigger backtracking before the answer is committed. The recipe quietly assumes two separate abilities: that the model can **notice** its own error in situ, and that it can **act** on that notice. Daniel Theron separates the two and finds the first one is largely missing.
+
+The study covers four open-weight models - **Qwen2.5-7B, Llama-3.1-8B, Mistral-7B and Phi-4 (14.7B)** - across **15,200 math benchmark attempts**, isolating **2,017 reasoning errors** that fall inside each model's own capability frontier, then applying **27,568 counterfactual continuations** at those failure points.
+
+The monitoring result is close to flat. Verbalized confidence barely separates mistake steps from sound reasoning: within-position **AUROC sits between 0.500 and 0.561** - coin-flip territory. At the very first reasoning error in a trajectory, reported confidence is still **95.1% to 99.9%**. A drop of ten or more points shows up on fewer than **9% of errors for Llama** and under **1.6%** for the other three models.
+
+Steering works fine - externally. Injecting a low-confidence tag ("10%") at the error step raises downstream correction by **+3.7 to +22.5 points** over a format-matched 95% certainty tag (all p ≤ 0.0022), reaching **38.5%** when the model is told to rethink actively. But the same injected doubt applied to a *correct* step makes the model discard valid reasoning, dropping solve rates by up to **22.8 points**.
+
+The practical read: a supervisor that injects doubt is trading a small recovery rate against a large false-alarm cost, and the model's own confidence channel is not a usable error detector - it is nearly independent of whether the reasoning is right. Self-correction loops that rely on internal confidence signals need an external signal instead.
+
+Caveat: four small open-weight models on math problems, plus counterfactual continuations that are not identical to natural generation - the decoupling may look different at frontier scale.
+
+Source: [arXiv:2611.31228 - Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ](https://arxiv.org/abs/2611.31228)

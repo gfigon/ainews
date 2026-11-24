@@ -1,0 +1,22 @@
+---
+title: "Ask Again: AI Search Engines Disagree With Themselves 32% of the Time"
+date: "2026-11-24 08:45"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Research & Innovation
+summary: "Across 60,000 generative-engine answers the same query names a different first entity 32% of the time - and even after 25 repeated runs a close leader is identified only 60% of the time, which breaks brand-monitoring budgets."
+image: "/assets/post-images/2026-11-24-ask-again-generative-engine-answer-instability.svg"
+---
+
+Brands monitor generative search engines the way they once monitored SERPs: ask the question, see who is listed first, and track the position. A new measurement of 60,000 responses suggests that premise is broken. Björn Busch-Geertsema reports that asking the same prompt twice yields a **different first item 32% of the time** - and even when the answer contains the same items in the same set, the ordering disagrees.
+
+The stability curve is the practical part. A **"clear leader"** only emerges after **seven or eight runs**, which happens to match the run budgets commonly recommended for brand and source monitoring. A **"close leader"** - the case where two or three candidates are close enough that their order flips - shows up only about half the time, and after **25 runs a close leader is identified just 60% of the time**. So the monitoring budget that works for a dominant brand silently fails exactly where the money is: competitive sets.
+
+Two further patterns matter. **Variability between engines is larger than within the same engine**, so a cross-engine ranking and a single-engine ranking are not the same measurement. And for **open-ended prompts the gap is more than double** that for determinate ones, meaning the less specific the question, the more unstable the answer list. Observed search queries and cited sites explain only part of the disagreement - most of it stays unexplained.
+
+The recommendation is measurement hygiene rather than a new algorithm: report, per engine, which items appear and how often each comes first, each with its own uncertainty interval. A single screenshot of a single answer is a sample of one from a distribution with a long tail, and brand dashboards are currently built on exactly that.
+
+Caveat: the abstract does not name the engines or prompt sets, and the artifact is an anonymous repository - treat the 32% as a measured instance, not a universal constant.
+
+Source: [arXiv:2611.30819 - Ask Again: Answer-List Instability in Generative Engines](https://arxiv.org/abs/2611.30819)
