@@ -1,0 +1,26 @@
+---
+title: "RUIBench: The Same Robot, the Same Agent, 36 Points Apart"
+date: "2026-11-24 10:15"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Holding the model, the task and the robot fixed and changing only how the agent commands the robot moves Claude Code from 45.3% to 80.7% success - a bigger gap than between two frontier agents - and the simulation ranking does not survive the real Franka arm."
+image: "/assets/post-images/2026-11-24-ruibench-robot-use-interface-benchmark.svg"
+---
+
+Robot benchmarks compare models, and models get the headlines. **RUIBench** (Show Lab, National University of Singapore) asks a different question: how much of a robot agent's score comes from the way it is wired to the robot rather than from the model behind it?
+
+The setup is deliberately controlled. Thirty manipulation tasks across five suites - world knowledge, in-context learning, discovery, dynamic interaction and contact-rich manipulation - with **7,500 simulated episodes** and **650 real-robot episodes** on a Franka Research 3. The harness, the 24 shared tools, the observations (RGB-D and robot state only) and the scoring stay fixed. Only the **robot-use interface** changes: six action abstractions (skills, pose, delta, points, and so on) crossed with two interaction forms (control returns after every action, or only when a program ends), plus a free-choice variant - **13 interfaces in total**.
+
+The result is the kind of number that makes reviewers uncomfortable. Keeping everything else constant, the interface alone moves Claude Code from **45.3% to 80.7%** success. For context, the gap between two frontier agents on the same tasks is about **2.1 points**. A fine-tuned 4B model swings from **13% to 47%**. The model is not the main variable.
+
+The mechanism is decision compression. Fine-grained, per-action interaction fragments a clear plan into a stream of small model calls, which the authors call **execution fragmentation**. Composing actions into programs lets the agent hand over a batch of work - but only when it can actually exploit multi-step execution and the intermediate feedback the program returns. Get that wrong and you lose both: fewer decisions, but also less correction.
+
+And here is the part worth sitting with. The simulation ranking **does not transfer**. Programs beat per-action execution for Claude Code by 23.3 points in simulation, and **lose** that advantage on the real robot (36.0% vs 42.0%) - a sim-to-real drop of 54.0 points for programs against 24.7 for per-action. Free choice transfers worst of all: 100.0% in simulation, **44.0%** on hardware, for both agents. Physical uncertainty demands more opportunities for local correction, and the interface that looked best in simulation is often the one that leaves the agent least able to react.
+
+The paper also names a **verification gap**: agents routinely declare success while the task visibly failed, and checking individual actions does not fix it - verification has to happen at the task level.
+
+Practical read: if you are picking a robot harness this quarter, benchmark the interface, not just the model. The gap between the best and worst wiring on the same robot is larger than the gap between frontier models, and no amount of model benchmarking tells you which one you picked.
+
+Source: [arXiv:2611.31115 - RUIBench: What Makes a Good Robot-Use Interface?](https://arxiv.org/abs/2611.31115)
