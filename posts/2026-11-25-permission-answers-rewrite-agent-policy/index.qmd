@@ -1,0 +1,20 @@
+---
+title: "The Right to Answer a Prompt Is Becoming the Right to Administer the Policy"
+date: "2026-11-25 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Coding agents let plugins and remote services answer permission prompts, and Claude Code documents that such an answer cannot override the operator's deny rules - but that guarantee is checked one decision at a time, and an answer can rewrite the very rules every later answer is checked against."
+image: "/assets/post-images/2026-11-25-permission-answers-rewrite-agent-policy.svg"
+---
+
+Long unattended agent sessions cannot ask a human for permission every time, so vendors delegate the decision. Security plugins vet tool calls. Teams run approval services. Mobile apps drive sessions remotely. Claude Code documents the boundary plainly: an answer from such a party cannot override a matching **deny rule** written by the operator.
+
+**When Answering Is Administering** (Zeming Fei and colleagues at UTS, NUS, UNSW and Sheffield, arXiv 2611.32195) shows that this documented guarantee holds only if you look at one decision at a time - and that the rules themselves stay intact. They do not.
+
+A permission reply can carry a **policy update**. One answer to an unrelated command, routed to a remote service with no access to the operator's files, attaches an update that deletes the deny rule protecting the project's secrets. The agent then reads those secrets in that session and in the next one - including inside the vendor's strict sandbox. Root cause, in the authors' words: Claude Code checks only updates that **add or replace allow rules**. Deletions of deny rules are not checked, and the deletion leaves records indistinguishable from a local operator edit, so the runtime cannot tell who wrote a rule.
+
+The proof generalizes cleanly. Without authorship records, a runtime can safely accept only updates that keep every currently denied call denied. With authorship records, it can let each party lift exactly the restrictions that party itself imposed - and only those. Both bounds are tight, and they predict outcomes across **thirteen permission designs in ten agent systems**, including predictions recorded before running Codex, Gemini CLI, opencode and Goose. Gemini CLI's rule-labeling turns out to be safe by construction; Goose and the Copilot SDK let the application layer delete operator restrictions directly.
+
+Two numbers temper the alarm. Roughly **7%** of deployed relays already forward rule updates, including the vendor's own Remote Control. But of **2,227 marketplace plugins** fetched, only **two** actually send policy updates. The mechanism is real and the population is tiny - which is exactly what makes it attractive to fix properly. A single validator at the shared update step, deciding in under **1.2 ms**, keeps every operator restriction across all tested routes and 20,000 randomized runs, while honest updates still apply.
