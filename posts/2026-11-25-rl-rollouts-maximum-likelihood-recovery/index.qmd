@@ -1,0 +1,22 @@
+---
+title: "Your RL Run's Knowledge Is Sitting in the Rollouts: Maximum Likelihood Alone Recovers It"
+date: "2026-11-25 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "Replaying an RL algorithm on archived rollouts collapses, but plain maximum likelihood on those same rollouts - correct and incorrect responses treated alike - closely tracks the entire online RL learning curve and often recovers the final model."
+image: "/assets/post-images/2026-11-25-rl-rollouts-maximum-likelihood-recovery.svg"
+---
+
+The standard story about RL post-training is tidy: the trainer converts compute into capability by learning from model-generated data, the rollouts are discarded after each update, and the resulting knowledge ends up in the weights. **Jiayi Sheng and colleagues** in "Reinforcement Learning Can Be Recovered From Its Own Rollouts" test the second half of that story, and the answer is uncomfortable in a useful way.
+
+The first attempt is the obvious one: take the archived rollouts and replay the original RL algorithm on them instead of generating fresh ones. The result is **catastrophic collapse**. The authors explain why, and the explanation points straight at the remedy - **maximum likelihood on the archived rollouts**.
+
+That remedy is where the result gets strange. Starting from the same base model and replaying the rollouts in the order they were generated, **without any distinction between correct and incorrect responses**, is sufficient to recover the performance of online RL. A single maximum-likelihood update per rollout batch closely tracks the entire online RL learning curve. And in many cases, maximum likelihood on the rollouts of the **last few RL steps** alone is enough to recover the final model's performance. No reward signal, no advantage estimates, no critic - just likelihood on what the model already generated.
+
+The authors' reading is the interesting part: much of the compute invested in RL goes into **discovering an improved sampling distribution** rather than into learning from samples. The expensive part is the search over trajectories - finding the good ones - and once found, the resulting policy can be reconstructed cheaply from the data itself.
+
+For practitioners this suggests concrete habits. Log and keep your rollouts; they are not disposable scaffolding but the cheapest distillation set you will ever have. Then check whether your pipeline is paying twice for the same thing - if maximum likelihood on your archived rollouts reproduces your final checkpoint, much of your online machinery is re-learning what the rollouts already contain. The paper does not claim online RL is redundant; it claims the knowledge is more portable, and more re-usable, than the training logs suggest.
+
+Source: [arXiv:2611.33102 - Reinforcement Learning Can Be Recovered From Its Own Rollouts](https://arxiv.org/abs/2611.33102)
