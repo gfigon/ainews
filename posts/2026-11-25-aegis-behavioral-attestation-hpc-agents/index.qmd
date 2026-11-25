@@ -1,0 +1,24 @@
+---
+title: "AEGIS: Catching the Hijacked Agent Inside the HPC Cluster"
+date: "2026-11-25 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "Agentic workflows on supercomputers create a new attack shape - a fully authorized agent subverted by prompt injection or poisoned data, exfiltrating through encrypted LLM API traffic - and AEGIS answers it with runtime behavioral attestation over eBPF syscall interception rather than with another prompt filter."
+image: "/assets/post-images/2026-11-25-aegis-behavioral-attestation-hpc-agents.svg"
+---
+
+AI agents are now steering data analysis, orchestration and simulation on HPC clusters - which means the cluster's classic defenses are aimed at the wrong thing. **AEGIS** (Jie Li and colleagues) names the gap precisely: the **hijacked authorized agent**. There is no stolen credential and no anomalous login. An adversary subverts a legitimately-privileged agent through prompt injection, poisoned shared data, compromised tools, or multi-agent coordination, and then exfiltrates sensitive data through what looks like ordinary encrypted LLM API traffic.
+
+The proposed defense is **behavioral attestation** - a runtime check, not a content filter. The system compiles task-derived behavioral constraints into profiles, monitors agent actions via **eBPF-based syscall interception**, verifies observed evidence against those profiles, correlates behavior across agents, and escalates to **slurm-level containment** when constraints are violated.
+
+On the real attestation path, the results are the kind that matter more than benchmark deltas: AEGIS detects **all four implemented attack classes** with **sub-second median latency** at a one-second sampling interval, and with low measured verifier overhead. Controlled experiments show full attack-suite coverage, stronger detection than representative baselines, and **no observed false positives** on the evaluated benign workflows.
+
+The design choice worth noting is what AEGIS does *not* try to do. It does not attempt to judge whether an agent's reasoning is sound, and it does not block tokens by content pattern. It watches what the process actually does to the machine - syscalls, file access, network egress - and checks that against a constraint set derived from the task it was given. That makes it robust to the attack class it targets: the hijacked agent still has valid credentials and still emits perfectly well-formed, encrypted traffic, but it does things a data-analysis agent was never authorized to do.
+
+There are limits to be honest about. "No observed false positives" is a statement about the evaluated benign workflows, not a guarantee about production ones. Attestation also inherits the age-old problem of constraint authoring: a badly specified profile either misses attacks or drowns the operator in noise. And the coverage claim rests on four implemented attack classes, which is a starting set, not an exhaustive threat model.
+
+Practical read: if agents run where the data is, treat the agent as the new privileged principal. Perimeter auth alone cannot catch a subverted one, and prompt filtering will not help when the exfiltration rides on legitimate API traffic. Watching behavior at the syscall boundary is the layer that still has ground truth.
+
+Source: [arXiv:2611.32958 - Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents](https://arxiv.org/abs/2611.32958)

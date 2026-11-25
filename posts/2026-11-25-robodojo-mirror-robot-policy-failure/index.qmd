@@ -1,0 +1,24 @@
+---
+title: "RoboDojo-Mirror: A Mirror Costs Robot Policies Up to 62 Points"
+date: "2026-11-25 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "Putting a single mirror on a robot's tabletop drops manipulation success by 10.8 to 56.7 points across five policies - and 50 to 88 percent of the failures happen without the robot ever touching the mirror, pointing at phantom targeting and spatial mislocalization rather than collision."
+image: "/assets/post-images/2026-11-25-robodojo-mirror-robot-policy-failure.svg"
+---
+
+Most robot benchmarks deliberately remove every nuisance from the scene. A new one puts a mirror back in. **RoboDojo-Mirror** (Xuanchen Liu and colleagues, iPPLab) extends RoboDojo while preserving task objectives, success criteria and policy checkpoints, so the *only* variable is reflection: a mirror-free baseline against **single-mirror**, **dual-mirror** and **mirrored-tabletop** conditions.
+
+Every mirror condition degrades every policy. Averaged across the three mirror setups, the aggregate success drop ranges from **10.8 to 56.7 percentage points** depending on the policy, and reaches **62.5 points** on the mirrored tabletop. Five policies were tested, spanning **Vision-Language-Action models, World Action Models and agentic policies** - three distinct families of control stack, one shared weakness.
+
+The obvious explanation is that a mirror is also a physical obstacle. The authors test that directly by comparing against geometrically matched **non-reflective panels**. The result rules it out: **50 to 88 percent** of mirror-specific failures occur **without any recorded robot-panel contact**. Collisions do not explain the degradation.
+
+What the trajectory and contact analysis shows instead is **phantom targeting** of reflected objects and **spatial mislocalization** of real ones. The policies are not bumping into the mirror; they are reaching for the wrong thing, or reaching for the right thing in the wrong place. Targeted diagnostics add the detail: grasping near reflections degrades, pushing progress becomes policy-dependent, and physical-target interaction collapses when the main camera's view is occluded. Real-robot experiments with **π0.5** and **FastWAM** reproduce the pattern - lower success rates under the upright-mirror and mirrored-tabletop conditions, so this is not a simulator artifact.
+
+The broader implication is bigger than mirrors. Every deployment environment with reflective surfaces - a stainless steel counter, a glossy black tabletop, a window, a display - hands these policies a phantom object and a corrupted spatial frame. And the failure mode is silent: the robot does not crash, it just reaches for something that is not there, or reaches in the wrong direction, with no signal that anything went wrong.
+
+Practical read: reflective surfaces belong in your evaluation suite even if they never appear in your training data. If you are deploying embodied policies in homes, labs or kitchens, a single mirror panel is a cheap, brutal diagnostic for whether the policy is reading the scene or reading its own assumptions about the scene.
+
+Source: [arXiv:2611.33010 - Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010)

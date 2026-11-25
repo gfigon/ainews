@@ -1,0 +1,22 @@
+---
+title: "AIChipBench: 45 of 69 Working Chip Designs Failed on New Tokens"
+date: "2026-11-25 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - Agents & Automation
+summary: "Coding agents now write synthesizable RTL for quantized LLM decoders, but the benchmark's headline is a failure rate - 45 of 69 designs that passed their own tests broke on held-out sequences - and the fix points at one thing: debugging feedback that exposes stored state, not just output."
+image: "/assets/post-images/2026-11-25-aichipbench-stored-state-feedback.svg"
+---
+
+Hardware design is becoming an agent benchmark, and the results are sobering in a way that software benchmarks rarely are. **AIChipBench** (Yifan Zhang and colleagues) asks coding agents to do something concrete: implement quantized decoders for **Qwen3.5, Gemma 3, Gemma 4 and Llama 3.2** as synthesizable RTL, checked against an executable integer reference that pins both the outputs *and* the stored state at every decoding step. Across **9,136 attempts** by four agents, the failures are not subtle.
+
+The core bug is a hardware-native version of a classic mistake. A wrong state update in an LLM decoder can leave the **current token correct** while corrupting the output several tokens later. A design can therefore pass every output test it was given and still be broken. In practice, **45 of the 69 accepted designs** failed within 32 steps when regraded on new token sequences, resets, memory stalls and synthesis conditions.
+
+The benchmark's most actionable result is about feedback, not model ranking. Agents that received a message pointing to the **first state mismatch** outperformed agents given output-only feedback in **all 12 agent-task cells** of a matched study, by **25.0 to 46.9 percentage points** in acceptance, and cut agent-hours per accepted design roughly in half. Grading the same artifacts with both halves of the benchmark produced the same ordering in **all 200 random splits**: **Sol 5.6** and **Fable 5.1** ahead of **Astra 6** and **Opus 5.5**.
+
+A second track asked agents to speed up a design that was already correct, at nearly fixed area. More than a third of those attempts ended with **no working design at all**. Optimization under a hard area constraint is where the frontier models fall apart most visibly - they break what already worked.
+
+Practical read: the bottleneck in agentic hardware work is not the agent's ability to write RTL, but the *instrumentation* it gets to debug with. Two design lessons follow directly. First, feedback must expose internal state, not just surface output - the same logic applies to KV-cache bugs in production serving. Second, final acceptance tests must sit well outside the development cases, because a test suite that mirrors your debugging loop will happily certify a broken design.
+
+Source: [arXiv:2611.33093 - Benchmarking LLM Agents for Automated AI Accelerator Design](https://arxiv.org/abs/2611.33093)
