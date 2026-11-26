@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-26-mixture-of-loops-transformer/index.html",
+      "/posts/2026-11-26-agentlens-agent-security-audit/index.html",
       "/posts/2026-11-26-cross-model-latent-handoff-safety/index.html",
       "/posts/2026-11-26-coding-agent-over-editing-delta-residue/index.html",
       "/posts/2026-11-26-drbench-pro-deep-research-coverage/index.html",

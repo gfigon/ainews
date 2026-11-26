@@ -1,0 +1,22 @@
+---
+title: "Five Popular Coding Agents, 44 Confirmed Vulnerabilities, and 12 CVEs"
+date: "2026-11-26 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "AgentLens turns agent source code into an Audit Knowledge Graph, derives attack paths from it, and proves every one of its 44 findings by actually executing the exploit - 12 of them now carry CVE identifiers."
+image: "/assets/post-images/2026-11-26-agentlens-agent-security-audit.svg"
+---
+
+Security papers about LLM agents tend to end at a list of possible weaknesses: a tainted file read, an unescaped shell call, a prompt that might travel from a README into a tool argument. The gap is that a weakness on paper is not yet an incident. **AgentLens**, from NTU Singapore, Shandong University and the Chinese Academy of Sciences, is built around closing that gap - every one of its findings was **triggered during actual execution**.
+
+The method starts from the agent's own code. AgentLens parses the implementation, the component interactions and the built-in defenses, and organizes them into an **Audit Knowledge Graph**. From that graph it derives candidate attack paths, then does the part most audits skip: it generates a **path-specific validation payload** and wraps it in a **multi-turn audit scenario** where the payload sits in a task-relevant context, so the agent has a plausible reason to touch it. The finding only counts if the execution actually shows a security violation.
+
+The targets are five widely used open-source coding agents - **Aider v0.86.3, MetaGPT 1.0.0, Goose v1.29.1, Cline v3.51.0 and Roo-Code v3.51.1** - each with more than 24,000 GitHub stars and codebases ranging from 38,246 to 385,891 lines. The numbers are not small. AgentLens annotated an average of **107 weakness nodes** per agent, derived **14 audit paths**, and validated **8.8 vulnerabilities per agent** - a **62.86 percent** hit rate on paths, which is high for security work. Against the prior state of the art **AgentFuzz**, it detects **3.67 times more** vulnerabilities; on Aider alone it found 11 where AgentFuzz found 3 and Agent Audit found 0.
+
+The vulnerability classes are mundane in the way real production bugs are: code injection, path traversal, SQL injection, SSRF, cleartext transmission of tokens. Several come from the plumbing rather than the model - a **malicious MCP tool response** in Roo-Code (CVE-2026-81835), a **patch path resolving outside the workspace** (CVE-2026-81837), an **SSRF through a metadata endpoint** in Aider (CVE-2026-10177). Twelve issues have been assigned CVE identifiers: CVE-2026-10174 to 10177, 19058 to 19060, and 81833 to 81837.
+
+The interesting part is the implication. Agent security is often discussed as a prompt problem, but every headline finding here is an ordinary integration bug that a static auditor would recognize - if anyone were reading the code with the graph in hand. The cost is real too: about **2,396 seconds per agent** for a full audit. For teams shipping coding agents, that is a quarter-day of compute to know which of their paths a README can walk.
+
+Source: [arXiv:2611.34380 - AgentLens: Graph-guided Security Auditing for LLM-based Agents](https://arxiv.org/abs/2611.34380)

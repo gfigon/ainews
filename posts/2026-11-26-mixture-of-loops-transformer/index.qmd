@@ -1,0 +1,22 @@
+---
+title: "Mixture-of-Loops: Reusing KV Memory Across Depth Cuts the Token Cost of Looped Transformers"
+date: "2026-11-26 08:45"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "MoLT changes what crosses the boundary between transformer loops - KV memory instead of a redundant residual stream - and reports 1.7x better validation cross-entropy token efficiency at 700M while keeping inference latency at non-looped levels."
+image: "/assets/post-images/2026-11-26-mixture-of-loops-transformer.svg"
+---
+
+Looped transformers let a network reuse the same layers several times over a sequence, which buys extra expressivity at a brutal price: every loop is another full pass with another set of weights and activations to compute. The design question that decides whether the trade pays off is narrow but decisive - **what exactly gets handed from one loop to the next**.
+
+**Mixture-of-Loops Transformer (MoLT)**, from HUST's Lianghui Zhu and colleagues, answers with **Mixture-of-Loops Attention (MoLA)**, which uses **keys and values as memory for selective reuse across depths and loops**. Two variants follow. **MoLT-R** keeps the residual stream and reads local KV across loops, spending its budget on expressivity. **MoLT-KV** does the opposite: it **restarts from the embeddings** and reads current-loop local KV plus **preceding-loop memory KV at earlier positions**, which removes the same-position cross-loop dependence and buys efficiency instead.
+
+The second variant is what makes the rest possible. Because a layer no longer has to wait for the previous loop's identical position, loops become **parallelizable**: a **loop forcing** trick during training lets the model decode **single-traversal**, beyond the loop horizon it was trained on. On top of that sits **U-MoLT**, a U-shaped arrangement that **separates memory construction from prediction readout** and skips decoder traversals whose output is never used - without changing predictions.
+
+The measurements are the argument. In **400B-token pretraining**, U-MoLT beats **OLMo3** across **700M and 1.5B dense** models and a **3B MoE** model, reaching **1.7x validation cross-entropy token efficiency at 700M** and improving the 3B MoE's 10-domain perplexity by **0.75** and 10-task accuracy by **2.1 percentage points**. In **100B-token continued pretraining of Qwen3.5-0.8B-Base**, the adaptation lowers cross-entropy on **all 11 domains** against a matched baseline, at **1.4x mean token efficiency**. At inference, **MoL-Hybrid-2** matches non-looped OLMo3 latency - **996.6 ms vs 1,000.6 ms** on ~113M-parameter models.
+
+That last number is the one to sit with. Looping has historically been a research luxury: more compute per token in exchange for a better score. MoLT's pitch is that the extra compute can be made nearly free at inference while the deeper reuse still pays off in training efficiency - which, if it holds at larger scale, would make recurrent depth a design choice rather than a tax.
+
+Source: [arXiv:2611.34923 - Mixture-of-Loops Transformer](https://arxiv.org/abs/2611.34923)
