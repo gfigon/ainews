@@ -1,0 +1,22 @@
+---
+title: "The Best Deep Research Agent Covers 57 Percent of the Knowledge It Was Asked About"
+date: "2026-11-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "DRBench Pro grades deep research agents on knowledge-tree coverage rather than report quality - 144 cases, 24 domains, 44,102 structured rubrics, and a top score of 57.04 percent, revealing that breadth and depth fail in different directions for different agents."
+image: "/assets/post-images/2026-11-26-drbench-pro-deep-research-coverage.svg"
+---
+
+Deep research agents are graded the way essays are graded - a judge looks at the report and scores quality, coherence, citation, depth. That tells you the report is good. It does not tell you which research directions the report never went in. A new benchmark makes structural coverage the primary target instead.
+
+**DRBench Pro**, from Han Huang and colleagues at Zhejiang University and Tsinghua, builds a **local knowledge tree from Wikipedia**, samples subgraphs from it, and uses those subgraphs to generate research queries plus **evidence-grounded rubrics**. The structural trick is what makes the metric work: **each rubric corresponds to a relation in the knowledge tree**, so the evaluation preserves the shape of the knowledge instead of flattening it into a checklist. Agents receive only the research query - no map of the tree, no hints about what lies beyond the first hop.
+
+From that structure the benchmark separates two axes that existing scores blur together: **breadth** across major research directions and **depth** along related knowledge chains. The overall score is their **geometric mean**, which means a report that nails one direction and ignores the rest does not average its way into a good mark. The scale is **144 cases across 24 domains with 44,102 rubrics**, and **16 deep research agents** were evaluated. The best-performing agent reached **57.04% overall coverage** - which is the headline number and also the honest one: even the leader is missing more than two fifths of the relevant knowledge surface on the questions it was asked.
+
+Two properties make the numbers more usable than a single leaderboard. **Rubric judgments agree closely with human annotations**, and **agent rankings remain stable across the tested metric configurations**, so the ordering is not an artifact of a particular aggregation choice. Both matter more than usual here, because a benchmark that only measures "did the report look thorough" is exactly the kind that flatters the systems which write the longest reports.
+
+The uncomfortable reading is that professional research coverage is a hard combinatorial problem, and today's deep research agents are nowhere near the ceiling. A report can be entirely accurate and still score below 60 percent, because the metric penalizes silence about subtrees the agent never traversed. Whether that gap is a capability limit or a search-budget limit is the more interesting open question - and the paper's own structure suggests it is at least partly a budget problem, since the benchmark knows exactly which unexplored branches it built the query around.
+
+Source: [arXiv:2611.34852 - DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents](https://arxiv.org/abs/2611.34852)

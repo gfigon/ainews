@@ -1,0 +1,20 @@
+---
+title: "Latent Handoffs Break Safety Alignment: 0.4 Percent Injection Compliance Becomes 44 Percent Through a KV Cache Mapper"
+date: "2026-11-26 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "The Chasm framework attacks cross-model KV cache transfer on three surfaces and finds that a target model refusing 99.6 percent of injected prompts will follow up to 44.2 percent of them once the context arrives as latent state through a learned mapper."
+image: "/assets/post-images/2026-11-26-cross-model-latent-handoff-safety.svg"
+---
+
+Latent communication is the efficiency story of the moment: agents in a multi-agent system stop exchanging natural-language messages and start sharing internal representations, avoiding repeated processing of the same context. The most concrete mechanism is **cross-model Key-Value cache transfer** - a learned mapper translates a source model's KV cache into one the target model can consume directly. It also means the target model ingests context it did not encode itself. Does its safety alignment survive that?
+
+**Chasm**, from Manit Baser and colleagues, says largely no - and it locates the failure precisely by splitting the attack into **three surfaces: the source model, the mapper, and the handoff mechanism itself**. The mapper turns out to be the interesting one, since it is the piece that touches both the source's output and the target's input.
+
+The numbers are the story. A target model that follows **only 0.4%** of benchmark prompt injections natively will follow **up to 44.2%** of them when the same content arrives transferred through a mapper from a source model. That is not a jailbreak in the usual sense - there is no adversarial craft here, just a pipeline that treats state as context and context as authoritative. Jailbreak-style attacks behave similarly: transfer alone raises attack success by **up to 24.6 percentage points** within a model family and **up to 69.2 points** for zero-shot attacks, while **white-box optimization through the mapper reaches 92.5%** attack success against **37.5%** for ordinary GCG on the same target. A mapper that translates representations is, from the attacker's side, a differentiable channel into the target's context.
+
+The proposed defense is deliberately lightweight: a **target-side cache guard** that inspects and corrects transferred caches before the target consumes them, restoring the refusal behavior and considerably mitigating the attacks. Whether it is cheap enough to sit in the hot path of every handoff is the open question - the trend toward sharing raw latent state across models is moving faster than the tooling to police it. The general lesson is uncomfortable for anyone treating a KV cache as an inert artifact: transferred state is **executable context**, and the target model's alignment was never trained on the possibility that it would arrive pre-poisoned by a model it does not know it is talking to.
+
+Source: [arXiv:2611.34278 - Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems](https://arxiv.org/abs/2611.34278)

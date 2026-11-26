@@ -1,0 +1,22 @@
+---
+title: "Coding Agents Are Not Over-Editing as Much as We Charged Them: 11 Percent of Agent Code Is Unneeded, Not Half"
+date: "2026-11-26 08:00"
+author: "AI News Editorial"
+categories:
+  - Agents & Automation
+  - Research & Innovation
+summary: "Delta Residue Attribution replays 7,660 agent trajectories and grades every block of a patch for actual necessity - agents' code is at least as necessary as developers' (0.887 vs 0.864), 89 percent of what remains unneeded still changes behavior, and the fix is harness-level pruning rather than model training."
+image: "/assets/post-images/2026-11-26-coding-agent-over-editing-delta-residue.svg"
+---
+
+Agent patches are bigger than developers' patches. It gets read as over-editing, and over-editing gets read as sloppiness. But patch size says nothing about whether the extra lines were needed, what they were, or where they came from. A new study finally measures the thing everyone was guessing at.
+
+**Delta Residue Attribution** (DRA), from Aakash Goel, Benjamin Steenhoek and Yu Hu, is a mechanical procedure rather than a model-based judge. It replays agent trajectories, traces every block (unit) of the final patch back to the step that wrote it, reverts each unit one at a time, and reruns the task tests to decide whether that unit was necessary. The unit is graded on the same terms whether it came from an agent or a human. The dataset is large enough to be worth trusting: **7,660 resolved GitHub Copilot CLI trajectories** from **18 frontier models** across **SWE-bench Verified (6,728)** and **DeepSWE (932)**, with developer patches graded by the identical method.
+
+Agents do touch more lines. But the composition of the excess is unremarkable: on SWE-bench Verified, most extra edits **add tests (61%)** and **documentation (13%)**; on DeepSWE, most extra edits are actual code (**58%**). Once graded for necessity, agents' code comes out **at least as necessary as developers'** - mean code necessity **0.887 vs 0.864** on SWE-bench Verified, where **11 of 18 models leave less unneeded code than the humans they replace**, and **0.797 vs 0.785** on DeepSWE. Averaged across SWE-bench, **11% of an agent patch's code units are still unneeded** - and **89% of those change behavior**, so the residue is not decorative.
+
+Two findings complicate the "agents write bloated patches" story. Code necessity is **unrelated to resolve rate** on SWE-bench Verified and **negatively correlated** with it on DeepSWE (**Spearman -0.59, p = 0.01**) - a model can solve more tasks while writing sloppier code, so resolve rate is not a proxy for cleanliness. And the origin of the residue matters: **debug steps write almost none of the unneeded code**, which points at exploration, not at final-answer generation.
+
+The remediation results are the practically useful part. Pruning with DRA using only the tests the agent could see (its own plus the repository's) removes the majority of unneeded code but also some needed code - **67% recall, 46% precision** - and **89% of pruned patches still resolve the task**. Asking the agent to audit its own diff is more precise but less effective (**36% recall, 66% precision**). The authors' recommendation is blunt: benchmarks should report **code necessity next to resolve rate**, and over-editing should be addressed through model training plus **harness-level pruning**, not by exhorting models to be tidier. The caveat worth holding onto is cost - DRA reruns the test suite per reverted unit, so it is an offline analysis instrument rather than something you drop into a live loop.
+
+Source: [arXiv:2611.34875 - How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches](https://arxiv.org/abs/2611.34875)
