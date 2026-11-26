@@ -1,0 +1,22 @@
+---
+title: "Tokenisation Is Not in APX: Every Tokenizer You Ship Is a Heuristic"
+date: "2026-11-26 10:15"
+author: "AI News Editorial"
+categories:
+  - LLMs & Models
+  - Research & Innovation
+summary: "A complexity-theory result from Cambridge proves no polynomial-time algorithm can approximate optimal tokenization within any constant factor - which reframes BPE and UnigramLM as pragmatic heuristics rather than near-optimal solutions."
+image: "/assets/post-images/2026-11-26-tokenisation-not-in-apx.svg"
+---
+
+Every large language model starts with a choice that almost nobody defends: how to cut text into tokens. **BPE** merges the most frequent adjacent pair, greedily, until a vocabulary budget is exhausted. **UnigramLM** fits a latent segmentation with expectation-maximisation against a unigram likelihood. Both are treated as if they were engineering conveniences approximating some optimum. A new complexity result from **Violeta Kastreva, Philip Whittington, Dennis Komm and Tiago Pimentel** says the premise is wrong.
+
+Their claim is precise and, in a way, worse than "tokenization is hard". They prove that unless P=NP, **no polynomial-time algorithm can find a tokenizer whose objective is within any constant factor of the optimum** - which is the formal statement that **tokenisation is not in the APX complexity class**. APX-hardness means that for some constant c>1, no efficient algorithm can guarantee a solution within factor c of optimal; "not in APX" means no approximation scheme at all, for any constant factor. The results hold for **direct tokenisation** (segment each string optimally from scratch) and **bottom-up tokenisation** (merge-based, i.e. BPE-style), under both a **compression objective** and a **unigram log-likelihood objective**, over binary or larger alphabets. They go further: even over a **unary alphabet**, direct tokenisation is APX-hard.
+
+The prior literature had been close but not complete - **Kozma and Voderholzer (2026)** showed bottom-up tokenisation is APX-hard, and **Lim et al. (2025)** showed direct tokenisation is NP-hard. This paper closes the gap and shows there is no approximation guarantee to be had in the general case.
+
+What it means practically is blunt. The reductions leave open only approximation guarantees close in ratio to **character-level tokenisation** - that is, the trivial baseline. Any meaningful guarantee about how good a tokenizer is must be **dataset-specific**, and the authors' own limitation section concedes the hardness constructions are unlike natural text, where current algorithms may sit near the optimum. Their proposed next step is not a better algorithm but a **certificate**: proving how close a tokenizer is to optimal on a given target corpus, with LP-based work (Tempus et al., 2026) as a first step.
+
+So the practical takeaway is not "use a different tokenizer". It is that the tokenizer you ship is a heuristic whose quality on your corpus is unverified, and that BPE's known bad worst-case compression behaviour is not an implementation artefact but a structural consequence. Tokenizer training, quietly, is the one part of the LLM stack that nobody can promise to get right.
+
+Source: [arXiv:2611.34938 - Tokenisation is not in APX](https://arxiv.org/abs/2611.34938)

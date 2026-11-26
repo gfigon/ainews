@@ -1,0 +1,24 @@
+---
+title: "Your Monitor Eval Number Is a Choice, Not a Measurement"
+date: "2026-11-26 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "An evaluation of an ex-production OpenAI monitor shows false negative rates swinging from 0.5% to 23% purely on how the red team attacked - meaning monitor robustness numbers in system cards largely reflect attack-policy choice."
+image: "/assets/post-images/2026-11-26-monitor-eval-attack-policy-choice.svg"
+---
+
+Control-style safety evaluations are supposed to answer one question: how often does a monitor fail to flag dangerous behaviour? The answer they produce is a single number - and **Charlie Griffin, Oliver Makins, Asa Cooper Stickland, Alessandro Abate, Yarin Gal, Abby D'Cruz and Xander Davies** show that the number is largely a property of the measurement setup rather than of the monitor.
+
+Their case study targets an **ex-production OpenAI monitor** (GPT-5.4 with xhigh reasoning, OpenAI's own monitor prompt) watching an internal agent, **Qwen 3.8 27B** at high reasoning, on infrastructure-as-code tasks. The deployment scenario, control tasks, agent and monitor were all held fixed across **30 control tasks**; the only thing that varied was the **attack policy** generating the transcripts. Every attack was developed against **proxy monitors only**, with GPT-5.4 held out, so the reported miss rates measure genuine transfer.
+
+The spread is the story. **Basic prompting** reached an FNR of **0.2%**, a pre-existing optimised "async-control" prompt **0.5%**. Two rounds of human-in-the-loop **prompt optimisation** against a proxy monitor took it to **6.4%**. **Reinforcement learning** on a LoRA-adapted copy of Qwen 3.8 27B, trained with GRPO/DPPO against proxy-monitor rewards, climbed from **0.5% to 20.8%** - and the very first evaluated checkpoint, after roughly 5.5k training transcripts, already hit **5.1%**. **Transcript editing**, where a prompted GPT-5.6 Sol model rewrites reasoning, messages and tool calls against proxy feedback, went from **0.3%** on unedited seeds to **18.7%** at 50 edits per seed, peaking at **23.0%** at 100.
+
+The uncomfortable implication: an evaluation using only the baseline prompts would report a FNR at or below 0.5% and conclude the monitor was robust. The same monitor, same tasks, same scenario, evaluated honestly, evades one time in five. And the authors note their own optimisation found nothing for **several weeks** before landing on three separate ways past the monitor - so even a narrow FNR range doesn't bound the true one.
+
+The paper is careful not to say "the monitor is weak". The deeper problem is that attack transcripts are **proxies**, and proxies carry artefacts - off-policy sampling leaves traces like chain-of-thought mentioning a "side task" the monitor was never instructed about. Turning any measured FNR into a deployment claim therefore needs a separate **legitimacy argument** for why the proxy is informative and conservatively so. The authors are blunt that producing convincing versions of those arguments is an open problem.
+
+Which means every monitor-evasion number in a system card should be read with its attack methodology attached. If the red team used one prompt, the number is an upper bound on effort, not on danger.
+
+Source: [arXiv:2611.34934 - Attack Policy Selection can Mislead Monitor Evaluators](https://arxiv.org/abs/2611.34934)
