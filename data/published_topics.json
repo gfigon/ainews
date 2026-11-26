@@ -6607,6 +6607,22 @@
       "slugs": [
         "2026-11-26-mixture-of-loops-transformer"
       ]
+    },
+    {
+      "term": "Tokenisation Is Not In APX Complexity Class No Polynomial Time Algorithm Can Approximate Optimal Tokenizer Within Any Constant Factor Unless P Equals NP Direct And Bottom-Up Tokenisation Compression And Unigram Log-Likelihood Objectives Binary And Larger Alphabets Unary Direct Tokenisation APX-Hard BPE Greedy Compression Merging Most Frequent Adjacent Pair UnigramLM Expectation-Maximisation Kozma And Voderholzer Bottom-Up APX-Hard Lim Direct NP-Hard Reduction Leaves Only Approximation Guarantees Close To Character-Level Tokenisation Any Practical Guarantee Must Be Dataset-Specific Certification Via Linear Programming Tempus arXiv 2611.34938 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-tokenisation-not-in-apx"
+      ]
+    },
+    {
+      "term": "Attack Policy Selection Can Mislead Monitor Evaluators Ex-Production OpenAI Monitor GPT-5.4 Target Monitor Qwen 3.8 27B Agent Internal Infrastructure-As-Code 30 Control Tasks Four Attack Methods Basic Prompting 0.2 Percent FNR Async-Control Prompt 0.5 Percent Two Rounds Optimised Prompting Against Proxy Monitor 6.4 Percent Reinforcement Learning LoRA GRPO DPPO 0.5 To 20.8 Percent 5.5k Training Transcripts 5.1 Percent Transcript Editing GPT-5.6 Sol Editor 0.3 To 18.7 Percent At 50 Edits Peak 23.0 Percent At 100 Edits Attacks Transfer From Proxy Monitors To Held-Out GPT-5.4 Red Team Found Nothing For Several Weeks Proxy Artefacts Side Task Mentioned In Chain Of Thought Legitimacy Argument Open Problem Anthropic Google DeepMind OpenAI System Cards arXiv 2611.34934 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-monitor-eval-attack-policy-choice"
+      ]
     }
   ]
 }
