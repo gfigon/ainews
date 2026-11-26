@@ -6591,6 +6591,22 @@
       "slugs": [
         "2026-11-26-cross-model-latent-handoff-safety"
       ]
+    },
+    {
+      "term": "AgentLens Graph-Guided Security Auditing for LLM-Based Agents Audit Knowledge Graph Candidate Attack Paths Path-Specific Validation Payloads Multi-Turn Audit Scenarios Five Open-Source Coding Agents Aider v0.86.3 MetaGPT 1.0.0 Goose v1.29.1 Cline v3.51.0 Roo-Code v3.51.1 44 Validated Vulnerabilities Every Finding Triggered During Execution 3.67x More Than AgentFuzz 11 vs 3 vs 0 on Aider Average 107 Weakness Nodes 14 Audit Paths 8.8 Validated Vulnerabilities Per Agent 62.86 Percent Validated Path Ratio 2396 Seconds Per Agent Code Injection Path Traversal SQL Injection SSRF Cleartext Token Transmission CVEs CVE-2026-10174 CVE-2026-10175 CVE-2026-10176 CVE-2026-10177 CVE-2026-19058 CVE-2026-19059 CVE-2026-19060 CVE-2026-81833 CVE-2026-81834 CVE-2026-81835 CVE-2026-81836 CVE-2026-81837 Malicious MCP Tool Response Patch Path Traversal Outside Workspace SSRF Through Metadata Endpoint arXiv 2611.34380 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-agentlens-agent-security-audit"
+      ]
+    },
+    {
+      "term": "Mixture-of-Loops Transformer MoLT Mixture-of-Loops Attention MoLA Keys And Values As Memory For Selective Reuse Across Depths And Loops MoLT-R Loop Residual Keeps Residual Stream Reads Local KV Across Loops MoLT-KV Restarts From Embeddings Reads Current-Loop Local KV And Preceding-Loop Memory KV At Earlier Positions Eliminates Same-Position Cross-Loop Dependence Loop Forcing Enables Parallel Training Single-Traversal Mixture-of-Loops Decoding Beyond Training Loop Horizon U-Shaped U-MoLT Separates Memory Construction From Prediction Readout Skips Unused Decoder Traversals Without Changing Predictions 400B-Token Pretraining Outperforms OLMo3 700M 1.5B Dense And 3B MoE 1.7x Validation Cross-Entropy Token Efficiency At 700M 3B MoE 10-Domain Perplexity Improved By 0.75 10-Task Accuracy +2.1 Percentage Points 100B-Token Continued Pretraining Qwen3.5-0.8B-Base Lower Cross-Entropy On All 11 Domains 1.4x Mean Token Efficiency Inference MoL-Hybrid-2 Latency 996.6ms vs 1000.6ms Non-Looped OLMo3 S-Size 113M Models Code github hustvl/MoLT arXiv 2611.34923 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-mixture-of-loops-transformer"
+      ]
     }
   ]
 }
