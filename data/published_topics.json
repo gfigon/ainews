@@ -6567,6 +6567,30 @@
       "slugs": [
         "2026-11-25-rl-rollouts-maximum-likelihood-recovery"
       ]
+    },
+    {
+      "term": "How Much Do Coding Agents Over-Edit Delta Residue Attribution DRA Replays Agent Trajectories Traces Every Patch Block To Writing Step Reverts Unit Reruns Task Tests 7660 Resolved GitHub Copilot CLI Trajectories 18 Frontier Models SWE-bench Verified 6728 DeepSWE 932 Extra Edits Add Tests 61 Percent Documentation 13 Percent Code 58 Percent Code Necessity 0.887 vs 0.864 0.797 vs 0.785 11 of 18 Models Leave Less Unneeded Code Than Developers 11 Percent Unneeded Code Units 89 Percent Change Behavior Debug Steps Write Almost None Resolve Rate Unrelated Spearman -0.59 p 0.01 Pruning Visible Tests Recall 67 Percent Precision 46 Percent 89 Percent Pruned Patches Still Resolve Agent Self-Audit Recall 36 Percent Precision 66 Percent Report Code Necessity Beside Resolve Rate Harness-Level Pruning arXiv 2611.34875 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-coding-agent-over-editing-delta-residue"
+      ]
+    },
+    {
+      "term": "DRBench Pro Knowledge-Centric Benchmark Professional Deep Research Agents Local Knowledge Trees From Wikipedia Sampled Subgraphs Generate Research Queries Evidence-Grounded Rubrics One Relation Per Rubric Breadth Across Research Directions Depth Along Knowledge Chains Geometric Mean Overall Coverage 144 Cases 24 Domains 44102 Rubrics 16 Deep Research Agents Best Agent 57.04 Percent Coverage Rubric Judgments Agree With Human Annotations Rankings Stable Across Metric Configurations Project Page ZJU-REAL arXiv 2611.34852 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-drbench-pro-deep-research-coverage"
+      ]
+    },
+    {
+      "term": "Latent-in-the-Middle Security Cross-Model Latent Communication Multi-Agent Systems KV Cache Transfer Learned Mapper Target Consumes Context It Did Not Encode Chasm Framework Three Attack Surfaces Source Model Mapper Handoff Mechanism Prompt Injection Compliance 0.4 Percent Natively Up To 44.2 Percent Transferred Through Mapper Jailbreak Transfer Raises Attack Success 24.6 Points Within Model Family 69.2 Points Zero-Shot White-Box Optimization Through Mapper 92.5 Percent vs Ordinary GCG 37.5 Percent Same Target Lightweight Target-Side Cache Guard Corrects Transferred Caches Restores Refusal arXiv 2611.34278 November 2026",
+      "count": 1,
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-26-cross-model-latent-handoff-safety"
+      ]
     }
   ]
 }
