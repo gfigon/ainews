@@ -6623,6 +6623,30 @@
       "slugs": [
         "2026-11-26-monitor-eval-attack-policy-choice"
       ]
+    },
+    {
+      "term": "Anthropic Messages API Migrated From Python To Rust 70% Less CPU 20% Faster Median Time To First Token Shadow Traffic Parity Verification Match Rate 24% To 6.5% To 99.6% Claude Agents Fixing Divergences 100 Weakened Test Assertions 1800x Traffic Growth 700 Integration Tests Anthropic Research November 2026",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-anthropic-messages-api-rust-migration"
+      ]
+    },
+    {
+      "term": "Volvo Cars Trains Hexagon Robotics AEON Wheeled Humanoid In Ghent Imitation Learning Mixed Reality Headset Placing Components Into Two Fixtures Multi-Part Manipulation Autonomous Navigation System Integration 1.65m 60kg 2.4 m/s 10kg Payload Factory Pilot H1 2027 Production Mid-2027 November 2026",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-volvo-hexagon-aeon-humanoid-ghent"
+      ]
+    },
+    {
+      "term": "BridgeHammer DNN Backdoor Attack Via CPU-iGPU Shared-Memory Rowhammer Zero-Copy Model Weights Memory Massaging Before Weight Anchoring Rowhammering Before Inference Intel Core i7-8700 OpenVINO ResNet-20 VGG-16 ResNet-50 INT8 FP32 88.9% Attack Success Rate 86.3% Clean Accuracy Northeastern University DATE 2027 arXiv 2611.34684 November 2026",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-bridgehammer-cpu-igpu-rowhammer-backdoor"
+      ]
     }
   ]
 }
