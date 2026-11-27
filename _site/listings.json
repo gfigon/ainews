@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-27-volvo-hexagon-aeon-humanoid-ghent/index.html",
+      "/posts/2026-11-27-bridgehammer-cpu-igpu-rowhammer-backdoor/index.html",
+      "/posts/2026-11-27-anthropic-messages-api-rust-migration/index.html",
       "/posts/2026-11-26-tokenisation-not-in-apx/index.html",
       "/posts/2026-11-26-monitor-eval-attack-policy-choice/index.html",
       "/posts/2026-11-26-mixture-of-loops-transformer/index.html",

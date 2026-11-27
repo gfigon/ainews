@@ -1,0 +1,22 @@
+---
+title: "BridgeHammer: Planting an AI Backdoor Through CPU-iGPU Shared Memory"
+date: "2026-11-27 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "A DATE 2027 paper shows a CPU-side Rowhammer attack that flips bits in weights still resident in shared DRAM, implanting a backdoor in models served by an integrated GPU."
+image: "/assets/post-images/2026-11-27-bridgehammer-cpu-igpu-rowhammer-backdoor.svg"
+---
+
+The safety argument for running deep learning models on integrated GPUs is that they are fast without the copy overhead of discrete cards. **BridgeHammer**, a paper from Northeastern University accepted at **DATE 2027**, shows the price of that convenience: on heterogeneous CPU-iGPU system-on-chips, the model weights live in the same physical DRAM the CPU can touch, so an attacker running on the host can corrupt them before the GPU ever computes.
+
+The attack is a **Rowhammer backdoor**. By hammering one DRAM row repeatedly, an attacker induces bit flips in an adjacent row - a hardware fault that has been known for years but previously exploited only against CPUs where the adversary and the victim model co-reside (DeepHammer, OneFlip, Don't Knock, ROBBIN). On discrete GPUs the model is copied into private VRAM and is physically out of reach, which is why earlier GPU-side Rowhammer work went through opaque graphics interfaces that never expose physical-address mappings. Integrated GPUs broke that assumption: **zero-copy** deployment lets the iGPU read weights the host loaded, so the CPU becomes the attacker's home turf.
+
+What makes the attack non-trivial is timing. A backdoor needs *specific* weight bits flipped, and vulnerable DRAM locations may not hold those weights - so the attacker must first *massage* the OS page allocator to place the target pages where the fault pattern works, then hammer. On the CPU-iGPU deployment path those two steps must land in different windows: massaging after model compilation but **before** zero-copy weight anchoring, hammering **after** anchoring but before inference dispatch. The authors find those two breakpoints using instruction monitoring and signal-based synchronization, temporarily pausing the victim's execution to inject each function.
+
+The evaluation, on an Intel Core i7-8700 running **OpenVINO**, targets **ResNet-20, VGG-16 and ResNet-50** at **INT8 and FP32** precision. Across all six configurations the attack achieves **100% accurate target-page placement and bit-flip reproduction**, an average **88.9% attack success rate** and **86.3% clean accuracy** - a backdoor that fires on trigger-bearing inputs while leaving ordinary ones nearly untouched.
+
+The lesson for defenders is narrow but concrete: on integrated hardware, model integrity cannot be assumed from the abstraction that "the GPU runs the model". Cross-domain memory integrity protections - not just compiler flags - are the missing layer in that stack.
+
+Source: [arXiv:2611.34684 - BridgeHammer: DNN Backdoor Attack via CPU-iGPU Shared-memory Rowhammer](https://arxiv.org/abs/2611.34684)

@@ -1,0 +1,20 @@
+---
+title: "Volvo Is Teaching Hexagon's AEON Humanoid to Place Parts in Ghent"
+date: "2026-11-27 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - Agents & Automation
+summary: "Volvo Cars brought Hexagon's wheeled AEON humanoid to the Ghent plant, where imitation learning starts with one task - placing components into two fixtures - before a mid-2027 production line."
+image: "/assets/post-images/2026-11-27-volvo-hexagon-aeon-humanoid-ghent.svg"
+---
+
+Volvo Cars has brought **Hexagon Robotics' AEON** humanoid robots to its plant in **Ghent, Belgium** - the first Volvo facility to test the humanoid form factor. The announcement, made on **26 November**, is not a purchase order: the machines are being trained and validated on site alongside human operators and existing automation, with the aim of supporting repetitive, ergonomically taxing work. Volvo's stated target is **live vehicle production from mid-2027**, with a formal factory pilot planned for the first half of that year.
+
+The training method is **imitation learning**. Volvo and Hexagon engineers work with the robots on the floor, demonstrating tasks - one operator wears a mixed-reality headset and hand controller to show component placement - so the machine acquires physical skills by copying human movement rather than by hand-coded trajectories. The starting curriculum is deliberately narrow: a single high-precision benchmark, **placing components accurately into two separate fixtures**, with the robots working on an angled test rig under a safety gantry. Only once that baseline is consistent does the program widen, in three stated stages - **multi-part manipulation** of varied components at once, **autonomous navigation** across active production zones, and **system integration** where the robots talk to the plant's existing automated machinery.
+
+The hardware explains why a carmaker would try. AEON is **1.65 metres** tall and weighs **60 kilograms**, with an anthropomorphic upper body on articulated legs that terminate in **motorized wheels rather than feet**. It moves at up to **2.4 metres per second** over smooth factory floors and carries up to **10 kilograms**. The wheeled-leg design trades dynamic bipedal stepping for rolling efficiency while keeping human-scale reach at workstations built for people - and, critically, it fits into a plant that was not designed for it. As Volvo's Chief Manufacturing Officer Magnus Nilsson puts it, the humanoid design means it can fit into production as it is today, alongside existing teams and automation.
+
+The context matters more than the spec sheet. Volvo joins BMW and Renault among European carmakers betting on humanoids, and the honest caveat is that no one has yet shown what a humanoid costs per shift versus the fixed automation it would replace. Ghent is a test of that arithmetic, starting from a task - part placement into fixtures - that is precisely the kind of repetitive handling where humanoids are supposed to earn their keep.
+
+Sources: [Volvo Cars press release](https://www.volvocars.com/intl/media/press-releases/CC9EB8A9723DD536/), [Humanoids Daily](https://www.humanoidsdaily.com/news/volvo-cars-begins-training-hexagon-s-aeon-humanoids-at-ghent-plant-ahead-of-2027-production-target)
