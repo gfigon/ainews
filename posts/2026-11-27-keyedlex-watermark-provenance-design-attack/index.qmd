@@ -1,0 +1,22 @@
+---
+title: "Publishing How Your Watermark Works Tells Attackers Which Attack to Use"
+date: "2026-11-27 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A study of LLM text watermarks argues from Kerckhoffs's principle: since Google, Anthropic and OpenAI explain how their watermarks work, an attacker can read the design and pick the failing axis - and every existing watermark they test breaks on one of them."
+image: "/assets/post-images/2026-11-27-keyedlex-watermark-provenance-design-attack.svg"
+---
+
+Watermarking is the current answer to the provenance problem. A provider hides a faint statistical signal in the text its model writes, so it can later recognise the text as its own - provenance that underpins academic integrity, the fight against misinformation and EU AI Act obligations. Google, Anthropic and OpenAI all watermark output this way, and all three have published **how their watermarks work**. A team at IKERLAN (BRTA) and UNED in Spain points out what that disclosure gives away.
+
+A watermark can fail on two axes, and the paper keeps them separate. **Erasure**: someone paraphrases the text so the signal-bearing tokens get replaced - this is the "pass it off as human" attack. **Forgery**: someone learns the signal and stamps it onto text the model never wrote - and this one is the more damaging, because it converts a watermark into false evidence against a provider or a person. Prior work studied each attack separately, always optimising for one. This attacker reads the published design first and then chooses: it erases the watermarks that are hard to learn, and forges the ones that survive rewording. Judged on its weaker axis, **every existing watermark the team compares fails**. The provider family, whose key comes from the last few tokens, resists forgery but is mostly erased by a paraphrase; the stable-key schemes survive paraphrasing and are forged most of the time.
+
+The proposed fix, **KeyedLex**, makes three choices. It reads its secret key from the grammar of the previous sentence, which rewording alters far less often than it alters words. It changes the key once per sentence rather than every few tokens. And its detector tries every candidate list instead of needing to recover the key exactly, so an edit that shifts the key does not erase the mark. Measured on OPT-1.3B and Mistral-7B against MarkLLM baselines including SynthID, KGW, Unigram, SIR and SemStamp, KeyedLex is forged 0.22-0.30 of the time where stable-key schemes are forged 0.76-1.00, and keeps 0.62 of its signal under the DIPPER paraphraser where SynthID keeps 0.43. It costs about 7% extra generation time (SynthID 24%, SIR 3x), and detection takes 18 ms. Even an attacker handed the true lists passes only about half the time.
+
+The scope is honest about itself: English text, two generators, and SynthID as released, since the Anthropic and OpenAI deployments are not public. The authors' broader recommendation is a design rule rather than a product - publish the watermark, keep only the lists secret, read text sentence by sentence so it cannot be learned by counting, and derive the key from grammar.
+
+That is Kerckhoffs's principle applied to a field that has been shipping without it. Watermarks are treated as security mechanisms, yet their designs are published while their keys are secret - and for this particular family of attacks, that inversion is the vulnerability.
+
+Source: [arXiv: Know the Design, Pick the Attack (2611.34505)](https://arxiv.org/abs/2611.34505)

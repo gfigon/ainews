@@ -6663,6 +6663,22 @@
       "slugs": [
         "2026-11-27-cuga-indic-voice-agent-multilingual-retrieval"
       ]
+    },
+    {
+      "term": "Solve Vision with Code Coding Agents Stronger Visual Reasoners Than Video Models VBVR-Pro-Bench 500 Instances 100 Task Families Codex gpt-6-astra 0.923 Claude Code Fable 5.1 0.894 Gemini CLI Gemini 3.1 Pro 0.893 VBVR-Pro-Wan2.2-I2V-A14B RL 0.670 GLM-5 0.572 Kimi K2.5 0.557 Depictive Propositional Programs 1385 arXiv 2611.34813 November 2026",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-coding-agents-visual-reasoning-video-models"
+      ]
+    },
+    {
+      "term": "Know the Design Pick the Attack Sentence-Keyed Watermarks for LLMs KeyedLex Kerckhoffs Erasure Forgery Attacks SynthID DiPmark KGW Unigram SIR SemStamp MarkLLM OPT-1.3B Mistral-7B DIPPER Paraphraser 7% Generation Overhead 18 ms Detection IKERLAN UNED arXiv 2611.34505 November 2026",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-keyedlex-watermark-provenance-design-attack"
+      ]
     }
   ]
 }

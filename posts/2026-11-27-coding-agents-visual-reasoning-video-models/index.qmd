@@ -1,0 +1,24 @@
+---
+title: "Coding Agents Beat Every Video Model at Visual Reasoning. The Medium Was the Problem."
+date: "2026-11-27 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "On the same 500-instance VBVR-Pro benchmark, three coding agents scored 0.923, 0.894 and 0.893 while the best video generation model reached 0.670, suggesting that program synthesis, not pixel denoising, is currently the more reliable route to visual reasoning."
+image: "/assets/post-images/2026-11-27-coding-agents-visual-reasoning-video-models.svg"
+---
+
+Video generation models are increasingly marketed as **visual reasoners**. Give the model a first frame and a prompt, and it is supposed to produce the video in which the described task gets carried out - reasoning that unfolds natively in pixels, no text, no code. A paper from Nanyang Technological University, USC, UC San Diego, CMU, Johns Hopkins, CUHK, UCL and Berkeley tests that claim against the obvious alternative and finds it wanting.
+
+The authors run the **same 500 tasks** from VBVR-Pro-Bench (100 task families, five instances each, scored across abstraction, perception, spatiality, transformation and knowledge) with the same inputs, the same output specification and the same unmodified rule-based evaluator - but they change only the medium of the answer. Instead of denoising pixels, a **coding agent writes a program that renders the answer video**. Agents get the first frame and prompt, no ground truth, no task metadata, no access to any image or video generation model, a CPU sandbox with standard Python imaging libraries, a 30-minute budget and one attempt per instance.
+
+The result is not close. Codex with gpt-6-astra scores **0.923**, Claude Code with Fable 5.1 **0.894**, Gemini CLI with Gemini 3.1 Pro **0.893**, each more than 0.22 above the strongest video model on the published leaderboard, VBVR-Pro-Wan2.2-I2V-A14B (RL) at **0.670**. All three agents delivered a video on all 500 instances. Among 23 open-weight models run through the OpenCode harness, GLM-5 leads with 0.572 - above every video model except the RL-trained one - followed by Kimi K2.5 at 0.557. The agents lead in all five categories; the margin is smallest on transformation (0.908 vs 0.840) and largest on perception (0.942 vs 0.488).
+
+The paper is careful about its own result. Perception tasks mostly require locating and measuring objects - connected-component analysis, colour filtering - operations rule-based code executes exactly, which inflates the apparent advantage. Transformation over time, by contrast, may be a capacity video models absorb more naturally from video data. Video-model scores were taken from the published leaderboard, not rerun.
+
+The more interesting finding is behavioural. The authors classified **1,385 solve programs** into *depictive* ones, which navigate the pixel array to recover a transferable scheme, and *propositional* ones, which hard-code values and only render the conclusion - assigned behaviourally, by re-running each program on a different instance of the same family. The argument that follows is about the nature of reasoning itself: for tasks whose answers are computable from a frame and a prompt, program synthesis is simply the more reliable medium.
+
+The efficiency data is the quiet twist. Tool-call count predicts score only weakly (Spearman rho 0.93 across models, driven by delivery failure), and the three closed agents finish within 0.030 of each other while Claude Code uses roughly 3x the tool calls and 4x the input tokens of Codex, and Gemini CLI about 8x and 12x. Comparable performance spans nearly an order of magnitude in cost.
+
+Source: [arXiv: Solve Vision with Code (2611.34813)](https://arxiv.org/abs/2611.34813)
