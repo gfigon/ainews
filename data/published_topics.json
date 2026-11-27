@@ -6647,6 +6647,22 @@
       "slugs": [
         "2026-11-27-bridgehammer-cpu-igpu-rowhammer-backdoor"
       ]
+    },
+    {
+      "term": "Ai2 Responsible AI Agents Survey 17 Scientists Interviews Five Dimensions Of Scientific Trust Validation Privacy Objectivity Accountability Transparency Participatory Benchmark Reproducibility File Access Scope Scientific Judgment Research Discipline-Defined Evaluation Co-Design",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-ai2-scientists-draw-line-ai-agents"
+      ]
+    },
+    {
+      "term": "IBM Research CUGA Indic Voice Agent Farm Assistant Multilingual Cross-Lingual Retrieval intfloat multilingual-e5-large English-Only Embedding Silent Wrong Passage Failure 154-Page Agricultural Handbook Two To Four Spoken Sentences Source Pages Sarvam AI SraVaani Svara Open Source Apache 2.0 Harness",
+      "count": 1,
+      "last_published": "2026-11-27",
+      "slugs": [
+        "2026-11-27-cuga-indic-voice-agent-multilingual-retrieval"
+      ]
     }
   ]
 }
