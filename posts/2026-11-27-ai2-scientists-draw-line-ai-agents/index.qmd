@@ -1,0 +1,24 @@
+---
+title: "Ai2 Asked 17 Scientists Where AI Agents Should Stop. The Answer Was About Trust, Not Capability."
+date: "2026-11-27 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Ai2 interviewed 17 scientists about delegating research to AI agents and found five recurring trust dimensions, a call for participatory benchmarks, and no universal list of acceptable tasks."
+image: "/assets/post-images/2026-11-27-ai2-scientists-draw-line-ai-agents.svg"
+---
+
+The safety conversation about AI in science has been dominated by catastrophic-risk framing: the model that helps design a pathogen, the agent that helps build a weapon. The **Ai2** team took a different route and asked a more mundane question: when a working scientist hands part of their research to an AI agent, where do they want the line drawn? The answers come from **interviews with 17 scientists** across natural, applied and social sciences, published as a tech report alongside a blog post.
+
+The headline finding is a **five-dimensional model of scientific trust**: validation, privacy, objectivity, accountability and transparency. Each maps to a failure mode researchers described concretely. A literature-review agent that cites papers which never said what it claims. A data-analysis agent that quietly touched files outside the authorised scope. A coding agent that returns working code with no record of what it read. Trust, in this framing, is not about whether the answer is right - it is about whether the answer can be inspected, reproduced and defended.
+
+Two further findings matter for anyone building research agents. First, scientists want to **co-design the evaluation**: benchmark tasks where an agent must surface contradictory evidence, stay inside file authorisation boundaries, or be compared against established human workflows. Ai2 calls this a participatory benchmark, co-defined by the communities whose norms the agents are supposed to respect. Second, the interviews were deliberately **split on the future of the profession** - some welcomed AI-driven acceleration, others raised existential concern about human expertise, and the report treats that tension as unresolved rather than rhetorical.
+
+The most quotable moment comes from a political scientist who used Claude to revise a manuscript, then rewrote the whole paper because the boundary between their own contribution and the model's had become unclear: *"I don't know what was AI and what was me."* Another participant raised the counter-case - topic restrictions that block research on political violence or human rights are a feature, not a bug.
+
+The caveats are stated plainly: 17 US-based interviewees, exploratory rather than representative, opinions about today's tools and tomorrow's agents rather than an evaluation of any specific system. But the design priorities that fall out of it are concrete - transparent action logs, granular data controls, and benchmarks whose definitions come from scientists rather than from benchmark designers.
+
+That last point is the one to watch. If agent evaluations for science are going to be taken seriously, the definition of a trustworthy agent may have to stop being a lab's opinion and start being a discipline's.
+
+Source: [Ai2 - Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents) | [Responsible AI survey tech report](https://allenai.org/papers/responsible-ai-survey)

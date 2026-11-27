@@ -1,0 +1,24 @@
+---
+title: "IBM Built a Voice Agent for Indian Farmers. The Hard Part Wasn't the Voice."
+date: "2026-11-27 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Tools & Frameworks
+  - Agents & Automation
+summary: "IBM Research's CUGA farm assistant answers questions in Hindi, Tamil and more from a 154-page English handbook - and the real engineering was a multilingual embedding model hiding a silent retrieval failure."
+image: "/assets/post-images/2026-11-27-cuga-indic-voice-agent-multilingual-retrieval.svg"
+---
+
+Most useful knowledge is written in English. Most of the people who need it speak Hindi, Tamil, Telugu, Gujarati or Marathi - and many would rather talk than type. **IBM Research** built a small voice agent to close that gap, using **CUGA** (ConfigUrable Generalist Agent), its open-source agent harness, and published the build log on Hugging Face.
+
+The demo is a **farm assistant**. A farmer asks aloud in their own language how to tell good seed from bad. The agent transcribes the speech, searches a **154-page agricultural handbook** written in English, answers in **two to four spoken sentences** in the language of the question, and shows the source pages. Out-of-scope questions get a polite redirect rather than an invented answer.
+
+Architecturally the design is deliberately boring: CUGA is a **text-in, text-out brain**, with speech-to-text and text-to-speech as two thin layers around it. Because the agent only ever sees text, it can be built and tested in plain text first, and speech providers can be swapped without touching the agent - Sarvam AI's cloud APIs called directly from the browser, or open-source **SraVaani** and **Svara** running on your own server. Keys stay client-side; the server only ever receives text.
+
+The instructive failure was in retrieval, not speech. CUGA's default embedding model is **English-only**, so a Hindi question still retrieves five passages - the wrong ones. The model, correctly instructed to answer only from what it was given, then quietly says the handbook does not cover that. Every layer behaves correctly, so there is no exception and no warning. The fix was a multilingual embedding model (**intfloat/multilingual-e5-large**), after which one English document serves every language. The team's advice is blunt and worth repeating: before tuning a single prompt, ask your agent one question in a non-English language and check that it finds the right pages.
+
+Other small decisions carried more weight than expected: prompts that forbid Markdown, bullets and bracketed translations because they sound wrong read aloud; a cheap keyword-style off-topic check that returns **OFF_TOPIC** so the app can redirect without a second LLM call; and grounding every answer strictly in retrieved passages with visible page references.
+
+The pattern generalises past agriculture - swap the handbook for scheme documents, health advisories or legal guides and the architecture is unchanged. For anyone building this in production, the lever that decides whether it works is not the voice stack and not the model. It is the embedding model, and the failure mode is silence, not an error.
+
+Source: [IBM Research - An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga) | [CUGA on GitHub (Apache 2.0)](https://github.com/cuga-project/cuga-agent)
