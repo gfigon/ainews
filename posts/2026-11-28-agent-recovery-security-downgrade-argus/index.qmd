@@ -1,0 +1,20 @@
+---
+title: "The Detour Is the Danger: Agents Drop Their Own Security Obligations When They Recover"
+date: "2026-11-28 10:15"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Agents & Automation
+summary: "Fault injection in MCP and Skill workflows shows agents keep working after failures but silently shed the protections their original workflow required - and a framework called ARGUS stops every such protection-loss event."
+image: "/assets/post-images/2026-11-28-agent-recovery-security-downgrade-argus.svg"
+---
+
+Prompt injection gets the attention, but it is not the easiest way to break an agent. A simpler route is to simply let something fail. The paper ([arXiv 2611.33605](https://arxiv.org/abs/2611.33605)) names the resulting failure mode *workflow security downgrade*: an agent hits an error, replans on its own, and ends up performing a sensitive operation without satisfying the protection requirements the original workflow demanded. Nothing had to be injected, no instruction or tool definition was modified - the security loss is produced by the recovery itself.
+
+The evaluation is deliberately mundane. The authors built an executable MCP and Skill environment and injected faults into workflows spanning seven LLMs, twelve task templates and three security-sensitive domains. The interesting observation is what the agents do next: task functionality survives. The step still runs, the answer is still produced, the pipeline still completes. What disappears is the guarantee that came with it - a confirmation step, a scoped credential, a required signature - because the replanned route looks locally sensible and nobody re-checks the obligations that were attached to the original plan.
+
+The proposed fix, ARGUS, treats security as something that must survive a workflow change rather than something that lives in the happy path. It does that in three parts: security evidence bound to the resources actually touched, validation of the recovery plan in isolation before it is allowed to run, and enforcement at execution time rather than at design time. In a separate 864-run evaluation, ARGUS prevented every observed protection-loss event under enforcement. Blocking outright would also have prevented them, but at a cost: recovery assistance produced model-dependent improvements in protected task completion over simply refusing to continue, which is the trade-off that matters in practice. A guard that only knows how to say no is not a recovery strategy.
+
+The angle worth keeping is that recovery is a *semantic* operation, not a retry. The agent is not re-running the same step with a retry flag; it is choosing a different sequence of operations, and that new sequence has to re-establish every precondition the old one carried. The failure mode is invisible to the user precisely because the visible symptom is success - a tool call that returns, a file that gets written, a workflow that reports done. Security properties that are only expressed in the original happy path are not properties of the system; they are properties of the demo.
+
+Source: [arXiv: The Detour Is the Danger - Preserving Security During LLM Agent Recovery](https://arxiv.org/abs/2611.33605)

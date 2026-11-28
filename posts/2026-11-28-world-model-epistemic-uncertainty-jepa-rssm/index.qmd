@@ -1,0 +1,20 @@
+---
+title: "Not All World Models Can Doubt: How the Training Objective Decides What Your Uncertainty Signal Sees"
+date: "2026-11-28 10:15"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - Agents & Automation
+summary: "A controlled comparison of JEPA and recurrent state-space world models shows the RSSM's own reconstruction objective hides small state changes before the uncertainty estimator ever sees them."
+image: "/assets/post-images/2026-11-28-world-model-epistemic-uncertainty-jepa-rssm.svg"
+---
+
+A world model is supposed to let an agent try actions out in imagination before committing to them in the real world. What limits that trick is epistemic uncertainty - the signal marking the edge of what the model has actually experienced. The paper ([arXiv 2611.34830](https://arxiv.org/abs/2611.34830)) asks a narrow, uncomfortable question: does that signal actually reach you intact? It compares two dominant paradigms, LeWorldModel (a JEPA-style joint-embedding predictor with no decoder) and DreamerV3 (a recurrent state-space model that reconstructs observations from a recurrent latent state), using post-hoc uncertainty estimators - last-layer Laplace and ensembles - across ten simulated visual-control environments.
+
+The method is what makes the result convincing. Instead of asking whether an uncertainty score is well calibrated, the authors perturb the environment state in a controlled way and trace that single change through every stage of the model, from the raw pixels all the way to the final uncertainty estimate. In the RSSM, the perturbation gets attenuated twice on the way. The recurrent update averages over context, so a change visible in a single frame reaches the latent state at only a fraction of its original size and recovers only if the change persists. And the reconstruction objective weights an entity by the number of pixels it covers, so a small object can simply be dropped by the loss function - not because the model failed to see it, but because seeing it was never valuable.
+
+The JEPA has neither mechanism. With no decoder to reconstruct pixels and no averaging recurrence, the change passes through every stage and reaches the uncertainty estimator intact. That difference shows up downstream across five uncertainty-related tasks, from unfamiliar-state detection to uncertainty-penalised planning. The sharpest formulation from the paper: the RSSM's uncertainty misses deviations that its own posterior has already registered, whereas the JEPA's uncertainty reports what its model actually sees. Both models are wrong, but only one of them is wrong in a way the safety layer cannot detect.
+
+The practical reading is about where uncertainty has to live. Bolting an ensemble on top of a world model does not repair a latent state that was trained to ignore small objects and average away single-frame evidence - the estimator inherits whatever the encoder decided was worth keeping. If you want an agent to notice unfamiliar states, the representation has to carry that information first, and the training objective is what decides whether it survives.
+
+Source: [arXiv: Not all world models can doubt - how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models](https://arxiv.org/abs/2611.34830)
