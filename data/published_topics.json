@@ -6703,6 +6703,20 @@
       "slugs": [
         "2026-11-28-edpb-anonymisation-reidentification-test-validation"
       ]
+    },
+    {
+      "term": "FlashProve-Next Verifiable Inference Production LLM APIs Zero-Knowledge Masked Proofs Native Floating Point Serving bf16 fp8 mxfp4 FlashAttention CUDA Graphs Prefix Caching Non-Depleting Reed-Solomon Weight Commitment Hidden Column Openings Local Per-Operator Rounding Contracts Cost-Weighted Spot Checking Fiat-Shamir NI-315 ExtSeed-153 Lean 4 28 Modules 696 Declarations Blackwell Calibration Zero False Rejections Qwen3-0.6B Qwen3-4B Qwen3-30B-A3B-FP8 vLLM Rust fpn-verify",
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-28-flashprove-zk-verifiable-llm-api"
+      ]
+    },
+    {
+      "term": "Memory Is Not Ground Truth Revising Navigation Authority Under Unreliable VLM Evidence Persistent Semantic Navigation Boston Dynamics Spot Four Fixed Cameras Persistent Spatio-Temporal Visual Memory Negative Verification False-Negative Rates Correlated Misses Repeated Revisits Target-Present Target-Removed Matched Identical Miss Histories Changed Observation Geometry Identity-Preserving Query Reformulation Dependence-Aware Reversible Memory Update No Double Counting Unsupported Memory Demoted Without Claiming Absence",
+      "last_published": "November 2026",
+      "slugs": [
+        "2026-11-28-vlm-memory-ground-truth-navigation"
+      ]
     }
   ]
 }
