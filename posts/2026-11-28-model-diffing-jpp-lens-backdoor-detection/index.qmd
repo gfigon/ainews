@@ -1,0 +1,24 @@
+---
+title: "Auditing a Fine-Tune Is a Measurement Problem, Not a Detection Problem"
+date: "2026-11-28 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - Research & Innovation
+summary: "A study from Western University and Vanderbilt puts weight-, activation- and output-based model diffing into one framework, finds that weight differences decoded through a Jacobian lens find backdoors that output-based methods miss - and shows that comparing a fine-tune only against its base model produces false positives."
+image: "/assets/post-images/2026-11-28-model-diffing-jpp-lens-backdoor-detection.svg"
+---
+
+Open-weight models get adapted by strangers and uploaded to hubs, so the fine-tune - not the base model - is where the audit has to happen. If the base model is public, the auditor can ask a narrow, well-posed question: **what did this fine-tune change?** That question has a name - model diffing - and three established answers, each published separately, each tested on different organisms with different metrics, so their numbers have never been comparable. A team at Western University and Vanderbilt (Maximilian Petrowitsch, Ben Connors, Krzysztof Kapulkin) finally put them on one bench.
+
+The unification is simple. Each method reduces to a difference between suspect and reference, a few directions extracted per layer in hidden space, and those directions decoded into a ranked list of vocabulary tokens - a **token readout**. The score is where the backdoor's target word lands. The families differ only in where the difference comes from: **Watch the Weights** takes weight differences and their top singular vectors, **ADL** differences the two models' activations on generic text, **Diff Mining** compares output probabilities directly. All five backdoors were built from Qwen3.5-4B, by LoRA and full fine-tuning, and scored identically.
+
+The technical improvement is a better decoder. The logit lens assumes the residual stream uses the output basis all the way down; the **J-lens** instead describes an activation by its first-order causal effect on the output, and the **J++-lens** estimates that Jacobian with less noise by averaging over clusters of similar activations. Decoding the weight difference through the base model's J++-lens - **ΔW J++** - ranks the backdoor word in the top ten tokens in 11 of 12 settings, and is best or tied-best in 10. The J-lens alone improves the rank *within* a layer but rarely across layers, because it lifts the same unrelated tokens everywhere.
+
+The interesting part is the symmetry of failure. Any backdoor can be trained to leave **no trace on clean inputs**, by penalising the fine-tune for deviating from the base model when the trigger is absent. Diff Mining and ADL find a backdoor only through that trace, so they collapse; the weight-based methods barely notice. Symmetrically, permuting hidden units, or training only the layers that read the residual stream, hides the backdoor from the weight methods while ADL and Diff Mining still see it. **No single method survives both attacks.**
+
+The sharpest contribution is methodological. For every backdoor the authors train a **control**: the same prompts, the same trigger, but normal answers - a fine-tune that learns to read the trigger without carrying a backdoor. Against the base model alone, two results that looked like detections evaporate: the refusal words of the LoRA backdoor, and the trigger ranking of ΔW_r. Comparing against the base cannot distinguish "learned the trigger" from "learned the behaviour".
+
+The authors are careful not to claim a detector, and the score even needs a target word chosen in advance, which a real auditor does not have. What they offer is a bench: comparable readouts, saved in full, so an auditor can read them, group them, or hand them to a model - and a control that keeps the audit honest.
+
+Source: [arXiv: Reading Fine-Tuning Diffs Through Lenses (2611.34758)](https://arxiv.org/abs/2611.34758)

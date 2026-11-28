@@ -1,0 +1,24 @@
+---
+title: "The Video Model Was the Easy Part: Running LTX-2.5 on AWS Trainium3"
+date: "2026-11-28 08:00"
+author: "AI News Editorial"
+categories:
+  - AI Infrastructure
+  - AI Tools & Frameworks
+summary: "A month-long AWS Trainium3 experiment ended with an open video-and-sound model beating the vendor's own hosted API on half a machine - but the interesting engineering was entirely in the host, the compiler and the tensor-parallel plan that diffusers did not have."
+image: "/assets/post-images/2026-11-28-trainium3-ltx-25-video-generation.svg"
+---
+
+AWS handed a Hugging Face engineer a `trn3.48xlarge` - 64 NeuronCores - for a month. Most of it went on porting models to the chip. With five days left, he picked **LTX-2.5**, the open model from Lightricks that generates video and sound together, and asked whether it could run through `diffusers` on Trainium3 and come close to CUDA.
+
+Out of the box, no. The transformer does not fit on a single NeuronCore and `diffusers` has no tensor-parallel plan for it. The first working attempt - the model-card pipeline, transformer split over four cores with a few patches - took **5 minutes 20 seconds** for a ten-second clip at 960x544, of which the NeuronCores were actually computing for only **45 seconds**. Five days later: **22 to 23 seconds** for a ten-second clip at 2048x1024, roughly four times the pixels, using 32 of the 64 cores - 15 seconds of that on the cores themselves, a 14x improvement in on-device time.
+
+For context, LTX claims 6.8 seconds for a ten-second 720p clip on four B200 GPUs, and its own hosted API takes 23.7 seconds for a ten-second 1080p clip. The Trainium3 setup matches the hosted API and edges past it by about a second, on half the machine.
+
+The recipe has three parts. Tensor parallelism (weights split four ways, one band of every layer per core) and sequence parallelism (video tokens split eight ways, one stretch of the clip per chip) get the transformer onto the hardware at all; without the second, the block graph simply fails to load at 2048x1024. But the largest end-to-end savings came from the **host**, not the chip. Running the pipeline on rank 0 only cut prompt encoding from 205 seconds to 7.5; decoding video on the cores instead of the CPU cut 357 seconds to 1.6; packing parameters into buffers of at most 1 GiB dropped memory per core from 22.96 GiB to 10.2; compiling one block with `compile_repeated_blocks` cut tracing from 388 seconds to 18; computing GELUs in fp32 rather than bf16 halved the transformer error against a reference.
+
+Two details generalise beyond this model. `torch-neuronx` runs plain ops rather than fused attention unless the sequence length is a multiple of 128 tokens - so generating at 1024x512 with two logical cores per device took the transformer step from 4.3 seconds to 3.0. And a shot that starts from frames has a timestep per video token, which breaks the block graph until you embed only two timesteps and pick one per token, after which frame-conditioned shots cost the same as prompt-conditioned ones.
+
+The film's structure was the least technical part and possibly the most interesting: a JSON storyboard of shots chained by `from` and `to` keys, roughly 160 lines of Python on top of three `diffusers` pipelines, using the two-stage distilled recipe of eight steps, then a 2x latent upsample, then three more. The lesson for anyone porting to non-NVIDIA silicon is not that the chip is fast enough - it is that the tooling gap sits in the host and compiler layers, and each leak there costs more than the accelerator saves.
+
+Source: [Hugging Face Blog: Taking Trainium3 to the Track](https://huggingface.co/blog/video-trainium3)

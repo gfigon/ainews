@@ -1,0 +1,24 @@
+---
+title: "A Failed Re-identification Test Says Nothing About the Data - Only About the Test"
+date: "2026-11-28 08:00"
+author: "AI News Editorial"
+categories:
+  - Industry News
+  - AI Security & Policy
+summary: "RISE Research Institutes of Sweden argues that the EDPB's 2026 anonymisation guidelines bring AI models into scope and demand re-identification testing without saying how such a test should be designed, validated, or how far its result counts as evidence - and proposes treating those tests as measurement methods."
+image: "/assets/post-images/2026-11-28-edpb-anonymisation-reidentification-test-validation.svg"
+---
+
+The European Data Protection Board published **Guidelines 02/2026 on anonymisation** for public consultation on 7 July 2026. The document brings AI models explicitly into scope: a trained model is treated as data aggregated from training records, from which inferences about individuals can be drawn by prompting or querying it. The guidelines ask for documentation of the anonymisation process, including testing, and describe a test for whether an inference relies on an individual's data. What they do not say is how such a test should be designed, what its result shows, how its uncertainty should be reported, or how the test method itself should be validated.
+
+That gap is the subject of a paper from **RISE Research Institutes of Sweden** (Henrik Forsgren, Erik Ylipää, Aslak Felin, Michael Popoff, Susanne Stenberg), an extended version of their reply to the consultation. Their claim is precise: **a failed re-identification attempt may mean only that the test was too weak**. A successful attack is evidence of leakage; a failed one is evidence about the attack, not about the data. The paper's call follows directly from that asymmetry - re-identification tests should be validated as measurement methods, with a stated detection limit, bias and uncertainty, the way other regulated fields validate the instruments their decisions rest on.
+
+The framework offers common ground for lawyers and engineers. Anonymity is assessed relative to an entity's reasonably likely means, under either a **contextual** approach (assess each entity's means individually) or a **simplified** one (ignore differences between entities, overestimating risk to stay safe in cases of doubt), and against three criteria: no record isolation, no linkage, and **no inference** - the one that matters for models and aggregate outputs, since a trained model can retain enough detail of individual records to support an inference about them.
+
+The setting is a secure processing environment whose outputs are reviewed before release - an **airlock**. Inside it, who has access and with what means is known, so the contextual approach applies. An output that passes review is released; if it goes to a known recipient under comparable controls, the assessment stays contextual; if it is published, any entity may obtain it and the simplified approach applies. Releases take several forms - records, aggregates, model weights, access to a model through queries - and they differ in what remains under the provider's control afterwards. Evidence comes in three kinds: **formal** (a mathematical bound, as differential privacy gives), **empirical** (attack-based tests) and **indirect** (documentation of how the model was built).
+
+Seven open questions, each with a scenario, are then examined in three technical settings: releasing model weights, reviewing at an airlock, and regulatory sandboxes where an authority supervises development and testing. In each, the answer depends on how far the test result can be relied upon.
+
+For model providers the practical stakes are immediate. Opinion 28/2024 already holds that a model trained on personal data can be anonymous only if the likelihood of extracting personal data from it is insignificant for any data subject - and that testing successfully against known attacks is evidence only for resistance to those attacks. Publishing a weight release without saying what the test can and cannot support turns an unresolved question into a false assurance.
+
+Source: [arXiv: Model Weights, Airlocks and Sandboxes (2611.34859)](https://arxiv.org/abs/2611.34859)

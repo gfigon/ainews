@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-11-28-edpb-anonymisation-reidentification-test-validation/index.html",
+      "/posts/2026-11-28-trainium3-ltx-25-video-generation/index.html",
+      "/posts/2026-11-28-model-diffing-jpp-lens-backdoor-detection/index.html",
       "/posts/2026-11-27-coding-agents-visual-reasoning-video-models/index.html",
       "/posts/2026-11-27-keyedlex-watermark-provenance-design-attack/index.html",
       "/posts/2026-11-27-ai2-scientists-draw-line-ai-agents/index.html",
