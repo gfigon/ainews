@@ -6679,6 +6679,30 @@
       "slugs": [
         "2026-11-27-keyedlex-watermark-provenance-design-attack"
       ]
+    },
+    {
+      "term": "Model Diffing For Backdoor Detection Common Scoring Token Readouts Weight Activation Output Methods Watch the Weights ADL Diff Mining J-lens J++-lens Delta W J++ Qwen3.5-4B LoRA Full Fine-Tuning Top Ten Token Rank 11 of 12 Settings Clean Input Trace Penalty Hidden Unit Permutation Control Models Western University Vanderbilt arXiv 2611.34758 November 2026",
+      "count": 1,
+      "last_published": "2026-11-28",
+      "slugs": [
+        "2026-11-28-model-diffing-jpp-lens-backdoor-detection"
+      ]
+    },
+    {
+      "term": "LTX-2.5 Video And Sound Generation On AWS Trainium3 trn3.48xlarge 64 NeuronCores diffusers Tensor Parallelism Sequence Parallelism TP-4 SP-8 5 min 20 s To 22-23 s 10-Second Clip 2048x1024 32 Cores Host Bottleneck Prompt Encoding 205 s To 7.5 s Video Decode 357 s To 1.6 s bf16 GELU fp32 compile_repeated_blocks Tracing 388 s To 18 s Shot Chaining JSON Storyboard Hugging Face Blog November 2026",
+      "count": 1,
+      "last_published": "2026-11-28",
+      "slugs": [
+        "2026-11-28-trainium3-ltx-25-video-generation"
+      ]
+    },
+    {
+      "term": "EDPB Guidelines 02/2026 Anonymisation AI Models In Scope Re-identification Test Validation Secure Processing Environment Airlock No Inference No Linkage Membership Inference Differential Privacy Contextual Simplified Approach Regulatory Sandbox Detection Limit Bias Uncertainty RISE Research Institutes of Sweden arXiv 2611.34859 November 2026",
+      "count": 1,
+      "last_published": "2026-11-28",
+      "slugs": [
+        "2026-11-28-edpb-anonymisation-reidentification-test-validation"
+      ]
     }
   ]
 }
