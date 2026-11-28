@@ -1,0 +1,22 @@
+---
+title: "Proving the API Didn't Lie: Zero-Knowledge Verification for Closed-Weight LLMs"
+date: "2026-11-28 08:45"
+author: "AI News Editorial"
+categories:
+  - AI Security & Policy
+  - AI Infrastructure
+summary: "A solo author claims cryptographic proof that a closed-weight API really ran the model it advertises - without revealing the weights, the hidden prompt or the chain of thought, and without touching native floating-point serving."
+image: "/assets/post-images/2026-11-28-flashprove-zk-verifiable-llm-api.svg"
+---
+
+Every closed-weight API sells a promise the client cannot check: that the named model ran, at the advertised precision, with the full context window and the reasoning budget you paid for. A provider can quietly serve a distilled sibling, an fp8 copy of a bf16 checkpoint, a truncated context or a cached answer to a similar earlier request, and nothing in the visible text gives it away at low substitution rates.
+
+**FlashProve-Next** ([arXiv 2611.33741](https://arxiv.org/abs/2611.33741)) proposes a proof for exactly that claim. The interesting part is what it refuses to do. It does not require a TEE (which ties the protocol to specific confidential-computing GPUs and still trusts the vendor's firmware), and it does not re-execute the model (which requires weights, plaintext context and the sampling seed - none of which a client of a closed API has). Instead it produces a zero-knowledge-masked proof that the provider holds a computation trace consistent with a published `model_id`, without disclosing weights, hidden system prompts, hidden chain of thought or activations. Native serving is untouched: bf16, fp8 and mxfp4, random sampling, FlashAttention, CUDA graphs, batching and prefix caching all keep running as they are; lightweight read-only hooks record boundary tensors and a background prover checks only a cost-weighted random sample of computation blocks.
+
+The machinery underneath is unusually well evidenced. Twenty-eight Lean 4 modules (696 declarations, zero `sorry`) mechanize round-by-round soundness, bucketed sampling and the constrained-mask binding. A five-model Blackwell calibration produced zero false rejections across 1.85 million GEMM/MoE blocks and 1.96 million non-GEMM rows. Qwen3-0.6B is proven in 450.2 seconds on GPU and verified in 10.76 seconds on CPU; on a live vLLM Qwen3-30B-A3B-FP8 deployment, proof takes 1.49 seconds and Rust verification 23.4 milliseconds, with the capture adding about -1.15% to single-stream latency.
+
+Caveats matter here. The paper is single-authored work by an independent researcher, and the guarantees rest on an arithmetized random-oracle heuristic - quantum random-oracle security is explicitly not claimed. Full-reply proving for 30B+ MoE still leans on deterrence (`p_audit = 1%`) rather than a complete proof, dense profiles leak coarse architecture geometry, and cross-architecture hiding is deferred.
+
+Still, the direction matters: it moves the question from "trust the chip" to "spot-check the trace". A downgraded model can no longer hide forever in a large population of queries - and the client learns nothing about what the provider is keeping secret.
+
+Source: [arXiv: FlashProve-Next - Verifiable Inference for Production LLM APIs](https://arxiv.org/abs/2611.33741)

@@ -1,0 +1,20 @@
+---
+title: "Memory Is Not Ground Truth: Why Robots Should Stop Trusting Their Own Visual Memories"
+date: "2026-11-28 08:45"
+author: "AI News Editorial"
+categories:
+  - Research & Innovation
+  - LLMs & Models
+summary: "On a real Spot robot, repeated VLM misses turned out to be correlated rather than independent evidence - so a second visit to the same spot could learn less than the first one did."
+image: "/assets/post-images/2026-11-28-vlm-memory-ground-truth-navigation.svg"
+---
+
+Persistent memory is the obvious win for a field robot: if you already checked whether the toolbox was on the second shelf, do not spend another two minutes looking. The question the paper ([arXiv 2611.34915](https://arxiv.org/abs/2611.34915)) asks is when that memory should keep steering behaviour - and the answer is less comfortable than expected.
+
+The experiments run on a Boston Dynamics Spot with four fixed cameras and a persistent spatio-temporal visual memory, measuring *negative verification*: the VLM is asked whether a task-relevant object is present, and the interesting case is when it says no. False-negative rates vary substantially across objects. More damaging, nearby revisits often reproduce the same detector outcome - so two misses in the same place are not two independent pieces of evidence, they are one piece of evidence observed twice. In matched trials where the object was present in one condition and removed in the other, the miss histories came out identical. The ambiguity survives changed observation geometry, identity-preserving reformulation of the query, and even conditioning on a previously verified image of the same object.
+
+That splits the problem into two questions that are usually collapsed into one: *is the object still there?* and *is this memory still useful for navigation?* A robot that treats a failed re-check as proof of absence will delete a memory on the strength of a detector that was wrong once and is now confidently wrong again, and every subsequent visit inherits the downgraded belief. The proposed fix is a dependence-aware, reversible memory update: correlated misses are not double-counted, and an unsupported memory is demoted from a navigation goal without any claim being made about the object's actual absence.
+
+The broader lesson is about what memory *is* in an embodied agent. It is not a record of the world - it is a cached belief with an attached confidence, produced by a perception stack that was wrong in a way nobody measured. Once the cache can rewrite itself, every error compounds silently, and the second trip down the same corridor carries strictly less information than the first. The robots that will work outdoors will not be the ones with the largest memory; they will be the ones that can tell when a memory has stopped being evidence.
+
+Source: [arXiv: Memory Is Not Ground Truth - Revising Navigation Authority under Unreliable VLM Evidence](https://arxiv.org/abs/2611.34915)
